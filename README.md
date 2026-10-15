@@ -60,4 +60,10 @@ python scripts/insights.py [<slug>]              # reach/saves/shares per post -
 
 ## Status
 
-Nothing has been posted. Six example posts are rendered and pass preflight.
+- **2026-10-15** — first post published via Composio: `mantis-shrimp-punch` carousel,
+  media id 18077211017439635, https://www.instagram.com/p/Deg8St8FavB/ (see `log/posts.jsonl`).
+  Lessons: `share_to_feed` is rejected on a CAROUSEL container (400 Invalid parameter) —
+  only send it for Reels; a client-side network drop mid-batch left container state unknown,
+  re-issuing the child creates once was safe (unpublished containers expire in 24 h).
+- Five more example posts are rendered and pass preflight; the cadence guard now blocks
+  further publishing until ≥ 20 h after the last post (phase 1).
