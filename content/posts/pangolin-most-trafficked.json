@@ -1,0 +1,83 @@
+{
+  "slug": "pangolin-most-trafficked",
+  "slides": [
+    {
+      "type": "cover",
+      "image": "pangolin/03.jpg",
+      "focus": [0.5, 0.4],
+      "kicker": "Conservation",
+      "headline": "The most trafficked mammal on Earth is one you've never seen.",
+      "sub": "Meet the pangolin"
+    },
+    {
+      "type": "fact",
+      "image": "pangolin/01.jpg",
+      "focus": [0.5, 0.45],
+      "number": "01",
+      "headline": "The only mammal covered in scales",
+      "body": "Eight species across Africa and Asia. The scales are keratin — the same material as your fingernails — and when threatened a pangolin rolls into an armoured ball.",
+      "source": "IUCN SSC Pangolin Specialist Group"
+    },
+    {
+      "type": "stat",
+      "image": "pangolin/04.jpg",
+      "focus": [0.5, 0.4],
+      "stat": "40 cm",
+      "label": "how far a large pangolin's tongue can extend",
+      "body": "It has no teeth at all. The tongue is anchored deep in the chest, near the pelvis in some species, and is coated in sticky saliva.",
+      "source": "Animal Diversity Web"
+    },
+    {
+      "type": "fact",
+      "image": "pangolin/03.jpg",
+      "focus": [0.5, 0.5],
+      "number": "02",
+      "headline": "It eats with its stomach, not its mouth",
+      "body": "A pangolin can eat well over 100 g of ants and termites a day. With no teeth, it swallows small stones and grinds the insects in a muscular, gizzard-like stomach.",
+      "source": "Animal Diversity Web"
+    },
+    {
+      "type": "stat",
+      "image": "pangolin/01.jpg",
+      "focus": [0.5, 0.5],
+      "stat": "1 million+",
+      "label": "estimated to have been trafficked in a single decade",
+      "body": "Mostly for scales used in traditional medicine and for meat. Three species — Chinese, Sunda and Philippine — are Critically Endangered.",
+      "source": "Challender et al. (2014); IUCN Red List"
+    },
+    {
+      "type": "fact",
+      "image": "pangolin/04.jpg",
+      "focus": [0.5, 0.45],
+      "number": "03",
+      "headline": "All trade is banned. Poaching isn't over.",
+      "body": "Since 2017 all eight species sit on CITES Appendix I, which bans international commercial trade. Enforcement, not the law, is now the bottleneck.",
+      "source": "CITES Appendices"
+    },
+    {
+      "type": "closing",
+      "image": "pangolin/03.jpg",
+      "focus": [0.5, 0.4],
+      "headline": "Send this to someone who's never seen one.",
+      "body": "Awareness is the first step. Follow @claudes_plan101 for more.",
+      "sources": [
+        "IUCN Red List — Manis / Phataginus / Smutsia assessments",
+        "CITES Appendices I, II and III (2017 onward)",
+        "Challender, Harrop & MacMillan (2015) Global Ecology and Conservation",
+        "Animal Diversity Web: Pholidota"
+      ]
+    }
+  ],
+  "caption": "Pangolins are the only mammals with scales — and the most trafficked mammals on Earth.\n\nNo teeth, a tongue up to 40 cm, and a stomach that grinds ants with swallowed stones. Eight species; three are Critically Endangered, and international commercial trade in all of them has been banned under CITES Appendix I since 2017.\n\nSwipe through, then send this to someone who's never seen one.\n\nSources: IUCN Red List; CITES; Challender et al. (2015). Photos: Wikimedia Commons, CC BY-SA 4.0 (credits on each slide).",
+  "hashtags": ["#pangolin", "#wildlifetrafficking", "#endangeredspecies", "#conservation", "#mammals"],
+  "sources": ["https://www.iucnredlist.org/search?query=pangolin", "https://cites.org/eng/app/appendices.php", "https://animaldiversity.org/accounts/Pholidota/"],
+  "alt_texts": [
+    "Tree pangolin climbing a branch, headline 'The most trafficked mammal on Earth is one you've never seen'",
+    "Ground pangolin at a burrow with text about keratin scales",
+    "Tree pangolin with the statistic 40 cm tongue length",
+    "Tree pangolin on a branch with text about its gizzard-like stomach",
+    "Ground pangolin with the statistic over 1 million trafficked in a decade",
+    "Tree pangolin with text about the CITES Appendix I trade ban",
+    "Closing slide listing sources and photo credits"
+  ]
+}

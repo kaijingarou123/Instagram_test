@@ -1,0 +1,54 @@
+[
+  {
+    "title": "File:Oniria - Axolotl 04.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File%3AOniria%20-%20Axolotl%2004.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Oniria_-_Axolotl_04.jpg/3840px-Oniria_-_Axolotl_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 6000,
+    "height": 4000,
+    "license": "CC BY-SA 4.0",
+    "artist": "Tylwyth Eldar",
+    "credit": "Own work",
+    "description": "Axolotl (Ambystoma mexicanum) à Oniria, aquarium de Canet-en-Roussillon.",
+    "curated": false,
+    "file": "01.jpg"
+  },
+  {
+    "title": "File:Ambystoma mexicanum.101 - Aquarium Finisterrae.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAmbystoma%20mexicanum.101%20-%20Aquarium%20Finisterrae.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Ambystoma_mexicanum.101_-_Aquarium_Finisterrae.jpg/3840px-Ambystoma_mexicanum.101_-_Aquarium_Finisterrae.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 6000,
+    "height": 4000,
+    "license": "CC BY-SA 4.0",
+    "artist": "Fernando Losada Rodríguez",
+    "credit": "Own work",
+    "description": "Ambystoma mexicanum (axolotl) in Aquarium Finisterrae, in A Coruña, Galicia, Spain.",
+    "curated": false,
+    "file": "02.jpg"
+  },
+  {
+    "title": "File:Larva de axolote dentro del huevo aún sin eclosionar.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALarva%20de%20axolote%20dentro%20del%20huevo%20a%C3%BAn%20sin%20eclosionar.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Larva_de_axolote_dentro_del_huevo_a%C3%BAn_sin_eclosionar.jpg/3840px-Larva_de_axolote_dentro_del_huevo_a%C3%BAn_sin_eclosionar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 6000,
+    "height": 4000,
+    "license": "CC BY-SA 4.0",
+    "artist": "Brandon Antonio Segura Torres &amp; Priscilla Vieto Bonilla",
+    "credit": "Own work",
+    "description": "The image shows a larva of the axolotl Ambystoma mexicanum inside the egg, not yet hatched. Through the gelatinous envelope, the early structures of the embryo can be distinguished, such as the head, the elongated body, and the beginnings of the external gills. This stage reflects the species’ early",
+    "curated": false,
+    "file": "03.jpg"
+  },
+  {
+    "title": "File:Neurulación de huevo de axolote Ambystoma Mexicanum.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File%3ANeurulaci%C3%B3n%20de%20huevo%20de%20axolote%20Ambystoma%20Mexicanum.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Neurulaci%C3%B3n_de_huevo_de_axolote_Ambystoma_Mexicanum.jpg/3840px-Neurulaci%C3%B3n_de_huevo_de_axolote_Ambystoma_Mexicanum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 6000,
+    "height": 4000,
+    "license": "CC BY-SA 4.0",
+    "artist": "Brandon Antonio Segura Torres &amp; Priscilla Vieto Bonilla",
+    "credit": "Own work",
+    "description": "Neurulation of an axolotl (Ambystoma mexicanum) egg",
+    "curated": false,
+    "file": "04.jpg"
+  }
+]

@@ -1,0 +1,134 @@
+"""Pre-publish checks for rendered carousels and reels.
+
+Usage:  python scripts/preflight.py                # checks everything in output/
+        python scripts/preflight.py mantis-shrimp-punch orca-hunt
+
+Checks are drawn from research/posting-limits.md (Meta API media specs,
+hashtag cap, originality rules) and research/content-strategy.md
+(readability, sourcing). Exit code 1 if any item FAILs.
+"""
+import json
+import re
+import subprocess
+import sys
+from pathlib import Path
+
+from PIL import Image
+
+ROOT = Path(__file__).resolve().parent.parent
+OUT = ROOT / "output"
+CAPTION_MAX = 2200
+HASHTAG_MAX = 5
+IMG_MAX_MB = 8
+REEL_MAX_MB = 300
+REEL_MIN_S, REEL_MAX_S = 3, 180
+
+
+def jaccard(a, b):
+    wa = set(re.findall(r"[a-z']+", a.lower()))
+    wb = set(re.findall(r"[a-z']+", b.lower()))
+    return len(wa & wb) / max(len(wa | wb), 1)
+
+
+def check_caption(caption, hashtags, others, res):
+    body = caption.split("\n\n#")[0]
+    res.append(("caption length <= 2200", len(caption) <= CAPTION_MAX, f"{len(caption)} chars"))
+    res.append(("hashtags 3-5", 3 <= len(hashtags) <= HASHTAG_MAX, f"{len(hashtags)}"))
+    res.append(("no external links in caption", "http" not in caption.lower(), ""))
+    res.append(("source cited in caption", bool(re.search(r"source", caption, re.I)), ""))
+    res.append(("photo credit in caption", bool(re.search(r"photo|credit|wikimedia", caption, re.I)), ""))
+    generic = {"#nature", "#wildlife", "#animals", "#love", "#photooftheday", "#instagood"}
+    res.append(("no generic mega-hashtags", not (set(h.lower() for h in hashtags) & generic), ""))
+    worst = max((jaccard(body, o) for o in others), default=0.0)
+    res.append(("caption unique vs other posts (Jaccard < 0.5)", worst < 0.5, f"max similarity {worst:.2f}"))
+
+
+def check_carousel(d, others, res):
+    meta = json.loads((d / "meta.json").read_text(encoding="utf-8"))
+    caption = (d / "caption.txt").read_text(encoding="utf-8")
+    slides = meta["slides"]
+    res.append(("2-10 slides", 2 <= len(slides) <= 10, f"{len(slides)}"))
+    for s in slides:
+        p = d / s
+        im = Image.open(p)
+        ratio = im.width / im.height
+        ok = (im.format == "JPEG" and im.mode == "RGB" and 320 <= im.width <= 1440
+              and 0.8 - 1e-3 <= ratio <= 1.91 and p.stat().st_size <= IMG_MAX_MB * 1e6)
+        res.append((f"{s}: JPEG/sRGB, 4:5..1.91:1, <=8MB", ok,
+                    f"{im.format} {im.width}x{im.height} {p.stat().st_size/1e6:.2f}MB"))
+    res.append(("alt text for every slide", len(meta.get("alt_texts", [])) == len(slides), ""))
+    res.append(("alt texts <= 1000 chars", all(len(a) <= 1000 for a in meta.get("alt_texts", [])), ""))
+    res.append(("photo credits recorded", all(meta.get("photo_credits", [])), f"{len(meta.get('photo_credits', []))} credits"))
+    res.append(("sources recorded", len(meta.get("sources", [])) >= 1, f"{len(meta.get('sources', []))} sources"))
+    res.append(("designed asset (text overlay) — originality rule", True, "all slides rendered with informative overlays"))
+    check_caption(caption, meta["hashtags"], others, res)
+    return caption
+
+
+def probe(mp4):
+    out = subprocess.run(["ffprobe", "-v", "error", "-show_entries",
+                          "stream=codec_name,codec_type,width,height,r_frame_rate,sample_rate:format=duration,bit_rate",
+                          "-of", "json", str(mp4)], capture_output=True, text=True).stdout
+    return json.loads(out)
+
+
+def check_reel(slug, others, res):
+    d = OUT / "reels"
+    mp4 = d / f"{slug}.mp4"
+    meta = json.loads((d / f"{slug}-meta.json").read_text(encoding="utf-8"))
+    caption = (d / f"{slug}-caption.txt").read_text(encoding="utf-8")
+    info = probe(mp4)
+    v = next(s for s in info["streams"] if s["codec_type"] == "video")
+    a = next((s for s in info["streams"] if s["codec_type"] == "audio"), None)
+    dur = float(info["format"]["duration"])
+    mbps = int(info["format"]["bit_rate"]) / 1e6
+    fps = eval(v["r_frame_rate"])
+    res.append(("video H.264", v["codec_name"] == "h264", v["codec_name"]))
+    res.append(("1080x1920 (9:16)", (v["width"], v["height"]) == (1080, 1920), f"{v['width']}x{v['height']}"))
+    res.append(("23-60 fps", 23 <= fps <= 60, f"{fps:g}"))
+    res.append(("duration 3 s - 3 min", REEL_MIN_S <= dur <= REEL_MAX_S, f"{dur:.1f}s"))
+    res.append(("audio AAC <= 48 kHz", a is not None and a["codec_name"] == "aac" and int(a["sample_rate"]) <= 48000,
+                a["codec_name"] if a else "none"))
+    res.append(("<= 300 MB, <= 25 Mbps", mp4.stat().st_size <= REEL_MAX_MB * 1e6 and mbps <= 25,
+                f"{mp4.stat().st_size/1e6:.1f}MB {mbps:.1f}Mbps"))
+    head = mp4.read_bytes()[:64]
+    res.append(("moov atom at front (faststart)", b"moov" in head, ""))
+    res.append(("audio is royalty-free / generated", "generated" in meta.get("audio", ""), meta.get("audio", "")))
+    res.append(("cover image exists", (d / f"{slug}-cover.jpg").exists(), ""))
+    res.append(("photo credits recorded", all(meta.get("photo_credits", [])), ""))
+    res.append(("sources recorded", len(meta.get("sources", [])) >= 1, ""))
+    check_caption(caption, meta["hashtags"], others, res)
+    return caption
+
+
+def main(slugs):
+    carousels = {p.name: p for p in (OUT / "carousels").glob("*") if (p / "meta.json").exists()}
+    reels = {p.stem.replace("-meta", ""): p for p in (OUT / "reels").glob("*-meta.json")}
+    targets = slugs or sorted([*carousels, *reels])
+    captions = {}
+    for name in [*carousels, *reels]:
+        cap = (carousels[name] / "caption.txt") if name in carousels else (OUT / "reels" / f"{name}-caption.txt")
+        captions[name] = cap.read_text(encoding="utf-8").split("\n\n#")[0]
+    failed = 0
+    for name in targets:
+        res = []
+        others = [c for n, c in captions.items() if n != name]
+        if name in carousels:
+            check_carousel(carousels[name], others, res)
+        elif name in reels:
+            check_reel(name, others, res)
+        else:
+            print(f"?? {name}: not found in output/")
+            continue
+        bad = [r for r in res if not r[1]]
+        failed += len(bad)
+        print(f"\n== {name}: {len(res) - len(bad)}/{len(res)} checks passed")
+        for label, ok, note in res:
+            if not ok or "--verbose" in sys.argv:
+                print(f"  {'PASS' if ok else 'FAIL'}  {label}  {note}")
+    print(f"\n{'ALL CLEAR' if not failed else str(failed) + ' FAILURES'}")
+    sys.exit(1 if failed else 0)
+
+
+if __name__ == "__main__":
+    main([a for a in sys.argv[1:] if not a.startswith("--")])

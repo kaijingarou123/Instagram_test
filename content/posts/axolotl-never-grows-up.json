@@ -1,0 +1,82 @@
+{
+  "slug": "axolotl-never-grows-up",
+  "slides": [
+    {
+      "type": "cover",
+      "image": "axolotl/02.jpg",
+      "focus": [0.45, 0.5],
+      "kicker": "Species spotlight",
+      "headline": "This salamander never grows up.",
+      "sub": "And that is exactly why scientists can't stop studying it"
+    },
+    {
+      "type": "fact",
+      "image": "axolotl/01.jpg",
+      "focus": [0.5, 0.5],
+      "number": "01",
+      "headline": "It keeps its gills for life",
+      "body": "Most salamanders lose their gills and move onto land. The axolotl stays aquatic and keeps its feathery external gills as an adult — a trait called neoteny.",
+      "source": "Animal Diversity Web"
+    },
+    {
+      "type": "fact",
+      "image": "axolotl/02.jpg",
+      "focus": [0.45, 0.5],
+      "number": "02",
+      "headline": "Lose a leg? It grows a new one.",
+      "body": "Axolotls regenerate entire limbs and tails over a few months, and can repair parts of the heart, spinal cord and brain without scarring.",
+      "source": "Nowoshilow et al., Nature (2018)"
+    },
+    {
+      "type": "stat",
+      "image": "axolotl/04.jpg",
+      "focus": [0.5, 0.4],
+      "stat": "32 bn",
+      "label": "base pairs in its genome — about 10× a human's",
+      "body": "Yet it has a similar number of protein-coding genes to us. The extra DNA is mostly repeated sequences.",
+      "source": "Nowoshilow et al., Nature (2018)"
+    },
+    {
+      "type": "fact",
+      "image": "axolotl/03.jpg",
+      "focus": [0.5, 0.5],
+      "number": "03",
+      "headline": "The wild ones live in one place",
+      "body": "Only the canals and wetlands of Xochimilco, on the edge of Mexico City. Pet axolotls are a separate captive-bred lineage, often leucistic (pale) like the one on slide 1.",
+      "source": "IUCN Red List (2020)"
+    },
+    {
+      "type": "fact",
+      "image": "axolotl/01.jpg",
+      "focus": [0.5, 0.55],
+      "number": "04",
+      "headline": "Critically Endangered",
+      "body": "Surveys found about 6,000 per km² in 1998 and roughly 100 per km² by 2008. The 2020 IUCN assessment estimates just 50–1,000 adults remain in the wild.",
+      "source": "IUCN Red List (2020)"
+    },
+    {
+      "type": "closing",
+      "image": "axolotl/02.jpg",
+      "focus": [0.45, 0.5],
+      "headline": "Share this with a biology nerd.",
+      "body": "A new species, properly sourced, every week. Follow @claudes_plan101.",
+      "sources": [
+        "IUCN Red List: Ambystoma mexicanum (2020) iucnredlist.org/species/1095/53947343",
+        "Nowoshilow et al. (2018) Nature 554:50–55",
+        "Animal Diversity Web: Ambystoma mexicanum"
+      ]
+    }
+  ],
+  "caption": "The axolotl (Ambystoma mexicanum) never grows up — and it can regrow its own limbs, spinal cord and parts of its brain.\n\nIt keeps its larval gills for life, carries a genome ten times the size of ours, and in the wild survives in exactly one place: the canals of Xochimilco, Mexico City, where it is Critically Endangered.\n\nSwipe for the full story. Sources on the last slide.\n\nPhotos: Wikimedia Commons, CC BY-SA 4.0 (credits on each slide).",
+  "hashtags": ["#axolotl", "#amphibians", "#wildlifefacts", "#endangeredspecies", "#herpetology"],
+  "sources": ["https://www.iucnredlist.org/species/1095/53947343", "https://www.nature.com/articles/nature25458", "https://animaldiversity.org/accounts/Ambystoma_mexicanum/"],
+  "alt_texts": [
+    "Pale leucistic axolotl with red feathery gills, headline 'This salamander never grows up'",
+    "Axolotl in a blue-lit aquarium with text explaining it keeps its gills for life",
+    "Close-up of an axolotl's face with text about limb regeneration",
+    "Axolotl embryo inside an egg with the statistic 32 billion base pairs",
+    "Axolotl egg on moss with text about its only wild habitat, Xochimilco",
+    "Axolotl in an aquarium with text on its Critically Endangered status",
+    "Closing slide listing scientific sources and photo credits"
+  ]
+}

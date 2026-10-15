@@ -1,0 +1,30 @@
+{
+  "slug": "snow-leopard-no-roar",
+  "format": "reel",
+  "size": "1080x1920",
+  "fps": 30,
+  "duration_s": 21.5,
+  "scenes": 5,
+  "audio": "generated ambient bed (CC0-equivalent)",
+  "caption_chars": 562,
+  "hashtags": [
+    "#snowleopard",
+    "#bigcats",
+    "#wildlifefacts",
+    "#conservation",
+    "#himalaya"
+  ],
+  "sources": [
+    "https://www.iucnredlist.org/species/22732/50664030",
+    "https://snowleopard.org/snow-leopard-facts/",
+    "https://pubmed.ncbi.nlm.nih.gov/2606786/"
+  ],
+  "photo_credits": [
+    "Photo: H. Zell · Wikimedia Commons · CC BY-SA 3.0",
+    "Photo: H. Zell · Wikimedia Commons · CC BY-SA 3.0",
+    "Photo: H. Zell · Wikimedia Commons · CC BY-SA 3.0",
+    "Photo: H. Zell · Wikimedia Commons · CC BY-SA 3.0",
+    "Photo: H. Zell · Wikimedia Commons · CC BY-SA 3.0"
+  ],
+  "file_mb": 17.37
+}

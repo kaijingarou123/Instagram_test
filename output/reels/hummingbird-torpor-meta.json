@@ -1,0 +1,29 @@
+{
+  "slug": "hummingbird-torpor",
+  "format": "reel",
+  "size": "1080x1920",
+  "fps": 30,
+  "duration_s": 21.5,
+  "scenes": 5,
+  "audio": "generated ambient bed (CC0-equivalent)",
+  "caption_chars": 510,
+  "hashtags": [
+    "#hummingbird",
+    "#birdfacts",
+    "#ornithology",
+    "#wildlifefacts",
+    "#birdsofinstagram"
+  ],
+  "sources": [
+    "https://www.allaboutbirds.org/guide/Ruby-throated_Hummingbird/overview",
+    "https://www.allaboutbirds.org/news/how-do-hummingbirds-survive-cold-nights/"
+  ],
+  "photo_credits": [
+    "Photo: Charles J. Sharp · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Charles J. Sharp · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Giles Laurent · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Charles J. Sharp · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Charles J. Sharp · Wikimedia Commons · CC BY-SA 4.0"
+  ],
+  "file_mb": 13.37
+}

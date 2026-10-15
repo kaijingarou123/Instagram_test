@@ -1,0 +1,46 @@
+{
+  "slug": "mantis-shrimp-punch",
+  "format": "carousel",
+  "size": "1080x1350",
+  "slides": [
+    "01.jpg",
+    "02.jpg",
+    "03.jpg",
+    "04.jpg",
+    "05.jpg",
+    "06.jpg",
+    "07.jpg"
+  ],
+  "alt_texts": [
+    "Peacock mantis shrimp peering out of a coral burrow, with the headline 'This shrimp punches like a bullet'",
+    "Close-up of a mantis shrimp's eyes and raptorial clubs with text about strike speed",
+    "Mantis shrimp on a reef with the statistic 1,500 newtons of strike force",
+    "Mantis shrimp in its burrow with text explaining cavitation bubbles",
+    "Mantis shrimp showing its compound eyes with text about 12 colour receptors",
+    "Mantis shrimp with text about seeing circularly polarised light",
+    "Closing slide listing scientific sources and photo credits"
+  ],
+  "caption_chars": 466,
+  "hashtags": [
+    "#mantisshrimp",
+    "#marinebiology",
+    "#wildlifefacts",
+    "#oceanlife",
+    "#naturestudy"
+  ],
+  "sources": [
+    "https://doi.org/10.1038/428819a",
+    "https://doi.org/10.1242/jeb.01831",
+    "https://doi.org/10.1126/science.1245824",
+    "https://doi.org/10.1016/j.cub.2008.02.066"
+  ],
+  "photo_credits": [
+    "Photo: Diego Delso · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Diego Delso · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Diego Delso · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Diego Delso · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Diego Delso · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Diego Delso · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Diego Delso · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

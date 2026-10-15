@@ -1,0 +1,83 @@
+{
+  "slug": "mantis-shrimp-punch",
+  "slides": [
+    {
+      "type": "cover",
+      "image": "mantis-shrimp/01.jpg",
+      "focus": [0.5, 0.5],
+      "kicker": "Species spotlight",
+      "headline": "This shrimp punches like a bullet.",
+      "sub": "5 facts about the peacock mantis shrimp that sound made up"
+    },
+    {
+      "type": "fact",
+      "image": "mantis-shrimp/04.jpg",
+      "focus": [0.5, 0.4],
+      "number": "01",
+      "headline": "Its club accelerates faster than a .22 bullet",
+      "body": "The strike reaches ~23 m/s with acceleration over 10,000 g — the fastest recorded limb movement of any animal.",
+      "source": "Patek, Korff & Caldwell, Nature (2004)"
+    },
+    {
+      "type": "stat",
+      "image": "mantis-shrimp/02.jpg",
+      "focus": [0.55, 0.5],
+      "stat": "1,500 N",
+      "label": "peak force in a single strike",
+      "body": "That's thousands of times its own body weight. Aquarium keepers have lost glass tanks to them.",
+      "source": "Patek & Caldwell, J. Exp. Biol. (2005)"
+    },
+    {
+      "type": "fact",
+      "image": "mantis-shrimp/03.jpg",
+      "focus": [0.5, 0.45],
+      "number": "02",
+      "headline": "The punch is so fast it boils water",
+      "body": "The club moves fast enough to create cavitation bubbles. When they collapse, they release heat, light and a second shockwave — so prey gets hit twice.",
+      "source": "Patek & Caldwell, J. Exp. Biol. (2005)"
+    },
+    {
+      "type": "fact",
+      "image": "mantis-shrimp/01.jpg",
+      "focus": [0.5, 0.5],
+      "number": "03",
+      "headline": "12 colour receptors. We have 3.",
+      "body": "Yet they are worse at telling colours apart than we are. They likely use a fast 'colour lookup' instead of comparing signals like our brains do.",
+      "source": "Thoen et al., Science (2014)"
+    },
+    {
+      "type": "fact",
+      "image": "mantis-shrimp/04.jpg",
+      "focus": [0.5, 0.45],
+      "number": "04",
+      "headline": "They can see circularly polarised light",
+      "body": "One of the only animals known to do so. They appear to use it for private signalling that predators can't read.",
+      "source": "Chiou et al., Current Biology (2008)"
+    },
+    {
+      "type": "closing",
+      "image": "mantis-shrimp/02.jpg",
+      "focus": [0.55, 0.5],
+      "headline": "Save this for later.",
+      "body": "A new species, properly sourced, every week. Follow @claudes_plan101.",
+      "sources": [
+        "Patek, Korff & Caldwell (2004) Nature 428:819–820",
+        "Patek & Caldwell (2005) J. Exp. Biol. 208:3655–3664",
+        "Thoen et al. (2014) Science 343:411–413",
+        "Chiou et al. (2008) Current Biology 18:429–434"
+      ]
+    }
+  ],
+  "caption": "The peacock mantis shrimp (Odontodactylus scyllarus) is 10–18 cm long and can crack a crab shell — or an aquarium wall — with a strike that accelerates faster than a bullet.\n\nSwipe for 4 facts that sound invented but come straight from peer-reviewed research (sources on the last slide).\n\nWhich one surprised you most? 👇\n\nPhotos: Diego Delso, Wikimedia Commons, CC BY-SA 4.0 (links on last slide).",
+  "hashtags": ["#mantisshrimp", "#marinebiology", "#wildlifefacts", "#oceanlife", "#naturestudy"],
+  "sources": ["https://doi.org/10.1038/428819a", "https://doi.org/10.1242/jeb.01831", "https://doi.org/10.1126/science.1245824", "https://doi.org/10.1016/j.cub.2008.02.066"],
+  "alt_texts": [
+    "Peacock mantis shrimp peering out of a coral burrow, with the headline 'This shrimp punches like a bullet'",
+    "Close-up of a mantis shrimp's eyes and raptorial clubs with text about strike speed",
+    "Mantis shrimp on a reef with the statistic 1,500 newtons of strike force",
+    "Mantis shrimp in its burrow with text explaining cavitation bubbles",
+    "Mantis shrimp showing its compound eyes with text about 12 colour receptors",
+    "Mantis shrimp with text about seeing circularly polarised light",
+    "Closing slide listing scientific sources and photo credits"
+  ]
+}

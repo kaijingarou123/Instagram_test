@@ -1,0 +1,45 @@
+{
+  "slug": "axolotl-never-grows-up",
+  "format": "carousel",
+  "size": "1080x1350",
+  "slides": [
+    "01.jpg",
+    "02.jpg",
+    "03.jpg",
+    "04.jpg",
+    "05.jpg",
+    "06.jpg",
+    "07.jpg"
+  ],
+  "alt_texts": [
+    "Pale leucistic axolotl with red feathery gills, headline 'This salamander never grows up'",
+    "Axolotl in a blue-lit aquarium with text explaining it keeps its gills for life",
+    "Close-up of an axolotl's face with text about limb regeneration",
+    "Axolotl embryo inside an egg with the statistic 32 billion base pairs",
+    "Axolotl egg on moss with text about its only wild habitat, Xochimilco",
+    "Axolotl in an aquarium with text on its Critically Endangered status",
+    "Closing slide listing scientific sources and photo credits"
+  ],
+  "caption_chars": 511,
+  "hashtags": [
+    "#axolotl",
+    "#amphibians",
+    "#wildlifefacts",
+    "#endangeredspecies",
+    "#herpetology"
+  ],
+  "sources": [
+    "https://www.iucnredlist.org/species/1095/53947343",
+    "https://www.nature.com/articles/nature25458",
+    "https://animaldiversity.org/accounts/Ambystoma_mexicanum/"
+  ],
+  "photo_credits": [
+    "Photo: Fernando Losada Rodríguez · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Tylwyth Eldar · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Fernando Losada Rodríguez · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Brandon Antonio Segura Torres & Priscill · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Brandon Antonio Segura Torres & Priscill · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Tylwyth Eldar · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Fernando Losada Rodríguez · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

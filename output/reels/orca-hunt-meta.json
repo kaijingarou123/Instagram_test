@@ -1,0 +1,27 @@
+{
+  "slug": "orca-hunt",
+  "format": "reel",
+  "size": "1080x1920",
+  "fps": 30,
+  "duration_s": 15.5,
+  "scenes": 4,
+  "audio": "generated ambient bed (CC0-equivalent)",
+  "caption_chars": 486,
+  "hashtags": [
+    "#orca",
+    "#killerwhale",
+    "#antarctica",
+    "#wildlifefacts",
+    "#marinebiology"
+  ],
+  "sources": [
+    "https://doi.org/10.1111/j.1748-7692.2010.00453.x"
+  ],
+  "photo_credits": [
+    "Photo: Callan Carpenter · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Callan Carpenter · Wikimedia Commons · CC BY 4.0",
+    "Photo: Callan Carpenter · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Callan Carpenter · Wikimedia Commons · CC BY 4.0"
+  ],
+  "file_mb": 7.48
+}

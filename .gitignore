@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.env
+assets/contact-sheet.jpg
+output/reels/*-frames.jpg
+output/reels/*-check.jpg

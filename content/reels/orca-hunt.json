@@ -1,0 +1,45 @@
+{
+  "slug": "orca-hunt",
+  "scenes": [
+    {
+      "image": "orca/01.jpg",
+      "focus": [0.3, 0.72],
+      "duration": 4.0,
+      "zoom": "in",
+      "kicker": "Did you know",
+      "headline": "Orcas make waves on purpose.",
+      "body": "Some pods in Antarctica hunt seals by knocking them off ice floes."
+    },
+    {
+      "image": "orca/04.jpg",
+      "focus": [0.5, 0.5],
+      "duration": 4.5,
+      "zoom": "out",
+      "pan": [0.08, 0.0],
+      "headline": "They swim in a line, then dive together.",
+      "body": "The coordinated rush creates a single wave big enough to wash the seal into the water.",
+      "source": "Pitman & Durban (2012) Marine Mammal Science"
+    },
+    {
+      "image": "orca/01.jpg",
+      "focus": [0.22, 0.72],
+      "duration": 4.5,
+      "zoom": "in",
+      "pan": [0.06, 0.0],
+      "headline": "It's learned, not instinct.",
+      "body": "Only certain pods do it, and calves practise for years before they get it right."
+    },
+    {
+      "image": "orca/04.jpg",
+      "focus": [0.5, 0.45],
+      "duration": 4.0,
+      "zoom": "out",
+      "kicker": "Follow for more",
+      "headline": "One sourced wildlife fact, every day.",
+      "body": "Save this one for a friend who loves the ocean."
+    }
+  ],
+  "caption": "Orcas in the Antarctic Peninsula have a hunting technique that looks like teamwork from a movie: they line up, charge an ice floe and dive at the last second, creating a wave that washes seals off the ice.\n\nIt's culture, not instinct — only some pods do it, and young orcas take years to learn.\n\nSource: Pitman & Durban (2012), Marine Mammal Science. Photos: Callan Carpenter via Wikimedia Commons, CC BY-SA 4.0 / CC BY 4.0.",
+  "hashtags": ["#orca", "#killerwhale", "#antarctica", "#wildlifefacts", "#marinebiology"],
+  "sources": ["https://doi.org/10.1111/j.1748-7692.2010.00453.x"]
+}
