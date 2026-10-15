@@ -212,19 +212,15 @@ class GraphError(Exception):
 
 def halt(reason):
     LOG_DIR.mkdir(exist_ok=True)
-    line = f"{datetime.now(timezone.utc).isoformat()}  {reason}
-"
+    line = f"{datetime.now(timezone.utc).isoformat()}  {reason}\n"
     HALT.write_text(line, encoding="utf-8")
     try:                                            # mirror into the shared guardrails marker
         GLOBAL_HALT.parent.mkdir(parents=True, exist_ok=True)
         with GLOBAL_HALT.open("a", encoding="utf-8") as f:
-            f.write(f"{line.rstrip()}  (instagram, {ROOT.name})
-")
+            f.write(f"{line.rstrip()}  (instagram, {ROOT.name})\n")
     except OSError:
         pass
-    print(f"
-HARD STOP: {reason}
-log/HALT written — no further publishing until a human deletes it.")
+    print(f"\nHARD STOP: {reason}\nlog/HALT written — no further publishing until a human deletes it.")
     sys.exit(2)
 
 
