@@ -53,7 +53,8 @@ python scripts/insights.py [<slug>]              # reach/saves/shares per post -
   Composio's `account_type: PRIVATE` refers to the Composio connection's visibility, not Instagram.
 - **Safety** — `publish.py` enforces the envelope from `CHECKLIST.md` §A (phase limits by
   account age, min gap, Reels allowance, hashtag rotation, live quota, hard-stop codes →
-  `log/HALT`). The first 1–2 posts should still be made by hand in the app (days 1–3).
+  `log/HALT`). Decision 2026-10-15: the manual warm-up is skipped — the first post goes
+  through the API on day 0 (the phase-1 limits of 1 post/day, 20 h gap, no Reels still apply).
 - **Token** — publishing directly needs a long-lived Instagram user token in `.env`; the
   Composio connection can be used instead by executing the call sequence that `plan` prints.
 

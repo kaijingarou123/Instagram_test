@@ -2,7 +2,7 @@
   "slug": "mantis-shrimp-punch",
   "kind": "carousel",
   "checks_passed": true,
-  "generated_at": "2026-10-15T11:44:04.793990+00:00",
+  "generated_at": "2026-10-15T11:54:15.766310+00:00",
   "calls": [
     {
       "step": "quota",
