@@ -58,6 +58,16 @@ python scripts/insights.py [<slug>]              # reach/saves/shares per post -
 - **Token** — publishing directly needs a long-lived Instagram user token in `.env`; the
   Composio connection can be used instead by executing the call sequence that `plan` prints.
 
+## Guardrails
+
+Every agent, skill or scheduled task that publishes here follows the `platform-guardrails`
+skill in `kaijingarou123/Claude-skills-agents-plugins` (`plugins/platform-guardrails/`): read
+`RULES.md`, run the pre-action checklist, record the pass with `hooks/guardrails_gate.py pass`,
+and stop on any hard-stop code. Two HALT markers block publishing and both are honoured by
+`publish.py`: `log/HALT` (written here on a hard stop) and `~/.claude/platform-guardrails/HALT`
+(written by the gate for either platform). `publish.py` mirrors its own HALT into the shared one.
+Only a human deletes a marker, after checking Account Status and the quota.
+
 ## Status
 
 - **2026-10-15** — first post published via Composio: `mantis-shrimp-punch` carousel,

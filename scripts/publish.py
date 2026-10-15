@@ -36,6 +36,8 @@ OUT = ROOT / "output"
 LOG_DIR = ROOT / "log"
 LOG = LOG_DIR / "posts.jsonl"
 HALT = LOG_DIR / "HALT"
+# Shared marker written by the platform-guardrails gate (Claude-skills-agents-plugins); both markers block.
+GLOBAL_HALT = Path.home() / ".claude" / "platform-guardrails" / "HALT"
 CONFIG = ROOT / "config.json"
 
 # --- safety envelope (research/posting-limits.md, "Recommended safe operating envelope") ---
@@ -210,9 +212,29 @@ class GraphError(Exception):
 
 def halt(reason):
     LOG_DIR.mkdir(exist_ok=True)
-    HALT.write_text(f"{datetime.now(timezone.utc).isoformat()}  {reason}\n", encoding="utf-8")
-    print(f"\nHARD STOP: {reason}\nlog/HALT written — no further publishing until a human deletes it.")
+    line = f"{datetime.now(timezone.utc).isoformat()}  {reason}
+"
+    HALT.write_text(line, encoding="utf-8")
+    try:                                            # mirror into the shared guardrails marker
+        GLOBAL_HALT.parent.mkdir(parents=True, exist_ok=True)
+        with GLOBAL_HALT.open("a", encoding="utf-8") as f:
+            f.write(f"{line.rstrip()}  (instagram, {ROOT.name})
+")
+    except OSError:
+        pass
+    print(f"
+HARD STOP: {reason}
+log/HALT written — no further publishing until a human deletes it.")
     sys.exit(2)
+
+
+def halt_markers():
+    """All HALT markers that block publishing: project log/HALT and the shared guardrails marker."""
+    found = []
+    for path in (HALT, GLOBAL_HALT):
+        if path.exists():
+            found.append(f"{path}: {path.read_text(encoding='utf-8', errors='replace').strip()}")
+    return found
 
 
 def log_entry(entry):
@@ -254,7 +276,8 @@ def cmd_status(cfg):
     pub = [p for p in posts if p.get("status") == "published"]
     print(f"account day {ph['day']} — phase limits: {ph['max_per_day']}/day, gap ≥ {ph['min_gap_h']} h, "
           f"Reels/week ≤ {ph['reels_per_week']}")
-    print(f"HALT: {'YES — ' + HALT.read_text().strip() if HALT.exists() else 'no'}")
+    marks = halt_markers()
+    print(f"HALT: {'YES — ' + ' | '.join(marks) if marks else 'no'}")
     print(f"published: {len(pub)}  (last 24 h: "
           f"{sum(datetime.fromisoformat(p['published_at']) > now - timedelta(hours=24) for p in pub)})")
     for p in posts[-10:]:
@@ -263,8 +286,10 @@ def cmd_status(cfg):
 
 def run_checks(cfg, post, verbose=True):
     ok_all = True
-    if HALT.exists():
-        print(f"HALT file present: {HALT.read_text().strip()}")
+    marks = halt_markers()
+    if marks:
+        for m in marks:
+            print(f"HALT marker present: {m}")
         return False
     ok, note = check_preflight(post["slug"])
     print(f"[{'ok' if ok else 'FAIL'}] preflight: {note}")
