@@ -1,0 +1,29 @@
+{
+  "slug": "announcement-2",
+  "format_tag": "format:announcement",
+  "family": "commercial",
+  "variant": 2,
+  "title": "Announcing: tiger-reserve trips",
+  "risk": "low",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": null,
+  "caption": "Tiger-reserve trips are here\n\nThe puffing and sucking of a sloth bear feeding at a termite mound can be heard up to about 185 m away.\n\nSource: Animal Diversity Web. Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#tigerreserve",
+    "#slothbear",
+    "#leopard",
+    "#indianwildlife"
+  ],
+  "sources": [
+    "https://animaldiversity.org/accounts/Melursus_ursinus/"
+  ],
+  "duration_s": 14.3,
+  "file_mb": 10.44,
+  "credits": [
+    "Photo: Giles Laurent · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Rohit Sharma · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Shiv's fotografia · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

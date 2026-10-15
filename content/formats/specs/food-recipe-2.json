@@ -1,0 +1,68 @@
+{
+  "slug": "food-recipe-2",
+  "format_tag": "format:food-recipe",
+  "family": "lifestyle",
+  "risk": "low",
+  "variant": 2,
+  "title": "Recipe: kingfisher fish supper",
+  "storyboard": null,
+  "audio": "bed",
+  "scenes": [
+    {
+      "layout": "full",
+      "media": "photo:kingfisher/01.jpg",
+      "duration": 3.0,
+      "kicker": "Recipe card",
+      "headline": "Fresh fish, served whole",
+      "body": "Chef: common kingfisher."
+    },
+    {
+      "layout": "full",
+      "media": "video:kingfisher/02.webm@4",
+      "duration": 3.5,
+      "kicker": "Step 1",
+      "headline": "Wait on a perch over the water",
+      "body": "Anywhere from a few centimetres to a few metres up.",
+      "source": "Animal Diversity Web"
+    },
+    {
+      "layout": "full",
+      "media": "video:kingfisher/01.webm@1",
+      "duration": 3.5,
+      "kicker": "Step 1, alternative",
+      "headline": "No perch? Hover, then plunge",
+      "body": "Pied kingfishers often hover before diving.",
+      "source": "Animal Diversity Web"
+    },
+    {
+      "layout": "card",
+      "duration": 3.5,
+      "bg": "amber",
+      "big": "2",
+      "headline": "Whack the fish on the branch",
+      "body": "It stuns the fish — handy for spiny ones. Then swallow.",
+      "source": "Animal Diversity Web",
+      "media": "photo:kingfisher/01.jpg"
+    },
+    {
+      "layout": "stat",
+      "media": "video:kingfisher/02.webm@15",
+      "duration": 3.5,
+      "stat": "~60%",
+      "label": "of its body weight eaten every day",
+      "source": "Animal Diversity Web"
+    }
+  ],
+  "caption": "A three-step recipe with zero cooking.\n\nAfterwards, kingfishers cough up a pellet of the fish bones they can't digest.\n\nSource: Animal Diversity Web (Alcedo atthis, Ceryle rudis). Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#kingfisher",
+    "#piedkingfisher",
+    "#whatanimalseat",
+    "#birdbehaviour"
+  ],
+  "sources": [
+    "https://animaldiversity.org/accounts/Alcedo_atthis/",
+    "https://animaldiversity.org/accounts/Ceryle_rudis/"
+  ],
+  "notes": "Overhead-recipe structure (ingredient, steps, portion) mapped onto real hunting behaviour of two kingfisher species, each labelled correctly."
+}

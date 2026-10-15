@@ -1,0 +1,68 @@
+{
+  "slug": "vlog-3",
+  "format_tag": "format:vlog",
+  "family": "lifestyle",
+  "risk": "low",
+  "variant": 3,
+  "title": "School nature club day trail",
+  "storyboard": "Film: school nature club kids with hand lenses on a Bengaluru trail, naturalist at a weaver-ant nest (2 takes)",
+  "audio": "bed",
+  "scenes": [
+    {
+      "layout": "full",
+      "media": "photo:weaver-ant/01.jpg",
+      "duration": 3.5,
+      "kicker": "Nature club vlog",
+      "headline": "Trail stop 1: a tent made of leaves… by ants",
+      "body": "A weaver ant nest."
+    },
+    {
+      "layout": "full",
+      "media": "photo:weaver-ant/04.jpg",
+      "duration": 4.0,
+      "kicker": "Hand lens time",
+      "headline": "The glue? Silk from their own larvae",
+      "body": "Workers pull leaf edges together and use larval silk to bind them.",
+      "source": "Animal Diversity Web"
+    },
+    {
+      "layout": "full",
+      "media": "photo:honey-bee/04.jpg",
+      "duration": 3.5,
+      "kicker": "Trail stop 2",
+      "headline": "Honey bee on a flower",
+      "body": "Spot the pollen baskets on its hind legs.",
+      "source": "Animal Diversity Web"
+    },
+    {
+      "layout": "full",
+      "media": "photo:monitor-lizard/02.jpg",
+      "duration": 3.5,
+      "kicker": "Trail stop 3",
+      "headline": "Monitor lizard on the move",
+      "body": "We look, we don't touch. Keoladeo National Park, Rajasthan."
+    },
+    {
+      "layout": "card",
+      "duration": 3.0,
+      "bg": "cream",
+      "kicker": "Muddy Lessons · Bengaluru",
+      "headline": "Day trails for school nature clubs",
+      "body": "Hand lenses, field notebooks and a naturalist."
+    }
+  ],
+  "caption": "A Saturday with our school nature club.\n\nWeaver ant larvae don't spin cocoons for themselves — their silk goes into building the colony's leaf nests.\n\nSource: Gadagkar 2021, Resonance (IISc); Animal Diversity Web. Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#weaverants",
+    "#naturestudy",
+    "#schoolnatureclub",
+    "#bengaluru",
+    "#honeybee"
+  ],
+  "sources": [
+    "https://animaldiversity.org/accounts/Oecophylla_smaragdina/",
+    "https://eprints.iisc.ac.in/69575/",
+    "https://animaldiversity.org/accounts/Apis_mellifera/"
+  ],
+  "notes": "Vlog of a kids' day trail: small, close-up wildlife (ants, bees, lizards) suits a city trail; kid/naturalist shots storyboarded. Weaver-ant nest photo from Kerala."
+}

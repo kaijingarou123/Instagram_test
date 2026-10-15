@@ -1,0 +1,28 @@
+{
+  "slug": "explainer-1",
+  "format_tag": "format:explainer",
+  "family": "educational",
+  "variant": 1,
+  "title": "Why a peacock's blue isn't pigment",
+  "risk": "low",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": null,
+  "caption": "A peacock's blue comes from structure, not blue pigment.\n\nThe same lattice of melanin rods makes every colour in the eyespot; blue, green, yellow and brown differ mainly in rod spacing and the number of layers.\n\nSource: Zi J. et al. (2003) Coloration strategies in peacock feathers, PNAS 100:12576. Footage: Indian peafowl, Botanical Garden Hyderabad. Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#peacock",
+    "#structuralcolour",
+    "#indianpeafowl",
+    "#sciencefacts"
+  ],
+  "sources": [
+    "https://www.pnas.org/doi/10.1073/pnas.2133313100"
+  ],
+  "duration_s": 18.4,
+  "file_mb": 14.56,
+  "credits": [
+    "Photo: Giles Laurent · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Original:  KCVelagaRefinement:  Rihaan18 · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

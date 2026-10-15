@@ -1,0 +1,28 @@
+{
+  "slug": "ai-generated-2",
+  "format_tag": "format:ai-generated",
+  "family": "creative",
+  "variant": 2,
+  "title": "Western Ghats as a paper diorama (AI)",
+  "risk": "medium",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": "Generate (AI, labelled): paper-craft Western Ghats diorama, monsoon clouds hitting the west slope; no animals",
+  "caption": "A paper-craft mountain range, generated and labelled.\n\nThe Western Ghats are a UNESCO World Heritage Site and are older than the Himalaya; their forests help shape India's monsoon weather.\n\nSource: UNESCO World Heritage Centre. Diorama: AI-generated (labelled). Elephant photo taken in Laos.  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#westernghats",
+    "#monsoon",
+    "#biodiversityhotspot",
+    "#aigenerated",
+    "#geographyforkids"
+  ],
+  "sources": [
+    "https://whc.unesco.org/en/list/1342"
+  ],
+  "duration_s": 12.3,
+  "file_mb": 2.24,
+  "credits": [
+    "Photo: Basile Morin · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

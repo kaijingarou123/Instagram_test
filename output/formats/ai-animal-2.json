@@ -1,0 +1,30 @@
+{
+  "slug": "ai-animal-2",
+  "format_tag": "format:ai-animal",
+  "family": "wildlife",
+  "variant": 2,
+  "title": "Real or AI? 3 clips",
+  "risk": "avoid",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": null,
+  "caption": "Two of these are real animals. One is a render.\n\nMeta asks people to label photorealistic AI video and audio, and labels content when it detects industry-standard AI signals.\n\nSource: Meta newsroom (2024). Real clips: Wikimedia Commons (credits on screen); AI clip: Google DeepMind Veo 3 demo (public domain).",
+  "hashtags": [
+    "#realorai",
+    "#medialiteracy",
+    "#aigenerated",
+    "#birdwatching"
+  ],
+  "sources": [
+    "https://about.fb.com/news/2024/02/labeling-ai-generated-images-on-facebook-instagram-and-threads/",
+    "https://about.fb.com/news/2024/04/metas-approach-to-labeling-ai-generated-content-and-manipulated-media/"
+  ],
+  "duration_s": 13.4,
+  "file_mb": 4.25,
+  "credits": [
+    "Photo: Giles Laurent · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Google DeepMind · Wikimedia Commons · Public domain",
+    "Photo: Original:  KCVelagaRefinement:  Rihaan18 · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "title": "File:Bengal tiger looking at the camera.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABengal%20tiger%20looking%20at%20the%20camera.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Bengal_tiger_looking_at_the_camera.jpg/3840px-Bengal_tiger_looking_at_the_camera.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 12000,
+    "height": 8000,
+    "license": "CC0",
+    "artist": "Joselodos",
+    "credit": "Own work",
+    "description": "Bengal tiger looking at the camera.",
+    "curated": false,
+    "file": "02.jpg"
+  },
+  {
+    "title": "File:Tiger - Flickr - Mathias Appel.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File%3ATiger%20-%20Flickr%20-%20Mathias%20Appel.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Tiger_-_Flickr_-_Mathias_Appel.jpg/3840px-Tiger_-_Flickr_-_Mathias_Appel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 8256,
+    "height": 5504,
+    "license": "CC0",
+    "artist": "Mathias Appel",
+    "credit": "tiger",
+    "description": "tiger",
+    "curated": false,
+    "file": "03.jpg"
+  },
+  {
+    "title": "File:DSC4466 Bengal tiger.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File%3ADSC4466%20Bengal%20tiger.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/DSC4466_Bengal_tiger.jpg/3840px-DSC4466_Bengal_tiger.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 6440,
+    "height": 4293,
+    "license": "CC BY-SA 4.0",
+    "artist": "Gurung pratap",
+    "credit": "Own work",
+    "description": "Bengal tiger",
+    "curated": false,
+    "file": "04.jpg"
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "slug": "quiz-3",
+  "format_tag": "format:quiz",
+  "family": "educational",
+  "risk": "low",
+  "variant": 3,
+  "title": "How many colour receptors? A, B or C",
+  "storyboard": null,
+  "audio": "bed",
+  "scenes": [
+    {
+      "layout": "card",
+      "bg": "night",
+      "duration": 3.4,
+      "media": "photo:mantis-shrimp/01.jpg",
+      "kicker": "Quick quiz",
+      "headline": "You see colour with 3 receptor types. How many does a mantis shrimp have?",
+      "body": "A) 4     B) 7     C) 12"
+    },
+    {
+      "layout": "full",
+      "media": "photo:mantis-shrimp/02.jpg",
+      "duration": 3.4,
+      "kicker": "Hint",
+      "headline": "Its eyes sample from deep ultraviolet to far red"
+    },
+    {
+      "layout": "stat",
+      "media": "photo:mantis-shrimp/03.jpg",
+      "duration": 3.6,
+      "stat": "C) 12",
+      "label": "colour receptor types in some mantis shrimp",
+      "source": "Thoen et al. 2014, Science"
+    },
+    {
+      "layout": "full",
+      "media": "photo:mantis-shrimp/04.jpg",
+      "duration": 4.2,
+      "kicker": "Plot twist",
+      "headline": "Yet it's worse than you at telling similar colours apart",
+      "body": "In tests it struggled with close shades. It may scan and recognise colours fast instead."
+    }
+  ],
+  "caption": "More receptors, worse at shades.\n\nIn the 2014 study, mantis shrimp were trained to pick a colour for a food reward; they did well with very different colours, but accuracy dropped as the colours got closer together.\n\nSource: Thoen et al. 2014, Science 343:411.  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#mantisshrimp",
+    "#animalvision",
+    "#marinebiology",
+    "#sciencequiz"
+  ],
+  "sources": [
+    "https://doi.org/10.1126/science.1245824",
+    "https://www.nationalgeographic.com/science/article/the-mantis-shrimp-sees-like-a-satellite"
+  ],
+  "notes": "Multiple-choice quiz with a stat-layout answer and a twist that corrects the popular 'super colour vision' myth; options on screen, no comment bait."
+}

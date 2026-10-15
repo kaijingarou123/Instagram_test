@@ -16,12 +16,15 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+
 ROOT = Path(__file__).resolve().parent.parent
 RAW = ROOT / "assets" / "raw"
 API = "https://commons.wikimedia.org/w/api.php"
 UA = "WildlifeEduContentBot/0.1 (local research project; contact via Composio test account)"
 MIN_PX = 1600          # long edge of the original
-FETCH_WIDTH = 2000     # we download a Commons-rendered thumb, not the 20 MB original
+FETCH_WIDTH = 1920     # a Wikimedia standard thumbnail step (non-standard sizes get throttled)
 PER_SPECIES = 4
 OK_LICENSE = re.compile(r"^(cc0|cc-by(-sa)?-\d|cc by|pd|public domain)", re.I)
 BAD_WORDS = re.compile(r"(\bmap\b|range|skeleton|skull|diagram|drawing|illustration|painting|"
@@ -55,7 +58,7 @@ def get(url, tries=5):
             return urllib.request.urlopen(req, timeout=120)
         except urllib.error.HTTPError as e:
             if e.code == 429 and attempt < tries - 1:
-                wait = 5 * (attempt + 1)
+                wait = int(e.headers.get("Retry-After") or 0) or 20 * (attempt + 1)
                 print(f"  429 from Commons, waiting {wait}s")
                 time.sleep(wait)
                 continue
@@ -147,6 +150,10 @@ def main(species_list):
         slug = re.sub(r"[^a-z0-9]+", "-", species.lower()).strip("-")
         d = RAW / slug
         d.mkdir(exist_ok=True)
+        cj = d / "credits.json"
+        if cj.exists() and len(json.loads(cj.read_text(encoding="utf-8"))) >= 3 and "--refresh" not in sys.argv:
+            print(f"{slug}: already fetched")
+            continue
         for old in d.glob("*"):          # start clean so stale picks don't linger
             old.unlink()
         picks = candidates(species)[:PER_SPECIES]
@@ -155,7 +162,7 @@ def main(species_list):
             ext = ".png" if c["thumb"].lower().endswith(".png") else ".jpg"
             dest = d / f"{i:02d}{ext}"
             download(c["thumb"], dest)
-            time.sleep(1.5)
+            time.sleep(4)
             c["file"] = dest.name
             credits.append(c)
             print(f"{slug}: {dest.name}  {c['license']:14} {c['width']}x{c['height']}  {c['title']}")

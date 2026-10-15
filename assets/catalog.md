@@ -1,0 +1,171 @@
+# Media catalog
+
+Use the `ref` exactly in specs. Video refs may add `@<start seconds>`.
+
+## videos (60 across 24 species)
+
+- `video:ai-generated/01.webm` — 22.7s landscape — Veo 3 demo Owl and Badger
+- `video:ant/01.webm` — 4.6s portrait — Ant nest in my swimming pool video
+- `video:ant/02.webm` — 30.6s landscape — Blackants-bredcrust-tokyo-may2015
+- `video:ant/03.webm` — 35.0s landscape — Ant trail on concrete kerb
+- `video:butterfly/01.webm` — 41.9s landscape — Papilio butterfly in Tokyo in April
+- `video:butterfly/02.webm` — 33.7s landscape — Yellow butterfly clip
+- `video:butterfly/03.webm` — 23.1s landscape — Butterfly-1026790, Dingle Peninsula, Co. Kerry, Ireland
+- `video:chameleon/01.webm` — 39.8s landscape — Chameleons' Eye Coordinatios - 01
+- `video:chameleon/02.webm` — 39.8s landscape — Chameleons' Eye Coordination 01
+- `video:chameleon/03.webm` — 32.0s landscape — Chameleon 02
+- `video:crocodile/01.webm` — 20.7s landscape — Nairobi National Park (August 2025) Nile crocodile
+- `video:dragonfly/01.webm` — 31.3s landscape — 042 European bee-eater trying to swallow an Emperor dragonfly in Pfyn-Finges Video by Gile
+- `video:elephant/01.webm` — 31.0s landscape — Pinnawala-Elephant-Orphanage-03
+- `video:elephant/02.webm` — 27.0s landscape — Pinnawala-Elephant-Orphanage-02
+- `video:elephant/03.webm` — 36.1s landscape — Pinnawala-Elephant-Orphanage-05
+- `video:flamingo/01.webm` — 24.2s landscape — 045 Greater flamingos courtship display in the Camargue during mating season (slow motion)
+- `video:flamingo/02.webm` — 16.1s landscape — 043 Greater flamingo vocalizing in the Camargue during mating season (slow motion) Video b
+- `video:flamingo/03.webm` — 6.1s landscape — 046 Greater flamingos courtship display in the Camargue during mating season (normal speed
+- `video:forest-trail/01.webm` — 30.8s landscape — Crayfish on stream-bed stones, clear water (Wolf Creek Falls Trail, USA)
+- `video:forest-trail/02.webm` — 28.0s landscape — Crayfish on stream-bed stones, clear water (Wolf Creek Falls Trail, USA)
+- `video:forest-trail/03.webm` — 19.5s landscape — Forest stream and rocky creek bed from a trail (Wolf Creek Falls Trail, USA)
+- `video:frog/01.webm` — 50.1s landscape — Frog croaking after rain
+- `video:frog/02.webm` — 30.1s landscape — 2023-02-17 ZOO LJUBLJANA - frog 8
+- `video:frog/03.webm` — 30.7s landscape — Cuernos de Negros Nailig frog-croaking
+- `video:honey-bee/01.webm` — 28.4s landscape — 20240728 honey bee hive wood parcel wm
+- `video:honey-bee/02.webm` — 76.0s landscape — Western honey bees (Apis mellifera)
+- `video:honey-bee/03.webm` — 28.0s landscape — Apis mellifera-pollinia
+- `video:hornbill/01.webm` — 26.8s landscape — Oriental-pied hornbill, Anthracoceros albirostris - khao yai national park
+- `video:hornbill/02.webm` — 16.3s landscape — Southern Yellow-billed Hornbill (Tockus leucomelas) male ...
+- `video:hornbill/03.webm` — 15.7s landscape — Abyssinian ground hornbill
+- `video:hummingbird/01.webm` — 32.0s landscape — 20240707 hummingbird wm 1 hlg 04
+- `video:hummingbird/02.webm` — 24.5s landscape — 20240707 hummingbird wm 1 hlg 03
+- `video:hummingbird/03.webm` — 11.5s landscape — 20240707 hummingbird wm 1 hlg 06
+- `video:kingfisher/01.webm` — 15.3s landscape — 004 Pied kingfisher at Queen Elizabeth National Park Video by Giles Laurent
+- `video:kingfisher/02.webm` — 26.9s landscape — Kingfisher 2025 09 28 01
+- `video:kingfisher/03.webm` — 25.6s landscape — Common Kingfisher preening
+- `video:langur/01.webm` — 63.8s landscape — Langurs Grooming in Community
+- `video:leopard/01.webm` — 15.5s landscape — Leopard (Panthera pardus), in Uttarakhand, India
+- `video:leopard/02.webm` — 12.8s landscape — Day 40 - Leopard (Panthera pardus) male licking its fur, after killing a warthog ...
+- `video:leopard/03.webm` — 11.4s landscape — Leopard (Panthera pardus) male ...
+- `video:macaque/01.webm` — 5.3s landscape — Crab eating macaque walking
+- `video:macaque/02.webm` — 65.7s landscape — Japanese macaques (Macaca fuscata) in Tokyo
+- `video:octopus/01.webm` — 29.3s landscape — Sealife-Munich-Octopus-2
+- `video:octopus/02.webm` — 16.8s landscape — Sealife-Munich-Octopus
+- `video:octopus/03.webm` — 45.1s landscape — Krake (Octopus vulgaris) im Roten Meer. Ägypten. Осьминог в Красном море DSCF1712
+- `video:otter/03.webm` — 27.4s landscape — Sea otter. Enhydra lutris video
+- `video:owl/01.webm` — 25.1s landscape — 20241205 blue jay mobbing barred owl defensive aggression
+- `video:owl/03.webm` — 20.5s landscape — 20241022 great horned owl hockanum river lt wm
+- `video:peafowl/01.webm` — 31.1s landscape — Peacock dance, at Botanical Garden Hyderabad
+- `video:peafowl/02.webm` — 18.5s landscape — 2024-06-01 LJUBLJANA ZOO LJUBLJANA - Pavo cristatus
+- `video:peafowl/03.webm` — 97.3s landscape — 2024-06-01 LJUBLJANA ZOO LJUBLJANA - Pavo cristatus 2
+- `video:snake/01.webm` — 25.1s landscape — Great Blue Heron Eating Snake 01
+- `video:snake/02.webm` — 16.6s landscape — Snake at Rowena Crest Viewpoint, 01
+- `video:snake/03.webm` — 10.7s landscape — 16-Grass-Snake-nX-a60
+- `video:spider/01.webm` — 43.6s landscape — Ferrari F430 Spider driving as viewed from FPV drone
+- `video:spider/02.webm` — 51.0s landscape — Spider wasp drags Tarantula into hole
+- `video:spider/03.webm` — 21.3s portrait — Spider removing a leaf
+- `video:tiger/01.webm` — 23.2s landscape — Releasing a Siberian tiger in Russia
+- `video:tiger/02.webm` — 37.0s landscape — Tiger playing with a piece of wood in a pool
+- `video:tiger/03.webm` — 12.6s landscape — 2023-02-17 ZOO LJUBLJANA Panthera tigris altaica SIBIRSKI TIGER
+
+## photos (102 across 34 species)
+
+- `photo:asian-elephant/01.jpg` — landscape — Asian Elephants - 53214244986
+- `photo:asian-elephant/02.jpg` — landscape — Sitting Asian elephant (Elephas maximus) bathing in Tad Lo river, Laos
+- `photo:asian-elephant/03.jpg` — landscape — Asian elephant walking in Tad Lo river at golden hour, Bolaven Plateau, Laos
+- `photo:asian-elephant/04.jpg` — landscape — Asian Elephants (23541542894)
+- `photo:axolotl/01.jpg` — landscape — Oniria - Axolotl 04
+- `photo:axolotl/02.jpg` — landscape — Ambystoma mexicanum.101 - Aquarium Finisterrae
+- `photo:axolotl/03.jpg` — landscape — Larva de axolote dentro del huevo aún sin eclosionar
+- `photo:axolotl/04.jpg` — landscape — Neurulación de huevo de axolote Ambystoma Mexicanum
+- `photo:barn-owl/01.jpg` — landscape — Tyto alba - Cetrería - 01
+- `photo:barn-owl/04.jpg` — landscape — Tyto alba tylluan wen
+- `photo:butterfly/02.jpg` — landscape — Common brimstone butterfly (Gonepteryx rhamni) male
+- `photo:chameleon/02.jpg` — landscape — Nice chameleon portrait
+- `photo:chameleon/03.jpg` — landscape — Panther chameleon (Furcifer pardalis) male Montagne d’Ambre 3
+- `photo:chameleon/04.jpg` — portrait — Chameleon in Gombe
+- `photo:cheetah/01.jpg` — landscape — 003 Cheetah hissing after a meal in Kalahari Desert Photo by Giles Laurent
+- `photo:cheetah/02.jpg` — landscape — 037 Cheetah close-up in the Serengeti National Park Photo by Giles Laurent
+- `photo:cheetah/03.jpg` — landscape — Cheetah vs leopard vs jaguar all no text
+- `photo:cheetah/04.jpg` — landscape — Cheetah looking on photographer
+- `photo:dragonfly/01.jpg` — landscape — Dragonfly in the Okefenokee
+- `photo:dragonfly/02.jpg` — landscape — Chalk-fronted Corporal Ladona julia male dragonfly on rural fence,Ontario 9184
+- `photo:dragonfly/04.jpg` — landscape — Autumn Meadowhawk Sympetrum vicinum Dragonfly prob female 2792
+- `photo:firefly/02.jpg` — landscape — Firefly larva feeding on snail by Raju Kasambe DSCN4504 (1) 01
+- `photo:firefly/03.jpg` — landscape — Lampyris Noctiluca Female Firefly 3
+- `photo:firefly/04.jpg` — portrait — Lamprigera firefly larva
+- `photo:flamingo/01.jpg` — landscape — Flamingo, Las Salinas Natural Park, Ibiza
+- `photo:flamingo/02.jpg` — landscape — Flamingos at Hirm Lake - 02
+- `photo:flamingo/04.jpg` — landscape — Flamingos, Celestún 2026 04
+- `photo:fruit-bat/01.jpg` — landscape — Fruit Bat (flying fox) (36579525081)
+- `photo:fruit-bat/02.jpg` — landscape — Fruit Bat (flying fox) (36548685872)
+- `photo:fruit-bat/03.jpg` — landscape — Fruit Bat (flying fox) (36579516351)
+- `photo:fruit-bat/04.jpg` — landscape — Fruit bats at Mataranka Thermal Pool, June 1995
+- `photo:gharial/04.jpg` — landscape — Female Gharial crocodile at Babai River, Bardiya National Park
+- `photo:honey-bee/01.jpg` — landscape — Apis mellifera on nepeta1
+- `photo:honey-bee/02.jpg` — landscape — Two bees absorbing pollen from an Iceland poppy in the flower garden of Gyeongju South Kor
+- `photo:honey-bee/04.jpg` — landscape — Honigbiene (Apis mellifera) Sonnenbraut (Helenium)-20250829-RM-163011
+- `photo:hornbill/01.jpg` — landscape — Indian Gray Hornbill,
+- `photo:hornbill/02.jpg` — portrait — Hornbill Ceiling - panoramio
+- `photo:hornbill/03.jpg` — landscape — Rufous-headed Hornbill
+- `photo:hummingbird/02.jpg` — landscape — 002 Lesser violetear displaying its ears to a Green-crowned brilliant in Los Quetzales Nat
+- `photo:hummingbird/03.jpg` — landscape — Many-spotted hummingbird (Taphrospilus hypostictus) in flight Sumaco
+- `photo:hummingbird/04.jpg` — landscape — Anna's hummingbird (Calypte anna) male in flight Campbell River
+- `photo:jellyfish/01.jpg` — landscape — Jellyfish on the beach in Bolinas, California
+- `photo:jellyfish/02.jpg` — landscape — Flensburg 2015-08 img13 jellyfish in bay water
+- `photo:jellyfish/03.jpg` — landscape — Jellyfish from Corpus Christi
+- `photo:jellyfish/04.jpg` — landscape — Hydrozoa jellyfish (Aequorea sp) Bruny
+- `photo:king-cobra/02.jpg` — landscape — King cobra killing reticulated python - Kaeng Krachan National Park (26060286866)
+- `photo:king-cobra/03.jpg` — portrait — King cobra at Pulikurumba
+- `photo:kingfisher/01.jpg` — landscape — Kingfisher with catch
+- `photo:kingfisher/02.jpg` — landscape — Brown-winged Kingfisher by Tisha Mukherjee 14
+- `photo:leopard/01.jpg` — landscape — 049 Leopard looking through the grass at Queen Elizabeth National Park Photo by Giles Laur
+- `photo:leopard/02.jpg` — landscape — Leopard of Nepal
+- `photo:leopard/04.jpg` — landscape — Serengeti National Park 07 - Leopard - Panthera pardus
+- `photo:lion/01.jpg` — landscape — 002 The lion king Snyggve in the Serengeti National Park Photo by Giles Laurent
+- `photo:lion/02.jpg` — landscape — Nijeberkoop The Netherlands Lion Diego at FELIDA Big Cat Sanctuary 1
+- `photo:lion/04.jpg` — landscape — Family of lions during the mating season
+- `photo:macaque/01.jpg` — landscape — Macaque Grooming Session
+- `photo:macaque/02.jpg` — portrait — Crab-eating macaque (Macaca fascicularis), Baluran National Park
+- `photo:macaque/04.jpg` — landscape — Macaque showing the middle finger
+- `photo:mantis-shrimp/01.jpg` — landscape — Camarón mantis (Odontodactylus scyllarus), Anilao, Filipinas, 2023-08-24, DD 167
+- `photo:mantis-shrimp/02.jpg` — landscape — Camarón mantis (Odontodactylus scyllarus), Anilao, Filipinas, 2023-08-24, DD 165
+- `photo:mantis-shrimp/03.jpg` — landscape — Camarón mantis (Odontodactylus scyllarus), Zanzíbar, Tanzania, 2024-05-29, DD 42
+- `photo:mantis-shrimp/04.jpg` — landscape — Camarón mantis (Odontodactylus scyllarus), Zanzíbar, Tanzania, 2024-06-01, DD 09
+- `photo:monitor-lizard/01.jpg` — landscape — Monitor Lizard Varanus by Vedant Kasambe 03
+- `photo:monitor-lizard/02.jpg` — landscape — Monitor lizard at Keoladeo national park, Rajasthan, India
+- `photo:monitor-lizard/03.jpg` — landscape — Monitor Lizard Varanus by Vedant Kasambe 02
+- `photo:monitor-lizard/04.jpg` — landscape — ഉടുമ്പ് (Monitor lizard) 02
+- `photo:octopus/01.jpg` — portrait — Pulpo azul (Octopus cyanea), Nosy Tanikely, Madagascar, 2025-09-20, DD 64
+- `photo:octopus/02.jpg` — landscape — Pulpo azul (Octopus cyanea), Nosy Tanikely, Madagascar, 2025-09-19, DD 61
+- `photo:octopus/03.jpg` — landscape — Pulpo azul (Octopus cyanea), Nosy Tanikely, Madagascar, 2025-09-19, DD 141
+- `photo:octopus/04.jpg` — landscape — Pulpo azul (Octopus cyanea), Nosy Tanikely, Madagascar, 2025-09-19, DD 60
+- `photo:orca/01.jpg` — landscape — Killer Whales Hunting a Seal
+- `photo:orca/04.jpg` — landscape — Killer Whales Hunting a Crabeater Seal
+- `photo:otter/01.jpg` — landscape — Ridiculously Photogenic Otter (9123154590)
+- `photo:otter/04.jpg` — landscape — River otter Toronto zoo - 36852940324
+- `photo:pangolin/01.jpg` — landscape — Tree pangolin (Phataginus tricuspis) Nyamebe Bepo 5
+- `photo:pangolin/03.jpg` — portrait — Tree pangolin (Phataginus tricuspis) Nyamebe Bepo
+- `photo:pangolin/04.jpg` — portrait — Tree pangolin (Phataginus tricuspis) Nyamebe Bepo 6
+- `photo:peafowl/01.jpg` — portrait — 012 Indian peafowl in Keoladeo National Park Photo by Giles Laurent
+- `photo:peafowl/02.jpg` — landscape — 023 Indian peafowl in Jim Corbett National Park Photo by Giles Laurent
+- `photo:peafowl/03.jpg` — landscape — Pavo cristatus - peafowl - at Castelo - Lisbon
+- `photo:sea-turtle/01.jpg` — landscape — Green sea turtle (Chelonia mydas) Moorea
+- `photo:sea-turtle/02.jpg` — landscape — Sea Turtle in Apo Island
+- `photo:sea-turtle/04.jpg` — landscape — Spotting a Sea Turtle
+- `photo:sloth-bear/01.jpg` — landscape — 077 Sloth bear in Ranthambore National Park Photo by Giles Laurent
+- `photo:sloth-bear/02.jpg` — landscape — Sri Lankan sloth bear photographed in Wilpattu National Park
+- `photo:sloth-bear/03.jpg` — landscape — Sloth Bear with Cubs at Bor tiger reserve, Maharashtra, India
+- `photo:sloth-bear/04.jpg` — landscape — Sloth bear (3)
+- `photo:snow-leopard/01.jpg` — landscape — Panthera uncia - Zoo Karlsruhe 03
+- `photo:snow-leopard/02.jpg` — landscape — Panthera uncia - Zoo Karlsruhe
+- `photo:snow-leopard/03.jpg` — portrait — Panthera uncia - Zoo Karlsruhe 01
+- `photo:snow-leopard/04.jpg` — landscape — Panthera uncia - Zoo Karlsruhe 02
+- `photo:tiger/02.jpg` — landscape — Bengal tiger looking at the camera
+- `photo:tiger/03.jpg` — landscape — Tiger - Flickr - Mathias Appel
+- `photo:tiger/04.jpg` — landscape — DSC4466 Bengal tiger
+- `photo:tree-frog/01.jpg` — landscape — 
+- `photo:weaver-ant/01.jpg` — portrait — Weaver ant nest 6375
+- `photo:weaver-ant/02.jpg` — portrait — Weaver ant nest 6378
+- `photo:weaver-ant/03.jpg` — landscape — Weaver ant
+- `photo:weaver-ant/04.jpg` — landscape — Green Weaver Ant (Oecophylla smaragdina) from Madayipara DSCN2193
+- `photo:wolf/01.jpg` — landscape — The Wolf That Cried Boy (4377025204)
+- `photo:wolf/03.jpg` — landscape — Wolf Wildpark Hundshaupten
+- `photo:wolf/04.jpg` — landscape — Juraparc 06-07-2013 - Wolf resting in the sun

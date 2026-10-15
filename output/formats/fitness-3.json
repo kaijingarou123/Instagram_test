@@ -1,0 +1,28 @@
+{
+  "slug": "fitness-3",
+  "format_tag": "format:fitness",
+  "family": "lifestyle",
+  "variant": 3,
+  "title": "Trail warm-up, animal edition",
+  "risk": "low",
+  "tactic_tags": null,
+  "storyboard": "Film: naturalist leading 4 kids through each warm-up move at a Bengaluru trailhead, side angle, 2 takes",
+  "caption": "Our 1-minute warm-up before a trail.\n\nThe kingfisher move is borrowed from real life: common kingfishers hunt from perches anywhere from a few centimetres to a few metres above the water.\n\nSource: Animal Diversity Web (Alcedo atthis). Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#trailwarmup",
+    "#hikingwithkids",
+    "#bengalurutrails",
+    "#kingfisher"
+  ],
+  "sources": [
+    "https://animaldiversity.org/accounts/Alcedo_atthis/"
+  ],
+  "duration_s": 14.9,
+  "file_mb": 8.68,
+  "credits": [
+    "Photo: Alexis Lours · Wikimedia Commons · CC BY 4.0",
+    "Photo: Bernard DUPONT · Wikimedia Commons · CC BY-SA 2.0",
+    "Photo: Cherubino · Wikimedia Commons · CC BY-SA 3.0",
+    "Photo: Shiv's fotografia · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

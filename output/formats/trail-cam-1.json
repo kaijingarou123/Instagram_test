@@ -1,0 +1,30 @@
+{
+  "slug": "trail-cam-1",
+  "format_tag": "format:trail-cam",
+  "family": "wildlife",
+  "variant": 1,
+  "title": "Every leopard has its own rosettes",
+  "risk": "low",
+  "tactic_tags": [
+    "tactic:hook-text",
+    "tactic:series"
+  ],
+  "storyboard": "Film: our camera-trap clip of a leopard passing on a forest trail (IR night or dawn), 10–15 s",
+  "caption": "Our camera trap doesn't just see a leopard. It sees which leopard.\n\nKarnataka's 2022 estimate was 1,879 leopards, the third-highest of any state.\n\nSource: WII/NTCA 'Status of Leopards in India 2022'; WCS (2012). Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#leopard",
+    "#cameratrap",
+    "#karnataka",
+    "#indianwildlife"
+  ],
+  "sources": [
+    "https://wii.gov.in/images/images/documents/images_2024/leopard_status_2022a.pdf",
+    "https://www.sciencedaily.com/releases/2012/07/120719110938.htm"
+  ],
+  "duration_s": 12.3,
+  "file_mb": 9.38,
+  "credits": [
+    "Photo: Bernard DUPONT · Wikimedia Commons · CC BY-SA 2.0",
+    "Photo: Shiv's fotografia · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

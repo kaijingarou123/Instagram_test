@@ -1,0 +1,61 @@
+{
+  "slug": "prank-1",
+  "format_tag": "format:prank",
+  "family": "humor",
+  "risk": "medium",
+  "variant": 1,
+  "title": "Told my friend we'd see a dinosaur",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": "Film: naturalist tells an adult friend 'dinosaur ahead', then points at a peacock far off; real reaction",
+  "audio": "bed",
+  "scenes": [
+    {
+      "layout": "pip",
+      "duration": 4.0,
+      "media": "photo:peafowl/02.jpg",
+      "pip_label": "Friend's face",
+      "headline": "Told my friend we'd see a live dinosaur on today's trail"
+    },
+    {
+      "layout": "full",
+      "duration": 3.0,
+      "media": "photo:peafowl/01.jpg",
+      "anchor": "top",
+      "headline": "The dinosaur:"
+    },
+    {
+      "layout": "grid",
+      "duration": 4.0,
+      "media_list": [
+        "photo:kingfisher/02.jpg",
+        "photo:hornbill/03.jpg",
+        "photo:barn-owl/04.jpg",
+        "photo:hummingbird/04.jpg"
+      ],
+      "kicker": "More sightings",
+      "headline": "Also dinosaurs"
+    },
+    {
+      "layout": "card",
+      "duration": 5.0,
+      "bg": "moss",
+      "kicker": "Not actually a prank",
+      "headline": "Birds are living dinosaurs",
+      "body": "The ancestor of all birds was a type of dinosaur, so every bird is one. They've been around for at least 155 million years.",
+      "source": "Smithsonian NMNH"
+    }
+  ],
+  "caption": "Technically, I never lied.\n\nFossil discoveries over the past few decades have made the evidence overwhelming: birds descend from small feathered theropod dinosaurs. Spot a few on a Muddy Lessons day trail.\n\nSource: Smithsonian National Museum of Natural History.  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#birdsaredinosaurs",
+    "#peacock",
+    "#dinosaurs",
+    "#birdfacts"
+  ],
+  "sources": [
+    "https://naturalhistory2.si.edu/vt3/NMNH/DT/rails/r10.html"
+  ],
+  "notes": "Harmless word-play prank on a consenting adult friend (no animals approached or disturbed); the 'gotcha' is a true fact. Wild Keoladeo/Corbett peafowl photos."
+}

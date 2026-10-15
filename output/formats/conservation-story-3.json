@@ -1,0 +1,31 @@
+{
+  "slug": "conservation-story-3",
+  "format_tag": "format:conservation-story",
+  "family": "wildlife",
+  "variant": 3,
+  "title": "India's tigers, 1,411 to 3,682",
+  "risk": "low",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": null,
+  "caption": "From 1,411 to 3,682: the tiger estimate India's camera traps produced.\n\nThe 2022 figure is an average within a statistical range of 3,167–3,925 tigers.\n\nSource: NTCA & WII 'Status of Tigers, Co-predators and Prey in India 2022'; IUCN Red List 2022. Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#tiger",
+    "#projecttiger",
+    "#tigercensus",
+    "#indianwildlife"
+  ],
+  "sources": [
+    "https://indiaenvironmentportal.org.in/reports-and-documents/status-of-tigers-co-predators-and-prey-in-india-2022",
+    "https://ntca.gov.in/about-ntca/",
+    "https://dx.doi.org/10.2305/IUCN.UK.2022-1.RLTS.T15955A214862019.en",
+    "https://nationalzoo.si.edu/animals/tiger"
+  ],
+  "duration_s": 12.8,
+  "file_mb": 3.01,
+  "credits": [
+    "Photo: Gurung pratap · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Joselodos · Wikimedia Commons · CC0"
+  ]
+}

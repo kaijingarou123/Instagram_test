@@ -1,0 +1,29 @@
+{
+  "slug": "affiliate-3",
+  "format_tag": "format:affiliate",
+  "family": "commercial",
+  "variant": 3,
+  "title": "Kids' field kit: the pocket hand lens",
+  "risk": "low",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": null,
+  "caption": "#ad | Affiliate link in bio - we may earn a commission at no extra cost to you.\n\nThe cheapest way to make a kid look closer\n\nA honeybee has five eyes: two large compound eyes and three small simple eyes on top of the head. Look for them with a lens on the next bee you see resting.\n\nSource: Britannica. Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#handlens",
+    "#kidsnature",
+    "#dragonfly",
+    "#insectfacts"
+  ],
+  "sources": [
+    "https://www.britannica.com/animal/dragonfly",
+    "https://www.britannica.com/animal/honeybee"
+  ],
+  "duration_s": 14.3,
+  "file_mb": 4.83,
+  "credits": [
+    "Photo: ImagePerson · Wikimedia Commons · CC BY 4.0",
+    "Photo: Tesla Delacroix · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

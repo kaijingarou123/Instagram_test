@@ -1,0 +1,29 @@
+{
+  "slug": "clipfarming-1",
+  "format_tag": "format:clipfarming",
+  "family": "repurposed",
+  "variant": 1,
+  "title": "Clipped: langurs grooming, and who gets groomed most",
+  "risk": "high",
+  "tactic_tags": [
+    "tactic:hook-text",
+    "tactic:series"
+  ],
+  "storyboard": null,
+  "caption": "Grooming isn't just cleaning. It's politics.\n\nHanuman langurs eat mostly leaves (about half their diet) and live from Kashmir and Nepal south to Sri Lanka, often close to people.\n\nSource: Animal Diversity Web.  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#hanumanlangur",
+    "#langur",
+    "#primatebehaviour",
+    "#indianwildlife"
+  ],
+  "sources": [
+    "https://animaldiversity.org/accounts/Semnopithecus_entellus/",
+    "https://commons.wikimedia.org/wiki/File:Langurs_Grooming_in_Community.webm"
+  ],
+  "duration_s": 14.3,
+  "file_mb": 5.08,
+  "credits": [
+    "Photo: Suyash Dwivedi · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "ai-generated-3",
+  "format_tag": "format:ai-generated",
+  "family": "creative",
+  "risk": "medium",
+  "variant": 3,
+  "title": "What we will and won't generate: sloth bear",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": "Generate (AI, labelled): flat diagram of a sloth bear's front-tooth gap; no realistic animal footage",
+  "audio": "bed",
+  "scenes": [
+    {
+      "layout": "card",
+      "duration": 2.5,
+      "bg": "red",
+      "kicker": "Never",
+      "headline": "We won't AI-generate a sloth bear doing anything."
+    },
+    {
+      "layout": "full",
+      "duration": 3.5,
+      "media": "photo:sloth-bear/03.jpg",
+      "kicker": "Real photo · Bor TR",
+      "headline": "Sloth bear mums really do carry cubs on their backs.",
+      "anchor": "top",
+      "focus": [
+        0.5,
+        0.6
+      ]
+    },
+    {
+      "layout": "pip",
+      "duration": 4.0,
+      "media": "photo:sloth-bear/01.jpg",
+      "pip_label": "AI DIAGRAM",
+      "headline": "AI diagram (labelled): the gap in its front teeth",
+      "body": "Missing upper incisors let it suck up termites."
+    },
+    {
+      "layout": "card",
+      "duration": 3.0,
+      "bg": "ink",
+      "kicker": "The rule",
+      "headline": "Diagrams can be generated. Behaviour must be real.",
+      "body": "Every generated frame carries an AI label."
+    }
+  ],
+  "caption": "Real behaviour, real photos. AI only for the diagram.\n\nSloth bears are the only bears that routinely carry their young on their backs; cubs ride on a shaggy 'saddle' of fur until about 6 to 9 months old.\n\nSource: Smithsonian's National Zoo. Tooth diagram: AI-generated (labelled).  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#slothbear",
+    "#indianwildlife",
+    "#aigenerated",
+    "#medialiteracy",
+    "#wildlifefacts"
+  ],
+  "sources": [
+    "https://nationalzoo.si.edu/animals/sloth-bear"
+  ],
+  "notes": "Medium risk: shows the boundary of the format — AI only for a labelled, non-photoreal diagram, while the remarkable behaviour is shown with a real wild photo."
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "remix-stitch-3",
+  "format_tag": "format:remix-stitch",
+  "family": "repurposed",
+  "variant": 3,
+  "title": "Stitch: \"that's just a skinny crocodile\"",
+  "risk": "low",
+  "tactic_tags": null,
+  "storyboard": null,
+  "caption": "Not a crocodile. Not a skinny one either.\n\nGharials historically lived in four river systems: the Indus, Ganges, Mahanadi and Brahmaputra. As they age, their snouts get longer and they eat almost only fish.\n\nSource: Animal Diversity Web.  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#gharial",
+    "#crocodilians",
+    "#gharialconservation",
+    "#reptilesofindia"
+  ],
+  "sources": [
+    "https://animaldiversity.org/accounts/Gavialis_gangeticus/"
+  ],
+  "duration_s": 13.3,
+  "file_mb": 7.06,
+  "credits": [
+    "Photo: Addshore · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Shadow Ayush · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

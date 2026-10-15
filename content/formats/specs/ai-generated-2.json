@@ -1,0 +1,59 @@
+{
+  "slug": "ai-generated-2",
+  "format_tag": "format:ai-generated",
+  "family": "creative",
+  "risk": "medium",
+  "variant": 2,
+  "title": "Western Ghats as a paper diorama (AI)",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": "Generate (AI, labelled): paper-craft Western Ghats diorama, monsoon clouds hitting the west slope; no animals",
+  "audio": "bed",
+  "scenes": [
+    {
+      "layout": "card",
+      "duration": 3.0,
+      "bg": "moss",
+      "kicker": "AI-generated diorama",
+      "headline": "Why the Western Ghats stay so green"
+    },
+    {
+      "layout": "card",
+      "duration": 4.0,
+      "bg": "cream",
+      "kicker": "AI visual · labelled",
+      "headline": "The Ghats block rain-laden south-west monsoon winds",
+      "body": "Generated paper-craft model, not real footage.",
+      "source": "UNESCO World Heritage Centre"
+    },
+    {
+      "layout": "full",
+      "duration": 3.5,
+      "media": "photo:asian-elephant/03.jpg",
+      "kicker": "Real photo · elephant",
+      "headline": "The Ghats hold part of the largest Asian elephant population.",
+      "anchor": "top",
+      "motion": "pan-left"
+    },
+    {
+      "layout": "card",
+      "duration": 3.0,
+      "bg": "ink",
+      "kicker": "How we use AI",
+      "headline": "Landscapes and diagrams: yes. Fake animals: never."
+    }
+  ],
+  "caption": "A paper-craft mountain range, generated and labelled.\n\nThe Western Ghats are a UNESCO World Heritage Site and are older than the Himalaya; their forests help shape India's monsoon weather.\n\nSource: UNESCO World Heritage Centre. Diorama: AI-generated (labelled). Elephant photo taken in Laos.  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#westernghats",
+    "#monsoon",
+    "#biodiversityhotspot",
+    "#aigenerated",
+    "#geographyforkids"
+  ],
+  "sources": [
+    "https://whc.unesco.org/en/list/1342"
+  ],
+  "notes": "Medium risk: AI used only for a stylised geography model with the label on screen; the elephant photo is real (from Laos, stated in caption) and illustrates the species, not the place."
+}

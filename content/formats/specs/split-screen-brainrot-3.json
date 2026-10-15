@@ -1,0 +1,68 @@
+{
+  "slug": "split-screen-brainrot-3",
+  "format_tag": "format:split-screen-brainrot",
+  "family": "repurposed",
+  "risk": "high",
+  "variant": 3,
+  "title": "Storytime split-screen: the tiger who got a second chance",
+  "storyboard": null,
+  "audio": "bed",
+  "scenes": [
+    {
+      "layout": "split",
+      "media": "video:tiger/01.webm@0",
+      "media_b": "video:forest-trail/01.webm@2",
+      "duration": 4.5,
+      "headline": "Storytime: a tiger's second chance",
+      "subtitle": [
+        "A 3-year-old",
+        "Amur tiger",
+        "was labelled",
+        "a 'conflict tiger'"
+      ]
+    },
+    {
+      "layout": "split",
+      "media": "video:tiger/01.webm@12",
+      "media_b": "video:forest-trail/01.webm@8",
+      "duration": 4.5,
+      "subtitle": [
+        "His forest",
+        "had too little prey",
+        "so he was caught",
+        "and fitted with a collar"
+      ]
+    },
+    {
+      "layout": "split",
+      "media": "video:tiger/01.webm@18",
+      "media_b": "video:forest-trail/01.webm@14",
+      "duration": 4.5,
+      "subtitle": [
+        "then released",
+        "into a mountain region",
+        "of the Russian Far East"
+      ]
+    },
+    {
+      "layout": "card",
+      "duration": 3.0,
+      "bg": "night",
+      "kicker": "AMUR TIGER",
+      "headline": "The largest tiger: up to about 300 kg",
+      "source": "Britannica"
+    }
+  ],
+  "caption": "Instead of a cage, a new home.\n\nWWF filmed this release of a young male labelled a 'conflict tiger' in a prey-depleted area of the Russian Far East.\n\nSource: WWF footage on Wikimedia Commons; Britannica.  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#amurtiger",
+    "#siberiantiger",
+    "#tigerconservation",
+    "#wildlifestory"
+  ],
+  "sources": [
+    "https://commons.wikimedia.org/wiki/File:Releasing_a_Siberian_tiger_in_Russia.webm",
+    "https://www.britannica.com/animal/tiger"
+  ],
+  "notes": "Brainrot demo: true release story (CC BY WWF clip) on top, calm clear stream (BLM, public domain) below. Real format is high-risk with third-party footage (unoriginal/copyright); only OK with our own or CC-licensed media plus added context, as here."
+}

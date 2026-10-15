@@ -1,0 +1,60 @@
+{
+  "slug": "fact-over-footage-1",
+  "format_tag": "format:fact-over-footage",
+  "family": "wildlife",
+  "risk": "low",
+  "variant": 1,
+  "title": "A peacock's train isn't its tail",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": null,
+  "audio": "bed",
+  "scenes": [
+    {
+      "layout": "full",
+      "media": "video:peafowl/01.webm@1",
+      "duration": 3.0,
+      "kicker": "Indian peafowl",
+      "headline": "That's not a tail."
+    },
+    {
+      "layout": "full",
+      "media": "video:peafowl/01.webm@8",
+      "duration": 3.5,
+      "headline": "It's a train of upper tail coverts",
+      "body": "The long eyespot feathers grow from above the tail. The real tail is shorter, behind them.",
+      "source": "Dakin et al. 2016, PLOS ONE"
+    },
+    {
+      "layout": "stat",
+      "media": "video:peafowl/01.webm@14",
+      "duration": 3.5,
+      "stat": "25.6 Hz",
+      "label": "average 'train-rattling' shake",
+      "body": "His real tail feathers strum the train about 26 times a second.",
+      "source": "Dakin et al. 2016, PLOS ONE"
+    },
+    {
+      "layout": "stat",
+      "media": "photo:peafowl/02.jpg",
+      "duration": 3.5,
+      "stat": "1.2 m",
+      "label": "average train length",
+      "body": "Shed each year and regrown before the breeding season.",
+      "source": "Animal Diversity Web"
+    }
+  ],
+  "caption": "The most famous 'tail' in India isn't a tail.\n\nHigh-speed video showed the feather array resonates at the same frequencies peacocks use to rattle it, so the shake costs less energy.\n\nSource: Dakin et al. 2016, PLOS ONE; Animal Diversity Web. Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#peacock",
+    "#indianpeafowl",
+    "#birdfacts",
+    "#animalbehaviour"
+  ],
+  "sources": [
+    "https://doi.org/10.1371/journal.pone.0152759",
+    "https://animaldiversity.org/accounts/Pavo_cristatus/"
+  ],
+  "notes": "Our core style: designed facts layered on one clip, each scene adds a new number. Original because the overlay carries peer-reviewed information the footage alone doesn't."
+}

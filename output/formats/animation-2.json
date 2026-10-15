@@ -1,0 +1,30 @@
+{
+  "slug": "animation-2",
+  "format_tag": "format:animation",
+  "family": "creative",
+  "variant": 2,
+  "title": "Mantis shrimp eyes, animated",
+  "risk": "low",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": null,
+  "caption": "12 colour channels and still bad at shades.\n\nIn tests, mantis shrimp struggled to tell apart colours that humans separate easily. The best explanation: their eyes are built for quick colour recognition, not fine comparison.\n\nSource: Thoen et al. 2014, Science; Journal of Experimental Biology review (2022).  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#mantisshrimp",
+    "#colorvision",
+    "#marinebiology",
+    "#animalsenses",
+    "#sciencefacts"
+  ],
+  "sources": [
+    "https://pubmed.ncbi.nlm.nih.gov/24458639/",
+    "https://journals.biologists.com/jeb/article/225/6/jeb243699/274835/Colour-vision-in-stomatopod-crustaceans-more",
+    "https://www.fs.usda.gov/wildflowers/pollinators/animals/bees.shtml"
+  ],
+  "duration_s": 13.8,
+  "file_mb": 1.15,
+  "credits": [
+    "Photo: Diego Delso · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

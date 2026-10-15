@@ -1,0 +1,33 @@
+{
+  "slug": "species-id-2",
+  "format_tag": "format:species-id",
+  "family": "wildlife",
+  "variant": 2,
+  "title": "3 kingfishers, 3 clues",
+  "risk": "low",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": null,
+  "caption": "Not every kingfisher is the blue one.\n\nThe brown-winged kingfisher lives only along the coasts of the Bay of Bengal and is listed Near Threatened because mangroves are being lost.\n\nSource: eBird (Cornell Lab); BirdLife International. Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#kingfisher",
+    "#piedkingfisher",
+    "#birdid",
+    "#indianbirds"
+  ],
+  "sources": [
+    "https://ebird.org/species/comkin1",
+    "https://ebird.org/species/piekin1",
+    "https://ebird.org/species/bnwkin1",
+    "https://datazone.birdlife.org/species/factsheet/brown-winged-kingfisher-pelargopsis-amauroptera"
+  ],
+  "duration_s": 15.4,
+  "file_mb": 3.17,
+  "credits": [
+    "Photo: Alexis Lours · Wikimedia Commons · CC BY 4.0",
+    "Photo: Anirudhanmuthuvara · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Giles Laurent · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Tisha Mukherjee · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

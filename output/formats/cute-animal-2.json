@@ -1,0 +1,28 @@
+{
+  "slug": "cute-animal-2",
+  "format_tag": "format:cute-animal",
+  "family": "wildlife",
+  "variant": 2,
+  "title": "Langur spa day",
+  "risk": "high",
+  "tactic_tags": [
+    "tactic:hook-text",
+    "tactic:loop"
+  ],
+  "storyboard": null,
+  "caption": "Ten minutes of grooming is ten minutes of politics.\n\nLangurs are mainly leaf-eaters: leaves make up about half to three-fifths of their diet.\n\nSource: Animal Diversity Web, Semnopithecus entellus. Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#langur",
+    "#graylangur",
+    "#primates",
+    "#indianwildlife"
+  ],
+  "sources": [
+    "https://animaldiversity.org/accounts/Semnopithecus_entellus/"
+  ],
+  "duration_s": 12.8,
+  "file_mb": 5.8,
+  "credits": [
+    "Photo: Suyash Dwivedi · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

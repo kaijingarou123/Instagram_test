@@ -1,0 +1,55 @@
+{
+  "slug": "reaction-3",
+  "format_tag": "format:reaction",
+  "family": "repurposed",
+  "risk": "medium",
+  "variant": 3,
+  "title": "Naturalist reacts: elephant bath time",
+  "storyboard": "Film: naturalist at a desk reacting to the clip, pointing at the ears on screen, 2 takes",
+  "audio": "bed",
+  "scenes": [
+    {
+      "layout": "pip",
+      "media": "video:elephant/02.webm@2",
+      "duration": 3.5,
+      "pip_label": "NATURALIST",
+      "headline": "Elephant bath time. What's going on?"
+    },
+    {
+      "layout": "pip",
+      "media": "video:elephant/02.webm@8",
+      "duration": 4.5,
+      "pip_label": "NATURALIST",
+      "headline": "Big ears work like radiators",
+      "body": "Flapping cools the blood in the ear veins and can lower body temperature by several degrees."
+    },
+    {
+      "layout": "full",
+      "media": "video:elephant/02.webm@16",
+      "duration": 4.0,
+      "headline": "Next trick: dirt and mud as sunscreen",
+      "body": "It protects the skin from sun and bugs.",
+      "source": "Smithsonian's National Zoo"
+    },
+    {
+      "layout": "card",
+      "duration": 3.0,
+      "bg": "moss",
+      "kicker": "CONTEXT",
+      "headline": "Filmed at Pinnawala orphanage, Sri Lanka",
+      "body": "A managed orphanage herd in the Maha Oya river, not a wild herd."
+    }
+  ],
+  "caption": "Why do elephants bathe so much?\n\nAsian elephants in the wild drink about 189 litres (50 gallons) of water a day and eat 74-150 kg of food.\n\nSource: Smithsonian's National Zoo.  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#asianelephant",
+    "#elephantfacts",
+    "#pinnawala",
+    "#naturalist"
+  ],
+  "sources": [
+    "https://nationalzoo.si.edu/animals/asian-elephant",
+    "https://commons.wikimedia.org/wiki/File:Pinnawala-Elephant-Orphanage-02.webm"
+  ],
+  "notes": "Reaction demo: commentary explains behaviour and flags the captive setting; inset is a placeholder for the real reactor."
+}

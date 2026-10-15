@@ -1,0 +1,26 @@
+{
+  "slug": "faceless-voiceover-2",
+  "format_tag": "format:faceless-voiceover",
+  "family": "repurposed",
+  "variant": 2,
+  "title": "The shrimp that punches like a bullet",
+  "risk": "medium",
+  "tactic_tags": null,
+  "storyboard": null,
+  "caption": "Small animal, record-breaking punch.\n\nResearchers filmed strikes at up to 5,000 frames per second and found the shrimp may use cavitation forces to damage hard-shelled prey.\n\nSource: Patek, Korff & Caldwell 2004, Nature.  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#mantisshrimp",
+    "#peacockmantisshrimp",
+    "#marinebiology",
+    "#oceanfacts"
+  ],
+  "sources": [
+    "https://pubmed.ncbi.nlm.nih.gov/15103366/",
+    "https://ib.berkeley.edu/labs/patek/shrimpMechanics/Pateketal2004Nature.pdf"
+  ],
+  "duration_s": 13.8,
+  "file_mb": 2.17,
+  "credits": [
+    "Photo: Diego Delso · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "listicle-2",
+  "format_tag": "format:listicle",
+  "family": "educational",
+  "variant": 2,
+  "title": "3 animals that see the world differently",
+  "risk": "low",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": null,
+  "caption": "Three animals whose eyes break the rules.\n\nThe owl findings come from Johns Hopkins scans of snowy, barred and great horned owls; 12 of their 14 neck vertebrae have extra room around the main artery.\n\nSources: Florida Museum of Natural History; Johns Hopkins (Science, 2013); UC Berkeley Understanding Evolution. Footage: great horned owl. Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#animalvision",
+    "#chameleon",
+    "#owl",
+    "#octopus",
+    "#sciencefacts"
+  ],
+  "sources": [
+    "https://www.floridamuseum.ufl.edu/science/scientists-discover-chameleons-telephone-cord-like-optic-nerves-once-overlooked-by-aristotle-and-newton/",
+    "https://www.sciencedaily.com/releases/2013/01/130131144102.htm",
+    "https://evolution.berkeley.edu/how-your-eye-works"
+  ],
+  "duration_s": 16.4,
+  "file_mb": 3.79,
+  "credits": [
+    "Photo: Charles J. Sharp · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Diego Delso · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Knowledge and philosophy · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Paul Danese · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

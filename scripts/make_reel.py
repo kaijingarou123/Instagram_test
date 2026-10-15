@@ -152,6 +152,7 @@ def render(spec_path):
         "slug": spec["slug"], "format": "reel", "size": f"{W}x{H}", "fps": FPS,
         "duration_s": round(total_s, 2), "scenes": len(scenes), "audio": "generated ambient bed (CC0-equivalent)",
         "caption_chars": len(caption), "hashtags": spec.get("hashtags", []),
+        "format_tags": spec.get("format_tags", []),
         "sources": spec.get("sources", []), "photo_credits": [credit_line(c) for c in credits],
         "file_mb": round(mp4.stat().st_size / 1e6, 2),
     }

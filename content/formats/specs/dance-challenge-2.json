@@ -1,0 +1,65 @@
+{
+  "slug": "dance-challenge-2",
+  "format_tag": "format:dance-challenge",
+  "family": "creative",
+  "risk": "low",
+  "variant": 2,
+  "title": "Nature's dance-off: display vs directions",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": null,
+  "audio": "beat",
+  "scenes": [
+    {
+      "layout": "split",
+      "duration": 3.5,
+      "media": "video:peafowl/01.webm@22",
+      "media_b": "photo:hummingbird/02.jpg",
+      "label_a": "Indian peafowl",
+      "label_b": "Lesser violetear",
+      "headline": "Dance-off, round 1: the show-offs",
+      "body": "Peacock: train up and rattling. Hummingbird: wings out, tail fanned."
+    },
+    {
+      "layout": "full",
+      "duration": 3.5,
+      "media": "photo:honey-bee/01.jpg",
+      "kicker": "Round 2 · honey bee",
+      "headline": "This dancer performs in the dark, inside the hive.",
+      "anchor": "top",
+      "motion": "in"
+    },
+    {
+      "layout": "full",
+      "duration": 3.5,
+      "media": "photo:honey-bee/04.jpg",
+      "kicker": "The waggle dance",
+      "headline": "Angle = direction to food. Waggle time = distance.",
+      "anchor": "top",
+      "motion": "pan-left"
+    },
+    {
+      "layout": "card",
+      "duration": 3.0,
+      "bg": "ink",
+      "kicker": "Winner",
+      "headline": "The bee. Its dance gives directions.",
+      "body": "Karl von Frisch shared the 1973 Nobel Prize partly for decoding it."
+    }
+  ],
+  "caption": "Two dances to impress, one dance with a message.\n\nA forager bee's waggle run is angled relative to the sun's direction, and the longer it waggles, the farther away the flowers are.\n\nSource: Britannica, NobelPrize.org.  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#honeybee",
+    "#waggledance",
+    "#peacock",
+    "#hummingbird",
+    "#animalbehaviour"
+  ],
+  "sources": [
+    "https://www.britannica.com/science/bee-dance",
+    "https://www.nobelprize.org/prizes/medicine/1973/summary/",
+    "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0152759"
+  ],
+  "notes": "Bracket-style dance-off across three species; bee shots are portraits of the dancer (labelled as dancing inside the hive), not footage of the dance itself."
+}

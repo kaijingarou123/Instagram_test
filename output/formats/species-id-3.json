@@ -1,0 +1,31 @@
+{
+  "slug": "species-id-3",
+  "format_tag": "format:species-id",
+  "family": "wildlife",
+  "variant": 3,
+  "title": "Langur or macaque?",
+  "risk": "low",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": null,
+  "caption": "Two monkeys you'll meet on Indian trails, and how to tell them apart.\n\nLangurs are mainly leaf-eaters; macaques are omnivores that eat fruit, seeds, insects and much more.\n\nSource: Animal Diversity Web; Britannica. Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#langur",
+    "#macaque",
+    "#primates",
+    "#speciesid"
+  ],
+  "sources": [
+    "https://animaldiversity.org/accounts/Semnopithecus_entellus/",
+    "https://www.britannica.com/animal/langur",
+    "https://www.britannica.com/animal/macaque",
+    "https://animaldiversity.org/accounts/Macaca_fascicularis/"
+  ],
+  "duration_s": 12.8,
+  "file_mb": 4.52,
+  "credits": [
+    "Photo: Detravieso · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Suyash Dwivedi · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

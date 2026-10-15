@@ -1,0 +1,28 @@
+{
+  "slug": "clipfarming-3",
+  "format_tag": "format:clipfarming",
+  "family": "repurposed",
+  "variant": 3,
+  "title": "Clipped: spot the octopus on the reef",
+  "risk": "high",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": null,
+  "caption": "Hidden in plain sight, then gone.\n\nOctopuses can learn: they tell objects apart by sight, touch and chemical cues. Females often wall their dens with shells and stones.\n\nSource: Animal Diversity Web.  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#octopus",
+    "#camouflage",
+    "#redsea",
+    "#marinebiology"
+  ],
+  "sources": [
+    "https://animaldiversity.org/accounts/Octopus_vulgaris/",
+    "https://commons.wikimedia.org/wiki/File:Krake_(Octopus_vulgaris)_im_Roten_Meer._%C3%84gypten._%D0%9E%D1%81%D1%8C%D0%BC%D0%B8%D0%BD%D0%BE%D0%B3_%D0%B2_%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D0%BC_%D0%BC%D0%BE%D1%80%D0%B5_DSCF1712.webm"
+  ],
+  "duration_s": 13.8,
+  "file_mb": 9.24,
+  "credits": [
+    "Photo: Kora27 · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

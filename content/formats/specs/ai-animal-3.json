@@ -1,0 +1,57 @@
+{
+  "slug": "ai-animal-3",
+  "format_tag": "format:ai-animal",
+  "family": "wildlife",
+  "risk": "avoid",
+  "variant": 3,
+  "title": "Why we never post AI animals",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": null,
+  "audio": "bed",
+  "scenes": [
+    {
+      "layout": "full",
+      "media": "video:ai-generated/01.webm@16",
+      "duration": 3.5,
+      "kicker": "AI-generated",
+      "headline": "A computer invented this 'friendship'."
+    },
+    {
+      "layout": "full",
+      "media": "video:owl/01.webm@2",
+      "duration": 4.0,
+      "kicker": "Real: barred owl, USA",
+      "headline": "Real owl life: getting mobbed",
+      "body": "Small birds like this blue jay gang up on owls, calling loudly to drive them away.",
+      "source": "Cornell Lab of Ornithology"
+    },
+    {
+      "layout": "card",
+      "bg": "ink",
+      "duration": 3.0,
+      "headline": "Fake behaviour spreads as fact",
+      "body": "Children in our nature clubs learn from what they watch. Invented behaviour teaches wrong biology."
+    },
+    {
+      "layout": "card",
+      "bg": "moss",
+      "duration": 3.0,
+      "headline": "Our rule: zero AI animals",
+      "body": "Real clips only, credited, with a place and a date."
+    }
+  ],
+  "caption": "The real owl story is better than the fake one.\n\nOwls trigger especially intense mobbing because they often hunt sleeping birds; the mob tells the owl it has lost the element of surprise.\n\nSource: Cornell Lab of Ornithology, All About Birds. Real clip: Wikimedia Commons (credits on screen); AI clip: Google DeepMind Veo 3 demo (public domain), labelled on screen.",
+  "hashtags": [
+    "#aigenerated",
+    "#owls",
+    "#medialiteracy",
+    "#natureeducation"
+  ],
+  "sources": [
+    "https://www.allaboutbirds.org/news/sometimes-i-see-little-birds-going-after-a-big-bird-why-do-they-do-this/",
+    "https://about.fb.com/news/2024/02/labeling-ai-generated-images-on-facebook-instagram-and-threads/"
+  ],
+  "notes": "AVOID format: anti-pattern explainer that swaps the invented clip for a real, more interesting behaviour; states our no-AI-animals policy. AI clip is labelled throughout."
+}

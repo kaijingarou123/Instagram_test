@@ -1,0 +1,26 @@
+{
+  "slug": "food-recipe-3",
+  "format_tag": "format:food-recipe",
+  "family": "lifestyle",
+  "variant": 3,
+  "title": "Camp trail snack, one rule",
+  "risk": "low",
+  "tactic_tags": null,
+  "storyboard": "Film: overhead of kids mixing trail snack in steel tins at camp; guide sealing pouches before the walk (2 shots)",
+  "caption": "The secret ingredient is self-control.\n\nIn the same study, fed macaques also moved shorter distances each day and dropped seeds on roads, where they rarely grow.\n\nSource: Sengupta, McConkey & Radhakrishna 2015, PLoS ONE. Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#trailsnack",
+    "#dontfeedwildlife",
+    "#naturecamp",
+    "#macaque"
+  ],
+  "sources": [
+    "https://doi.org/10.1371/journal.pone.0140961"
+  ],
+  "duration_s": 16.4,
+  "file_mb": 2.88,
+  "credits": [
+    "Photo: Detravieso · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Suyash Dwivedi · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

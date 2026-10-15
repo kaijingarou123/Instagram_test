@@ -1,0 +1,28 @@
+{
+  "slug": "parody-2",
+  "format_tag": "format:parody",
+  "family": "humor",
+  "variant": 2,
+  "title": "What I eat in a day: king cobra",
+  "risk": "low",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": null,
+  "caption": "Diet culture, but make it reptile.\n\nKing cobras almost exclusively prey on other snakes, and scientists now recognise four species of king cobra. The lunch photo was taken in Kaeng Krachan National Park, Thailand.\n\nSource: Britannica (King cobra).  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#kingcobra",
+    "#snakefacts",
+    "#reptiles",
+    "#indiansnakes"
+  ],
+  "sources": [
+    "https://www.britannica.com/animal/king-cobra"
+  ],
+  "duration_s": 12.2,
+  "file_mb": 1.63,
+  "credits": [
+    "Photo: Nativeplants garden · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Rushen · Wikimedia Commons · CC BY-SA 2.0"
+  ]
+}

@@ -1,0 +1,39 @@
+[
+  {
+    "title": "File:20241205 blue jay mobbing barred owl defensive aggression.webm",
+    "page": "https://commons.wikimedia.org/wiki/File%3A20241205%20blue%20jay%20mobbing%20barred%20owl%20defensive%20aggression.webm",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/06/20241205_blue_jay_mobbing_barred_owl_defensive_aggression.webm/20241205_blue_jay_mobbing_barred_owl_defensive_aggression.webm.480p.vp9.webm",
+    "duration": 25.1,
+    "width": 3840,
+    "height": 2160,
+    "license": "CC BY-SA 4.0",
+    "artist": "Paul Danese",
+    "description": "Blue Jay mobbing Barred Owl Cedar Hill Cemetery, Hartford, CT USA",
+    "file": "01.webm"
+  },
+  {
+    "title": "File:Veo 3 demo Owl and Badger.webm",
+    "page": "https://commons.wikimedia.org/wiki/File%3AVeo%203%20demo%20Owl%20and%20Badger.webm",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/ef/Veo_3_demo_Owl_and_Badger.webm/Veo_3_demo_Owl_and_Badger.webm.480p.vp9.webm",
+    "duration": 22.7,
+    "width": 3840,
+    "height": 2160,
+    "license": "Public domain",
+    "artist": "Google DeepMind",
+    "description": "Created with Veo 3 - our new state-of-the-art video generation model, designed to empower filmmakers and storytellers. Veo 3 lets you add sound effects, ambient noise, and even dialogue to your creations – generating all audio natively. It also delivers best in class quality, excelling in physics, r",
+    "file": "01.webm",
+    "note": "AI-GENERATED (Google Veo 3 demo). Only for AI-format / anti-pattern reels, always labelled as AI."
+  },
+  {
+    "title": "File:20241022 great horned owl hockanum river lt wm.webm",
+    "page": "https://commons.wikimedia.org/wiki/File%3A20241022%20great%20horned%20owl%20hockanum%20river%20lt%20wm.webm",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/80/20241022_great_horned_owl_hockanum_river_lt_wm.webm/20241022_great_horned_owl_hockanum_river_lt_wm.webm.480p.vp9.webm",
+    "duration": 20.5,
+    "width": 3840,
+    "height": 2160,
+    "license": "CC BY-SA 4.0",
+    "artist": "Paul Danese",
+    "description": "Great Horned Owl. Hockanum River Linear Trail. East Hartford, CT USA",
+    "file": "03.webm"
+  }
+]

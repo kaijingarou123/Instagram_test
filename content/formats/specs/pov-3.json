@@ -1,0 +1,53 @@
+{
+  "slug": "pov-3",
+  "format_tag": "format:pov",
+  "family": "humor",
+  "risk": "low",
+  "variant": 3,
+  "title": "POV: chameleon, misunderstood",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": null,
+  "audio": "bed",
+  "scenes": [
+    {
+      "layout": "full",
+      "duration": 4.0,
+      "media": "photo:chameleon/03.jpg",
+      "motion": "in",
+      "anchor": "top",
+      "headline": "POV: you're a chameleon and everyone thinks you change colour to hide"
+    },
+    {
+      "layout": "full",
+      "duration": 3.5,
+      "media": "photo:chameleon/02.jpg",
+      "motion": "pan-left",
+      "anchor": "top",
+      "headline": "You actually do it to show off to rivals and mates"
+    },
+    {
+      "layout": "full",
+      "duration": 5.0,
+      "media": "photo:chameleon/03.jpg",
+      "motion": "pan-right",
+      "anchor": "bottom",
+      "kicker": "And it's not pigment",
+      "headline": "It's tiny crystals in your skin",
+      "body": "Panther chameleons tune a lattice of guanine nanocrystals in skin cells, changing which colours of light bounce back.",
+      "source": "Teyssier et al. 2015, Nature Communications"
+    }
+  ],
+  "caption": "Camouflage is the background. The colour show is the message.\n\nRelaxed male panther chameleons look mostly green; when excited, the crystal spacing widens and they shift toward yellow and orange.\n\nSource: Teyssier et al. 2015, Nature Communications.  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#chameleon",
+    "#pantherchameleon",
+    "#reptilefacts",
+    "#animalcolour"
+  ],
+  "sources": [
+    "https://www.nature.com/articles/ncomms7368"
+  ],
+  "notes": "POV myth-buster: first-person complaint about a common misconception, resolved with the 2015 photonic-crystal finding; panther chameleon photo matches the studied species."
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "trending-audio-2",
+  "format_tag": "format:trending-audio",
+  "family": "humor",
+  "variant": 2,
+  "title": "Tiger leaving the group chat",
+  "risk": "low",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": "Film: creator deadpan lip-syncs an 'I'm out' trending sound, then walks out of frame; cut to crate clip",
+  "caption": "Introvert icon, scientifically.\n\nBeing solitary doesn't mean silent: communication is a very important part of tiger life, through scent marks, scrapes and calls.\n\nSource: Smithsonian's National Zoo (Tiger).  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#tiger",
+    "#amurtiger",
+    "#tigerfacts",
+    "#introvert"
+  ],
+  "sources": [
+    "https://nationalzoo.si.edu/animals/tiger"
+  ],
+  "duration_s": 12.8,
+  "file_mb": 1.91,
+  "credits": [
+    "Photo: WWF Tigers · Wikimedia Commons · CC BY 3.0"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "art-process-2",
+  "format_tag": "format:art-process",
+  "family": "creative",
+  "risk": "low",
+  "variant": 2,
+  "title": "Ink-sketching a gharial's snout",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": "Film: overhead ink-pen journal sketch of a gharial, timelapse, then close-up of labels being written",
+  "audio": "bed",
+  "scenes": [
+    {
+      "layout": "pip",
+      "duration": 3.0,
+      "media": "photo:gharial/04.jpg",
+      "pip_label": "INK TIMELAPSE",
+      "headline": "Drawing the strangest snout in India"
+    },
+    {
+      "layout": "full",
+      "duration": 3.5,
+      "media": "photo:gharial/04.jpg",
+      "kicker": "Reference · Bardiya, Nepal",
+      "headline": "Long, thin snout: built for catching fish.",
+      "anchor": "top",
+      "motion": "pan-right"
+    },
+    {
+      "layout": "card",
+      "duration": 3.5,
+      "bg": "cream",
+      "kicker": "Label it",
+      "headline": "Adult males grow a knob on the snout tip: the ghara",
+      "body": "This one is a female, so the sketch gets no knob."
+    },
+    {
+      "layout": "card",
+      "duration": 3.0,
+      "bg": "red",
+      "kicker": "Page footer",
+      "headline": "Critically Endangered",
+      "source": "IUCN Red List"
+    }
+  ],
+  "caption": "One long snout, drawn in ink.\n\nGharials are almost entirely river animals, so dams, sand mining and fishing nets in their rivers are among the biggest threats to them.\n\nSource: IUCN Red List, Britannica.  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#gharial",
+    "#naturejournaling",
+    "#inksketch",
+    "#reptiles",
+    "#criticallyendangered"
+  ],
+  "sources": [
+    "https://www.britannica.com/animal/gavial",
+    "https://www.iucnredlist.org/species/8966/149227430"
+  ],
+  "notes": "Storyboard: different species, medium (ink) and angle from variant 1; the reference is a wild female, and the sketch notes say so."
+}

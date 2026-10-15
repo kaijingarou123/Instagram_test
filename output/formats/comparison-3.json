@@ -1,0 +1,30 @@
+{
+  "slug": "comparison-3",
+  "format_tag": "format:comparison",
+  "family": "educational",
+  "variant": 3,
+  "title": "Pied vs common kingfisher: two ways to fish",
+  "risk": "low",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": null,
+  "caption": "Both live along Indian rivers, but they fish in completely different ways.\n\nCommon kingfishers nest at the end of tunnels they dig in riverbanks, usually 15 to 30 cm long.\n\nSource: Animal Diversity Web (Ceryle rudis, Alcedo atthis). Footage: pied kingfisher, Queen Elizabeth NP; common kingfisher. Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#kingfisher",
+    "#birdwatching",
+    "#indianbirds",
+    "#birdfacts"
+  ],
+  "sources": [
+    "https://animaldiversity.org/accounts/Ceryle_rudis/",
+    "https://animaldiversity.org/accounts/Alcedo_atthis/"
+  ],
+  "duration_s": 18.4,
+  "file_mb": 4.32,
+  "credits": [
+    "Photo: Alexis Lours · Wikimedia Commons · CC BY 4.0",
+    "Photo: Giles Laurent · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Lennart Hessel · Wikimedia Commons · CC BY 3.0"
+  ]
+}

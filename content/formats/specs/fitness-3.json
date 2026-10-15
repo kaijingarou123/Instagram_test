@@ -1,0 +1,62 @@
+{
+  "slug": "fitness-3",
+  "format_tag": "format:fitness",
+  "family": "lifestyle",
+  "risk": "low",
+  "variant": 3,
+  "title": "Trail warm-up, animal edition",
+  "storyboard": "Film: naturalist leading 4 kids through each warm-up move at a Bengaluru trailhead, side angle, 2 takes",
+  "audio": "bed",
+  "scenes": [
+    {
+      "layout": "full",
+      "media": "video:leopard/03.webm@1",
+      "duration": 3.0,
+      "kicker": "Trail warm-up",
+      "headline": "3 animal moves before every hike"
+    },
+    {
+      "layout": "full",
+      "media": "video:leopard/01.webm@5",
+      "duration": 3.5,
+      "kicker": "Move 1 · Leopard walk",
+      "headline": "Slow, low steps — 10 each leg",
+      "body": "Heel down, knee soft, no noise."
+    },
+    {
+      "layout": "full",
+      "media": "video:elephant/03.webm@10",
+      "duration": 3.5,
+      "kicker": "Move 2 · Trunk swings",
+      "headline": "Loose arm swings, side to side",
+      "body": "20 easy swings to wake up the shoulders."
+    },
+    {
+      "layout": "full",
+      "media": "video:kingfisher/02.webm@10",
+      "duration": 3.5,
+      "kicker": "Move 3 · Kingfisher perch",
+      "headline": "Balance on one leg for 20 seconds",
+      "body": "Eyes fixed on one spot, like a kingfisher over water."
+    },
+    {
+      "layout": "card",
+      "duration": 3.0,
+      "bg": "moss",
+      "kicker": "Muddy Lessons day trails",
+      "headline": "Warm up, then walk quiet.",
+      "body": "Bengaluru day trails for families and school nature clubs."
+    }
+  ],
+  "caption": "Our 1-minute warm-up before a trail.\n\nThe kingfisher move is borrowed from real life: common kingfishers hunt from perches anywhere from a few centimetres to a few metres above the water.\n\nSource: Animal Diversity Web (Alcedo atthis). Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#trailwarmup",
+    "#hikingwithkids",
+    "#bengalurutrails",
+    "#kingfisher"
+  ],
+  "sources": [
+    "https://animaldiversity.org/accounts/Alcedo_atthis/"
+  ],
+  "notes": "Workout format turned into a kid-friendly trailhead warm-up named after animals; animal clips illustrate each move, naturalist demo storyboarded. No health claims."
+}

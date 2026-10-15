@@ -1,0 +1,29 @@
+{
+  "slug": "routine-3",
+  "format_tag": "format:routine",
+  "family": "lifestyle",
+  "variant": 3,
+  "title": "A naturalist's dawn birding routine",
+  "risk": "low",
+  "tactic_tags": null,
+  "storyboard": "Film: naturalist at first light lacing boots, scanning with binoculars, writing in a field notebook (POV)",
+  "caption": "My morning routine, but make it birds.\n\nThe same Western Ghats study found little support for the old idea that birds sing at dawn simply because sound carries better then.\n\nSource: Cornell Lab of Ornithology. Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#birding",
+    "#dawnchorus",
+    "#birdwatching",
+    "#westernghats",
+    "#naturalist"
+  ],
+  "sources": [
+    "https://www.birds.cornell.edu/home/?p=18293"
+  ],
+  "duration_s": 16.4,
+  "file_mb": 5.28,
+  "credits": [
+    "Photo: Anahita aravedna · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Original:  KCVelagaRefinement:  Rihaan18 · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Rushenb · Wikimedia Commons · CC BY-SA 3.0",
+    "Photo: Tisha Mukherjee · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

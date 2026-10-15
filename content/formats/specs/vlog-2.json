@@ -1,0 +1,68 @@
+{
+  "slug": "vlog-2",
+  "format_tag": "format:vlog",
+  "family": "lifestyle",
+  "risk": "low",
+  "variant": 2,
+  "title": "A day on a tiger-reserve trip",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": "Film: guide in open jeep at reserve gate at dawn, kids with binoculars, guide's whispered tip (3 takes)",
+  "audio": "bed",
+  "scenes": [
+    {
+      "layout": "full",
+      "media": "video:leopard/01.webm@1",
+      "duration": 4.0,
+      "kicker": "Tiger-reserve trip vlog",
+      "headline": "Not a tiger. Still the best start to a drive.",
+      "body": "Leopard, Rajaji Tiger Reserve, Uttarakhand."
+    },
+    {
+      "layout": "full",
+      "media": "photo:peafowl/02.jpg",
+      "duration": 3.5,
+      "kicker": "Morning drive",
+      "headline": "A peacock fanning out by the track",
+      "body": "Indian peafowl, Jim Corbett National Park."
+    },
+    {
+      "layout": "full",
+      "media": "photo:sloth-bear/03.jpg",
+      "duration": 4.0,
+      "kicker": "Mid-morning",
+      "headline": "Sloth bear cubs riding on mum's back",
+      "body": "Cubs stay with their mother for about 2–3 years. Bor Tiger Reserve, Maharashtra.",
+      "source": "Animal Diversity Web"
+    },
+    {
+      "layout": "full",
+      "media": "photo:tiger/04.jpg",
+      "duration": 4.0,
+      "kicker": "Evening drive",
+      "headline": "And then: a Bengal tiger by the water",
+      "body": "Patience, silence and a good guide."
+    },
+    {
+      "layout": "card",
+      "duration": 3.0,
+      "bg": "amber",
+      "kicker": "Muddy Lessons",
+      "headline": "Tiger-reserve trips from Bengaluru",
+      "body": "For schools and families who like early starts."
+    }
+  ],
+  "caption": "One day, four very different animals.\n\nSloth bears can close their nostrils at will, which keeps dust out while they suck termites from a nest.\n\nSource: Animal Diversity Web (Melursus ursinus). Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#tigerreserve",
+    "#leopard",
+    "#slothbear",
+    "#indianwildlife",
+    "#safari"
+  ],
+  "sources": [
+    "https://animaldiversity.org/accounts/Melursus_ursinus/"
+  ],
+  "notes": "Travel-vlog structure (time of day as chapters) with real Indian reserve photos labelled by place; jeep/guide shots are storyboarded. Placeholder: no real sightings claimed."
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "how-to-1",
+  "format_tag": "format:how-to",
+  "family": "educational",
+  "variant": 1,
+  "title": "How to spot a kingfisher in 3 steps",
+  "risk": "low",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": null,
+  "caption": "Three steps, no gear needed.\n\nA common kingfisher is only about 17 cm long, which is why it is so easy to miss on a busy riverbank. Pied kingfishers do something most kingfishers don't: they can swallow small fish in flight.\n\nSource: Animal Diversity Web (Alcedo atthis; Ceryle rudis).  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#kingfisher",
+    "#birdwatching",
+    "#birdingindia",
+    "#naturestudy"
+  ],
+  "sources": [
+    "https://animaldiversity.org/accounts/Alcedo_atthis/",
+    "https://animaldiversity.org/accounts/Ceryle_rudis/"
+  ],
+  "duration_s": 13.2,
+  "file_mb": 3.27,
+  "credits": [
+    "Photo: Alexis Lours · Wikimedia Commons · CC BY 4.0",
+    "Photo: Giles Laurent · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Lennart Hessel · Wikimedia Commons · CC BY 3.0",
+    "Photo: Tisha Mukherjee · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

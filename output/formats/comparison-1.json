@@ -1,0 +1,31 @@
+{
+  "slug": "comparison-1",
+  "format_tag": "format:comparison",
+  "family": "educational",
+  "variant": 1,
+  "title": "Tigers vs leopards in India",
+  "risk": "low",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": null,
+  "caption": "India has roughly four leopards for every tiger.\n\nMadhya Pradesh leads both counts, with an estimated 785 tigers and 3,907 leopards in 2022.\n\nSources: NTCA & WII, Status of Tigers, Co-predators and Prey in India 2022; Status of Leopards in India 2022. Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#tiger",
+    "#leopard",
+    "#indianwildlife",
+    "#bigcats"
+  ],
+  "sources": [
+    "https://ruralindiaonline.org/en/library/resource/status-of-tigers-co-predators-and-prey-in-india-2022/",
+    "https://wii.gov.in/images/images/documents/images_2024/leopard_status_2022a.pdf"
+  ],
+  "duration_s": 16.3,
+  "file_mb": 8.62,
+  "credits": [
+    "Photo: Bernard DUPONT · Wikimedia Commons · CC BY-SA 2.0",
+    "Photo: Gurung pratap · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Joselodos · Wikimedia Commons · CC0",
+    "Photo: Shiv's fotografia · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

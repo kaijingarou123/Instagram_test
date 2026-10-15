@@ -1,0 +1,64 @@
+{
+  "slug": "trending-audio-3",
+  "format_tag": "format:trending-audio",
+  "family": "humor",
+  "risk": "low",
+  "variant": 3,
+  "title": "Tell me you eat fish: gharial",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": "Film: creator does the 'tell me without telling me' trend, miming a long snout with both arms",
+  "audio": "beat",
+  "scenes": [
+    {
+      "layout": "full",
+      "duration": 3.5,
+      "media": "photo:gharial/04.jpg",
+      "motion": "in",
+      "anchor": "top",
+      "headline": "Tell me you only eat fish without telling me"
+    },
+    {
+      "layout": "full",
+      "duration": 3.5,
+      "media": "photo:gharial/04.jpg",
+      "motion": "pan-right",
+      "focus": [
+        0.3,
+        0.5
+      ],
+      "anchor": "bottom",
+      "headline": "*long, skinny snout full of interlocking teeth*"
+    },
+    {
+      "layout": "card",
+      "duration": 4.5,
+      "bg": "moss",
+      "kicker": "Gharial facts",
+      "headline": "Males grow a pot-shaped 'ghara' on the snout tip",
+      "body": "Named after the Indian ghara pot, it works as a vocal resonator for a loud buzz and helps attract females.",
+      "source": "Smithsonian's National Zoo"
+    },
+    {
+      "layout": "card",
+      "duration": 4.5,
+      "bg": "red",
+      "big": "-58%",
+      "headline": "Critically Endangered",
+      "body": "The gharial population fell by 58% between 1997 and 2006, from habitat loss, fishing pressure and hunting.",
+      "source": "Smithsonian's National Zoo"
+    }
+  ],
+  "caption": "That snout is a fishing tool.\n\nAdult gharials primarily eat fish, while juveniles also take insects, crustaceans and frogs. The opening photo is a wild female in Bardiya National Park, Nepal.\n\nSource: Smithsonian's National Zoo (Gharial).  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#gharial",
+    "#crocodilian",
+    "#indianreptiles",
+    "#endangeredspecies"
+  ],
+  "sources": [
+    "https://nationalzoo.si.edu/animals/gharial"
+  ],
+  "notes": "'Tell me without telling me' trend: creator mimes a long snout to the sound, then real gharial photos and two sourced fact cards; keeps an Indian species in a trend slot."
+}

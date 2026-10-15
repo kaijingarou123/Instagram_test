@@ -1,0 +1,27 @@
+{
+  "slug": "split-screen-brainrot-3",
+  "format_tag": "format:split-screen-brainrot",
+  "family": "repurposed",
+  "variant": 3,
+  "title": "Storytime split-screen: the tiger who got a second chance",
+  "risk": "high",
+  "tactic_tags": null,
+  "storyboard": null,
+  "caption": "Instead of a cage, a new home.\n\nWWF filmed this release of a young male labelled a 'conflict tiger' in a prey-depleted area of the Russian Far East.\n\nSource: WWF footage on Wikimedia Commons; Britannica.  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#amurtiger",
+    "#siberiantiger",
+    "#tigerconservation",
+    "#wildlifestory"
+  ],
+  "sources": [
+    "https://commons.wikimedia.org/wiki/File:Releasing_a_Siberian_tiger_in_Russia.webm",
+    "https://www.britannica.com/animal/tiger"
+  ],
+  "duration_s": 15.3,
+  "file_mb": 8.96,
+  "credits": [
+    "Photo: BLM Oregon & Washington · Wikimedia Commons · Public domain",
+    "Photo: WWF Tigers · Wikimedia Commons · CC BY 3.0"
+  ]
+}

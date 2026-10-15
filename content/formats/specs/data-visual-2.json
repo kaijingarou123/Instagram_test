@@ -1,0 +1,74 @@
+{
+  "slug": "data-visual-2",
+  "format_tag": "format:data-visual",
+  "family": "educational",
+  "risk": "low",
+  "variant": 2,
+  "title": "Who stays pregnant the longest?",
+  "storyboard": null,
+  "audio": "bed",
+  "scenes": [
+    {
+      "layout": "full",
+      "media": "photo:asian-elephant/02.jpg",
+      "duration": 3.0,
+      "kicker": "Data",
+      "headline": "Who stays pregnant the longest?"
+    },
+    {
+      "layout": "chart",
+      "duration": 6.0,
+      "kicker": "Pregnancy length",
+      "headline": "Average months from conception to birth",
+      "bars": [
+        {
+          "label": "Asian elephant",
+          "value": 22,
+          "display": "~22 mo"
+        },
+        {
+          "label": "Human",
+          "value": 9,
+          "display": "~9 mo"
+        },
+        {
+          "label": "Sloth bear",
+          "value": 6.5,
+          "display": "6–7 mo"
+        },
+        {
+          "label": "Tiger",
+          "value": 3.4,
+          "display": "~3.4 mo"
+        }
+      ],
+      "unit": " mo",
+      "highlight": 0,
+      "bg": "night",
+      "source": "Smithsonian NZ; Animal Diversity Web; NICHD"
+    },
+    {
+      "layout": "stat",
+      "media": "photo:asian-elephant/03.jpg",
+      "duration": 3.6,
+      "stat": "22",
+      "label": "months: an Asian elephant pregnancy",
+      "body": "21.5–22 months, among the longest of any mammal. Calves weigh 68–158 kg at birth.",
+      "source": "Smithsonian's National Zoo"
+    }
+  ],
+  "caption": "Nearly two years of waiting.\n\nA tiger pregnancy lasts about 103 days (96–111), roughly a sixth of an elephant's. Sloth bear pregnancies run 6–7 months.\n\nSource: Smithsonian's National Zoo; Animal Diversity Web; NICHD.  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#asianelephant",
+    "#animalfacts",
+    "#dataviz",
+    "#mammals"
+  ],
+  "sources": [
+    "https://nationalzoo.si.edu/animals/asian-elephant",
+    "https://animaldiversity.org/accounts/Panthera_tigris/",
+    "https://animaldiversity.org/accounts/Melursus_ursinus/",
+    "https://www.nichd.nih.gov/health/topics/pregnancy/conditioninfo/length"
+  ],
+  "notes": "Comparison chart with a human reference bar so the elephant number lands; values from species accounts (tiger 103 days ≈ 3.4 months), Indian species throughout."
+}

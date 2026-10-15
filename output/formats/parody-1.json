@@ -1,0 +1,27 @@
+{
+  "slug": "parody-1",
+  "format_tag": "format:parody",
+  "family": "humor",
+  "variant": 1,
+  "title": "Documentary narrator vs a hornbill on a log",
+  "risk": "low",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": null,
+  "caption": "Breathtaking. Truly breathtaking.\n\nNorthern ground hornbills are long-lived: in captivity they have reached about 40 years.\n\nSource: Animal Diversity Web (Bucorvus abyssinicus).  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#groundhornbill",
+    "#hornbill",
+    "#birdfacts",
+    "#naturedocumentary"
+  ],
+  "sources": [
+    "https://animaldiversity.org/accounts/Bucorvus_abyssinicus/"
+  ],
+  "duration_s": 16.3,
+  "file_mb": 4.19,
+  "credits": [
+    "Photo: Altes · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

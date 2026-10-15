@@ -1,0 +1,26 @@
+{
+  "slug": "aggregator-repost-1",
+  "format_tag": "format:aggregator-repost",
+  "family": "repurposed",
+  "variant": 1,
+  "title": "Repost: young elephant and a tree trunk",
+  "risk": "high",
+  "tactic_tags": null,
+  "storyboard": null,
+  "caption": "One finger, 150,000 muscle units.\n\nThe trunk has about 150,000 muscle units and tendons, arranged so it can move in any direction.\n\nSource: Smithsonian's National Zoo.  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#asianelephant",
+    "#elephanttrunk",
+    "#elephantfacts",
+    "#srilanka"
+  ],
+  "sources": [
+    "https://nationalzoo.si.edu/animals/asian-elephant",
+    "https://commons.wikimedia.org/wiki/File:Pinnawala-Elephant-Orphanage-05.webm"
+  ],
+  "duration_s": 14.7,
+  "file_mb": 5.84,
+  "credits": [
+    "Photo: Cherubino · Wikimedia Commons · CC BY-SA 3.0"
+  ]
+}

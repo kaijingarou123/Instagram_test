@@ -1,0 +1,72 @@
+{
+  "slug": "affiliate-2",
+  "format_tag": "format:affiliate",
+  "family": "commercial",
+  "risk": "low",
+  "variant": 2,
+  "title": "8x or 10x? The binoculars that made me buy binoculars",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": null,
+  "audio": "beat",
+  "scenes": [
+    {
+      "layout": "meme",
+      "duration": 4.0,
+      "media": "video:hornbill/02.webm@2",
+      "top_text": "These binoculars made me stop saying 'where? WHERE?' on every bird walk",
+      "bottom_text": "#ad - affiliate link in bio"
+    },
+    {
+      "layout": "chart",
+      "duration": 3.5,
+      "kicker": "MAGNIFICATION",
+      "headline": "8x or 10x?",
+      "unit": "x",
+      "bars": [
+        {
+          "label": "8x",
+          "value": 8,
+          "display": "8x"
+        },
+        {
+          "label": "10x",
+          "value": 10,
+          "display": "10x"
+        }
+      ],
+      "highlight": 0,
+      "source": "Cornell Lab: All About Birds"
+    },
+    {
+      "layout": "split",
+      "duration": 4.5,
+      "media": "video:hornbill/01.webm@5",
+      "media_b": "photo:hornbill/03.jpg",
+      "label_a": "8x: WIDER, STEADIER",
+      "label_b": "10x: CLOSER, SHAKIER",
+      "headline": "8x finds birds faster; 10x suits long-distance watching"
+    },
+    {
+      "layout": "card",
+      "duration": 3.5,
+      "bg": "ink",
+      "kicker": "#AD - AFFILIATE",
+      "headline": "Our pick: an 8x42 pair for trails and canopy birds",
+      "body": "Linked in bio. We may earn a commission at no extra cost to you."
+    }
+  ],
+  "caption": "#ad | Affiliate link in bio - we may earn a commission at no extra cost to you.\n\n8x or 10x - the honest answer\n\nHigher magnification narrows your field of view and exaggerates any hand shake, which is why many birders settle on 8x.\n\nSource: Cornell Lab of Ornithology. Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#binoculars",
+    "#birdinggear",
+    "#hornbill",
+    "#birdingindia"
+  ],
+  "sources": [
+    "https://www.allaboutbirds.org/news/six-steps-to-choosing-a-pair-of-binoculars-youll-love/",
+    "https://www.allaboutbirds.org/news/how-to-choose-binoculars-full-size-compact-pocket/"
+  ],
+  "notes": "'Made me buy it' affiliate that leads with the buying logic from Cornell, not the product. Disclosure on the hook, the last card and the first caption line. Product and link are PLACEHOLDERS; no live link. Hornbills shown: yellow-billed (South Africa), oriental pied (Thailand), rufous-headed (Philippines) - no species claim on screen."
+}

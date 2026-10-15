@@ -1,0 +1,31 @@
+{
+  "slug": "vlog-3",
+  "format_tag": "format:vlog",
+  "family": "lifestyle",
+  "variant": 3,
+  "title": "School nature club day trail",
+  "risk": "low",
+  "tactic_tags": null,
+  "storyboard": "Film: school nature club kids with hand lenses on a Bengaluru trail, naturalist at a weaver-ant nest (2 takes)",
+  "caption": "A Saturday with our school nature club.\n\nWeaver ant larvae don't spin cocoons for themselves — their silk goes into building the colony's leaf nests.\n\nSource: Gadagkar 2021, Resonance (IISc); Animal Diversity Web. Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#weaverants",
+    "#naturestudy",
+    "#schoolnatureclub",
+    "#bengaluru",
+    "#honeybee"
+  ],
+  "sources": [
+    "https://animaldiversity.org/accounts/Oecophylla_smaragdina/",
+    "https://eprints.iisc.ac.in/69575/",
+    "https://animaldiversity.org/accounts/Apis_mellifera/"
+  ],
+  "duration_s": 15.9,
+  "file_mb": 3.91,
+  "credits": [
+    "Photo: Manoj Karingamadathil · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Reinhold Möller Ermell · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Rohit Sharma · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Vengolis · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

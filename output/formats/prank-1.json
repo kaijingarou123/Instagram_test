@@ -1,0 +1,31 @@
+{
+  "slug": "prank-1",
+  "format_tag": "format:prank",
+  "family": "humor",
+  "variant": 1,
+  "title": "Told my friend we'd see a dinosaur",
+  "risk": "medium",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": "Film: naturalist tells an adult friend 'dinosaur ahead', then points at a peacock far off; real reaction",
+  "caption": "Technically, I never lied.\n\nFossil discoveries over the past few decades have made the evidence overwhelming: birds descend from small feathered theropod dinosaurs. Spot a few on a Muddy Lessons day trail.\n\nSource: Smithsonian National Museum of Natural History.  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#birdsaredinosaurs",
+    "#peacock",
+    "#dinosaurs",
+    "#birdfacts"
+  ],
+  "sources": [
+    "https://naturalhistory2.si.edu/vt3/NMNH/DT/rails/r10.html"
+  ],
+  "duration_s": 14.8,
+  "file_mb": 7.03,
+  "credits": [
+    "Photo: Alun Williams333 · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Charles J. Sharp · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Giles Laurent · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Mhlayson · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Tisha Mukherjee · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

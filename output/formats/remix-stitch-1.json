@@ -1,0 +1,25 @@
+{
+  "slug": "remix-stitch-1",
+  "format_tag": "format:remix-stitch",
+  "family": "repurposed",
+  "variant": 1,
+  "title": "Stitch: why does the peacock shake like that?",
+  "risk": "low",
+  "tactic_tags": null,
+  "storyboard": null,
+  "caption": "Answering the question everyone asks under peacock videos.\n\nThe display is aimed at peahens, and males with longer trains used slightly higher vibration frequencies on average.\n\nSource: Dakin et al. 2016, PLOS ONE.  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#peacock",
+    "#indianpeafowl",
+    "#birdbehaviour",
+    "#sciencefacts"
+  ],
+  "sources": [
+    "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0152759"
+  ],
+  "duration_s": 13.3,
+  "file_mb": 7.25,
+  "credits": [
+    "Photo: Original:  KCVelagaRefinement:  Rihaan18 · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

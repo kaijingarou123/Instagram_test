@@ -1,0 +1,75 @@
+{
+  "slug": "animation-3",
+  "format_tag": "format:animation",
+  "family": "creative",
+  "risk": "low",
+  "variant": 3,
+  "title": "Hummingbird engine, animated",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": null,
+  "audio": "bed",
+  "scenes": [
+    {
+      "layout": "card",
+      "duration": 3.0,
+      "bg": "moss",
+      "kicker": "Hummingbird engine",
+      "big": "1,000+",
+      "headline": "heartbeats a minute"
+    },
+    {
+      "layout": "chart",
+      "duration": 4.5,
+      "bg": "ink",
+      "kicker": "Heartbeats per minute",
+      "headline": "You vs a hummingbird",
+      "unit": "bpm",
+      "bars": [
+        {
+          "label": "Adult human at rest",
+          "value": 80,
+          "display": "60–100"
+        },
+        {
+          "label": "Hummingbird, active",
+          "value": 1000,
+          "display": "1,000+"
+        }
+      ],
+      "highlight": 1,
+      "source": "American Heart Association; Nat Geo"
+    },
+    {
+      "layout": "stat",
+      "duration": 3.5,
+      "media": "photo:hummingbird/03.jpg",
+      "stat": "~100",
+      "label": "wingbeats per second in some hummingbird species",
+      "source": "National Geographic"
+    },
+    {
+      "layout": "card",
+      "duration": 3.5,
+      "bg": "cream",
+      "media": "photo:hummingbird/04.jpg",
+      "kicker": "Why so fast?",
+      "headline": "Hovering burns enormous energy",
+      "body": "So hummingbirds refuel on nectar again and again through the day."
+    }
+  ],
+  "caption": "A heart that never seems to rest.\n\nTo survive cold nights, many hummingbirds drop into torpor, a deep energy-saving state where their body temperature and heart rate fall sharply.\n\nSource: National Geographic, American Heart Association.  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#hummingbird",
+    "#birdfacts",
+    "#animalphysiology",
+    "#motiongraphics",
+    "#wildlifefacts"
+  ],
+  "sources": [
+    "https://www.nationalgeographic.com/magazine/article/hummingbird-secrets-speed-worlds-smallest-bird",
+    "https://www.heart.org/en/health-topics/high-blood-pressure/the-facts-about-high-blood-pressure/all-about-heart-rate-pulse"
+  ],
+  "notes": "Number-driven motion graphic on a third species; uses rounded, sourced ranges ('1,000+', '~100') rather than single record values."
+}

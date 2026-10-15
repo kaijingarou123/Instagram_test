@@ -1,0 +1,56 @@
+{
+  "slug": "trending-audio-2",
+  "format_tag": "format:trending-audio",
+  "family": "humor",
+  "risk": "low",
+  "variant": 2,
+  "title": "Tiger leaving the group chat",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": "Film: creator deadpan lip-syncs an 'I'm out' trending sound, then walks out of frame; cut to crate clip",
+  "audio": "beat",
+  "scenes": [
+    {
+      "layout": "full",
+      "duration": 3.0,
+      "media": "video:tiger/01.webm@0",
+      "anchor": "top",
+      "headline": "Me at the party at 10:30 pm"
+    },
+    {
+      "layout": "full",
+      "duration": 3.0,
+      "media": "video:tiger/01.webm@19",
+      "anchor": "top",
+      "headline": "When someone says 'group photo!'"
+    },
+    {
+      "layout": "full",
+      "duration": 3.0,
+      "media": "video:tiger/01.webm@4",
+      "anchor": "top",
+      "headline": "Me, 3 seconds later:"
+    },
+    {
+      "layout": "card",
+      "duration": 5.0,
+      "bg": "amber",
+      "kicker": "Relatable, actually",
+      "headline": "Tigers really are solo acts",
+      "body": "In the wild, adult tigers are thought to live alone except when mating or raising young. This tiger was being released back to the wild in Russia.",
+      "source": "Smithsonian's National Zoo"
+    }
+  ],
+  "caption": "Introvert icon, scientifically.\n\nBeing solitary doesn't mean silent: communication is a very important part of tiger life, through scent marks, scrapes and calls.\n\nSource: Smithsonian's National Zoo (Tiger).  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#tiger",
+    "#amurtiger",
+    "#tigerfacts",
+    "#introvert"
+  ],
+  "sources": [
+    "https://nationalzoo.si.edu/animals/tiger"
+  ],
+  "notes": "'Me leaving' trend acted to an in-app sound, cut against a real CC release clip (crate, snarl, empty field) so the joke lands on solitary tiger behaviour."
+}

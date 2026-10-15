@@ -1,0 +1,60 @@
+{
+  "slug": "remix-stitch-3",
+  "format_tag": "format:remix-stitch",
+  "family": "repurposed",
+  "risk": "low",
+  "variant": 3,
+  "title": "Stitch: \"that's just a skinny crocodile\"",
+  "storyboard": null,
+  "audio": "bed",
+  "scenes": [
+    {
+      "layout": "full",
+      "media": "photo:gharial/04.jpg",
+      "duration": 3.0,
+      "anchor": "top",
+      "kicker": "STITCH",
+      "headline": "\"That's just a skinny crocodile\"",
+      "motion": "in"
+    },
+    {
+      "layout": "split",
+      "media": "video:crocodile/01.webm@2",
+      "media_b": "photo:gharial/04.jpg",
+      "duration": 4.5,
+      "label_a": "NILE CROCODILE",
+      "label_b": "GHARIAL",
+      "headline": "Close. It's a gharial. Look at the snout.",
+      "body": "Long and slender, built for catching fish."
+    },
+    {
+      "layout": "stat",
+      "media": "photo:gharial/04.jpg",
+      "duration": 3.5,
+      "stat": "106-110",
+      "label": "Razor-sharp teeth in a gharial's jaws",
+      "source": "Animal Diversity Web",
+      "motion": "pan-right"
+    },
+    {
+      "layout": "full",
+      "media": "photo:gharial/04.jpg",
+      "duration": 3.5,
+      "motion": "out",
+      "headline": "Critically Endangered (IUCN)",
+      "body": "Males grow a bulb on the snout tip, the 'ghara', used in courtship.",
+      "source": "ADW · female, Bardiya NP, Nepal"
+    }
+  ],
+  "caption": "Not a crocodile. Not a skinny one either.\n\nGharials historically lived in four river systems: the Indus, Ganges, Mahanadi and Brahmaputra. As they age, their snouts get longer and they eat almost only fish.\n\nSource: Animal Diversity Web.  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#gharial",
+    "#crocodilians",
+    "#gharialconservation",
+    "#reptilesofindia"
+  ],
+  "sources": [
+    "https://animaldiversity.org/accounts/Gavialis_gangeticus/"
+  ],
+  "notes": "Stitch demo answering a common misconception; in real use the first beat is the other creator's reel via native Stitch. Media thin: one gharial photo, plus a Nile crocodile clip (Nairobi NP) for comparison."
+}

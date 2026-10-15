@@ -1,0 +1,70 @@
+{
+  "slug": "predation-2",
+  "format_tag": "format:predation",
+  "family": "wildlife",
+  "risk": "high",
+  "variant": 2,
+  "title": "Why leopards take dinner up a tree",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": null,
+  "audio": "bed",
+  "scenes": [
+    {
+      "layout": "full",
+      "media": "video:leopard/01.webm@1",
+      "duration": 3.0,
+      "kicker": "Rajaji Tiger Reserve",
+      "headline": "Why do leopards drag dinner up a tree?"
+    },
+    {
+      "layout": "full",
+      "media": "photo:leopard/04.jpg",
+      "duration": 3.5,
+      "focus": [
+        0.35,
+        0.65
+      ],
+      "headline": "To keep it away from thieves",
+      "body": "Spotted hyenas steal leopard kills. Kills left on the ground were more likely to be stolen."
+    },
+    {
+      "layout": "stat",
+      "media": "video:leopard/03.webm@2",
+      "duration": 3.5,
+      "stat": "51%",
+      "label": "of kills were hoisted into trees",
+      "body": "2,032 kills by 104 leopards, South Africa, 2013–2015.",
+      "source": "Balme et al. 2017, Journal of Animal Ecology"
+    },
+    {
+      "layout": "full",
+      "media": "video:leopard/02.webm@3",
+      "duration": 3.5,
+      "kicker": "Kruger NP, South Africa",
+      "headline": "After the hunt: a long groom",
+      "body": "This male is cleaning his fur after catching a warthog. No carcass in shot."
+    },
+    {
+      "layout": "card",
+      "bg": "ink",
+      "duration": 3.0,
+      "headline": "Lost meals cost cubs",
+      "body": "Females that lost more kills to thieves raised fewer young each year.",
+      "source": "Balme et al. 2017"
+    }
+  ],
+  "caption": "A tree is a leopard's fridge with a lock on it.\n\nIn the same study, at least 21% of kills were stolen, mostly by spotted hyenas, and the risk was highest for big kills left on the ground.\n\nSource: Balme, Miller, Pitman & Hunter 2017, Journal of Animal Ecology. Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#leopard",
+    "#bigcats",
+    "#predatorprey",
+    "#animalbehaviour"
+  ],
+  "sources": [
+    "https://doi.org/10.1111/1365-2656.12654",
+    "https://datadryad.org/dataset/doi:10.5061/dryad.gb794"
+  ],
+  "notes": "Predation told through behaviour and a peer-reviewed number, with no kill on screen (grooming after, not the carcass). HIGH-RISK format with third-party footage; only OK as a series with our own footage."
+}

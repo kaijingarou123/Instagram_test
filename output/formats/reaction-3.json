@@ -1,0 +1,26 @@
+{
+  "slug": "reaction-3",
+  "format_tag": "format:reaction",
+  "family": "repurposed",
+  "variant": 3,
+  "title": "Naturalist reacts: elephant bath time",
+  "risk": "medium",
+  "tactic_tags": null,
+  "storyboard": "Film: naturalist at a desk reacting to the clip, pointing at the ears on screen, 2 takes",
+  "caption": "Why do elephants bathe so much?\n\nAsian elephants in the wild drink about 189 litres (50 gallons) of water a day and eat 74-150 kg of food.\n\nSource: Smithsonian's National Zoo.  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#asianelephant",
+    "#elephantfacts",
+    "#pinnawala",
+    "#naturalist"
+  ],
+  "sources": [
+    "https://nationalzoo.si.edu/animals/asian-elephant",
+    "https://commons.wikimedia.org/wiki/File:Pinnawala-Elephant-Orphanage-02.webm"
+  ],
+  "duration_s": 13.8,
+  "file_mb": 3.76,
+  "credits": [
+    "Photo: Cherubino · Wikimedia Commons · CC BY-SA 3.0"
+  ]
+}

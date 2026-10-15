@@ -1,0 +1,61 @@
+{
+  "slug": "field-vlog-2",
+  "format_tag": "format:field-vlog",
+  "family": "wildlife",
+  "risk": "low",
+  "variant": 2,
+  "title": "We found a hornbill nest",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": "Film: naturalist whispering at a safe distance from a hornbill nest tree; long-lens shot of the sealed slit",
+  "audio": "bed",
+  "scenes": [
+    {
+      "layout": "pip",
+      "media": "photo:hornbill/01.jpg",
+      "duration": 3.5,
+      "pip_label": "NATURALIST",
+      "headline": "We found a hornbill nest. We're staying back."
+    },
+    {
+      "layout": "full",
+      "media": "video:hornbill/01.webm@3",
+      "duration": 4.0,
+      "kicker": "Oriental pied hornbill",
+      "headline": "The nest hole is sealed with mud",
+      "body": "Only a narrow slit stays open. The male passes food through it to the female inside.",
+      "source": "Britannica"
+    },
+    {
+      "layout": "full",
+      "media": "photo:hornbill/01.jpg",
+      "duration": 3.5,
+      "focus": [
+        0.6,
+        0.35
+      ],
+      "kicker": "Indian grey hornbill",
+      "headline": "See the ridge on the bill?",
+      "body": "That helmet-like ridge on some hornbills is called a casque."
+    },
+    {
+      "layout": "card",
+      "bg": "ink",
+      "duration": 3.0,
+      "headline": "Our nest rule",
+      "body": "Watch from far away, keep it short, never point people to the tree."
+    }
+  ],
+  "caption": "This tree has a family sealed inside it.\n\nIn almost every hornbill species (ground hornbills are the exception), the nest is walled in with mud; after the eggs hatch the female breaks out, and the chicks may be sealed in again.\n\nSource: Britannica, Hornbill. Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#hornbill",
+    "#indiangreyhornbill",
+    "#birdnesting",
+    "#fieldnotes"
+  ],
+  "sources": [
+    "https://www.britannica.com/animal/hornbill"
+  ],
+  "notes": "Storyboard: naturalist PIP and nest-tree shots to be filmed by us; CC photo/video stand in. Shows ethical fieldcraft (distance, no location) as part of the content."
+}

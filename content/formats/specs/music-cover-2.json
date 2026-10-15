@@ -1,0 +1,60 @@
+{
+  "slug": "music-cover-2",
+  "format_tag": "format:music-cover",
+  "family": "creative",
+  "risk": "medium",
+  "variant": 2,
+  "title": "We covered the forest's loudest singers",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": "Film: 4 nature-club kids at a mic copying a peacock call and an elephant rumble, then laughing; 2 takes",
+  "audio": "bed",
+  "scenes": [
+    {
+      "layout": "pip",
+      "duration": 3.0,
+      "media": "photo:peafowl/01.jpg",
+      "pip_label": "KIDS AT THE MIC",
+      "headline": "Cover song: the original artists are animals"
+    },
+    {
+      "layout": "full",
+      "duration": 3.5,
+      "media": "photo:peafowl/01.jpg",
+      "kicker": "Original artist",
+      "headline": "Indian peafowl: an extremely loud, harsh shriek",
+      "anchor": "bottom",
+      "motion": "in"
+    },
+    {
+      "layout": "full",
+      "duration": 3.5,
+      "media": "video:elephant/03.webm@5",
+      "kicker": "Original artist",
+      "headline": "Asian elephant: rumbles too low for us to hear well",
+      "anchor": "top"
+    },
+    {
+      "layout": "card",
+      "duration": 3.5,
+      "bg": "cream",
+      "kicker": "Cover etiquette",
+      "headline": "Covers are for the club room.",
+      "body": "On trails we listen quietly and never play calls to pull wild birds closer."
+    }
+  ],
+  "caption": "Our nature club tried covering two very different voices.\n\nElephant rumbles are infrasonic: other elephants can pick them up more than 3 km away, while we barely hear them.\n\nSource: Smithsonian's National Zoo, Animal Diversity Web.  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#natureclub",
+    "#animalsounds",
+    "#peacock",
+    "#asianelephant",
+    "#outdoorlearning"
+  ],
+  "sources": [
+    "https://animaldiversity.org/accounts/Pavo_cristatus/",
+    "https://nationalzoo.si.edu/animals/asian-elephant"
+  ],
+  "notes": "Medium risk (composition rights) sidestepped entirely: the 'song' covered is an animal call, so no composition is used; adds a field-ethics line on call playback."
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "cinematic-broll-1",
+  "format_tag": "format:cinematic-broll",
+  "family": "lifestyle",
+  "risk": "low",
+  "variant": 1,
+  "title": "Indian forest, slowed down",
+  "storyboard": null,
+  "audio": "bed",
+  "scenes": [
+    {
+      "layout": "full",
+      "media": "video:leopard/01.webm@0",
+      "duration": 4.0,
+      "kicker": "Rajaji Tiger Reserve",
+      "headline": "Just watch."
+    },
+    {
+      "layout": "full",
+      "media": "video:langur/01.webm@25",
+      "duration": 3.5,
+      "kicker": "Gray langurs"
+    },
+    {
+      "layout": "full",
+      "media": "video:peafowl/01.webm@26",
+      "duration": 3.5,
+      "kicker": "Indian peafowl, Hyderabad"
+    },
+    {
+      "layout": "full",
+      "media": "photo:sloth-bear/01.jpg",
+      "duration": 3.5,
+      "kicker": "Sloth bear, Ranthambore",
+      "motion": "pan-left"
+    },
+    {
+      "layout": "full",
+      "media": "photo:tiger/04.jpg",
+      "duration": 3.5,
+      "kicker": "Bengal tiger",
+      "motion": "out"
+    }
+  ],
+  "caption": "Fifteen seconds of Indian forest. No words needed.\n\nThe leopard in the first shot is listed as Vulnerable on the IUCN Red List.\n\nSource: IUCN Red List (Panthera pardus). Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#leopard",
+    "#indianforest",
+    "#rajajitigerreserve",
+    "#slowtv"
+  ],
+  "sources": [
+    "https://www.iucnredlist.org/species/15954/215195554"
+  ],
+  "notes": "Mood reel: Indian locations only, place labels instead of facts, ambient bed. Original because every clip is CC and credited; music must be licensed if swapped in."
+}

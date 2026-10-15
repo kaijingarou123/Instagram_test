@@ -1,0 +1,30 @@
+{
+  "slug": "ai-generated-1",
+  "format_tag": "format:ai-generated",
+  "family": "creative",
+  "variant": 1,
+  "title": "A flower at bee size (AI scenery, real bees)",
+  "risk": "medium",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": "Generate (AI, labelled): stylised bee-scale fly-through of a flower, no animals; bee shots stay real photos",
+  "caption": "AI scenery, real bees, clearly labelled.\n\nMany flowers carry ultraviolet patterns invisible to us that guide bees toward nectar, while red flowers often look dark to them.\n\nSource: USDA Forest Service, Britannica. Flower animation: AI-generated (labelled).  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#honeybee",
+    "#pollinators",
+    "#beevision",
+    "#aigenerated",
+    "#sciencevisuals"
+  ],
+  "sources": [
+    "https://www.fs.usda.gov/wildflowers/pollinators/animals/bees.shtml",
+    "https://www.britannica.com/animal/bee"
+  ],
+  "duration_s": 11.8,
+  "file_mb": 1.88,
+  "credits": [
+    "Photo: Reinhold Möller Ermell · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Tesla Delacroix · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

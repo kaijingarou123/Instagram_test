@@ -1,0 +1,58 @@
+{
+  "slug": "cute-animal-2",
+  "format_tag": "format:cute-animal",
+  "family": "wildlife",
+  "risk": "high",
+  "variant": 2,
+  "title": "Langur spa day",
+  "tactic_tags": [
+    "tactic:hook-text",
+    "tactic:loop"
+  ],
+  "storyboard": null,
+  "audio": "bed",
+  "scenes": [
+    {
+      "layout": "full",
+      "media": "video:langur/01.webm@1",
+      "duration": 3.0,
+      "kicker": "Gray langurs, India",
+      "headline": "Spa day at the troop."
+    },
+    {
+      "layout": "full",
+      "media": "video:langur/01.webm@12",
+      "duration": 4.0,
+      "headline": "Grooming follows rank",
+      "body": "Dominant langurs groom each other — and get groomed — more often than lower-ranked ones.",
+      "source": "Animal Diversity Web"
+    },
+    {
+      "layout": "stat",
+      "media": "video:langur/01.webm@25",
+      "duration": 3.5,
+      "stat": "80%",
+      "label": "of their time is spent on the ground",
+      "body": "Trees are mostly for sleeping.",
+      "source": "Animal Diversity Web"
+    },
+    {
+      "layout": "full",
+      "media": "video:langur/01.webm@40",
+      "duration": 3.5,
+      "headline": "Troops of 2 to 100+",
+      "body": "Langurs are highly social; group size varies hugely."
+    }
+  ],
+  "caption": "Ten minutes of grooming is ten minutes of politics.\n\nLangurs are mainly leaf-eaters: leaves make up about half to three-fifths of their diet.\n\nSource: Animal Diversity Web, Semnopithecus entellus. Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#langur",
+    "#graylangur",
+    "#primates",
+    "#indianwildlife"
+  ],
+  "sources": [
+    "https://animaldiversity.org/accounts/Semnopithecus_entellus/"
+  ],
+  "notes": "Single wild Indian CC clip, slowed to a calm 'cute' loop with social-behaviour facts. HIGH-RISK format: cute-animal clips are only OK with our own footage; this is a template for that."
+}

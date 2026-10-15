@@ -1,0 +1,59 @@
+{
+  "slug": "art-process-3",
+  "format_tag": "format:art-process",
+  "family": "creative",
+  "risk": "low",
+  "variant": 3,
+  "title": "Trying to paint kingfisher blue",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": "Film: overhead watercolour of a kingfisher, timelapse, plus palette close-up mixing blues; 2 takes",
+  "audio": "bed",
+  "scenes": [
+    {
+      "layout": "pip",
+      "duration": 3.0,
+      "media": "video:kingfisher/02.webm@6",
+      "pip_label": "WATERCOLOUR",
+      "headline": "Why you can't quite paint kingfisher blue"
+    },
+    {
+      "layout": "full",
+      "duration": 3.5,
+      "media": "video:kingfisher/02.webm@12",
+      "kicker": "Common kingfisher",
+      "headline": "That blue isn't made by pigment.",
+      "anchor": "top"
+    },
+    {
+      "layout": "card",
+      "duration": 4.0,
+      "bg": "night",
+      "kicker": "The science",
+      "headline": "Tiny spongy structures in the feathers scatter blue light",
+      "body": "The orange underside is pigment. The blue back is structure.",
+      "source": "Stavenga et al. 2011, J Exp Biol"
+    },
+    {
+      "layout": "full",
+      "duration": 3.0,
+      "media": "video:kingfisher/03.webm@3",
+      "kicker": "Journal tip",
+      "headline": "Paint what you see. Note what makes it.",
+      "anchor": "top"
+    }
+  ],
+  "caption": "Every paint set loses to this bird.\n\nKingfisher orange comes from pigment, but the blue comes from nanostructures inside the feather barbs that scatter blue light, which is why paint can only approximate it.\n\nSource: Stavenga et al. 2011, Journal of Experimental Biology.  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#kingfisher",
+    "#watercolour",
+    "#structuralcolour",
+    "#naturejournaling",
+    "#birdart"
+  ],
+  "sources": [
+    "https://journals.biologists.com/jeb/article/214/23/3960/10462/Kingfisher-feathers-colouration-by-pigments-spongy"
+  ],
+  "notes": "Storyboard: art timelapse with a science payoff (structural colour) that explains why the painting can't match; all real kingfisher video, third species and medium."
+}

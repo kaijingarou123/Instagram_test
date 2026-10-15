@@ -1,0 +1,32 @@
+{
+  "slug": "compilation-2",
+  "format_tag": "format:compilation",
+  "family": "repurposed",
+  "variant": 2,
+  "title": "Big cats compilation: 3 cats, 3 habits",
+  "risk": "high",
+  "tactic_tags": null,
+  "storyboard": null,
+  "caption": "Same family, very different lifestyles.\n\nBritannica links the tiger's love of water to its origins: it evolved in eastern Asia and tolerates heat less well than other big cats.\n\nSource: Britannica; Animal Diversity Web.  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#bigcats",
+    "#tiger",
+    "#leopard",
+    "#snowleopard"
+  ],
+  "sources": [
+    "https://www.britannica.com/animal/tiger",
+    "https://animaldiversity.org/accounts/Panthera_pardus/",
+    "https://www.britannica.com/animal/snow-leopard"
+  ],
+  "duration_s": 12.8,
+  "file_mb": 7.16,
+  "credits": [
+    "Photo: Bernard DUPONT · Wikimedia Commons · CC BY-SA 2.0",
+    "Photo: Grendelkhan · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Gurung pratap · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: H. Zell · Wikimedia Commons · CC BY-SA 3.0",
+    "Photo: Manandhar.amogha · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Thomas Fuhrmann · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

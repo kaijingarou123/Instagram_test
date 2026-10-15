@@ -1,0 +1,57 @@
+{
+  "slug": "trending-audio-1",
+  "format_tag": "format:trending-audio",
+  "family": "humor",
+  "risk": "low",
+  "variant": 1,
+  "title": "Peacock waits for the beat drop",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": "Film: creator lip-syncs the trending sound's build-up, hard cut on the drop to the peacock fanning",
+  "audio": "beat",
+  "scenes": [
+    {
+      "layout": "full",
+      "duration": 3.0,
+      "media": "video:peafowl/01.webm@0",
+      "anchor": "top",
+      "headline": "Waiting for the beat to drop like..."
+    },
+    {
+      "layout": "full",
+      "duration": 3.0,
+      "media": "video:peafowl/01.webm@10",
+      "anchor": "top",
+      "headline": "*drop*"
+    },
+    {
+      "layout": "full",
+      "duration": 4.0,
+      "media": "video:peafowl/01.webm@20",
+      "anchor": "bottom",
+      "kicker": "Plot twist",
+      "headline": "That fan isn't his tail",
+      "body": "The 'train' is long tail coverts. His real tail feathers are the stiff ones behind it, holding it up."
+    },
+    {
+      "layout": "stat",
+      "duration": 4.5,
+      "media": "video:peafowl/01.webm@26",
+      "stat": "25.6 Hz",
+      "label": "how fast a peacock rattles his tail against his train",
+      "source": "Dakin et al. 2016, PLOS ONE"
+    }
+  ],
+  "caption": "He's been practising this drop all season.\n\nHigh-speed video showed that the eyespot feathers in the train are in resonance at the same frequency as the rattle.\n\nSource: Dakin et al. 2016, PLOS ONE.  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#peacock",
+    "#indianpeafowl",
+    "#birdfacts",
+    "#peacockdance"
+  ],
+  "sources": [
+    "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0152759"
+  ],
+  "notes": "Beat-drop trend cut to a real peacock display (Hyderabad); creator lip-syncs the sound in the opener, and the 'drop' lands on a sourced fact about the rattling frequency."
+}

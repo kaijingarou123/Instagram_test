@@ -1,0 +1,29 @@
+{
+  "slug": "news-commentary-2",
+  "format_tag": "format:news-commentary",
+  "family": "educational",
+  "variant": 2,
+  "title": "The king cobra is now four species",
+  "risk": "medium",
+  "tactic_tags": null,
+  "storyboard": "Film: naturalist to camera by a Western Ghats stream, waist-up, 2 takes; drop into the pip inset",
+  "caption": "One king, four kingdoms.\n\nThe 2024 revision rests on 153 specimens plus earlier genetic work: Northern (O. hannah), Sunda (O. bungarus), Western Ghats (O. kaalinga) and Luzon (O. salvatana) king cobras.\n\nSource: Das et al. 2024, European Journal of Taxonomy; Mongabay-India.  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#kingcobra",
+    "#westernghats",
+    "#newspecies",
+    "#herpetology",
+    "#sciencenews"
+  ],
+  "sources": [
+    "https://europeanjournaloftaxonomy.eu/index.php/ejt/article/view/2681",
+    "https://india.mongabay.com/2024/11/new-king-cobra-study-makes-hissstory/",
+    "https://india.mongabay.com/video/2025/01/behind-the-discovery-of-four-kings/"
+  ],
+  "duration_s": 14.5,
+  "file_mb": 1.74,
+  "credits": [
+    "Photo: Nativeplants garden · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Rushen · Wikimedia Commons · CC BY-SA 2.0"
+  ]
+}

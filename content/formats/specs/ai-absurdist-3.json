@@ -1,0 +1,62 @@
+{
+  "slug": "ai-absurdist-3",
+  "format_tag": "format:ai-absurdist",
+  "family": "humor",
+  "risk": "medium",
+  "variant": 3,
+  "title": "Top Gun: meadow edition",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": "Film: none; AI-generate a dragonfly in a tiny flight helmet dogfighting a mosquito; label clips AI-generated",
+  "audio": "bed",
+  "scenes": [
+    {
+      "layout": "full",
+      "duration": 3.5,
+      "media": "photo:dragonfly/04.jpg",
+      "motion": "in",
+      "anchor": "top",
+      "kicker": "AI-made · facts real",
+      "headline": "Top Gun: meadow edition"
+    },
+    {
+      "layout": "full",
+      "duration": 4.0,
+      "media": "photo:dragonfly/02.jpg",
+      "anchor": "bottom",
+      "headline": "Callsign: Corporal. Yes, that's its real name.",
+      "body": "Chalk-fronted corporal, Ladona julia."
+    },
+    {
+      "layout": "full",
+      "duration": 4.0,
+      "media": "photo:dragonfly/01.jpg",
+      "anchor": "bottom",
+      "headline": "Mission success rate: up to 97%",
+      "body": "Filmed chasing flies in a lab arena, dragonflies caught up to 97% of the prey they went after.",
+      "source": "Combes et al. 2013, Integr. Comp. Biol."
+    },
+    {
+      "layout": "full",
+      "duration": 4.0,
+      "media": "video:dragonfly/01.webm@3",
+      "anchor": "top",
+      "kicker": "Mission debrief",
+      "headline": "Occupational hazard: bee-eaters.",
+      "body": "A European bee-eater with an emperor dragonfly. Absurd pilot, very real food chain."
+    }
+  ],
+  "caption": "Meet the meadow's most decorated pilot.\n\nDragonflies eat mosquitoes and flies, and sometimes tackle prey weighing 60% of their own body weight.\n\nSource: Combes et al. 2013; Britannica (Dragonfly).  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#dragonfly",
+    "#insectfacts",
+    "#predators",
+    "#odonata"
+  ],
+  "sources": [
+    "https://pubmed.ncbi.nlm.nih.gov/23784698/",
+    "https://www.britannica.com/animal/dragonfly"
+  ],
+  "notes": "AI fighter-pilot parody where the absurd character carries real data (capture success, a real species named 'corporal'); AI clips labelled, real photos stand in."
+}

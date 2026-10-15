@@ -1,0 +1,53 @@
+{
+  "slug": "remix-stitch-1",
+  "format_tag": "format:remix-stitch",
+  "family": "repurposed",
+  "risk": "low",
+  "variant": 1,
+  "title": "Stitch: why does the peacock shake like that?",
+  "storyboard": null,
+  "audio": "bed",
+  "scenes": [
+    {
+      "layout": "full",
+      "media": "video:peafowl/01.webm@0",
+      "duration": 3.0,
+      "anchor": "top",
+      "kicker": "STITCH",
+      "headline": "\"Why does he shake like that?\""
+    },
+    {
+      "layout": "full",
+      "media": "video:peafowl/01.webm@16",
+      "duration": 4.5,
+      "headline": "He's train-rattling",
+      "body": "High-speed video shows peacocks vibrating their feathers about 25 times a second."
+    },
+    {
+      "layout": "stat",
+      "media": "video:peafowl/01.webm@22",
+      "duration": 3.5,
+      "stat": "25.6 Hz",
+      "label": "Average train-rattling speed",
+      "source": "Dakin et al., PLOS ONE 2016"
+    },
+    {
+      "layout": "full",
+      "media": "video:peafowl/01.webm@27",
+      "duration": 3.5,
+      "headline": "It makes a pulsing buzz, too",
+      "body": "Peacocks were filmed rattling for over 25 minutes."
+    }
+  ],
+  "caption": "Answering the question everyone asks under peacock videos.\n\nThe display is aimed at peahens, and males with longer trains used slightly higher vibration frequencies on average.\n\nSource: Dakin et al. 2016, PLOS ONE.  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#peacock",
+    "#indianpeafowl",
+    "#birdbehaviour",
+    "#sciencefacts"
+  ],
+  "sources": [
+    "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0152759"
+  ],
+  "notes": "Stitch demo: in real use the first beat is the other creator's reel via Instagram's native Stitch (allowed); here a CC clip stands in. Our answer adds peer-reviewed data."
+}

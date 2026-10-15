@@ -1,0 +1,28 @@
+{
+  "slug": "pov-3",
+  "format_tag": "format:pov",
+  "family": "humor",
+  "variant": 3,
+  "title": "POV: chameleon, misunderstood",
+  "risk": "low",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": null,
+  "caption": "Camouflage is the background. The colour show is the message.\n\nRelaxed male panther chameleons look mostly green; when excited, the crystal spacing widens and they shift toward yellow and orange.\n\nSource: Teyssier et al. 2015, Nature Communications.  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#chameleon",
+    "#pantherchameleon",
+    "#reptilefacts",
+    "#animalcolour"
+  ],
+  "sources": [
+    "https://www.nature.com/articles/ncomms7368"
+  ],
+  "duration_s": 11.7,
+  "file_mb": 3.27,
+  "credits": [
+    "Photo: Charles J. Sharp · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Knowledge and philosophy · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "announcement-2",
+  "format_tag": "format:announcement",
+  "family": "commercial",
+  "risk": "low",
+  "variant": 2,
+  "title": "Announcing: tiger-reserve trips",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": null,
+  "audio": "beat",
+  "scenes": [
+    {
+      "layout": "full",
+      "duration": 3.5,
+      "media": "video:leopard/01.webm@1",
+      "kicker": "ANNOUNCING",
+      "headline": "Tiger-reserve trips by Muddy Lessons"
+    },
+    {
+      "layout": "full",
+      "duration": 4.5,
+      "media": "photo:sloth-bear/03.jpg",
+      "kicker": "SLOTH BEAR, BOR, INDIA",
+      "headline": "Sloth bears rip open termite nests and vacuum up the insects",
+      "source": "Animal Diversity Web: Melursus ursinus",
+      "focus": [
+        0.65,
+        0.5
+      ]
+    },
+    {
+      "layout": "split",
+      "duration": 4.0,
+      "media": "video:leopard/01.webm@8",
+      "media_b": "photo:peafowl/02.jpg",
+      "label_a": "LEOPARD",
+      "label_b": "INDIAN PEAFOWL",
+      "headline": "Learn to read the whole forest, not just look for stripes"
+    },
+    {
+      "layout": "card",
+      "duration": 3.5,
+      "bg": "night",
+      "kicker": "TIGER-RESERVE TRIPS",
+      "headline": "With a Muddy Lessons naturalist",
+      "body": "Details and enquiries: see bio."
+    }
+  ],
+  "caption": "Tiger-reserve trips are here\n\nThe puffing and sucking of a sloth bear feeding at a termite mound can be heard up to about 185 m away.\n\nSource: Animal Diversity Web. Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#tigerreserve",
+    "#slothbear",
+    "#leopard",
+    "#indianwildlife"
+  ],
+  "sources": [
+    "https://animaldiversity.org/accounts/Melursus_ursinus/"
+  ],
+  "notes": "Launch post from real Indian wild footage (Rajaji leopard, Bor sloth bear, Corbett peafowl) - positions the trips as 'more than tigers' so we never promise a sighting. Confirm the programme before posting."
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "meme-3",
+  "format_tag": "format:meme",
+  "family": "humor",
+  "variant": 3,
+  "title": "Elephant 'small snack' meme",
+  "risk": "medium",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": null,
+  "caption": "The daily menu of an Asian elephant is mostly... the daily menu.\n\nWild Asian elephants also drink about 189 litres (50 gallons) of water a day. The clips were filmed at Pinnawala Elephant Orphanage, Sri Lanka; the river shot is a wild elephant in Laos.\n\nSource: Smithsonian's National Zoo.  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#asianelephant",
+    "#elephantfacts",
+    "#elephant",
+    "#wildlifefacts"
+  ],
+  "sources": [
+    "https://nationalzoo.si.edu/animals/asian-elephant"
+  ],
+  "duration_s": 12.7,
+  "file_mb": 6.32,
+  "credits": [
+    "Photo: Basile Morin · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Cherubino · Wikimedia Commons · CC BY-SA 3.0"
+  ]
+}

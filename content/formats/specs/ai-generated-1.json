@@ -1,0 +1,61 @@
+{
+  "slug": "ai-generated-1",
+  "format_tag": "format:ai-generated",
+  "family": "creative",
+  "risk": "medium",
+  "variant": 1,
+  "title": "A flower at bee size (AI scenery, real bees)",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": "Generate (AI, labelled): stylised bee-scale fly-through of a flower, no animals; bee shots stay real photos",
+  "audio": "bed",
+  "scenes": [
+    {
+      "layout": "card",
+      "duration": 3.0,
+      "bg": "night",
+      "kicker": "AI-generated visual",
+      "headline": "What a flower looks like at bee size",
+      "body": "Stylised AI animation, labelled on screen. No animals generated."
+    },
+    {
+      "layout": "pip",
+      "duration": 3.5,
+      "media": "photo:honey-bee/01.jpg",
+      "pip_label": "AI FLOWER FLY-THROUGH",
+      "headline": "Real bee: photo. Flower fly-through: AI.",
+      "body": "We generate scenery, never animal behaviour."
+    },
+    {
+      "layout": "full",
+      "duration": 3.5,
+      "media": "photo:honey-bee/04.jpg",
+      "kicker": "Real photo · honey bee",
+      "headline": "Bees see ultraviolet, so many flowers show them hidden nectar guides.",
+      "anchor": "top",
+      "motion": "in"
+    },
+    {
+      "layout": "card",
+      "duration": 3.0,
+      "bg": "ink",
+      "kicker": "Our AI rule",
+      "headline": "If it's generated, the screen says so.",
+      "body": "Animals stay real footage."
+    }
+  ],
+  "caption": "AI scenery, real bees, clearly labelled.\n\nMany flowers carry ultraviolet patterns invisible to us that guide bees toward nectar, while red flowers often look dark to them.\n\nSource: USDA Forest Service, Britannica. Flower animation: AI-generated (labelled).  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#honeybee",
+    "#pollinators",
+    "#beevision",
+    "#aigenerated",
+    "#sciencevisuals"
+  ],
+  "sources": [
+    "https://www.fs.usda.gov/wildflowers/pollinators/animals/bees.shtml",
+    "https://www.britannica.com/animal/bee"
+  ],
+  "notes": "Medium risk: AI label on screen and in caption, generation limited to a stylised non-animal scene; every animal shot is a real photo. Never presented as real footage."
+}

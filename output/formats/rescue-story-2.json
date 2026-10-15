@@ -1,0 +1,29 @@
+{
+  "slug": "rescue-story-2",
+  "format_tag": "format:rescue-story",
+  "family": "wildlife",
+  "variant": 2,
+  "title": "The 'snake attack' rescue is a set-up",
+  "risk": "avoid",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": null,
+  "caption": "If the camera was rolling before the 'attack', it wasn't an accident.\n\nOne documented example: a python coiled around a gibbon until a person 'discovered' them. Report these videos instead of sharing them.\n\nSource: National Geographic (2021); SMACC 'Spot the Scam' (2024). Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#fakerescue",
+    "#animalwelfare",
+    "#kingcobra",
+    "#medialiteracy"
+  ],
+  "sources": [
+    "https://www.nationalgeographic.com/animals/article/how-fake-animal-rescue-videos-have-become-a-new-frontier-for-animal-abuse",
+    "https://www.worldanimalprotection.org/latest/news/fake-animal-rescues/"
+  ],
+  "duration_s": 14.9,
+  "file_mb": 1.83,
+  "credits": [
+    "Photo: Airlangga Jati Kusuma · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Nativeplants garden · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

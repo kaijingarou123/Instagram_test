@@ -1,0 +1,57 @@
+{
+  "slug": "product-demo-2",
+  "format_tag": "format:product-demo",
+  "family": "commercial",
+  "risk": "low",
+  "variant": 2,
+  "title": "Field guide demo: sexing a pied kingfisher",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": "Film: top-down hands flipping a bird field guide to the kingfisher plate, finger tracing breast bands",
+  "audio": "bed",
+  "scenes": [
+    {
+      "layout": "full",
+      "duration": 3.5,
+      "media": "video:kingfisher/01.webm@1",
+      "kicker": "FIELD GUIDE 101",
+      "headline": "Male or female? Your field guide knows"
+    },
+    {
+      "layout": "pip",
+      "duration": 4.5,
+      "media": "video:kingfisher/01.webm@5",
+      "pip_label": "FIELD GUIDE PAGE",
+      "headline": "Step 1: big head, dagger bill - go to the kingfishers",
+      "body": "Step 2: black-and-white all over - pied kingfisher."
+    },
+    {
+      "layout": "full",
+      "duration": 4.5,
+      "media": "video:kingfisher/01.webm@9",
+      "kicker": "STEP 3: FIELD MARKS",
+      "headline": "Two black breast bands = male. One band = female.",
+      "source": "Animal Diversity Web: Ceryle rudis"
+    },
+    {
+      "layout": "card",
+      "duration": 3.5,
+      "bg": "moss",
+      "kicker": "MUDDY LESSONS",
+      "headline": "Field-guide skills, taught on our day trails around Bengaluru",
+      "body": "Details in bio."
+    }
+  ],
+  "caption": "Your field guide can tell you more than the name\n\nPied kingfishers hunt with a hover-plunge: they drop lower and lower over the water, then dive.\n\nSource: Animal Diversity Web. Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#piedkingfisher",
+    "#fieldguide",
+    "#birdid",
+    "#birdingindia"
+  ],
+  "sources": [
+    "https://animaldiversity.org/accounts/Ceryle_rudis/"
+  ],
+  "notes": "Product demo of a field guide in use - a 3-step ID workflow ending in a real field mark. Clip is Uganda (Queen Elizabeth NP); we don't sex the bird on screen, only teach the rule."
+}

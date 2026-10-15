@@ -1,0 +1,30 @@
+{
+  "slug": "animation-1",
+  "format_tag": "format:animation",
+  "family": "creative",
+  "variant": 1,
+  "title": "India's tiger count, animated",
+  "risk": "low",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": null,
+  "caption": "From 1,411 to 3,682.\n\nIndia's tiger estimate is repeated every four years, using camera traps that identify individual tigers by their unique stripe patterns. Tigers are still listed as Endangered globally.\n\nSource: Press Information Bureau (All India Tiger Estimation 2022), IUCN Red List.  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#tigercensus",
+    "#savethetigers",
+    "#bengaltiger",
+    "#conservationwins",
+    "#wildlifefacts"
+  ],
+  "sources": [
+    "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2290233",
+    "https://ntca.gov.in/",
+    "https://www.iucnredlist.org/species/15955/214862019"
+  ],
+  "duration_s": 13.3,
+  "file_mb": 1.95,
+  "credits": [
+    "Photo: Gurung pratap · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

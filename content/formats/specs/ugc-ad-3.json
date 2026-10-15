@@ -1,0 +1,58 @@
+{
+  "slug": "ugc-ad-3",
+  "format_tag": "format:ugc-ad",
+  "family": "commercial",
+  "risk": "low",
+  "variant": 3,
+  "title": "Nature club made me the hornbill-fact kid",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": "Film: student (guardian consent) talking to camera in the school garden, teacher present, 2 takes",
+  "audio": "bed",
+  "scenes": [
+    {
+      "layout": "full",
+      "duration": 3.5,
+      "media": "video:hornbill/01.webm@2",
+      "kicker": "SCHOOL NATURE CLUB",
+      "headline": "Nature club made me the bird-fact kid"
+    },
+    {
+      "layout": "pip",
+      "duration": 5.0,
+      "media": "video:hornbill/01.webm@10",
+      "pip_label": "STUDENT",
+      "headline": "Hornbill dads wall the female into the nest with mud",
+      "body": "He passes food through a small slit. (Oriental pied hornbill, Thailand)"
+    },
+    {
+      "layout": "full",
+      "duration": 4.5,
+      "media": "video:hornbill/01.webm@18",
+      "kicker": "THE BEST PART",
+      "headline": "Once the eggs hatch she breaks out - and the chicks may be walled in again",
+      "body": "Oriental pied hornbill, Thailand.",
+      "source": "Britannica: Hornbill"
+    },
+    {
+      "layout": "card",
+      "duration": 3.5,
+      "bg": "amber",
+      "kicker": "MUDDY LESSONS",
+      "headline": "School nature clubs",
+      "body": "Want one at your school? Ask your teacher to DM us."
+    }
+  ],
+  "caption": "Ask a nature club kid about hornbills. We dare you.\n\nThis walled-in nesting is true of every hornbill species except the two ground hornbills.\n\nSource: Britannica. Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#hornbill",
+    "#schoolnatureclub",
+    "#birdfacts",
+    "#bengaluruschools"
+  ],
+  "sources": [
+    "https://www.britannica.com/animal/hornbill"
+  ],
+  "notes": "Student-creator UGC ad for school nature clubs: the kid's enthusiasm is the product proof, the hornbill fact is the payoff. Student is a placeholder - film only with guardian consent and a teacher present."
+}

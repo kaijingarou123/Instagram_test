@@ -1,0 +1,68 @@
+{
+  "slug": "conservation-story-2",
+  "format_tag": "format:conservation-story",
+  "family": "wildlife",
+  "risk": "low",
+  "variant": 2,
+  "title": "The hornbill nest guardians",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": null,
+  "audio": "bed",
+  "scenes": [
+    {
+      "layout": "full",
+      "media": "video:hornbill/01.webm@2",
+      "duration": 3.0,
+      "kicker": "Pied hornbill, Thailand",
+      "headline": "In Arunachal, villagers guard hornbill nests."
+    },
+    {
+      "layout": "card",
+      "bg": "moss",
+      "kicker": "Since 2011",
+      "duration": 3.5,
+      "headline": "The Hornbill Nest Adoption Program",
+      "body": "Nature Conservation Foundation, the Ghora-Aabhe Society of village elders and the Arunachal Forest Department."
+    },
+    {
+      "layout": "stat",
+      "media": "video:hornbill/01.webm@10",
+      "duration": 3.5,
+      "stat": "220",
+      "label": "hornbill chicks fledged by 2024",
+      "body": "From about 40 protected nests near Pakke Tiger Reserve.",
+      "source": "Nature Conservation Foundation"
+    },
+    {
+      "layout": "full",
+      "media": "video:hornbill/01.webm@18",
+      "duration": 3.5,
+      "kicker": "Oriental pied hornbill",
+      "headline": "Why one tree matters",
+      "body": "The female is walled into the nest hole and fed by the male. Lose the tree, lose the family."
+    },
+    {
+      "layout": "card",
+      "bg": "cream",
+      "duration": 3.5,
+      "headline": "Wreathed hornbill: Vulnerable (IUCN, 2018)",
+      "body": "Great, wreathed, oriental pied and rufous-necked hornbills live in Pakke.",
+      "source": "BirdLife International; NCF"
+    }
+  ],
+  "caption": "Ten nest protectors, about 40 nests, 220 chicks.\n\nNest protectors are Nyishi villagers from ten villages who find, monitor and guard nest trees through the breeding season.\n\nSource: Nature Conservation Foundation; BirdLife International / IUCN Red List; Britannica. Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#hornbill",
+    "#arunachalpradesh",
+    "#communityconservation",
+    "#indianbirds"
+  ],
+  "sources": [
+    "https://www.ncf-india.org/eastern-himalaya/hornbill-nest-adoption-program",
+    "https://datazone.birdlife.org/species/factsheet/wreathed-hornbill-rhyticeros-undulatus",
+    "https://www.britannica.com/animal/hornbill"
+  ],
+  "notes": "Named project with named partners and verified numbers. Media thin: no Pakke footage; the oriental pied hornbill clip is from Thailand (species does occur at Pakke) and is labelled by species only."
+}

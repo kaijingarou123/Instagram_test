@@ -1,0 +1,30 @@
+{
+  "slug": "cute-animal-1",
+  "format_tag": "format:cute-animal",
+  "family": "wildlife",
+  "variant": 1,
+  "title": "Sloth bear cubs ride piggyback",
+  "risk": "high",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": null,
+  "caption": "The only bus route with fur seats.\n\nAbout 20,000 or fewer sloth bears may remain in the wild, though no reliable large-scale survey has been done.\n\nSource: Smithsonian's National Zoo; Animal Diversity Web. Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#slothbear",
+    "#babyanimals",
+    "#indianwildlife",
+    "#bears"
+  ],
+  "sources": [
+    "https://nationalzoo.si.edu/animals/sloth-bear",
+    "https://animaldiversity.org/accounts/Melursus_ursinus/"
+  ],
+  "duration_s": 12.8,
+  "file_mb": 5.42,
+  "credits": [
+    "Photo: Giles Laurent · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Rohit Sharma · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Sanuth Prabasha · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

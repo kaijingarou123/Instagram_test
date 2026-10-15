@@ -1,0 +1,41 @@
+[
+  {
+    "title": "File:Nice chameleon portrait.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File%3ANice%20chameleon%20portrait.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Nice_chameleon_portrait.jpg/3840px-Nice_chameleon_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 5184,
+    "height": 3456,
+    "license": "CC BY-SA 4.0",
+    "artist": "Knowledge and philosophy",
+    "credit": "Own work",
+    "description": "A chameleon walking on a tarred road",
+    "curated": false,
+    "file": "02.jpg"
+  },
+  {
+    "title": "File:Panther chameleon (Furcifer pardalis) male Montagne d’Ambre 3.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File%3APanther%20chameleon%20%28Furcifer%20pardalis%29%20male%20Montagne%20d%E2%80%99Ambre%203.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Panther_chameleon_%28Furcifer_pardalis%29_male_Montagne_d%E2%80%99Ambre_3.jpg/3840px-Panther_chameleon_%28Furcifer_pardalis%29_male_Montagne_d%E2%80%99Ambre_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 5148,
+    "height": 3432,
+    "license": "CC BY-SA 4.0",
+    "artist": "Charles J. Sharp",
+    "credit": "Own work, from Sharp Photography, sharpphotography.co.uk",
+    "description": "Panther chameleon (Furcifer pardalis) male, Montagne d’Ambre, Madagascar",
+    "curated": false,
+    "file": "03.jpg"
+  },
+  {
+    "title": "File:Chameleon in Gombe.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File%3AChameleon%20in%20Gombe.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/55/Chameleon_in_Gombe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "width": 3456,
+    "height": 4608,
+    "license": "CC BY-SA 4.0",
+    "artist": "Umar2z",
+    "credit": "Own work",
+    "description": "A Chameleon walking around",
+    "curated": false,
+    "file": "04.jpg"
+  }
+]

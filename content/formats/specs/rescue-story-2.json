@@ -1,0 +1,66 @@
+{
+  "slug": "rescue-story-2",
+  "format_tag": "format:rescue-story",
+  "family": "wildlife",
+  "risk": "avoid",
+  "variant": 2,
+  "title": "The 'snake attack' rescue is a set-up",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": null,
+  "audio": "bed",
+  "scenes": [
+    {
+      "layout": "card",
+      "bg": "red",
+      "duration": 3.0,
+      "kicker": "Why we never post these",
+      "headline": "Snake grabs monkey. Human saves it. Staged."
+    },
+    {
+      "layout": "full",
+      "media": "photo:king-cobra/03.jpg",
+      "duration": 3.5,
+      "kicker": "King cobra, Kerala",
+      "headline": "The fight was arranged",
+      "body": "Investigators found clips where animals were put together so someone could 'save' one.",
+      "source": "National Geographic, 2021"
+    },
+    {
+      "layout": "full",
+      "media": "photo:macaque/01.jpg",
+      "duration": 3.5,
+      "kicker": "Wild macaques, Indonesia",
+      "headline": "Often the same animals, again and again",
+      "body": "Welfare groups report animals being put in danger repeatedly to film more 'rescues'."
+    },
+    {
+      "layout": "card",
+      "bg": "ink",
+      "duration": 3.5,
+      "headline": "Banned on YouTube. Still uploaded.",
+      "body": "Moderators told reporters that review of these videos is slow and inconsistent.",
+      "source": "National Geographic, 2021"
+    },
+    {
+      "layout": "card",
+      "bg": "moss",
+      "duration": 3.0,
+      "headline": "What we post instead",
+      "body": "Wild behaviour, credited footage, named places. No set-ups, ever."
+    }
+  ],
+  "caption": "If the camera was rolling before the 'attack', it wasn't an accident.\n\nOne documented example: a python coiled around a gibbon until a person 'discovered' them. Report these videos instead of sharing them.\n\nSource: National Geographic (2021); SMACC 'Spot the Scam' (2024). Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#fakerescue",
+    "#animalwelfare",
+    "#kingcobra",
+    "#medialiteracy"
+  ],
+  "sources": [
+    "https://www.nationalgeographic.com/animals/article/how-fake-animal-rescue-videos-have-become-a-new-frontier-for-animal-abuse",
+    "https://www.worldanimalprotection.org/latest/news/fake-animal-rescues/"
+  ],
+  "notes": "AVOID format: anti-pattern explainer on the predator-attack-then-rescue trope. Wild CC photos are labelled as wild and shown separately (never paired), so we don't recreate the genre."
+}

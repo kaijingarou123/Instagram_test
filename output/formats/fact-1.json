@@ -1,0 +1,29 @@
+{
+  "slug": "fact-1",
+  "format_tag": "format:fact",
+  "family": "educational",
+  "variant": 1,
+  "title": "Tigers can swim across 8 km of water",
+  "risk": "low",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": null,
+  "caption": "Tigers can swim across rivers and lakes up to 8 km wide.\n\nNo two tigers share the same stripe pattern, so researchers use stripes like fingerprints to identify wild individuals.\n\nSource: Smithsonian's National Zoo & Conservation Biology Institute. Swimming footage: a captive tiger at Tiger Park Pattaya. Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#tiger",
+    "#bigcats",
+    "#wildlifefacts",
+    "#animalfacts"
+  ],
+  "sources": [
+    "https://nationalzoo.si.edu/animals/tiger"
+  ],
+  "duration_s": 14.3,
+  "file_mb": 6.05,
+  "credits": [
+    "Photo: Grendelkhan · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Gurung pratap · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Joselodos · Wikimedia Commons · CC0"
+  ]
+}

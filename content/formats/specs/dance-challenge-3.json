@@ -1,0 +1,59 @@
+{
+  "slug": "dance-challenge-3",
+  "format_tag": "format:dance-challenge",
+  "family": "creative",
+  "risk": "low",
+  "variant": 3,
+  "title": "The flamingo head-flag challenge (campers)",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": "Film: 8–10 campers in a tight flock, heads flicking left-right in sync to the beat; wide + side, 3 takes",
+  "audio": "beat",
+  "scenes": [
+    {
+      "layout": "pip",
+      "duration": 3.0,
+      "media": "video:flamingo/03.webm",
+      "pip_label": "CAMPERS",
+      "headline": "The flamingo head-flag challenge"
+    },
+    {
+      "layout": "full",
+      "duration": 3.5,
+      "media": "video:flamingo/01.webm@2",
+      "kicker": "Camargue · slowed 4x",
+      "headline": "The original: greater flamingos flagging their heads in sync.",
+      "anchor": "top"
+    },
+    {
+      "layout": "card",
+      "duration": 4.0,
+      "bg": "amber",
+      "kicker": "Why they do it",
+      "headline": "Group displays get the whole colony ready to breed",
+      "body": "Syncing up helps the flock lay eggs at the same time when conditions are right.",
+      "source": "Smithsonian's National Zoo"
+    },
+    {
+      "layout": "pip",
+      "duration": 3.0,
+      "media": "video:flamingo/01.webm@14",
+      "pip_label": "CAMPERS",
+      "headline": "Flag. Flick. Freeze.",
+      "body": "Filmed at a Muddy Lessons nature study camp."
+    }
+  ],
+  "caption": "Our campers tried the original group dance.\n\nIn large colonies, thousands of flamingos can display together, lifting and turning their heads at the same moment.\n\nSource: Smithsonian's National Zoo.  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#flamingo",
+    "#dancechallenge",
+    "#naturecamp",
+    "#birdbehaviour",
+    "#outdoorlearning"
+  ],
+  "sources": [
+    "https://nationalzoo.si.edu/animals/american-flamingo"
+  ],
+  "notes": "Storyboard: human trend version — campers copy a real courtship display (real Camargue courtship footage, labelled as slowed), then the science; ties to Muddy Lessons nature camps."
+}

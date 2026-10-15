@@ -1,0 +1,48 @@
+{
+  "slug": "aggregator-repost-2",
+  "format_tag": "format:aggregator-repost",
+  "family": "repurposed",
+  "risk": "high",
+  "variant": 2,
+  "title": "Repost: a common kingfisher's preening session",
+  "storyboard": null,
+  "audio": "bed",
+  "scenes": [
+    {
+      "layout": "full",
+      "media": "video:kingfisher/03.webm@0",
+      "duration": 6.0,
+      "anchor": "top",
+      "kicker": "REPOST · CC BY 3.0",
+      "headline": "Kingfisher, mid-preen",
+      "source": "Video: Lennart Hessel / Wikimedia Commons"
+    },
+    {
+      "layout": "full",
+      "media": "video:kingfisher/03.webm@8",
+      "duration": 6.0,
+      "body": "Common kingfishers dig nest tunnels into steep banks, usually 15 to 30 cm long. Both parents dig.",
+      "source": "Animal Diversity Web"
+    },
+    {
+      "layout": "card",
+      "duration": 3.5,
+      "bg": "night",
+      "kicker": "CREDIT",
+      "headline": "Filmed by Lennart Hessel",
+      "body": "Licence: CC BY 3.0, via Wikimedia Commons."
+    }
+  ],
+  "caption": "Two minutes of maintenance, ten seconds of glory.\n\nCommon kingfishers hunt from a perch, dive for small fish and fly straight back out. Fish make up about 60-67% of their diet.\n\nSource: Animal Diversity Web.  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#commonkingfisher",
+    "#kingfisher",
+    "#birdbehaviour",
+    "#birdfacts"
+  ],
+  "sources": [
+    "https://animaldiversity.org/accounts/Alcedo_atthis/",
+    "https://commons.wikimedia.org/wiki/File:Common_Kingfisher_preening.webm"
+  ],
+  "notes": "Aggregator-repost demo: near-whole CC clip, prominent credit, one added fact. Real format is high-risk with third-party footage (unoriginal/copyright); only OK with our own or CC-licensed media plus added context, as here."
+}

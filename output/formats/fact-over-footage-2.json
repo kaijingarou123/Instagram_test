@@ -1,0 +1,28 @@
+{
+  "slug": "fact-over-footage-2",
+  "format_tag": "format:fact-over-footage",
+  "family": "wildlife",
+  "variant": 2,
+  "title": "The kingfisher's blue isn't pigment",
+  "risk": "low",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": null,
+  "caption": "Kingfisher blue is made by structure, not pigment.\n\nThe cyan back and blue tail feathers use slightly different sponge structures, which is why they are two different shades of blue.\n\nSource: Stavenga, Tinbergen, Leertouwer & Wilts 2011, Journal of Experimental Biology. Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#kingfisher",
+    "#structuralcolour",
+    "#birdfacts",
+    "#sciencefacts"
+  ],
+  "sources": [
+    "https://journals.biologists.com/jeb/article/214/23/3960/10597/Kingfisher-feathers-colouration-by-pigments-spongy"
+  ],
+  "duration_s": 12.3,
+  "file_mb": 2.59,
+  "credits": [
+    "Photo: Alexis Lours · Wikimedia Commons · CC BY 4.0",
+    "Photo: Lennart Hessel · Wikimedia Commons · CC BY 3.0"
+  ]
+}

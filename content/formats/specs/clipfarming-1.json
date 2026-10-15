@@ -1,0 +1,67 @@
+{
+  "slug": "clipfarming-1",
+  "format_tag": "format:clipfarming",
+  "family": "repurposed",
+  "risk": "high",
+  "variant": 1,
+  "title": "Clipped: langurs grooming, and who gets groomed most",
+  "tactic_tags": [
+    "tactic:hook-text",
+    "tactic:series"
+  ],
+  "storyboard": null,
+  "audio": "bed",
+  "scenes": [
+    {
+      "layout": "full",
+      "media": "video:langur/01.webm@2",
+      "duration": 3.0,
+      "anchor": "top",
+      "kicker": "CLIP 1/3",
+      "headline": "Watch who does the grooming"
+    },
+    {
+      "layout": "full",
+      "media": "video:langur/01.webm@14",
+      "duration": 4.5,
+      "subtitle": [
+        "Hanuman langurs",
+        "groom each other",
+        "a lot",
+        "but not equally"
+      ]
+    },
+    {
+      "layout": "full",
+      "media": "video:langur/01.webm@30",
+      "duration": 4.5,
+      "subtitle": [
+        "Dominant langurs",
+        "groom one another",
+        "and get groomed",
+        "more often"
+      ]
+    },
+    {
+      "layout": "card",
+      "duration": 3.5,
+      "bg": "moss",
+      "kicker": "HANUMAN LANGUR",
+      "headline": "Grooming follows the troop's pecking order",
+      "body": "Groups range from 2 to over 100 members.",
+      "source": "Animal Diversity Web"
+    }
+  ],
+  "caption": "Grooming isn't just cleaning. It's politics.\n\nHanuman langurs eat mostly leaves (about half their diet) and live from Kashmir and Nepal south to Sri Lanka, often close to people.\n\nSource: Animal Diversity Web.  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#hanumanlangur",
+    "#langur",
+    "#primatebehaviour",
+    "#indianwildlife"
+  ],
+  "sources": [
+    "https://animaldiversity.org/accounts/Semnopithecus_entellus/",
+    "https://commons.wikimedia.org/wiki/File:Langurs_Grooming_in_Community.webm"
+  ],
+  "notes": "Clipfarming demo: a 64 s CC BY-SA clip (Suyash Dwivedi, India) cut to 3 punchy subtitle beats plus a fact card. Real format is high-risk with third-party footage (unoriginal/copyright); only OK with our own or CC-licensed media plus added context, as here."
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "routine-2",
+  "format_tag": "format:routine",
+  "family": "lifestyle",
+  "risk": "low",
+  "variant": 2,
+  "title": "A langur troop's grooming routine",
+  "storyboard": null,
+  "audio": "bed",
+  "scenes": [
+    {
+      "layout": "full",
+      "media": "video:langur/01.webm@0.5",
+      "duration": 3.5,
+      "kicker": "Langur routine",
+      "headline": "Today's plan: groom, get groomed, repeat"
+    },
+    {
+      "layout": "full",
+      "media": "video:langur/01.webm@11",
+      "duration": 4.0,
+      "headline": "Part the fur, row by row",
+      "body": "Gray langurs are native to India, from forests to towns.",
+      "source": "Animal Diversity Web"
+    },
+    {
+      "layout": "full",
+      "media": "video:langur/01.webm@42",
+      "duration": 4.0,
+      "headline": "Rank decides who gets groomed most",
+      "body": "Dominant langurs give and receive more grooming than the rest.",
+      "source": "Animal Diversity Web"
+    },
+    {
+      "layout": "full",
+      "media": "photo:macaque/01.jpg",
+      "duration": 3.0,
+      "headline": "Macaques groom each other too"
+    },
+    {
+      "layout": "card",
+      "duration": 3.5,
+      "bg": "moss",
+      "big": "2–100+",
+      "kicker": "Troop size",
+      "headline": "Gray langur groups range from 2 to over 100",
+      "source": "Animal Diversity Web"
+    }
+  ],
+  "caption": "A self-care routine with very strict rules.\n\nLeaves make up roughly half or more of a gray langur's diet, with fruit and flowers on the side.\n\nSource: Animal Diversity Web (Semnopithecus entellus). Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#langur",
+    "#graylangur",
+    "#primates",
+    "#animalroutine",
+    "#indianwildlife"
+  ],
+  "sources": [
+    "https://animaldiversity.org/accounts/Semnopithecus_entellus/"
+  ],
+  "notes": "Self-care routine format using one real grooming clip at three moments; the twist (rank decides grooming) makes it educational, not just cute."
+}

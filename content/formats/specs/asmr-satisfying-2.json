@@ -1,0 +1,50 @@
+{
+  "slug": "asmr-satisfying-2",
+  "format_tag": "format:asmr-satisfying",
+  "family": "lifestyle",
+  "risk": "low",
+  "variant": 2,
+  "title": "Preening, up close",
+  "tactic_tags": [
+    "tactic:loop"
+  ],
+  "storyboard": null,
+  "audio": "bed",
+  "scenes": [
+    {
+      "layout": "full",
+      "media": "video:kingfisher/03.webm@3",
+      "duration": 4.0,
+      "kicker": "Sound on",
+      "headline": "Preening, up close."
+    },
+    {
+      "layout": "full",
+      "media": "video:kingfisher/03.webm@12",
+      "duration": 3.5
+    },
+    {
+      "layout": "full",
+      "media": "video:peafowl/02.webm@2",
+      "duration": 4.0,
+      "kicker": "Peahen · Ljubljana Zoo"
+    },
+    {
+      "layout": "full",
+      "media": "video:kingfisher/03.webm@3",
+      "duration": 3.0,
+      "motion": "out"
+    }
+  ],
+  "caption": "Feather care, slowed down.\n\nMany birds spread oil from a preen gland near the base of the tail over their feathers while preening.\n\nSource: Cornell University College of Veterinary Medicine. Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#preening",
+    "#kingfisher",
+    "#peahen",
+    "#birdasmr"
+  ],
+  "sources": [
+    "https://partnersah.vet.cornell.edu/node/832"
+  ],
+  "notes": "Satisfying close-up texture loop (feathers being combed), minimal text, loops back to the first frame; zoo peahen is labelled."
+}

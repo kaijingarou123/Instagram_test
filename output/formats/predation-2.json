@@ -1,0 +1,30 @@
+{
+  "slug": "predation-2",
+  "format_tag": "format:predation",
+  "family": "wildlife",
+  "variant": 2,
+  "title": "Why leopards take dinner up a tree",
+  "risk": "high",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": null,
+  "caption": "A tree is a leopard's fridge with a lock on it.\n\nIn the same study, at least 21% of kills were stolen, mostly by spotted hyenas, and the risk was highest for big kills left on the ground.\n\nSource: Balme, Miller, Pitman & Hunter 2017, Journal of Animal Ecology. Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#leopard",
+    "#bigcats",
+    "#predatorprey",
+    "#animalbehaviour"
+  ],
+  "sources": [
+    "https://doi.org/10.1111/1365-2656.12654",
+    "https://datadryad.org/dataset/doi:10.5061/dryad.gb794"
+  ],
+  "duration_s": 14.9,
+  "file_mb": 8.43,
+  "credits": [
+    "Photo: Bernard DUPONT · Wikimedia Commons · CC BY-SA 2.0",
+    "Photo: Shiv's fotografia · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Thomas Fuhrmann · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

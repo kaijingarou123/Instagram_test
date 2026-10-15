@@ -1,0 +1,58 @@
+{
+  "slug": "prank-2",
+  "format_tag": "format:prank",
+  "family": "humor",
+  "risk": "medium",
+  "variant": 2,
+  "title": "The 'Mexican walking fish' box",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": "Film: friend opens a box labelled 'Mexican walking fish'; inside is a printed axolotl photo and a fact card",
+  "audio": "bed",
+  "scenes": [
+    {
+      "layout": "pip",
+      "duration": 4.0,
+      "media": "photo:axolotl/01.jpg",
+      "pip_label": "Friend opening the box",
+      "headline": "Gave my friend a box labelled 'Mexican walking fish'"
+    },
+    {
+      "layout": "full",
+      "duration": 3.5,
+      "media": "photo:axolotl/02.jpg",
+      "anchor": "top",
+      "headline": "Plot twist #1: it's not a fish. It's a salamander."
+    },
+    {
+      "layout": "full",
+      "duration": 4.0,
+      "media": "photo:axolotl/01.jpg",
+      "motion": "in",
+      "anchor": "bottom",
+      "headline": "Plot twist #2: it never really grows up",
+      "body": "Axolotls keep their feathery gills and stay aquatic as adults, a trait called neoteny."
+    },
+    {
+      "layout": "card",
+      "duration": 5.0,
+      "bg": "red",
+      "kicker": "No pets were harmed",
+      "headline": "Critically Endangered in the wild",
+      "body": "Wild axolotls survive only in the Xochimilco canals near Mexico City. The box held a printed photo, not an animal.",
+      "source": "National Geographic"
+    }
+  ],
+  "caption": "The name is the real prank.\n\nAxolotls are famous in science for regrowing lost limbs, which makes them a major subject of regeneration research.\n\nSource: National Geographic (Axolotl).  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#axolotl",
+    "#amphibians",
+    "#salamander",
+    "#endangeredspecies"
+  ],
+  "sources": [
+    "https://www.nationalgeographic.com/animals/amphibians/facts/axolotl"
+  ],
+  "notes": "Prank on the name, not on an animal: friend opens a box holding a printed photo and fact card. Explicitly discourages buying axolotls as prank pets."
+}

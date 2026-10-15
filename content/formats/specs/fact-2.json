@@ -1,0 +1,61 @@
+{
+  "slug": "fact-2",
+  "format_tag": "format:fact",
+  "family": "educational",
+  "risk": "low",
+  "variant": 2,
+  "title": "The kingfisher that redesigned a bullet train",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": null,
+  "audio": "bed",
+  "scenes": [
+    {
+      "layout": "full",
+      "media": "video:kingfisher/02.webm@2",
+      "duration": 3.0,
+      "kicker": "Did you know",
+      "headline": "This bird redesigned a bullet train."
+    },
+    {
+      "layout": "full",
+      "media": "photo:kingfisher/01.jpg",
+      "duration": 4.5,
+      "motion": "in",
+      "headline": "Its beak enters water with barely a splash.",
+      "body": "The beak widens smoothly from tip to head, so it parts the water instead of slapping it.",
+      "source": "AskNature (Biomimicry Institute)"
+    },
+    {
+      "layout": "full",
+      "media": "video:kingfisher/03.webm@4",
+      "duration": 4.5,
+      "headline": "Japan's 500 Series trains had a problem: tunnel booms.",
+      "body": "At speed they pushed a pressure wave ahead and burst out of tunnels with a bang.",
+      "source": "AskNature (Biomimicry Institute)"
+    },
+    {
+      "layout": "stat",
+      "media": "video:kingfisher/02.webm@14",
+      "duration": 4.5,
+      "stat": "15%",
+      "label": "less electricity after the kingfisher-shaped nose",
+      "body": "Quieter in tunnels, and about 10% faster than the train before it.",
+      "source": "AskNature, quoting engineer Eiji Nakatsu"
+    }
+  ],
+  "caption": "A kingfisher's beak fixed the bullet train's tunnel boom.\n\nThe redesigned 500 Series nose is about 15 m long and almost round in cross-section, copying the way the beak widens gradually from its tip.\n\nSource: AskNature / Biomimicry Institute (Eiji Nakatsu, JR West). Footage: common kingfisher. Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#kingfisher",
+    "#biomimicry",
+    "#birdfacts",
+    "#wildlifefacts"
+  ],
+  "sources": [
+    "https://asknature.org/innovation/high-speed-train-inspired-by-the-kingfisher/",
+    "https://asknature.org/strategy/beak-provides-streamlining/",
+    "https://animaldiversity.org/accounts/Alcedo_atthis/"
+  ],
+  "notes": "A fact with a twist ending (bird to train) and a hard number payoff; all footage is the common kingfisher that inspired the design."
+}

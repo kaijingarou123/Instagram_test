@@ -1,0 +1,74 @@
+{
+  "slug": "listicle-3",
+  "format_tag": "format:listicle",
+  "family": "educational",
+  "risk": "low",
+  "variant": 3,
+  "title": "3 Indian animals that plant forests",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": null,
+  "audio": "bed",
+  "scenes": [
+    {
+      "layout": "full",
+      "media": "video:hornbill/01.webm@3",
+      "duration": 3.0,
+      "kicker": "Top 3",
+      "headline": "3 Indian animals that plant forests."
+    },
+    {
+      "layout": "card",
+      "bg": "moss",
+      "duration": 4.0,
+      "big": "1",
+      "kicker": "Hornbills",
+      "headline": "Drop seeds up to 11–13 km away.",
+      "body": "Tagged great and wreathed hornbills in Pakke Tiger Reserve, Arunachal, scattered seeds far from the parent tree.",
+      "source": "Naniwadekar et al. 2019, Acta Oecologica",
+      "media": "photo:hornbill/01.jpg"
+    },
+    {
+      "layout": "card",
+      "bg": "amber",
+      "duration": 4.0,
+      "big": "2",
+      "kicker": "Asian elephant",
+      "headline": "The elephant apple's best friend.",
+      "body": "In Buxa, its seeds were 26.5× likelier to pass intact through an elephant than through cattle.",
+      "source": "Sekar, Lee & Sukumar 2015, Ecology",
+      "media": "photo:asian-elephant/03.jpg"
+    },
+    {
+      "layout": "card",
+      "bg": "cream",
+      "duration": 4.0,
+      "big": "3",
+      "kicker": "Sloth bear",
+      "headline": "Not just termites: fruit too.",
+      "body": "Fruit showed up in 83% of dry-season scats in South India, and some seeds sprouted faster after the trip.",
+      "source": "Sreekumar & Balakrishnan 2002, Biotropica",
+      "media": "photo:sloth-bear/01.jpg"
+    },
+    {
+      "layout": "full",
+      "media": "video:hornbill/01.webm@15",
+      "duration": 3.5,
+      "headline": "Lose these animals, and big-seeded trees lose their gardeners."
+    }
+  ],
+  "caption": "Hornbills, elephants and sloth bears all move seeds for India's forests.\n\nElephant-apple seeds from elephant dung were also 1.5 times more likely to germinate than seeds from cattle dung.\n\nSources: Naniwadekar et al. (2019) Acta Oecologica; Sekar, Lee & Sukumar (2015) Ecology 96:2093; Sreekumar & Balakrishnan (2002) Biotropica. Footage: oriental pied hornbill; photo: Indian grey hornbill. Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#seeddispersal",
+    "#hornbill",
+    "#indianforests",
+    "#ecology"
+  ],
+  "sources": [
+    "https://datadryad.org/dataset/doi:10.5061/dryad.51c59zw4g",
+    "https://doi.org/10.1890/14-1543.1",
+    "https://doi.org/10.1646/0006-3606(2002)034[0474:SDBTSB]2.0.CO;2"
+  ],
+  "notes": "Every list item is an Indian field study with its own number; reframes charismatic animals as forest builders."
+}

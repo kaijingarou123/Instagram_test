@@ -1,0 +1,66 @@
+{
+  "slug": "explainer-1",
+  "format_tag": "format:explainer",
+  "family": "educational",
+  "risk": "low",
+  "variant": 1,
+  "title": "Why a peacock's blue isn't pigment",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": null,
+  "audio": "bed",
+  "scenes": [
+    {
+      "layout": "full",
+      "media": "video:peafowl/01.webm@3",
+      "duration": 3.0,
+      "kicker": "Explainer",
+      "headline": "There's no blue pigment in a peacock feather."
+    },
+    {
+      "layout": "full",
+      "media": "video:peafowl/01.webm@12",
+      "duration": 4.5,
+      "headline": "The colour is built, not dyed.",
+      "body": "Inside each barbule, tiny melanin rods held in keratin form a regular, crystal-like lattice.",
+      "source": "Zi et al. 2003, PNAS"
+    },
+    {
+      "layout": "card",
+      "bg": "night",
+      "duration": 4.5,
+      "kicker": "How it works",
+      "media": "photo:peafowl/01.jpg",
+      "headline": "The rod spacing picks the colour.",
+      "body": "Light bouncing off the lattice reinforces some wavelengths. Change the spacing, get a different colour.",
+      "source": "Zi et al. 2003, PNAS"
+    },
+    {
+      "layout": "full",
+      "media": "photo:peafowl/02.jpg",
+      "duration": 4.5,
+      "motion": "pan-left",
+      "headline": "The proof: soak it, and the colour shifts.",
+      "body": "Filling the lattice's air gaps with glycerin moved the reflected colour toward red. Pigment wouldn't do that.",
+      "source": "Zi et al. 2003, PNAS"
+    },
+    {
+      "layout": "full",
+      "media": "video:peafowl/01.webm@20",
+      "duration": 3.5,
+      "headline": "Every 'eye' on that train is physics, not paint."
+    }
+  ],
+  "caption": "A peacock's blue comes from structure, not blue pigment.\n\nThe same lattice of melanin rods makes every colour in the eyespot; blue, green, yellow and brown differ mainly in rod spacing and the number of layers.\n\nSource: Zi J. et al. (2003) Coloration strategies in peacock feathers, PNAS 100:12576. Footage: Indian peafowl, Botanical Garden Hyderabad. Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#peacock",
+    "#structuralcolour",
+    "#indianpeafowl",
+    "#sciencefacts"
+  ],
+  "sources": [
+    "https://www.pnas.org/doi/10.1073/pnas.2133313100"
+  ],
+  "notes": "Classic how-it-works arc (claim, mechanism, experiment, payoff) built on one peer-reviewed paper, over Indian peafowl display footage."
+}

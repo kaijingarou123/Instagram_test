@@ -1,0 +1,30 @@
+{
+  "slug": "field-vlog-3",
+  "format_tag": "format:field-vlog",
+  "family": "wildlife",
+  "variant": 3,
+  "title": "Night walk: the snail-eating glow",
+  "risk": "low",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": "Film: naturalist on a night walk with a red-filtered torch, finding a glowing firefly larva; hands only",
+  "caption": "The cutest glow on our night walk belongs to a snail hunter.\n\nFirefly light is made when enzymes act on molecules called luciferins, which react with oxygen and ATP.\n\nSource: Britannica, Firefly. Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#firefly",
+    "#nightwalk",
+    "#bioluminescence",
+    "#naturecamp"
+  ],
+  "sources": [
+    "https://www.britannica.com/animal/firefly"
+  ],
+  "duration_s": 14.4,
+  "file_mb": 2.63,
+  "credits": [
+    "Photo: Awan Senja · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Dr. Raju Kasambe · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Tero Keski-Valkama · Wikimedia Commons · CC0",
+    "Photo: Vis M · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

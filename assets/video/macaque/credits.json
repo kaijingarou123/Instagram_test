@@ -1,0 +1,26 @@
+[
+  {
+    "title": "File:Crab eating macaque walking.webm",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACrab%20eating%20macaque%20walking.webm",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f0/Crab_eating_macaque_walking.webm/Crab_eating_macaque_walking.webm.480p.vp9.webm",
+    "duration": 5.3,
+    "width": 1920,
+    "height": 1080,
+    "license": "CC BY-SA 4.0",
+    "artist": "Bruce Cowan",
+    "description": "A monkey having a wee walk",
+    "file": "01.webm"
+  },
+  {
+    "title": "File:Japanese macaques (Macaca fuscata) in Tokyo.webm",
+    "page": "https://commons.wikimedia.org/wiki/File%3AJapanese%20macaques%20%28Macaca%20fuscata%29%20in%20Tokyo.webm",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/03/Japanese_macaques_%28Macaca_fuscata%29_in_Tokyo.webm/Japanese_macaques_%28Macaca_fuscata%29_in_Tokyo.webm.480p.vp9.webm",
+    "duration": 65.7,
+    "width": 1920,
+    "height": 1080,
+    "license": "CC BY-SA 4.0",
+    "artist": "The Nature Box",
+    "description": "Japanese macaque (Macaca fuscata) displaying dominance. Filmed in Arakawa Amusement Park, Arakawa-ku, Tokyo, Japan on 30 October 2015.",
+    "file": "02.webm"
+  }
+]

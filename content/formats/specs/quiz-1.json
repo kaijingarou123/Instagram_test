@@ -1,0 +1,60 @@
+{
+  "slug": "quiz-1",
+  "format_tag": "format:quiz",
+  "family": "educational",
+  "risk": "low",
+  "variant": 1,
+  "title": "Guess the bird in 3 clues",
+  "storyboard": null,
+  "audio": "bed",
+  "scenes": [
+    {
+      "layout": "card",
+      "bg": "amber",
+      "big": "?",
+      "duration": 3.0,
+      "kicker": "Guess the bird",
+      "headline": "3 clues. Get it before the reveal."
+    },
+    {
+      "layout": "card",
+      "bg": "night",
+      "duration": 3.0,
+      "kicker": "Clue 1",
+      "headline": "Some of us wear a helmet on our bill."
+    },
+    {
+      "layout": "card",
+      "bg": "moss",
+      "duration": 3.2,
+      "kicker": "Clue 2",
+      "headline": "To nest, mum is sealed inside a tree hole with mud."
+    },
+    {
+      "layout": "card",
+      "bg": "ink",
+      "duration": 3.2,
+      "kicker": "Clue 3",
+      "headline": "Only a slit stays open. Dad passes food through it."
+    },
+    {
+      "layout": "full",
+      "media": "video:hornbill/01.webm@6",
+      "duration": 4.2,
+      "kicker": "Answer",
+      "headline": "Hornbill!",
+      "body": "Oriental pied hornbills in Khao Yai, Thailand. The bony 'helmet' is called a casque."
+    }
+  ],
+  "caption": "Answer's in the reel.\n\nAll hornbills except the two ground hornbills nest this way: the nest hole is walled up with mud, leaving a small opening for food deliveries.\n\nSource: Britannica, Hornbill.  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#hornbill",
+    "#guessthebird",
+    "#birdquiz",
+    "#birdbehaviour"
+  ],
+  "sources": [
+    "https://www.britannica.com/animal/hornbill"
+  ],
+  "notes": "Question card, three escalating clue cards, then a footage reveal; no 'comment your answer' ask, the payoff is on screen."
+}

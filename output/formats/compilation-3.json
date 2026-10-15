@@ -1,0 +1,30 @@
+{
+  "slug": "compilation-3",
+  "format_tag": "format:compilation",
+  "family": "repurposed",
+  "variant": 3,
+  "title": "How animals keep clean: a grooming compilation",
+  "risk": "high",
+  "tactic_tags": null,
+  "storyboard": null,
+  "caption": "Everyone has a routine.\n\nElephants regularly cover themselves in dirt, sand and mud to protect their skin from sun and insects.\n\nSource: Smithsonian's National Zoo; clip descriptions on Wikimedia Commons.  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#animalgrooming",
+    "#kingfisher",
+    "#asianelephant",
+    "#animalbehaviour"
+  ],
+  "sources": [
+    "https://nationalzoo.si.edu/animals/asian-elephant",
+    "https://commons.wikimedia.org/wiki/File:Common_Kingfisher_preening.webm",
+    "https://commons.wikimedia.org/wiki/File:Day_40_-_Leopard_(Panthera_pardus)_male_licking_its_fur,_after_killing_a_warthog_....webm"
+  ],
+  "duration_s": 14.9,
+  "file_mb": 4.83,
+  "credits": [
+    "Photo: Airlangga Jati Kusuma · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Bernard DUPONT · Wikimedia Commons · CC BY-SA 2.0",
+    "Photo: Cherubino · Wikimedia Commons · CC BY-SA 3.0",
+    "Photo: Lennart Hessel · Wikimedia Commons · CC BY 3.0"
+  ]
+}

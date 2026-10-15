@@ -1,0 +1,60 @@
+{
+  "slug": "trail-cam-1",
+  "format_tag": "format:trail-cam",
+  "family": "wildlife",
+  "risk": "low",
+  "variant": 1,
+  "title": "Every leopard has its own rosettes",
+  "tactic_tags": [
+    "tactic:hook-text",
+    "tactic:series"
+  ],
+  "storyboard": "Film: our camera-trap clip of a leopard passing on a forest trail (IR night or dawn), 10–15 s",
+  "audio": "bed",
+  "scenes": [
+    {
+      "layout": "full",
+      "media": "video:leopard/01.webm@1",
+      "duration": 3.0,
+      "kicker": "Camera-trap diaries",
+      "headline": "Who walked past our camera?"
+    },
+    {
+      "layout": "full",
+      "media": "video:leopard/01.webm@7",
+      "duration": 3.5,
+      "headline": "Rosettes are a leopard's ID card",
+      "body": "Researchers match spot patterns to tell individual leopards apart in camera-trap photos."
+    },
+    {
+      "layout": "card",
+      "bg": "night",
+      "big": "8 yrs",
+      "duration": 3.5,
+      "headline": "One leopard, matched across 8 years",
+      "body": "Bandipur, Karnataka: a 2012 photo matched a 2004 camera-trap image by its rosettes.",
+      "source": "WCS India"
+    },
+    {
+      "layout": "stat",
+      "media": "video:leopard/03.webm@2",
+      "duration": 3.5,
+      "stat": "13,874",
+      "label": "leopards estimated in India (2022)",
+      "body": "Counted with camera traps at 32,803 locations.",
+      "source": "WII/NTCA, Status of Leopards 2022"
+    }
+  ],
+  "caption": "Our camera trap doesn't just see a leopard. It sees which leopard.\n\nKarnataka's 2022 estimate was 1,879 leopards, the third-highest of any state.\n\nSource: WII/NTCA 'Status of Leopards in India 2022'; WCS (2012). Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#leopard",
+    "#cameratrap",
+    "#karnataka",
+    "#indianwildlife"
+  ],
+  "sources": [
+    "https://wii.gov.in/images/images/documents/images_2024/leopard_status_2022a.pdf",
+    "https://www.sciencedaily.com/releases/2012/07/120719110938.htm"
+  ],
+  "notes": "Storyboard: the CC clips stand in for our own camera-trap footage. Trail-cam is our highest-reach original format; this one turns the clip into a lesson on photo-ID science."
+}

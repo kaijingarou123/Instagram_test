@@ -1,0 +1,78 @@
+{
+  "slug": "animation-2",
+  "format_tag": "format:animation",
+  "family": "creative",
+  "risk": "low",
+  "variant": 2,
+  "title": "Mantis shrimp eyes, animated",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": null,
+  "audio": "bed",
+  "scenes": [
+    {
+      "layout": "card",
+      "duration": 3.0,
+      "bg": "night",
+      "kicker": "Colour vision",
+      "big": "12",
+      "headline": "colour receptor types in some mantis shrimp eyes"
+    },
+    {
+      "layout": "chart",
+      "duration": 4.5,
+      "bg": "night",
+      "kicker": "Colour receptor types",
+      "headline": "Who has the most colour channels?",
+      "bars": [
+        {
+          "label": "Human",
+          "value": 3
+        },
+        {
+          "label": "Honey bee",
+          "value": 3,
+          "display": "3 (incl. UV)"
+        },
+        {
+          "label": "Mantis shrimp",
+          "value": 12
+        }
+      ],
+      "highlight": 2,
+      "source": "Thoen et al. 2014, Science"
+    },
+    {
+      "layout": "stat",
+      "duration": 3.5,
+      "media": "photo:mantis-shrimp/02.jpg",
+      "stat": "But…",
+      "label": "it's worse than you at telling similar colours apart",
+      "source": "Thoen et al. 2014, Science"
+    },
+    {
+      "layout": "card",
+      "duration": 4.0,
+      "bg": "cream",
+      "kicker": "The likely reason",
+      "headline": "It recognises colours fast instead of comparing them.",
+      "body": "Scientists think it scans its eyes across objects and reads all 12 channels at once.",
+      "source": "Thoen et al. 2014, Science"
+    }
+  ],
+  "caption": "12 colour channels and still bad at shades.\n\nIn tests, mantis shrimp struggled to tell apart colours that humans separate easily. The best explanation: their eyes are built for quick colour recognition, not fine comparison.\n\nSource: Thoen et al. 2014, Science; Journal of Experimental Biology review (2022).  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#mantisshrimp",
+    "#colorvision",
+    "#marinebiology",
+    "#animalsenses",
+    "#sciencefacts"
+  ],
+  "sources": [
+    "https://pubmed.ncbi.nlm.nih.gov/24458639/",
+    "https://journals.biologists.com/jeb/article/225/6/jeb243699/274835/Colour-vision-in-stomatopod-crustaceans-more",
+    "https://www.fs.usda.gov/wildflowers/pollinators/animals/bees.shtml"
+  ],
+  "notes": "Animated myth-flip: the chart sets up the 'super-vision' myth, the stat card overturns it with the actual 2014 finding. All graphics, one macro photo."
+}

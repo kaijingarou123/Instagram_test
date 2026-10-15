@@ -1,0 +1,27 @@
+{
+  "slug": "testimonial-3",
+  "format_tag": "format:testimonial",
+  "family": "commercial",
+  "variant": 3,
+  "title": "HR lead: what our team learned from elephants",
+  "risk": "low",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": "Film: HR lead to camera at office or trailhead, 2 takes; signed consent, company not named",
+  "caption": "A corporate offsite review we didn't expect\n\nIn Asian elephants it is mainly the males that carry tusks; when females have them, they are small.\n\nSource: Britannica. Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#asianelephant",
+    "#teambuilding",
+    "#corporateoffsite",
+    "#bengaluru"
+  ],
+  "sources": [
+    "https://www.britannica.com/animal/elephant-mammal"
+  ],
+  "duration_s": 14.8,
+  "file_mb": 2.87,
+  "credits": [
+    "Photo: Cherubino · Wikimedia Commons · CC BY-SA 3.0"
+  ]
+}

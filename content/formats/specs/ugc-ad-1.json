@@ -1,0 +1,61 @@
+{
+  "slug": "ugc-ad-1",
+  "format_tag": "format:ugc-ad",
+  "family": "commercial",
+  "risk": "low",
+  "variant": 1,
+  "title": "Nature camp pickup: the peacock 'tail' that isn't",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": "Film: parent selfie-style to camera in the car after camp pickup, natural light, 2 takes",
+  "audio": "bed",
+  "scenes": [
+    {
+      "layout": "pip",
+      "duration": 3.5,
+      "media": "video:peafowl/01.webm@1",
+      "pip_label": "PARENT",
+      "headline": "Picked her up from nature camp. She hasn't stopped talking."
+    },
+    {
+      "layout": "full",
+      "duration": 4.5,
+      "media": "video:peafowl/01.webm@8",
+      "subtitle": [
+        "Apparently the peacock's",
+        "famous tail",
+        "isn't his tail at all"
+      ]
+    },
+    {
+      "layout": "full",
+      "duration": 4.5,
+      "media": "photo:peafowl/02.jpg",
+      "kicker": "SHE'S RIGHT, BY THE WAY",
+      "headline": "The train is mostly upper tail coverts, hugely elongated",
+      "body": "Indian peafowl, Jim Corbett National Park.",
+      "source": "Britannica: Peacock"
+    },
+    {
+      "layout": "card",
+      "duration": 3.5,
+      "bg": "moss",
+      "kicker": "MUDDY LESSONS",
+      "headline": "Nature study camps for curious kids",
+      "body": "Bird ID, field notes and plenty of mud. Details in bio."
+    }
+  ],
+  "caption": "POV: the car ride home from nature camp\n\nThe peacock's \"tail\" is a train of elongated upper tail coverts. In courtship the male raises it into a fan and makes it shimmer by vibrating it.\n\nSource: Britannica. Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#indianpeafowl",
+    "#naturecamp",
+    "#bengalurukids",
+    "#birdfacts"
+  ],
+  "sources": [
+    "https://www.britannica.com/animal/peacock",
+    "https://www.britannica.com/animal/blue-peacock"
+  ],
+  "notes": "Creator-style parent POV ad for nature study camps; the payoff is a real fact the kid 'brought home'. Parent is a placeholder performer - film a real parent with signed consent; camp copy to be confirmed by Muddy Lessons. peafowl/01 is a park in Hyderabad, peafowl/02 wild Corbett."
+}

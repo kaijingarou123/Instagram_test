@@ -1,0 +1,25 @@
+{
+  "slug": "quiz-1",
+  "format_tag": "format:quiz",
+  "family": "educational",
+  "variant": 1,
+  "title": "Guess the bird in 3 clues",
+  "risk": "low",
+  "tactic_tags": null,
+  "storyboard": null,
+  "caption": "Answer's in the reel.\n\nAll hornbills except the two ground hornbills nest this way: the nest hole is walled up with mud, leaving a small opening for food deliveries.\n\nSource: Britannica, Hornbill.  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#hornbill",
+    "#guessthebird",
+    "#birdquiz",
+    "#birdbehaviour"
+  ],
+  "sources": [
+    "https://www.britannica.com/animal/hornbill"
+  ],
+  "duration_s": 15.0,
+  "file_mb": 2.25,
+  "credits": [
+    "Photo: Rushenb · Wikimedia Commons · CC BY-SA 3.0"
+  ]
+}

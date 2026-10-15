@@ -1,0 +1,32 @@
+{
+  "slug": "compilation-1",
+  "format_tag": "format:compilation",
+  "family": "repurposed",
+  "variant": 1,
+  "title": "3 birds you can see in India, in 12 seconds",
+  "risk": "high",
+  "tactic_tags": null,
+  "storyboard": null,
+  "caption": "Three birds, three ways to make a living.\n\nHornbills nest walled into tree holes: the male seals the entrance with mud and passes food through a gap.\n\nSource: PLOS ONE (Dakin et al. 2016); Animal Diversity Web; Britannica.  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#birdsofindia",
+    "#peacock",
+    "#kingfisher",
+    "#hornbill"
+  ],
+  "sources": [
+    "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0152759",
+    "https://animaldiversity.org/accounts/Alcedo_atthis/",
+    "https://www.britannica.com/animal/hornbill"
+  ],
+  "duration_s": 12.3,
+  "file_mb": 5.53,
+  "credits": [
+    "Photo: Alexis Lours · Wikimedia Commons · CC BY 4.0",
+    "Photo: Anahita aravedna · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Giles Laurent · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Original:  KCVelagaRefinement:  Rihaan18 · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Rushenb · Wikimedia Commons · CC BY-SA 3.0",
+    "Photo: Tisha Mukherjee · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

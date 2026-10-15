@@ -1,0 +1,62 @@
+{
+  "slug": "compilation-2",
+  "format_tag": "format:compilation",
+  "family": "repurposed",
+  "risk": "high",
+  "variant": 2,
+  "title": "Big cats compilation: 3 cats, 3 habits",
+  "storyboard": null,
+  "audio": "bed",
+  "scenes": [
+    {
+      "layout": "grid",
+      "duration": 3.0,
+      "kicker": "COMPILATION",
+      "headline": "3 big cats, 3 habits",
+      "media_list": [
+        "photo:tiger/04.jpg",
+        "photo:leopard/02.jpg",
+        "photo:snow-leopard/02.jpg",
+        "photo:leopard/04.jpg"
+      ]
+    },
+    {
+      "layout": "full",
+      "media": "video:tiger/02.webm@3",
+      "duration": 4.0,
+      "kicker": "TIGER",
+      "headline": "An adept swimmer that appears to enjoy bathing",
+      "source": "Britannica · captive, Tiger Park Pattaya"
+    },
+    {
+      "layout": "full",
+      "media": "video:leopard/03.webm@0",
+      "duration": 3.5,
+      "kicker": "LEOPARD",
+      "headline": "Often carries its kill into a tree to eat",
+      "source": "Animal Diversity Web · Kruger NP"
+    },
+    {
+      "layout": "full",
+      "media": "photo:snow-leopard/01.jpg",
+      "duration": 3.5,
+      "kicker": "SNOW LEOPARD",
+      "headline": "Long-haired cat of Central and South Asia's mountains",
+      "source": "Britannica · zoo animal shown",
+      "motion": "pan-left"
+    }
+  ],
+  "caption": "Same family, very different lifestyles.\n\nBritannica links the tiger's love of water to its origins: it evolved in eastern Asia and tolerates heat less well than other big cats.\n\nSource: Britannica; Animal Diversity Web.  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#bigcats",
+    "#tiger",
+    "#leopard",
+    "#snowleopard"
+  ],
+  "sources": [
+    "https://www.britannica.com/animal/tiger",
+    "https://animaldiversity.org/accounts/Panthera_pardus/",
+    "https://www.britannica.com/animal/snow-leopard"
+  ],
+  "notes": "Compilation demo with CC clips; captive animals are labelled as captive on screen. Real format is high-risk with third-party footage (unoriginal/copyright); only OK with our own or CC-licensed media plus added context, as here."
+}

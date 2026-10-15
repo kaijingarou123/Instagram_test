@@ -1,0 +1,31 @@
+{
+  "slug": "product-demo-3",
+  "format_tag": "format:product-demo",
+  "family": "commercial",
+  "variant": 3,
+  "title": "Nature journal demo: a sloth bear entry",
+  "risk": "low",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": "Film: top-down of a hand writing and sketching this sloth bear entry in a nature journal, 3 close-ups",
+  "caption": "Your best wildlife photo is the one you wrote down\n\nSloth bears can close their nostrils at will, which keeps dust out while they suck termites from a nest.\n\nSource: Britannica, Animal Diversity Web. Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#slothbear",
+    "#naturejournal",
+    "#tigerreserve",
+    "#fieldnotes"
+  ],
+  "sources": [
+    "https://www.britannica.com/animal/sloth-bear",
+    "https://animaldiversity.org/accounts/Melursus_ursinus/"
+  ],
+  "duration_s": 16.9,
+  "file_mb": 4.77,
+  "credits": [
+    "Photo: Davidvraju · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Giles Laurent · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Rohit Sharma · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Sanuth Prabasha · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

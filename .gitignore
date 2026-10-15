@@ -4,3 +4,20 @@ __pycache__/
 assets/contact-sheet.jpg
 output/reels/*-frames.jpg
 output/reels/*-check.jpg
+
+# format library: large binaries stay local (specs, posters, preview page are committed)
+output/formats/*.mp4
+output/formats/_*
+assets/video/**/*.webm
+
+# photos fetched for the format library (local only; credits.json kept)
+assets/raw/*/*.jpg
+!assets/raw/axolotl/*.jpg
+!assets/raw/barn-owl/*.jpg
+!assets/raw/honey-bee/*.jpg
+!assets/raw/hummingbird/*.jpg
+!assets/raw/mantis-shrimp/*.jpg
+!assets/raw/octopus/*.jpg
+!assets/raw/orca/*.jpg
+!assets/raw/pangolin/*.jpg
+!assets/raw/snow-leopard/*.jpg

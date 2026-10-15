@@ -1,0 +1,31 @@
+{
+  "slug": "explainer-3",
+  "format_tag": "format:explainer",
+  "family": "educational",
+  "variant": 3,
+  "title": "Why tigers are orange, not green",
+  "risk": "low",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": null,
+  "caption": "Tigers are orange because their prey sees orange as green.\n\nIn tests with people, an orange-red target was much easier to spot in images simulating three-colour vision than in images simulating two-colour vision.\n\nSources: Fennell J.G. et al. (2019) J. R. Soc. Interface 16:20190183; University of Bristol. Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#tiger",
+    "#camouflage",
+    "#animalvision",
+    "#wildlifefacts"
+  ],
+  "sources": [
+    "https://royalsocietypublishing.org/doi/10.1098/rsif.2019.0183",
+    "https://www.bristol.ac.uk/news/2019/may/camouflage-study.html"
+  ],
+  "duration_s": 15.3,
+  "file_mb": 4.19,
+  "credits": [
+    "Photo: Gurung pratap · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Joselodos · Wikimedia Commons · CC0",
+    "Photo: Mathias Appel · Wikimedia Commons · CC0",
+    "Photo: WWF Tigers · Wikimedia Commons · CC BY 3.0"
+  ]
+}

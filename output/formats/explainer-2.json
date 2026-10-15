@@ -1,0 +1,29 @@
+{
+  "slug": "explainer-2",
+  "format_tag": "format:explainer",
+  "family": "educational",
+  "variant": 2,
+  "title": "How elephant ears work as air-conditioners",
+  "risk": "low",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": null,
+  "caption": "Elephant ears double as radiators.\n\nAsian elephants are slightly smaller than their African cousins, and their ears are full of veins that let flapping cool the blood.\n\nSources: Smithsonian's National Zoo; IUCN Red List. Footage: Pinnawala Elephant Orphanage, Sri Lanka (captive herd). Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#asianelephant",
+    "#elephantfacts",
+    "#animalphysiology",
+    "#wildlifefacts"
+  ],
+  "sources": [
+    "https://nationalzoo.si.edu/animals/asian-elephant",
+    "https://www.iucnredlist.org/species/7140/45818198"
+  ],
+  "duration_s": 17.9,
+  "file_mb": 5.94,
+  "credits": [
+    "Photo: Basile Morin · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Cherubino · Wikimedia Commons · CC BY-SA 3.0"
+  ]
+}

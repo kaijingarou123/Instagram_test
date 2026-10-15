@@ -1,0 +1,28 @@
+{
+  "slug": "transformation-1",
+  "format_tag": "format:transformation",
+  "family": "lifestyle",
+  "variant": 1,
+  "title": "Crate to forest: a tiger's release",
+  "risk": "low",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": null,
+  "caption": "The only glow-up that matters: crate to forest.\n\nTigers are listed as Endangered on the IUCN Red List, so every individual returned to the wild counts.\n\nSource: WWF Tigers (Wikimedia Commons file description); IUCN Red List. Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#amurtiger",
+    "#tigerconservation",
+    "#rewilding",
+    "#beforeandafter"
+  ],
+  "sources": [
+    "https://commons.wikimedia.org/wiki/File:Releasing_a_Siberian_tiger_in_Russia.webm",
+    "https://www.iucnredlist.org/species/15955/214862019"
+  ],
+  "duration_s": 14.3,
+  "file_mb": 1.93,
+  "credits": [
+    "Photo: WWF Tigers · Wikimedia Commons · CC BY 3.0"
+  ]
+}

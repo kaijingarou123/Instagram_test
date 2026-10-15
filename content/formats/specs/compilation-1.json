@@ -1,0 +1,61 @@
+{
+  "slug": "compilation-1",
+  "format_tag": "format:compilation",
+  "family": "repurposed",
+  "risk": "high",
+  "variant": 1,
+  "title": "3 birds you can see in India, in 12 seconds",
+  "storyboard": null,
+  "audio": "bed",
+  "scenes": [
+    {
+      "layout": "grid",
+      "duration": 3.0,
+      "kicker": "BEST OF",
+      "headline": "3 birds you can see in India",
+      "media_list": [
+        "photo:peafowl/02.jpg",
+        "photo:kingfisher/02.jpg",
+        "photo:hornbill/01.jpg",
+        "photo:peafowl/01.jpg"
+      ]
+    },
+    {
+      "layout": "full",
+      "media": "video:peafowl/01.webm@16",
+      "duration": 3.5,
+      "kicker": "1 · INDIAN PEAFOWL",
+      "headline": "Rattles his train about 25 times a second",
+      "source": "PLOS ONE, 2016"
+    },
+    {
+      "layout": "full",
+      "media": "video:kingfisher/02.webm@4",
+      "duration": 3.5,
+      "kicker": "2 · COMMON KINGFISHER",
+      "headline": "Watches from a perch, then dives for small fish",
+      "source": "Animal Diversity Web"
+    },
+    {
+      "layout": "full",
+      "media": "video:hornbill/01.webm@4",
+      "duration": 3.5,
+      "kicker": "3 · ORIENTAL PIED HORNBILL",
+      "headline": "Feeding high in the canopy",
+      "source": "Filmed in Khao Yai, Thailand"
+    }
+  ],
+  "caption": "Three birds, three ways to make a living.\n\nHornbills nest walled into tree holes: the male seals the entrance with mud and passes food through a gap.\n\nSource: PLOS ONE (Dakin et al. 2016); Animal Diversity Web; Britannica.  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#birdsofindia",
+    "#peacock",
+    "#kingfisher",
+    "#hornbill"
+  ],
+  "sources": [
+    "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0152759",
+    "https://animaldiversity.org/accounts/Alcedo_atthis/",
+    "https://www.britannica.com/animal/hornbill"
+  ],
+  "notes": "Compilation demo: one fact per clip, all CC media (Hyderabad garden peacock, wild kingfisher, wild hornbill). Real format is high-risk with third-party footage (unoriginal/copyright); only OK with our own or CC-licensed media plus added context, as here."
+}

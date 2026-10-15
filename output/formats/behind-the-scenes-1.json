@@ -1,0 +1,29 @@
+{
+  "slug": "behind-the-scenes-1",
+  "format_tag": "format:behind-the-scenes",
+  "family": "commercial",
+  "variant": 1,
+  "title": "How we scout a trail before you walk it",
+  "risk": "low",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": "Film: naturalist walking a Bengaluru trail at dawn with notebook, marking spots; replaces stand-in trail",
+  "caption": "The walk before the walk\n\nMost king cobras stay under about 3.6 m; the longest confirmed was about 5.6 m.\n\nSource: Britannica. Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#kingcobra",
+    "#trailscouting",
+    "#bengalurutrails",
+    "#snakesafety"
+  ],
+  "sources": [
+    "https://www.britannica.com/animal/king-cobra"
+  ],
+  "duration_s": 17.4,
+  "file_mb": 5.29,
+  "credits": [
+    "Photo: BLM Oregon & Washington · Wikimedia Commons · Public domain",
+    "Photo: Nativeplants garden · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Rushen · Wikimedia Commons · CC BY-SA 2.0"
+  ]
+}

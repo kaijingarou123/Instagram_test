@@ -1,0 +1,38 @@
+[
+  {
+    "title": "File:20240707 hummingbird wm 1 hlg 04.webm",
+    "page": "https://commons.wikimedia.org/wiki/File%3A20240707%20hummingbird%20wm%201%20hlg%2004.webm",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/4e/20240707_hummingbird_wm_1_hlg_04.webm/20240707_hummingbird_wm_1_hlg_04.webm.480p.vp9.webm",
+    "duration": 32.0,
+    "width": 3840,
+    "height": 2160,
+    "license": "CC BY-SA 4.0",
+    "artist": "Paul Danese",
+    "description": "Ruby Throated Hummingbird, Bafflin Audubon Sanctuary, Pomfret, CT USA",
+    "file": "01.webm"
+  },
+  {
+    "title": "File:20240707 hummingbird wm 1 hlg 03.webm",
+    "page": "https://commons.wikimedia.org/wiki/File%3A20240707%20hummingbird%20wm%201%20hlg%2003.webm",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/54/20240707_hummingbird_wm_1_hlg_03.webm/20240707_hummingbird_wm_1_hlg_03.webm.480p.vp9.webm",
+    "duration": 24.5,
+    "width": 3840,
+    "height": 2160,
+    "license": "CC BY-SA 4.0",
+    "artist": "Paul Danese",
+    "description": "Ruby Throated Hummingbird, Bafflin Audubon Sanctuary, Pomfret, CT USA",
+    "file": "02.webm"
+  },
+  {
+    "title": "File:20240707 hummingbird wm 1 hlg 06.webm",
+    "page": "https://commons.wikimedia.org/wiki/File%3A20240707%20hummingbird%20wm%201%20hlg%2006.webm",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/95/20240707_hummingbird_wm_1_hlg_06.webm/20240707_hummingbird_wm_1_hlg_06.webm.480p.vp9.webm",
+    "duration": 11.5,
+    "width": 3840,
+    "height": 2160,
+    "license": "CC BY-SA 4.0",
+    "artist": "Paul Danese",
+    "description": "Ruby Throated Hummingbird, Bafflin Audubon Sanctuary, Pomfret, CT USA",
+    "file": "03.webm"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "title": "File:004 Pied kingfisher at Queen Elizabeth National Park Video by Giles Laurent.webm",
+    "page": "https://commons.wikimedia.org/wiki/File%3A004%20Pied%20kingfisher%20at%20Queen%20Elizabeth%20National%20Park%20Video%20by%20Giles%20Laurent.webm",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/57/004_Pied_kingfisher_at_Queen_Elizabeth_National_Park_Video_by_Giles_Laurent.webm/004_Pied_kingfisher_at_Queen_Elizabeth_National_Park_Video_by_Giles_Laurent.webm.480p.vp9.webm",
+    "duration": 15.3,
+    "width": 3840,
+    "height": 2160,
+    "license": "CC BY-SA 4.0",
+    "artist": "Giles Laurent",
+    "description": "Pied kingfisher at Queen Elizabeth National Park",
+    "file": "01.webm"
+  },
+  {
+    "title": "File:Kingfisher 2025 09 28 01.webm",
+    "page": "https://commons.wikimedia.org/wiki/File%3AKingfisher%202025%2009%2028%2001.webm",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b3/Kingfisher_2025_09_28_01.webm/Kingfisher_2025_09_28_01.webm.480p.vp9.webm",
+    "duration": 26.9,
+    "width": 2560,
+    "height": 1440,
+    "license": "CC BY 4.0",
+    "artist": "Alexis Lours",
+    "description": "A common kingfisher (Alcedo atthis) on a branch.",
+    "file": "02.webm"
+  },
+  {
+    "title": "File:Common Kingfisher preening.webm",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACommon%20Kingfisher%20preening.webm",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/cd/Common_Kingfisher_preening.webm/Common_Kingfisher_preening.webm.480p.vp9.webm",
+    "duration": 25.6,
+    "width": 1920,
+    "height": 1080,
+    "license": "CC BY 3.0",
+    "artist": "Lennart Hessel",
+    "description": "A Common Kingfisher preening itself. You can see how it plucks a feather and throws it away.",
+    "file": "03.webm"
+  }
+]

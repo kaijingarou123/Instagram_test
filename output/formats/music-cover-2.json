@@ -1,0 +1,30 @@
+{
+  "slug": "music-cover-2",
+  "format_tag": "format:music-cover",
+  "family": "creative",
+  "variant": 2,
+  "title": "We covered the forest's loudest singers",
+  "risk": "medium",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": "Film: 4 nature-club kids at a mic copying a peacock call and an elephant rumble, then laughing; 2 takes",
+  "caption": "Our nature club tried covering two very different voices.\n\nElephant rumbles are infrasonic: other elephants can pick them up more than 3 km away, while we barely hear them.\n\nSource: Smithsonian's National Zoo, Animal Diversity Web.  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#natureclub",
+    "#animalsounds",
+    "#peacock",
+    "#asianelephant",
+    "#outdoorlearning"
+  ],
+  "sources": [
+    "https://animaldiversity.org/accounts/Pavo_cristatus/",
+    "https://nationalzoo.si.edu/animals/asian-elephant"
+  ],
+  "duration_s": 12.3,
+  "file_mb": 3.75,
+  "credits": [
+    "Photo: Cherubino · Wikimedia Commons · CC BY-SA 3.0",
+    "Photo: Giles Laurent · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

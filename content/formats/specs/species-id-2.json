@@ -1,0 +1,75 @@
+{
+  "slug": "species-id-2",
+  "format_tag": "format:species-id",
+  "family": "wildlife",
+  "risk": "low",
+  "variant": 2,
+  "title": "3 kingfishers, 3 clues",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": null,
+  "audio": "bed",
+  "scenes": [
+    {
+      "layout": "grid",
+      "duration": 3.0,
+      "kicker": "Species ID",
+      "headline": "3 kingfishers, 3 clues",
+      "media_list": [
+        "video:kingfisher/02.webm@2",
+        "video:kingfisher/01.webm@2",
+        "photo:kingfisher/02.jpg",
+        "photo:kingfisher/01.jpg"
+      ]
+    },
+    {
+      "layout": "full",
+      "media": "video:kingfisher/02.webm@6",
+      "duration": 3.5,
+      "kicker": "Common kingfisher",
+      "headline": "Small, blue on top, orange below",
+      "body": "Long dark bill; often just a turquoise flash low over the water.",
+      "source": "eBird, Cornell Lab"
+    },
+    {
+      "layout": "full",
+      "media": "video:kingfisher/01.webm@3",
+      "duration": 3.5,
+      "kicker": "Pied kingfisher",
+      "headline": "Black and white, and it hovers",
+      "body": "Often hovers over water to look for fish before diving.",
+      "source": "eBird, Cornell Lab"
+    },
+    {
+      "layout": "full",
+      "media": "photo:kingfisher/02.jpg",
+      "duration": 3.5,
+      "kicker": "Brown-winged kingfisher",
+      "headline": "Huge red bill, brown wings",
+      "body": "A big orange kingfisher of coastal mangroves, such as the Sundarbans.",
+      "source": "eBird; BirdLife International"
+    },
+    {
+      "layout": "card",
+      "bg": "cream",
+      "duration": 3.5,
+      "headline": "Save this rule",
+      "body": "Blue + orange = common. Black + white + hovering = pied. Red bill in mangroves = brown-winged."
+    }
+  ],
+  "caption": "Not every kingfisher is the blue one.\n\nThe brown-winged kingfisher lives only along the coasts of the Bay of Bengal and is listed Near Threatened because mangroves are being lost.\n\nSource: eBird (Cornell Lab); BirdLife International. Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#kingfisher",
+    "#piedkingfisher",
+    "#birdid",
+    "#indianbirds"
+  ],
+  "sources": [
+    "https://ebird.org/species/comkin1",
+    "https://ebird.org/species/piekin1",
+    "https://ebird.org/species/bnwkin1",
+    "https://datazone.birdlife.org/species/factsheet/brown-winged-kingfisher-pelargopsis-amauroptera"
+  ],
+  "notes": "Grid hook then one clue per species, ending on a save-able rule. Mixes video and photo; all three species occur in India."
+}

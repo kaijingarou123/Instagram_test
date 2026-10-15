@@ -1,0 +1,32 @@
+{
+  "slug": "fan-edit-2",
+  "format_tag": "format:fan-edit",
+  "family": "repurposed",
+  "variant": 2,
+  "title": "Tiger edit (beat-synced)",
+  "risk": "high",
+  "tactic_tags": null,
+  "storyboard": null,
+  "caption": "Built for power, happy in water.\n\nThe Siberian (Amur) tiger is the largest tiger, up to about 4 m long including the tail. Opening shot: a WWF release in the Russian Far East.\n\nSource: Britannica; WWF footage on Wikimedia Commons.  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#tiger",
+    "#tigeredit",
+    "#amurtiger",
+    "#bigcatfacts"
+  ],
+  "sources": [
+    "https://www.britannica.com/animal/tiger",
+    "https://commons.wikimedia.org/wiki/File:Releasing_a_Siberian_tiger_in_Russia.webm",
+    "https://commons.wikimedia.org/wiki/File:Tiger_playing_with_a_piece_of_wood_in_a_pool.webm"
+  ],
+  "duration_s": 10.5,
+  "file_mb": 6.41,
+  "credits": [
+    "Photo: Grendelkhan · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Gurung pratap · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Joselodos · Wikimedia Commons · CC0",
+    "Photo: Mathias Appel · Wikimedia Commons · CC0",
+    "Photo: NaIzletuSi ™ · Wikimedia Commons · CC BY 3.0",
+    "Photo: WWF Tigers · Wikimedia Commons · CC BY 3.0"
+  ]
+}

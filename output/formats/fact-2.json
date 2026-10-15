@@ -1,0 +1,31 @@
+{
+  "slug": "fact-2",
+  "format_tag": "format:fact",
+  "family": "educational",
+  "variant": 2,
+  "title": "The kingfisher that redesigned a bullet train",
+  "risk": "low",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": null,
+  "caption": "A kingfisher's beak fixed the bullet train's tunnel boom.\n\nThe redesigned 500 Series nose is about 15 m long and almost round in cross-section, copying the way the beak widens gradually from its tip.\n\nSource: AskNature / Biomimicry Institute (Eiji Nakatsu, JR West). Footage: common kingfisher. Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#kingfisher",
+    "#biomimicry",
+    "#birdfacts",
+    "#wildlifefacts"
+  ],
+  "sources": [
+    "https://asknature.org/innovation/high-speed-train-inspired-by-the-kingfisher/",
+    "https://asknature.org/strategy/beak-provides-streamlining/",
+    "https://animaldiversity.org/accounts/Alcedo_atthis/"
+  ],
+  "duration_s": 15.3,
+  "file_mb": 3.57,
+  "credits": [
+    "Photo: Alexis Lours · Wikimedia Commons · CC BY 4.0",
+    "Photo: Anirudhanmuthuvara · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Lennart Hessel · Wikimedia Commons · CC BY 3.0"
+  ]
+}

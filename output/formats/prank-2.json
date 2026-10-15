@@ -1,0 +1,28 @@
+{
+  "slug": "prank-2",
+  "format_tag": "format:prank",
+  "family": "humor",
+  "variant": 2,
+  "title": "The 'Mexican walking fish' box",
+  "risk": "medium",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": "Film: friend opens a box labelled 'Mexican walking fish'; inside is a printed axolotl photo and a fact card",
+  "caption": "The name is the real prank.\n\nAxolotls are famous in science for regrowing lost limbs, which makes them a major subject of regeneration research.\n\nSource: National Geographic (Axolotl).  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#axolotl",
+    "#amphibians",
+    "#salamander",
+    "#endangeredspecies"
+  ],
+  "sources": [
+    "https://www.nationalgeographic.com/animals/amphibians/facts/axolotl"
+  ],
+  "duration_s": 15.3,
+  "file_mb": 2.17,
+  "credits": [
+    "Photo: Fernando Losada Rodríguez · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Tylwyth Eldar · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

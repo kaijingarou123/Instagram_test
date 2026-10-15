@@ -1,0 +1,27 @@
+{
+  "slug": "data-visual-3",
+  "format_tag": "format:data-visual",
+  "family": "educational",
+  "variant": 3,
+  "title": "Where India's snow leopards live",
+  "risk": "low",
+  "tactic_tags": null,
+  "storyboard": null,
+  "caption": "Two in three are in Ladakh.\n\nOnly 241 different snow leopards were actually photographed; 718 is a model-based estimate covering over 70% of the cat's potential range in India.\n\nSource: Wildlife Institute of India / MoEFCC, Snow Leopard Population Assessment in India (SPAI), Jan 2024.  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#snowleopard",
+    "#ladakh",
+    "#himalayanwildlife",
+    "#dataviz"
+  ],
+  "sources": [
+    "https://v1.wii.gov.in/node/5037",
+    "https://www.downtoearth.org.in/wildlife-biodiversity/india-has-718-snow-leopards-most-of-them-live-in-unprotected-areas-centre-94174",
+    "https://en.vikaspedia.in/viewcontent/energy/environment/know-your-environment/wildlife/snow-leopard-population-assessment-in-india-(spai)"
+  ],
+  "duration_s": 12.7,
+  "file_mb": 1.77,
+  "credits": [
+    "Photo: H. Zell · Wikimedia Commons · CC BY-SA 3.0"
+  ]
+}

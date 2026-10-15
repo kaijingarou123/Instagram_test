@@ -1,0 +1,30 @@
+{
+  "slug": "conservation-story-1",
+  "format_tag": "format:conservation-story",
+  "family": "wildlife",
+  "variant": 1,
+  "title": "The gharial's last stronghold",
+  "risk": "low",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": null,
+  "caption": "One river holds most of the world's gharials.\n\nSmithsonian scientists report the population fell by 58% between 1997 and 2006.\n\nSource: IUCN Red List (Lang, Chowfin & Ross 2019); Smithsonian's National Zoo; IUCN Crocodile Specialist Group. Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#gharial",
+    "#chambal",
+    "#criticallyendangered",
+    "#indianwildlife"
+  ],
+  "sources": [
+    "https://www.iucnredlist.org/species/8966/149227430",
+    "https://www.edgeofexistence.org/wp-content/uploads/2018/04/Survival_Blueprint_2022_Gharial_IndiaNepal.pdf",
+    "https://nationalzoo.si.edu/animals/gharial",
+    "https://www.iucncsg.org/pages/Gharial.html"
+  ],
+  "duration_s": 14.9,
+  "file_mb": 5.82,
+  "credits": [
+    "Photo: Shadow Ayush · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

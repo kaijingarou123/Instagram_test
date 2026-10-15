@@ -1,0 +1,30 @@
+{
+  "slug": "trail-cam-2",
+  "format_tag": "format:trail-cam",
+  "family": "wildlife",
+  "variant": 2,
+  "title": "Night shift: sloth bear",
+  "risk": "low",
+  "tactic_tags": [
+    "tactic:hook-text",
+    "tactic:series"
+  ],
+  "storyboard": "Film: our night camera-trap clip of a sloth bear at a termite mound, IR, 10–15 s",
+  "caption": "The termite mound looked different in the morning. The camera knew why.\n\nSloth bears can keep a night, day or dawn-and-dusk schedule, so a camera that never sleeps is the fairest way to find them.\n\nSource: Smithsonian's National Zoo, sloth bear. Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#slothbear",
+    "#cameratrap",
+    "#nightwildlife",
+    "#indianwildlife"
+  ],
+  "sources": [
+    "https://nationalzoo.si.edu/animals/sloth-bear"
+  ],
+  "duration_s": 11.8,
+  "file_mb": 3.82,
+  "credits": [
+    "Photo: Davidvraju · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Giles Laurent · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Sanuth Prabasha · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

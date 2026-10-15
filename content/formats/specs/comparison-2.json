@@ -1,0 +1,81 @@
+{
+  "slug": "comparison-2",
+  "format_tag": "format:comparison",
+  "family": "educational",
+  "risk": "low",
+  "variant": 2,
+  "title": "Pregnancy lengths: elephant vs you vs big cats",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": null,
+  "audio": "bed",
+  "scenes": [
+    {
+      "layout": "full",
+      "media": "video:elephant/03.webm@4",
+      "duration": 3.0,
+      "kicker": "Comparison",
+      "headline": "An elephant is pregnant for almost two years."
+    },
+    {
+      "layout": "chart",
+      "duration": 5.0,
+      "kicker": "Pregnancy length",
+      "headline": "Months from conception to birth",
+      "bars": [
+        {
+          "label": "Asian elephant",
+          "value": 22,
+          "display": "21.5–22"
+        },
+        {
+          "label": "Human",
+          "value": 9,
+          "display": "~9"
+        },
+        {
+          "label": "Tiger",
+          "value": 3.4,
+          "display": "~3.4"
+        },
+        {
+          "label": "Leopard",
+          "value": 3.2,
+          "display": "~3.2"
+        }
+      ],
+      "unit": " months",
+      "highlight": 0,
+      "source": "Smithsonian's National Zoo; Animal Diversity Web"
+    },
+    {
+      "layout": "stat",
+      "media": "video:elephant/02.webm@6",
+      "duration": 4.5,
+      "stat": "158 kg",
+      "label": "upper weight of a newborn Asian elephant",
+      "body": "Calves weigh 68–158 kg at birth, usually one at a time.",
+      "source": "Smithsonian's National Zoo"
+    },
+    {
+      "layout": "full",
+      "media": "photo:asian-elephant/01.jpg",
+      "duration": 4.0,
+      "headline": "One elephant pregnancy fits six tiger pregnancies."
+    }
+  ],
+  "caption": "Asian elephants carry a calf for 21.5 to 22 months.\n\nA tiger's pregnancy lasts about 103 days and usually produces 2 to 3 cubs.\n\nSources: Smithsonian's National Zoo; Animal Diversity Web (Panthera tigris, Panthera pardus). Footage: Pinnawala Elephant Orphanage, Sri Lanka. Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#asianelephant",
+    "#elephantfacts",
+    "#animalfacts",
+    "#wildlifefacts"
+  ],
+  "sources": [
+    "https://nationalzoo.si.edu/animals/asian-elephant",
+    "https://animaldiversity.org/accounts/Panthera_tigris/",
+    "https://animaldiversity.org/accounts/Panthera_pardus/"
+  ],
+  "notes": "Uses the viewer's own body as the yardstick in a bar chart, then lands a quotable ratio."
+}

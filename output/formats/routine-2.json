@@ -1,0 +1,27 @@
+{
+  "slug": "routine-2",
+  "format_tag": "format:routine",
+  "family": "lifestyle",
+  "variant": 2,
+  "title": "A langur troop's grooming routine",
+  "risk": "low",
+  "tactic_tags": null,
+  "storyboard": null,
+  "caption": "A self-care routine with very strict rules.\n\nLeaves make up roughly half or more of a gray langur's diet, with fruit and flowers on the side.\n\nSource: Animal Diversity Web (Semnopithecus entellus). Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#langur",
+    "#graylangur",
+    "#primates",
+    "#animalroutine",
+    "#indianwildlife"
+  ],
+  "sources": [
+    "https://animaldiversity.org/accounts/Semnopithecus_entellus/"
+  ],
+  "duration_s": 16.4,
+  "file_mb": 5.95,
+  "credits": [
+    "Photo: Airlangga Jati Kusuma · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Suyash Dwivedi · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

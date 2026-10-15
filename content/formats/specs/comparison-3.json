@@ -1,0 +1,82 @@
+{
+  "slug": "comparison-3",
+  "format_tag": "format:comparison",
+  "family": "educational",
+  "risk": "low",
+  "variant": 3,
+  "title": "Pied vs common kingfisher: two ways to fish",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": null,
+  "audio": "bed",
+  "scenes": [
+    {
+      "layout": "split",
+      "media": "video:kingfisher/01.webm@1",
+      "media_b": "video:kingfisher/02.webm@2",
+      "duration": 3.5,
+      "label_a": "PIED",
+      "label_b": "COMMON",
+      "headline": "Two kingfishers, two ways to catch a fish."
+    },
+    {
+      "layout": "full",
+      "media": "video:kingfisher/01.webm@4",
+      "duration": 4.5,
+      "kicker": "Pied kingfisher",
+      "headline": "Hovers, then plunges.",
+      "body": "It hangs over the water, drops lower and lower, then dives, and can swallow small fish in flight.",
+      "source": "Animal Diversity Web"
+    },
+    {
+      "layout": "full",
+      "media": "video:kingfisher/02.webm@8",
+      "duration": 4.5,
+      "kicker": "Common kingfisher",
+      "headline": "Waits on a perch, then dives.",
+      "body": "It spots a fish, dives, grabs it and flies back out. A membrane covers its eyes underwater.",
+      "source": "Animal Diversity Web"
+    },
+    {
+      "layout": "chart",
+      "duration": 4.0,
+      "kicker": "Size check",
+      "headline": "The pied is more than twice as heavy",
+      "bars": [
+        {
+          "label": "Pied kingfisher",
+          "value": 85,
+          "display": "70–100 g"
+        },
+        {
+          "label": "Common kingfisher",
+          "value": 34,
+          "display": "~34 g"
+        }
+      ],
+      "highlight": 0,
+      "source": "Animal Diversity Web"
+    },
+    {
+      "layout": "stat",
+      "media": "video:kingfisher/03.webm@6",
+      "duration": 3.5,
+      "stat": "60%",
+      "label": "of its body weight: what a common kingfisher eats daily",
+      "source": "Animal Diversity Web"
+    }
+  ],
+  "caption": "Both live along Indian rivers, but they fish in completely different ways.\n\nCommon kingfishers nest at the end of tunnels they dig in riverbanks, usually 15 to 30 cm long.\n\nSource: Animal Diversity Web (Ceryle rudis, Alcedo atthis). Footage: pied kingfisher, Queen Elizabeth NP; common kingfisher. Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#kingfisher",
+    "#birdwatching",
+    "#indianbirds",
+    "#birdfacts"
+  ],
+  "sources": [
+    "https://animaldiversity.org/accounts/Ceryle_rudis/",
+    "https://animaldiversity.org/accounts/Alcedo_atthis/"
+  ],
+  "notes": "Behaviour comparison shown on real video of both species side by side; a field-ID skill viewers can use on any Indian river trail."
+}

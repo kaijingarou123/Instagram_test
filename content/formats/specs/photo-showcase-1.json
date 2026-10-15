@@ -1,0 +1,90 @@
+{
+  "slug": "photo-showcase-1",
+  "format_tag": "format:photo-showcase",
+  "family": "creative",
+  "risk": "low",
+  "variant": 1,
+  "title": "Six Indian species, cut to the beat",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": null,
+  "audio": "beat",
+  "scenes": [
+    {
+      "layout": "full",
+      "duration": 3.0,
+      "media": "photo:tiger/04.jpg",
+      "kicker": "Bengal tiger",
+      "headline": "No two tigers have the same stripes.",
+      "anchor": "bottom",
+      "motion": "in"
+    },
+    {
+      "layout": "full",
+      "duration": 2.8,
+      "media": "video:leopard/01.webm",
+      "kicker": "Leopard · Rajaji TR",
+      "headline": "Strong enough to drag prey up a tree.",
+      "anchor": "bottom"
+    },
+    {
+      "layout": "full",
+      "duration": 2.8,
+      "media": "photo:sloth-bear/03.jpg",
+      "kicker": "Sloth bear · Bor TR",
+      "headline": "The only bear that routinely carries cubs on its back.",
+      "anchor": "top",
+      "focus": [
+        0.5,
+        0.6
+      ]
+    },
+    {
+      "layout": "full",
+      "duration": 2.8,
+      "media": "photo:peafowl/02.jpg",
+      "kicker": "Indian peafowl · Corbett",
+      "headline": "That fan isn't his tail. It's a train of covert feathers.",
+      "anchor": "top",
+      "motion": "out"
+    },
+    {
+      "layout": "full",
+      "duration": 2.8,
+      "media": "photo:gharial/04.jpg",
+      "kicker": "Gharial · Bardiya, Nepal",
+      "headline": "Critically Endangered. Snout built for catching fish.",
+      "anchor": "top",
+      "motion": "pan-left"
+    },
+    {
+      "layout": "grid",
+      "duration": 3.0,
+      "media_list": [
+        "photo:hornbill/01.jpg",
+        "photo:kingfisher/02.jpg",
+        "photo:peafowl/01.jpg",
+        "photo:sloth-bear/01.jpg"
+      ],
+      "kicker": "All found in India",
+      "headline": "Learn one name a week."
+    }
+  ],
+  "caption": "Six Indian species, one beat.\n\nSloth bears are missing their two upper front teeth, which lets them suck up termites like a vacuum. Their cubs ride on mum's back until they are about 6 to 9 months old.\n\nSource: Smithsonian's National Zoo, Britannica, IUCN Red List.  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#indianwildlife",
+    "#slothbear",
+    "#bengaltiger",
+    "#gharial",
+    "#wildlifefacts"
+  ],
+  "sources": [
+    "https://www.nationalgeographic.com/animals/mammals/facts/tigers",
+    "https://www.britannica.com/animal/leopard",
+    "https://nationalzoo.si.edu/animals/sloth-bear",
+    "https://www.britannica.com/animal/peacock",
+    "https://www.iucnredlist.org/species/8966/149227430"
+  ],
+  "notes": "Textbook showcase: our strongest Indian-species stills/clips on a 120 bpm cut, one species name + one verified fact per shot; ends on a grid of more Indian species."
+}

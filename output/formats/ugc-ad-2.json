@@ -1,0 +1,29 @@
+{
+  "slug": "ugc-ad-2",
+  "format_tag": "format:ugc-ad",
+  "family": "commercial",
+  "variant": 2,
+  "title": "Team offsite, but make it a forest",
+  "risk": "low",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": "Film: employee selfie clip on a forest trail, team walking behind; 2 takes, consent from all in frame",
+  "caption": "Our best meeting this year had no slides\n\nLeopards are mostly nocturnal and solitary, which is why most people walk past their signs without ever seeing one.\n\nSource: Britannica. Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#leopard",
+    "#teamoffsite",
+    "#corporatetraining",
+    "#bengaluru"
+  ],
+  "sources": [
+    "https://www.britannica.com/animal/leopard"
+  ],
+  "duration_s": 15.3,
+  "file_mb": 7.54,
+  "credits": [
+    "Photo: BLM Oregon & Washington · Wikimedia Commons · Public domain",
+    "Photo: Manandhar.amogha · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Shiv's fotografia · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

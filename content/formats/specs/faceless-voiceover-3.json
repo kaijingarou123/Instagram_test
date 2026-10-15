@@ -1,0 +1,62 @@
+{
+  "slug": "faceless-voiceover-3",
+  "format_tag": "format:faceless-voiceover",
+  "family": "repurposed",
+  "risk": "medium",
+  "variant": 3,
+  "title": "Why flamingos march in groups",
+  "storyboard": null,
+  "audio": "bed",
+  "scenes": [
+    {
+      "layout": "full",
+      "media": "video:flamingo/01.webm@0",
+      "duration": 3.5,
+      "anchor": "top",
+      "kicker": "SLOW MOTION 4x",
+      "headline": "Flamingos dance as a group. Here's why."
+    },
+    {
+      "layout": "full",
+      "media": "video:flamingo/01.webm@6",
+      "duration": 4.5,
+      "subtitle": [
+        "This is courtship",
+        "the whole group",
+        "marches together",
+        "and turns at once"
+      ]
+    },
+    {
+      "layout": "full",
+      "media": "video:flamingo/02.webm@3",
+      "duration": 4.0,
+      "subtitle": [
+        "The moves have names",
+        "head-flagging",
+        "wing-saluting"
+      ]
+    },
+    {
+      "layout": "full",
+      "media": "video:flamingo/03.webm@1",
+      "duration": 4.0,
+      "subtitle": [
+        "And that pink?",
+        "Algae in their diet",
+        "keeps it pink"
+      ]
+    }
+  ],
+  "caption": "Synchronised swimming, but on legs.\n\nGreater flamingos feed with their heads upside down in the water, and they are also common in South Asia, including India.\n\nSource: Animal Diversity Web.  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#greaterflamingo",
+    "#flamingo",
+    "#birdbehaviour",
+    "#birdsofindia"
+  ],
+  "sources": [
+    "https://animaldiversity.org/accounts/Phoenicopterus_roseus/"
+  ],
+  "notes": "Faceless-voiceover demo: subtitle script over wild CC footage (Giles Laurent, Camargue); original script, one fact per beat, slow-mo labelled."
+}

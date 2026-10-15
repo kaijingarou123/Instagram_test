@@ -1,0 +1,28 @@
+{
+  "slug": "fact-over-footage-3",
+  "format_tag": "format:fact-over-footage",
+  "family": "wildlife",
+  "variant": 3,
+  "title": "The mantis shrimp punch",
+  "risk": "low",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": null,
+  "caption": "Snails never see it coming.\n\nPatek's team filmed the strike at 5,000 frames per second; peak speeds ranged from 14 to 23 metres per second.\n\nSource: Patek, Korff & Caldwell 2004, Nature; UC Berkeley News. Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#mantisshrimp",
+    "#marinebiology",
+    "#animalfacts",
+    "#biomechanics"
+  ],
+  "sources": [
+    "https://doi.org/10.1038/428819a",
+    "https://newsarchive.berkeley.edu/news/media/releases/2004/04/21_shrimp.shtml"
+  ],
+  "duration_s": 14.4,
+  "file_mb": 2.23,
+  "credits": [
+    "Photo: Diego Delso · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "cinematic-broll-2",
+  "format_tag": "format:cinematic-broll",
+  "family": "lifestyle",
+  "variant": 2,
+  "title": "Autumn woods",
+  "risk": "low",
+  "tactic_tags": [
+    "tactic:loop"
+  ],
+  "storyboard": null,
+  "caption": "Yellow leaves, cold light, one very patient owl.\n\nThose 'horns' on a great horned owl are feather tufts, not ears.\n\nSource: Cornell Lab of Ornithology, All About Birds. Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#greathornedowl",
+    "#grasssnake",
+    "#autumnwoods",
+    "#slowtv"
+  ],
+  "sources": [
+    "https://www.allaboutbirds.org/guide/Great_Horned_Owl/overview"
+  ],
+  "duration_s": 13.3,
+  "file_mb": 5.56,
+  "credits": [
+    "Photo: BLM Oregon & Washington · Wikimedia Commons · Public domain",
+    "Photo: Paul Danese · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: PsamatheM · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

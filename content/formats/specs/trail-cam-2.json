@@ -1,0 +1,57 @@
+{
+  "slug": "trail-cam-2",
+  "format_tag": "format:trail-cam",
+  "family": "wildlife",
+  "risk": "low",
+  "variant": 2,
+  "title": "Night shift: sloth bear",
+  "tactic_tags": [
+    "tactic:hook-text",
+    "tactic:series"
+  ],
+  "storyboard": "Film: our night camera-trap clip of a sloth bear at a termite mound, IR, 10–15 s",
+  "audio": "bed",
+  "scenes": [
+    {
+      "layout": "full",
+      "media": "photo:sloth-bear/04.jpg",
+      "duration": 3.0,
+      "kicker": "Camera-trap diaries",
+      "headline": "Something dug here after dark."
+    },
+    {
+      "layout": "full",
+      "media": "photo:sloth-bear/01.jpg",
+      "duration": 3.5,
+      "kicker": "Ranthambore NP",
+      "headline": "A sloth bear on the night shift",
+      "body": "Sloth bears may be active at night, by day, or at dawn and dusk.",
+      "source": "Smithsonian's National Zoo"
+    },
+    {
+      "layout": "full",
+      "media": "photo:sloth-bear/02.jpg",
+      "duration": 3.5,
+      "headline": "It came for termites",
+      "body": "Sloth bears mainly eat termites and ants, sucking them up through a gap in their front teeth."
+    },
+    {
+      "layout": "card",
+      "bg": "night",
+      "duration": 3.0,
+      "headline": "Why a camera, not a torch?",
+      "body": "A camera trap can watch all night without disturbing the bear."
+    }
+  ],
+  "caption": "The termite mound looked different in the morning. The camera knew why.\n\nSloth bears can keep a night, day or dawn-and-dusk schedule, so a camera that never sleeps is the fairest way to find them.\n\nSource: Smithsonian's National Zoo, sloth bear. Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#slothbear",
+    "#cameratrap",
+    "#nightwildlife",
+    "#indianwildlife"
+  ],
+  "sources": [
+    "https://nationalzoo.si.edu/animals/sloth-bear"
+  ],
+  "notes": "Storyboard: daytime CC photos stand in for our IR camera-trap clip; text is written as the real reel. Original: 'what dug here?' mystery solved by the trap."
+}

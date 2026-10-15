@@ -1,0 +1,29 @@
+{
+  "slug": "art-process-3",
+  "format_tag": "format:art-process",
+  "family": "creative",
+  "variant": 3,
+  "title": "Trying to paint kingfisher blue",
+  "risk": "low",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": "Film: overhead watercolour of a kingfisher, timelapse, plus palette close-up mixing blues; 2 takes",
+  "caption": "Every paint set loses to this bird.\n\nKingfisher orange comes from pigment, but the blue comes from nanostructures inside the feather barbs that scatter blue light, which is why paint can only approximate it.\n\nSource: Stavenga et al. 2011, Journal of Experimental Biology.  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#kingfisher",
+    "#watercolour",
+    "#structuralcolour",
+    "#naturejournaling",
+    "#birdart"
+  ],
+  "sources": [
+    "https://journals.biologists.com/jeb/article/214/23/3960/10462/Kingfisher-feathers-colouration-by-pigments-spongy"
+  ],
+  "duration_s": 12.3,
+  "file_mb": 2.11,
+  "credits": [
+    "Photo: Alexis Lours · Wikimedia Commons · CC BY 4.0",
+    "Photo: Lennart Hessel · Wikimedia Commons · CC BY 3.0"
+  ]
+}

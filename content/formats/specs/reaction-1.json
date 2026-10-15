@@ -1,0 +1,55 @@
+{
+  "slug": "reaction-1",
+  "format_tag": "format:reaction",
+  "family": "repurposed",
+  "risk": "medium",
+  "variant": 1,
+  "title": "Naturalist reacts: a tiger playing in a pool",
+  "storyboard": "Film: naturalist in corner inset reacting to the clip (surprise, then explain), green screen, 2 takes",
+  "audio": "bed",
+  "scenes": [
+    {
+      "layout": "pip",
+      "media": "video:tiger/02.webm@2",
+      "duration": 3.5,
+      "pip_label": "NATURALIST",
+      "headline": "Wait, tigers LIKE water?"
+    },
+    {
+      "layout": "pip",
+      "media": "video:tiger/02.webm@10",
+      "duration": 4.5,
+      "pip_label": "NATURALIST",
+      "headline": "Yes. Tigers are adept swimmers.",
+      "body": "They cope with heat worse than other big cats, which may explain the bathing."
+    },
+    {
+      "layout": "pip",
+      "media": "video:tiger/02.webm@20",
+      "duration": 4.5,
+      "pip_label": "NATURALIST",
+      "headline": "But check where this is",
+      "body": "A captive Bengal-Indochinese hybrid at a tiger park in Thailand. Not how wild tigers live."
+    },
+    {
+      "layout": "card",
+      "duration": 3.0,
+      "bg": "ink",
+      "kicker": "MUDDY LESSONS",
+      "headline": "Want wild tigers? Go with a naturalist.",
+      "body": "Our tiger-reserve trips watch from safari vehicles, at a distance."
+    }
+  ],
+  "caption": "Cute clip. Here's the context.\n\nBritannica notes tigers evolved in the forests of eastern Asia and tolerate heat less than other big cats, which may be why they bathe.\n\nSource: Britannica; clip description on Wikimedia Commons.  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#tiger",
+    "#tigerfacts",
+    "#captivewildlife",
+    "#naturalist"
+  ],
+  "sources": [
+    "https://www.britannica.com/animal/tiger",
+    "https://commons.wikimedia.org/wiki/File:Tiger_playing_with_a_piece_of_wood_in_a_pool.webm"
+  ],
+  "notes": "Reaction demo: commentary adds the science and the captive-context call-out, which is what makes a reaction original. Inset is a placeholder."
+}

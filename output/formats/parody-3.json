@@ -1,0 +1,30 @@
+{
+  "slug": "parody-3",
+  "format_tag": "format:parody",
+  "family": "humor",
+  "variant": 3,
+  "title": "GRWM: flamingo edition",
+  "risk": "low",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": null,
+  "caption": "This glow is 100% dietary.\n\nFlamingos are filter feeders: they sieve algae, small seeds, tiny crustaceans and fly larvae out of shallow water.\n\nSource: Smithsonian's National Zoo.  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#flamingo",
+    "#birdfacts",
+    "#flamingofacts",
+    "#grwm"
+  ],
+  "sources": [
+    "https://nationalzoo.si.edu/animals/news/why-are-flamingos-pink-and-other-flamingo-facts"
+  ],
+  "duration_s": 18.9,
+  "file_mb": 4.41,
+  "credits": [
+    "Photo: Giles Laurent · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Joselodos · Wikimedia Commons · CC0",
+    "Photo: Perspolis ewaz · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: TSolange · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

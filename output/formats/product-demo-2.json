@@ -1,0 +1,27 @@
+{
+  "slug": "product-demo-2",
+  "format_tag": "format:product-demo",
+  "family": "commercial",
+  "variant": 2,
+  "title": "Field guide demo: sexing a pied kingfisher",
+  "risk": "low",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": "Film: top-down hands flipping a bird field guide to the kingfisher plate, finger tracing breast bands",
+  "caption": "Your field guide can tell you more than the name\n\nPied kingfishers hunt with a hover-plunge: they drop lower and lower over the water, then dive.\n\nSource: Animal Diversity Web. Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#piedkingfisher",
+    "#fieldguide",
+    "#birdid",
+    "#birdingindia"
+  ],
+  "sources": [
+    "https://animaldiversity.org/accounts/Ceryle_rudis/"
+  ],
+  "duration_s": 14.8,
+  "file_mb": 3.49,
+  "credits": [
+    "Photo: Giles Laurent · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

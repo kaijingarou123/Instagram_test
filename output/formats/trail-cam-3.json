@@ -1,0 +1,30 @@
+{
+  "slug": "trail-cam-3",
+  "format_tag": "format:trail-cam",
+  "family": "wildlife",
+  "variant": 3,
+  "title": "Night traffic: elephant herd",
+  "risk": "low",
+  "tactic_tags": [
+    "tactic:hook-text",
+    "tactic:series"
+  ],
+  "storyboard": "Film: our camera-trap clip of an elephant herd crossing a forest track near Bengaluru, 15 s",
+  "caption": "Our camera trap logged the herd before we ever saw it.\n\nAsian elephants tend to rest and nap through the hottest hours of the day, and feed again at night.\n\nSource: Smithsonian's National Zoo, Asian elephant. Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#asianelephant",
+    "#cameratrap",
+    "#elephantherd",
+    "#bengaluru"
+  ],
+  "sources": [
+    "https://nationalzoo.si.edu/animals/asian-elephant"
+  ],
+  "duration_s": 12.3,
+  "file_mb": 5.26,
+  "credits": [
+    "Photo: Basile Morin · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Mike Prince from Bangalore, India · Wikimedia Commons · CC BY 2.0",
+    "Photo: Rod Waddington · Wikimedia Commons · CC BY-SA 2.0"
+  ]
+}

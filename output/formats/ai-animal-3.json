@@ -1,0 +1,29 @@
+{
+  "slug": "ai-animal-3",
+  "format_tag": "format:ai-animal",
+  "family": "wildlife",
+  "variant": 3,
+  "title": "Why we never post AI animals",
+  "risk": "avoid",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": null,
+  "caption": "The real owl story is better than the fake one.\n\nOwls trigger especially intense mobbing because they often hunt sleeping birds; the mob tells the owl it has lost the element of surprise.\n\nSource: Cornell Lab of Ornithology, All About Birds. Real clip: Wikimedia Commons (credits on screen); AI clip: Google DeepMind Veo 3 demo (public domain), labelled on screen.",
+  "hashtags": [
+    "#aigenerated",
+    "#owls",
+    "#medialiteracy",
+    "#natureeducation"
+  ],
+  "sources": [
+    "https://www.allaboutbirds.org/news/sometimes-i-see-little-birds-going-after-a-big-bird-why-do-they-do-this/",
+    "https://about.fb.com/news/2024/02/labeling-ai-generated-images-on-facebook-instagram-and-threads/"
+  ],
+  "duration_s": 12.3,
+  "file_mb": 2.59,
+  "credits": [
+    "Photo: Google DeepMind · Wikimedia Commons · Public domain",
+    "Photo: Paul Danese · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

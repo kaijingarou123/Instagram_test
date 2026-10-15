@@ -1,0 +1,27 @@
+{
+  "slug": "skit-2",
+  "format_tag": "format:skit",
+  "family": "humor",
+  "variant": 2,
+  "title": "House cat vs tiger at bath time",
+  "risk": "low",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": "Film: one actor plays a house cat refusing a bath, then a tiger cannonballing in; same bathroom, 2 takes",
+  "caption": "Same family. Very different bath energy.\n\nTigers range across Asia, from Russia all the way to Sumatra and mainland Southeast Asia, and many of those habitats include rivers and mangroves.\n\nSource: Smithsonian's National Zoo (Tiger).  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#tiger",
+    "#bigcats",
+    "#tigerfacts",
+    "#catsoftheworld"
+  ],
+  "sources": [
+    "https://nationalzoo.si.edu/animals/tiger"
+  ],
+  "duration_s": 11.7,
+  "file_mb": 4.68,
+  "credits": [
+    "Photo: Grendelkhan · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "prank-3",
+  "format_tag": "format:prank",
+  "family": "humor",
+  "risk": "medium",
+  "variant": 3,
+  "title": "Fake colour test: you vs mantis shrimp",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": "Film: adult friend takes a fake colour test with paint swatches; result card reveal and real reaction",
+  "audio": "bed",
+  "scenes": [
+    {
+      "layout": "pip",
+      "duration": 4.0,
+      "media": "photo:mantis-shrimp/01.jpg",
+      "pip_label": "Friend taking the 'test'",
+      "headline": "Told my friend this test proves a shrimp sees colour better than her"
+    },
+    {
+      "layout": "split",
+      "duration": 4.0,
+      "media": "photo:mantis-shrimp/03.jpg",
+      "media_b": "photo:mantis-shrimp/04.jpg",
+      "label_a": "Mantis shrimp: 12",
+      "label_b": "Humans: 3",
+      "headline": "Colour receptor types"
+    },
+    {
+      "layout": "full",
+      "duration": 4.5,
+      "media": "photo:mantis-shrimp/02.jpg",
+      "anchor": "bottom",
+      "kicker": "The twist",
+      "headline": "In tests, they were worse at telling close colours apart",
+      "body": "They seem to recognise colours fast rather than compare them finely.",
+      "source": "Thoen et al. 2014, Science"
+    },
+    {
+      "layout": "card",
+      "duration": 3.5,
+      "bg": "amber",
+      "headline": "So she won. Humans 1, shrimp 0."
+    }
+  ],
+  "caption": "12 colour receptors, and still lost to my friend.\n\nSome mantis shrimp have 12 photoreceptor types spanning deep ultraviolet to far red, roughly 300 to 720 nanometres.\n\nSource: Thoen et al. 2014, Science.  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#mantisshrimp",
+    "#animalvision",
+    "#marinelife",
+    "#sciencefacts"
+  ],
+  "sources": [
+    "https://pubmed.ncbi.nlm.nih.gov/24458639/"
+  ],
+  "notes": "A reverse prank: the setup repeats a viral myth, the reveal debunks it with the 2014 Science study. Adult participant, paint swatches only, no animals involved."
+}

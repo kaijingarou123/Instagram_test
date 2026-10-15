@@ -1,0 +1,82 @@
+{
+  "slug": "conservation-story-3",
+  "format_tag": "format:conservation-story",
+  "family": "wildlife",
+  "risk": "low",
+  "variant": 3,
+  "title": "India's tigers, 1,411 to 3,682",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": null,
+  "audio": "bed",
+  "scenes": [
+    {
+      "layout": "full",
+      "media": "photo:tiger/04.jpg",
+      "duration": 3.0,
+      "kicker": "India, 2006 → 2022",
+      "headline": "India's tiger estimate more than doubled."
+    },
+    {
+      "layout": "chart",
+      "duration": 4.0,
+      "kicker": "All India Tiger Estimation",
+      "headline": "Tigers estimated in India",
+      "bars": [
+        {
+          "label": "2006",
+          "value": 1411
+        },
+        {
+          "label": "2010",
+          "value": 1706
+        },
+        {
+          "label": "2014",
+          "value": 2226
+        },
+        {
+          "label": "2018",
+          "value": 2967
+        },
+        {
+          "label": "2022",
+          "value": 3682
+        }
+      ],
+      "highlight": 4,
+      "source": "NTCA & WII, Status of Tigers 2022"
+    },
+    {
+      "layout": "full",
+      "media": "photo:tiger/02.jpg",
+      "duration": 3.5,
+      "kicker": "Project Tiger, since 1973",
+      "headline": "50+ years of tiger reserves",
+      "body": "The 2022 count used camera traps at 32,803 locations; each tiger's stripes are unique."
+    },
+    {
+      "layout": "card",
+      "bg": "red",
+      "duration": 3.5,
+      "headline": "Still Endangered (IUCN, 2022)",
+      "body": "An estimated 3,726–5,578 tigers remain in the wild worldwide.",
+      "source": "IUCN Red List, Goodrich et al. 2022"
+    }
+  ],
+  "caption": "From 1,411 to 3,682: the tiger estimate India's camera traps produced.\n\nThe 2022 figure is an average within a statistical range of 3,167–3,925 tigers.\n\nSource: NTCA & WII 'Status of Tigers, Co-predators and Prey in India 2022'; IUCN Red List 2022. Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#tiger",
+    "#projecttiger",
+    "#tigercensus",
+    "#indianwildlife"
+  ],
+  "sources": [
+    "https://indiaenvironmentportal.org.in/reports-and-documents/status-of-tigers-co-predators-and-prey-in-india-2022",
+    "https://ntca.gov.in/about-ntca/",
+    "https://dx.doi.org/10.2305/IUCN.UK.2022-1.RLTS.T15955A214862019.en",
+    "https://nationalzoo.si.edu/animals/tiger"
+  ],
+  "notes": "Data-led conservation story with a named programme (Project Tiger) and IUCN status with year; the chart carries the story. Media thin for wild Bengal tigers (two usable photos, no wild video)."
+}

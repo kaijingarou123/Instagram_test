@@ -1,0 +1,64 @@
+{
+  "slug": "myth-bust-2",
+  "format_tag": "format:myth-bust",
+  "family": "educational",
+  "risk": "low",
+  "variant": 2,
+  "title": "Myth: the king cobra is just a big cobra",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": null,
+  "audio": "bed",
+  "scenes": [
+    {
+      "layout": "full",
+      "media": "photo:king-cobra/03.jpg",
+      "duration": 3.0,
+      "kicker": "Myth",
+      "headline": "The king cobra is just a big cobra."
+    },
+    {
+      "layout": "full",
+      "media": "photo:king-cobra/03.jpg",
+      "duration": 4.5,
+      "kicker": "Busted",
+      "motion": "out",
+      "headline": "It isn't a true cobra at all.",
+      "body": "True cobras are genus Naja. The king cobra has its own genus: Ophiophagus, 'snake-eater'.",
+      "source": "Britannica"
+    },
+    {
+      "layout": "full",
+      "media": "photo:king-cobra/02.jpg",
+      "duration": 4.5,
+      "motion": "pan-right",
+      "headline": "And it lives up to the name.",
+      "body": "Other snakes are its main prey. This one in Thailand is taking on a reticulated python.",
+      "source": "Britannica"
+    },
+    {
+      "layout": "card",
+      "bg": "moss",
+      "duration": 4.5,
+      "kicker": "2024 update",
+      "big": "4",
+      "headline": "It isn't even one species.",
+      "body": "A 2024 revision split king cobras into four. The Western Ghats has its own: Ophiophagus kaalinga.",
+      "source": "Das et al. 2024, European Journal of Taxonomy",
+      "media": "photo:king-cobra/03.jpg"
+    }
+  ],
+  "caption": "The king cobra isn't a true cobra, and it isn't one species.\n\nThe 2024 revision recognises O. hannah (northern and eastern India to Indochina), O. kaalinga (Western Ghats), O. bungarus (Sunda region) and O. salvatana (Luzon, Philippines).\n\nSources: Das I. et al. (2024) European Journal of Taxonomy 961:1–51; Britannica. Photos: Pulikurumba, Kerala; Kaeng Krachan NP, Thailand. Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#kingcobra",
+    "#westernghats",
+    "#snakefacts",
+    "#herpetology"
+  ],
+  "sources": [
+    "https://www.britannica.com/animal/king-cobra",
+    "https://doi.org/10.5852/ejt.2024.961.2681"
+  ],
+  "notes": "Double myth-bust with a fresh 2024 science payoff most viewers haven't heard; ties the Kerala photo to the new Western Ghats species."
+}

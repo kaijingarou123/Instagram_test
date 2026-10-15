@@ -1,0 +1,32 @@
+{
+  "slug": "listicle-3",
+  "format_tag": "format:listicle",
+  "family": "educational",
+  "variant": 3,
+  "title": "3 Indian animals that plant forests",
+  "risk": "low",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": null,
+  "caption": "Hornbills, elephants and sloth bears all move seeds for India's forests.\n\nElephant-apple seeds from elephant dung were also 1.5 times more likely to germinate than seeds from cattle dung.\n\nSources: Naniwadekar et al. (2019) Acta Oecologica; Sekar, Lee & Sukumar (2015) Ecology 96:2093; Sreekumar & Balakrishnan (2002) Biotropica. Footage: oriental pied hornbill; photo: Indian grey hornbill. Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#seeddispersal",
+    "#hornbill",
+    "#indianforests",
+    "#ecology"
+  ],
+  "sources": [
+    "https://datadryad.org/dataset/doi:10.5061/dryad.51c59zw4g",
+    "https://doi.org/10.1890/14-1543.1",
+    "https://doi.org/10.1646/0006-3606(2002)034[0474:SDBTSB]2.0.CO;2"
+  ],
+  "duration_s": 16.9,
+  "file_mb": 5.16,
+  "credits": [
+    "Photo: Anahita aravedna · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Basile Morin · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Giles Laurent · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Rushenb · Wikimedia Commons · CC BY-SA 3.0"
+  ]
+}

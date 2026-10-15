@@ -1,0 +1,30 @@
+{
+  "slug": "ai-absurdist-3",
+  "format_tag": "format:ai-absurdist",
+  "family": "humor",
+  "variant": 3,
+  "title": "Top Gun: meadow edition",
+  "risk": "medium",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": "Film: none; AI-generate a dragonfly in a tiny flight helmet dogfighting a mosquito; label clips AI-generated",
+  "caption": "Meet the meadow's most decorated pilot.\n\nDragonflies eat mosquitoes and flies, and sometimes tackle prey weighing 60% of their own body weight.\n\nSource: Combes et al. 2013; Britannica (Dragonfly).  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#dragonfly",
+    "#insectfacts",
+    "#predators",
+    "#odonata"
+  ],
+  "sources": [
+    "https://pubmed.ncbi.nlm.nih.gov/23784698/",
+    "https://www.britannica.com/animal/dragonfly"
+  ],
+  "duration_s": 14.3,
+  "file_mb": 5.34,
+  "credits": [
+    "Photo: Giles Laurent · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: ImagePerson · Wikimedia Commons · CC BY 4.0",
+    "Photo: Jolieokefenokee · Wikimedia Commons · CC BY 4.0"
+  ]
+}

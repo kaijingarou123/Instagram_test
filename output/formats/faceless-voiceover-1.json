@@ -1,0 +1,27 @@
+{
+  "slug": "faceless-voiceover-1",
+  "format_tag": "format:faceless-voiceover",
+  "family": "repurposed",
+  "variant": 1,
+  "title": "The bear that eats termites like a vacuum",
+  "risk": "medium",
+  "tactic_tags": null,
+  "storyboard": null,
+  "caption": "Meet India's noisiest diner.\n\nSloth bears are mainly nocturnal. Photos: Ranthambore, Wilpattu (Sri Lanka) and a mother with cubs in Bor Tiger Reserve, Maharashtra.\n\nSource: Animal Diversity Web.  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#slothbear",
+    "#indianwildlife",
+    "#ranthambore",
+    "#bearfacts"
+  ],
+  "sources": [
+    "https://animaldiversity.org/accounts/Melursus_ursinus/"
+  ],
+  "duration_s": 14.3,
+  "file_mb": 5.28,
+  "credits": [
+    "Photo: Giles Laurent · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Rohit Sharma · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Sanuth Prabasha · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

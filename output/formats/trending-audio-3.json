@@ -1,0 +1,27 @@
+{
+  "slug": "trending-audio-3",
+  "format_tag": "format:trending-audio",
+  "family": "humor",
+  "variant": 3,
+  "title": "Tell me you eat fish: gharial",
+  "risk": "low",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": "Film: creator does the 'tell me without telling me' trend, miming a long snout with both arms",
+  "caption": "That snout is a fishing tool.\n\nAdult gharials primarily eat fish, while juveniles also take insects, crustaceans and frogs. The opening photo is a wild female in Bardiya National Park, Nepal.\n\nSource: Smithsonian's National Zoo (Gharial).  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#gharial",
+    "#crocodilian",
+    "#indianreptiles",
+    "#endangeredspecies"
+  ],
+  "sources": [
+    "https://nationalzoo.si.edu/animals/gharial"
+  ],
+  "duration_s": 14.8,
+  "file_mb": 2.82,
+  "credits": [
+    "Photo: Shadow Ayush · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

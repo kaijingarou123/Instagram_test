@@ -1,0 +1,74 @@
+{
+  "slug": "product-demo-3",
+  "format_tag": "format:product-demo",
+  "family": "commercial",
+  "risk": "low",
+  "variant": 3,
+  "title": "Nature journal demo: a sloth bear entry",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": "Film: top-down of a hand writing and sketching this sloth bear entry in a nature journal, 3 close-ups",
+  "audio": "bed",
+  "scenes": [
+    {
+      "layout": "grid",
+      "duration": 3.5,
+      "media_list": [
+        "photo:sloth-bear/03.jpg",
+        "photo:sloth-bear/01.jpg",
+        "photo:sloth-bear/02.jpg",
+        "photo:sloth-bear/04.jpg"
+      ],
+      "kicker": "NATURE JOURNAL DEMO",
+      "headline": "One sighting, three lines in your journal"
+    },
+    {
+      "layout": "full",
+      "duration": 4.0,
+      "media": "photo:sloth-bear/03.jpg",
+      "kicker": "LINE 1: WHERE + WHAT",
+      "headline": "Bor Tiger Reserve. Sloth bear mother, two cubs on her back.",
+      "focus": [
+        0.65,
+        0.5
+      ]
+    },
+    {
+      "layout": "full",
+      "duration": 4.0,
+      "media": "photo:sloth-bear/01.jpg",
+      "kicker": "LINE 2: WHAT I NOTICED",
+      "headline": "Shaggy black coat, pale snout, mouth open",
+      "body": "Sloth bear, Ranthambore."
+    },
+    {
+      "layout": "card",
+      "duration": 4.0,
+      "bg": "cream",
+      "kicker": "LINE 3: LOOKED UP LATER",
+      "headline": "Cubs stay with mum for 2-3 years and often ride on her back",
+      "source": "Britannica: Sloth bear"
+    },
+    {
+      "layout": "card",
+      "duration": 3.0,
+      "bg": "moss",
+      "kicker": "MUDDY LESSONS",
+      "headline": "Learn field journalling on a tiger-reserve trip",
+      "body": "Details in bio."
+    }
+  ],
+  "caption": "Your best wildlife photo is the one you wrote down\n\nSloth bears can close their nostrils at will, which keeps dust out while they suck termites from a nest.\n\nSource: Britannica, Animal Diversity Web. Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#slothbear",
+    "#naturejournal",
+    "#tigerreserve",
+    "#fieldnotes"
+  ],
+  "sources": [
+    "https://www.britannica.com/animal/sloth-bear",
+    "https://animaldiversity.org/accounts/Melursus_ursinus/"
+  ],
+  "notes": "Demo of the cheapest field gear there is - a notebook - using a where/noticed/looked-up template; every line matches what the wild photos (Bor, Ranthambore) actually show."
+}

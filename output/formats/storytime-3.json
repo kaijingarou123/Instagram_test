@@ -1,0 +1,29 @@
+{
+  "slug": "storytime-3",
+  "format_tag": "format:storytime",
+  "family": "educational",
+  "variant": 3,
+  "title": "The bear named after a sloth",
+  "risk": "low",
+  "tactic_tags": null,
+  "storyboard": null,
+  "caption": "Wrong family, right name forever.\n\nSloth bears are also the only bears that routinely carry their cubs on their back, until the cubs are about 6 to 9 months old.\n\nSource: Smithsonian's National Zoo; Animal Diversity Web.  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#slothbear",
+    "#indianwildlife",
+    "#sciencehistory",
+    "#naturestudy"
+  ],
+  "sources": [
+    "https://nationalzoo.si.edu/animals/sloth-bear",
+    "https://animaldiversity.org/accounts/Melursus_ursinus/"
+  ],
+  "duration_s": 14.3,
+  "file_mb": 5.62,
+  "credits": [
+    "Photo: Davidvraju · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Giles Laurent · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Rohit Sharma · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Sanuth Prabasha · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

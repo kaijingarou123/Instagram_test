@@ -1,0 +1,29 @@
+{
+  "slug": "affiliate-1",
+  "format_tag": "format:affiliate",
+  "family": "commercial",
+  "variant": 1,
+  "title": "3 checks before you buy a bird field guide",
+  "risk": "low",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": null,
+  "caption": "#ad | Affiliate link in bio - we may earn a commission at no extra cost to you.\n\nThe field guide is the gear that teaches you most per rupee\n\nIn pied kingfishers the female's single breast band is often broken in the middle - a plate that shows both sexes saves you guessing.\n\nSource: Animal Diversity Web. Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#fieldguide",
+    "#birdingindia",
+    "#birdid",
+    "#piedkingfisher"
+  ],
+  "sources": [
+    "https://animaldiversity.org/accounts/Ceryle_rudis/",
+    "https://birdsoftheworld.org/bow/species/piekin1/cur/introduction"
+  ],
+  "duration_s": 16.4,
+  "file_mb": 3.32,
+  "credits": [
+    "Photo: Anahita aravedna · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Giles Laurent · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

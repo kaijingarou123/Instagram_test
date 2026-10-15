@@ -1,0 +1,56 @@
+{
+  "slug": "fact-over-footage-2",
+  "format_tag": "format:fact-over-footage",
+  "family": "wildlife",
+  "risk": "low",
+  "variant": 2,
+  "title": "The kingfisher's blue isn't pigment",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": null,
+  "audio": "bed",
+  "scenes": [
+    {
+      "layout": "full",
+      "media": "video:kingfisher/02.webm@2",
+      "duration": 3.0,
+      "kicker": "Common kingfisher",
+      "headline": "There's no blue paint in these feathers."
+    },
+    {
+      "layout": "full",
+      "media": "video:kingfisher/03.webm@5",
+      "duration": 3.5,
+      "headline": "The blue is built, not dyed",
+      "body": "Tiny sponge-like structures inside the feather barbs scatter blue light.",
+      "source": "Stavenga et al. 2011, J. Exp. Biol."
+    },
+    {
+      "layout": "full",
+      "media": "video:kingfisher/03.webm@12",
+      "duration": 3.5,
+      "headline": "The orange is real pigment",
+      "body": "Breast feathers hold pigment granules, so one bird makes colour two different ways."
+    },
+    {
+      "layout": "card",
+      "bg": "ink",
+      "duration": 3.5,
+      "headline": "Why the back shimmers as it turns",
+      "body": "Structural colour shifts with viewing angle. Pigment colour scatters evenly.",
+      "source": "Stavenga et al. 2011"
+    }
+  ],
+  "caption": "Kingfisher blue is made by structure, not pigment.\n\nThe cyan back and blue tail feathers use slightly different sponge structures, which is why they are two different shades of blue.\n\nSource: Stavenga, Tinbergen, Leertouwer & Wilts 2011, Journal of Experimental Biology. Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#kingfisher",
+    "#structuralcolour",
+    "#birdfacts",
+    "#sciencefacts"
+  ],
+  "sources": [
+    "https://journals.biologists.com/jeb/article/214/23/3960/10597/Kingfisher-feathers-colouration-by-pigments-spongy"
+  ],
+  "notes": "Fact-over-footage on a species common at Bengaluru lakes; the overlay explains physics the viewer can't see, which is what makes CC footage original."
+}

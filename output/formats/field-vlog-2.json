@@ -1,0 +1,28 @@
+{
+  "slug": "field-vlog-2",
+  "format_tag": "format:field-vlog",
+  "family": "wildlife",
+  "variant": 2,
+  "title": "We found a hornbill nest",
+  "risk": "low",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": "Film: naturalist whispering at a safe distance from a hornbill nest tree; long-lens shot of the sealed slit",
+  "caption": "This tree has a family sealed inside it.\n\nIn almost every hornbill species (ground hornbills are the exception), the nest is walled in with mud; after the eggs hatch the female breaks out, and the chicks may be sealed in again.\n\nSource: Britannica, Hornbill. Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#hornbill",
+    "#indiangreyhornbill",
+    "#birdnesting",
+    "#fieldnotes"
+  ],
+  "sources": [
+    "https://www.britannica.com/animal/hornbill"
+  ],
+  "duration_s": 12.8,
+  "file_mb": 2.98,
+  "credits": [
+    "Photo: Anahita aravedna · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Rushenb · Wikimedia Commons · CC BY-SA 3.0"
+  ]
+}

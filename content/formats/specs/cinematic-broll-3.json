@@ -1,0 +1,49 @@
+{
+  "slug": "cinematic-broll-3",
+  "format_tag": "format:cinematic-broll",
+  "family": "lifestyle",
+  "risk": "low",
+  "variant": 3,
+  "title": "River hours",
+  "storyboard": null,
+  "audio": "bed",
+  "scenes": [
+    {
+      "layout": "full",
+      "media": "video:crocodile/01.webm@3",
+      "duration": 4.0,
+      "kicker": "Nile crocodile, Nairobi",
+      "headline": "Life at the waterline."
+    },
+    {
+      "layout": "full",
+      "media": "video:otter/03.webm@5",
+      "duration": 3.5,
+      "kicker": "Sea otter · Alaska"
+    },
+    {
+      "layout": "full",
+      "media": "video:kingfisher/01.webm@11",
+      "duration": 3.5,
+      "kicker": "Pied kingfisher · Uganda"
+    },
+    {
+      "layout": "full",
+      "media": "photo:flamingo/02.jpg",
+      "duration": 3.5,
+      "kicker": "Flamingos, Hirm Lake",
+      "motion": "pan-right"
+    }
+  ],
+  "caption": "Four waters, four ways to live on them.\n\nPied kingfishers are the only kingfishers known to forage offshore, skimming as far as about 100 m from land.\n\nSource: Animal Diversity Web (Ceryle rudis). Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#riverlife",
+    "#piedkingfisher",
+    "#seaotter",
+    "#nilecrocodile"
+  ],
+  "sources": [
+    "https://animaldiversity.org/accounts/Ceryle_rudis/"
+  ],
+  "notes": "Travel-style B-roll built on a water theme across continents; one quiet title, location kickers, ambient bed only."
+}

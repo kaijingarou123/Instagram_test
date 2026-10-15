@@ -1,0 +1,30 @@
+{
+  "slug": "myth-bust-3",
+  "format_tag": "format:myth-bust",
+  "family": "educational",
+  "variant": 3,
+  "title": "Myth: leopards need deep forest",
+  "risk": "low",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": null,
+  "caption": "Leopards can live in farmland next to millions of people.\n\nGlobally, leopards are listed as Vulnerable and now occur in only about 25% of their historical range.\n\nSources: Athreya V. et al. (2013) Big cats in our backyards, PLOS ONE 8:e57872; IUCN Red List (Stein et al. 2016). Footage: Rajaji TR, India and Kruger NP. Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#leopard",
+    "#indianleopard",
+    "#coexistence",
+    "#wildlifefacts"
+  ],
+  "sources": [
+    "https://doi.org/10.1371/journal.pone.0057872",
+    "https://www.iucnredlist.org/species/15954/50659089"
+  ],
+  "duration_s": 15.3,
+  "file_mb": 11.5,
+  "credits": [
+    "Photo: Bernard DUPONT · Wikimedia Commons · CC BY-SA 2.0",
+    "Photo: Manandhar.amogha · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Shiv's fotografia · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

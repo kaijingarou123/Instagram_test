@@ -1,0 +1,30 @@
+{
+  "slug": "affiliate-2",
+  "format_tag": "format:affiliate",
+  "family": "commercial",
+  "variant": 2,
+  "title": "8x or 10x? The binoculars that made me buy binoculars",
+  "risk": "low",
+  "tactic_tags": [
+    "tactic:hook-text"
+  ],
+  "storyboard": null,
+  "caption": "#ad | Affiliate link in bio - we may earn a commission at no extra cost to you.\n\n8x or 10x - the honest answer\n\nHigher magnification narrows your field of view and exaggerates any hand shake, which is why many birders settle on 8x.\n\nSource: Cornell Lab of Ornithology. Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#binoculars",
+    "#birdinggear",
+    "#hornbill",
+    "#birdingindia"
+  ],
+  "sources": [
+    "https://www.allaboutbirds.org/news/six-steps-to-choosing-a-pair-of-binoculars-youll-love/",
+    "https://www.allaboutbirds.org/news/how-to-choose-binoculars-full-size-compact-pocket/"
+  ],
+  "duration_s": 14.3,
+  "file_mb": 3.45,
+  "credits": [
+    "Photo: Bernard DUPONT · Wikimedia Commons · CC BY-SA 2.0",
+    "Photo: Mhlayson · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Rushenb · Wikimedia Commons · CC BY-SA 3.0"
+  ]
+}

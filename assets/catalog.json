@@ -1,0 +1,1580 @@
+{
+ "photo": {
+  "asian-elephant": [
+   {
+    "ref": "photo:asian-elephant/01.jpg",
+    "w": 3840,
+    "h": 2560,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Asian Elephants - 53214244986",
+    "license": "CC BY-SA 2.0"
+   },
+   {
+    "ref": "photo:asian-elephant/02.jpg",
+    "w": 3840,
+    "h": 2560,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Sitting Asian elephant (Elephas maximus) bathing in Tad Lo river, Laos",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "photo:asian-elephant/03.jpg",
+    "w": 3840,
+    "h": 2560,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Asian elephant walking in Tad Lo river at golden hour, Bolaven Plateau, Laos",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "photo:asian-elephant/04.jpg",
+    "w": 2048,
+    "h": 2048,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Asian Elephants (23541542894)",
+    "license": "CC BY 2.0"
+   }
+  ],
+  "axolotl": [
+   {
+    "ref": "photo:axolotl/01.jpg",
+    "w": 3840,
+    "h": 2560,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Oniria - Axolotl 04",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "photo:axolotl/02.jpg",
+    "w": 3840,
+    "h": 2560,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Ambystoma mexicanum.101 - Aquarium Finisterrae",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "photo:axolotl/03.jpg",
+    "w": 3840,
+    "h": 2560,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Larva de axolote dentro del huevo aún sin eclosionar",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "photo:axolotl/04.jpg",
+    "w": 3840,
+    "h": 2560,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Neurulación de huevo de axolote Ambystoma Mexicanum",
+    "license": "CC BY-SA 4.0"
+   }
+  ],
+  "barn-owl": [
+   {
+    "ref": "photo:barn-owl/01.jpg",
+    "w": 3840,
+    "h": 2560,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Tyto alba - Cetrería - 01",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "photo:barn-owl/04.jpg",
+    "w": 3090,
+    "h": 2438,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Tyto alba tylluan wen",
+    "license": "CC BY-SA 4.0"
+   }
+  ],
+  "butterfly": [
+   {
+    "ref": "photo:butterfly/02.jpg",
+    "w": 3840,
+    "h": 2560,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Common brimstone butterfly (Gonepteryx rhamni) male",
+    "license": "CC BY-SA 4.0"
+   }
+  ],
+  "chameleon": [
+   {
+    "ref": "photo:chameleon/02.jpg",
+    "w": 3840,
+    "h": 2560,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Nice chameleon portrait",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "photo:chameleon/03.jpg",
+    "w": 3840,
+    "h": 2560,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Panther chameleon (Furcifer pardalis) male Montagne d’Ambre 3",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "photo:chameleon/04.jpg",
+    "w": 3456,
+    "h": 4608,
+    "orientation": "portrait",
+    "duration_s": null,
+    "shows": "Chameleon in Gombe",
+    "license": "CC BY-SA 4.0"
+   }
+  ],
+  "cheetah": [
+   {
+    "ref": "photo:cheetah/01.jpg",
+    "w": 1920,
+    "h": 1280,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "003 Cheetah hissing after a meal in Kalahari Desert Photo by Giles Laurent",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "photo:cheetah/02.jpg",
+    "w": 1920,
+    "h": 1280,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "037 Cheetah close-up in the Serengeti National Park Photo by Giles Laurent",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "photo:cheetah/03.jpg",
+    "w": 1920,
+    "h": 1358,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Cheetah vs leopard vs jaguar all no text",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "photo:cheetah/04.jpg",
+    "w": 1920,
+    "h": 1282,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Cheetah looking on photographer",
+    "license": "CC BY-SA 4.0"
+   }
+  ],
+  "dragonfly": [
+   {
+    "ref": "photo:dragonfly/01.jpg",
+    "w": 3840,
+    "h": 2560,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Dragonfly in the Okefenokee",
+    "license": "CC BY 4.0"
+   },
+   {
+    "ref": "photo:dragonfly/02.jpg",
+    "w": 3840,
+    "h": 2560,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Chalk-fronted Corporal Ladona julia male dragonfly on rural fence,Ontario 9184",
+    "license": "CC BY 4.0"
+   },
+   {
+    "ref": "photo:dragonfly/04.jpg",
+    "w": 3840,
+    "h": 2560,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Autumn Meadowhawk Sympetrum vicinum Dragonfly prob female 2792",
+    "license": "CC BY 4.0"
+   }
+  ],
+  "firefly": [
+   {
+    "ref": "photo:firefly/02.jpg",
+    "w": 1920,
+    "h": 1440,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Firefly larva feeding on snail by Raju Kasambe DSCN4504 (1) 01",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "photo:firefly/03.jpg",
+    "w": 1920,
+    "h": 1440,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Lampyris Noctiluca Female Firefly 3",
+    "license": "CC0"
+   },
+   {
+    "ref": "photo:firefly/04.jpg",
+    "w": 1920,
+    "h": 3413,
+    "orientation": "portrait",
+    "duration_s": null,
+    "shows": "Lamprigera firefly larva",
+    "license": "CC BY-SA 4.0"
+   }
+  ],
+  "flamingo": [
+   {
+    "ref": "photo:flamingo/01.jpg",
+    "w": 3840,
+    "h": 2160,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Flamingo, Las Salinas Natural Park, Ibiza",
+    "license": "CC0"
+   },
+   {
+    "ref": "photo:flamingo/02.jpg",
+    "w": 3840,
+    "h": 2160,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Flamingos at Hirm Lake - 02",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "photo:flamingo/04.jpg",
+    "w": 3840,
+    "h": 2560,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Flamingos, Celestún 2026 04",
+    "license": "CC BY-SA 4.0"
+   }
+  ],
+  "fruit-bat": [
+   {
+    "ref": "photo:fruit-bat/01.jpg",
+    "w": 1920,
+    "h": 1280,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Fruit Bat (flying fox) (36579525081)",
+    "license": "CC BY-SA 2.0"
+   },
+   {
+    "ref": "photo:fruit-bat/02.jpg",
+    "w": 1920,
+    "h": 1280,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Fruit Bat (flying fox) (36548685872)",
+    "license": "CC BY-SA 2.0"
+   },
+   {
+    "ref": "photo:fruit-bat/03.jpg",
+    "w": 1920,
+    "h": 1280,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Fruit Bat (flying fox) (36579516351)",
+    "license": "CC BY-SA 2.0"
+   },
+   {
+    "ref": "photo:fruit-bat/04.jpg",
+    "w": 1920,
+    "h": 1244,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Fruit bats at Mataranka Thermal Pool, June 1995",
+    "license": "CC BY-SA 4.0"
+   }
+  ],
+  "gharial": [
+   {
+    "ref": "photo:gharial/04.jpg",
+    "w": 3840,
+    "h": 2560,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Female Gharial crocodile at Babai River, Bardiya National Park",
+    "license": "CC BY-SA 4.0"
+   }
+  ],
+  "honey-bee": [
+   {
+    "ref": "photo:honey-bee/01.jpg",
+    "w": 3840,
+    "h": 2560,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Apis mellifera on nepeta1",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "photo:honey-bee/02.jpg",
+    "w": 3840,
+    "h": 2560,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Two bees absorbing pollen from an Iceland poppy in the flower garden of Gyeongju South Kor",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "photo:honey-bee/04.jpg",
+    "w": 3840,
+    "h": 2880,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Honigbiene (Apis mellifera) Sonnenbraut (Helenium)-20250829-RM-163011",
+    "license": "CC BY-SA 4.0"
+   }
+  ],
+  "hornbill": [
+   {
+    "ref": "photo:hornbill/01.jpg",
+    "w": 3840,
+    "h": 2560,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Indian Gray Hornbill,",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "photo:hornbill/02.jpg",
+    "w": 3456,
+    "h": 5184,
+    "orientation": "portrait",
+    "duration_s": null,
+    "shows": "Hornbill Ceiling - panoramio",
+    "license": "CC BY-SA 3.0"
+   },
+   {
+    "ref": "photo:hornbill/03.jpg",
+    "w": 3840,
+    "h": 2560,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Rufous-headed Hornbill",
+    "license": "CC BY-SA 4.0"
+   }
+  ],
+  "hummingbird": [
+   {
+    "ref": "photo:hummingbird/02.jpg",
+    "w": 3840,
+    "h": 2560,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "002 Lesser violetear displaying its ears to a Green-crowned brilliant in Los Quetzales Nat",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "photo:hummingbird/03.jpg",
+    "w": 3840,
+    "h": 2560,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Many-spotted hummingbird (Taphrospilus hypostictus) in flight Sumaco",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "photo:hummingbird/04.jpg",
+    "w": 3840,
+    "h": 2560,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Anna's hummingbird (Calypte anna) male in flight Campbell River",
+    "license": "CC BY-SA 4.0"
+   }
+  ],
+  "jellyfish": [
+   {
+    "ref": "photo:jellyfish/01.jpg",
+    "w": 1920,
+    "h": 1280,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Jellyfish on the beach in Bolinas, California",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "photo:jellyfish/02.jpg",
+    "w": 1920,
+    "h": 1280,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Flensburg 2015-08 img13 jellyfish in bay water",
+    "license": "CC BY-SA 3.0"
+   },
+   {
+    "ref": "photo:jellyfish/03.jpg",
+    "w": 1920,
+    "h": 1920,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Jellyfish from Corpus Christi",
+    "license": "CC0"
+   },
+   {
+    "ref": "photo:jellyfish/04.jpg",
+    "w": 1920,
+    "h": 1920,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Hydrozoa jellyfish (Aequorea sp) Bruny",
+    "license": "CC BY-SA 4.0"
+   }
+  ],
+  "king-cobra": [
+   {
+    "ref": "photo:king-cobra/02.jpg",
+    "w": 3840,
+    "h": 2563,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "King cobra killing reticulated python - Kaeng Krachan National Park (26060286866)",
+    "license": "CC BY-SA 2.0"
+   },
+   {
+    "ref": "photo:king-cobra/03.jpg",
+    "w": 1920,
+    "h": 2560,
+    "orientation": "portrait",
+    "duration_s": null,
+    "shows": "King cobra at Pulikurumba",
+    "license": "CC BY-SA 4.0"
+   }
+  ],
+  "kingfisher": [
+   {
+    "ref": "photo:kingfisher/01.jpg",
+    "w": 3840,
+    "h": 2560,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Kingfisher with catch",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "photo:kingfisher/02.jpg",
+    "w": 3840,
+    "h": 2560,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Brown-winged Kingfisher by Tisha Mukherjee 14",
+    "license": "CC BY-SA 4.0"
+   }
+  ],
+  "leopard": [
+   {
+    "ref": "photo:leopard/01.jpg",
+    "w": 3840,
+    "h": 2560,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "049 Leopard looking through the grass at Queen Elizabeth National Park Photo by Giles Laur",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "photo:leopard/02.jpg",
+    "w": 3840,
+    "h": 2560,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Leopard of Nepal",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "photo:leopard/04.jpg",
+    "w": 3840,
+    "h": 2560,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Serengeti National Park 07 - Leopard - Panthera pardus",
+    "license": "CC BY-SA 4.0"
+   }
+  ],
+  "lion": [
+   {
+    "ref": "photo:lion/01.jpg",
+    "w": 1920,
+    "h": 1281,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "002 The lion king Snyggve in the Serengeti National Park Photo by Giles Laurent",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "photo:lion/02.jpg",
+    "w": 1920,
+    "h": 1280,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Nijeberkoop The Netherlands Lion Diego at FELIDA Big Cat Sanctuary 1",
+    "license": "CC BY 4.0"
+   },
+   {
+    "ref": "photo:lion/04.jpg",
+    "w": 1920,
+    "h": 1281,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Family of lions during the mating season",
+    "license": "CC BY-SA 4.0"
+   }
+  ],
+  "macaque": [
+   {
+    "ref": "photo:macaque/01.jpg",
+    "w": 3840,
+    "h": 2560,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Macaque Grooming Session",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "photo:macaque/02.jpg",
+    "w": 3456,
+    "h": 5184,
+    "orientation": "portrait",
+    "duration_s": null,
+    "shows": "Crab-eating macaque (Macaca fascicularis), Baluran National Park",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "photo:macaque/04.jpg",
+    "w": 3840,
+    "h": 2556,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Macaque showing the middle finger",
+    "license": "CC BY-SA 4.0"
+   }
+  ],
+  "mantis-shrimp": [
+   {
+    "ref": "photo:mantis-shrimp/01.jpg",
+    "w": 3840,
+    "h": 3840,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Camarón mantis (Odontodactylus scyllarus), Anilao, Filipinas, 2023-08-24, DD 167",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "photo:mantis-shrimp/02.jpg",
+    "w": 3840,
+    "h": 3840,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Camarón mantis (Odontodactylus scyllarus), Anilao, Filipinas, 2023-08-24, DD 165",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "photo:mantis-shrimp/03.jpg",
+    "w": 3840,
+    "h": 2560,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Camarón mantis (Odontodactylus scyllarus), Zanzíbar, Tanzania, 2024-05-29, DD 42",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "photo:mantis-shrimp/04.jpg",
+    "w": 3153,
+    "h": 3153,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Camarón mantis (Odontodactylus scyllarus), Zanzíbar, Tanzania, 2024-06-01, DD 09",
+    "license": "CC BY-SA 4.0"
+   }
+  ],
+  "monitor-lizard": [
+   {
+    "ref": "photo:monitor-lizard/01.jpg",
+    "w": 1920,
+    "h": 1280,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Monitor Lizard Varanus by Vedant Kasambe 03",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "photo:monitor-lizard/02.jpg",
+    "w": 1920,
+    "h": 1280,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Monitor lizard at Keoladeo national park, Rajasthan, India",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "photo:monitor-lizard/03.jpg",
+    "w": 1920,
+    "h": 1245,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Monitor Lizard Varanus by Vedant Kasambe 02",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "photo:monitor-lizard/04.jpg",
+    "w": 1920,
+    "h": 1440,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "ഉടുമ്പ് (Monitor lizard) 02",
+    "license": "CC BY 4.0"
+   }
+  ],
+  "octopus": [
+   {
+    "ref": "photo:octopus/01.jpg",
+    "w": 3840,
+    "h": 5760,
+    "orientation": "portrait",
+    "duration_s": null,
+    "shows": "Pulpo azul (Octopus cyanea), Nosy Tanikely, Madagascar, 2025-09-20, DD 64",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "photo:octopus/02.jpg",
+    "w": 3840,
+    "h": 2560,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Pulpo azul (Octopus cyanea), Nosy Tanikely, Madagascar, 2025-09-19, DD 61",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "photo:octopus/03.jpg",
+    "w": 3840,
+    "h": 3840,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Pulpo azul (Octopus cyanea), Nosy Tanikely, Madagascar, 2025-09-19, DD 141",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "photo:octopus/04.jpg",
+    "w": 3840,
+    "h": 2560,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Pulpo azul (Octopus cyanea), Nosy Tanikely, Madagascar, 2025-09-19, DD 60",
+    "license": "CC BY-SA 4.0"
+   }
+  ],
+  "orca": [
+   {
+    "ref": "photo:orca/01.jpg",
+    "w": 3840,
+    "h": 2521,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Killer Whales Hunting a Seal",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "photo:orca/04.jpg",
+    "w": 3840,
+    "h": 2073,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Killer Whales Hunting a Crabeater Seal",
+    "license": "CC BY 4.0"
+   }
+  ],
+  "otter": [
+   {
+    "ref": "photo:otter/01.jpg",
+    "w": 3840,
+    "h": 2563,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Ridiculously Photogenic Otter (9123154590)",
+    "license": "CC BY-SA 2.0"
+   },
+   {
+    "ref": "photo:otter/04.jpg",
+    "w": 3840,
+    "h": 2560,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "River otter Toronto zoo - 36852940324",
+    "license": "CC BY 2.0"
+   }
+  ],
+  "pangolin": [
+   {
+    "ref": "photo:pangolin/01.jpg",
+    "w": 3840,
+    "h": 3090,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Tree pangolin (Phataginus tricuspis) Nyamebe Bepo 5",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "photo:pangolin/03.jpg",
+    "w": 2667,
+    "h": 4000,
+    "orientation": "portrait",
+    "duration_s": null,
+    "shows": "Tree pangolin (Phataginus tricuspis) Nyamebe Bepo",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "photo:pangolin/04.jpg",
+    "w": 2180,
+    "h": 3270,
+    "orientation": "portrait",
+    "duration_s": null,
+    "shows": "Tree pangolin (Phataginus tricuspis) Nyamebe Bepo 6",
+    "license": "CC BY-SA 4.0"
+   }
+  ],
+  "peafowl": [
+   {
+    "ref": "photo:peafowl/01.jpg",
+    "w": 3840,
+    "h": 5760,
+    "orientation": "portrait",
+    "duration_s": null,
+    "shows": "012 Indian peafowl in Keoladeo National Park Photo by Giles Laurent",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "photo:peafowl/02.jpg",
+    "w": 3840,
+    "h": 2560,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "023 Indian peafowl in Jim Corbett National Park Photo by Giles Laurent",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "photo:peafowl/03.jpg",
+    "w": 3840,
+    "h": 2764,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Pavo cristatus - peafowl - at Castelo - Lisbon",
+    "license": "CC BY-SA 4.0"
+   }
+  ],
+  "sea-turtle": [
+   {
+    "ref": "photo:sea-turtle/01.jpg",
+    "w": 1920,
+    "h": 1280,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Green sea turtle (Chelonia mydas) Moorea",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "photo:sea-turtle/02.jpg",
+    "w": 1920,
+    "h": 1280,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Sea Turtle in Apo Island",
+    "license": "CC BY 4.0"
+   },
+   {
+    "ref": "photo:sea-turtle/04.jpg",
+    "w": 1920,
+    "h": 1440,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Spotting a Sea Turtle",
+    "license": "CC BY 4.0"
+   }
+  ],
+  "sloth-bear": [
+   {
+    "ref": "photo:sloth-bear/01.jpg",
+    "w": 3840,
+    "h": 2560,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "077 Sloth bear in Ranthambore National Park Photo by Giles Laurent",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "photo:sloth-bear/02.jpg",
+    "w": 3840,
+    "h": 2560,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Sri Lankan sloth bear photographed in Wilpattu National Park",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "photo:sloth-bear/03.jpg",
+    "w": 3840,
+    "h": 2560,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Sloth Bear with Cubs at Bor tiger reserve, Maharashtra, India",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "photo:sloth-bear/04.jpg",
+    "w": 3840,
+    "h": 2560,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Sloth bear (3)",
+    "license": "CC BY-SA 4.0"
+   }
+  ],
+  "snow-leopard": [
+   {
+    "ref": "photo:snow-leopard/01.jpg",
+    "w": 3840,
+    "h": 3069,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Panthera uncia - Zoo Karlsruhe 03",
+    "license": "CC BY-SA 3.0"
+   },
+   {
+    "ref": "photo:snow-leopard/02.jpg",
+    "w": 3840,
+    "h": 2609,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Panthera uncia - Zoo Karlsruhe",
+    "license": "CC BY-SA 3.0"
+   },
+   {
+    "ref": "photo:snow-leopard/03.jpg",
+    "w": 2810,
+    "h": 3778,
+    "orientation": "portrait",
+    "duration_s": null,
+    "shows": "Panthera uncia - Zoo Karlsruhe 01",
+    "license": "CC BY-SA 3.0"
+   },
+   {
+    "ref": "photo:snow-leopard/04.jpg",
+    "w": 3605,
+    "h": 2942,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Panthera uncia - Zoo Karlsruhe 02",
+    "license": "CC BY-SA 3.0"
+   }
+  ],
+  "tiger": [
+   {
+    "ref": "photo:tiger/02.jpg",
+    "w": 3840,
+    "h": 2560,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Bengal tiger looking at the camera",
+    "license": "CC0"
+   },
+   {
+    "ref": "photo:tiger/03.jpg",
+    "w": 3840,
+    "h": 2560,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Tiger - Flickr - Mathias Appel",
+    "license": "CC0"
+   },
+   {
+    "ref": "photo:tiger/04.jpg",
+    "w": 3840,
+    "h": 2560,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "DSC4466 Bengal tiger",
+    "license": "CC BY-SA 4.0"
+   }
+  ],
+  "tree-frog": [
+   {
+    "ref": "photo:tree-frog/01.jpg",
+    "w": 3685,
+    "h": 2935,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "",
+    "license": ""
+   }
+  ],
+  "weaver-ant": [
+   {
+    "ref": "photo:weaver-ant/01.jpg",
+    "w": 1920,
+    "h": 2880,
+    "orientation": "portrait",
+    "duration_s": null,
+    "shows": "Weaver ant nest 6375",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "photo:weaver-ant/02.jpg",
+    "w": 1920,
+    "h": 2880,
+    "orientation": "portrait",
+    "duration_s": null,
+    "shows": "Weaver ant nest 6378",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "photo:weaver-ant/03.jpg",
+    "w": 1920,
+    "h": 1440,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Weaver ant",
+    "license": "CC BY-SA 3.0"
+   },
+   {
+    "ref": "photo:weaver-ant/04.jpg",
+    "w": 1920,
+    "h": 1440,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Green Weaver Ant (Oecophylla smaragdina) from Madayipara DSCN2193",
+    "license": "CC BY-SA 4.0"
+   }
+  ],
+  "wolf": [
+   {
+    "ref": "photo:wolf/01.jpg",
+    "w": 1920,
+    "h": 1275,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "The Wolf That Cried Boy (4377025204)",
+    "license": "CC BY-SA 2.0"
+   },
+   {
+    "ref": "photo:wolf/03.jpg",
+    "w": 1920,
+    "h": 1280,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Wolf Wildpark Hundshaupten",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "photo:wolf/04.jpg",
+    "w": 1920,
+    "h": 1272,
+    "orientation": "landscape",
+    "duration_s": null,
+    "shows": "Juraparc 06-07-2013 - Wolf resting in the sun",
+    "license": "CC BY-SA 3.0"
+   }
+  ]
+ },
+ "video": {
+  "ai-generated": [
+   {
+    "ref": "video:ai-generated/01.webm",
+    "w": 854,
+    "h": 480,
+    "orientation": "landscape",
+    "duration_s": 22.7,
+    "shows": "Veo 3 demo Owl and Badger",
+    "license": "Public domain"
+   }
+  ],
+  "ant": [
+   {
+    "ref": "video:ant/01.webm",
+    "w": 270,
+    "h": 480,
+    "orientation": "portrait",
+    "duration_s": 4.6,
+    "shows": "Ant nest in my swimming pool video",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "video:ant/02.webm",
+    "w": 854,
+    "h": 480,
+    "orientation": "landscape",
+    "duration_s": 30.6,
+    "shows": "Blackants-bredcrust-tokyo-may2015",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "video:ant/03.webm",
+    "w": 854,
+    "h": 480,
+    "orientation": "landscape",
+    "duration_s": 35.0,
+    "shows": "Ant trail on concrete kerb",
+    "license": "CC BY-SA 4.0"
+   }
+  ],
+  "butterfly": [
+   {
+    "ref": "video:butterfly/01.webm",
+    "w": 854,
+    "h": 480,
+    "orientation": "landscape",
+    "duration_s": 41.9,
+    "shows": "Papilio butterfly in Tokyo in April",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "video:butterfly/02.webm",
+    "w": 854,
+    "h": 480,
+    "orientation": "landscape",
+    "duration_s": 33.7,
+    "shows": "Yellow butterfly clip",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "video:butterfly/03.webm",
+    "w": 854,
+    "h": 480,
+    "orientation": "landscape",
+    "duration_s": 23.1,
+    "shows": "Butterfly-1026790, Dingle Peninsula, Co. Kerry, Ireland",
+    "license": "CC BY-SA 4.0"
+   }
+  ],
+  "chameleon": [
+   {
+    "ref": "video:chameleon/01.webm",
+    "w": 854,
+    "h": 480,
+    "orientation": "landscape",
+    "duration_s": 39.8,
+    "shows": "Chameleons' Eye Coordinatios - 01",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "video:chameleon/02.webm",
+    "w": 854,
+    "h": 480,
+    "orientation": "landscape",
+    "duration_s": 39.8,
+    "shows": "Chameleons' Eye Coordination 01",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "video:chameleon/03.webm",
+    "w": 854,
+    "h": 480,
+    "orientation": "landscape",
+    "duration_s": 32.0,
+    "shows": "Chameleon 02",
+    "license": "CC BY-SA 4.0"
+   }
+  ],
+  "crocodile": [
+   {
+    "ref": "video:crocodile/01.webm",
+    "w": 854,
+    "h": 480,
+    "orientation": "landscape",
+    "duration_s": 20.7,
+    "shows": "Nairobi National Park (August 2025) Nile crocodile",
+    "license": "CC BY-SA 4.0"
+   }
+  ],
+  "dragonfly": [
+   {
+    "ref": "video:dragonfly/01.webm",
+    "w": 854,
+    "h": 480,
+    "orientation": "landscape",
+    "duration_s": 31.3,
+    "shows": "042 European bee-eater trying to swallow an Emperor dragonfly in Pfyn-Finges Video by Gile",
+    "license": "CC BY-SA 4.0"
+   }
+  ],
+  "elephant": [
+   {
+    "ref": "video:elephant/01.webm",
+    "w": 854,
+    "h": 480,
+    "orientation": "landscape",
+    "duration_s": 31.0,
+    "shows": "Pinnawala-Elephant-Orphanage-03",
+    "license": "CC BY-SA 3.0"
+   },
+   {
+    "ref": "video:elephant/02.webm",
+    "w": 854,
+    "h": 480,
+    "orientation": "landscape",
+    "duration_s": 27.0,
+    "shows": "Pinnawala-Elephant-Orphanage-02",
+    "license": "CC BY-SA 3.0"
+   },
+   {
+    "ref": "video:elephant/03.webm",
+    "w": 854,
+    "h": 480,
+    "orientation": "landscape",
+    "duration_s": 36.1,
+    "shows": "Pinnawala-Elephant-Orphanage-05",
+    "license": "CC BY-SA 3.0"
+   }
+  ],
+  "flamingo": [
+   {
+    "ref": "video:flamingo/01.webm",
+    "w": 854,
+    "h": 480,
+    "orientation": "landscape",
+    "duration_s": 24.2,
+    "shows": "045 Greater flamingos courtship display in the Camargue during mating season (slow motion)",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "video:flamingo/02.webm",
+    "w": 854,
+    "h": 480,
+    "orientation": "landscape",
+    "duration_s": 16.1,
+    "shows": "043 Greater flamingo vocalizing in the Camargue during mating season (slow motion) Video b",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "video:flamingo/03.webm",
+    "w": 854,
+    "h": 480,
+    "orientation": "landscape",
+    "duration_s": 6.1,
+    "shows": "046 Greater flamingos courtship display in the Camargue during mating season (normal speed",
+    "license": "CC BY-SA 4.0"
+   }
+  ],
+  "forest-trail": [
+   {
+    "ref": "video:forest-trail/01.webm",
+    "w": 854,
+    "h": 480,
+    "orientation": "landscape",
+    "duration_s": 30.8,
+    "shows": "Crayfish on stream-bed stones, clear water (Wolf Creek Falls Trail, USA)",
+    "license": "Public domain"
+   },
+   {
+    "ref": "video:forest-trail/02.webm",
+    "w": 854,
+    "h": 480,
+    "orientation": "landscape",
+    "duration_s": 28.0,
+    "shows": "Crayfish on stream-bed stones, clear water (Wolf Creek Falls Trail, USA)",
+    "license": "Public domain"
+   },
+   {
+    "ref": "video:forest-trail/03.webm",
+    "w": 854,
+    "h": 480,
+    "orientation": "landscape",
+    "duration_s": 19.5,
+    "shows": "Forest stream and rocky creek bed from a trail (Wolf Creek Falls Trail, USA)",
+    "license": "Public domain"
+   }
+  ],
+  "frog": [
+   {
+    "ref": "video:frog/01.webm",
+    "w": 854,
+    "h": 480,
+    "orientation": "landscape",
+    "duration_s": 50.1,
+    "shows": "Frog croaking after rain",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "video:frog/02.webm",
+    "w": 854,
+    "h": 480,
+    "orientation": "landscape",
+    "duration_s": 30.1,
+    "shows": "2023-02-17 ZOO LJUBLJANA - frog 8",
+    "license": "CC BY 3.0"
+   },
+   {
+    "ref": "video:frog/03.webm",
+    "w": 854,
+    "h": 480,
+    "orientation": "landscape",
+    "duration_s": 30.7,
+    "shows": "Cuernos de Negros Nailig frog-croaking",
+    "license": "CC BY 4.0"
+   }
+  ],
+  "honey-bee": [
+   {
+    "ref": "video:honey-bee/01.webm",
+    "w": 854,
+    "h": 480,
+    "orientation": "landscape",
+    "duration_s": 28.4,
+    "shows": "20240728 honey bee hive wood parcel wm",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "video:honey-bee/02.webm",
+    "w": 854,
+    "h": 480,
+    "orientation": "landscape",
+    "duration_s": 76.0,
+    "shows": "Western honey bees (Apis mellifera)",
+    "license": "CC BY 2.0"
+   },
+   {
+    "ref": "video:honey-bee/03.webm",
+    "w": 854,
+    "h": 480,
+    "orientation": "landscape",
+    "duration_s": 28.0,
+    "shows": "Apis mellifera-pollinia",
+    "license": "CC BY 4.0"
+   }
+  ],
+  "hornbill": [
+   {
+    "ref": "video:hornbill/01.webm",
+    "w": 854,
+    "h": 480,
+    "orientation": "landscape",
+    "duration_s": 26.8,
+    "shows": "Oriental-pied hornbill, Anthracoceros albirostris - khao yai national park",
+    "license": "CC BY-SA 3.0"
+   },
+   {
+    "ref": "video:hornbill/02.webm",
+    "w": 854,
+    "h": 480,
+    "orientation": "landscape",
+    "duration_s": 16.3,
+    "shows": "Southern Yellow-billed Hornbill (Tockus leucomelas) male ...",
+    "license": "CC BY-SA 2.0"
+   },
+   {
+    "ref": "video:hornbill/03.webm",
+    "w": 854,
+    "h": 480,
+    "orientation": "landscape",
+    "duration_s": 15.7,
+    "shows": "Abyssinian ground hornbill",
+    "license": "CC BY-SA 4.0"
+   }
+  ],
+  "hummingbird": [
+   {
+    "ref": "video:hummingbird/01.webm",
+    "w": 854,
+    "h": 480,
+    "orientation": "landscape",
+    "duration_s": 32.0,
+    "shows": "20240707 hummingbird wm 1 hlg 04",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "video:hummingbird/02.webm",
+    "w": 854,
+    "h": 480,
+    "orientation": "landscape",
+    "duration_s": 24.5,
+    "shows": "20240707 hummingbird wm 1 hlg 03",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "video:hummingbird/03.webm",
+    "w": 854,
+    "h": 480,
+    "orientation": "landscape",
+    "duration_s": 11.5,
+    "shows": "20240707 hummingbird wm 1 hlg 06",
+    "license": "CC BY-SA 4.0"
+   }
+  ],
+  "kingfisher": [
+   {
+    "ref": "video:kingfisher/01.webm",
+    "w": 854,
+    "h": 480,
+    "orientation": "landscape",
+    "duration_s": 15.3,
+    "shows": "004 Pied kingfisher at Queen Elizabeth National Park Video by Giles Laurent",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "video:kingfisher/02.webm",
+    "w": 854,
+    "h": 480,
+    "orientation": "landscape",
+    "duration_s": 26.9,
+    "shows": "Kingfisher 2025 09 28 01",
+    "license": "CC BY 4.0"
+   },
+   {
+    "ref": "video:kingfisher/03.webm",
+    "w": 854,
+    "h": 480,
+    "orientation": "landscape",
+    "duration_s": 25.6,
+    "shows": "Common Kingfisher preening",
+    "license": "CC BY 3.0"
+   }
+  ],
+  "langur": [
+   {
+    "ref": "video:langur/01.webm",
+    "w": 854,
+    "h": 480,
+    "orientation": "landscape",
+    "duration_s": 63.8,
+    "shows": "Langurs Grooming in Community",
+    "license": "CC BY-SA 4.0"
+   }
+  ],
+  "leopard": [
+   {
+    "ref": "video:leopard/01.webm",
+    "w": 854,
+    "h": 480,
+    "orientation": "landscape",
+    "duration_s": 15.5,
+    "shows": "Leopard (Panthera pardus), in Uttarakhand, India",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "video:leopard/02.webm",
+    "w": 854,
+    "h": 480,
+    "orientation": "landscape",
+    "duration_s": 12.8,
+    "shows": "Day 40 - Leopard (Panthera pardus) male licking its fur, after killing a warthog ...",
+    "license": "CC BY-SA 2.0"
+   },
+   {
+    "ref": "video:leopard/03.webm",
+    "w": 854,
+    "h": 480,
+    "orientation": "landscape",
+    "duration_s": 11.4,
+    "shows": "Leopard (Panthera pardus) male ...",
+    "license": "CC BY-SA 2.0"
+   }
+  ],
+  "macaque": [
+   {
+    "ref": "video:macaque/01.webm",
+    "w": 854,
+    "h": 480,
+    "orientation": "landscape",
+    "duration_s": 5.3,
+    "shows": "Crab eating macaque walking",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "video:macaque/02.webm",
+    "w": 854,
+    "h": 480,
+    "orientation": "landscape",
+    "duration_s": 65.7,
+    "shows": "Japanese macaques (Macaca fuscata) in Tokyo",
+    "license": "CC BY-SA 4.0"
+   }
+  ],
+  "octopus": [
+   {
+    "ref": "video:octopus/01.webm",
+    "w": 854,
+    "h": 480,
+    "orientation": "landscape",
+    "duration_s": 29.3,
+    "shows": "Sealife-Munich-Octopus-2",
+    "license": "CC0"
+   },
+   {
+    "ref": "video:octopus/02.webm",
+    "w": 854,
+    "h": 480,
+    "orientation": "landscape",
+    "duration_s": 16.8,
+    "shows": "Sealife-Munich-Octopus",
+    "license": "CC0"
+   },
+   {
+    "ref": "video:octopus/03.webm",
+    "w": 854,
+    "h": 480,
+    "orientation": "landscape",
+    "duration_s": 45.1,
+    "shows": "Krake (Octopus vulgaris) im Roten Meer. Ägypten. Осьминог в Красном море DSCF1712",
+    "license": "CC BY-SA 4.0"
+   }
+  ],
+  "otter": [
+   {
+    "ref": "video:otter/03.webm",
+    "w": 854,
+    "h": 480,
+    "orientation": "landscape",
+    "duration_s": 27.4,
+    "shows": "Sea otter. Enhydra lutris video",
+    "license": "CC BY 2.0"
+   }
+  ],
+  "owl": [
+   {
+    "ref": "video:owl/01.webm",
+    "w": 854,
+    "h": 480,
+    "orientation": "landscape",
+    "duration_s": 25.1,
+    "shows": "20241205 blue jay mobbing barred owl defensive aggression",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "video:owl/03.webm",
+    "w": 854,
+    "h": 480,
+    "orientation": "landscape",
+    "duration_s": 20.5,
+    "shows": "20241022 great horned owl hockanum river lt wm",
+    "license": "CC BY-SA 4.0"
+   }
+  ],
+  "peafowl": [
+   {
+    "ref": "video:peafowl/01.webm",
+    "w": 854,
+    "h": 480,
+    "orientation": "landscape",
+    "duration_s": 31.1,
+    "shows": "Peacock dance, at Botanical Garden Hyderabad",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "video:peafowl/02.webm",
+    "w": 854,
+    "h": 480,
+    "orientation": "landscape",
+    "duration_s": 18.5,
+    "shows": "2024-06-01 LJUBLJANA ZOO LJUBLJANA - Pavo cristatus",
+    "license": "CC BY 3.0"
+   },
+   {
+    "ref": "video:peafowl/03.webm",
+    "w": 854,
+    "h": 480,
+    "orientation": "landscape",
+    "duration_s": 97.3,
+    "shows": "2024-06-01 LJUBLJANA ZOO LJUBLJANA - Pavo cristatus 2",
+    "license": "CC BY 3.0"
+   }
+  ],
+  "snake": [
+   {
+    "ref": "video:snake/01.webm",
+    "w": 854,
+    "h": 480,
+    "orientation": "landscape",
+    "duration_s": 25.1,
+    "shows": "Great Blue Heron Eating Snake 01",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "video:snake/02.webm",
+    "w": 854,
+    "h": 480,
+    "orientation": "landscape",
+    "duration_s": 16.6,
+    "shows": "Snake at Rowena Crest Viewpoint, 01",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "video:snake/03.webm",
+    "w": 854,
+    "h": 480,
+    "orientation": "landscape",
+    "duration_s": 10.7,
+    "shows": "16-Grass-Snake-nX-a60",
+    "license": "CC BY-SA 4.0"
+   }
+  ],
+  "spider": [
+   {
+    "ref": "video:spider/01.webm",
+    "w": 854,
+    "h": 480,
+    "orientation": "landscape",
+    "duration_s": 43.6,
+    "shows": "Ferrari F430 Spider driving as viewed from FPV drone",
+    "license": "CC BY 3.0"
+   },
+   {
+    "ref": "video:spider/02.webm",
+    "w": 854,
+    "h": 414,
+    "orientation": "landscape",
+    "duration_s": 51.0,
+    "shows": "Spider wasp drags Tarantula into hole",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "video:spider/03.webm",
+    "w": 270,
+    "h": 480,
+    "orientation": "portrait",
+    "duration_s": 21.3,
+    "shows": "Spider removing a leaf",
+    "license": "CC BY 4.0"
+   }
+  ],
+  "tiger": [
+   {
+    "ref": "video:tiger/01.webm",
+    "w": 854,
+    "h": 480,
+    "orientation": "landscape",
+    "duration_s": 23.2,
+    "shows": "Releasing a Siberian tiger in Russia",
+    "license": "CC BY 3.0"
+   },
+   {
+    "ref": "video:tiger/02.webm",
+    "w": 854,
+    "h": 480,
+    "orientation": "landscape",
+    "duration_s": 37.0,
+    "shows": "Tiger playing with a piece of wood in a pool",
+    "license": "CC BY-SA 4.0"
+   },
+   {
+    "ref": "video:tiger/03.webm",
+    "w": 854,
+    "h": 480,
+    "orientation": "landscape",
+    "duration_s": 12.6,
+    "shows": "2023-02-17 ZOO LJUBLJANA Panthera tigris altaica SIBIRSKI TIGER",
+    "license": "CC BY 3.0"
+   }
+  ]
+ }
+}

@@ -1,0 +1,67 @@
+{
+  "slug": "fan-edit-3",
+  "format_tag": "format:fan-edit",
+  "family": "repurposed",
+  "risk": "high",
+  "variant": 3,
+  "title": "Kingfisher edit (beat-synced)",
+  "storyboard": null,
+  "audio": "beat",
+  "scenes": [
+    {
+      "layout": "full",
+      "media": "video:kingfisher/02.webm@2",
+      "duration": 2.0,
+      "anchor": "center",
+      "headline": "KINGFISHERS"
+    },
+    {
+      "layout": "full",
+      "media": "photo:kingfisher/01.jpg",
+      "duration": 2.0,
+      "motion": "in"
+    },
+    {
+      "layout": "full",
+      "media": "video:kingfisher/01.webm@6",
+      "duration": 2.0
+    },
+    {
+      "layout": "full",
+      "media": "photo:kingfisher/02.jpg",
+      "duration": 2.0,
+      "motion": "pan-left"
+    },
+    {
+      "layout": "full",
+      "media": "video:kingfisher/03.webm@12",
+      "duration": 2.0
+    },
+    {
+      "layout": "full",
+      "media": "video:kingfisher/02.webm@14",
+      "duration": 2.0,
+      "motion": "out"
+    },
+    {
+      "layout": "card",
+      "duration": 2.5,
+      "bg": "moss",
+      "kicker": "PIED KINGFISHER",
+      "headline": "Swallows its fish in mid-flight",
+      "source": "Animal Diversity Web"
+    }
+  ],
+  "caption": "Blue, orange, black and white: a kingfisher edit.\n\nPied kingfishers are the largest birds able to hover for a sustained time, and unlike other kingfishers they swallow fish in flight.\n\nSource: Animal Diversity Web.  Photos/video: Wikimedia Commons (credits on screen).",
+  "hashtags": [
+    "#kingfisher",
+    "#birdedit",
+    "#piedkingfisher",
+    "#birdsofindia"
+  ],
+  "sources": [
+    "https://animaldiversity.org/accounts/Ceryle_rudis/",
+    "https://animaldiversity.org/accounts/Alcedo_atthis/"
+  ],
+  "notes": "Fan-edit demo: beat cuts across 3 CC videos + 2 photos, ending on one fact. Real format is high-risk with third-party footage (unoriginal/copyright); only OK with our own or CC-licensed media plus added context, as here."
+}
