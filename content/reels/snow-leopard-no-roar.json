@@ -3,7 +3,10 @@
   "scenes": [
     {
       "image": "snow-leopard/04.jpg",
-      "focus": [0.55, 0.4],
+      "focus": [
+        0.55,
+        0.4
+      ],
       "duration": 4.0,
       "zoom": "in",
       "kicker": "Myth-bust",
@@ -11,17 +14,26 @@
     },
     {
       "image": "snow-leopard/01.jpg",
-      "focus": [0.5, 0.45],
+      "focus": [
+        0.5,
+        0.45
+      ],
       "duration": 5.5,
       "zoom": "out",
-      "pan": [0.05, 0.0],
+      "pan": [
+        0.05,
+        0.0
+      ],
       "headline": "Lions and tigers have a special pad in the larynx.",
       "body": "Snow leopards don't. Their vocal folds can't produce the deep, rumbling roar of the other big cats.",
       "source": "Hast (1989) Journal of Anatomy"
     },
     {
       "image": "snow-leopard/03.jpg",
-      "focus": [0.5, 0.4],
+      "focus": [
+        0.5,
+        0.4
+      ],
       "duration": 5.0,
       "zoom": "in",
       "headline": "Instead, they chuff.",
@@ -30,17 +42,26 @@
     },
     {
       "image": "snow-leopard/02.jpg",
-      "focus": [0.5, 0.5],
+      "focus": [
+        0.5,
+        0.5
+      ],
       "duration": 5.0,
       "zoom": "out",
-      "pan": [-0.05, 0.0],
+      "pan": [
+        -0.05,
+        0.0
+      ],
       "headline": "Fewer than 10,000 adults remain.",
       "body": "Listed as Vulnerable. They live at 3,000–4,500 m across 12 countries, and most people will never see one.",
       "source": "IUCN Red List (2017)"
     },
     {
       "image": "snow-leopard/04.jpg",
-      "focus": [0.55, 0.4],
+      "focus": [
+        0.55,
+        0.4
+      ],
       "duration": 4.0,
       "zoom": "in",
       "kicker": "Follow for more",
@@ -49,6 +70,21 @@
     }
   ],
   "caption": "Snow leopards can't roar. Lions, tigers, jaguars and leopards have a pad of fibro-elastic tissue in the larynx that lets them rumble; the snow leopard doesn't, so it chuffs, growls and yowls instead.\n\nThe 'ghost of the mountains' lives at 3,000–4,500 m across 12 countries. Fewer than 10,000 mature adults remain (IUCN: Vulnerable).\n\nSources: Hast (1989) J. Anatomy; IUCN Red List 2017; Snow Leopard Trust. Photos: Wikimedia Commons, CC BY-SA 3.0 (captive animals, Zoo Karlsruhe) — credits on screen.",
-  "hashtags": ["#snowleopard", "#bigcats", "#wildlifefacts", "#conservation", "#himalaya"],
-  "sources": ["https://www.iucnredlist.org/species/22732/50664030", "https://snowleopard.org/snow-leopard-facts/", "https://pubmed.ncbi.nlm.nih.gov/2606786/"]
+  "hashtags": [
+    "#snowleopard",
+    "#bigcats",
+    "#wildlifefacts",
+    "#conservation",
+    "#himalaya"
+  ],
+  "sources": [
+    "https://www.iucnredlist.org/species/22732/50664030",
+    "https://snowleopard.org/snow-leopard-facts/",
+    "https://pubmed.ncbi.nlm.nih.gov/2606786/"
+  ],
+  "format_tags": [
+    "format:myth-bust",
+    "format:fact-over-footage",
+    "tactic:hook-text"
+  ]
 }

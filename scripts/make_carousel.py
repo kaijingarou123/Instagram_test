@@ -187,7 +187,7 @@ def render(spec_path):
     meta = {
         "slug": spec["slug"], "format": "carousel", "size": f"{W}x{H}", "slides": files,
         "alt_texts": spec.get("alt_texts", []), "caption_chars": len(caption),
-        "hashtags": spec.get("hashtags", []), "sources": spec.get("sources", []),
+        "hashtags": spec.get("hashtags", []), "format_tags": spec.get("format_tags", []), "sources": spec.get("sources", []),
         "photo_credits": [credit_line(c) for c in all_credits],
     }
     (out / "meta.json").write_text(json.dumps(meta, indent=2, ensure_ascii=False), encoding="utf-8")
