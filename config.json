@@ -3,7 +3,7 @@
   "ig_username": "claudes_plan101",
   "graph_host": "graph.instagram.com",
   "api_version": "v21.0",
-  "media_base_url": "https://raw.githubusercontent.com/kaijingarou123/Instagram_test/main",
+  "media_base_url": "https://kaijingarou123.github.io/Instagram_test",
   "account_start_date": "2026-10-15",
   "notes": "media_base_url must serve 200 + correct Content-Type with no redirect; publish.py re-checks every URL. Token lives in .env as IG_ACCESS_TOKEN, never here."
 }

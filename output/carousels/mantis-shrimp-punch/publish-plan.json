@@ -1,0 +1,113 @@
+{
+  "slug": "mantis-shrimp-punch",
+  "kind": "carousel",
+  "checks_passed": true,
+  "generated_at": "2026-10-15T11:44:04.793990+00:00",
+  "calls": [
+    {
+      "step": "quota",
+      "method": "GET",
+      "path": "/me/content_publishing_limit",
+      "params": {
+        "fields": "quota_usage,config"
+      }
+    },
+    {
+      "step": "child_1",
+      "method": "POST",
+      "path": "/me/media",
+      "params": {
+        "image_url": "https://kaijingarou123.github.io/Instagram_test/output/carousels/mantis-shrimp-punch/01.jpg",
+        "is_carousel_item": "true",
+        "alt_text": "Peacock mantis shrimp peering out of a coral burrow, with the headline 'This shrimp punches like a bullet'"
+      }
+    },
+    {
+      "step": "child_2",
+      "method": "POST",
+      "path": "/me/media",
+      "params": {
+        "image_url": "https://kaijingarou123.github.io/Instagram_test/output/carousels/mantis-shrimp-punch/02.jpg",
+        "is_carousel_item": "true",
+        "alt_text": "Close-up of a mantis shrimp's eyes and raptorial clubs with text about strike speed"
+      }
+    },
+    {
+      "step": "child_3",
+      "method": "POST",
+      "path": "/me/media",
+      "params": {
+        "image_url": "https://kaijingarou123.github.io/Instagram_test/output/carousels/mantis-shrimp-punch/03.jpg",
+        "is_carousel_item": "true",
+        "alt_text": "Mantis shrimp on a reef with the statistic 1,500 newtons of strike force"
+      }
+    },
+    {
+      "step": "child_4",
+      "method": "POST",
+      "path": "/me/media",
+      "params": {
+        "image_url": "https://kaijingarou123.github.io/Instagram_test/output/carousels/mantis-shrimp-punch/04.jpg",
+        "is_carousel_item": "true",
+        "alt_text": "Mantis shrimp in its burrow with text explaining cavitation bubbles"
+      }
+    },
+    {
+      "step": "child_5",
+      "method": "POST",
+      "path": "/me/media",
+      "params": {
+        "image_url": "https://kaijingarou123.github.io/Instagram_test/output/carousels/mantis-shrimp-punch/05.jpg",
+        "is_carousel_item": "true",
+        "alt_text": "Mantis shrimp showing its compound eyes with text about 12 colour receptors"
+      }
+    },
+    {
+      "step": "child_6",
+      "method": "POST",
+      "path": "/me/media",
+      "params": {
+        "image_url": "https://kaijingarou123.github.io/Instagram_test/output/carousels/mantis-shrimp-punch/06.jpg",
+        "is_carousel_item": "true",
+        "alt_text": "Mantis shrimp with text about seeing circularly polarised light"
+      }
+    },
+    {
+      "step": "child_7",
+      "method": "POST",
+      "path": "/me/media",
+      "params": {
+        "image_url": "https://kaijingarou123.github.io/Instagram_test/output/carousels/mantis-shrimp-punch/07.jpg",
+        "is_carousel_item": "true",
+        "alt_text": "Closing slide listing scientific sources and photo credits"
+      }
+    },
+    {
+      "step": "carousel",
+      "method": "POST",
+      "path": "/me/media",
+      "params": {
+        "media_type": "CAROUSEL",
+        "children": "<child container ids, comma-separated>",
+        "caption": "The peacock mantis shrimp (Odontodactylus scyllarus) is 10–18 cm long and can crack a crab shell — or an aquarium wall — with a strike that accelerates faster than a bullet.\n\nSwipe for 4 facts that sound invented but come straight from peer-reviewed research (sources on the last slide).\n\nWhich one surprised you most? 👇\n\nPhotos: Diego Delso, Wikimedia Commons, CC BY-SA 4.0 (links on last slide).\n\n#mantisshrimp #marinebiology #wildlifefacts #oceanlife #naturestudy"
+      }
+    },
+    {
+      "step": "poll",
+      "method": "GET",
+      "path": "/<container id>",
+      "params": {
+        "fields": "status_code,status"
+      },
+      "note": "once per 60 s, max 5 times; continue only on FINISHED"
+    },
+    {
+      "step": "publish",
+      "method": "POST",
+      "path": "/me/media_publish",
+      "params": {
+        "creation_id": "<container id>"
+      }
+    }
+  ]
+}

@@ -28,6 +28,9 @@ import urllib.request
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
+if hasattr(sys.stdout, "reconfigure"):          # Windows consoles default to cp1252
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "output"
 LOG_DIR = ROOT / "log"

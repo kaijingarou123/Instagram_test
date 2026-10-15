@@ -1,0 +1,45 @@
+{
+  "slug": "orca-hunt",
+  "kind": "reel",
+  "checks_passed": false,
+  "generated_at": "2026-10-15T11:44:06.881746+00:00",
+  "calls": [
+    {
+      "step": "quota",
+      "method": "GET",
+      "path": "/me/content_publishing_limit",
+      "params": {
+        "fields": "quota_usage,config"
+      }
+    },
+    {
+      "step": "reel",
+      "method": "POST",
+      "path": "/me/media",
+      "params": {
+        "media_type": "REELS",
+        "video_url": "https://kaijingarou123.github.io/Instagram_test/output/reels/orca-hunt.mp4",
+        "cover_url": "https://kaijingarou123.github.io/Instagram_test/output/reels/orca-hunt-cover.jpg",
+        "share_to_feed": "true",
+        "caption": "Orcas in the Antarctic Peninsula have a hunting technique that looks like teamwork from a movie: they line up, charge an ice floe and dive at the last second, creating a wave that washes seals off the ice.\n\nIt's culture, not instinct — only some pods do it, and young orcas take years to learn.\n\nSource: Pitman & Durban (2012), Marine Mammal Science. Photos: Callan Carpenter via Wikimedia Commons, CC BY-SA 4.0 / CC BY 4.0.\n\n#orca #killerwhale #antarctica #wildlifefacts #marinebiology"
+      }
+    },
+    {
+      "step": "poll",
+      "method": "GET",
+      "path": "/<container id>",
+      "params": {
+        "fields": "status_code,status"
+      },
+      "note": "once per 60 s, max 5 times; continue only on FINISHED"
+    },
+    {
+      "step": "publish",
+      "method": "POST",
+      "path": "/me/media_publish",
+      "params": {
+        "creation_id": "<container id>"
+      }
+    }
+  ]
+}

@@ -36,14 +36,27 @@ python scripts/make_reel.py content/reels/<slug>.json              # render reel
 python scripts/preflight.py                                        # check everything
 ```
 
-## Not yet done (needed before the first API post)
+## Publishing
 
-1. **Hosting** — the API fetches media from a public URL. Candidates: a public GitHub repo
-   (raw.githubusercontent.com — must verify 200 + image/jpeg + no redirect), or S3/R2.
-2. **Account check — done.** @claudes_plan101 is a public **Business** account (confirmed
-   2026-10-15). Composio's `account_type: PRIVATE` refers to the Composio connection's
-   visibility, not Instagram. API publishing is permitted for this account type.
-3. **Manual warm-up** — first 2 posts manually in the app (days 1–3), API from week 2.
-4. **Posting + logging script** — `content_publishing_limit` check → container → poll →
-   publish → log, with the hard-stop codes from `CHECKLIST.md`.
-5. **Insights loop** — pull media insights at +24 h / +7 d and score against the rubric.
+```bash
+python scripts/publish.py status                 # account phase, allowance, HALT state, recent posts
+python scripts/publish.py plan <slug>            # preflight + URL + cadence checks, prints the API calls; no Meta calls
+python scripts/publish.py publish <slug> --yes   # real publish (needs IG_ACCESS_TOKEN in .env)
+python scripts/insights.py [<slug>]              # reach/saves/shares per post -> log/insights.jsonl
+```
+
+- **Hosting — done.** Media is served by GitHub Pages from this repo:
+  `https://kaijingarou123.github.io/Instagram_test/output/...` — verified 2026-10-15 to return
+  200, no redirect, `image/jpeg` / `video/mp4`. (raw.githubusercontent.com serves MP4 as
+  `application/octet-stream`; jsDelivr failed to fetch the MP4 — both rejected.)
+- **Account — done.** @claudes_plan101 is a public **Business** account (confirmed 2026-10-15).
+  Composio's `account_type: PRIVATE` refers to the Composio connection's visibility, not Instagram.
+- **Safety** — `publish.py` enforces the envelope from `CHECKLIST.md` §A (phase limits by
+  account age, min gap, Reels allowance, hashtag rotation, live quota, hard-stop codes →
+  `log/HALT`). The first 1–2 posts should still be made by hand in the app (days 1–3).
+- **Token** — publishing directly needs a long-lived Instagram user token in `.env`; the
+  Composio connection can be used instead by executing the call sequence that `plan` prints.
+
+## Status
+
+Nothing has been posted. Six example posts are rendered and pass preflight.
