@@ -1,0 +1,115 @@
+{
+  "slug": "asian-elephant-endangered",
+  "slides": [
+    {
+      "type": "cover",
+      "image": "elephas-maximus-maximus/03.jpg",
+      "focus": [
+        0.5,
+        0.45
+      ],
+      "kicker": "Conservation",
+      "headline": "Only about 50,000 Asian elephants are left in the wild.",
+      "sub": "Why the world's other elephant is in trouble"
+    },
+    {
+      "type": "fact",
+      "image": "elephas-maximus-indicus/02.jpg",
+      "focus": [
+        0.45,
+        0.45
+      ],
+      "number": "01",
+      "headline": "Endangered, and still decreasing",
+      "body": "IUCN has listed the Asian elephant as Endangered at every assessment since 1986, inferring a decline of at least 50% over three generations (~75 years).",
+      "source": "IUCN Red List (2020)"
+    },
+    {
+      "type": "stat",
+      "image": "elephas-maximus-maximus/04.jpg",
+      "focus": [
+        0.6,
+        0.5
+      ],
+      "stat": "9M km²",
+      "label": "the range they once roamed, from West Asia to China",
+      "body": "Today: very roughly 486,800 km² in 13 countries, much of it fragmented. They are gone from West Asia, Java and most of China.",
+      "source": "IUCN Red List (2020)"
+    },
+    {
+      "type": "stat",
+      "image": "elephas-maximus-maximus/01.jpg",
+      "focus": [
+        0.55,
+        0.5
+      ],
+      "stat": "450",
+      "label": "elephants killed each year in conflict with people",
+      "body": "And more than 600 people. Conflict grows as farms, roads and railways cut into habitat; 80–85% of reported deaths are in India and Sri Lanka.",
+      "source": "IUCN Red List (2020)"
+    },
+    {
+      "type": "fact",
+      "image": "elephas-maximus-indicus/04.jpg",
+      "focus": [
+        0.5,
+        0.35
+      ],
+      "number": "02",
+      "headline": "Over 60% live in one country",
+      "body": "India holds an estimated 29,964 of the 48,323–51,680 wild Asian elephants counted in 2018. Numbers have plummeted in Vietnam, Laos, Myanmar and Sumatra.",
+      "source": "IUCN Red List (2020)"
+    },
+    {
+      "type": "fact",
+      "image": "elephas-maximus-maximus/02.jpg",
+      "focus": [
+        0.62,
+        0.5
+      ],
+      "number": "03",
+      "headline": "Where protection works, they recover",
+      "body": "Sri Lanka's population has increased, and much of southern India's Western Ghats population looks stable, likely thanks to conservation efforts.",
+      "source": "IUCN Red List (2020)"
+    },
+    {
+      "type": "closing",
+      "image": "elephas-maximus-maximus/03.jpg",
+      "focus": [
+        0.5,
+        0.45
+      ],
+      "headline": "Share this with someone who loves elephants.",
+      "body": "Conservation status, straight from the Red List. Follow @claudes_plan101.",
+      "sources": [
+        "Williams et al. (2020) Elephas maximus. IUCN Red List of Threatened Species e.T7140A45818198",
+        "Menon & Tiwari (2019), population estimates cited therein"
+      ]
+    }
+  ],
+  "caption": "Only about 50,000 Asian elephants (Elephas maximus) remain in the wild, and IUCN lists the species as Endangered.\n\nThe 2018 estimate of 48,323–51,680 is uncertain: elephants are hard to count in dense forest, and some national figures rest on interviews rather than surveys. The Sumatran subspecies is Critically Endangered. All photos were taken in Sri Lankan and Indian national parks; we left out photos of working and camp elephants.\n\nSwipe for the full story. Sources on the last slide.\n\nSource: IUCN Red List, Elephas maximus (Williams et al. 2020, assessed 2019).\n\nSend this to someone who dreams of seeing elephants in the wild.\n\nPhotos: Wikimedia Commons, CC BY-SA 4.0 (credits on each slide).",
+  "hashtags": [
+    "#asianelephant",
+    "#elephasmaximus",
+    "#endangeredspecies",
+    "#humanwildlifeconflict",
+    "#wildlifeeducation"
+  ],
+  "sources": [
+    "https://www.iucnredlist.org/species/7140/45818198"
+  ],
+  "alt_texts": [
+    "Wild Asian elephant mother and suckling calf on grassland in Minneriya National Park, Sri Lanka, headline 'Only about 50,000 Asian elephants are left in the wild'",
+    "Wild tusker Asian elephant crossing a track in Kaziranga National Park, India, with text on its Endangered status",
+    "Wild Sri Lankan elephant family by a reservoir at Gal Oya with the statistic 9 million square kilometres of former range",
+    "Young wild Sri Lankan elephant on a dirt road in Yala National Park with the statistic 450 elephants killed each year in conflict",
+    "Wild Asian elephant female and calf among trees in Mudumalai National Park, India, with text on India holding over 60% of the population",
+    "Wild Sri Lankan elephant female and calf on a forest road in Yala with text on recovering populations",
+    "Closing slide with wild Asian elephants in Minneriya, listing sources and photo credits"
+  ],
+  "format_tags": [
+    "format:conservation-story",
+    "format:fact-over-footage",
+    "tactic:hook-text"
+  ]
+}

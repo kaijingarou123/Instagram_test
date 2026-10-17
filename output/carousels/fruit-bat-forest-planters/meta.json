@@ -1,0 +1,50 @@
+{
+  "slug": "fruit-bat-forest-planters",
+  "format": "carousel",
+  "size": "1080x1350",
+  "slides": [
+    "01.jpg",
+    "02.jpg",
+    "03.jpg",
+    "04.jpg",
+    "05.jpg",
+    "06.jpg",
+    "07.jpg"
+  ],
+  "alt_texts": [
+    "Grey-headed flying fox skimming a pond in a spray of water, headline 'This bat flies up to 2,500 km a year'",
+    "Grey-headed flying fox hanging with one wing spread, with text about its diet of eucalyptus nectar and rainforest fruit",
+    "Grey-headed flying fox in flight against trees, with the statistic 50 km foraging distance in one night",
+    "Grey-headed flying fox skimming a pond with wings raised, with the statistic 12,337 km flown by one tagged bat",
+    "Grey-headed flying fox yawning in a roost tree, with text about island flying foxes pollinating durian in Malaysia",
+    "Grey-headed flying fox in flight past sunlit trees, with text on its Vulnerable IUCN status and heat-wave deaths",
+    "Closing slide listing scientific sources and photo credits over a grey-headed flying fox hanging in a eucalyptus"
+  ],
+  "caption_chars": 800,
+  "hashtags": [
+    "#flyingfox",
+    "#fruitbats",
+    "#pollinators",
+    "#seeddispersal",
+    "#wildlifefacts"
+  ],
+  "format_tags": [
+    "format:fact-over-footage",
+    "format:explainer",
+    "tactic:hook-text"
+  ],
+  "sources": [
+    "https://www.iucnredlist.org/species/18751/22085511",
+    "https://doi.org/10.1186/s12915-020-00829-w",
+    "https://doi.org/10.1002/ece3.3213"
+  ],
+  "photo_credits": [
+    "Photo: Andrew Mercer · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Mike's Birds from Riverside, CA, US · Wikimedia Commons · CC BY-SA 2.0",
+    "Photo: Andrew Mercer · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Andrew Mercer · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Mike's Birds from Riverside, CA, US · Wikimedia Commons · CC BY-SA 2.0",
+    "Photo: Andrew Mercer · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Andrew Mercer · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

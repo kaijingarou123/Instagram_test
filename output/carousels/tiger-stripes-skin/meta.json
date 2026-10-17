@@ -1,0 +1,52 @@
+{
+  "slug": "tiger-stripes-skin",
+  "format": "carousel",
+  "size": "1080x1350",
+  "slides": [
+    "01.jpg",
+    "02.jpg",
+    "03.jpg",
+    "04.jpg",
+    "05.jpg",
+    "06.jpg",
+    "07.jpg"
+  ],
+  "alt_texts": [
+    "Close-up of a wild Bengal tiger resting among bushes in Ranthambore, headline 'Shave a tiger and it's still striped'",
+    "Wild Bengal tiger in Ranthambore standing over its prey, side-on to show its stripe pattern, with text explaining the stripes are on the skin too",
+    "Wild tiger walking on a riverbank sandbar with text explaining no two tigers have the same stripes",
+    "Wild tiger walking toward the camera through forest in Ranthambore with text on camera-trap identification",
+    "Tiger lying in a forest pool with the statistic of about 3,140 mature tigers left in the wild",
+    "The same wild Bengal tiger beside its prey in dry forest, with text on its Endangered IUCN status and decreasing trend",
+    "Closing slide over a tiger portrait listing scientific sources and photo credits"
+  ],
+  "caption_chars": 763,
+  "hashtags": [
+    "#tiger",
+    "#bengaltiger",
+    "#cameratrap",
+    "#bigcats",
+    "#wildlifefacts"
+  ],
+  "format_tags": [
+    "format:fact-over-footage",
+    "format:conservation-story",
+    "tactic:hook-text"
+  ],
+  "sources": [
+    "https://www.iucnredlist.org/species/15955/214862019",
+    "https://www.usgs.gov/publications/estimation-tiger-densities-india-using-photographic-captures-and-recaptures",
+    "https://theconversation.com/why-do-tigers-have-stripes-145223",
+    "https://nationalzoo.si.edu/animals/tiger",
+    "https://animaldiversity.org/accounts/Panthera_tigris/"
+  ],
+  "photo_credits": [
+    "Photo: Kkbehindlens · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Rhaessner · Wikimedia Commons · CC BY-SA 3.0",
+    "Photo: Gurung pratap · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: TheLastCur8r · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: A G 91 leo · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Rhaessner · Wikimedia Commons · CC BY-SA 3.0",
+    "Photo: Kkbehindlens · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

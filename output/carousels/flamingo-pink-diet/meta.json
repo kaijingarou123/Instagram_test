@@ -1,0 +1,50 @@
+{
+  "slug": "flamingo-pink-diet",
+  "format": "carousel",
+  "size": "1080x1350",
+  "slides": [
+    "01.jpg",
+    "02.jpg",
+    "03.jpg",
+    "04.jpg",
+    "05.jpg",
+    "06.jpg",
+    "07.jpg"
+  ],
+  "alt_texts": [
+    "Captive juvenile flamingo with brownish-grey feathers in front of pink adults, headline 'Flamingos aren't born pink'",
+    "Captive flamingo chick covered in white-grey down standing on a mud nest, with text about chicks hatching grey",
+    "Two wild greater flamingos with bright pink faces touching bills in a heart shape in the Camargue, France, with text explaining carotenoid pigments from algae and brine shrimp",
+    "Wild greater flamingo wading through blue water in Walvis Bay, Namibia, with text on how flamingos filter-feed upside down",
+    "A wild flock of greater flamingos wading in the Camargue, with the statistic 6 flamingo species",
+    "Captive adult flamingo feeding a grey-and-white juvenile beak to beak, with text about crop milk",
+    "Wild American flamingos wading in a lagoon at Celestún, Mexico, closing slide listing sources and photo credits"
+  ],
+  "caption_chars": 737,
+  "hashtags": [
+    "#flamingo",
+    "#birdfacts",
+    "#ornithology",
+    "#mythbusting",
+    "#wildlifefacts"
+  ],
+  "format_tags": [
+    "format:myth-bust",
+    "format:fact-over-footage",
+    "tactic:hook-text"
+  ],
+  "sources": [
+    "https://nationalzoo.si.edu/animals/news/why-are-flamingos-pink-and-other-flamingo-facts",
+    "https://nationalzoo.si.edu/animals/american-flamingo",
+    "https://www.britannica.com/story/why-are-flamingos-pink"
+  ],
+  "photo_credits": [
+    "Photo: Eric Kilby from Somerville, MA, USA · Wikimedia Commons · CC BY-SA 2.0",
+    "Photo: Eric Kilby from Somerville, MA, USA · Wikimedia Commons · CC BY-SA 2.0",
+    "Photo: Giles Laurent · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Diego Delso · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Giles Laurent · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Eric Kilby from Somerville, MA, USA · Wikimedia Commons · CC BY-SA 2.0",
+    "Photo: TSolange · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

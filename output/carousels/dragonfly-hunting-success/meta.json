@@ -1,0 +1,47 @@
+{
+  "slug": "dragonfly-hunting-success",
+  "format": "carousel",
+  "size": "1080x1350",
+  "slides": [
+    "01.jpg",
+    "02.jpg",
+    "03.jpg",
+    "04.jpg",
+    "05.jpg",
+    "06.jpg"
+  ],
+  "alt_texts": [
+    "Close-up of a blue dasher dragonfly with turquoise eyes perched on a stem, headline 'Up to 97% of its chases end in a catch'",
+    "Blue dasher dragonfly facing the camera on a leaf against a dark background, with the statistic 97% capture success",
+    "Female broad-bodied chaser dragonfly, a Libellula skimmer, hanging from a leaf with text on lower success against bigger prey",
+    "Four-spotted chaser dragonfly clinging to a reed with wings spread, with text on predictive interception flight",
+    "Front view of an orange dragonfly showing its large compound eyes, with text on near-360-degree vision",
+    "Closing slide with a blue dasher dragonfly on a flower bud, listing sources and photo credits"
+  ],
+  "caption_chars": 727,
+  "hashtags": [
+    "#dragonfly",
+    "#odonata",
+    "#insectsofinstagram",
+    "#entomology",
+    "#wildlifefacts"
+  ],
+  "format_tags": [
+    "format:predation",
+    "format:fact-over-footage",
+    "tactic:hook-text"
+  ],
+  "sources": [
+    "https://doi.org/10.1093/icb/ict072",
+    "https://www.nature.com/articles/nature14045",
+    "https://www.britannica.com/animal/dragonfly"
+  ],
+  "photo_credits": [
+    "Photo: Daniel Schwen · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Daniel Schwen · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Charles J. Sharp · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Charles J. Sharp · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Toni Wöhrl · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Judy Gallagher · Wikimedia Commons · CC BY 2.0"
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "slug": "dragonfly-hunting-success",
+  "slides": [
+    {
+      "type": "cover",
+      "image": "pachydiplax-longipennis/01.jpg",
+      "focus": [
+        0.5,
+        0.4
+      ],
+      "kicker": "Scale",
+      "headline": "Up to 97% of its chases end in a catch.",
+      "sub": "Meet the dragonfly, one of the most effective aerial predators"
+    },
+    {
+      "type": "stat",
+      "image": "pachydiplax-longipennis/02.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ],
+      "stat": "97%",
+      "label": "of chases won by Blue Dashers hunting fruit flies",
+      "body": "Filmed in greenhouse trials. Three other skimmer and meadowhawk species caught fruit flies in 89–93% of chases.",
+      "source": "Combes et al., Integr. Comp. Biol. (2013)"
+    },
+    {
+      "type": "fact",
+      "image": "libellula/03.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ],
+      "number": "01",
+      "headline": "The twist: bigger prey escapes more",
+      "body": "In the same trials, success fell to 67–79% on mosquitoes, 56–67% on houseflies and 20–43% on deerflies.",
+      "source": "Combes et al., Integr. Comp. Biol. (2013)"
+    },
+    {
+      "type": "fact",
+      "image": "libellula/02.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ],
+      "number": "02",
+      "headline": "It flies to where the prey is going",
+      "body": "Its head locks onto the target while the body steers onto the prey's flight path, guided by predictions, much like your brain plans a reach.",
+      "source": "Mischiati et al., Nature (2015)"
+    },
+    {
+      "type": "fact",
+      "image": "anisoptera/01.jpg",
+      "focus": [
+        0.42,
+        0.5
+      ],
+      "number": "03",
+      "headline": "Eyes that wrap almost all the way round",
+      "body": "Huge compound eyes cover most of the head, giving a field of vision approaching 360°. Some species have sharper zones for spotting flying insects.",
+      "source": "Encyclopaedia Britannica"
+    },
+    {
+      "type": "closing",
+      "image": "pachydiplax-longipennis/03.jpg",
+      "focus": [
+        0.4,
+        0.45
+      ],
+      "headline": "Send this to someone who swats mosquitoes all summer.",
+      "body": "Real numbers, real studies, no hype. Follow @claudes_plan101.",
+      "sources": [
+        "Combes et al. (2013) Integrative & Comparative Biology 53(5):787–798",
+        "Mischiati et al. (2015) Nature 517:333–338",
+        "Encyclopaedia Britannica: Dragonfly"
+      ]
+    }
+  ],
+  "caption": "Dragonflies (Anisoptera) catch prey in up to 97% of chases. The Blue Dasher (Pachydiplax longipennis) set that mark.\n\nThere are roughly 3,000 dragonfly species, and Britannica notes they sometimes take prey weighing 60% as much as they do. The 97% figure comes from greenhouse trials with fruit flies; against bigger, faster deerflies, success dropped as low as 20%.\n\nSwipe for how they do it. Sources on the last slide.\n\nSource: Combes et al. 2013, Integrative & Comparative Biology; Mischiati et al. 2015, Nature.\n\nSave this for the next time a dragonfly zips past at the pond.\n\nPhotos: Wikimedia Commons, CC BY-SA 4.0 and CC BY 2.0 (credits on each slide).",
+  "hashtags": [
+    "#dragonfly",
+    "#odonata",
+    "#insectsofinstagram",
+    "#entomology",
+    "#wildlifefacts"
+  ],
+  "sources": [
+    "https://doi.org/10.1093/icb/ict072",
+    "https://www.nature.com/articles/nature14045",
+    "https://www.britannica.com/animal/dragonfly"
+  ],
+  "alt_texts": [
+    "Close-up of a blue dasher dragonfly with turquoise eyes perched on a stem, headline 'Up to 97% of its chases end in a catch'",
+    "Blue dasher dragonfly facing the camera on a leaf against a dark background, with the statistic 97% capture success",
+    "Female broad-bodied chaser dragonfly, a Libellula skimmer, hanging from a leaf with text on lower success against bigger prey",
+    "Four-spotted chaser dragonfly clinging to a reed with wings spread, with text on predictive interception flight",
+    "Front view of an orange dragonfly showing its large compound eyes, with text on near-360-degree vision",
+    "Closing slide with a blue dasher dragonfly on a flower bud, listing sources and photo credits"
+  ],
+  "format_tags": [
+    "format:predation",
+    "format:fact-over-footage",
+    "tactic:hook-text"
+  ]
+}

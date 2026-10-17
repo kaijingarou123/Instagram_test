@@ -1,0 +1,104 @@
+{
+  "slug": "wolf-alpha-myth",
+  "slides": [
+    {
+      "type": "cover",
+      "image": "yellowstone-wolves/03.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ],
+      "kicker": "Myth-bust",
+      "headline": "The 'alpha wolf' was a captivity mistake.",
+      "sub": "Wild packs are families — even the biologist who spread the idea says so"
+    },
+    {
+      "type": "fact",
+      "image": "wolf/03.jpg",
+      "focus": [
+        0.68,
+        0.4
+      ],
+      "number": "01",
+      "headline": "It began with strangers in a pen",
+      "body": "Early studies watched unrelated captive wolves thrown together. Those unacquainted adults sorted themselves into alpha, beta and omega ranks. (Pictured: a captive wolf.)",
+      "source": "Mech, Canadian Journal of Zoology (1999)"
+    },
+    {
+      "type": "fact",
+      "image": "wolf-pups/02.jpg",
+      "focus": [
+        0.42,
+        0.45
+      ],
+      "number": "02",
+      "headline": "A wild pack is a family",
+      "body": "Usually a breeding pair and their offspring from the previous 1–3 years. Unrelated wolves are sometimes adopted, but they are the exception.",
+      "source": "Mech, Canadian Journal of Zoology (1999)"
+    },
+    {
+      "type": "stat",
+      "image": "yellowstone-wolves/03.jpg",
+      "focus": [
+        0.3,
+        0.5
+      ],
+      "stat": "0",
+      "label": "dominance contests Mech saw in 13 summers with a wild pack",
+      "body": "Watching the same wolf family on Ellesmere Island, Canada, he saw none. The so-called alphas were simply the parents.",
+      "source": "Mech, Canadian Journal of Zoology (1999)"
+    },
+    {
+      "type": "fact",
+      "image": "yellowstone-wolf/01.jpg",
+      "focus": [
+        0.4,
+        0.45
+      ],
+      "number": "03",
+      "headline": "The kids leave home",
+      "body": "Young wolves disperse as early as 9 months; most leave at 1–2 years to find a mate and start their own pack. Few stay past 3.",
+      "source": "Mech, Canadian Journal of Zoology (1999)"
+    },
+    {
+      "type": "closing",
+      "image": "wolf/04.jpg",
+      "focus": [
+        0.62,
+        0.55
+      ],
+      "headline": "Time to retire the 'alpha'.",
+      "body": "Mech's suggested swap: 'breeding male' and 'breeding female' — or simply mother and father.",
+      "sources": [
+        "Mech, L.D. (1999) Alpha status, dominance, and division of labor in wolf packs. Can. J. Zool. 77:1196–1203",
+        "Mech, L.D. — davemech.org, wolf news and information"
+      ]
+    }
+  ],
+  "caption": "The 'alpha wolf' was a product of captivity: wild gray wolf (Canis lupus) packs are families led by their parents.\n\nThe dominance-ladder picture came from studies of unrelated wolves housed together. Wolf biologist L. David Mech compared applying those results to wild packs with studying human family life in a refugee camp. In the wild pack he followed, the mother mostly led pup care and defence, and the father mostly led hunting and travel.\n\nSwipe for what 13 summers with a wild pack showed. Sources on the last slide.\n\nSource: Mech (1999), Canadian Journal of Zoology 77:1196–1203.\n\nSave this for the next time someone brings up 'alpha' behaviour.\n\nPhotos: Wikimedia Commons, public domain, CC BY-SA 3.0 and CC BY-SA 4.0 (credits on each slide). Slides 2 and 6 show captive wolves.",
+  "hashtags": [
+    "#graywolf",
+    "#wolfpack",
+    "#animalbehavior",
+    "#yellowstonewolves",
+    "#wildlifefacts"
+  ],
+  "sources": [
+    "https://www.wolf.org/wp-content/uploads/2013/09/267alphastatus_english.pdf",
+    "https://pubs.usgs.gov/publication/1001725",
+    "https://davemech.org/wolf-news-and-information/"
+  ],
+  "alt_texts": [
+    "Aerial view of the wild Gibbon wolf pack, gray wolves standing on snow in Yellowstone, headline 'The alpha wolf was a captivity mistake'",
+    "Captive gray wolf in a wildlife park forest enclosure, with text on early studies of unrelated captive wolves",
+    "Wild gray wolf pups of Yellowstone's 8-Mile Pack sitting on a rock, with text explaining a wild pack is a family",
+    "Wild gray wolves of Yellowstone's Gibbon pack on snow, with the statistic 0 dominance contests seen in 13 summers",
+    "A gray wolf running through deep snow in Yellowstone, with text about young wolves dispersing to start their own packs",
+    "Captive gray wolf resting in the sun, closing slide suggesting the terms breeding male and breeding female, with sources and photo credits"
+  ],
+  "format_tags": [
+    "format:myth-bust",
+    "format:fact-over-footage",
+    "tactic:hook-text"
+  ]
+}

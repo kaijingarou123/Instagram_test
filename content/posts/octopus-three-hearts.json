@@ -1,0 +1,120 @@
+{
+  "slug": "octopus-three-hearts",
+  "slides": [
+    {
+      "type": "cover",
+      "image": "octopus/01.jpg",
+      "focus": [
+        0.5,
+        0.35
+      ],
+      "kicker": "Species spotlight",
+      "headline": "Three hearts and blue blood.",
+      "sub": "And two-thirds of its neurons live in its arms. Meet Octopus cyanea"
+    },
+    {
+      "type": "fact",
+      "image": "octopus/02.jpg",
+      "focus": [
+        0.55,
+        0.4
+      ],
+      "number": "01",
+      "headline": "Two of its hearts work only for the gills",
+      "body": "Two branchial hearts push blood through the gills to pick up oxygen. The third, the systemic heart, sends it on to the organs and muscles.",
+      "source": "Britannica"
+    },
+    {
+      "type": "fact",
+      "image": "octopus/03.jpg",
+      "focus": [
+        0.5,
+        0.4
+      ],
+      "number": "02",
+      "headline": "Its main heart stops when it swims",
+      "body": "Jetting through open water halts the systemic heart. That is why octopuses usually crawl instead: swimming exhausts them.",
+      "source": "Animal Diversity Web; Smithsonian Magazine"
+    },
+    {
+      "type": "fact",
+      "image": "octopus/04.jpg",
+      "focus": [
+        0.45,
+        0.45
+      ],
+      "number": "03",
+      "headline": "Its blood is blue",
+      "body": "Oxygen rides on hemocyanin, a copper-based protein, instead of the iron-based hemoglobin in our blood. The copper makes the blood look blue.",
+      "source": "Smithsonian Magazine (2024)"
+    },
+    {
+      "type": "stat",
+      "image": "octopus/02.jpg",
+      "focus": [
+        0.25,
+        0.5
+      ],
+      "stat": "2/3",
+      "label": "of its ~500 million neurons sit in its arms",
+      "body": "The central brain acts more like a coordinator. Much of the sensing and movement control happens out in the arms themselves.",
+      "source": "Hochner, Current Biology (2012)"
+    },
+    {
+      "type": "fact",
+      "image": "octopus/03.jpg",
+      "focus": [
+        0.6,
+        0.65
+      ],
+      "number": "04",
+      "headline": "A rare daytime hunter",
+      "body": "Unlike most octopuses, it forages by day, then blocks its den with rocks at night. It lives only about 12–15 months.",
+      "source": "Animal Diversity Web"
+    },
+    {
+      "type": "closing",
+      "image": "octopus/01.jpg",
+      "focus": [
+        0.5,
+        0.6
+      ],
+      "headline": "Eight arms. Three hearts. One save.",
+      "body": "Keep it for your next trivia night. New species, fully sourced, every week.",
+      "sources": [
+        "Hochner, B. (2012) An embodied view of octopus neurobiology. Current Biology 22:R887–R892",
+        "Animal Diversity Web: Octopus cyanea",
+        "Britannica: Octopus",
+        "Smithsonian Magazine (2024): Ten Wild Facts About Octopuses"
+      ]
+    }
+  ],
+  "caption": "The big blue octopus (Octopus cyanea) runs on three hearts and copper-based blue blood, with most of its neurons in its arms.\n\nAlso called the day octopus, it lives on coral reefs from Hawaii to the Red Sea at depths of about 1 to 100 m. Its name means dark blue, after the dark blue rings on its skin. Every photo here was taken on a reef at Nosy Tanikely, Madagascar.\n\nSwipe through the anatomy. Sources on the last slide.\n\nSource: Hochner (2012), Current Biology; Animal Diversity Web.\n\nSave this one for quiz night, or send it to someone who loves octopuses.\n\nPhotos: Wikimedia Commons, Diego Delso, CC BY-SA 4.0 (credits on each slide).",
+  "hashtags": [
+    "#octopus",
+    "#cephalopods",
+    "#marinebiology",
+    "#coralreef",
+    "#animalfacts"
+  ],
+  "sources": [
+    "https://www.sciencedirect.com/science/article/pii/S0960982212010640",
+    "https://animaldiversity.org/accounts/Octopus_cyanea/",
+    "https://www.britannica.com/animal/octopus-mollusk",
+    "https://www.smithsonianmag.com/science-nature/ten-wild-facts-about-octopuses-they-have-three-hearts-big-brains-and-blue-blood-7625828/"
+  ],
+  "alt_texts": [
+    "Big blue octopus (Octopus cyanea) clinging to coral in Madagascar, headline 'Three hearts and blue blood.'",
+    "Big blue octopus camouflaged in a coral crevice, with text explaining its two branchial hearts and one systemic heart",
+    "Purple-brown big blue octopus curled on a reef, with text on how its main heart stops when it swims",
+    "Big blue octopus tucked into pink and orange coral, with text explaining copper-based blue blood",
+    "Big blue octopus hidden in coral with the statistic two-thirds of its 500 million neurons are in its arms",
+    "Big blue octopus on a reef with text about hunting by day and a 12 to 15 month lifespan",
+    "Big blue octopus clinging to coral, closing slide listing sources and photo credits"
+  ],
+  "format_tags": [
+    "format:fact-over-footage",
+    "format:listicle",
+    "tactic:hook-text"
+  ]
+}

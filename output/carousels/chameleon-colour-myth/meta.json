@@ -1,0 +1,49 @@
+{
+  "slug": "chameleon-colour-myth",
+  "format": "carousel",
+  "size": "1080x1350",
+  "slides": [
+    "01.jpg",
+    "02.jpg",
+    "03.jpg",
+    "04.jpg",
+    "05.jpg",
+    "06.jpg",
+    "07.jpg"
+  ],
+  "alt_texts": [
+    "Orange chameleon walking across grey tarmac, clearly not blending in, with the headline 'A chameleon's colour change isn't camouflage. It's a message.'",
+    "Green and blue-striped male panther chameleon on a branch with text on the camouflage myth",
+    "Green male panther chameleon with a curled tail with text on colour change during contests and courtship",
+    "Male panther chameleon close-up with the statistic 127 nanometres, the guanine crystal size",
+    "Male panther chameleon on a branch with text on the infrared-reflecting deep skin layer",
+    "Brown female panther chameleon on a twig with text on when chameleons do blend in",
+    "Closing slide with a male panther chameleon, listing sources and photo credits"
+  ],
+  "caption_chars": 815,
+  "hashtags": [
+    "#chameleon",
+    "#pantherchameleon",
+    "#herpetology",
+    "#reptiles",
+    "#naturestudy"
+  ],
+  "format_tags": [
+    "format:myth-bust",
+    "format:fact-over-footage",
+    "tactic:hook-text"
+  ],
+  "sources": [
+    "https://www.nature.com/articles/ncomms7368",
+    "https://doi.org/10.1371/journal.pbio.0060025"
+  ],
+  "photo_credits": [
+    "Photo: Knowledge and philosophy · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Charles J. Sharp · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Charles J. Sharp · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Charles J. Sharp · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Charles J. Sharp · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Charles J. Sharp · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Charles J. Sharp · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

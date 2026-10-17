@@ -1,0 +1,122 @@
+{
+  "slug": "sea-turtle-sand-temperature",
+  "slides": [
+    {
+      "type": "cover",
+      "image": "green-turtle-hatchling/02.jpg",
+      "focus": [
+        0.6,
+        0.4
+      ],
+      "kicker": "Conservation",
+      "headline": "99% female.",
+      "sub": "Young green turtles from the northern Great Barrier Reef, and warming sand is the reason"
+    },
+    {
+      "type": "fact",
+      "image": "green-turtle-hatchling/03.jpg",
+      "focus": [
+        0.42,
+        0.5
+      ],
+      "number": "01",
+      "headline": "The sand decides the sex",
+      "body": "A sea turtle's sex isn't set at fertilisation. Incubation temperature decides: below 27.7 °C hatchlings are male, above 31 °C female, in between a mix.",
+      "source": "NOAA Ocean Service"
+    },
+    {
+      "type": "fact",
+      "image": "sea-turtle/02.jpg",
+      "focus": [
+        0.62,
+        0.4
+      ],
+      "number": "02",
+      "headline": "Tracing turtles back to their birth beach",
+      "body": "Researchers used genetics and hormone tests to link green turtles feeding on the Great Barrier Reef to the beaches where they hatched.",
+      "source": "Jensen et al., Current Biology (2018)"
+    },
+    {
+      "type": "compare",
+      "left": {
+        "image": "green-turtle-hatchling/01.jpg",
+        "label": "Cooler south"
+      },
+      "right": {
+        "image": "green-turtle-hatchling/02.jpg",
+        "label": "Warmer north"
+      },
+      "headline": "Same reef, very different ratios",
+      "body": "Turtles from cooler southern beaches: 65–69% female. From warmer northern beaches: 99.1% of juveniles, 99.8% of subadults and 86.8% of adults.",
+      "source": "Jensen et al., Current Biology (2018)"
+    },
+    {
+      "type": "stat",
+      "image": "sea-turtle/04.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ],
+      "stat": "20+",
+      "label": "years the northern beaches have produced mainly females",
+      "body": "Combining the results with temperature records, the authors warn that complete feminisation of this population is possible in the near future.",
+      "source": "Jensen et al., Current Biology (2018)"
+    },
+    {
+      "type": "fact",
+      "image": "sea-turtle/01.jpg",
+      "focus": [
+        0.45,
+        0.4
+      ],
+      "number": "03",
+      "headline": "Recovering, with a new threat",
+      "body": "In 2025 the IUCN moved green turtles from Endangered to Least Concern as numbers rose ~28%, thanks to conservation. Warming is a growing threat.",
+      "source": "IUCN Red List (2025)"
+    },
+    {
+      "type": "closing",
+      "image": "green-turtle-hatchling/01.jpg",
+      "focus": [
+        0.4,
+        0.5
+      ],
+      "headline": "Hot sand, fewer males.",
+      "body": "Save this for the next climate conversation. Sourced wildlife science, every week.",
+      "sources": [
+        "Jensen, M.P. et al. (2018) Environmental warming and feminization of one of the largest sea turtle populations in the world. Current Biology 28:154–159",
+        "NOAA Ocean Service: What causes a sea turtle to be born male or female?",
+        "IUCN Red List: Chelonia mydas (assessed 2024, published 2025)",
+        "NOAA Fisheries: Green turtle"
+      ]
+    }
+  ],
+  "caption": "Green sea turtle (Chelonia mydas) hatchlings get their sex from sand temperature, and warmer beaches mean more females.\n\nA green turtle lays about 110 eggs per nest, and they incubate in the sand for about two months, so a hotter summer can tip a whole season's hatchlings towards female. On the northern Great Barrier Reef, that tip has lasted more than two decades.\n\nSwipe for the numbers. Sources on the last slide.\n\nSource: Jensen et al. (2018), Current Biology; NOAA; IUCN Red List (2025).\n\nSend this to someone who cares about reefs, or save it for later.\n\nPhotos: Wikimedia Commons, CC BY 3.0, CC BY 4.0 and CC BY-SA 4.0 (credits on each slide).",
+  "hashtags": [
+    "#seaturtle",
+    "#greenseaturtle",
+    "#greatbarrierreef",
+    "#climatechange",
+    "#marineconservation"
+  ],
+  "sources": [
+    "https://www.cell.com/current-biology/fulltext/S0960-9822(17)31539-7",
+    "https://oceanservice.noaa.gov/facts/temperature-dependent.html",
+    "https://www.iucnredlist.org/species/4615/285108125",
+    "https://www.fisheries.noaa.gov/species/green-turtle"
+  ],
+  "alt_texts": [
+    "Green sea turtle hatchling climbing out of its egg in the sand on Ascension Island, headline '99% female'",
+    "Green sea turtle hatchling crawling across sand, with text explaining temperature-dependent sex determination",
+    "Adult sea turtle resting on a coral reef at Apo Island, Philippines, with text about tracing turtles to their birth beaches",
+    "Two green sea turtle hatchlings side by side labelled cooler south and warmer north, with female percentages from the Great Barrier Reef study; left photo from Heron Island, right from Ascension Island",
+    "Sea turtle swimming over sand in Maui, Hawaii, with the statistic 20+ years of mainly female hatchlings",
+    "Green sea turtle swimming over a reef in Moorea, with text on its 2025 IUCN status change from Endangered to Least Concern",
+    "Green sea turtle hatchling entering the sea at Heron Island, Great Barrier Reef, closing slide listing sources and photo credits"
+  ],
+  "format_tags": [
+    "format:conservation-story",
+    "format:fact-over-footage",
+    "tactic:hook-text"
+  ]
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "title": "File:WolfRunningInSnow.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File%3AWolfRunningInSnow.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/WolfRunningInSnow.jpg/1920px-WolfRunningInSnow.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 2999,
+    "height": 1881,
+    "license": "Public domain",
+    "artist": "Barry O'Neill",
+    "credit": "http://www.nps.gov/archive/yell/slidefile/mammals/wolf/Page-11.htm",
+    "description": "Yellowstone wolf running in snow in Crystal Creek pen (Original text: A newly released and collared wolf in Yellowstone National Park crashes through the snow.)",
+    "curated": false,
+    "file": "01.jpg"
+  },
+  {
+    "title": "File:Yellowstone Wolf feasting on a Bison.png",
+    "page": "https://commons.wikimedia.org/wiki/File%3AYellowstone%20Wolf%20feasting%20on%20a%20Bison.png",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Yellowstone_Wolf_feasting_on_a_Bison.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "width": 1800,
+    "height": 802,
+    "license": "CC BY 3.0",
+    "artist": "Hyungwon Kang",
+    "credit": "YouTube – View/save archived versions on archive.org",
+    "description": "A Yellowstone gray wolf has a Bison for a meal. The Bison accidentally fell into the water when the ice gave in.",
+    "curated": false,
+    "file": "02.jpg"
+  }
+]

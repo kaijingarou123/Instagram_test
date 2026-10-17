@@ -1,0 +1,116 @@
+{
+  "slug": "chameleon-colour-myth",
+  "slides": [
+    {
+      "type": "cover",
+      "image": "chameleon/02.jpg",
+      "focus": [
+        0.45,
+        0.45
+      ],
+      "kicker": "Myth-buster",
+      "headline": "A chameleon's colour change isn't camouflage. It's a message.",
+      "sub": "What the skin is actually doing, and why"
+    },
+    {
+      "type": "fact",
+      "image": "furcifer-pardalis/02.jpg",
+      "focus": [
+        0.22,
+        0.4
+      ],
+      "number": "01",
+      "headline": "The myth: they match the background",
+      "body": "A study of 21 dwarf chameleon lineages found no evidence that colour-change ability evolved for camouflage. It tracked how showy their social signals were.",
+      "source": "Stuart-Fox & Moussalli, PLoS Biology (2008)"
+    },
+    {
+      "type": "fact",
+      "image": "furcifer-pardalis/03.jpg",
+      "focus": [
+        0.55,
+        0.45
+      ],
+      "number": "02",
+      "headline": "The trigger: a rival or a mate",
+      "body": "When a male panther chameleon meets a rival or a female, green skin turns yellow or orange within a couple of minutes, then switches back.",
+      "source": "Teyssier et al., Nature Communications (2015)"
+    },
+    {
+      "type": "stat",
+      "image": "chameleon/03.jpg",
+      "focus": [
+        0.62,
+        0.45
+      ],
+      "stat": "127 nm",
+      "label": "average diameter of the crystals that make the colour",
+      "body": "Males tune the spacing of guanine nanocrystals in skin cells called iridophores. It's structural colour from a lattice, not pigment.",
+      "source": "Teyssier et al., Nature Communications (2015)"
+    },
+    {
+      "type": "fact",
+      "image": "furcifer-pardalis/02.jpg",
+      "focus": [
+        0.22,
+        0.4
+      ],
+      "number": "03",
+      "headline": "A second layer works as a sunshade",
+      "body": "Deeper iridophores with bigger crystals reflect near-infrared light, screening about 45% of the solar energy in that range. Possibly passive heat protection.",
+      "source": "Teyssier et al., Nature Communications (2015)"
+    },
+    {
+      "type": "fact",
+      "image": "furcifer-pardalis/04.jpg",
+      "focus": [
+        0.55,
+        0.45
+      ],
+      "number": "04",
+      "headline": "So do they ever hide? Yes, at rest.",
+      "body": "Resting greens and browns do help them blend in. Pigment-driven darkening and lightening also happens with stress and temperature, in both sexes.",
+      "source": "Teyssier et al. (2015); Stuart-Fox & Moussalli (2008)"
+    },
+    {
+      "type": "closing",
+      "image": "furcifer-pardalis/03.jpg",
+      "focus": [
+        0.55,
+        0.45
+      ],
+      "headline": "Save this for the next 'chameleon camouflage' debate.",
+      "body": "Myths checked against the primary research. Follow @claudes_plan101.",
+      "sources": [
+        "Teyssier et al. (2015) Nature Communications 6:6368",
+        "Stuart-Fox & Moussalli (2008) PLoS Biology 6(1):e25"
+      ]
+    }
+  ],
+  "caption": "The panther chameleon (Furcifer pardalis) doesn't change colour mainly to hide. Its big colour switches are social signals.\n\nMales flip from green to yellow or orange during contests and courtship by changing the spacing of a lattice of tiny guanine crystals in their skin. The colour comes from structure, not from moving pigment. The panther chameleon studied comes from Madagascar, and the same two-layer skin turned up in three other chameleon species.\n\nSwipe for the full story. Sources on the last slide.\n\nSource: Teyssier et al. 2015, Nature Communications; Stuart-Fox & Moussalli 2008, PLoS Biology.\n\nSave this for the next time someone says chameleons copy their background.\n\nPhotos: Wikimedia Commons, CC BY-SA 4.0 (credits on each slide).",
+  "hashtags": [
+    "#chameleon",
+    "#pantherchameleon",
+    "#herpetology",
+    "#reptiles",
+    "#naturestudy"
+  ],
+  "sources": [
+    "https://www.nature.com/articles/ncomms7368",
+    "https://doi.org/10.1371/journal.pbio.0060025"
+  ],
+  "alt_texts": [
+    "Orange chameleon walking across grey tarmac, clearly not blending in, with the headline 'A chameleon's colour change isn't camouflage. It's a message.'",
+    "Green and blue-striped male panther chameleon on a branch with text on the camouflage myth",
+    "Green male panther chameleon with a curled tail with text on colour change during contests and courtship",
+    "Male panther chameleon close-up with the statistic 127 nanometres, the guanine crystal size",
+    "Male panther chameleon on a branch with text on the infrared-reflecting deep skin layer",
+    "Brown female panther chameleon on a twig with text on when chameleons do blend in",
+    "Closing slide with a male panther chameleon, listing sources and photo credits"
+  ],
+  "format_tags": [
+    "format:myth-bust",
+    "format:fact-over-footage",
+    "tactic:hook-text"
+  ]
+}

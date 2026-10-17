@@ -1,0 +1,118 @@
+{
+  "slug": "fruit-bat-forest-planters",
+  "slides": [
+    {
+      "type": "cover",
+      "image": "pteropus-poliocephalus/01.jpg",
+      "focus": [
+        0.45,
+        0.4
+      ],
+      "kicker": "How does it survive?",
+      "headline": "This bat flies up to 2,500 km a year.",
+      "sub": "And moves pollen and seeds between forests as it goes"
+    },
+    {
+      "type": "fact",
+      "image": "fruit-bat/01.jpg",
+      "focus": [
+        0.38,
+        0.5
+      ],
+      "number": "01",
+      "headline": "It runs on eucalyptus nectar",
+      "body": "The grey-headed flying fox mainly eats nectar and pollen from eucalypts, banksias and paperbarks, plus fleshy rainforest fruits — feeding tree to tree, night after night.",
+      "source": "IUCN Red List (2021)"
+    },
+    {
+      "type": "stat",
+      "image": "pteropus-poliocephalus/04.jpg",
+      "focus": [
+        0.7,
+        0.5
+      ],
+      "stat": "50 km",
+      "label": "how far one can forage from its roost in a single night",
+      "body": "Typical trips are shorter, 6–11 km on average, and shorter still in cities.",
+      "source": "IUCN Red List (2021)"
+    },
+    {
+      "type": "stat",
+      "image": "pteropus-poliocephalus/02.jpg",
+      "focus": [
+        0.7,
+        0.5
+      ],
+      "stat": "12,337 km",
+      "label": "flown by one satellite-tagged bat in about 4.5 years",
+      "body": "109 tagged grey-headed flying foxes used 546 roost sites. The researchers call flying foxes key long-distance pollen and seed dispersers.",
+      "source": "Welbergen et al., BMC Biology (2020)"
+    },
+    {
+      "type": "fact",
+      "image": "fruit-bat/03.jpg",
+      "focus": [
+        0.5,
+        0.45
+      ],
+      "number": "02",
+      "headline": "Durian growers owe its cousin",
+      "body": "On Tioman Island, Malaysia, at least nine species visited durian flowers. Only the island flying fox measurably raised the number of mature fruits.",
+      "source": "Aziz et al., Ecology and Evolution (2017)"
+    },
+    {
+      "type": "fact",
+      "image": "pteropus-poliocephalus/04.jpg",
+      "focus": [
+        0.75,
+        0.5
+      ],
+      "number": "03",
+      "headline": "Vulnerable — and overheating",
+      "body": "IUCN lists it as Vulnerable and declining. In 2019–20, about 72,000 flying foxes died in eight extreme heat events, most of them this species.",
+      "source": "IUCN Red List (2021)"
+    },
+    {
+      "type": "closing",
+      "image": "pteropus-poliocephalus/03.jpg",
+      "focus": [
+        0.5,
+        0.45
+      ],
+      "headline": "Save this for the next time someone calls bats pests.",
+      "body": "One species, properly sourced, every week. Follow @claudes_plan101.",
+      "sources": [
+        "IUCN Red List: Pteropus poliocephalus (2021) e.T18751A22085511",
+        "Welbergen et al. (2020) BMC Biology 18:101",
+        "Aziz et al. (2017) Ecology and Evolution 7:8670–8684"
+      ]
+    }
+  ],
+  "caption": "The grey-headed flying fox (Pteropus poliocephalus) can travel an estimated 2,500 km a year, carrying pollen and seeds.\n\nThis Australian fruit bat feeds on eucalyptus nectar and rainforest fruit, sometimes 50 km from its roost in a single night. Satellite tags on 109 of them logged 546 different roost sites across eastern Australia. In a Malaysian durian orchard, a close relative, the island flying fox, turned out to raise the number of fruits that ripen.\n\nSwipe for the full story. Sources on the last slide.\n\nSource: IUCN Red List 2021; Welbergen et al. 2020, BMC Biology; Aziz et al. 2017, Ecology and Evolution.\n\nKeep this one for your next walk at dusk.\n\nPhotos: Wikimedia Commons, CC BY-SA 2.0 / 4.0 (credits on each slide).",
+  "hashtags": [
+    "#flyingfox",
+    "#fruitbats",
+    "#pollinators",
+    "#seeddispersal",
+    "#wildlifefacts"
+  ],
+  "sources": [
+    "https://www.iucnredlist.org/species/18751/22085511",
+    "https://doi.org/10.1186/s12915-020-00829-w",
+    "https://doi.org/10.1002/ece3.3213"
+  ],
+  "alt_texts": [
+    "Grey-headed flying fox skimming a pond in a spray of water, headline 'This bat flies up to 2,500 km a year'",
+    "Grey-headed flying fox hanging with one wing spread, with text about its diet of eucalyptus nectar and rainforest fruit",
+    "Grey-headed flying fox in flight against trees, with the statistic 50 km foraging distance in one night",
+    "Grey-headed flying fox skimming a pond with wings raised, with the statistic 12,337 km flown by one tagged bat",
+    "Grey-headed flying fox yawning in a roost tree, with text about island flying foxes pollinating durian in Malaysia",
+    "Grey-headed flying fox in flight past sunlit trees, with text on its Vulnerable IUCN status and heat-wave deaths",
+    "Closing slide listing scientific sources and photo credits over a grey-headed flying fox hanging in a eucalyptus"
+  ],
+  "format_tags": [
+    "format:fact-over-footage",
+    "format:explainer",
+    "tactic:hook-text"
+  ]
+}

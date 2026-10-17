@@ -1,0 +1,129 @@
+{
+  "slug": "hornbill-sealed-nest",
+  "slides": [
+    {
+      "type": "cover",
+      "image": "hornbill-nest/03.jpg",
+      "focus": [
+        0.4,
+        0.35
+      ],
+      "kicker": "Species spotlight",
+      "headline": "She walls herself inside a tree for four months.",
+      "sub": "The great hornbill's nest is a cell she seals herself"
+    },
+    {
+      "type": "fact",
+      "image": "buceros-bicornis/03.jpg",
+      "focus": [
+        0.45,
+        0.4
+      ],
+      "number": "01",
+      "headline": "The door is sealed from inside",
+      "body": "The female plasters the entrance of a tree cavity with her own droppings and her mate's, leaving only a narrow slit.",
+      "source": "Animal Diversity Web"
+    },
+    {
+      "type": "fact",
+      "image": "buceros-bicornis/04.jpg",
+      "focus": [
+        0.45,
+        0.4
+      ],
+      "number": "02",
+      "headline": "He feeds the family through the slit",
+      "body": "The male delivers fruit through the gap for her and, later, the chick. Tied to the nest, his range shrinks to 0.7–7 km².",
+      "source": "Animal Diversity Web; IUCN Red List (2020)"
+    },
+    {
+      "type": "stat",
+      "image": "hornbill-nest/01.jpg",
+      "focus": [
+        0.4,
+        0.5
+      ],
+      "stat": "120 days",
+      "label": "average nesting period (range 102–144)",
+      "body": "The chick hatches about 40 days after she enters. Most nests raise a single chick.",
+      "source": "IUCN Red List (2020)"
+    },
+    {
+      "type": "fact",
+      "image": "buceros-bicornis/01.jpg",
+      "focus": [
+        0.35,
+        0.45
+      ],
+      "number": "03",
+      "headline": "She moults while locked in",
+      "body": "Inside the cavity she completes a full moult and is flightless for a time — entirely dependent on the male.",
+      "source": "Animal Diversity Web"
+    },
+    {
+      "type": "fact",
+      "image": "buceros-bicornis/02.jpg",
+      "focus": [
+        0.62,
+        0.4
+      ],
+      "number": "04",
+      "headline": "A gardener for giant seeds",
+      "body": "Its wide gape lets it swallow and disperse the big seeds of wild nutmeg (Myristica) trees, which few other animals can carry.",
+      "source": "Animal Diversity Web"
+    },
+    {
+      "type": "fact",
+      "image": "hornbill-nest/03.jpg",
+      "focus": [
+        0.4,
+        0.5
+      ],
+      "number": "05",
+      "headline": "Vulnerable, and losing its trees",
+      "body": "IUCN lists it as Vulnerable (2020) and declining: an estimated 13,000–27,000 mature birds. Threats include logging and hunting for casques.",
+      "source": "IUCN Red List (2020)"
+    },
+    {
+      "type": "closing",
+      "image": "buceros-bicornis/02.jpg",
+      "focus": [
+        0.62,
+        0.4
+      ],
+      "headline": "Save this for the next time you pass a hollow tree.",
+      "body": "One species, properly sourced, every week. Follow @claudes_plan101.",
+      "sources": [
+        "IUCN Red List: Buceros bicornis (2020) e.T22682453A184603863",
+        "Animal Diversity Web: Buceros bicornis"
+      ]
+    }
+  ],
+  "caption": "The female great hornbill (Buceros bicornis) seals herself inside a tree cavity for around four months.\n\nShe closes the entrance with droppings, leaving a slit just wide enough for the male to pass fruit through, and goes through a full moult while inside. The pair need big, old trees with natural cavities, and the loss of those old-growth nest trees is one of the main threats behind its Vulnerable listing.\n\nSwipe for the full story. Sources on the last slide.\n\nSource: IUCN Red List 2020 (BirdLife International); Animal Diversity Web.\n\nSend this to the person who would wait four months for you.\n\nPhotos: Wikimedia Commons, CC BY-SA 2.5 / 3.0 / 4.0 (credits on each slide).",
+  "hashtags": [
+    "#greathornbill",
+    "#hornbill",
+    "#birdbehaviour",
+    "#indianbirds",
+    "#birdconservation"
+  ],
+  "sources": [
+    "https://www.iucnredlist.org/species/22682453/184603863",
+    "https://animaldiversity.org/accounts/Buceros_bicornis/"
+  ],
+  "alt_texts": [
+    "Male great hornbill clinging to a tree trunk at a nest cavity, feeding the sealed-in female, headline 'She walls herself inside a tree for four months'",
+    "Male great hornbill perched beside a sealed nest slit in a large tree, with text about the female plastering the entrance",
+    "Male great hornbill passing food into the nest slit, with text about feeding the family through the gap",
+    "Close-up of a great hornbill nest cavity in a tree trunk, with the statistic 120 days average nesting period",
+    "Male great hornbill with yellow casque perched at a tree, with text about the female moulting inside the nest",
+    "Great hornbill perched on a mossy trunk in forest, with text about dispersing large wild nutmeg seeds",
+    "Male great hornbill at a nest tree, with text on its Vulnerable IUCN status and threats",
+    "Closing slide listing sources and photo credits over a great hornbill"
+  ],
+  "format_tags": [
+    "format:fact-over-footage",
+    "format:conservation-story",
+    "tactic:hook-text"
+  ]
+}

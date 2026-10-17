@@ -1,0 +1,50 @@
+{
+  "slug": "honey-bee-waggle-dance",
+  "format": "carousel",
+  "size": "1080x1350",
+  "slides": [
+    "01.jpg",
+    "02.jpg",
+    "03.jpg",
+    "04.jpg",
+    "05.jpg",
+    "06.jpg",
+    "07.jpg"
+  ],
+  "alt_texts": [
+    "Two western honey bees on a white Iceland poppy, headline 'Bees give directions to food by dancing'",
+    "Honey bee with orange pollen on a yellow Helenium flower, with text on the round dance",
+    "Honey bee feeding on purple catmint with text on how the dance angle encodes direction",
+    "Two honey bees on a white poppy with text on how waggle run length encodes distance",
+    "Honey bee on a yellow flower with the statistic 5,097 dances decoded",
+    "Honey bee on catmint with text on harmonic radar tracking of recruited bees",
+    "Closing slide with two honey bees on a poppy, listing sources and photo credits"
+  ],
+  "caption_chars": 723,
+  "hashtags": [
+    "#honeybee",
+    "#waggledance",
+    "#apismellifera",
+    "#animalbehaviour",
+    "#animalfacts"
+  ],
+  "format_tags": [
+    "format:explainer",
+    "format:fact-over-footage",
+    "tactic:hook-text"
+  ],
+  "sources": [
+    "https://www.nobelprize.org/prizes/medicine/1973/press-release/",
+    "https://doi.org/10.1371/journal.pone.0093495",
+    "https://doi.org/10.1038/nature03526"
+  ],
+  "photo_credits": [
+    "Photo: Basile Morin · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Reinhold Möller Ermell · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Tesla Delacroix · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Basile Morin · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Reinhold Möller Ermell · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Tesla Delacroix · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Basile Morin · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

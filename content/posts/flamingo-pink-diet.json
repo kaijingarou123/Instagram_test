@@ -1,0 +1,118 @@
+{
+  "slug": "flamingo-pink-diet",
+  "slides": [
+    {
+      "type": "cover",
+      "image": "juvenile-flamingo/01.jpg",
+      "focus": [
+        0.5,
+        0.4
+      ],
+      "kicker": "Myth-bust",
+      "headline": "Flamingos aren't born pink.",
+      "sub": "They hatch grey. The pink comes years later, from what they eat"
+    },
+    {
+      "type": "fact",
+      "image": "flamingo-chick/01.jpg",
+      "focus": [
+        0.5,
+        0.3
+      ],
+      "number": "01",
+      "headline": "Grey and fluffy at hatching",
+      "body": "Chicks hatch in white-grey down with straight bills. It takes several years and several moults to turn pink and grow the hooked bill.",
+      "source": "Smithsonian's National Zoo"
+    },
+    {
+      "type": "fact",
+      "image": "greater-flamingo/01.jpg",
+      "focus": [
+        0.45,
+        0.35
+      ],
+      "number": "02",
+      "headline": "The pink isn't in their genes",
+      "body": "Algae make carotenoid pigments, brine shrimp eat the algae, and flamingos eat both. Their bodies break the pigments down and deposit them in feathers and skin.",
+      "source": "Britannica; Smithsonian's National Zoo"
+    },
+    {
+      "type": "fact",
+      "image": "greater-flamingo/03.jpg",
+      "focus": [
+        0.5,
+        0.4
+      ],
+      "number": "03",
+      "headline": "It eats with its head upside down",
+      "body": "Bill in the water pointing back at its feet, it sweeps side to side. Comb-like plates on the bill trap food as water rushes out.",
+      "source": "Smithsonian's National Zoo"
+    },
+    {
+      "type": "stat",
+      "image": "greater-flamingo/02.jpg",
+      "focus": [
+        0.6,
+        0.5
+      ],
+      "stat": "6",
+      "label": "flamingo species, from deep orange-red to almost white",
+      "body": "Habitat and food vary by place and season, so the colour does too. Same pigment trick, different menus.",
+      "source": "Britannica; Smithsonian's National Zoo"
+    },
+    {
+      "type": "fact",
+      "image": "flamingo-feeding/04.jpg",
+      "focus": [
+        0.5,
+        0.35
+      ],
+      "number": "04",
+      "headline": "Both parents make 'milk'",
+      "body": "Crop milk forms in the throat and is brought up through the mouth: rich in protein and fat, fed until the chick can eat on its own.",
+      "source": "Smithsonian's National Zoo"
+    },
+    {
+      "type": "closing",
+      "image": "flamingo/04.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ],
+      "headline": "You are what you eat. Literally.",
+      "body": "Fully sourced animal myths, debunked every week.",
+      "sources": [
+        "Smithsonian's National Zoo: Why Are Flamingos Pink? And Other Flamingo Facts (2021)",
+        "Smithsonian's National Zoo: American flamingo",
+        "Britannica: Why Are Flamingos Pink? (2025)"
+      ]
+    }
+  ],
+  "caption": "American flamingo (Phoenicopterus ruber) chicks hatch grey. The famous pink arrives years later, straight from their food.\n\nCarotenoid pigments made by algae pass up through brine shrimp into the birds, so the shade depends on what each flock eats. One more surprise: what looks like a backward-bending knee is actually the ankle. The real knee is hidden up under the feathers.\n\nSwipe for the full story. Sources on the last slide.\n\nSource: Smithsonian's National Zoo; Britannica.\n\nSave this for the next time someone says flamingos are pink from birth.\n\nPhotos: Wikimedia Commons, CC BY-SA 2.0 and CC BY-SA 4.0 (credits on each slide). Slides 1, 2 and 6 show captive birds.",
+  "hashtags": [
+    "#flamingo",
+    "#birdfacts",
+    "#ornithology",
+    "#mythbusting",
+    "#wildlifefacts"
+  ],
+  "sources": [
+    "https://nationalzoo.si.edu/animals/news/why-are-flamingos-pink-and-other-flamingo-facts",
+    "https://nationalzoo.si.edu/animals/american-flamingo",
+    "https://www.britannica.com/story/why-are-flamingos-pink"
+  ],
+  "alt_texts": [
+    "Captive juvenile flamingo with brownish-grey feathers in front of pink adults, headline 'Flamingos aren't born pink'",
+    "Captive flamingo chick covered in white-grey down standing on a mud nest, with text about chicks hatching grey",
+    "Two wild greater flamingos with bright pink faces touching bills in a heart shape in the Camargue, France, with text explaining carotenoid pigments from algae and brine shrimp",
+    "Wild greater flamingo wading through blue water in Walvis Bay, Namibia, with text on how flamingos filter-feed upside down",
+    "A wild flock of greater flamingos wading in the Camargue, with the statistic 6 flamingo species",
+    "Captive adult flamingo feeding a grey-and-white juvenile beak to beak, with text about crop milk",
+    "Wild American flamingos wading in a lagoon at Celestún, Mexico, closing slide listing sources and photo credits"
+  ],
+  "format_tags": [
+    "format:myth-bust",
+    "format:fact-over-footage",
+    "tactic:hook-text"
+  ]
+}

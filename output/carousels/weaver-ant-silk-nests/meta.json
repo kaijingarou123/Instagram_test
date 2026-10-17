@@ -1,0 +1,49 @@
+{
+  "slug": "weaver-ant-silk-nests",
+  "format": "carousel",
+  "size": "1080x1350",
+  "slides": [
+    "01.jpg",
+    "02.jpg",
+    "03.jpg",
+    "04.jpg",
+    "05.jpg",
+    "06.jpg",
+    "07.jpg"
+  ],
+  "alt_texts": [
+    "Asian weaver ants swarming over a nest of green leaves joined with silk, headline 'These ants sew with their own babies'",
+    "Weaver ants clinging to each other in a chain hanging from a railing, with text about pulling leaves and forming bridges",
+    "Weaver ant nest of folded green leaves with white silk seams, with text about larvae used as living shuttles",
+    "Dozens of weaver ants working on leaves at a nest edge, with text explaining only larvae can produce silk",
+    "Weaver ants carrying a dead gecko across a wooden beam, with the statistic 500,000 workers in a colony",
+    "Close view of a silk-bound weaver ant nest, with text on 1,700 years of use as pest control in China",
+    "Closing slide listing sources and photo credits over weaver ants on leaves"
+  ],
+  "caption_chars": 759,
+  "hashtags": [
+    "#weaverants",
+    "#oecophylla",
+    "#antsofinstagram",
+    "#insectbehaviour",
+    "#naturestudy"
+  ],
+  "format_tags": [
+    "format:fact-over-footage",
+    "format:explainer",
+    "tactic:hook-text"
+  ],
+  "sources": [
+    "https://www.britannica.com/animal/weaver-ant",
+    "https://groups.csail.mit.edu/mac/projects/psyche/96/96-039.html"
+  ],
+  "photo_credits": [
+    "Photo: Basile Morin · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Basile Morin · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Vengolis · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Manoj Karingamadathil · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Basile Morin · Wikimedia Commons · CC BY 4.0",
+    "Photo: Basile Morin · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Manoj Karingamadathil · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

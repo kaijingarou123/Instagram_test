@@ -1,0 +1,50 @@
+{
+  "slug": "jellyfish-no-brain",
+  "format": "carousel",
+  "size": "1080x1350",
+  "slides": [
+    "01.jpg",
+    "02.jpg",
+    "03.jpg",
+    "04.jpg",
+    "05.jpg",
+    "06.jpg",
+    "07.jpg"
+  ],
+  "alt_texts": [
+    "A spotted jellyfish photographed in Corpus Christi Bay, Texas, against a dark background, headline 'No brain. No heart. No blood.'",
+    "A translucent Aequorea jellyfish off Bruny Island, Tasmania, with text about the jellyfish nerve net",
+    "A dense swarm of moon jellyfish (Aurelia aurita) in Flensburg Fjord with the statistic that a jellyfish is 95% water",
+    "A jellyfish washed up on a pebble beach in Bolinas, California, with text explaining jellyfish have no heart or blood",
+    "Spotted jellyfish from Corpus Christi Bay with the statistic of over 500 million years of jellyfish history",
+    "Aequorea jellyfish with text about Turritopsis dohrnii reverting to a polyp, noting the pictured jelly is a different species",
+    "Closing slide over a beached jellyfish listing scientific sources and photo credits"
+  ],
+  "caption_chars": 925,
+  "hashtags": [
+    "#jellyfish",
+    "#marinebiology",
+    "#immortaljellyfish",
+    "#oceanlife",
+    "#naturestudy"
+  ],
+  "format_tags": [
+    "format:fact-over-footage",
+    "format:explainer",
+    "tactic:hook-text"
+  ],
+  "sources": [
+    "https://oceanservice.noaa.gov/facts/jellyfish.html",
+    "https://ocean.si.edu/ocean-life/invertebrates/jellyfish-and-comb-jellies",
+    "https://www.pnas.org/doi/10.1073/pnas.2118763119"
+  ],
+  "photo_credits": [
+    "Photo: Miguel Angel Omaña Rojas · Wikimedia Commons · CC0",
+    "Photo: Charles J. Sharp · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: A.Savin · Wikimedia Commons · CC BY-SA 3.0",
+    "Photo: Airickson · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Miguel Angel Omaña Rojas · Wikimedia Commons · CC0",
+    "Photo: Charles J. Sharp · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Airickson · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

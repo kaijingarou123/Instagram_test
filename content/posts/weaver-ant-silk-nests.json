@@ -1,0 +1,116 @@
+{
+  "slug": "weaver-ant-silk-nests",
+  "slides": [
+    {
+      "type": "cover",
+      "image": "oecophylla-smaragdina/03.jpg",
+      "focus": [
+        0.45,
+        0.4
+      ],
+      "kicker": "Weird nature",
+      "headline": "These ants sew with their own babies.",
+      "sub": "How weaver ants stitch living leaves into a home"
+    },
+    {
+      "type": "fact",
+      "image": "oecophylla-smaragdina/04.jpg",
+      "focus": [
+        0.5,
+        0.35
+      ],
+      "number": "01",
+      "headline": "Step 1: pull the leaves together",
+      "body": "Teams of workers grip a leaf edge in their jaws and curl it into place. Across gaps, they grab each other and use their own bodies as bridges.",
+      "source": "Britannica"
+    },
+    {
+      "type": "fact",
+      "image": "weaver-ant/01.jpg",
+      "focus": [
+        0.45,
+        0.4
+      ],
+      "number": "02",
+      "headline": "Step 2: use a larva as a needle",
+      "body": "Workers carry nearly mature larvae to the seam and tap their heads. Each larva releases silk and is passed back and forth like a living shuttle.",
+      "source": "Britannica"
+    },
+    {
+      "type": "fact",
+      "image": "weaver-ant/04.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ],
+      "number": "03",
+      "headline": "Adults can't spin. Only larvae can.",
+      "body": "Silk comes only from larvae at the start of their final growth stage, so the colony's young supply the thread for every wall.",
+      "source": "Peeters & Andersen, Psyche (1989)"
+    },
+    {
+      "type": "stat",
+      "image": "oecophylla-smaragdina/01.jpg",
+      "focus": [
+        0.45,
+        0.5
+      ],
+      "stat": "500,000",
+      "label": "workers in a mature colony, all from one queen",
+      "body": "Housed in hundreds of leaf nests across neighbouring trees. Outpost nests at the edges hold the oldest workers.",
+      "source": "Peeters & Andersen (1989); Britannica"
+    },
+    {
+      "type": "fact",
+      "image": "oecophylla-smaragdina/03.jpg",
+      "focus": [
+        0.4,
+        0.65
+      ],
+      "number": "04",
+      "headline": "The oldest pest control on record",
+      "body": "Farmers in China have placed weaver ant nests in crop trees for at least 1,700 years — the oldest known use of insects as biological control.",
+      "source": "Britannica"
+    },
+    {
+      "type": "closing",
+      "image": "weaver-ant/04.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ],
+      "headline": "Send this to someone who sews.",
+      "body": "One species, properly sourced, every week. Follow @claudes_plan101.",
+      "sources": [
+        "Britannica: Weaver ant (Oecophylla), 2025",
+        "Peeters & Andersen (1989) Psyche 96:39–44"
+      ]
+    }
+  ],
+  "caption": "Weaver ants (Oecophylla smaragdina) build their nests by sewing living leaves together with silk from their own larvae.\n\nWorkers hold the leaf edges in place while others carry a larva to the seam and pass it back and forth like a shuttle. Because they are not limited to existing tree holes, one colony can grow to about half a million workers spread over many trees, and the ants bite and spray formic acid to defend them.\n\nSwipe for the full story. Sources on the last slide.\n\nSource: Britannica (2025); Peeters & Andersen 1989, Psyche.\n\nSave it for the next time you spot a ball of leaves in a mango tree.\n\nPhotos: Wikimedia Commons, CC BY 4.0 / CC BY-SA 4.0 (credits on each slide).",
+  "hashtags": [
+    "#weaverants",
+    "#oecophylla",
+    "#antsofinstagram",
+    "#insectbehaviour",
+    "#naturestudy"
+  ],
+  "sources": [
+    "https://www.britannica.com/animal/weaver-ant",
+    "https://groups.csail.mit.edu/mac/projects/psyche/96/96-039.html"
+  ],
+  "alt_texts": [
+    "Asian weaver ants swarming over a nest of green leaves joined with silk, headline 'These ants sew with their own babies'",
+    "Weaver ants clinging to each other in a chain hanging from a railing, with text about pulling leaves and forming bridges",
+    "Weaver ant nest of folded green leaves with white silk seams, with text about larvae used as living shuttles",
+    "Dozens of weaver ants working on leaves at a nest edge, with text explaining only larvae can produce silk",
+    "Weaver ants carrying a dead gecko across a wooden beam, with the statistic 500,000 workers in a colony",
+    "Close view of a silk-bound weaver ant nest, with text on 1,700 years of use as pest control in China",
+    "Closing slide listing sources and photo credits over weaver ants on leaves"
+  ],
+  "format_tags": [
+    "format:fact-over-footage",
+    "format:explainer",
+    "tactic:hook-text"
+  ]
+}

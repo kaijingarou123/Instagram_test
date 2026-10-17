@@ -1,0 +1,51 @@
+{
+  "slug": "octopus-three-hearts",
+  "format": "carousel",
+  "size": "1080x1350",
+  "slides": [
+    "01.jpg",
+    "02.jpg",
+    "03.jpg",
+    "04.jpg",
+    "05.jpg",
+    "06.jpg",
+    "07.jpg"
+  ],
+  "alt_texts": [
+    "Big blue octopus (Octopus cyanea) clinging to coral in Madagascar, headline 'Three hearts and blue blood.'",
+    "Big blue octopus camouflaged in a coral crevice, with text explaining its two branchial hearts and one systemic heart",
+    "Purple-brown big blue octopus curled on a reef, with text on how its main heart stops when it swims",
+    "Big blue octopus tucked into pink and orange coral, with text explaining copper-based blue blood",
+    "Big blue octopus hidden in coral with the statistic two-thirds of its 500 million neurons are in its arms",
+    "Big blue octopus on a reef with text about hunting by day and a 12 to 15 month lifespan",
+    "Big blue octopus clinging to coral, closing slide listing sources and photo credits"
+  ],
+  "caption_chars": 703,
+  "hashtags": [
+    "#octopus",
+    "#cephalopods",
+    "#marinebiology",
+    "#coralreef",
+    "#animalfacts"
+  ],
+  "format_tags": [
+    "format:fact-over-footage",
+    "format:listicle",
+    "tactic:hook-text"
+  ],
+  "sources": [
+    "https://www.sciencedirect.com/science/article/pii/S0960982212010640",
+    "https://animaldiversity.org/accounts/Octopus_cyanea/",
+    "https://www.britannica.com/animal/octopus-mollusk",
+    "https://www.smithsonianmag.com/science-nature/ten-wild-facts-about-octopuses-they-have-three-hearts-big-brains-and-blue-blood-7625828/"
+  ],
+  "photo_credits": [
+    "Photo: Diego Delso · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Diego Delso · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Diego Delso · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Diego Delso · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Diego Delso · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Diego Delso · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Diego Delso · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

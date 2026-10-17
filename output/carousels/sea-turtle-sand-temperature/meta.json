@@ -1,0 +1,52 @@
+{
+  "slug": "sea-turtle-sand-temperature",
+  "format": "carousel",
+  "size": "1080x1350",
+  "slides": [
+    "01.jpg",
+    "02.jpg",
+    "03.jpg",
+    "04.jpg",
+    "05.jpg",
+    "06.jpg",
+    "07.jpg"
+  ],
+  "alt_texts": [
+    "Green sea turtle hatchling climbing out of its egg in the sand on Ascension Island, headline '99% female'",
+    "Green sea turtle hatchling crawling across sand, with text explaining temperature-dependent sex determination",
+    "Adult sea turtle resting on a coral reef at Apo Island, Philippines, with text about tracing turtles to their birth beaches",
+    "Two green sea turtle hatchlings side by side labelled cooler south and warmer north, with female percentages from the Great Barrier Reef study; left photo from Heron Island, right from Ascension Island",
+    "Sea turtle swimming over sand in Maui, Hawaii, with the statistic 20+ years of mainly female hatchlings",
+    "Green sea turtle swimming over a reef in Moorea, with text on its 2025 IUCN status change from Endangered to Least Concern",
+    "Green sea turtle hatchling entering the sea at Heron Island, Great Barrier Reef, closing slide listing sources and photo credits"
+  ],
+  "caption_chars": 733,
+  "hashtags": [
+    "#seaturtle",
+    "#greenseaturtle",
+    "#greatbarrierreef",
+    "#climatechange",
+    "#marineconservation"
+  ],
+  "format_tags": [
+    "format:conservation-story",
+    "format:fact-over-footage",
+    "tactic:hook-text"
+  ],
+  "sources": [
+    "https://www.cell.com/current-biology/fulltext/S0960-9822(17)31539-7",
+    "https://oceanservice.noaa.gov/facts/temperature-dependent.html",
+    "https://www.iucnredlist.org/species/4615/285108125",
+    "https://www.fisheries.noaa.gov/species/green-turtle"
+  ],
+  "photo_credits": [
+    "Photo: Stefan Hunt · Wikimedia Commons · CC BY 3.0",
+    "Photo: Stefan Hunt · Wikimedia Commons · CC BY 3.0",
+    "Photo: Anna Varona · Wikimedia Commons · CC BY 4.0",
+    "Photo: PotMart186 · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Stefan Hunt · Wikimedia Commons · CC BY 3.0",
+    "Photo: Ashley Lee · Wikimedia Commons · CC BY 4.0",
+    "Photo: Charles J. Sharp · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: PotMart186 · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

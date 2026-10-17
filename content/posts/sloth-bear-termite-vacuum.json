@@ -1,0 +1,117 @@
+{
+  "slug": "sloth-bear-termite-vacuum",
+  "slides": [
+    {
+      "type": "cover",
+      "image": "sloth-bear/04.jpg",
+      "focus": [
+        0.4,
+        0.45
+      ],
+      "kicker": "How does it survive?",
+      "headline": "How does a bear live on termites?",
+      "sub": "Missing front teeth, sealable nostrils, and feeding noises heard up to 185 m away"
+    },
+    {
+      "type": "fact",
+      "image": "sloth-bear/02.jpg",
+      "focus": [
+        0.65,
+        0.45
+      ],
+      "number": "01",
+      "headline": "Rip it open, then shut the nose",
+      "body": "Long, curved claws tear into the termite nest. The bear can close its nostrils completely, so it doesn't inhale the dust it blows away.",
+      "source": "Animal Diversity Web; Smithsonian's National Zoo"
+    },
+    {
+      "type": "fact",
+      "image": "sloth-bear/01.jpg",
+      "focus": [
+        0.6,
+        0.5
+      ],
+      "number": "02",
+      "headline": "A gap where the front teeth should be",
+      "body": "Adult sloth bears are missing their top two front teeth (incisors). Through the gap, they suck termites and other insects up with ease.",
+      "source": "Smithsonian's National Zoo"
+    },
+    {
+      "type": "stat",
+      "image": "sloth-bear/04.jpg",
+      "focus": [
+        0.4,
+        0.45
+      ],
+      "stat": "185 m",
+      "label": "how far its feeding puffs and belches can be heard",
+      "body": "Outside the fruiting season, insects make up about 95% of a sloth bear's diet.",
+      "source": "Animal Diversity Web; Smithsonian's National Zoo"
+    },
+    {
+      "type": "fact",
+      "image": "sloth-bear/03.jpg",
+      "focus": [
+        0.6,
+        0.5
+      ],
+      "number": "03",
+      "headline": "Cubs ride on mum's back",
+      "body": "A cub clings to the shaggy 'saddle' of fur on its mother's back until it is 6 to 9 months old.",
+      "source": "Smithsonian's National Zoo"
+    },
+    {
+      "type": "fact",
+      "image": "sloth-bear/01.jpg",
+      "focus": [
+        0.6,
+        0.5
+      ],
+      "number": "04",
+      "headline": "Vulnerable, and declining",
+      "body": "IUCN lists the sloth bear as Vulnerable (assessed 2016, published 2020) and decreasing. Habitat loss and conflict with people are the main threats.",
+      "source": "IUCN Red List (2020)"
+    },
+    {
+      "type": "closing",
+      "image": "sloth-bear/02.jpg",
+      "focus": [
+        0.65,
+        0.45
+      ],
+      "headline": "Nature's termite vacuum, explained.",
+      "body": "Save this one, then pass it to whoever thinks all bears eat fish.",
+      "sources": [
+        "IUCN Red List: Melursus ursinus (assessed 2016, publ. 2020) iucnredlist.org/species/13143/166519315",
+        "Animal Diversity Web: Melursus ursinus",
+        "Smithsonian's National Zoo: Sloth bear"
+      ]
+    }
+  ],
+  "caption": "How does a bear live on termites? The sloth bear (Melursus ursinus) is missing its top two front teeth, can seal its nostrils shut, and feeds so noisily it can be heard up to 185 m away.\n\nIt rips a termite mound open with its claws, blows the loose soil away with its nose closed, then sucks the insects in through the gap in its teeth. There is no reliable range-wide count of sloth bears; IUCN lists the species as Vulnerable with a decreasing trend across India, Sri Lanka and Nepal.\n\nSwipe for the full story. Sources on the last slide.\n\nSource: IUCN Red List (2020); Animal Diversity Web; Smithsonian's National Zoo.\n\nSave this one, then pass it to whoever thinks all bears eat fish.\n\nPhotos: Wikimedia Commons, CC BY-SA 4.0 (credits on each slide).",
+  "hashtags": [
+    "#slothbear",
+    "#bears",
+    "#indianwildlife",
+    "#wildlifeeducation"
+  ],
+  "sources": [
+    "https://www.iucnredlist.org/species/13143/166519315",
+    "https://animaldiversity.org/accounts/Melursus_ursinus/",
+    "https://nationalzoo.si.edu/animals/sloth-bear"
+  ],
+  "alt_texts": [
+    "Sloth bear (Melursus ursinus) foraging in golden dry grass, headline 'How does a bear live on termites?'",
+    "Close-up of a Sri Lankan sloth bear's pale snout in forest undergrowth with text about claws and closable nostrils",
+    "Wild sloth bear in Ranthambore National Park with its mouth open, text about its missing upper incisors",
+    "Sloth bear in dry grass with the statistic 185 m, how far its feeding sounds carry",
+    "Mother sloth bear carrying two cubs on her back at Bor Tiger Reserve, India",
+    "Sloth bear in Ranthambore with text on its Vulnerable IUCN status",
+    "Closing slide over a sloth bear close-up listing sources and photo credits"
+  ],
+  "format_tags": [
+    "format:explainer",
+    "format:fact-over-footage",
+    "tactic:hook-text"
+  ]
+}

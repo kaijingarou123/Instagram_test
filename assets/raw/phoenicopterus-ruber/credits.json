@@ -1,0 +1,54 @@
+[
+  {
+    "title": "File:At Chester Zoo 2023 022.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAt%20Chester%20Zoo%202023%20022.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/At_Chester_Zoo_2023_022.jpg/1920px-At_Chester_Zoo_2023_022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 6960,
+    "height": 4640,
+    "license": "CC BY-SA 4.0",
+    "artist": "Photograph by Mike Peel (www.mikepeel.net).",
+    "credit": "Own work",
+    "description": "Phoenicopterus ruber in Chester Zoo",
+    "curated": true,
+    "file": "01.jpg"
+  },
+  {
+    "title": "File:At Chester Zoo 2023 023.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAt%20Chester%20Zoo%202023%20023.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/At_Chester_Zoo_2023_023.jpg/1920px-At_Chester_Zoo_2023_023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 6960,
+    "height": 4640,
+    "license": "CC BY-SA 4.0",
+    "artist": "Photograph by Mike Peel (www.mikepeel.net).",
+    "credit": "Own work",
+    "description": "Phoenicopterus ruber in Chester Zoo",
+    "curated": true,
+    "file": "02.jpg"
+  },
+  {
+    "title": "File:At Chester Zoo 2023 024.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAt%20Chester%20Zoo%202023%20024.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/At_Chester_Zoo_2023_024.jpg/1920px-At_Chester_Zoo_2023_024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 6960,
+    "height": 4640,
+    "license": "CC BY-SA 4.0",
+    "artist": "Photograph by Mike Peel (www.mikepeel.net).",
+    "credit": "Own work",
+    "description": "Phoenicopterus ruber in Chester Zoo",
+    "curated": true,
+    "file": "03.jpg"
+  },
+  {
+    "title": "File:At Chester Zoo 2023 025.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAt%20Chester%20Zoo%202023%20025.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/At_Chester_Zoo_2023_025.jpg/1920px-At_Chester_Zoo_2023_025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 4640,
+    "height": 6960,
+    "license": "CC BY-SA 4.0",
+    "artist": "Photograph by Mike Peel (www.mikepeel.net).",
+    "credit": "Own work",
+    "description": "Phoenicopterus ruber in Chester Zoo",
+    "curated": true,
+    "file": "04.jpg"
+  }
+]

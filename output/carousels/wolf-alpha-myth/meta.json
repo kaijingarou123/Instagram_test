@@ -1,0 +1,47 @@
+{
+  "slug": "wolf-alpha-myth",
+  "format": "carousel",
+  "size": "1080x1350",
+  "slides": [
+    "01.jpg",
+    "02.jpg",
+    "03.jpg",
+    "04.jpg",
+    "05.jpg",
+    "06.jpg"
+  ],
+  "alt_texts": [
+    "Aerial view of the wild Gibbon wolf pack, gray wolves standing on snow in Yellowstone, headline 'The alpha wolf was a captivity mistake'",
+    "Captive gray wolf in a wildlife park forest enclosure, with text on early studies of unrelated captive wolves",
+    "Wild gray wolf pups of Yellowstone's 8-Mile Pack sitting on a rock, with text explaining a wild pack is a family",
+    "Wild gray wolves of Yellowstone's Gibbon pack on snow, with the statistic 0 dominance contests seen in 13 summers",
+    "A gray wolf running through deep snow in Yellowstone, with text about young wolves dispersing to start their own packs",
+    "Captive gray wolf resting in the sun, closing slide suggesting the terms breeding male and breeding female, with sources and photo credits"
+  ],
+  "caption_chars": 859,
+  "hashtags": [
+    "#graywolf",
+    "#wolfpack",
+    "#animalbehavior",
+    "#yellowstonewolves",
+    "#wildlifefacts"
+  ],
+  "format_tags": [
+    "format:myth-bust",
+    "format:fact-over-footage",
+    "tactic:hook-text"
+  ],
+  "sources": [
+    "https://www.wolf.org/wp-content/uploads/2013/09/267alphastatus_english.pdf",
+    "https://pubs.usgs.gov/publication/1001725",
+    "https://davemech.org/wolf-news-and-information/"
+  ],
+  "photo_credits": [
+    "Photo: Doug Smith · Wikimedia Commons · Public domain",
+    "Photo: WP Hundshaupten · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Yellowstone National Park from Yellowsto · Wikimedia Commons · Public domain",
+    "Photo: Doug Smith · Wikimedia Commons · Public domain",
+    "Photo: Barry O'Neill · Wikimedia Commons · Public domain",
+    "Photo: Clément Bucco-Lechat · Wikimedia Commons · CC BY-SA 3.0"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "sloth-bear-termite-vacuum",
+  "format": "carousel",
+  "size": "1080x1350",
+  "slides": [
+    "01.jpg",
+    "02.jpg",
+    "03.jpg",
+    "04.jpg",
+    "05.jpg",
+    "06.jpg",
+    "07.jpg"
+  ],
+  "alt_texts": [
+    "Sloth bear (Melursus ursinus) foraging in golden dry grass, headline 'How does a bear live on termites?'",
+    "Close-up of a Sri Lankan sloth bear's pale snout in forest undergrowth with text about claws and closable nostrils",
+    "Wild sloth bear in Ranthambore National Park with its mouth open, text about its missing upper incisors",
+    "Sloth bear in dry grass with the statistic 185 m, how far its feeding sounds carry",
+    "Mother sloth bear carrying two cubs on her back at Bor Tiger Reserve, India",
+    "Sloth bear in Ranthambore with text on its Vulnerable IUCN status",
+    "Closing slide over a sloth bear close-up listing sources and photo credits"
+  ],
+  "caption_chars": 808,
+  "hashtags": [
+    "#slothbear",
+    "#bears",
+    "#indianwildlife",
+    "#wildlifeeducation"
+  ],
+  "format_tags": [
+    "format:explainer",
+    "format:fact-over-footage",
+    "tactic:hook-text"
+  ],
+  "sources": [
+    "https://www.iucnredlist.org/species/13143/166519315",
+    "https://animaldiversity.org/accounts/Melursus_ursinus/",
+    "https://nationalzoo.si.edu/animals/sloth-bear"
+  ],
+  "photo_credits": [
+    "Photo: Davidvraju · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Sanuth Prabasha · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Giles Laurent · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Davidvraju · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Rohit Sharma · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Giles Laurent · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Sanuth Prabasha · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

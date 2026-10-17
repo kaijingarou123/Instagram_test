@@ -1,0 +1,118 @@
+{
+  "slug": "honey-bee-waggle-dance",
+  "slides": [
+    {
+      "type": "cover",
+      "image": "honey-bee/02.jpg",
+      "focus": [
+        0.5,
+        0.45
+      ],
+      "kicker": "How does it survive?",
+      "headline": "Bees give directions to food by dancing. Here's the code.",
+      "sub": "The waggle dance, decoded"
+    },
+    {
+      "type": "fact",
+      "image": "honey-bee/04.jpg",
+      "focus": [
+        0.42,
+        0.4
+      ],
+      "number": "01",
+      "headline": "Food close by? A round dance.",
+      "body": "A forager back from flowers near the hive circles on the comb, stirring nestmates to search. Beyond about 50 m, she waggle-dances instead.",
+      "source": "Nobel Prize press release (1973), von Frisch"
+    },
+    {
+      "type": "fact",
+      "image": "honey-bee/01.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ],
+      "number": "02",
+      "headline": "The angle points the way",
+      "body": "On the vertical comb, 'straight up' stands for the sun. The waggle run's angle from vertical gives the food's direction relative to the sun.",
+      "source": "Nobel Prize press release (1973), von Frisch"
+    },
+    {
+      "type": "fact",
+      "image": "honey-bee/02.jpg",
+      "focus": [
+        0.5,
+        0.45
+      ],
+      "number": "03",
+      "headline": "The length tells the distance",
+      "body": "The longer each waggle run lasts, the farther away the food. Researchers calibrate it themselves, as the bee 'odometer' varies with landscape and strain.",
+      "source": "Couvillon et al., PLoS ONE (2014)"
+    },
+    {
+      "type": "stat",
+      "image": "honey-bee/04.jpg",
+      "focus": [
+        0.42,
+        0.4
+      ],
+      "stat": "5,097",
+      "label": "dances decoded over two years in one study",
+      "body": "Summer dances advertised food about 2.2 km away on average. In spring, it was about 0.5 km.",
+      "source": "Couvillon et al., PLoS ONE (2014)"
+    },
+    {
+      "type": "fact",
+      "image": "honey-bee/01.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ],
+      "number": "04",
+      "headline": "Radar proved the recruits listen",
+      "body": "Bees tracked by harmonic radar after watching a dance flew straight toward the feeder's area, then searched for the exact spot.",
+      "source": "Riley et al., Nature (2005)"
+    },
+    {
+      "type": "closing",
+      "image": "honey-bee/02.jpg",
+      "focus": [
+        0.5,
+        0.45
+      ],
+      "headline": "Save this for your next garden walk.",
+      "body": "Animal behaviour, decoded from the original research. Follow @claudes_plan101.",
+      "sources": [
+        "Nobel Prize in Physiology or Medicine 1973, press release (K. von Frisch)",
+        "Couvillon, Schürch & Ratnieks (2014) PLoS ONE 9:e93495",
+        "Riley et al. (2005) Nature 435:205–207"
+      ]
+    }
+  ],
+  "caption": "The western honey bee (Apis mellifera) gives directions to food by dancing, encoding both direction and distance.\n\nKarl von Frisch decoded it and shared the 1973 Nobel Prize for the work. Even when clouds hide the sun, bees can still read its position from polarised ultraviolet light. Decades later, radar tracking confirmed that recruits really do use the dance to fly to the food.\n\nSwipe to learn the code. Sources on the last slide.\n\nSource: Nobel Prize press release 1973; Couvillon et al. 2014, PLoS ONE; Riley et al. 2005, Nature.\n\nSend this to someone who keeps bees, or wants to.\n\nPhotos: Wikimedia Commons, CC BY-SA 4.0 (credits on each slide).",
+  "hashtags": [
+    "#honeybee",
+    "#waggledance",
+    "#apismellifera",
+    "#animalbehaviour",
+    "#animalfacts"
+  ],
+  "sources": [
+    "https://www.nobelprize.org/prizes/medicine/1973/press-release/",
+    "https://doi.org/10.1371/journal.pone.0093495",
+    "https://doi.org/10.1038/nature03526"
+  ],
+  "alt_texts": [
+    "Two western honey bees on a white Iceland poppy, headline 'Bees give directions to food by dancing'",
+    "Honey bee with orange pollen on a yellow Helenium flower, with text on the round dance",
+    "Honey bee feeding on purple catmint with text on how the dance angle encodes direction",
+    "Two honey bees on a white poppy with text on how waggle run length encodes distance",
+    "Honey bee on a yellow flower with the statistic 5,097 dances decoded",
+    "Honey bee on catmint with text on harmonic radar tracking of recruited bees",
+    "Closing slide with two honey bees on a poppy, listing sources and photo credits"
+  ],
+  "format_tags": [
+    "format:explainer",
+    "format:fact-over-footage",
+    "tactic:hook-text"
+  ]
+}

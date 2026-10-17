@@ -1,0 +1,118 @@
+{
+  "slug": "jellyfish-no-brain",
+  "slides": [
+    {
+      "type": "cover",
+      "image": "jellyfish/03.jpg",
+      "focus": [
+        0.7,
+        0.4
+      ],
+      "kicker": "Weird nature",
+      "headline": "No brain. No heart. No blood.",
+      "sub": "Jellies have got by like this for over 500 million years"
+    },
+    {
+      "type": "fact",
+      "image": "jellyfish/04.jpg",
+      "focus": [
+        0.55,
+        0.5
+      ],
+      "number": "01",
+      "headline": "A nerve net instead of a brain",
+      "body": "A loose web of neurons lets a jelly sense food, touch and light. Tiny balance organs tell it which way is up.",
+      "source": "Smithsonian Ocean"
+    },
+    {
+      "type": "stat",
+      "image": "jellyfish/02.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ],
+      "stat": "95%",
+      "label": "of a jellyfish's body is water",
+      "body": "Only about 5% is solid matter. Most of the body is mesoglea, a thick jelly-like middle layer.",
+      "source": "NOAA Ocean Service; Smithsonian Ocean"
+    },
+    {
+      "type": "fact",
+      "image": "jellyfish/01.jpg",
+      "focus": [
+        0.45,
+        0.5
+      ],
+      "number": "02",
+      "headline": "No heart, no blood, no problem",
+      "body": "A jelly is built from just three layers: an outer skin, the jelly middle and an inner digestive layer. There is no blood to pump.",
+      "source": "NOAA Ocean Service"
+    },
+    {
+      "type": "stat",
+      "image": "jellyfish/03.jpg",
+      "focus": [
+        0.7,
+        0.4
+      ],
+      "stat": "500M+",
+      "label": "years since the oldest jelly ancestors lived",
+      "body": "Fossils show jellies in the Cambrian. Their ancestors may go back as far as 700 million years.",
+      "source": "Smithsonian Ocean"
+    },
+    {
+      "type": "fact",
+      "image": "jellyfish/04.jpg",
+      "focus": [
+        0.55,
+        0.5
+      ],
+      "number": "03",
+      "headline": "One tiny relative can run its life backwards",
+      "body": "The hydrozoan Turritopsis dohrnii can turn back into a young polyp after reproducing, again and again. (It isn't the jelly pictured here.)",
+      "source": "Pascual-Torner et al., PNAS (2022)"
+    },
+    {
+      "type": "closing",
+      "image": "jellyfish/01.jpg",
+      "focus": [
+        0.45,
+        0.5
+      ],
+      "headline": "Proof you don't need a brain to last 500 million years.",
+      "body": "Send this to the friend who swears they'd never touch one.",
+      "sources": [
+        "NOAA Ocean Service: 'What is a jellyfish?' oceanservice.noaa.gov/facts/jellyfish.html",
+        "Smithsonian Ocean: Jellyfish and Comb Jellies",
+        "Pascual-Torner et al. (2022) PNAS 119(36): e2118763119"
+      ]
+    }
+  ],
+  "caption": "No brain, no heart, no blood: moon jellies (Aurelia aurita) and their relatives are about 95% water.\n\nInstead of a brain, a nerve net runs through the outer layer, the most basic nervous system known in a multicellular animal.One relative goes further. The tiny hydrozoan Turritopsis dohrnii can revert to a polyp after reproducing; its close cousin Turritopsis rubra cannot, and comparing their genomes points to differences in DNA repair and telomere-maintenance genes. The jellies in these photos are moon jellies (Aurelia aurita) and other species, not Turritopsis.\n\nSwipe for the full story. Sources on the last slide.\n\nSource: NOAA Ocean Service; Smithsonian Ocean; Pascual-Torner et al., PNAS (2022).\n\nSend this to the friend who swears they'd never touch one.\n\nPhotos: Wikimedia Commons, CC0, CC BY-SA 3.0 and CC BY-SA 4.0 (credits on each slide).",
+  "hashtags": [
+    "#jellyfish",
+    "#marinebiology",
+    "#immortaljellyfish",
+    "#oceanlife",
+    "#naturestudy"
+  ],
+  "sources": [
+    "https://oceanservice.noaa.gov/facts/jellyfish.html",
+    "https://ocean.si.edu/ocean-life/invertebrates/jellyfish-and-comb-jellies",
+    "https://www.pnas.org/doi/10.1073/pnas.2118763119"
+  ],
+  "alt_texts": [
+    "A spotted jellyfish photographed in Corpus Christi Bay, Texas, against a dark background, headline 'No brain. No heart. No blood.'",
+    "A translucent Aequorea jellyfish off Bruny Island, Tasmania, with text about the jellyfish nerve net",
+    "A dense swarm of moon jellyfish (Aurelia aurita) in Flensburg Fjord with the statistic that a jellyfish is 95% water",
+    "A jellyfish washed up on a pebble beach in Bolinas, California, with text explaining jellyfish have no heart or blood",
+    "Spotted jellyfish from Corpus Christi Bay with the statistic of over 500 million years of jellyfish history",
+    "Aequorea jellyfish with text about Turritopsis dohrnii reverting to a polyp, noting the pictured jelly is a different species",
+    "Closing slide over a beached jellyfish listing scientific sources and photo credits"
+  ],
+  "format_tags": [
+    "format:fact-over-footage",
+    "format:explainer",
+    "tactic:hook-text"
+  ]
+}
