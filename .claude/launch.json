@@ -4,8 +4,26 @@
     {
       "name": "format-library",
       "runtimeExecutable": "python",
-      "runtimeArgs": ["-m", "http.server", "8765", "--directory", "output/formats"],
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "8765",
+        "--directory",
+        "output/formats"
+      ],
       "port": 8765
+    },
+    {
+      "name": "carousel-preview",
+      "runtimeExecutable": "python",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "8766",
+        "--directory",
+        "output/carousels"
+      ],
+      "port": 8766
     }
   ]
 }
