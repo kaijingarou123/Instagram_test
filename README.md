@@ -96,3 +96,8 @@ python -m http.server 8765 --directory output/formats   # open http://localhost:
   re-issuing the child creates once was safe (unpublished containers expire in 24 h).
 - Five more example posts are rendered and pass preflight; the cadence guard now blocks
   further publishing until ≥ 20 h after the last post (phase 1).
+- **2026-10-17** — 14 more carousels added; 16 queued in `log/queue.json`. The scheduled task
+  `instagram-autopost` (Claude desktop, hourly) asks `scripts/post_queue.py next` whether a post is due
+  (random 24–28 h gap until day 14, then 20–26 h; 08:00–21:30 IST), runs `publish.py plan`, then publishes
+  via Composio behind the guardrails gate. It disables itself and notifies when the queue ends or on HALT.
+  Reels stay out of the queue until day 14.
