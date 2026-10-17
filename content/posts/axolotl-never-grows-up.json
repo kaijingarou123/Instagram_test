@@ -21,7 +21,7 @@
       ],
       "number": "01",
       "headline": "It keeps its gills for life",
-      "body": "Most salamanders lose their gills and move onto land. The axolotl stays aquatic and keeps its feathery external gills as an adult — a trait called neoteny.",
+      "body": "Most salamanders lose their gills and move onto land. The axolotl stays aquatic and keeps its feathery external gills as an adult. The trait is called neoteny.",
       "source": "Animal Diversity Web"
     },
     {
@@ -44,7 +44,7 @@
         0.4
       ],
       "stat": "32 bn",
-      "label": "base pairs in its genome — about 10× a human's",
+      "label": "base pairs in its genome, about 10× a human's",
       "body": "Yet it has a similar number of protein-coding genes to us. The extra DNA is mostly repeated sequences.",
       "source": "Nowoshilow et al., Nature (2018)"
     },
@@ -88,7 +88,7 @@
       ]
     }
   ],
-  "caption": "The axolotl (Ambystoma mexicanum) never grows up — and it can regrow its own limbs, spinal cord and parts of its brain.\n\nIt keeps its larval gills for life, carries a genome ten times the size of ours, and in the wild survives in exactly one place: the canals of Xochimilco, Mexico City, where it is Critically Endangered.\n\nSwipe for the full story. Sources on the last slide.\n\nPhotos: Wikimedia Commons, CC BY-SA 4.0 (credits on each slide).",
+  "caption": "The axolotl (Ambystoma mexicanum) never grows up, and it can regrow its own limbs, spinal cord and parts of its brain.\n\nIt keeps its larval gills for life, carries a genome ten times the size of ours, and in the wild survives in exactly one place: the canals of Xochimilco, Mexico City, where it is Critically Endangered.\n\nSwipe for the full story. Sources on the last slide.\n\nPhotos: Wikimedia Commons, CC BY-SA 4.0 (credits on each slide).",
   "hashtags": [
     "#axolotl",
     "#amphibians",

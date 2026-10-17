@@ -6,13 +6,18 @@
   "duration_s": 21.5,
   "scenes": 5,
   "audio": "generated ambient bed (CC0-equivalent)",
-  "caption_chars": 562,
+  "caption_chars": 561,
   "hashtags": [
     "#snowleopard",
     "#bigcats",
     "#wildlifefacts",
     "#conservation",
     "#himalaya"
+  ],
+  "format_tags": [
+    "format:myth-bust",
+    "format:fact-over-footage",
+    "tactic:hook-text"
   ],
   "sources": [
     "https://www.iucnredlist.org/species/22732/50664030",

@@ -20,13 +20,18 @@
     "Axolotl in an aquarium with text on its Critically Endangered status",
     "Closing slide listing scientific sources and photo credits"
   ],
-  "caption_chars": 511,
+  "caption_chars": 510,
   "hashtags": [
     "#axolotl",
     "#amphibians",
     "#wildlifefacts",
     "#endangeredspecies",
     "#herpetology"
+  ],
+  "format_tags": [
+    "format:fact-over-footage",
+    "format:conservation-story",
+    "tactic:hook-text"
   ],
   "sources": [
     "https://www.iucnredlist.org/species/1095/53947343",

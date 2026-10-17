@@ -6,13 +6,18 @@
   "duration_s": 21.5,
   "scenes": 5,
   "audio": "generated ambient bed (CC0-equivalent)",
-  "caption_chars": 510,
+  "caption_chars": 509,
   "hashtags": [
     "#hummingbird",
     "#birdfacts",
     "#ornithology",
     "#wildlifefacts",
     "#birdsofinstagram"
+  ],
+  "format_tags": [
+    "format:fact-over-footage",
+    "format:explainer",
+    "tactic:hook-text"
   ],
   "sources": [
     "https://www.allaboutbirds.org/guide/Ruby-throated_Hummingbird/overview",

@@ -6,13 +6,18 @@
   "duration_s": 15.5,
   "scenes": 4,
   "audio": "generated ambient bed (CC0-equivalent)",
-  "caption_chars": 486,
+  "caption_chars": 485,
   "hashtags": [
     "#orca",
     "#killerwhale",
     "#antarctica",
     "#wildlifefacts",
     "#marinebiology"
+  ],
+  "format_tags": [
+    "format:fact-over-footage",
+    "format:storytime",
+    "tactic:hook-text"
   ],
   "sources": [
     "https://doi.org/10.1111/j.1748-7692.2010.00453.x"

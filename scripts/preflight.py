@@ -22,12 +22,27 @@ HASHTAG_MAX = 5
 IMG_MAX_MB = 8
 REEL_MAX_MB = 300
 REEL_MIN_S, REEL_MAX_S = 3, 180
+# House style (owner's rule, 2026-10-17): no em dashes and no emojis anywhere in a post:
+# on-slide/on-screen text, caption or alt text. En dashes in numeric ranges (10–18 cm) are fine.
+EM_DASH = "—"
+EMOJI = re.compile("[\U0001F000-\U0001FAFF☀-➿⬀-⯿️‍]")
 
 
 def jaccard(a, b):
     wa = set(re.findall(r"[a-z']+", a.lower()))
     wb = set(re.findall(r"[a-z']+", b.lower()))
     return len(wa & wb) / max(len(wa | wb), 1)
+
+
+def check_style(slug, kind, texts, res):
+    """No em dashes or emojis in the spec (all on-media text), caption or alt texts."""
+    spec = ROOT / "content" / ("posts" if kind == "carousel" else "reels") / f"{slug}.json"
+    blob = "\n".join(texts + ([spec.read_text(encoding="utf-8")] if spec.exists() else []))
+    dashes = blob.count(EM_DASH) + blob.lower().count("\\u2014")
+    emojis = sorted(set(EMOJI.findall(blob)))
+    res.append(("no em dashes (caption, alt text, on-media text)", dashes == 0, f"{dashes} found" if dashes else ""))
+    res.append(("no emojis (caption, alt text, on-media text)", not emojis,
+                " ".join(f"U+{ord(e):04X}" for e in emojis)))
 
 
 def check_caption(caption, hashtags, others, res):
@@ -60,7 +75,8 @@ def check_carousel(d, others, res):
     res.append(("alt texts <= 1000 chars", all(len(a) <= 1000 for a in meta.get("alt_texts", [])), ""))
     res.append(("photo credits recorded", all(meta.get("photo_credits", [])), f"{len(meta.get('photo_credits', []))} credits"))
     res.append(("sources recorded", len(meta.get("sources", [])) >= 1, f"{len(meta.get('sources', []))} sources"))
-    res.append(("designed asset (text overlay) — originality rule", True, "all slides rendered with informative overlays"))
+    res.append(("designed asset (text overlay): originality rule", True, "all slides rendered with informative overlays"))
+    check_style(d.name, "carousel", [caption, *meta.get("alt_texts", [])], res)
     check_caption(caption, meta["hashtags"], others, res)
     return caption
 
@@ -97,6 +113,7 @@ def check_reel(slug, others, res):
     res.append(("cover image exists", (d / f"{slug}-cover.jpg").exists(), ""))
     res.append(("photo credits recorded", all(meta.get("photo_credits", [])), ""))
     res.append(("sources recorded", len(meta.get("sources", [])) >= 1, ""))
+    check_style(slug, "reel", [caption], res)
     check_caption(caption, meta["hashtags"], others, res)
     return caption
 

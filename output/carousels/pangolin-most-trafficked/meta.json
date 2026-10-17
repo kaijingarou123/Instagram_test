@@ -20,13 +20,18 @@
     "Tree pangolin with text about the CITES Appendix I trade ban",
     "Closing slide listing sources and photo credits"
   ],
-  "caption_chars": 583,
+  "caption_chars": 582,
   "hashtags": [
     "#pangolin",
     "#wildlifetrafficking",
     "#endangeredspecies",
     "#conservation",
     "#mammals"
+  ],
+  "format_tags": [
+    "format:conservation-story",
+    "format:fact-over-footage",
+    "tactic:hook-text"
   ],
   "sources": [
     "https://www.iucnredlist.org/search?query=pangolin",

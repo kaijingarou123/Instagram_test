@@ -51,6 +51,7 @@ Both: media must sit at a public, direct, no-redirect URL Meta can fetch; contai
 - [ ] ≤ 2200 chars, no external links, a `Source:` line, a photo-credit line.
 - [ ] 3–5 specific hashtags, rotated from a pool; never the same set twice; no `#nature`/`#wildlife` mega-tags; never animal-selfie/pet-trade tags.
 - [ ] Caption Jaccard similarity < 0.5 versus the last 30 captions.
+- [ ] No em dashes and no emojis in caption, alt text or on-slide/on-screen text (owner's house style; `preflight.py` enforces it). En dashes in numeric ranges are fine.
 
 ## G. Readability & design
 

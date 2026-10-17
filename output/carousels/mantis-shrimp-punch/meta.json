@@ -20,13 +20,18 @@
     "Mantis shrimp with text about seeing circularly polarised light",
     "Closing slide listing scientific sources and photo credits"
   ],
-  "caption_chars": 466,
+  "caption_chars": 431,
   "hashtags": [
     "#mantisshrimp",
     "#marinebiology",
     "#wildlifefacts",
     "#oceanlife",
     "#naturestudy"
+  ],
+  "format_tags": [
+    "format:fact-over-footage",
+    "format:listicle",
+    "tactic:hook-text"
   ],
   "sources": [
     "https://doi.org/10.1038/428819a",

@@ -1,0 +1,113 @@
+{
+  "slug": "axolotl-never-grows-up",
+  "kind": "carousel",
+  "checks_passed": true,
+  "generated_at": "2026-10-17T14:04:35.795535+00:00",
+  "calls": [
+    {
+      "step": "quota",
+      "method": "GET",
+      "path": "/me/content_publishing_limit",
+      "params": {
+        "fields": "quota_usage,config"
+      }
+    },
+    {
+      "step": "child_1",
+      "method": "POST",
+      "path": "/me/media",
+      "params": {
+        "image_url": "https://kaijingarou123.github.io/Instagram_test/output/carousels/axolotl-never-grows-up/01.jpg",
+        "is_carousel_item": "true",
+        "alt_text": "Pale leucistic axolotl with red feathery gills, headline 'This salamander never grows up'"
+      }
+    },
+    {
+      "step": "child_2",
+      "method": "POST",
+      "path": "/me/media",
+      "params": {
+        "image_url": "https://kaijingarou123.github.io/Instagram_test/output/carousels/axolotl-never-grows-up/02.jpg",
+        "is_carousel_item": "true",
+        "alt_text": "Axolotl in a blue-lit aquarium with text explaining it keeps its gills for life"
+      }
+    },
+    {
+      "step": "child_3",
+      "method": "POST",
+      "path": "/me/media",
+      "params": {
+        "image_url": "https://kaijingarou123.github.io/Instagram_test/output/carousels/axolotl-never-grows-up/03.jpg",
+        "is_carousel_item": "true",
+        "alt_text": "Close-up of an axolotl's face with text about limb regeneration"
+      }
+    },
+    {
+      "step": "child_4",
+      "method": "POST",
+      "path": "/me/media",
+      "params": {
+        "image_url": "https://kaijingarou123.github.io/Instagram_test/output/carousels/axolotl-never-grows-up/04.jpg",
+        "is_carousel_item": "true",
+        "alt_text": "Axolotl embryo inside an egg with the statistic 32 billion base pairs"
+      }
+    },
+    {
+      "step": "child_5",
+      "method": "POST",
+      "path": "/me/media",
+      "params": {
+        "image_url": "https://kaijingarou123.github.io/Instagram_test/output/carousels/axolotl-never-grows-up/05.jpg",
+        "is_carousel_item": "true",
+        "alt_text": "Axolotl egg on moss with text about its only wild habitat, Xochimilco"
+      }
+    },
+    {
+      "step": "child_6",
+      "method": "POST",
+      "path": "/me/media",
+      "params": {
+        "image_url": "https://kaijingarou123.github.io/Instagram_test/output/carousels/axolotl-never-grows-up/06.jpg",
+        "is_carousel_item": "true",
+        "alt_text": "Axolotl in an aquarium with text on its Critically Endangered status"
+      }
+    },
+    {
+      "step": "child_7",
+      "method": "POST",
+      "path": "/me/media",
+      "params": {
+        "image_url": "https://kaijingarou123.github.io/Instagram_test/output/carousels/axolotl-never-grows-up/07.jpg",
+        "is_carousel_item": "true",
+        "alt_text": "Closing slide listing scientific sources and photo credits"
+      }
+    },
+    {
+      "step": "carousel",
+      "method": "POST",
+      "path": "/me/media",
+      "params": {
+        "media_type": "CAROUSEL",
+        "children": "<child container ids, comma-separated>",
+        "caption": "The axolotl (Ambystoma mexicanum) never grows up — and it can regrow its own limbs, spinal cord and parts of its brain.\n\nIt keeps its larval gills for life, carries a genome ten times the size of ours, and in the wild survives in exactly one place: the canals of Xochimilco, Mexico City, where it is Critically Endangered.\n\nSwipe for the full story. Sources on the last slide.\n\nPhotos: Wikimedia Commons, CC BY-SA 4.0 (credits on each slide).\n\n#axolotl #amphibians #wildlifefacts #endangeredspecies #herpetology"
+      }
+    },
+    {
+      "step": "poll",
+      "method": "GET",
+      "path": "/<container id>",
+      "params": {
+        "fields": "status_code,status"
+      },
+      "note": "once per 60 s, max 5 times; continue only on FINISHED"
+    },
+    {
+      "step": "publish",
+      "method": "POST",
+      "path": "/me/media_publish",
+      "params": {
+        "creation_id": "<container id>"
+      }
+    }
+  ]
+}
