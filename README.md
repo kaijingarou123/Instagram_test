@@ -98,6 +98,21 @@ python -m http.server 8765 --directory output/formats   # open http://localhost:
   further publishing until ≥ 20 h after the last post (phase 1).
 - **2026-10-17** — 14 more carousels added; 16 queued in `log/queue.json`. The scheduled task
   `instagram-autopost` (Claude desktop, hourly) asks `scripts/post_queue.py next` whether a post is due
-  (random 24–28 h gap until day 14, then 20–26 h; 08:00–21:30 IST), runs `publish.py plan`, then publishes
+  (random 24–28 h gap until day 14, then 9–13 h for 2 posts a day; 08:00–21:30 IST), runs `publish.py plan`, then publishes
   via Composio behind the guardrails gate. It disables itself and notifies when the queue ends or on HALT.
   Reels stay out of the queue until day 14.
+
+## Insight dashboard
+
+Live dashboard (claude.ai Artifact, private to the owner; share it from its Share menu):
+https://claude.ai/artifact/XnM4F7V4xrTXyHGBNEdXmQ
+
+- Page source: `dashboard/index.html`. Data lives in the artifact's own database, not in the page.
+- `scripts/dashboard_sync.py` builds the database documents from local files (`build`, `batches`, `mark-synced`,
+  `record-metrics`, `thumbs`).
+- The insight agent's judgement lives in `log/agent/` (insights, plans, experiments, competitors, connectors,
+  decisions, takeaways, activity). Each item keeps its own history, so added, updated and dropped items stay visible.
+- Scheduled task `instagram-insight-agent` runs every 6 h (xx:17 local): reads own metrics through Composio,
+  scans links queued on the "Scan a post" page with web tools only, revises insights and the plan, pushes changes.
+- To move this to another account: change `config.json`, `log/dashboard/config.json`, the artifact URL in the
+  task prompt, and the Composio account name.

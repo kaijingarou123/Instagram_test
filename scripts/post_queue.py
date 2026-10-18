@@ -5,8 +5,9 @@
     python scripts/post_queue.py check           # hashtag rotation along the planned order
     python scripts/post_queue.py record <slug> <media_id> <container_id> [child_id ...]   # log a Composio publish
 
-Timing: after every publish the next slot is drawn at random, MIN_GAP_H..MAX_GAP_H hours later (24..28 h while
-the account is in phase 1, days 0-13, because publish.py allows 1 post per rolling 24 h there), and is only
+Timing: after every publish the next slot is drawn at random. Days 0-13 (phase 1, 1 post/day): 24..28 h later,
+because publish.py allows 1 post per rolling 24 h there. Day 14 on (phase 2, 2 posts/day, >= 8 h apart):
+MIN_GAP_H..MAX_GAP_H hours later, which with the window below gives a morning and an evening post. The slot is only
 used inside the local posting window (WINDOW_START..WINDOW_END, Asia/Kolkata). A slot that falls outside the
 window moves to the next window opening plus a random 0-90 min. Missed slots are never caught up: one post per
 due slot. The cadence envelope in publish.py (phase limits, min gap, Reels ban until day 14) still applies on
@@ -29,7 +30,7 @@ QUEUE = ROOT / "log" / "queue.json"
 HALTS = [ROOT / "log" / "HALT", ROOT / "HALT", Path.home() / ".claude" / "platform-guardrails" / "HALT"]
 
 IST = timezone(timedelta(hours=5, minutes=30))
-MIN_GAP_H, MAX_GAP_H = 20, 26
+MIN_GAP_H, MAX_GAP_H = 9, 13      # day 14 on: 2 posts/day (publish.py phase 2: max 2 per 24 h, gap >= 8 h)
 PHASE1_GAP_H = (24, 28)          # days 0-13: publish.py allows 1 post per rolling 24 h
 WINDOW_START, WINDOW_END = time(8, 0), time(21, 30)
 
@@ -91,11 +92,13 @@ def cmd_status():
     rest = remaining(q, posts)
     due = next_due(q, posts)
     print(f"queue: {len(q['order'])} planned, {len(q['order']) - len(rest)} published, {len(rest)} left")
-    print(f"gap: random {PHASE1_GAP_H[0]}-{PHASE1_GAP_H[1]} h until day 14, then {MIN_GAP_H}-{MAX_GAP_H} h; window {WINDOW_START:%H:%M}-{WINDOW_END:%H:%M} IST")
+    print(f"gap: random {PHASE1_GAP_H[0]}-{PHASE1_GAP_H[1]} h until day 14 (1/day), then {MIN_GAP_H}-{MAX_GAP_H} h (2/day); window {WINDOW_START:%H:%M}-{WINDOW_END:%H:%M} IST")
     if rest:
         print(f"next: {rest[0]}  due {due.astimezone(IST):%a %d %b %H:%M} IST")
-        avg = (MIN_GAP_H + MAX_GAP_H + sum(PHASE1_GAP_H)) / 4
-        end = max(due, datetime.now(timezone.utc)) + timedelta(hours=avg * (len(rest) - 1))
+        end, rng = max(due, datetime.now(timezone.utc)), random.Random(0)   # rough simulation, mid-range gaps
+        for _ in range(len(rest) - 1):
+            lo, hi = gap_range(end)
+            end = into_window(end + timedelta(hours=(lo + hi) / 2), rng)
         print(f"estimated last post: ~{end.astimezone(IST):%a %d %b} IST")
     for i, s in enumerate(rest, 1):
         print(f"  {i:2}. {s}")
