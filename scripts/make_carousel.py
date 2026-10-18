@@ -16,7 +16,8 @@ from render import (PALETTE as P, ROOT, cover, credit_line, draw_block, fit_text
 
 W, H = 1080, 1350
 M = 72                       # side margin
-HANDLE = "@claudes_plan101"
+_CFG = json.loads((Path(__file__).resolve().parent.parent / "config.json").read_text(encoding="utf-8"))
+HANDLE = "@" + _CFG["ig_username"]
 
 
 def base(slide):

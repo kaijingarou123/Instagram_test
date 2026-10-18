@@ -43,6 +43,12 @@ def check_style(slug, kind, texts, res):
     res.append(("no em dashes (caption, alt text, on-media text)", dashes == 0, f"{dashes} found" if dashes else ""))
     res.append(("no emojis (caption, alt text, on-media text)", not emojis,
                 " ".join(f"U+{ord(e):04X}" for e in emojis)))
+    # the only @handle a post may mention is the account's own (config.json), so a rename
+    # can't leave stale or stray names on slides, captions or alt text
+    own = json.loads((ROOT / "config.json").read_text(encoding="utf-8"))["ig_username"].lower()
+    handles = {h.lower() for h in re.findall(r"(?<![\w.])@([A-Za-z0-9_.]*[A-Za-z0-9_])", blob)}
+    stray = sorted(handles - {own})
+    res.append((f"only @{own} mentioned", not stray, " ".join("@" + h for h in stray)))
 
 
 def check_caption(caption, hashtags, others, res):

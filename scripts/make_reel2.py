@@ -31,7 +31,8 @@ W, H, FPS = 1080, 1920, 30
 XF = 0.4                     # crossfade seconds
 TX0, TX1 = 80, 920           # text column (clear of the right action rail)
 TOP, BOT = 270, 1500         # vertical safe band for text
-HANDLE = "@claudes_plan101"
+_CFG = json.loads((Path(__file__).resolve().parent.parent / "config.json").read_text(encoding="utf-8"))
+HANDLE = "@" + _CFG["ig_username"]
 BG = {"ink": P["ink"], "amber": P["amber"], "moss": P["moss"], "cream": P["cream"],
       "night": (12, 18, 34), "white": (250, 250, 247), "red": (178, 40, 40)}
 

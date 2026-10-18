@@ -24,7 +24,8 @@ M = 72
 SAFE_TOP, SAFE_BOTTOM = 270, 1600      # text lives between these y values
 OVERSCAN = 1.2                          # photo rendered larger so we can pan/zoom
 XFADE = 0.5                             # seconds of crossfade between scenes
-HANDLE = "@claudes_plan101"
+_CFG = json.loads((Path(__file__).resolve().parent.parent / "config.json").read_text(encoding="utf-8"))
+HANDLE = "@" + _CFG["ig_username"]
 
 
 def ease(t):

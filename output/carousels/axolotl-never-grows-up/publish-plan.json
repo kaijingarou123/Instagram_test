@@ -2,7 +2,7 @@
   "slug": "axolotl-never-grows-up",
   "kind": "carousel",
   "checks_passed": true,
-  "generated_at": "2026-10-17T14:04:35.795535+00:00",
+  "generated_at": "2026-10-17T14:19:36.804252+00:00",
   "calls": [
     {
       "step": "quota",
@@ -89,7 +89,7 @@
       "params": {
         "media_type": "CAROUSEL",
         "children": "<child container ids, comma-separated>",
-        "caption": "The axolotl (Ambystoma mexicanum) never grows up — and it can regrow its own limbs, spinal cord and parts of its brain.\n\nIt keeps its larval gills for life, carries a genome ten times the size of ours, and in the wild survives in exactly one place: the canals of Xochimilco, Mexico City, where it is Critically Endangered.\n\nSwipe for the full story. Sources on the last slide.\n\nPhotos: Wikimedia Commons, CC BY-SA 4.0 (credits on each slide).\n\n#axolotl #amphibians #wildlifefacts #endangeredspecies #herpetology"
+        "caption": "The axolotl (Ambystoma mexicanum) never grows up, and it can regrow its own limbs, spinal cord and parts of its brain.\n\nIt keeps its larval gills for life, carries a genome ten times the size of ours, and in the wild survives in exactly one place: the canals of Xochimilco, Mexico City, where it is Critically Endangered.\n\nSwipe for the full story. Sources on the last slide.\n\nPhotos: Wikimedia Commons, CC BY-SA 4.0 (credits on each slide).\n\n#axolotl #amphibians #wildlifefacts #endangeredspecies #herpetology"
       }
     },
     {

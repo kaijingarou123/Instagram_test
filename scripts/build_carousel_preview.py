@@ -11,6 +11,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 CAR = ROOT / "output" / "carousels"
+HANDLE = json.loads((ROOT / "config.json").read_text(encoding="utf-8"))["ig_username"]
 
 
 def load():
@@ -39,7 +40,7 @@ def card(i, slug, posted):
              else f'<span class="badge">Queue #{i}</span>')
     return f"""
 <article class="post" data-slug="{slug}">
-  <header><span class="avatar"></span><b>claudes_plan101</b>{badge}<code>{slug}</code></header>
+  <header><span class="avatar"></span><b>{HANDLE}</b>{badge}<code>{slug}</code></header>
   <div class="frame">
     <div class="track">{slides}</div>
     <button class="nav prev" aria-label="Previous slide">‹</button>
@@ -47,7 +48,7 @@ def card(i, slug, posted):
     <span class="count">1/{len(meta['slides'])}</span>
   </div>
   <div class="dots">{dots}</div>
-  <div class="caption"><b>claudes_plan101</b> {html.escape(first)}<details><summary>more</summary><pre>{html.escape(rest.strip())}</pre></details></div>
+  <div class="caption"><b>{HANDLE}</b> {html.escape(first)}<details><summary>more</summary><pre>{html.escape(rest.strip())}</pre></details></div>
 </article>"""
 
 
@@ -91,7 +92,7 @@ header code {{ margin-left:auto; color:var(--muted); font-size:11px; }}
 summary {{ color:var(--muted); cursor:pointer; }}
 pre {{ white-space:pre-wrap; font:inherit; margin:6px 0 0; }}
 </style></head><body>
-<h1>Carousel queue — @claudes_plan101</h1>
+<h1>Carousel queue: @{HANDLE}</h1>
 <p class="sub">{len(order)} carousels · swipe, scroll sideways or use the arrows (← → keys move the carousel under the pointer)</p>
 <main>{''.join(cards)}</main>
 <script>

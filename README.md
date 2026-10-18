@@ -1,6 +1,6 @@
 # Wildlife & nature education — Instagram content lab
 
-Test account: **@claudes_plan101** (connected via Composio; Instagram Graph API).
+Test account: **@earthspirit_nature** (renamed from @claudes_plan101 on 2026-10-17/18) (connected via Composio; Instagram Graph API).
 Goal: research-driven, fully sourced wildlife-education content (carousels + Reels),
 produced locally, checked computationally, and published within a safe operating
 envelope. Nothing has been posted yet.
@@ -49,7 +49,7 @@ python scripts/insights.py [<slug>]              # reach/saves/shares per post -
   `https://kaijingarou123.github.io/Instagram_test/output/...` — verified 2026-10-15 to return
   200, no redirect, `image/jpeg` / `video/mp4`. (raw.githubusercontent.com serves MP4 as
   `application/octet-stream`; jsDelivr failed to fetch the MP4 — both rejected.)
-- **Account — done.** @claudes_plan101 is a public **Business** account (confirmed 2026-10-15).
+- **Account — done.** @earthspirit_nature is a public **Business** account (confirmed 2026-10-15).
   Composio's `account_type: PRIVATE` refers to the Composio connection's visibility, not Instagram.
 - **Safety** — `publish.py` enforces the envelope from `CHECKLIST.md` §A (phase limits by
   account age, min gap, Reels allowance, hashtag rotation, live quota, hard-stop codes →
