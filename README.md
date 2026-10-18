@@ -98,7 +98,7 @@ python -m http.server 8765 --directory output/formats   # open http://localhost:
   further publishing until ≥ 20 h after the last post (phase 1).
 - **2026-10-17** — 14 more carousels added; 16 queued in `log/queue.json`. The scheduled task
   `instagram-autopost` (Claude desktop, hourly) asks `scripts/post_queue.py next` whether a post is due
-  (random 24–28 h gap until day 14, then 9–13 h for 2 posts a day; 08:00–21:30 IST), runs `publish.py plan`, then publishes
+  (random 9–13 h gaps, 2 posts a day; 08:00–21:30 IST), runs `publish.py plan`, then publishes
   via Composio behind the guardrails gate. It disables itself and notifies when the queue ends or on HALT.
   Reels stay out of the queue until day 14.
 
@@ -116,3 +116,7 @@ https://claude.ai/artifact/XnM4F7V4xrTXyHGBNEdXmQ
   scans links queued on the "Scan a post" page with web tools only, revises insights and the plan, pushes changes.
 - To move this to another account: change `config.json`, `log/dashboard/config.json`, the artifact URL in the
   task prompt, and the Composio account name.
+- **2026-10-18**: owner decision: 2 posts a day (at least 8 h apart) from day 0, overriding the
+  platform-guardrails weeks 1–2 limit of 1/day. The owner accepted the higher new-account risk. Implemented
+  in `publish.py` PHASES and `post_queue.py`; every other guardrail (quota halt, hard stops, HALT markers,
+  no Reels before day 14) is unchanged.

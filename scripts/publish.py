@@ -43,7 +43,10 @@ CONFIG = ROOT / "config.json"
 # --- safety envelope (research/posting-limits.md, "Recommended safe operating envelope") ---
 PHASES = [
     # (first day, last day, max posts/day, min gap hours, reels allowed per 7 days)
-    (0, 13, 1, 20, 0),
+    # Owner decision 2026-10-18: days 0-13 run at 2 posts/day (>= 8 h apart) instead of the
+    # platform-guardrails default of 1/day (>= 20 h), accepting the higher new-account risk.
+    # Reels stay off until day 14.
+    (0, 13, 2, 8, 0),
     (14, 27, 2, 8, 2),
     (28, 10**6, 3, 6, 4),
 ]
