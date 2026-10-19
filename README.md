@@ -68,24 +68,15 @@ and stop on any hard-stop code. Two HALT markers block publishing and both are h
 (written by the gate for either platform). `publish.py` mirrors its own HALT into the shared one.
 Only a human deletes a marker, after checking Account Status and the quota.
 
-## Format library (internal preview, nothing posted)
+## Reel formats (context data)
 
-159 example reels — 3 for each of the 53 `format:` tags in the `social-media-knowledge` vocabulary
-(`kaijingarou123/Claude-skills-agents-plugins`). 50 are storyboards (a "STORYBOARD — Film: …" band names
-the shot a person must film); 6 are anti-pattern demos stamped "AVOID — DO NOT POST".
-
-```bash
-python scripts/catalog.py                         # media catalog -> assets/catalog.md
-python scripts/check_specs.py                     # validate content/formats/specs/*.json
-python scripts/make_reel2.py --all --jobs 10      # render -> output/formats/<slug>.mp4 (+ poster, meta)
-python scripts/build_preview.py                   # output/formats/index.html
-python -m http.server 8765 --directory output/formats   # open http://localhost:8765
-```
-
-- Brief for scriptwriters: `content/formats/BRIEF.md`. Engine layouts: full, stat, meme, split, pip, card, quote, wipe, grid, chart.
-- Media: CC0 / CC BY / CC BY-SA from Wikimedia Commons, vetted by eye (zoo, captive, AI and mislabelled files removed;
-  the Veo 3 owl clip lives in `assets/video/ai-generated/` for AI-format demos only).
-- MP4s (~770 MB) and downloaded media stay local (`.gitignore`); specs, posters, metadata and the page are committed.
+The 159-reel test library (3 example reels for each of the 53 `format:` tags) was rendered, reviewed and
+deleted on 2026-10-20. What remains as context:
+- Tag vocabulary: `Claude-skills-agents-plugins/plugins/social-media-knowledge/knowledge/tags/reel-formats.json`
+- 3 worked concepts per format (hook, beats, layouts, what to film, risk notes, sources):
+  `.../social-media-knowledge/knowledge/examples/reel-format-examples.json` (+ `.md`)
+- The multi-layout Reel engine (`scripts/make_reel2.py`), CC media catalog (`scripts/catalog.py`,
+  `assets/catalog.md`) and Commons video fetcher stay for Reels from account day 14.
 
 ## Status
 

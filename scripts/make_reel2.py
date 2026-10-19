@@ -1,7 +1,8 @@
 """Multi-layout Reel engine (stills + video clips) for the format library.
 
-    python scripts/make_reel2.py content/formats/specs/<slug>.json [...]
-    python scripts/make_reel2.py --all [--jobs 8]          # every spec, in parallel
+    python scripts/make_reel2.py <spec.json> [...]         # spec schema: see social-media-knowledge
+    python scripts/make_reel2.py --all [--jobs 8]          # every spec in SPECS, in parallel
+                                                          # (the 159-reel format library was deleted 2026-10-20)
 
 Output: output/formats/<slug>.mp4, <slug>.jpg (poster), <slug>.json (meta)
 
