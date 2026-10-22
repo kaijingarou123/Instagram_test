@@ -1,0 +1,120 @@
+{
+  "slug": "snow-leopard-cant-roar",
+  "slides": [
+    {
+      "type": "cover",
+      "image": "a-snow-leopard-wild-ladakh/01.jpg",
+      "focus": [
+        0.4,
+        0.4
+      ],
+      "kicker": "Species spotlight",
+      "headline": "A big cat that does not roar.",
+      "sub": "Meet the snow leopard, the quiet one of the mountains"
+    },
+    {
+      "type": "fact",
+      "image": "wild-snow-leopard/02.jpg",
+      "focus": [
+        0.78,
+        0.45
+      ],
+      "number": "01",
+      "headline": "No roar, just a yowl",
+      "body": "Unlike other big cats, snow leopards do not roar. They yowl to advertise where they are, and greet each other with a soft, nasal chuff.",
+      "source": "Animal Diversity Web"
+    },
+    {
+      "type": "fact",
+      "image": "snow-leopard-ladakh/01.jpg",
+      "focus": [
+        0.55,
+        0.45
+      ],
+      "number": "02",
+      "headline": "Some roaring parts, not all",
+      "body": "It has the partly elastic hyoid of roaring cats, once credited for the roar. But its vocal folds are only intermediate between roarers and other cats.",
+      "source": "Weissengruber et al., Journal of Anatomy (2002)"
+    },
+    {
+      "type": "fact",
+      "image": "wild-snow-leopard/01.jpg",
+      "focus": [
+        0.45,
+        0.45
+      ],
+      "number": "03",
+      "headline": "A tail almost as long as its body",
+      "body": "At 80–100 cm (75–90% of its body length), the tail aids balance on steep rock and covers its extremities in harsh winter weather.",
+      "source": "Animal Diversity Web"
+    },
+    {
+      "type": "fact",
+      "image": "a-snow-leopard-wild-ladakh/01.jpg",
+      "focus": [
+        0.6,
+        0.5
+      ],
+      "number": "04",
+      "headline": "Built for thin air",
+      "body": "Found from about 500 to 5,800 m, mostly at 3,000–4,500 m, across 12 countries including India, Nepal, Bhutan and Pakistan.",
+      "source": "IUCN Red List (2016); Animal Diversity Web"
+    },
+    {
+      "type": "fact",
+      "image": "wild-snow-leopard/01.jpg",
+      "focus": [
+        0.78,
+        0.45
+      ],
+      "number": "05",
+      "headline": "Vulnerable, and still declining",
+      "body": "The IUCN (assessed 2016) estimates 2,710–3,386 mature snow leopards, with a decreasing trend. Threats include hunting, livestock farming, mining, roads and climate change.",
+      "source": "IUCN Red List (2016 assessment)"
+    },
+    {
+      "type": "closing",
+      "image": "snow-leopard-ladakh/01.jpg",
+      "focus": [
+        0.55,
+        0.45
+      ],
+      "headline": "Send this to the friend who thinks every big cat roars.",
+      "body": "Quiet cats, loud facts, every week. Follow @earthspirit_nature.",
+      "sources": [
+        "IUCN Red List: Panthera uncia (assessed 2016) iucnredlist.org/species/22732/50664030",
+        "Animal Diversity Web: Uncia uncia",
+        "Weissengruber et al. (2002) J. Anat. 201: 195–209",
+        "Britannica: Snow leopard"
+      ]
+    }
+  ],
+  "caption": "The snow leopard (Panthera uncia) is a big cat that does not roar. It yowls, chuffs and stays out of sight.\n\nSnow leopards share the partly elastic hyoid bone that was long thought to explain roaring, yet their vocal folds differ from those of lions and tigers. Between 1986 and 2017 the species was listed as Endangered, then moved to Vulnerable after a calculation error was found in the 2008 population assessment.\n\nSwipe for the yowl, the tail and the numbers. Sources on the last slide.\n\nSource: IUCN Red List (Panthera uncia, assessed 2016); Animal Diversity Web; Weissengruber et al. (2002), Journal of Anatomy; Britannica.\n\nSave this for your next trip to Ladakh or Spiti.\n\nPhotos: Wikimedia Commons, CC BY-SA 4.0, CC BY 4.0 and CC BY 3.0 (credits on each slide). All wild snow leopards: in Ladakh, India (slides 1, 3, 5 and 7, slide 3 shot through a spotting scope) and on a Snow Leopard Trust camera trap in Kyrgyzstan (slides 2, 4 and 6).",
+  "hashtags": [
+    "#snowleopard",
+    "#ladakh",
+    "#himalayanwildlife",
+    "#bigcats",
+    "#wildlifeeducation"
+  ],
+  "sources": [
+    "https://www.iucnredlist.org/species/22732/50664030",
+    "https://animaldiversity.org/accounts/Uncia_uncia/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC1570911/",
+    "https://www.britannica.com/animal/snow-leopard"
+  ],
+  "alt_texts": [
+    "Wild female snow leopard resting among granite boulders in Ladakh, India, looking at the camera, headline 'A big cat that does not roar'",
+    "Wild snow leopard on a camera trap in Kyrgyzstan, licking its lips beside a rock, with text on how snow leopards yowl and chuff instead of roaring",
+    "Wild snow leopard lying on a lichen-covered cliff in Ladakh, India, seen through a spotting scope, with text on its hyoid bone and vocal folds",
+    "Wild snow leopard on a camera trap in Kyrgyzstan with its long tail curled up, with text on its tail being 75 to 90 percent of its body length",
+    "Wild snow leopard camouflaged among rocks in Ladakh, India, with text on its altitude range and range countries",
+    "Wild snow leopard on a camera trap in Kyrgyzstan looking to the side, with text on its Vulnerable IUCN status and 2,710 to 3,386 mature individuals",
+    "Wild snow leopard on a cliff in Ladakh, India, closing slide with sources and photo credits"
+  ],
+  "format_tags": [
+    "format:explainer",
+    "format:fact-over-footage",
+    "tactic:hook-text"
+  ]
+}

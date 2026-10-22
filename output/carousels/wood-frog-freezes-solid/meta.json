@@ -1,0 +1,51 @@
+{
+  "slug": "wood-frog-freezes-solid",
+  "format": "carousel",
+  "size": "1080x1350",
+  "slides": [
+    "01.jpg",
+    "02.jpg",
+    "03.jpg",
+    "04.jpg",
+    "05.jpg",
+    "06.jpg",
+    "07.jpg"
+  ],
+  "alt_texts": [
+    "Wild wood frog among red fallen leaves in Maryland, headline 'This frog spends winter frozen, with no heartbeat'",
+    "Close-up of a wild wood frog on sandy ground in Minnesota, with the statistic 65 to 70 percent of body water can turn to ice",
+    "Wild wood frog hiding in dry leaves and grass in Pennsylvania, with text explaining a frozen frog has no heartbeat or breathing",
+    "Wild wood frog among pebbles and small plants in Minnesota, with text on glucose from the liver acting as antifreeze",
+    "Wild wood frog in leaf litter, with the statistic 193 days frozen in a row for wood frogs in Alaska",
+    "Wild wood frog in dry leaves and grass in Pennsylvania, with text on its range reaching the Brooks Range in Arctic Alaska",
+    "Wild wood frog on sandy ground in Minnesota, closing slide with sources and photo credits"
+  ],
+  "caption_chars": 863,
+  "hashtags": [
+    "#woodfrog",
+    "#amphibians",
+    "#freezetolerance",
+    "#herpetology",
+    "#naturestudy"
+  ],
+  "format_tags": [
+    "format:explainer",
+    "format:fact-over-footage",
+    "tactic:hook-text"
+  ],
+  "sources": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC8067143/",
+    "https://doi.org/10.1242/jeb.101931",
+    "https://animaldiversity.org/accounts/Lithobates_sylvaticus/",
+    "https://www.nps.gov/articles/000/aps-22-1-5.htm"
+  ],
+  "photo_credits": [
+    "Photo: Judy Gallagher · Wikimedia Commons · CC BY 2.0",
+    "Photo: Jasper Shide · Wikimedia Commons · CC0",
+    "Photo: Riley Stanton · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Jasper Shide · Wikimedia Commons · CC0",
+    "Photo: Judy Gallagher · Wikimedia Commons · CC BY 2.0",
+    "Photo: Riley Stanton · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Jasper Shide · Wikimedia Commons · CC0"
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "slug": "blue-whale-heartbeat",
+  "slides": [
+    {
+      "type": "cover",
+      "image": "blue-whale/01.jpg",
+      "focus": [
+        0.5,
+        0.35
+      ],
+      "kicker": "Scale",
+      "headline": "Its heart can slow to 2 beats a minute.",
+      "sub": "What happened when scientists tagged the largest animal on Earth"
+    },
+    {
+      "type": "stat",
+      "image": "balaenoptera-musculus/01.jpg",
+      "focus": [
+        0.35,
+        0.5
+      ],
+      "stat": "2 bpm",
+      "label": "the lowest heart rate measured in a diving blue whale",
+      "body": "During foraging dives as deep as 184 m and as long as 16.5 minutes, beats typically ran at just 4–8 a minute.",
+      "source": "Goldbogen et al., PNAS (2019)"
+    },
+    {
+      "type": "fact",
+      "image": "balaenoptera-musculus/02.jpg",
+      "focus": [
+        0.55,
+        0.5
+      ],
+      "number": "01",
+      "headline": "Compare that with yours",
+      "body": "A resting adult human heart beats 60–100 times a minute. At its slowest, the diving whale's heart beat 30 to 50 times slower.",
+      "source": "MedlinePlus (NIH); Goldbogen et al., PNAS (2019)"
+    },
+    {
+      "type": "fact",
+      "image": "balaenoptera-musculus/03.jpg",
+      "focus": [
+        0.55,
+        0.5
+      ],
+      "number": "02",
+      "headline": "Then it races at the surface",
+      "body": "Between dives, as the whale breathed, its heart sped up to 25–37 beats a minute, near the estimated maximum possible for a heart that size.",
+      "source": "Goldbogen et al., PNAS (2019)"
+    },
+    {
+      "type": "fact",
+      "image": "blue-whale/01.jpg",
+      "focus": [
+        0.5,
+        0.75
+      ],
+      "number": "03",
+      "headline": "A heart of nearly 400 pounds",
+      "body": "One preserved blue whale heart weighs nearly 400 lb (about 180 kg) and stands about 6.5 ft tall with its main vessels attached.",
+      "source": "Smithsonian Magazine (2017)"
+    },
+    {
+      "type": "fact",
+      "image": "balaenoptera-musculus/02.jpg",
+      "focus": [
+        0.3,
+        0.5
+      ],
+      "number": "04",
+      "headline": "The largest animal on Earth",
+      "body": "Up to 110 ft (about 33 m) long and 330,000 lb. Still Endangered (IUCN, 2018), with an estimated 5,000–15,000 mature adults, and increasing.",
+      "source": "NOAA Fisheries; IUCN Red List (2018)"
+    },
+    {
+      "type": "closing",
+      "image": "balaenoptera-musculus/01.jpg",
+      "focus": [
+        0.6,
+        0.5
+      ],
+      "headline": "Save this for the next time your heart races.",
+      "body": "All of this came from one tagged whale and 8.5 hours of heartbeats. Follow @earthspirit_nature.",
+      "sources": [
+        "Goldbogen, J.A. et al. (2019) Extreme bradycardia and tachycardia in the world's largest animal. PNAS 116:25329–25332",
+        "NOAA Fisheries: Blue Whale",
+        "IUCN Red List: Balaenoptera musculus (2018)",
+        "Smithsonian Magazine (2017): preserving a blue whale heart",
+        "MedlinePlus (NIH): Pulse"
+      ]
+    }
+  ],
+  "caption": "A blue whale (Balaenoptera musculus) diving to feed can slow its heart to just 2 beats a minute.\n\nScientists fixed a suction-cup ECG tag to a single free-diving blue whale in Monterey Bay, California, and recorded 8.5 hours of heartbeats. During each feeding lunge at depth, its heart rate rose about 2.5-fold before slowing again. Their paper's title sums it up: extreme bradycardia and tachycardia in the world's largest animal.\n\nSwipe for the full story. Sources on the last slide.\n\nSource: Goldbogen et al. (2019), PNAS 116:25329–25332; NOAA Fisheries; IUCN Red List (2018).\n\nSend this to someone who would love to hear a whale's heartbeat.\n\nPhotos: Wikimedia Commons, public domain (NOAA Fisheries) and CC BY-SA 4.0 (credits on each slide).",
+  "hashtags": [
+    "#bluewhale",
+    "#whales",
+    "#cetaceans",
+    "#oceanscience",
+    "#animalfacts"
+  ],
+  "sources": [
+    "https://www.pnas.org/doi/10.1073/pnas.1914273116",
+    "https://www.fisheries.noaa.gov/species/blue-whale",
+    "https://www.iucnredlist.org/species/2477/156923585",
+    "https://www.smithsonianmag.com/travel/painstaking-process-preserving-blue-whales-heart-180964038/",
+    "https://medlineplus.gov/ency/article/003399.htm"
+  ],
+  "alt_texts": [
+    "Aerial black and white view of a blue whale gliding through dark water, headline 'Its heart can slow to 2 beats a minute'",
+    "A blue whale exhaling a tall blow at the sea surface, with the statistic 2 beats per minute",
+    "The long grey back of a blue whale breaking the surface in Svalbard, with text comparing its heart rate to a resting human's",
+    "A distant blue whale blowing in calm grey water in Svalbard, with text about its heart speeding up at the surface",
+    "Tail section of a blue whale seen from above, with text about a preserved blue whale heart weighing nearly 400 pounds",
+    "Blue whale back at the surface in Svalbard, with text on its size and Endangered IUCN status",
+    "Blue whale blowing at the surface, closing slide with sources and photo credits"
+  ],
+  "format_tags": [
+    "format:fact-over-footage",
+    "format:explainer",
+    "tactic:hook-text"
+  ]
+}

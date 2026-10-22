@@ -1,0 +1,50 @@
+{
+  "slug": "owl-head-270-myth",
+  "format": "carousel",
+  "size": "1080x1350",
+  "slides": [
+    "01.jpg",
+    "02.jpg",
+    "03.jpg",
+    "04.jpg",
+    "05.jpg",
+    "06.jpg",
+    "07.jpg"
+  ],
+  "alt_texts": [
+    "Wild barred owl perched on a branch among green leaves in Seattle, headline 'No, owls can't turn their heads 360 degrees'",
+    "Wild barn owl standing on a fence post beside reeds, with text explaining owl eyes are fixed in bony tubes",
+    "Wild barred owl on a branch at dusk in Ohio, with the statistic 270 degrees of head rotation in either direction",
+    "Wild great horned owl perched among pine branches in California, with text on how neck twists injure human arteries",
+    "Wild barred owl in a leafy tree, with the statistic that the bony tunnels for the neck artery are 10 times wider than the artery",
+    "Wild great horned owl perched on a power line pole at dusk in Montana, with text on blood reservoirs under the jaw",
+    "Wild great horned owl on a branch, closing slide with sources and photo credits"
+  ],
+  "caption_chars": 896,
+  "hashtags": [
+    "#owls",
+    "#barredowl",
+    "#birdanatomy",
+    "#mythbusting",
+    "#animalfacts"
+  ],
+  "format_tags": [
+    "format:myth-bust",
+    "format:fact-over-footage",
+    "tactic:hook-text"
+  ],
+  "sources": [
+    "https://www.science.org/doi/10.1126/science.339.6119.514",
+    "https://www.sciencedaily.com/releases/2013/01/130131144102.htm",
+    "https://www.britannica.com/animal/owl"
+  ],
+  "photo_credits": [
+    "Photo: Guywelch2000 · Wikimedia Commons · CC BY 4.0",
+    "Photo: Alun Williams333 · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Sixflashphoto · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Bettina Arrigoni · Wikimedia Commons · CC BY 2.0",
+    "Photo: Guywelch2000 · Wikimedia Commons · CC BY 4.0",
+    "Photo: Montanabw · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: USFWS Mountain-Prairie · Wikimedia Commons · Public domain"
+  ]
+}

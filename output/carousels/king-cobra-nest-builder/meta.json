@@ -1,0 +1,53 @@
+{
+  "slug": "king-cobra-nest-builder",
+  "format": "carousel",
+  "size": "1080x1350",
+  "slides": [
+    "01.jpg",
+    "02.jpg",
+    "03.jpg",
+    "04.jpg",
+    "05.jpg",
+    "06.jpg",
+    "07.jpg"
+  ],
+  "alt_texts": [
+    "Wild king cobra, labelled as Ophiophagus kaalinga, raising its black and yellow banded body on a dirt track, headline 'This snake builds a nest. And eats snakes.'",
+    "Wild king cobra biting the head of a reticulated python on the forest floor in Kaeng Krachan National Park, Thailand, with text on its snake-eating diet",
+    "Wild olive king cobra with its head raised among dry leaves in Kaeng Krachan National Park, Thailand, with text on how the female builds a leaf nest",
+    "Wild king cobra, labelled as Ophiophagus kaalinga, rearing up with tongue out on a forest track, with text on the female guarding her nest",
+    "Wild king cobra eating a reticulated python in Thailand, with the statistic 5.6 metres for the longest confirmed king cobra",
+    "Wild king cobra, labelled as Ophiophagus kaalinga, rearing with its pale yellow throat showing, with text on the 2024 split into four species",
+    "Wild king cobra with its head raised in Kaeng Krachan National Park, Thailand, closing slide with sources and photo credits"
+  ],
+  "caption_chars": 1033,
+  "hashtags": [
+    "#kingcobra",
+    "#snakesofindia",
+    "#westernghats",
+    "#reptiles",
+    "#animalfacts"
+  ],
+  "format_tags": [
+    "format:explainer",
+    "format:fact-over-footage",
+    "tactic:hook-text"
+  ],
+  "sources": [
+    "https://europeanjournaloftaxonomy.eu/index.php/ejt/article/view/2681",
+    "https://www.iucnredlist.org/species/177540/1491874",
+    "https://www.britannica.com/animal/king-cobra",
+    "https://nationalzoo.si.edu/animals/king-cobra",
+    "https://animaldiversity.org/accounts/Ophiophagus_hannah/",
+    "https://www.merriam-webster.com/dictionary/ophiophagous"
+  ],
+  "photo_credits": [
+    "Photo: Davidvraju · Wikimedia Commons · CC BY 4.0",
+    "Photo: Rushen · Wikimedia Commons · CC BY-SA 2.0",
+    "Photo: Rushenb · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Davidvraju · Wikimedia Commons · CC BY 4.0",
+    "Photo: Rushen · Wikimedia Commons · CC BY-SA 2.0",
+    "Photo: Davidvraju · Wikimedia Commons · CC BY 4.0",
+    "Photo: Rushenb · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

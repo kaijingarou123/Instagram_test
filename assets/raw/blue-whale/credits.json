@@ -1,0 +1,54 @@
+[
+  {
+    "title": "File:Blue Whale 001 body bw.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABlue%20Whale%20001%20body%20bw.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Blue_Whale_001_body_bw.jpg/1920px-Blue_Whale_001_body_bw.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 3983,
+    "height": 5087,
+    "license": "Public domain",
+    "artist": "NOAA Fisheries (TBjornstad 11:17, 18 April 2007 (UTC))",
+    "credit": "Protected Resouces Division, Southwest Fisheries Science Center, La Jolla, California",
+    "description": "Blue Whale",
+    "curated": false,
+    "file": "01.jpg"
+  },
+  {
+    "title": "File:Kraken size (Olaus Magnus).png",
+    "page": "https://commons.wikimedia.org/wiki/File%3AKraken%20size%20%28Olaus%20Magnus%29.png",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Kraken_size_%28Olaus_Magnus%29.png/1920px-Kraken_size_%28Olaus_Magnus%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 7300,
+    "height": 2300,
+    "license": "CC0",
+    "artist": "Blockhaj",
+    "credit": "Own work",
+    "description": "The size of the kraken according to Olaus Magnus's indications of the circumference of the eyes of his unnamed monster in Carta marina (1539) and Historia om de nordiska folken (1555)(which German Conrad Gessner later named: Bart-wal, \"bearded whale\"), if applied to a giant squid with a body-length/",
+    "curated": false,
+    "file": "02.jpg"
+  },
+  {
+    "title": "File:2023-08-04 Blue whale Isfjord Svalbard 01.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File%3A2023-08-04%20Blue%20whale%20Isfjord%20Svalbard%2001.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/2023-08-04_Blue_whale_Isfjord_Svalbard_01.jpg/1920px-2023-08-04_Blue_whale_Isfjord_Svalbard_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 5184,
+    "height": 2916,
+    "license": "CC BY-SA 4.0",
+    "artist": "Carina Gsottbauer",
+    "credit": "Own work",
+    "description": "Blue whale (Balaenoptera musculus) in Isfjord Svalbard.",
+    "curated": false,
+    "file": "03.jpg"
+  },
+  {
+    "title": "File:2023-08-04 Blue whale Isfjord Svalbard 04.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File%3A2023-08-04%20Blue%20whale%20Isfjord%20Svalbard%2004.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/2023-08-04_Blue_whale_Isfjord_Svalbard_04.jpg/1920px-2023-08-04_Blue_whale_Isfjord_Svalbard_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 4648,
+    "height": 2615,
+    "license": "CC BY-SA 4.0",
+    "artist": "Carina Gsottbauer",
+    "credit": "Own work",
+    "description": "Blue whale (Balaenoptera musculus) blow in Isfjord Svalbard.",
+    "curated": false,
+    "file": "04.jpg"
+  }
+]

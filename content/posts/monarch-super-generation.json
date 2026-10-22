@@ -1,0 +1,122 @@
+{
+  "slug": "monarch-super-generation",
+  "slides": [
+    {
+      "type": "cover",
+      "image": "monarch-butterfly/02.jpg",
+      "focus": [
+        0.7,
+        0.4
+      ],
+      "kicker": "How does it survive?",
+      "headline": "This monarch lives months, not weeks.",
+      "sub": "Meet the generation built for the flight south"
+    },
+    {
+      "type": "fact",
+      "image": "monarch-butterfly/01.jpg",
+      "focus": [
+        0.25,
+        0.35
+      ],
+      "number": "01",
+      "headline": "Summer monarchs live fast",
+      "body": "Breeding adults live about 2–5 weeks: they mate, lay eggs and die. Up to four generations follow each other every summer, each moving further north.",
+      "source": "USDA Forest Service"
+    },
+    {
+      "type": "stat",
+      "image": "danaus-plexippus/04.jpg",
+      "focus": [
+        0.45,
+        0.45
+      ],
+      "stat": "6–9",
+      "label": "months: the lifespan of the overwintering generation",
+      "body": "The last generation of the year migrates south. These adults put breeding on hold (reproductive diapause) and can live six to nine months.",
+      "source": "US Fish & Wildlife Service"
+    },
+    {
+      "type": "stat",
+      "image": "danaus-plexippus/02.jpg",
+      "focus": [
+        0.4,
+        0.5
+      ],
+      "stat": "3,000 km",
+      "label": "and more: the eastern monarchs' fall flight to Mexico",
+      "body": "They winter in oyamel fir forests in central Mexico's mountains, 2,400–3,600 m above sea level. Pictured: a wild roost at Piedra Herrada, Mexico.",
+      "source": "US Fish & Wildlife Service"
+    },
+    {
+      "type": "fact",
+      "image": "monarch-butterfly/04.jpg",
+      "focus": [
+        0.62,
+        0.4
+      ],
+      "number": "02",
+      "headline": "Steering by the sun",
+      "body": "Migrants navigate with a time-compensated sun compass. The clock that corrects for the sun's movement across the sky sits in their antennae.",
+      "source": "Merlin, Gegear & Reppert, Science (2009)"
+    },
+    {
+      "type": "fact",
+      "image": "monarch-butterfly-roost/01.jpg",
+      "focus": [
+        0.45,
+        0.4
+      ],
+      "number": "03",
+      "headline": "Vulnerable, and still declining",
+      "body": "The IUCN listed the migratory monarch as Endangered in 2022, then reassessed it as Vulnerable in 2023. Its population trend is still decreasing.",
+      "source": "IUCN Red List (2023)"
+    },
+    {
+      "type": "closing",
+      "image": "danaus-plexippus/02.jpg",
+      "focus": [
+        0.6,
+        0.5
+      ],
+      "headline": "Save this for monarch season.",
+      "body": "One species, one story, every source listed. Follow @earthspirit_nature.",
+      "sources": [
+        "USDA Forest Service: Monarch Butterfly Biology; Migration",
+        "USFWS: Monarch (Danaus plexippus)",
+        "Merlin, Gegear & Reppert (2009) Science 325:1700",
+        "IUCN Red List: Danaus plexippus ssp. plexippus (2023)"
+      ]
+    }
+  ],
+  "caption": "Most monarch butterflies (Danaus plexippus) live a few weeks, but the last generation of summer can live six to nine months.\n\nThat long-lived generation makes the migration. Monarchs west of the Rocky Mountains fly a shorter route, about 500 to 1,600 km, to hundreds of groves along the California coast, where they cluster in eucalyptus, Monterey pine and Monterey cypress trees. In spring the journey north is a relay, taking 3 to 4 generations to reach the northern US and Canada.\n\nSwipe for how one generation does it all. Sources on the last slide.\n\nSource: USDA Forest Service; US Fish & Wildlife Service; Merlin et al. (2009), Science; IUCN Red List (2023).\n\nIf you plant milkweed, send this to someone who should too.\n\nPhotos: Wikimedia Commons, public domain and CC BY-SA 4.0 (credits on each slide). All monarchs pictured are wild.",
+  "hashtags": [
+    "#monarchbutterfly",
+    "#monarchmigration",
+    "#insectmigration",
+    "#pollinators",
+    "#wildlifeeducation"
+  ],
+  "sources": [
+    "https://www.fs.usda.gov/wildflowers/pollinators/Monarch_Butterfly/biology/index.shtml",
+    "https://www.fs.usda.gov/wildflowers/pollinators/Monarch_Butterfly/migration/index.shtml",
+    "https://www.fws.gov/species/monarch-danaus-plexippus",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC2754321/",
+    "https://www.iucnredlist.org/species/194052138/246096271"
+  ],
+  "alt_texts": [
+    "Wild monarch butterfly on switchgrass against a blue sky in Michigan, headline 'This monarch lives months, not weeks'",
+    "Wild monarch butterfly hanging from a foxtail grass head in Michigan, with text on summer monarchs living 2 to 5 weeks",
+    "Wild male monarch butterfly feeding on an orange Mexican sunflower in a Brooklyn garden, with the statistic 6 to 9 months lifespan",
+    "Thousands of wild monarch butterflies clustered on trees at Piedra Herrada, Mexico, with the statistic 3,000 km fall flight",
+    "Wild monarch butterfly on goldenrod at Guild Park, Toronto, during migration season, with text on the antenna-timed sun compass",
+    "Dense cluster of wild monarch butterflies roosting in a tree at Ellwood Mesa, California, with text on the IUCN Vulnerable listing",
+    "Wild monarch butterflies roosting at Piedra Herrada, Mexico, closing slide with sources and photo credits"
+  ],
+  "format_tags": [
+    "format:explainer",
+    "format:conservation-story",
+    "format:fact-over-footage",
+    "tactic:hook-text"
+  ]
+}

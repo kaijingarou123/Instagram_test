@@ -1,0 +1,52 @@
+{
+  "slug": "orca-biggest-dolphin",
+  "format": "carousel",
+  "size": "1080x1350",
+  "slides": [
+    "01.jpg",
+    "02.jpg",
+    "03.jpg",
+    "04.jpg",
+    "05.jpg",
+    "06.jpg",
+    "07.jpg"
+  ],
+  "alt_texts": [
+    "A wild orca breaching almost fully out of the water off the Olympic Coast, headline 'The killer whale is the world's biggest dolphin'",
+    "Two wild orcas spyhopping beside an ice floe with a crabeater seal in Antarctica, with text explaining orcas belong to the dolphin family",
+    "A wild orca's dorsal fin above grey water off Vancouver Island, with the statistic that the largest males exceed 10 m",
+    "A wild orca pod surfacing near a rocky shore, with text on resident offspring staying with their mother's group",
+    "A wild orca breaching in Resurrection Bay, Alaska, with text about each pod's learned dialect",
+    "A wild orca surfacing beside an ice floe where a crabeater seal rests, Antarctica, with text on different orca diets by ecotype",
+    "A wild orca breaching in Resurrection Bay, Alaska, closing slide with the IUCN Data Deficient status, sources and photo credits"
+  ],
+  "caption_chars": 740,
+  "hashtags": [
+    "#orca",
+    "#killerwhale",
+    "#dolphins",
+    "#cetaceans",
+    "#wildlifeeducation"
+  ],
+  "format_tags": [
+    "format:myth-bust",
+    "format:fact-over-footage",
+    "tactic:hook-text"
+  ],
+  "sources": [
+    "https://www.fisheries.noaa.gov/species/killer-whale",
+    "https://www.britannica.com/animal/killer-whale",
+    "https://www.britannica.com/animal/dolphin-mammal",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC1834010/",
+    "https://www.iucnredlist.org/species/15421/50368125"
+  ],
+  "photo_credits": [
+    "Photo: National Marine Sanctuaries · Wikimedia Commons · Public domain",
+    "Photo: Callan Carpenter · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Buiobuione · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Adrian Steen · Wikimedia Commons · CC BY-SA 2.0",
+    "Photo: The Modern Polymath · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Callan Carpenter · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: The Modern Polymath · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "slug": "gharial-last-snouts",
+  "slides": [
+    {
+      "type": "cover",
+      "image": "gavialis-gangeticus/02.jpg",
+      "focus": [
+        0.28,
+        0.5
+      ],
+      "kicker": "Conservation",
+      "headline": "An estimated 650 adult gharials remain in the wild.",
+      "sub": "A crocodile built for fish, running out of river"
+    },
+    {
+      "type": "fact",
+      "image": "gavialis-gangeticus/03.jpg",
+      "focus": [
+        0.3,
+        0.5
+      ],
+      "number": "01",
+      "headline": "A snout built for fish",
+      "body": "Long, narrow jaws lined with sharp, interlocking teeth strike quickly at fish. Adults eat mainly fish; young gharials also take insects, crustaceans and frogs.",
+      "source": "Smithsonian's National Zoo"
+    },
+    {
+      "type": "fact",
+      "image": "male-gharial/01.jpg",
+      "focus": [
+        0.0,
+        0.5
+      ],
+      "number": "02",
+      "headline": "The pot on his nose",
+      "body": "Adult males grow a bulb on the snout tip called a ghara, after an Indian pot. It resonates their buzzing calls and signals to females. (Captive male pictured.)",
+      "source": "Smithsonian's National Zoo"
+    },
+    {
+      "type": "stat",
+      "image": "gharial/04.jpg",
+      "focus": [
+        0.62,
+        0.5
+      ],
+      "stat": "300–900",
+      "label": "mature gharials left in the wild (best estimate 650)",
+      "body": "Critically Endangered on the IUCN Red List (assessed 2017). It is already extinct in Pakistan, Bhutan and Myanmar.",
+      "source": "IUCN Red List (2017 assessment)"
+    },
+    {
+      "type": "fact",
+      "image": "gavialis-gangeticus/04.jpg",
+      "focus": [
+        0.78,
+        0.5
+      ],
+      "number": "03",
+      "headline": "Rivers cut into pieces",
+      "body": "Dams and diversions split its rivers, mining and quarrying damage them, and overfishing takes its food. Weak on land, it cannot easily move to new rivers.",
+      "source": "IUCN Red List; Smithsonian's National Zoo"
+    },
+    {
+      "type": "fact",
+      "image": "gavialis-gangeticus/02.jpg",
+      "focus": [
+        0.7,
+        0.55
+      ],
+      "number": "04",
+      "headline": "Saved once, still not safe",
+      "body": "Gharials nearly vanished in the 1970s. Despite breeding and release programmes, numbers fell 58% from 1997 to 2006. IUCN now lists the trend as increasing.",
+      "source": "Smithsonian's National Zoo; IUCN Red List"
+    },
+    {
+      "type": "closing",
+      "image": "gavialis-gangeticus/04.jpg",
+      "focus": [
+        0.85,
+        0.5
+      ],
+      "headline": "Send this to someone who has never met a gharial.",
+      "body": "One wild story, properly sourced, every week. Follow @earthspirit_nature.",
+      "sources": [
+        "IUCN Red List: Gavialis gangeticus (assessed 2017, published 2019) iucnredlist.org/species/8966/149227430",
+        "Smithsonian's National Zoo and Conservation Biology Institute: Gharial"
+      ]
+    }
+  ],
+  "caption": "The gharial (Gavialis gangeticus) is a fish-eating crocodile with an estimated 650 adults left in the wild.\n\nIts range once ran through the rivers of six countries, from Pakistan to Myanmar. Today wild gharials survive in fragmented stretches of river, mainly in northern India and Nepal, and the species is Critically Endangered. Females dig their nests in sandbanks in the dry season and lay an average of 40 eggs.\n\nSwipe for the snout, the ghara and the threats. Sources on the last slide.\n\nSource: IUCN Red List (Gavialis gangeticus, assessed 2017); Smithsonian's National Zoo.\n\nSave this for the next time someone calls every crocodile the same.\n\nPhotos: Wikimedia Commons, CC BY-SA 4.0 and CC BY-SA 3.0 (credits on each slide). Slide 3 shows a captive male at the Madras Crocodile Bank Trust; all other photos are wild gharials on the Chambal (India) and Babai (Nepal) rivers.",
+  "hashtags": [
+    "#gharial",
+    "#crocodilians",
+    "#chambalriver",
+    "#indianwildlife",
+    "#endangeredspecies"
+  ],
+  "sources": [
+    "https://www.iucnredlist.org/species/8966/149227430",
+    "https://nationalzoo.si.edu/animals/gharial"
+  ],
+  "alt_texts": [
+    "Wild female gharial with its long, narrow jaws open on a Chambal River sandbank in India, headline 'An estimated 650 adult gharials remain in the wild'",
+    "Wild female gharial basking on a Chambal River sandbank in India, with text on its fish-catching snout",
+    "Captive male gharial underwater showing the bulbous ghara on its snout tip, with text explaining the ghara",
+    "Wild female gharial basking on a sandbank of the Babai River, Nepal, with the statistic 300 to 900 mature gharials left in the wild",
+    "Wild female and juvenile gharial on a riverbank in Bardiya National Park, Nepal, with text on dams, mining and overfishing",
+    "Wild gharial on a Chambal River bank, with text on its near extinction in the 1970s and the 58 percent decline from 1997 to 2006",
+    "Wild female and juvenile gharial on a riverbank in Bardiya National Park, Nepal, closing slide with sources and photo credits"
+  ],
+  "format_tags": [
+    "format:conservation-story",
+    "format:fact-over-footage",
+    "tactic:hook-text"
+  ]
+}

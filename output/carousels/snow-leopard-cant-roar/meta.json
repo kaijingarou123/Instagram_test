@@ -1,0 +1,51 @@
+{
+  "slug": "snow-leopard-cant-roar",
+  "format": "carousel",
+  "size": "1080x1350",
+  "slides": [
+    "01.jpg",
+    "02.jpg",
+    "03.jpg",
+    "04.jpg",
+    "05.jpg",
+    "06.jpg",
+    "07.jpg"
+  ],
+  "alt_texts": [
+    "Wild female snow leopard resting among granite boulders in Ladakh, India, looking at the camera, headline 'A big cat that does not roar'",
+    "Wild snow leopard on a camera trap in Kyrgyzstan, licking its lips beside a rock, with text on how snow leopards yowl and chuff instead of roaring",
+    "Wild snow leopard lying on a lichen-covered cliff in Ladakh, India, seen through a spotting scope, with text on its hyoid bone and vocal folds",
+    "Wild snow leopard on a camera trap in Kyrgyzstan with its long tail curled up, with text on its tail being 75 to 90 percent of its body length",
+    "Wild snow leopard camouflaged among rocks in Ladakh, India, with text on its altitude range and range countries",
+    "Wild snow leopard on a camera trap in Kyrgyzstan looking to the side, with text on its Vulnerable IUCN status and 2,710 to 3,386 mature individuals",
+    "Wild snow leopard on a cliff in Ladakh, India, closing slide with sources and photo credits"
+  ],
+  "caption_chars": 1018,
+  "hashtags": [
+    "#snowleopard",
+    "#ladakh",
+    "#himalayanwildlife",
+    "#bigcats",
+    "#wildlifeeducation"
+  ],
+  "format_tags": [
+    "format:explainer",
+    "format:fact-over-footage",
+    "tactic:hook-text"
+  ],
+  "sources": [
+    "https://www.iucnredlist.org/species/22732/50664030",
+    "https://animaldiversity.org/accounts/Uncia_uncia/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC1570911/",
+    "https://www.britannica.com/animal/snow-leopard"
+  ],
+  "photo_credits": [
+    "Photo: T. R. Shankar Raman · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Snow Leopard Trust · Wikimedia Commons · CC BY 3.0",
+    "Photo: Sneedicture · Wikimedia Commons · CC BY 4.0",
+    "Photo: Snow Leopard Trust · Wikimedia Commons · CC BY 3.0",
+    "Photo: T. R. Shankar Raman · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Snow Leopard Trust · Wikimedia Commons · CC BY 3.0",
+    "Photo: Sneedicture · Wikimedia Commons · CC BY 4.0"
+  ]
+}

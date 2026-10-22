@@ -1,0 +1,53 @@
+{
+  "slug": "monarch-super-generation",
+  "format": "carousel",
+  "size": "1080x1350",
+  "slides": [
+    "01.jpg",
+    "02.jpg",
+    "03.jpg",
+    "04.jpg",
+    "05.jpg",
+    "06.jpg",
+    "07.jpg"
+  ],
+  "alt_texts": [
+    "Wild monarch butterfly on switchgrass against a blue sky in Michigan, headline 'This monarch lives months, not weeks'",
+    "Wild monarch butterfly hanging from a foxtail grass head in Michigan, with text on summer monarchs living 2 to 5 weeks",
+    "Wild male monarch butterfly feeding on an orange Mexican sunflower in a Brooklyn garden, with the statistic 6 to 9 months lifespan",
+    "Thousands of wild monarch butterflies clustered on trees at Piedra Herrada, Mexico, with the statistic 3,000 km fall flight",
+    "Wild monarch butterfly on goldenrod at Guild Park, Toronto, during migration season, with text on the antenna-timed sun compass",
+    "Dense cluster of wild monarch butterflies roosting in a tree at Ellwood Mesa, California, with text on the IUCN Vulnerable listing",
+    "Wild monarch butterflies roosting at Piedra Herrada, Mexico, closing slide with sources and photo credits"
+  ],
+  "caption_chars": 927,
+  "hashtags": [
+    "#monarchbutterfly",
+    "#monarchmigration",
+    "#insectmigration",
+    "#pollinators",
+    "#wildlifeeducation"
+  ],
+  "format_tags": [
+    "format:explainer",
+    "format:conservation-story",
+    "format:fact-over-footage",
+    "tactic:hook-text"
+  ],
+  "sources": [
+    "https://www.fs.usda.gov/wildflowers/pollinators/Monarch_Butterfly/biology/index.shtml",
+    "https://www.fs.usda.gov/wildflowers/pollinators/Monarch_Butterfly/migration/index.shtml",
+    "https://www.fws.gov/species/monarch-danaus-plexippus",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC2754321/",
+    "https://www.iucnredlist.org/species/194052138/246096271"
+  ],
+  "photo_credits": [
+    "Photo: USFWSmidwest · Wikimedia Commons · Public domain",
+    "Photo: USFWSmidwest · Wikimedia Commons · Public domain",
+    "Photo: Rhododendrites · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Charles J. Sharp · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Jason Zhang · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: USFWS Pacific Southwest Region · Wikimedia Commons · Public domain",
+    "Photo: Charles J. Sharp · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

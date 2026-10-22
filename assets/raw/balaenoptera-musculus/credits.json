@@ -1,0 +1,54 @@
+[
+  {
+    "title": "File:Blow of a blue whale in the Arctic sea.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABlow%20of%20a%20blue%20whale%20in%20the%20Arctic%20sea.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Blow_of_a_blue_whale_in_the_Arctic_sea.jpg/1920px-Blow_of_a_blue_whale_in_the_Arctic_sea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 4629,
+    "height": 2604,
+    "license": "CC BY-SA 4.0",
+    "artist": "AWeith",
+    "credit": "Own work",
+    "description": "The whale (Balaenoptera musculus) shown here had a clear breathing pattern: it surfaced every 4 minutes, then breathed either 3 or 4 times in intervals of 30 seconds and then dived again.",
+    "curated": true,
+    "file": "01.jpg"
+  },
+  {
+    "title": "File:2023-08-04 Blue whale Isfjord Svalbard 01.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File%3A2023-08-04%20Blue%20whale%20Isfjord%20Svalbard%2001.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/2023-08-04_Blue_whale_Isfjord_Svalbard_01.jpg/1920px-2023-08-04_Blue_whale_Isfjord_Svalbard_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 5184,
+    "height": 2916,
+    "license": "CC BY-SA 4.0",
+    "artist": "Carina Gsottbauer",
+    "credit": "Own work",
+    "description": "Blue whale (Balaenoptera musculus) in Isfjord Svalbard.",
+    "curated": false,
+    "file": "02.jpg"
+  },
+  {
+    "title": "File:2023-08-04 Blue whale Isfjord Svalbard 04.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File%3A2023-08-04%20Blue%20whale%20Isfjord%20Svalbard%2004.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/2023-08-04_Blue_whale_Isfjord_Svalbard_04.jpg/1920px-2023-08-04_Blue_whale_Isfjord_Svalbard_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 4648,
+    "height": 2615,
+    "license": "CC BY-SA 4.0",
+    "artist": "Carina Gsottbauer",
+    "credit": "Own work",
+    "description": "Blue whale (Balaenoptera musculus) blow in Isfjord Svalbard.",
+    "curated": false,
+    "file": "03.jpg"
+  },
+  {
+    "title": "File:BalaenopteraMusculus (2).JPG",
+    "page": "https://commons.wikimedia.org/wiki/File%3ABalaenopteraMusculus%20%282%29.JPG",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/BalaenopteraMusculus_%282%29.JPG/1920px-BalaenopteraMusculus_%282%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 4000,
+    "height": 3000,
+    "license": "CC BY-SA 3.0",
+    "artist": "Notafly",
+    "credit": "Own work",
+    "description": "Balaenoptera musculus Calci",
+    "curated": false,
+    "file": "04.jpg"
+  }
+]

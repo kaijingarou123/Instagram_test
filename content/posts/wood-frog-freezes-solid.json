@@ -1,0 +1,120 @@
+{
+  "slug": "wood-frog-freezes-solid",
+  "slides": [
+    {
+      "type": "cover",
+      "image": "wood-frog/04.jpg",
+      "focus": [
+        0.55,
+        0.55
+      ],
+      "kicker": "How does it survive?",
+      "headline": "This frog spends winter frozen, with no heartbeat.",
+      "sub": "Then it thaws in spring and carries on with life"
+    },
+    {
+      "type": "stat",
+      "image": "wood-frog/01.jpg",
+      "focus": [
+        0.45,
+        0.5
+      ],
+      "stat": "65–70%",
+      "label": "of its body water can turn to ice",
+      "body": "The ice forms outside the cells. Water is drawn out of them, so cells and organs shrink dramatically, but survive.",
+      "source": "Storey, Wu & Storey, Antioxidants (2021)"
+    },
+    {
+      "type": "fact",
+      "image": "wood-frog/03.jpg",
+      "focus": [
+        0.5,
+        0.35
+      ],
+      "number": "01",
+      "headline": "No heartbeat. No breathing.",
+      "body": "A frozen wood frog has no detectable vital signs: no heartbeat, breathing, blood circulation or brain activity. It stays that way for weeks or months.",
+      "source": "Storey, Wu & Storey, Antioxidants (2021)"
+    },
+    {
+      "type": "fact",
+      "image": "wood-frog/02.jpg",
+      "focus": [
+        0.5,
+        0.4
+      ],
+      "number": "02",
+      "headline": "Sugar as antifreeze",
+      "body": "As ice spreads, the liver makes huge amounts of glucose and sends it to every organ, where it stops cells losing too much water.",
+      "source": "Storey et al. (2021); Animal Diversity Web"
+    },
+    {
+      "type": "stat",
+      "image": "wood-frog/04.jpg",
+      "focus": [
+        0.3,
+        0.45
+      ],
+      "stat": "193",
+      "label": "days frozen in a row, for wild wood frogs in Alaska",
+      "body": "Average winter lows were -14.6 °C, dipping to -18.1 °C. All 18 frogs tracked in their natural hibernation spots survived.",
+      "source": "Larson et al., J. Exp. Biol. (2014)"
+    },
+    {
+      "type": "fact",
+      "image": "wood-frog/03.jpg",
+      "focus": [
+        0.4,
+        0.35
+      ],
+      "number": "03",
+      "headline": "Frogs in the Arctic",
+      "body": "Its range runs from the southeastern US to the Brooks Range in Arctic Alaska, where it is the only amphibian found that far north.",
+      "source": "US National Park Service"
+    },
+    {
+      "type": "closing",
+      "image": "wood-frog/01.jpg",
+      "focus": [
+        0.4,
+        0.5
+      ],
+      "headline": "Save this for the next cold snap.",
+      "body": "Survival stories, checked against the science. Follow @earthspirit_nature.",
+      "sources": [
+        "Storey, Wu & Storey (2021) Mitochondria and the Frozen Frog. Antioxidants 10:543",
+        "Larson et al. (2014) J. Exp. Biol. 217:2193–2200",
+        "Animal Diversity Web: Lithobates sylvaticus",
+        "NPS Alaska Park Science: How Wildlife are Responding to a Warming Climate"
+      ]
+    }
+  ],
+  "caption": "The wood frog (Lithobates sylvaticus) survives winter with most of its body water frozen, its heart and breathing stopped.\n\nFreezing usually starts when ice touches the frog's skin, and it creeps slowly through the body over many hours. Wild frogs in Alaska carried 13 times more glucose in their muscles than frogs frozen in the lab, possibly built up by repeated freezing and thawing in early autumn.\n\nSwipe for how a frog comes back from the ice. Sources on the last slide.\n\nSource: Storey, Wu & Storey (2021), Antioxidants; Larson et al. (2014), Journal of Experimental Biology; Animal Diversity Web; US National Park Service.\n\nShare it with someone who complains about the cold.\n\nPhotos: Wikimedia Commons, CC0, CC BY 2.0 and CC BY-SA 4.0 (credits on each slide). All frogs pictured are wild.",
+  "hashtags": [
+    "#woodfrog",
+    "#amphibians",
+    "#freezetolerance",
+    "#herpetology",
+    "#naturestudy"
+  ],
+  "sources": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC8067143/",
+    "https://doi.org/10.1242/jeb.101931",
+    "https://animaldiversity.org/accounts/Lithobates_sylvaticus/",
+    "https://www.nps.gov/articles/000/aps-22-1-5.htm"
+  ],
+  "alt_texts": [
+    "Wild wood frog among red fallen leaves in Maryland, headline 'This frog spends winter frozen, with no heartbeat'",
+    "Close-up of a wild wood frog on sandy ground in Minnesota, with the statistic 65 to 70 percent of body water can turn to ice",
+    "Wild wood frog hiding in dry leaves and grass in Pennsylvania, with text explaining a frozen frog has no heartbeat or breathing",
+    "Wild wood frog among pebbles and small plants in Minnesota, with text on glucose from the liver acting as antifreeze",
+    "Wild wood frog in leaf litter, with the statistic 193 days frozen in a row for wood frogs in Alaska",
+    "Wild wood frog in dry leaves and grass in Pennsylvania, with text on its range reaching the Brooks Range in Arctic Alaska",
+    "Wild wood frog on sandy ground in Minnesota, closing slide with sources and photo credits"
+  ],
+  "format_tags": [
+    "format:explainer",
+    "format:fact-over-footage",
+    "tactic:hook-text"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "gharial-last-snouts",
+  "format": "carousel",
+  "size": "1080x1350",
+  "slides": [
+    "01.jpg",
+    "02.jpg",
+    "03.jpg",
+    "04.jpg",
+    "05.jpg",
+    "06.jpg",
+    "07.jpg"
+  ],
+  "alt_texts": [
+    "Wild female gharial with its long, narrow jaws open on a Chambal River sandbank in India, headline 'An estimated 650 adult gharials remain in the wild'",
+    "Wild female gharial basking on a Chambal River sandbank in India, with text on its fish-catching snout",
+    "Captive male gharial underwater showing the bulbous ghara on its snout tip, with text explaining the ghara",
+    "Wild female gharial basking on a sandbank of the Babai River, Nepal, with the statistic 300 to 900 mature gharials left in the wild",
+    "Wild female and juvenile gharial on a riverbank in Bardiya National Park, Nepal, with text on dams, mining and overfishing",
+    "Wild gharial on a Chambal River bank, with text on its near extinction in the 1970s and the 58 percent decline from 1997 to 2006",
+    "Wild female and juvenile gharial on a riverbank in Bardiya National Park, Nepal, closing slide with sources and photo credits"
+  ],
+  "caption_chars": 955,
+  "hashtags": [
+    "#gharial",
+    "#crocodilians",
+    "#chambalriver",
+    "#indianwildlife",
+    "#endangeredspecies"
+  ],
+  "format_tags": [
+    "format:conservation-story",
+    "format:fact-over-footage",
+    "tactic:hook-text"
+  ],
+  "sources": [
+    "https://www.iucnredlist.org/species/8966/149227430",
+    "https://nationalzoo.si.edu/animals/gharial"
+  ],
+  "photo_credits": [
+    "Photo: Charles J. Sharp · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Charles J. Sharp · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Nireekshit · Wikimedia Commons · CC BY-SA 3.0",
+    "Photo: Shadow Ayush · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Charles J. Sharp · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Charles J. Sharp · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Charles J. Sharp · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

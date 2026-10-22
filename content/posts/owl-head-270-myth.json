@@ -1,0 +1,117 @@
+{
+  "slug": "owl-head-270-myth",
+  "slides": [
+    {
+      "type": "cover",
+      "image": "barred-owl/01.jpg",
+      "focus": [
+        0.47,
+        0.3
+      ],
+      "kicker": "Myth-bust",
+      "headline": "No, owls can't turn their heads 360°.",
+      "sub": "The real figure is about 270°, and their necks had to rewire to survive it"
+    },
+    {
+      "type": "fact",
+      "image": "barn-owl/04.jpg",
+      "focus": [
+        0.55,
+        0.4
+      ],
+      "number": "01",
+      "headline": "Its eyes are locked in place",
+      "body": "An owl's eyes sit in bony tubes and are virtually immobile. To look somewhere new, it turns its whole head instead.",
+      "source": "Britannica: Owl"
+    },
+    {
+      "type": "stat",
+      "image": "barred-owl/02.jpg",
+      "focus": [
+        0.5,
+        0.3
+      ],
+      "stat": "270°",
+      "label": "how far an owl can turn its head, in either direction",
+      "body": "Not a full circle. Johns Hopkins researchers studied the necks of snowy, barred and great horned owls that died of natural causes.",
+      "source": "Johns Hopkins Medicine (2013)"
+    },
+    {
+      "type": "fact",
+      "image": "great-horned-owl/03.jpg",
+      "focus": [
+        0.42,
+        0.4
+      ],
+      "number": "02",
+      "headline": "A twist that would hurt us",
+      "body": "In people, sudden neck twists can stretch and tear artery linings, causing clots and strokes. Owls twist much further without that damage.",
+      "source": "Johns Hopkins Medicine (2013)"
+    },
+    {
+      "type": "stat",
+      "image": "barred-owl/01.jpg",
+      "focus": [
+        0.47,
+        0.25
+      ],
+      "stat": "10×",
+      "label": "wider than the artery: the bony tunnels it runs through",
+      "body": "In 12 of an owl's 14 neck vertebrae, the holes carrying the vertebral artery are about 10 times its diameter, leaving room to move.",
+      "source": "de Kok-Mercado et al., Johns Hopkins (2013)"
+    },
+    {
+      "type": "fact",
+      "image": "great-horned-owl/04.jpg",
+      "focus": [
+        0.6,
+        0.4
+      ],
+      "number": "03",
+      "headline": "Built-in blood reservoirs",
+      "body": "Vessels under the jaw swell to pool blood for the brain and eyes mid-turn, and cross-links between arteries give blood a backup route.",
+      "source": "de Kok-Mercado et al., Johns Hopkins (2013)"
+    },
+    {
+      "type": "closing",
+      "image": "great-horned-owl/01.jpg",
+      "focus": [
+        0.82,
+        0.4
+      ],
+      "headline": "Send this to someone who still says 360.",
+      "body": "Myths checked against the research. Follow @earthspirit_nature.",
+      "sources": [
+        "de Kok-Mercado, Habib, Phelps, Gregg & Gailloud: Adaptations for owl head rotation, Science 339:514 (2013), via Johns Hopkins Medicine",
+        "Britannica: Owl"
+      ]
+    }
+  ],
+  "caption": "Owls cannot turn their heads all the way round: barred owls (Strix varia) and their relatives manage about 270 degrees.\n\nAn owl's eyes are fixed in bony tubes, so the whole head has to move. A Johns Hopkins team used angiography and CT scans on a dozen snowy, barred and great horned owls to see how the neck survives it. One surprise: the vertebral artery enters the neck higher than in other birds, at the 12th vertebra rather than the 14th, which gives it extra slack.\n\nSwipe for the four tricks that keep the blood flowing. Sources on the last slide.\n\nSource: de Kok-Mercado et al. (2013), Science 339:514 and Johns Hopkins Medicine; Britannica.\n\nSave it for the next time an owl does the head swivel.\n\nPhotos: Wikimedia Commons, public domain, CC BY 2.0, CC BY 4.0 and CC BY-SA 4.0 (credits on each slide). All owls pictured are wild.",
+  "hashtags": [
+    "#owls",
+    "#barredowl",
+    "#birdanatomy",
+    "#mythbusting",
+    "#animalfacts"
+  ],
+  "sources": [
+    "https://www.science.org/doi/10.1126/science.339.6119.514",
+    "https://www.sciencedaily.com/releases/2013/01/130131144102.htm",
+    "https://www.britannica.com/animal/owl"
+  ],
+  "alt_texts": [
+    "Wild barred owl perched on a branch among green leaves in Seattle, headline 'No, owls can't turn their heads 360 degrees'",
+    "Wild barn owl standing on a fence post beside reeds, with text explaining owl eyes are fixed in bony tubes",
+    "Wild barred owl on a branch at dusk in Ohio, with the statistic 270 degrees of head rotation in either direction",
+    "Wild great horned owl perched among pine branches in California, with text on how neck twists injure human arteries",
+    "Wild barred owl in a leafy tree, with the statistic that the bony tunnels for the neck artery are 10 times wider than the artery",
+    "Wild great horned owl perched on a power line pole at dusk in Montana, with text on blood reservoirs under the jaw",
+    "Wild great horned owl on a branch, closing slide with sources and photo credits"
+  ],
+  "format_tags": [
+    "format:myth-bust",
+    "format:fact-over-footage",
+    "tactic:hook-text"
+  ]
+}

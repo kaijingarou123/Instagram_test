@@ -1,0 +1,122 @@
+{
+  "slug": "king-cobra-nest-builder",
+  "slides": [
+    {
+      "type": "cover",
+      "image": "ophiophagus-kaalinga/01.jpg",
+      "focus": [
+        0.48,
+        0.4
+      ],
+      "kicker": "Weird nature",
+      "headline": "This snake builds a nest. And eats snakes.",
+      "sub": "The strange family life of king cobras"
+    },
+    {
+      "type": "fact",
+      "image": "king-cobra/02.jpg",
+      "focus": [
+        0.45,
+        0.45
+      ],
+      "number": "01",
+      "headline": "A snake that eats snakes",
+      "body": "King cobras feed almost entirely on other snakes: rat snakes, pythons up to about 3 m, even venomous cobras, kraits and smaller king cobras.",
+      "source": "Britannica; Smithsonian's National Zoo"
+    },
+    {
+      "type": "fact",
+      "image": "ophiophagus-hannah/01.jpg",
+      "focus": [
+        0.6,
+        0.35
+      ],
+      "number": "02",
+      "headline": "She builds a nest",
+      "body": "Using a loop of her body like an arm, the female pulls dead leaves, soil and litter into a compact mound, then lays 20 to 50 eggs inside.",
+      "source": "Britannica"
+    },
+    {
+      "type": "fact",
+      "image": "ophiophagus-kaalinga/04.jpg",
+      "focus": [
+        0.4,
+        0.4
+      ],
+      "number": "03",
+      "headline": "Then she stands guard",
+      "body": "She coils on or near the mound for about two months. Heat from the rotting leaves helps incubate the eggs, and the male may stay nearby.",
+      "source": "Britannica; Smithsonian's National Zoo"
+    },
+    {
+      "type": "stat",
+      "image": "king-cobra/02.jpg",
+      "focus": [
+        0.6,
+        0.45
+      ],
+      "stat": "5.6 m",
+      "label": "the longest king cobra ever confirmed",
+      "body": "King cobras are the world's largest venomous snakes, though most stay under 3.6 m. IUCN: Vulnerable (assessed 2011, as one species).",
+      "source": "Britannica; IUCN Red List (2011 assessment)"
+    },
+    {
+      "type": "fact",
+      "image": "ophiophagus-kaalinga/03.jpg",
+      "focus": [
+        0.45,
+        0.4
+      ],
+      "number": "04",
+      "headline": "One king became four",
+      "body": "A 2024 revision split king cobras into four species. Northern and eastern India keeps Ophiophagus hannah; the Western Ghats has its own, O. kaalinga.",
+      "source": "Das et al., European Journal of Taxonomy (2024)"
+    },
+    {
+      "type": "closing",
+      "image": "ophiophagus-hannah/01.jpg",
+      "focus": [
+        0.6,
+        0.35
+      ],
+      "headline": "Save this before your next trip to the Western Ghats.",
+      "body": "Fewer myths, more facts, every week. Follow @earthspirit_nature.",
+      "sources": [
+        "Das, I. et al. (2024) Eur. J. Taxon. 961: 1–51 (king cobra revision)",
+        "IUCN Red List: Ophiophagus hannah (assessed 2011)",
+        "Britannica and Smithsonian's National Zoo: King cobra",
+        "Animal Diversity Web: Ophiophagus hannah"
+      ]
+    }
+  ],
+  "caption": "King cobras (genus Ophiophagus) are snakes that build nests, and they eat almost nothing but other snakes.\n\nThe genus name fits: ophiophagous means snake-eating. Since 2024, scientists recognise four king cobra species, so the big snake of northern and eastern India is Ophiophagus hannah, while the Western Ghats king cobra is O. kaalinga. A king cobra's hiss is unusually low, closer to a growl, and in a threat display it can lift the front of its body about a metre off the ground.\n\nSwipe for the nest, the menu and the split. Sources on the last slide.\n\nSource: Das et al. (2024), European Journal of Taxonomy 961; Britannica; IUCN Red List.\n\nIf you share a forest with king cobras, send this to someone who does too.\n\nPhotos: Wikimedia Commons, CC BY 4.0, CC BY-SA 4.0 and CC BY-SA 2.0 (credits on each slide). All wild snakes: slides 1, 4 and 6 are labelled on Commons as Ophiophagus kaalinga; slides 2, 3, 5 and 7 are from Kaeng Krachan National Park, Thailand.",
+  "hashtags": [
+    "#kingcobra",
+    "#snakesofindia",
+    "#westernghats",
+    "#reptiles",
+    "#animalfacts"
+  ],
+  "sources": [
+    "https://europeanjournaloftaxonomy.eu/index.php/ejt/article/view/2681",
+    "https://www.iucnredlist.org/species/177540/1491874",
+    "https://www.britannica.com/animal/king-cobra",
+    "https://nationalzoo.si.edu/animals/king-cobra",
+    "https://animaldiversity.org/accounts/Ophiophagus_hannah/",
+    "https://www.merriam-webster.com/dictionary/ophiophagous"
+  ],
+  "alt_texts": [
+    "Wild king cobra, labelled as Ophiophagus kaalinga, raising its black and yellow banded body on a dirt track, headline 'This snake builds a nest. And eats snakes.'",
+    "Wild king cobra biting the head of a reticulated python on the forest floor in Kaeng Krachan National Park, Thailand, with text on its snake-eating diet",
+    "Wild olive king cobra with its head raised among dry leaves in Kaeng Krachan National Park, Thailand, with text on how the female builds a leaf nest",
+    "Wild king cobra, labelled as Ophiophagus kaalinga, rearing up with tongue out on a forest track, with text on the female guarding her nest",
+    "Wild king cobra eating a reticulated python in Thailand, with the statistic 5.6 metres for the longest confirmed king cobra",
+    "Wild king cobra, labelled as Ophiophagus kaalinga, rearing with its pale yellow throat showing, with text on the 2024 split into four species",
+    "Wild king cobra with its head raised in Kaeng Krachan National Park, Thailand, closing slide with sources and photo credits"
+  ],
+  "format_tags": [
+    "format:explainer",
+    "format:fact-over-footage",
+    "tactic:hook-text"
+  ]
+}
