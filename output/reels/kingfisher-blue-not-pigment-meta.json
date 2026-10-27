@@ -1,0 +1,62 @@
+{
+  "slug": "kingfisher-blue-not-pigment",
+  "format": "reel",
+  "reel_format": "loop",
+  "size": "1080x1920",
+  "fps": 30,
+  "duration_s": 8.0,
+  "beats": [
+    "The blue on this kingfisher isn't pigment.",
+    "Tiny sponge-like structures in its feathers scatter blue light.",
+    "Only the orange chest is coloured by pigment."
+  ],
+  "audio": "natural sound from the CC clip (CC BY 3.0, credited)",
+  "experiment": {
+    "hook": "myth",
+    "audio": "natural",
+    "length": "8s",
+    "theme": "global"
+  },
+  "synthetic_voice": false,
+  "ai_disclosure": "none needed (real footage, no AI imagery or voice)",
+  "caption_chars": 693,
+  "hashtags": [
+    "#kingfisher",
+    "#alcedoatthis",
+    "#structuralcolour",
+    "#birdfacts",
+    "#wildlifefacts"
+  ],
+  "format_tags": [
+    "format:fact-over-footage",
+    "format:myth-bust",
+    "tactic:hook-text"
+  ],
+  "alt_text": "Video of a common kingfisher with an orange chest and blue back perched on a branch, with text explaining its blue comes from feather structure, not pigment.",
+  "sources": [
+    "https://research.rug.nl/en/publications/kingfisher-feathers-colouration-by-pigments-spongy-nanostructures/",
+    "https://pubmed.ncbi.nlm.nih.gov/22071186/"
+  ],
+  "photo_credits": [
+    "Video: Lennart Hessel, CC BY 3.0, Wikimedia Commons"
+  ],
+  "video_source": {
+    "title": "File:Common Kingfisher preening.webm",
+    "page": "https://commons.wikimedia.org/wiki/File%3ACommon%20Kingfisher%20preening.webm",
+    "license": "CC BY 3.0",
+    "artist": "Lennart Hessel"
+  },
+  "clip": {
+    "media": "common-kingfisher-hd/01.webm",
+    "start": 12.6,
+    "focus": [
+      0.5,
+      0.5
+    ],
+    "zoom": 0.72,
+    "top": 500
+  },
+  "loop_seam_diff": 0.0,
+  "median_frame_step": 0.7,
+  "file_mb": 2.97
+}

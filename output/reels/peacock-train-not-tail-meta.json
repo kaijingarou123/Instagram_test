@@ -1,0 +1,59 @@
+{
+  "slug": "peacock-train-not-tail",
+  "format": "reel",
+  "reel_format": "loop",
+  "size": "1080x1920",
+  "fps": 30,
+  "duration_s": 12.0,
+  "beats": [
+    "150 cm of feathers, and none of it is tail.",
+    "The train is made of upper tail coverts: feathers that grow above the tail, up to about 150 cm long.",
+    "The real tail sits underneath. He raises it to lift the train, then shakes it to make it shimmer."
+  ],
+  "audio": "generated loop pad + beat ticks (synthesised by make_loop_reel.py, no third-party audio)",
+  "experiment": {
+    "hook": "number",
+    "audio": "generated-bed",
+    "length": "12s",
+    "theme": "india"
+  },
+  "synthetic_voice": false,
+  "ai_disclosure": "none needed (real footage, no AI imagery or voice)",
+  "caption_chars": 639,
+  "hashtags": [
+    "#peacock",
+    "#indianpeafowl",
+    "#birdsofindia",
+    "#birdfacts"
+  ],
+  "format_tags": [
+    "format:fact-over-footage",
+    "format:myth-bust",
+    "tactic:hook-text"
+  ],
+  "alt_text": "Video of an Indian peafowl turning while displaying its fanned train of eyespot feathers, with text explaining the train is not its tail.",
+  "sources": [
+    "https://www.britannica.com/animal/peacock"
+  ],
+  "photo_credits": [
+    "Video: KCVelaga, refined by Rihaan180, CC BY-SA 4.0, Wikimedia Commons"
+  ],
+  "video_source": {
+    "title": "File:Peacock dance, at Botanical Garden Hyderabad.webm",
+    "page": "https://commons.wikimedia.org/wiki/File%3APeacock%20dance%2C%20at%20Botanical%20Garden%20Hyderabad.webm",
+    "license": "CC BY-SA 4.0",
+    "artist": "Original:  KCVelagaRefinement:  Rihaan180"
+  },
+  "clip": {
+    "media": "indian-peafowl-hd/01.webm",
+    "start": 19.0,
+    "focus": [
+      0.42,
+      0.55
+    ],
+    "zoom": 1.0
+  },
+  "loop_seam_diff": 4.9,
+  "median_frame_step": 4.7,
+  "file_mb": 19.02
+}

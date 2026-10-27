@@ -1,0 +1,58 @@
+{
+  "slug": "dung-beetle-sky-dance",
+  "format": "loop",
+  "species": "Dung beetle (Kheper nigroaeneus)",
+  "clip": {
+    "media": "dung-beetle/03.webm",
+    "start": 1.6,
+    "focus": [
+      0.52,
+      0.5
+    ],
+    "zoom": 0.6,
+    "top": 620
+  },
+  "duration": 8.0,
+  "beats": [
+    {
+      "at": 0.0,
+      "text": "Why is this beetle dancing on its ball?"
+    },
+    {
+      "at": 2.4,
+      "text": "It climbs on top and turns to read the sky, then rolls away in a straight line."
+    },
+    {
+      "at": 5.2,
+      "text": "Some even steer by the Milky Way."
+    }
+  ],
+  "source": "Baird et al. 2012, PLoS ONE; Dacke et al. 2013, Current Biology",
+  "credit_artist": "Baird et al., PLoS ONE 2012",
+  "audio": {
+    "bed": true
+  },
+  "experiment": {
+    "hook": "question",
+    "audio": "generated-bed",
+    "length": "8s",
+    "theme": "tiny-weird"
+  },
+  "caption": "Before a dung beetle (Kheper nigroaeneus) rolls its ball, it climbs on top and dances.\n\nThe little rotation is an orientation check: researchers found it lets the beetle set a bearing from the sky and roll away in a straight line. On clear moonless nights some dung beetles steer by the Milky Way, the first known use of the Milky Way for orientation by any animal. Filmed in a research arena in South Africa.\n\nSource: Baird et al. 2012, The dung beetle dance: an orientation behaviour?, PLoS ONE; Dacke et al. 2013, Dung beetles use the Milky Way for orientation, Current Biology.\nSend this to someone who gets lost without GPS.",
+  "hashtags": [
+    "#dungbeetle",
+    "#beetles",
+    "#insectfacts",
+    "#animalnavigation"
+  ],
+  "sources": [
+    "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0030211",
+    "https://pubmed.ncbi.nlm.nih.gov/23352694/"
+  ],
+  "alt_text": "Black and white video of a dung beetle climbing on top of its dung ball and turning around, with text explaining it reads the sky to roll in a straight line.",
+  "format_tags": [
+    "format:fact-over-footage",
+    "format:explainer",
+    "tactic:hook-text"
+  ]
+}

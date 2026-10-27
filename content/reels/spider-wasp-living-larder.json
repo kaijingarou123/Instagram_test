@@ -1,0 +1,69 @@
+{
+  "slug": "spider-wasp-living-larder",
+  "format": "loop",
+  "species": "Spider wasp (family Pompilidae)",
+  "clip": {
+    "media": "spider-wasp-hd/01.webm",
+    "start": 17.0,
+    "focus": [
+      0.4,
+      0.55
+    ],
+    "zoom": 1.0
+  },
+  "duration": 30.0,
+  "beats": [
+    {
+      "at": 0.0,
+      "text": "This tarantula is not dead."
+    },
+    {
+      "at": 4.0,
+      "text": "A spider wasp stung its nerve centres. It is paralysed, not killed."
+    },
+    {
+      "at": 10.5,
+      "text": "She drags it into her burrow and lays a single egg on its body."
+    },
+    {
+      "at": 17.0,
+      "text": "When the egg hatches, the larva feeds on the spider while it is still alive."
+    },
+    {
+      "at": 23.5,
+      "text": "There are about 5,000 species of spider wasp."
+    }
+  ],
+  "source": "Encyclopaedia Britannica",
+  "voice": {
+    "name": "Microsoft Zira Desktop",
+    "rate": 1
+  },
+  "audio": {
+    "bed": false,
+    "natural": 0.6
+  },
+  "experiment": {
+    "hook": "myth",
+    "audio": "voice+natural",
+    "length": "30s",
+    "theme": "tiny-weird"
+  },
+  "caption": "A spider wasp (family Pompilidae) does not kill the tarantula it hunts.\n\nShe stings it in the nerve ganglia under the thorax, which paralyses it, drags it to a burrow, lays one egg on its body and seals the entrance. The larva then feeds on the spider while it is still alive. There are about 5,000 species worldwide; the best known are the tarantula hawks of the southwestern United States.\n\nSource: Encyclopaedia Britannica, Spider wasp.\nSend this to the friend who is not scared of spiders.",
+  "hashtags": [
+    "#spiderwasp",
+    "#tarantula",
+    "#insectfacts",
+    "#weirdnature",
+    "#naturestudy"
+  ],
+  "sources": [
+    "https://www.britannica.com/animal/spider-wasp"
+  ],
+  "alt_text": "Video of a black spider wasp dragging a paralysed tarantula across sand into a burrow, with text explaining the spider is paralysed, not dead.",
+  "format_tags": [
+    "format:fact-over-footage",
+    "format:predation",
+    "tactic:hook-text"
+  ]
+}

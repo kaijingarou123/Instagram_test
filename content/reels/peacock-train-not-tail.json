@@ -1,0 +1,56 @@
+{
+  "slug": "peacock-train-not-tail",
+  "format": "loop",
+  "species": "Indian peafowl (Pavo cristatus)",
+  "clip": {
+    "media": "indian-peafowl-hd/01.webm",
+    "start": 19.0,
+    "focus": [
+      0.42,
+      0.55
+    ],
+    "zoom": 1.0
+  },
+  "duration": 12.0,
+  "beats": [
+    {
+      "at": 0.0,
+      "text": "150 cm of feathers, and none of it is tail."
+    },
+    {
+      "at": 2.8,
+      "text": "The train is made of upper tail coverts: feathers that grow above the tail, up to about 150 cm long."
+    },
+    {
+      "at": 7.2,
+      "text": "The real tail sits underneath. He raises it to lift the train, then shakes it to make it shimmer."
+    }
+  ],
+  "source": "Encyclopaedia Britannica",
+  "credit_artist": "KCVelaga, refined by Rihaan180",
+  "caption": "The Indian peafowl (Pavo cristatus) displays a train, not a tail.\n\nThe train is mostly the bird's upper tail coverts, grown enormously long and each tipped with an eyespot. The true tail lies beneath it: in courtship the peacock lifts his tail to raise and fan the train, then vibrates it so the feathers shimmer and rustle. Filmed at the Botanical Garden in Hyderabad, India.\n\nSource: Encyclopaedia Britannica, Peacock.\nSend this to whoever still calls it a tail.",
+  "hashtags": [
+    "#peacock",
+    "#indianpeafowl",
+    "#birdsofindia",
+    "#birdfacts"
+  ],
+  "sources": [
+    "https://www.britannica.com/animal/peacock"
+  ],
+  "alt_text": "Video of an Indian peafowl turning while displaying its fanned train of eyespot feathers, with text explaining the train is not its tail.",
+  "format_tags": [
+    "format:fact-over-footage",
+    "format:myth-bust",
+    "tactic:hook-text"
+  ],
+  "audio": {
+    "bed": true
+  },
+  "experiment": {
+    "hook": "number",
+    "audio": "generated-bed",
+    "length": "12s",
+    "theme": "india"
+  }
+}
