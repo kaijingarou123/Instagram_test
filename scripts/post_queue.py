@@ -5,16 +5,19 @@
     python scripts/post_queue.py check           # hashtag rotation along the planned order
     python scripts/post_queue.py record <slug> <media_id> <container_id> [child_id ...]   # log a Composio publish
 
-Timing: after every publish the next slot is drawn at random, MIN_GAP_H..MAX_GAP_H (9..13) hours later: 2 posts a
-day, >= 8 h apart, which with the window below gives a morning and an evening post. Owner decision 2026-10-18:
-this applies from day 0 (the guardrails default for days 0-13 is 1/day; PHASE1_GAP_H keeps the split in one place
-in case that is restored, 24..28 h). The slot is only
-used inside the local posting window (WINDOW_START..WINDOW_END, Asia/Kolkata). A slot that falls outside the
-window moves to the next window opening plus a random 0-90 min. Missed slots are never caught up: one post per
-due slot. The cadence envelope in publish.py (phase limits, min gap, Reels ban until day 14) still applies on
-top of this — run `publish.py plan <slug>` before publishing.
+Timing (2026-10-28): two fixed daily slots in IST, a morning window and an evening window (SLOTS). After each
+publish the next post is due at a random time in the next slot that starts at least MIN_GAP_H after it, so a
+morning post is followed by an evening one and an evening post by the next morning. Owner decision 2026-10-18:
+2 posts a day from day 0. A due post is only released inside a slot window (with SLACK_MIN of grace at the end),
+so a slot missed while the PC was off is never caught up at night: it waits for the next slot.
 
-`next` exit codes: 0 due (slug on stdout) · 2 HALT marker present · 3 not due yet · 4 queue finished.
+What: the first post in `order` that may go now. Carousels may always go. A Reel may go only from account day 14,
+and only while the Reels published in the last 7 days are under the weekly allowance in publish.py's PHASES;
+otherwise it keeps its place and the next carousel goes first. The cadence envelope in publish.py (phase limits,
+min gap, Reels ban until day 14) still applies on top of this: run `publish.py plan <slug>` before publishing.
+
+`next` exit codes: 0 due (slug on stdout) · 2 HALT marker present · 3 not due yet · 4 queue empty or nothing
+eligible.
 """
 import json
 import random
@@ -25,15 +28,18 @@ from pathlib import Path
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from publish import PHASES  # noqa: E402  (one source of truth for the Reels allowance)
+
 ROOT = Path(__file__).resolve().parent.parent
 LOG = ROOT / "log" / "posts.jsonl"
 QUEUE = ROOT / "log" / "queue.json"
 HALTS = [ROOT / "log" / "HALT", ROOT / "HALT", Path.home() / ".claude" / "platform-guardrails" / "HALT"]
 
 IST = timezone(timedelta(hours=5, minutes=30))
-MIN_GAP_H, MAX_GAP_H = 9, 13      # day 14 on: 2 posts/day (publish.py phase 2: max 2 per 24 h, gap >= 8 h)
-PHASE1_GAP_H = (9, 13)           # days 0-13: owner override 2026-10-18, 2 posts/day (was 24-28 h for 1/day)
-WINDOW_START, WINDOW_END = time(8, 0), time(21, 30)
+SLOTS = [(time(8, 0), time(10, 30)), (time(18, 0), time(21, 0))]   # morning, evening (IST)
+SLACK_MIN = 60                     # a due post may still go up to this long after its slot closes
+MIN_GAP_H = 8                      # publish.py phase limit: >= 8 h between posts
 
 
 def load_queue():
@@ -51,21 +57,46 @@ def published():
     return [r for r in rows if r.get("status") == "published"]
 
 
-def gap_range(after):
+def account_day(t):
     cfg = json.loads((ROOT / "config.json").read_text(encoding="utf-8"))
     start = datetime.fromisoformat(cfg["account_start_date"]).replace(tzinfo=timezone.utc)
-    return PHASE1_GAP_H if (after - start).days < 14 else (MIN_GAP_H, MAX_GAP_H)
+    return (t - start).days
 
 
-def into_window(t, rng):
-    """Move t forward into the next posting window (local IST), with a random offset if moved."""
-    local = t.astimezone(IST)
-    start = datetime.combine(local.date(), WINDOW_START, IST)
-    end = datetime.combine(local.date(), WINDOW_END, IST)
-    if start <= local <= end:
-        return t
-    opening = start if local < start else start + timedelta(days=1)
-    return (opening + timedelta(minutes=rng.randint(0, 90))).astimezone(timezone.utc)
+def reels_allowed_per_week(t):
+    day = account_day(t)
+    for lo, hi, _per_day, _gap, reels in PHASES:
+        if lo <= day <= hi:
+            return reels
+    return PHASES[-1][4]
+
+
+def slot_windows(from_day, days=4):
+    """(start, end) UTC datetimes of every slot from `from_day` (an IST date) on."""
+    out = []
+    for d in range(days):
+        day = from_day + timedelta(days=d)
+        for a, b in SLOTS:
+            out.append((datetime.combine(day, a, IST).astimezone(timezone.utc),
+                        datetime.combine(day, b, IST).astimezone(timezone.utc)))
+    return out
+
+
+def next_slot_time(after, rng):
+    """A random time in the first slot that still has room at least MIN_GAP_H after `after`."""
+    earliest = after + timedelta(hours=MIN_GAP_H)
+    for start, end in slot_windows(after.astimezone(IST).date()):
+        lo = max(start, earliest)
+        if lo <= end:
+            return lo + timedelta(seconds=rng.uniform(0, (end - lo).total_seconds()))
+    raise RuntimeError("no slot found")
+
+
+def in_slot(t):
+    for start, end in slot_windows(t.astimezone(IST).date() - timedelta(days=1), days=2):
+        if start <= t <= end + timedelta(minutes=SLACK_MIN):
+            return True
+    return False
 
 
 def next_due(q, posts):
@@ -73,14 +104,26 @@ def next_due(q, posts):
     if not posts:
         return datetime.now(timezone.utc)
     last = max(posts, key=lambda p: p["published_at"])
-    if q.get("due_after_media_id") != last["media_id"]:
-        rng = random.Random()
-        at = datetime.fromisoformat(last["published_at"])
-        t = at + timedelta(hours=rng.uniform(*gap_range(at)))
+    if q.get("due_after_media_id") != last["media_id"] or q.get("schedule") != "slots":
         q["due_after_media_id"] = last["media_id"]
-        q["next_due"] = into_window(t, rng).isoformat()
+        q["schedule"] = "slots"
+        q["next_due"] = next_slot_time(datetime.fromisoformat(last["published_at"]), random.Random()).isoformat()
         save_queue(q)
     return datetime.fromisoformat(q["next_due"])
+
+
+def kind_of(slug):
+    if (ROOT / "output" / "carousels" / slug / "meta.json").exists():
+        return "carousel"
+    if (ROOT / "output" / "reels" / f"{slug}-meta.json").exists():
+        return "reel"
+    return None
+
+
+def meta_for(slug):
+    if kind_of(slug) == "reel":
+        return json.loads((ROOT / "output" / "reels" / f"{slug}-meta.json").read_text(encoding="utf-8"))
+    return json.loads((ROOT / "output" / "carousels" / slug / "meta.json").read_text(encoding="utf-8"))
 
 
 def remaining(q, posts):
@@ -88,21 +131,48 @@ def remaining(q, posts):
     return [s for s in q["order"] if s not in done]
 
 
+def reels_last_7d(posts, now):
+    return sum(1 for p in posts if p.get("kind") == "reel"
+               and datetime.fromisoformat(p["published_at"]) > now - timedelta(days=7))
+
+
+def pick(rest, posts, now):
+    """First post in queue order that may go now (a Reel only within the weekly allowance)."""
+    reel_room = reels_allowed_per_week(now) - reels_last_7d(posts, now)
+    for s in rest:
+        k = kind_of(s)
+        if k == "carousel" or (k == "reel" and reel_room > 0):
+            return s
+    return None
+
+
 def cmd_status():
     q, posts = load_queue(), published()
     rest = remaining(q, posts)
+    now = datetime.now(timezone.utc)
     due = next_due(q, posts)
-    print(f"queue: {len(q['order'])} planned, {len(q['order']) - len(rest)} published, {len(rest)} left")
-    print(f"gap: random {PHASE1_GAP_H[0]}-{PHASE1_GAP_H[1]} h before day 14, {MIN_GAP_H}-{MAX_GAP_H} h after; window {WINDOW_START:%H:%M}-{WINDOW_END:%H:%M} IST")
+    reels_left = sum(1 for s in rest if kind_of(s) == "reel")
+    print(f"queue: {len(q['order'])} planned, {len(q['order']) - len(rest)} published, {len(rest)} left "
+          f"({len(rest) - reels_left} carousels, {reels_left} Reels)")
+    print("slots: " + ", ".join(f"{a:%H:%M}-{b:%H:%M}" for a, b in SLOTS) + f" IST, >= {MIN_GAP_H} h apart; "
+          f"Reels this week {reels_last_7d(posts, now)}/{reels_allowed_per_week(now)} (day {account_day(now)})")
     if rest:
-        print(f"next: {rest[0]}  due {due.astimezone(IST):%a %d %b %H:%M} IST")
-        end, rng = max(due, datetime.now(timezone.utc)), random.Random(0)   # rough simulation, mid-range gaps
-        for _ in range(len(rest) - 1):
-            lo, hi = gap_range(end)
-            end = into_window(end + timedelta(hours=(lo + hi) / 2), rng)
-        print(f"estimated last post: ~{end.astimezone(IST):%a %d %b} IST")
+        print(f"next: {pick(rest, posts, max(now, due)) or rest[0]}  due {due.astimezone(IST):%a %d %b %H:%M} IST")
+        # rough simulation of the rest of the queue
+        sim, t, rng = list(posts), max(due, now), random.Random(0)
+        todo = list(rest)
+        while todo:
+            s = pick(todo, sim, t)
+            if s is None:
+                t = next_slot_time(t, rng)
+                continue
+            sim.append({"slug": s, "kind": kind_of(s), "published_at": t.isoformat()})
+            todo.remove(s)
+            if todo:
+                t = next_slot_time(t, rng)
+        print(f"estimated last post: ~{t.astimezone(IST):%a %d %b} IST")
     for i, s in enumerate(rest, 1):
-        print(f"  {i:2}. {s}")
+        print(f"  {i:2}. {s}{'  [Reel]' if kind_of(s) == 'reel' else ''}")
 
 
 def cmd_next():
@@ -113,23 +183,22 @@ def cmd_next():
     q, posts = load_queue(), published()
     rest = remaining(q, posts)
     if not rest:
-        print("QUEUE FINISHED — every planned post is published.")
+        print("QUEUE FINISHED: every planned post is published.")
         return 4
     due = next_due(q, posts)
     now = datetime.now(timezone.utc)
     if now < due:
-        print(f"not due: next is {rest[0]} at {due.astimezone(IST):%a %d %b %H:%M} IST")
+        print(f"not due: next post at {due.astimezone(IST):%a %d %b %H:%M} IST")
         return 3
-    local = now.astimezone(IST).time()
-    if not (WINDOW_START <= local <= WINDOW_END):
-        print(f"not due: outside posting window ({local:%H:%M} IST)")
+    if not in_slot(now):
+        print(f"not due: outside the posting slots ({now.astimezone(IST):%H:%M} IST)")
         return 3
-    print(rest[0])
+    s = pick(rest, posts, now)
+    if s is None:
+        print("nothing eligible: only Reels are left and this week's Reels allowance is used.")
+        return 4
+    print(s)
     return 0
-
-
-def meta_for(slug):
-    return json.loads((ROOT / "output" / "carousels" / slug / "meta.json").read_text(encoding="utf-8"))
 
 
 def cmd_check():
@@ -137,11 +206,15 @@ def cmd_check():
     prev = [h.lower() for h in (published()[-1]["hashtags"] if published() else [])]
     ok = True
     for s in remaining(q, published()):
+        if kind_of(s) is None:
+            print(f"[FAIL] {s}: not rendered under output/")
+            ok = False
+            continue
         cur = [h.lower() for h in meta_for(s)["hashtags"]]
         shared = set(cur) & set(prev)
         flag = "FAIL" if len(shared) > 2 or set(cur) == set(prev) else "ok"
         ok &= flag == "ok"
-        print(f"[{flag}] {s}: {len(cur)} tags, shared with previous: {sorted(shared) or '-'}")
+        print(f"[{flag}] {s}{' (Reel)' if kind_of(s) == 'reel' else ''}: {len(cur)} tags, shared with previous: {sorted(shared) or '-'}")
         prev = cur
     return 0 if ok else 1
 
@@ -149,12 +222,15 @@ def cmd_check():
 def cmd_record(slug, media_id, container_id, children):
     if any(p["slug"] == slug for p in published()):
         sys.exit(f"{slug} is already logged as published")
-    entry = {"published_at": datetime.now(timezone.utc).isoformat(), "slug": slug, "kind": "carousel",
+    kind = kind_of(slug)
+    if kind is None:
+        sys.exit(f"{slug} is not rendered under output/")
+    entry = {"published_at": datetime.now(timezone.utc).isoformat(), "slug": slug, "kind": kind,
              "status": "published", "media_id": media_id, "container_id": container_id, "children": children,
              "hashtags": meta_for(slug)["hashtags"], "route": "composio", "via": "scheduled autopost"}
     with LOG.open("a", encoding="utf-8") as f:
         f.write(json.dumps(entry, ensure_ascii=False) + "\n")
-    print(f"logged {slug} ({media_id})")
+    print(f"logged {slug} ({kind}, {media_id})")
     cmd_status()
     return 0
 

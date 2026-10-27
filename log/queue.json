@@ -13,7 +13,9 @@
     "sea-turtle-sand-temperature",
     "flamingo-pink-diet",
     "sloth-bear-termite-vacuum",
+    "hummingbird-torpor",
     "jellyfish-no-brain",
+    "orca-hunt",
     "hornbill-sealed-nest",
     "fruit-bat-forest-planters",
     "gharial-last-snouts",
@@ -25,6 +27,7 @@
     "monarch-super-generation",
     "orca-biggest-dolphin"
   ],
-  "due_after_media_id": "18209003692369829",
-  "next_due": "2026-10-22T14:14:36.449589+00:00"
+  "due_after_media_id": "18155555992533189",
+  "next_due": "2026-10-26T15:21:17.938805+00:00",
+  "schedule": "slots"
 }
