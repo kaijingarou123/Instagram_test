@@ -116,3 +116,8 @@ https://claude.ai/artifact/XnM4F7V4xrTXyHGBNEdXmQ
   and 1 carousel a day (Reels allowance 7 per rolling week in the publisher's PHASES table, over the guardrails
   default of 2 then 4 a week; the owner accepted the risk). `post_queue.py` alternates kinds and skips any post
   that would break hashtag rotation. Growth review dashboard: https://claude.ai/artifact/Pp7mjpfVBa6f3UWP4Fhrnp
+- **2026-10-28 (later)**: owner decisions: 3 posts a day at least 6 h apart in three IST slots (08:00-09:30,
+  14:00-15:30, 20:00-21:30): 2 carousels and 1 Reel, or 3 carousels while no Reel is approved, to catch up missed
+  posts. Reels allowed from day 13, but a Reel posts only after the owner approves it (`approved_reels` in
+  `log/queue.json`). Review page: `python scripts/build_reels_review.py`, then output/reels/index.html (local
+  preview "reels-review" or GitHub Pages).

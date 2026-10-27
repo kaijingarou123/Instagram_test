@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Reels Review</title>
+<style>
+:root { --bg:#f6f7f4; --card:#fff; --ink:#15201a; --muted:#5f6b63; --line:#d9ded8; --ok:#1f7a45; --wait:#a35a00; --accent:#2f6b4f; }
+@media (prefers-color-scheme: dark) { :root { --bg:#0e1310; --card:#161d19; --ink:#e8eee9; --muted:#9aa79f; --line:#2a332d; --ok:#5cc58a; --wait:#f0a64a; --accent:#7fc2a0; } }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--ink); font:15px/1.45 system-ui,-apple-system,"Segoe UI",sans-serif; }
+header, main { max-width:1100px; margin:0 auto; padding-inline:max(16px, env(safe-area-inset-left)); }
+header { padding-block:24px 8px; }
+h1 { font-size:22px; margin:0 0 6px; }
+header p { margin:0; color:var(--muted); max-width:70ch; }
+main { display:grid; gap:20px; grid-template-columns:repeat(auto-fill, minmax(min(100%, 300px), 1fr)); padding-block:16px 48px; }
+.reel { background:var(--card); border:1px solid var(--line); border-radius:10px; overflow:hidden; display:grid; align-content:start; }
+video { width:100%; aspect-ratio:9/16; background:#000; display:block; }
+.body { padding:12px 14px 16px; display:grid; gap:8px; min-width:0; }
+.row { display:flex; gap:8px; align-items:center; justify-content:space-between; flex-wrap:wrap; }
+code { font-size:13px; color:var(--muted); }
+.st { font-size:12px; font-weight:600; padding:2px 8px; border-radius:99px; border:1px solid currentColor; }
+.st.ok { color:var(--ok); } .st.wait { color:var(--wait); } .st.posted { color:var(--accent); } .st.sample { color:var(--muted); }
+.facts { margin:0; font-size:13px; color:var(--muted); }
+pre { white-space:pre-wrap; font:inherit; font-size:13px; margin:0; max-height:220px; overflow:auto; }
+</style></head><body>
+<header><h1>Reels review: @earthspirit_nature</h1>
+<p>Nothing here posts until you approve it. Tell Claude which Reels to approve or change, by the name under each video.</p></header>
+<main>
+<article class="reel">
+  <video src="hummingbird-torpor.mp4" poster="hummingbird-torpor-cover.jpg" controls playsinline preload="metadata"></video>
+  <div class="body">
+    <div class="row"><code>hummingbird-torpor</code><span class="st wait">Waiting for your approval</span></div>
+    <p class="facts">21.5 s · generated ambient bed (CC0-equivalent) · format:fact-over-footage format:explainer tactic:hook-text</p>
+    <pre>A hummingbird&#x27;s heart can beat 1,260 times a minute. So how does it survive a cold night?
+
+Torpor. It drops its body temperature and metabolism to a fraction of normal until morning: a nightly mini-hibernation. And a ruby-throated hummingbird can still fatten up and cross 800 km of the Gulf of Mexico in one flight.
+
+Source: Cornell Lab of Ornithology (All About Birds). Photos: Wikimedia Commons, CC BY-SA 4.0 (credits shown on screen).
+
+#hummingbird #birdfacts #ornithology #wildlifefacts #birdsofinstagram</pre>
+  </div>
+</article>
+<article class="reel">
+  <video src="orca-hunt.mp4" poster="orca-hunt-cover.jpg" controls playsinline preload="metadata"></video>
+  <div class="body">
+    <div class="row"><code>orca-hunt</code><span class="st wait">Waiting for your approval</span></div>
+    <p class="facts">15.5 s · generated ambient bed (CC0-equivalent) · format:fact-over-footage format:storytime tactic:hook-text</p>
+    <pre>Orcas in the Antarctic Peninsula have a hunting technique that looks like teamwork from a movie: they line up, charge an ice floe and dive at the last second, creating a wave that washes seals off the ice.
+
+It&#x27;s culture, not instinct. Only some pods do it, and young orcas take years to learn.
+
+Source: Pitman &amp; Durban (2012), Marine Mammal Science. Photos: Callan Carpenter via Wikimedia Commons, CC BY-SA 4.0 / CC BY 4.0.
+
+#orca #killerwhale #antarctica #wildlifefacts #marinebiology</pre>
+  </div>
+</article>
+<article class="reel">
+  <video src="snow-leopard-no-roar.mp4" poster="snow-leopard-no-roar-cover.jpg" controls playsinline preload="metadata"></video>
+  <div class="body">
+    <div class="row"><code>snow-leopard-no-roar</code><span class="st sample">Sample, not queued</span></div>
+    <p class="facts">21.5 s · generated ambient bed (CC0-equivalent) · format:myth-bust format:fact-over-footage tactic:hook-text</p>
+    <pre>Snow leopards can&#x27;t roar. Lions, tigers, jaguars and leopards have a pad of fibro-elastic tissue in the larynx that lets them rumble; the snow leopard doesn&#x27;t, so it chuffs, growls and yowls instead.
+
+The &#x27;ghost of the mountains&#x27; lives at 3,000–4,500 m across 12 countries. Fewer than 10,000 mature adults remain (IUCN: Vulnerable).
+
+Sources: Hast (1989) J. Anatomy; IUCN Red List 2017; Snow Leopard Trust. Photos: Wikimedia Commons, CC BY-SA 3.0 (captive animals, Zoo Karlsruhe); credits on screen.
+
+#snowleopard #bigcats #wildlifefacts #conservation #himalaya</pre>
+  </div>
+</article></main>
+</body></html>

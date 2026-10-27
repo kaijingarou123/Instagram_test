@@ -5,16 +5,16 @@
     python scripts/post_queue.py check           # hashtag rotation along the planned order
     python scripts/post_queue.py record <slug> <media_id> <container_id> [child_id ...]   # log a Composio publish
 
-Timing (2026-10-28): two fixed daily slots in IST, a morning window and an evening window (SLOTS). After each
-publish the next post is due at a random time in the next slot that starts at least MIN_GAP_H after it, so a
-morning post is followed by an evening one and an evening post by the next morning. Owner decision 2026-10-18:
-2 posts a day from day 0. A due post is only released inside a slot window (with SLACK_MIN of grace at the end),
-so a slot missed while the PC was off is never caught up at night: it waits for the next slot.
+Timing (owner decisions 2026-10-28): three fixed daily slots in IST, morning, afternoon and evening (SLOTS).
+After each publish the next post is due at a random time in the next slot that starts at least MIN_GAP_H after
+it. A due post is only released inside a slot window (with SLACK_MIN of grace at the end), so a slot missed while
+the PC was off is never caught up at night: it waits for the next slot.
 
-What: one Reel and one carousel a day (owner decision 2026-10-28), alternating kinds; see pick(). A Reel may go only from account day 14,
-and only while the Reels published in the last 7 days are under the weekly allowance in publish.py's PHASES;
-otherwise it keeps its place and the next carousel goes first. The cadence envelope in publish.py (phase limits,
-min gap, Reels ban until day 14) still applies on top of this: run `publish.py plan <slug>` before publishing.
+What: 2 carousels and 1 Reel a day; see pick(). A Reel may go only when the owner has approved it (its slug is in
+`approved_reels` in log/queue.json), when no Reel went out in the last 24 h, and within the weekly Reels allowance
+in publish.py's PHASES; then it takes the next slot, otherwise carousels fill the slots in queue order. Any post
+that would break hashtag rotation against the last post is skipped for now. The cadence envelope in publish.py
+still applies on top of this: run `publish.py plan <slug>` before publishing.
 
 `next` exit codes: 0 due (slug on stdout) · 2 HALT marker present · 3 not due yet · 4 queue empty or nothing
 eligible.
@@ -37,9 +37,9 @@ QUEUE = ROOT / "log" / "queue.json"
 HALTS = [ROOT / "log" / "HALT", ROOT / "HALT", Path.home() / ".claude" / "platform-guardrails" / "HALT"]
 
 IST = timezone(timedelta(hours=5, minutes=30))
-SLOTS = [(time(8, 0), time(10, 30)), (time(18, 0), time(21, 0))]   # morning, evening (IST)
+SLOTS = [(time(8, 0), time(9, 30)), (time(14, 0), time(15, 30)), (time(20, 0), time(21, 30))]  # IST
 SLACK_MIN = 60                     # a due post may still go up to this long after its slot closes
-MIN_GAP_H = 8                      # publish.py phase limit: >= 8 h between posts
+MIN_GAP_H = 6                      # publish.py phase limit: >= 6 h between posts
 
 
 def load_queue():
@@ -104,9 +104,9 @@ def next_due(q, posts):
     if not posts:
         return datetime.now(timezone.utc)
     last = max(posts, key=lambda p: p["published_at"])
-    if q.get("due_after_media_id") != last["media_id"] or q.get("schedule") != "slots":
+    if q.get("due_after_media_id") != last["media_id"] or q.get("schedule") != "slots3":
         q["due_after_media_id"] = last["media_id"]
-        q["schedule"] = "slots"
+        q["schedule"] = "slots3"
         q["next_due"] = next_slot_time(datetime.fromisoformat(last["published_at"]), random.Random()).isoformat()
         save_queue(q)
     return datetime.fromisoformat(q["next_due"])
@@ -139,11 +139,11 @@ def reels_last_7d(posts, now):
 def pick(rest, posts, now):
     """The next post that may go now.
 
-    Owner decision 2026-10-28: one Reel and one carousel a day. So a Reel may go only within the weekly allowance
-    and when no Reel went out in the last 24 h, and the kind alternates: after a Reel the first eligible carousel
-    goes, after a carousel the first eligible Reel. If the preferred kind has nothing eligible, the other kind goes
-    in queue order.
+    Owner decisions 2026-10-28: 2 carousels and 1 Reel a day, and no Reel goes out until the owner has seen and
+    approved it. So a Reel may go only if approved, within the weekly allowance, and when no Reel went out in the
+    last 24 h; when one may, it goes first, otherwise the first eligible carousel goes.
     """
+    approved = set(load_queue().get("approved_reels", []))
     reel_ok = (reels_allowed_per_week(now) - reels_last_7d(posts, now) > 0
                and not any(p.get("kind") == "reel" and datetime.fromisoformat(p["published_at"]) > now - timedelta(hours=24)
                            for p in posts))
@@ -154,11 +154,11 @@ def pick(rest, posts, now):
         cur = {h.lower() for h in meta_for(s)["hashtags"]}
         return cur != prev_tags and len(cur & prev_tags) <= 2
 
-    eligible = [s for s in rest if (kind_of(s) == "carousel" or (kind_of(s) == "reel" and reel_ok)) and rotates(s)]
+    eligible = [s for s in rest
+                if (kind_of(s) == "carousel" or (kind_of(s) == "reel" and reel_ok and s in approved)) and rotates(s)]
     if not eligible:
         return None
-    prefer = "carousel" if last and last.get("kind") == "reel" else "reel"
-    return next((s for s in eligible if kind_of(s) == prefer), eligible[0])
+    return next((s for s in eligible if kind_of(s) == "reel"), eligible[0])
 
 
 def cmd_status():
@@ -173,21 +173,29 @@ def cmd_status():
           f"Reels this week {reels_last_7d(posts, now)}/{reels_allowed_per_week(now)} (day {account_day(now)})")
     if rest:
         print(f"next: {pick(rest, posts, max(now, due)) or rest[0]}  due {due.astimezone(IST):%a %d %b %H:%M} IST")
-        # rough simulation of the rest of the queue
+        # rough simulation of what can go without new approvals; bounded so it always ends
         sim, t, rng = list(posts), max(due, now), random.Random(0)
-        todo = list(rest)
-        while todo:
+        todo, last_t, idle = list(rest), None, 0
+        while todo and idle < 9:
             s = pick(todo, sim, t)
             if s is None:
-                t = next_slot_time(t, rng)
-                continue
-            sim.append({"slug": s, "kind": kind_of(s), "published_at": t.isoformat()})
-            todo.remove(s)
-            if todo:
-                t = next_slot_time(t, rng)
-        print(f"estimated last post: ~{t.astimezone(IST):%a %d %b} IST")
+                idle += 1
+            else:
+                idle = 0
+                sim.append({"slug": s, "kind": kind_of(s), "published_at": t.isoformat(),
+                            "hashtags": meta_for(s)["hashtags"]})
+                todo.remove(s)
+                last_t = t
+            t = next_slot_time(t, rng)
+        if last_t:
+            print(f"estimated last post: ~{last_t.astimezone(IST):%a %d %b} IST"
+                  + (f" ({len(todo)} not schedulable yet: unapproved Reels or hashtag clashes)" if todo else ""))
+    approved = set(q.get("approved_reels", []))
     for i, s in enumerate(rest, 1):
-        print(f"  {i:2}. {s}{'  [Reel]' if kind_of(s) == 'reel' else ''}")
+        tag = ""
+        if kind_of(s) == "reel":
+            tag = "  [Reel, approved]" if s in approved else "  [Reel, waiting for approval]"
+        print(f"  {i:2}. {s}{tag}")
 
 
 def cmd_next():
@@ -210,7 +218,7 @@ def cmd_next():
         return 3
     s = pick(rest, posts, now)
     if s is None:
-        print("nothing eligible: only Reels are left and this week's Reels allowance is used.")
+        print("nothing eligible: only Reels are left and none is approved and allowed right now.")
         return 4
     print(s)
     return 0
