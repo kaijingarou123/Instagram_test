@@ -46,9 +46,11 @@ PHASES = [
     # Owner decision 2026-10-18: days 0-13 run at 2 posts/day (>= 8 h apart) instead of the
     # platform-guardrails default of 1/day (>= 20 h), accepting the higher new-account risk.
     # Reels stay off until day 14.
+    # Owner decision 2026-10-28: from day 14 (29 Oct) up to 1 Reel a day (7 per rolling 7 days) instead of the
+    # guardrails default of 2 a week (days 14-27) and 4 a week (day 28 on). Daily total stays 2 posts, >= 8 h apart.
     (0, 13, 2, 8, 0),
-    (14, 27, 2, 8, 2),
-    (28, 10**6, 3, 6, 4),
+    (14, 27, 2, 8, 7),
+    (28, 10**6, 2, 8, 7),
 ]
 ABSOLUTE_DAILY_CEILING = 10
 QUOTA_HALT_AT = 20

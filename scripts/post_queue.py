@@ -11,7 +11,7 @@ morning post is followed by an evening one and an evening post by the next morni
 2 posts a day from day 0. A due post is only released inside a slot window (with SLACK_MIN of grace at the end),
 so a slot missed while the PC was off is never caught up at night: it waits for the next slot.
 
-What: the first post in `order` that may go now. Carousels may always go. A Reel may go only from account day 14,
+What: one Reel and one carousel a day (owner decision 2026-10-28), alternating kinds; see pick(). A Reel may go only from account day 14,
 and only while the Reels published in the last 7 days are under the weekly allowance in publish.py's PHASES;
 otherwise it keeps its place and the next carousel goes first. The cadence envelope in publish.py (phase limits,
 min gap, Reels ban until day 14) still applies on top of this: run `publish.py plan <slug>` before publishing.
@@ -137,13 +137,28 @@ def reels_last_7d(posts, now):
 
 
 def pick(rest, posts, now):
-    """First post in queue order that may go now (a Reel only within the weekly allowance)."""
-    reel_room = reels_allowed_per_week(now) - reels_last_7d(posts, now)
-    for s in rest:
-        k = kind_of(s)
-        if k == "carousel" or (k == "reel" and reel_room > 0):
-            return s
-    return None
+    """The next post that may go now.
+
+    Owner decision 2026-10-28: one Reel and one carousel a day. So a Reel may go only within the weekly allowance
+    and when no Reel went out in the last 24 h, and the kind alternates: after a Reel the first eligible carousel
+    goes, after a carousel the first eligible Reel. If the preferred kind has nothing eligible, the other kind goes
+    in queue order.
+    """
+    reel_ok = (reels_allowed_per_week(now) - reels_last_7d(posts, now) > 0
+               and not any(p.get("kind") == "reel" and datetime.fromisoformat(p["published_at"]) > now - timedelta(hours=24)
+                           for p in posts))
+    last = max(posts, key=lambda p: p["published_at"]) if posts else None
+    prev_tags = {h.lower() for h in (last or {}).get("hashtags", [])}
+
+    def rotates(s):   # publish.py refuses > 2 hashtags shared with the previous post, or the same set
+        cur = {h.lower() for h in meta_for(s)["hashtags"]}
+        return cur != prev_tags and len(cur & prev_tags) <= 2
+
+    eligible = [s for s in rest if (kind_of(s) == "carousel" or (kind_of(s) == "reel" and reel_ok)) and rotates(s)]
+    if not eligible:
+        return None
+    prefer = "carousel" if last and last.get("kind") == "reel" else "reel"
+    return next((s for s in eligible if kind_of(s) == prefer), eligible[0])
 
 
 def cmd_status():

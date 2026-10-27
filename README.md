@@ -111,3 +111,8 @@ https://claude.ai/artifact/XnM4F7V4xrTXyHGBNEdXmQ
   platform-guardrails weeks 1–2 limit of 1/day. The owner accepted the higher new-account risk. Implemented
   in `publish.py` PHASES and `post_queue.py`; every other guardrail (quota halt, hard stops, HALT markers,
   no Reels before day 14) is unchanged.
+- **2026-10-28**: posting moved to fixed IST slots (morning 08:00-10:30, evening 18:00-21:00, at least 8 h
+  apart), because the random 9-13 h gap left most evenings empty. Owner decision: from day 14 (29 Oct) 1 Reel
+  and 1 carousel a day (Reels allowance 7 per rolling week in the publisher's PHASES table, over the guardrails
+  default of 2 then 4 a week; the owner accepted the risk). `post_queue.py` alternates kinds and skips any post
+  that would break hashtag rotation. Growth review dashboard: https://claude.ai/artifact/Pp7mjpfVBa6f3UWP4Fhrnp
