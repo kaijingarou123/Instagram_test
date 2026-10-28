@@ -10,16 +10,16 @@
     "The train is made of upper tail coverts: feathers that grow above the tail, up to about 150 cm long.",
     "The real tail sits underneath. He raises it to lift the train, then shakes it to make it shimmer."
   ],
-  "audio": "generated loop pad + beat ticks (synthesised by make_loop_reel.py, no third-party audio)",
+  "audio": "music: Musopen - Morning.ogg (Public domain)",
   "experiment": {
     "hook": "number",
-    "audio": "generated-bed",
+    "audio": "music",
     "length": "12s",
     "theme": "india"
   },
   "synthetic_voice": false,
   "ai_disclosure": "none needed (real footage, no AI imagery or voice)",
-  "caption_chars": 639,
+  "caption_chars": 700,
   "hashtags": [
     "#peacock",
     "#indianpeafowl",
@@ -44,6 +44,15 @@
     "license": "CC BY-SA 4.0",
     "artist": "Original:  KCVelagaRefinement:  Rihaan180"
   },
+  "music_sync": {
+    "start_s": 61.18,
+    "bpm": 185,
+    "hero_at": 6.5,
+    "beat_snaps_s": [
+      0.13,
+      -0.05
+    ]
+  },
   "clip": {
     "media": "indian-peafowl-hd/01.webm",
     "start": 19.0,
@@ -54,6 +63,6 @@
     "zoom": 1.0
   },
   "loop_seam_diff": 4.9,
-  "median_frame_step": 4.7,
+  "median_frame_step": 4.8,
   "file_mb": 19.02
 }

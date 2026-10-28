@@ -30,11 +30,14 @@
   "source": "Baird et al. 2012, PLoS ONE; Dacke et al. 2013, Current Biology",
   "credit_artist": "Baird et al., PLoS ONE 2012",
   "audio": {
-    "bed": true
+    "bed": false,
+    "music": {
+      "track": "flight-of-the-bumblebee-piano"
+    }
   },
   "experiment": {
     "hook": "question",
-    "audio": "generated-bed",
+    "audio": "music",
     "length": "8s",
     "theme": "tiny-weird"
   },
@@ -54,5 +57,6 @@
     "format:fact-over-footage",
     "format:explainer",
     "tactic:hook-text"
-  ]
+  ],
+  "hero_at": 2.5
 }

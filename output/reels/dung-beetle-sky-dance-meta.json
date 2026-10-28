@@ -10,16 +10,16 @@
     "It climbs on top and turns to read the sky, then rolls away in a straight line.",
     "Some even steer by the Milky Way."
   ],
-  "audio": "generated loop pad + beat ticks (synthesised by make_loop_reel.py, no third-party audio)",
+  "audio": "music: Jaan Patterson - 02 - The Flight of the Bumblebee Nikolai Andrejewitsch Rimski-Korsakow.ogg (CC0)",
   "experiment": {
     "hook": "question",
-    "audio": "generated-bed",
+    "audio": "music",
     "length": "8s",
     "theme": "tiny-weird"
   },
   "synthetic_voice": false,
   "ai_disclosure": "none needed (real footage, no AI imagery or voice)",
-  "caption_chars": 809,
+  "caption_chars": 930,
   "hashtags": [
     "#dungbeetle",
     "#beetles",
@@ -45,6 +45,15 @@
     "license": "CC BY-SA 2.5",
     "artist": "Baird E, Byrne MJ, Smolka J, Warrant EJ, Dacke M (2012) The Dung Beetle Dance: An Orientation Behaviour? PLoS ONE 7(1): "
   },
+  "music_sync": {
+    "start_s": 67.28,
+    "bpm": 178,
+    "hero_at": 2.5,
+    "beat_snaps_s": [
+      -0.04,
+      -0.15
+    ]
+  },
   "clip": {
     "media": "dung-beetle/03.webm",
     "start": 1.6,
@@ -56,6 +65,6 @@
     "top": 620
   },
   "loop_seam_diff": 0.6,
-  "median_frame_step": 0.8,
-  "file_mb": 2.84
+  "median_frame_step": 0.5,
+  "file_mb": 2.85
 }

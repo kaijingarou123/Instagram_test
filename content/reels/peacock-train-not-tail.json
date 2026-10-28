@@ -45,12 +45,16 @@
     "tactic:hook-text"
   ],
   "audio": {
-    "bed": true
+    "bed": false,
+    "music": {
+      "track": "morning-mood"
+    }
   },
   "experiment": {
     "hook": "number",
-    "audio": "generated-bed",
+    "audio": "music",
     "length": "12s",
     "theme": "india"
-  }
+  },
+  "hero_at": 6.5
 }

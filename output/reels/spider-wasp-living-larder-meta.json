@@ -47,6 +47,7 @@
     "license": "CC BY-SA 4.0",
     "artist": "Yves Sorge"
   },
+  "music_sync": null,
   "clip": {
     "media": "spider-wasp-hd/01.webm",
     "start": 17.0,

@@ -13,8 +13,9 @@ The format ("loop", see content/PIPELINE.md, Reels):
   * species label, source and video credit stay on screen; the credit is added to the caption as well
   * audio (spec "audio", default {"bed": true}): "bed" = a pad synthesised here whose period equals the Reel
     length, plus a quiet tick on each beat, so it loops too and carries no licence risk; "natural" = gain for the
-    clip's own soundtrack (loop-dissolved like the picture; licence question, see PIPELINE.md); "music" =
-    {file, title, licence} for a track the owner downloaded from Meta Sound Collection. Optional TTS narration:
+    clip's own soundtrack (loop-dissolved like the picture); "music" = {track: <assets/music library slug>} or
+    {file, title, licence} for an owner-downloaded Meta Sound Collection track, synced so a beat hits frame 0 and
+    the strongest accent hits spec "hero_at", with the text changes snapped onto beats (see music_sync). Optional TTS narration:
     spec "voice" (Windows System.Speech); a voiced Reel gets a caption disclosure line.
   * spec "experiment" (hook / audio / length / theme arm values) is copied into the meta for the insight agent.
 
@@ -259,16 +260,90 @@ def natural_audio(spec, n_samples):
     return np.clip(body * (0.1 / rms), -0.9, 0.9)
 
 
-def music_track(spec, n_samples):
-    m = spec["audio"]["music"]
-    raw = subprocess.run(["ffmpeg", "-loglevel", "error", "-i", str(ROOT / m["file"]), "-ac", "1", "-ar", str(SR),
-                          "-f", "s16le", "-"], capture_output=True).stdout
-    x = np.frombuffer(raw, np.int16).astype(np.float64) / 32768
-    x = np.resize(x, n_samples)                                 # repeat if short
-    fade = int(LOOP_XF * SR)
-    x[:fade] *= np.linspace(0, 1, fade)
-    x[-fade:] *= np.linspace(1, 0, fade)
-    return x / (np.abs(x).max() + 1e-9) * 0.5
+MUSIC = ROOT / "assets" / "music"
+HOP = 512
+
+
+def load_music(m):
+    """m = {"track": <assets/music/library.json slug>} or {"file", "title", "licence"} (owner's Meta Sound Collection
+    download). Returns (mono samples, title, licence)."""
+    if "track" in m:
+        lib = {t["slug"]: t for t in json.loads((MUSIC / "library.json").read_text(encoding="utf-8"))}
+        t = lib[m["track"]]
+        path, title, lic = MUSIC / t["file"], t["title"].removeprefix("File:"), t["license"]
+    else:
+        path, title, lic = ROOT / m["file"], m["title"], m["licence"]
+    raw = subprocess.run(["ffmpeg", "-loglevel", "error", "-i", str(path), "-ac", "1", "-ar", str(SR), "-f", "s16le", "-"],
+                         capture_output=True).stdout
+    return np.frombuffer(raw, np.int16).astype(np.float64) / 32768, title, lic
+
+
+def analyse(x):
+    """Onset envelope, tempo (s per beat), beat grid (s) and loudness per hop."""
+    n = (len(x) - 2048) // HOP
+    frames = np.lib.stride_tricks.sliding_window_view(x, 2048)[::HOP][:n] * np.hanning(2048)
+    mag = np.log1p(np.abs(np.fft.rfft(frames, axis=1)))
+    env = np.maximum(np.diff(mag, axis=0), 0).sum(axis=1)
+    env = np.convolve(env, np.hanning(5) / 2.5, mode="same")
+    env = (env - env.mean()) / (env.std() + 1e-9)
+    rms = np.sqrt((frames ** 2).mean(axis=1))[1:]
+    fps = SR / HOP
+    lags = np.arange(int(0.33 * fps), int(1.0 * fps))           # 60-180 bpm
+    ac = np.array([np.dot(env[:-l], env[l:]) for l in lags])
+    period = lags[int(np.argmax(ac))]
+    phase = max(range(period), key=lambda ph: env[ph::period].sum())
+    grid = np.arange(phase, len(env), period) / fps
+    return env, rms, period / fps, grid
+
+
+def music_sync(spec, x, L):
+    """Choose where in the track the Reel starts so that a beat lands on frame 0 (the hook) and the strongest accent
+    lands on spec["hero_at"] (the animal's key moment), in a passage loud enough to carry; then snap the text beats
+    (unless a voice sets their timing) to the nearest music beat within 0.3 s."""
+    env, rms, beat, grid = analyse(x)
+    fps = SR / HOP
+    hero = float(spec.get("hero_at", spec["beats"][1]["at"] if len(spec["beats"]) > 1 else 0))
+    loud = np.median(rms)
+
+    def at(t):
+        i = int(t * fps)
+        return env[max(i - 2, 0):i + 3].max() if 0 <= i < len(env) else -9
+
+    best, best_o = -1e9, None
+    for o in grid:
+        if o < LOOP_XF or o + L + 0.2 > len(x) / SR:
+            continue
+        i0, i1 = int(o * fps), int((o + L) * fps)
+        if rms[i0:i1].mean() < 0.6 * loud or rms[i0:i1].min() < 0.05 * loud:   # no near-silent gaps
+            continue
+        score = at(o) + 2.0 * at(o + hero) + 0.5 * sum(at(o + b["at"]) for b in spec["beats"][1:])
+        if score > best:
+            best, best_o = score, o
+    if best_o is None:
+        raise SystemExit(f"{spec['slug']}: no loud enough {L:.0f} s passage in the music track")
+    snaps = []
+    if not spec.get("voice"):
+        rel = grid - best_o
+        for b in spec["beats"][1:]:
+            near = rel[np.argmin(np.abs(rel - b["at"]))]
+            if abs(near - b["at"]) <= 0.3 and 0 < near < L - LOOP_XF - 1.5:
+                snaps.append(round(near - b["at"], 2))
+                b["at"] = round(float(near), 3)
+    return best_o, 60 / beat, hero, snaps
+
+
+def music_track(spec, x, offset, n_samples, voice=None):
+    """The chosen passage, loop-dissolved into the bars just before it, RMS-normalised, ducked under narration."""
+    pre = int(LOOP_XF * SR)
+    i0 = int(offset * SR)
+    head, body = x[i0 - pre:i0], x[i0:i0 + n_samples].copy()
+    ramp = np.linspace(0, 1, pre)
+    body[-pre:] = body[-pre:] * (1 - ramp) + head * ramp
+    body *= 0.12 / (np.sqrt(np.mean(body ** 2)) + 1e-9)
+    if voice is not None:                                        # duck about 9 dB while the voice speaks
+        env = np.convolve(np.abs(voice), np.ones(int(0.15 * SR)) / (0.15 * SR), mode="same")
+        body *= 1 - 0.65 * np.clip(env / (env.max() + 1e-9) * 4, 0, 1)
+    return np.clip(body, -0.95, 0.95)
 
 
 # --------------------------------------------------------------------------- render
@@ -283,6 +358,11 @@ def render(spec_path):
     tmp = OUT / f".{slug}-tmp"
     tmp.mkdir(exist_ok=True)
     clips = narrate(spec, tmp) if spec.get("voice") else []
+    music = None
+    if spec.get("audio", {}).get("music"):                      # before anything reads the beat times
+        mx, m_title, m_lic = load_music(spec["audio"]["music"])
+        m_off, m_bpm, m_hero, m_snaps = music_sync(spec, mx, spec["duration"])
+        music = (mx, m_off)
     n = round(spec["duration"] * FPS)
     nx = round(LOOP_XF * FPS)
     clip_meta, credit = clip_credit(spec)
@@ -297,16 +377,19 @@ def render(spec_path):
     if a_spec.get("natural"):
         parts.append(natural_audio(spec, ns) * float(a_spec["natural"]))
         audio_desc.append(f"natural sound from the CC clip ({clip_meta['license']}, credited)")
-    if a_spec.get("music"):
-        parts.append(music_track(spec, ns) * (0.35 if clips else 0.8))
-        audio_desc.append(f"music: {a_spec['music']['title']} ({a_spec['music']['licence']})")
+    vt = voice_track(spec, clips, ns) if clips else None
+    if music:
+        parts.append(music_track(spec, *music, ns, vt) * (1.6 if clips else 2.4))
+        audio_desc.append(f"music: {m_title} ({m_lic})")
     if clips:
-        parts.append(voice_track(spec, clips, ns) * 0.75)
+        parts.append(vt * 0.75)
         audio_desc.append("TTS narration (Windows System.Speech, synthetic voice)")
     if not parts:
         raise SystemExit(f"{slug}: no audio source selected")
     audio = np.sum(parts, axis=0)
-    audio = np.clip(audio, -0.98, 0.98)
+    # same loudness for every Reel (about -16 dBFS RMS), so the audio experiment compares content, not volume
+    audio *= 0.158 / (np.sqrt(np.mean(audio ** 2)) + 1e-9)
+    audio = np.tanh(audio / 0.9) * 0.9                          # soft limiter instead of hard clipping
     wav = tmp / "audio.wav"
     with wave.open(str(wav), "wb") as w:
         w.setnchannels(2)
@@ -366,6 +449,8 @@ def render(spec_path):
 
     caption = spec["caption"].strip()
     caption += f"\n\n{credit} ({clip_meta['title'].removeprefix('File:')})."
+    if music:
+        caption += f"\nMusic: {Path(m_title).stem} ({m_lic}, Wikimedia Commons)."
     if spec.get("voice"):
         caption += "\nNarration: computer-generated voice (text-to-speech)."
     caption += "\n\n" + " ".join(spec["hashtags"])
@@ -380,6 +465,8 @@ def render(spec_path):
         "caption_chars": len(caption), "hashtags": spec["hashtags"], "format_tags": spec.get("format_tags", []),
         "alt_text": spec.get("alt_text", ""), "sources": spec["sources"],
         "photo_credits": [credit], "video_source": {k: clip_meta[k] for k in ("title", "page", "license", "artist")},
+        "music_sync": ({"start_s": round(m_off, 2), "bpm": round(m_bpm), "hero_at": m_hero, "beat_snaps_s": m_snaps}
+                       if music else None),
         "clip": spec["clip"], "loop_seam_diff": round(seam, 1), "median_frame_step": round(step, 1), "file_mb": round(mp4.stat().st_size / 1e6, 2),
     }
     (OUT / f"{slug}-meta.json").write_text(json.dumps(meta, indent=2, ensure_ascii=False), encoding="utf-8")

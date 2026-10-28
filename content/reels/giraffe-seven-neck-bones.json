@@ -29,11 +29,14 @@
   ],
   "source": "Encyclopaedia Britannica",
   "audio": {
-    "bed": true
+    "bed": false,
+    "music": {
+      "track": "vivaldi-winter-largo"
+    }
   },
   "experiment": {
     "hook": "number",
-    "audio": "generated-bed",
+    "audio": "music",
     "length": "15s",
     "theme": "global"
   },
@@ -54,5 +57,6 @@
     "format:fact-over-footage",
     "format:explainer",
     "tactic:hook-text"
-  ]
+  ],
+  "hero_at": 10.0
 }

@@ -46,6 +46,7 @@
     "license": "CC BY 3.0",
     "artist": "Lennart Hessel"
   },
+  "music_sync": null,
   "clip": {
     "media": "common-kingfisher-hd/01.webm",
     "start": 12.6,

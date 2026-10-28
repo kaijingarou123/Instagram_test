@@ -10,16 +10,16 @@
     "Almost every mammal has seven. A giraffe's are just enormously long.",
     "Add a tongue almost half a metre long, and it browses leaves about 6 m up."
   ],
-  "audio": "generated loop pad + beat ticks (synthesised by make_loop_reel.py, no third-party audio)",
+  "audio": "music: The Modena Chamber Orchestra - Vivaldi's Winter, RV 297 - II. Largo.ogg (PDM-owner)",
   "experiment": {
     "hook": "number",
-    "audio": "generated-bed",
+    "audio": "music",
     "length": "15s",
     "theme": "global"
   },
   "synthetic_voice": false,
   "ai_disclosure": "none needed (real footage, no AI imagery or voice)",
-  "caption_chars": 661,
+  "caption_chars": 768,
   "hashtags": [
     "#giraffe",
     "#giraffefacts",
@@ -46,6 +46,15 @@
     "license": "CC BY-SA 4.0",
     "artist": "Nesnad"
   },
+  "music_sync": {
+    "start_s": 100.51,
+    "bpm": 110,
+    "hero_at": 10.0,
+    "beat_snaps_s": [
+      0.07,
+      0.13
+    ]
+  },
   "clip": {
     "media": "giraffe/01.webm",
     "start": 6.6,
@@ -58,5 +67,5 @@
   },
   "loop_seam_diff": 5.8,
   "median_frame_step": 2.7,
-  "file_mb": 9.2
+  "file_mb": 9.23
 }

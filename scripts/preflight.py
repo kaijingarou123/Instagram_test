@@ -87,6 +87,27 @@ def check_carousel(d, others, res):
     return caption
 
 
+CLIP_LICENCE = re.compile(r"^(cc0|pd|public domain|cc by(-sa)? \d)", re.I)
+
+
+def audio_ok(meta):
+    """Every audio source must be allowed (platform-guardrails 0.1.3): synthesised here, TTS, a Meta Sound Collection
+    track, or (owner decision 2026-10-28) the natural sound of the CC0/PD/CC BY/CC BY-SA clip shown, which is
+    credited with the clip. Whether that sound contains music or speech is checked by the owner before approval."""
+    parts = [p.strip() for p in meta.get("audio", "").split(";") if p.strip()]
+    lic = meta.get("video_source", {}).get("license", "")
+
+    def ok(p):
+        if p.startswith("generated") or p.startswith("TTS narration"):
+            return True
+        if p.startswith("natural sound from the CC clip"):
+            return bool(CLIP_LICENCE.match(lic)) and not re.search(r"\b(nc|nd)\b", lic, re.I)
+        # music: a Meta Sound Collection track, or a public-domain / CC0 recording from assets/music (never chart music)
+        return p.startswith("music:") and bool(re.search(r"\((Meta Sound Collection|Public domain|PD[^)]*|CC0)\)$", p, re.I))
+
+    return bool(parts) and all(ok(p) for p in parts)
+
+
 def probe(mp4):
     out = subprocess.run(["ffprobe", "-v", "error", "-show_entries",
                           "stream=codec_name,codec_type,width,height,r_frame_rate,sample_rate:format=duration,bit_rate",
@@ -115,7 +136,8 @@ def check_reel(slug, others, res):
                 f"{mp4.stat().st_size/1e6:.1f}MB {mbps:.1f}Mbps"))
     head = mp4.read_bytes()[:64]
     res.append(("moov atom at front (faststart)", b"moov" in head, ""))
-    res.append(("audio is royalty-free / generated", "generated" in meta.get("audio", ""), meta.get("audio", "")))
+    res.append(("audio: generated, CC-clip natural sound, TTS or Meta Sound Collection", audio_ok(meta),
+                meta.get("audio", "")))
     res.append(("cover image exists", (d / f"{slug}-cover.jpg").exists(), ""))
     res.append(("photo credits recorded", all(meta.get("photo_credits", [])), ""))
     res.append(("sources recorded", len(meta.get("sources", [])) >= 1, ""))

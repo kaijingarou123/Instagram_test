@@ -10,16 +10,16 @@
     "It drags its kills into the branches, out of reach of scavengers.",
     "And it may keep hunting with several kills already stashed."
   ],
-  "audio": "generated loop pad + beat ticks (synthesised by make_loop_reel.py, no third-party audio); TTS narration (Windows System.Speech, synthetic voice)",
+  "audio": "music: Musopen - In the Hall Of The Mountain King.ogg (Public domain); TTS narration (Windows System.Speech, synthetic voice)",
   "experiment": {
     "hook": "question",
-    "audio": "voice+generated-bed",
+    "audio": "voice+music",
     "length": "15s",
     "theme": "india"
   },
   "synthetic_voice": true,
   "ai_disclosure": "caption discloses computer-generated narration; apply Instagram's AI label (publish by hand)",
-  "caption_chars": 712,
+  "caption_chars": 798,
   "hashtags": [
     "#leopard",
     "#indianleopard",
@@ -46,6 +46,12 @@
     "license": "CC BY-SA 4.0",
     "artist": "Shiv's fotografia"
   },
+  "music_sync": {
+    "start_s": 120.64,
+    "bpm": 86,
+    "hero_at": 3.0,
+    "beat_snaps_s": []
+  },
   "clip": {
     "media": "indian-leopard-hd/01.webm",
     "start": 0.6,
@@ -58,5 +64,5 @@
   },
   "loop_seam_diff": 15.5,
   "median_frame_step": 16.2,
-  "file_mb": 21.53
+  "file_mb": 21.57
 }

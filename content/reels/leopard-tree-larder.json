@@ -51,12 +51,16 @@
     "rate": 1
   },
   "audio": {
-    "bed": true
+    "bed": false,
+    "music": {
+      "track": "hall-of-the-mountain-king"
+    }
   },
   "experiment": {
     "hook": "question",
-    "audio": "voice+generated-bed",
+    "audio": "voice+music",
     "length": "15s",
     "theme": "india"
-  }
+  },
+  "hero_at": 3.0
 }
