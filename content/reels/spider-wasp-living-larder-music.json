@@ -1,0 +1,73 @@
+{
+  "slug": "spider-wasp-living-larder-music",
+  "format": "loop",
+  "species": "Spider wasp (family Pompilidae)",
+  "clip": {
+    "media": "spider-wasp-hd/01.webm",
+    "start": 17.0,
+    "focus": [
+      0.4,
+      0.55
+    ],
+    "zoom": 1.0
+  },
+  "duration": 30.0,
+  "beats": [
+    {
+      "at": 0.0,
+      "text": "This tarantula is not dead."
+    },
+    {
+      "at": 4.0,
+      "text": "A spider wasp stung its nerve centres. It is paralysed, not killed."
+    },
+    {
+      "at": 10.5,
+      "text": "She drags it into her burrow and lays a single egg on its body."
+    },
+    {
+      "at": 17.0,
+      "text": "When the egg hatches, the larva feeds on the spider while it is still alive."
+    },
+    {
+      "at": 23.5,
+      "text": "There are about 5,000 species of spider wasp."
+    }
+  ],
+  "source": "Encyclopaedia Britannica",
+  "voice": {
+    "name": "Microsoft Zira Desktop",
+    "rate": 1
+  },
+  "audio": {
+    "bed": false,
+    "music": {
+      "track": "loyalty-freak-the-swamp"
+    }
+  },
+  "experiment": {
+    "hook": "myth",
+    "audio": "voice+music-modern",
+    "length": "30s",
+    "theme": "tiny-weird"
+  },
+  "caption": "Pompilidae, the spider wasps, raise their young on living tarantulas.\n\nOne precise sting to the nerve centres leaves the spider unable to move. The wasp drags it underground, attaches a single egg and closes the chamber. Some 5,000 species worldwide hunt this way.\n\nSource: Encyclopaedia Britannica.\nShow this to the arachnophobe you know (gently).",
+  "hashtags": [
+    "#pompilidae",
+    "#tarantulahawk",
+    "#bugfacts",
+    "#creepynature",
+    "#wildlifefacts"
+  ],
+  "sources": [
+    "https://www.britannica.com/animal/spider-wasp"
+  ],
+  "alt_text": "Video of a black spider wasp dragging a paralysed tarantula across sand into a burrow, with text explaining the spider is paralysed, not dead.",
+  "format_tags": [
+    "format:fact-over-footage",
+    "format:predation",
+    "tactic:hook-text"
+  ],
+  "variant_of": "spider-wasp-living-larder",
+  "hero_at": 10.0
+}

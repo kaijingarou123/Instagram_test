@@ -176,8 +176,17 @@ def pick(rest, posts, now):
         cur = {h.lower() for h in meta_for(s)["hashtags"]}
         return cur != prev_tags and len(cur & prev_tags) <= 2
 
+    # A Reel variant ("variant_of" in its meta) and its original are the same footage: posting both is near-duplicate
+    # content, so once either one is published the other never goes.
+    posted = {p["slug"] for p in posts}
+
+    def family(s):
+        base = meta_for(s).get("variant_of") or s
+        return {base} | {r for r in approved if kind_of(r) == "reel" and (meta_for(r).get("variant_of") or r) == base}
+
     eligible = [s for s in rest
-                if ((kind_of(s) == "carousel" and carousel_ok) or (kind_of(s) == "reel" and reel_ok and s in approved))
+                if ((kind_of(s) == "carousel" and carousel_ok)
+                    or (kind_of(s) == "reel" and reel_ok and s in approved and not (family(s) & posted)))
                 and rotates(s)]
     if not eligible:
         return None

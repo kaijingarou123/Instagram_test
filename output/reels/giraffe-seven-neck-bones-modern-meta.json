@@ -1,0 +1,80 @@
+{
+  "slug": "giraffe-seven-neck-bones-modern",
+  "format": "reel",
+  "reel_format": "loop",
+  "size": "1080x1920",
+  "fps": 30,
+  "duration_s": 15.0,
+  "beats": [
+    "7 neck bones. The same number as you.",
+    "Almost every mammal has seven. A giraffe's are just enormously long.",
+    "Add a tongue almost half a metre long, and it browses leaves about 6 m up."
+  ],
+  "audio": "music: Komiku - 12 - Action Discovery (CC0, Wikimedia Commons)",
+  "experiment": {
+    "hook": "number",
+    "audio": "music-modern",
+    "length": "15s",
+    "theme": "global"
+  },
+  "synthetic_voice": false,
+  "ai_music": false,
+  "ai_disclosure": "none needed (real footage, no AI imagery or voice)",
+  "caption_chars": 636,
+  "hashtags": [
+    "#giraffes",
+    "#savannawildlife",
+    "#anatomyfacts",
+    "#animalfacts"
+  ],
+  "format_tags": [
+    "format:fact-over-footage",
+    "format:explainer",
+    "tactic:hook-text"
+  ],
+  "alt_text": "Video of a wild giraffe in Malawi stretching its long neck to browse leaves from a tree, with text explaining it has seven neck bones like a human.",
+  "sources": [
+    "https://www.britannica.com/animal/giraffe",
+    "https://www.britannica.com/one-good-fact/how-are-the-necks-of-giraffes-and-mice-similar"
+  ],
+  "photo_credits": [
+    "Video: Nesnad, CC BY-SA 4.0, Wikimedia Commons"
+  ],
+  "video_source": {
+    "title": "File:Giraffe in Malawi - 2018 Aug.webm",
+    "page": "https://commons.wikimedia.org/wiki/File%3AGiraffe%20in%20Malawi%20-%202018%20Aug.webm",
+    "license": "CC BY-SA 4.0",
+    "artist": "Nesnad"
+  },
+  "music": {
+    "title": "Komiku - 12 - Action Discovery",
+    "artist": "Komiku",
+    "licence": "CC0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Komiku_-_12_-_Action_Discovery.ogg",
+    "source_class": "modern-cc0",
+    "content_id": false,
+    "credit": "Komiku - 12 - Action Discovery (CC0, Wikimedia Commons)"
+  },
+  "variant_of": "giraffe-seven-neck-bones",
+  "music_sync": {
+    "start_s": 78.65,
+    "bpm": 65,
+    "hero_at": 10.0,
+    "beat_snaps_s": [
+      -0.24
+    ]
+  },
+  "clip": {
+    "media": "giraffe/01.webm",
+    "start": 6.6,
+    "focus": [
+      0.42,
+      0.5
+    ],
+    "zoom": 0.72,
+    "top": 540
+  },
+  "loop_seam_diff": 5.8,
+  "median_frame_step": 2.7,
+  "file_mb": 9.24
+}
