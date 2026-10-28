@@ -46,11 +46,13 @@ PHASES = [
     # Owner decision 2026-10-18: days 0-13 run at 2 posts/day (>= 8 h apart) instead of the
     # platform-guardrails default of 1/day (>= 20 h), accepting the higher new-account risk.
     # Reels stay off until day 14.
-    # Owner decisions 2026-10-28: Reels from day 13 (the evening of 28 Oct), up to 1 a day (7 per rolling 7 days),
-    # and 3 posts a day (2 carousels + 1 Reel) at least 6 h apart, to catch up missed carousels. Guardrails default
-    # was 1/day then 2/day, and 2 then 4 Reels a week; the owner accepted the risk.
+    # Owner decisions 2026-10-28: Reels from day 13, up to 2 a day (14 per rolling 7 days). Days 13-14 (28-29 Oct)
+    # clear the carousel backlog: up to 7 posts a day, >= 2 h apart. From day 15: 2 carousels + 1-2 Reels, up to
+    # 4 posts a day, >= 3 h apart. Guardrails default was 1/day then 2/day and 2 then 4 Reels a week; the owner
+    # accepted the risk. ABSOLUTE_DAILY_CEILING (10) still applies.
     (0, 12, 2, 8, 0),
-    (13, 10**6, 3, 6, 7),
+    (13, 14, 7, 2, 14),
+    (15, 10**6, 4, 3, 14),
 ]
 ABSOLUTE_DAILY_CEILING = 10
 QUOTA_HALT_AT = 20

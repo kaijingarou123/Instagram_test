@@ -5,14 +5,15 @@
     python scripts/post_queue.py check           # hashtag rotation along the planned order
     python scripts/post_queue.py record <slug> <media_id> <container_id> [child_id ...]   # log a Composio publish
 
-Timing (owner decisions 2026-10-28): three fixed daily slots in IST, morning, afternoon and evening (SLOTS).
-After each publish the next post is due at a random time in the next slot that starts at least MIN_GAP_H after
-it. A due post is only released inside a slot window (with SLACK_MIN of grace at the end), so a slot missed while
-the PC was off is never caught up at night: it waits for the next slot.
+Timing (owner decisions 2026-10-28): fixed daily slots in IST. On the catch-up days (CATCHUP_DAYS, 28-29 Oct) seven
+slots at least 2 h apart to clear the carousel backlog; after that four slots at least 3 h apart. After each publish
+the next post is due at a random time in the next slot that starts at least the day's gap after it. A due post is
+only released inside a slot window (with SLACK_MIN of grace at the end), so a slot missed while the PC was off is
+never caught up at night: it waits for the next slot.
 
-What: 2 carousels and 1 Reel a day; see pick(). A Reel may go only when the owner has approved it (its slug is in
-`approved_reels` in log/queue.json), when no Reel went out in the last 24 h, and within the weekly Reels allowance
-in publish.py's PHASES; then it takes the next slot, otherwise carousels fill the slots in queue order. Any post
+What: see pick(). A Reel may go only when the owner has approved it (its slug is in `approved_reels` in
+log/queue.json), never right after another Reel, at most REELS_PER_DAY a day and within the weekly Reels allowance in
+publish.py's PHASES. Carousels fill the other slots (at most CAROUSELS_PER_DAY a day after the catch-up days). Any post
 that would break hashtag rotation against the last post is skipped for now. The cadence envelope in publish.py
 still applies on top of this: run `publish.py plan <slug>` before publishing.
 
@@ -22,7 +23,7 @@ eligible.
 import json
 import random
 import sys
-from datetime import datetime, time, timedelta, timezone
+from datetime import date, datetime, time, timedelta, timezone
 from pathlib import Path
 
 if hasattr(sys.stdout, "reconfigure"):
@@ -37,9 +38,27 @@ QUEUE = ROOT / "log" / "queue.json"
 HALTS = [ROOT / "log" / "HALT", ROOT / "HALT", Path.home() / ".claude" / "platform-guardrails" / "HALT"]
 
 IST = timezone(timedelta(hours=5, minutes=30))
-SLOTS = [(time(8, 0), time(9, 30)), (time(14, 0), time(15, 30)), (time(20, 0), time(21, 30))]  # IST
-SLACK_MIN = 60                     # a due post may still go up to this long after its slot closes
-MIN_GAP_H = 6                      # publish.py phase limit: >= 6 h between posts
+# Owner decisions 2026-10-28: clear the carousel backlog on 28-29 Oct (catch-up days, up to 7 posts a day, >= 2 h
+# apart), then 2 carousels and 1 to 2 Reels a day (up to 4 posts, >= 3 h apart). Times are IST.
+CATCHUP_DAYS = {date(2026, 10, 28), date(2026, 10, 29)}
+CATCHUP_SLOTS = [(time(8, 0), time(8, 45)), (time(10, 15), time(11, 0)), (time(12, 30), time(13, 15)),
+                 (time(14, 45), time(15, 30)), (time(17, 0), time(17, 45)), (time(19, 15), time(20, 0)),
+                 (time(21, 30), time(22, 15))]
+NORMAL_SLOTS = [(time(8, 0), time(9, 30)), (time(12, 30), time(13, 30)), (time(17, 0), time(18, 0)),
+                (time(20, 30), time(21, 30))]
+SLOTS = NORMAL_SLOTS               # shown by `status`
+SLACK_MIN = 45                     # a due post may still go up to this long after its slot closes
+CATCHUP_GAP_H, NORMAL_GAP_H = 2, 3  # publish.py phase limits for those days
+CAROUSELS_PER_DAY = 2              # outside catch-up days
+REELS_PER_DAY = 2
+
+
+def slots_for(day):
+    return CATCHUP_SLOTS if day in CATCHUP_DAYS else NORMAL_SLOTS
+
+
+def gap_for(t):
+    return CATCHUP_GAP_H if t.astimezone(IST).date() in CATCHUP_DAYS else NORMAL_GAP_H
 
 
 def load_queue():
@@ -76,17 +95,16 @@ def slot_windows(from_day, days=4):
     out = []
     for d in range(days):
         day = from_day + timedelta(days=d)
-        for a, b in SLOTS:
+        for a, b in slots_for(day):
             out.append((datetime.combine(day, a, IST).astimezone(timezone.utc),
                         datetime.combine(day, b, IST).astimezone(timezone.utc)))
     return out
 
 
 def next_slot_time(after, rng):
-    """A random time in the first slot that still has room at least MIN_GAP_H after `after`."""
-    earliest = after + timedelta(hours=MIN_GAP_H)
+    """A random time in the first slot that still has room at least the day's minimum gap after `after`."""
     for start, end in slot_windows(after.astimezone(IST).date()):
-        lo = max(start, earliest)
+        lo = max(start, after + timedelta(hours=gap_for(start)))
         if lo <= end:
             return lo + timedelta(seconds=rng.uniform(0, (end - lo).total_seconds()))
     raise RuntimeError("no slot found")
@@ -104,9 +122,9 @@ def next_due(q, posts):
     if not posts:
         return datetime.now(timezone.utc)
     last = max(posts, key=lambda p: p["published_at"])
-    if q.get("due_after_media_id") != last["media_id"] or q.get("schedule") != "slots3":
+    if q.get("due_after_media_id") != last["media_id"] or q.get("schedule") != "slots4":
         q["due_after_media_id"] = last["media_id"]
-        q["schedule"] = "slots3"
+        q["schedule"] = "slots4"
         q["next_due"] = next_slot_time(datetime.fromisoformat(last["published_at"]), random.Random()).isoformat()
         save_queue(q)
     return datetime.fromisoformat(q["next_due"])
@@ -139,15 +157,19 @@ def reels_last_7d(posts, now):
 def pick(rest, posts, now):
     """The next post that may go now.
 
-    Owner decisions 2026-10-28: 2 carousels and 1 Reel a day, and no Reel goes out until the owner has seen and
-    approved it. So a Reel may go only if approved, within the weekly allowance, and when no Reel went out in the
-    last 24 h; when one may, it goes first, otherwise the first eligible carousel goes.
+    Owner decisions 2026-10-28: no Reel goes out until the owner has approved it; up to REELS_PER_DAY Reels a day,
+    never two Reels in a row; carousels unlimited on catch-up days, otherwise CAROUSELS_PER_DAY. When a Reel may go
+    it goes first, otherwise the first eligible carousel goes.
     """
     approved = set(load_queue().get("approved_reels", []))
-    reel_ok = (reels_allowed_per_week(now) - reels_last_7d(posts, now) > 0
-               and not any(p.get("kind") == "reel" and datetime.fromisoformat(p["published_at"]) > now - timedelta(hours=24)
-                           for p in posts))
     last = max(posts, key=lambda p: p["published_at"]) if posts else None
+    day_ago = now - timedelta(hours=24)
+    recent = [p for p in posts if datetime.fromisoformat(p["published_at"]) > day_ago]
+    reel_ok = (reels_allowed_per_week(now) - reels_last_7d(posts, now) > 0
+               and sum(p.get("kind") == "reel" for p in recent) < REELS_PER_DAY
+               and not (last and last.get("kind") == "reel"))
+    carousel_ok = (now.astimezone(IST).date() in CATCHUP_DAYS
+                   or sum(p.get("kind") == "carousel" for p in recent) < CAROUSELS_PER_DAY)
     prev_tags = {h.lower() for h in (last or {}).get("hashtags", [])}
 
     def rotates(s):   # publish.py refuses > 2 hashtags shared with the previous post, or the same set
@@ -155,7 +177,8 @@ def pick(rest, posts, now):
         return cur != prev_tags and len(cur & prev_tags) <= 2
 
     eligible = [s for s in rest
-                if (kind_of(s) == "carousel" or (kind_of(s) == "reel" and reel_ok and s in approved)) and rotates(s)]
+                if ((kind_of(s) == "carousel" and carousel_ok) or (kind_of(s) == "reel" and reel_ok and s in approved))
+                and rotates(s)]
     if not eligible:
         return None
     return next((s for s in eligible if kind_of(s) == "reel"), eligible[0])
@@ -169,7 +192,8 @@ def cmd_status():
     reels_left = sum(1 for s in rest if kind_of(s) == "reel")
     print(f"queue: {len(q['order'])} planned, {len(q['order']) - len(rest)} published, {len(rest)} left "
           f"({len(rest) - reels_left} carousels, {reels_left} Reels)")
-    print("slots: " + ", ".join(f"{a:%H:%M}-{b:%H:%M}" for a, b in SLOTS) + f" IST, >= {MIN_GAP_H} h apart; "
+    print("slots: " + ", ".join(f"{a:%H:%M}-{b:%H:%M}" for a, b in slots_for(now.astimezone(IST).date()))
+          + f" IST today, >= {gap_for(now)} h apart; "
           f"Reels this week {reels_last_7d(posts, now)}/{reels_allowed_per_week(now)} (day {account_day(now)})")
     if rest:
         print(f"next: {pick(rest, posts, max(now, due)) or rest[0]}  due {due.astimezone(IST):%a %d %b %H:%M} IST")

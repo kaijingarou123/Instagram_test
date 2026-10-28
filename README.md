@@ -121,3 +121,7 @@ https://claude.ai/artifact/XnM4F7V4xrTXyHGBNEdXmQ
   posts. Reels allowed from day 13, but a Reel posts only after the owner approves it (`approved_reels` in
   `log/queue.json`). Review page: `python scripts/build_reels_review.py`, then output/reels/index.html (local
   preview "reels-review" or GitHub Pages).
+- **2026-10-28 (afternoon)**: owner approved all 9 rendered Reels (`approved_reels`) and asked to clear the carousel
+  backlog: 28-29 Oct are catch-up days (up to 7 posts a day, >= 2 h apart, in seven IST slots); from 30 Oct four
+  slots a day (>= 3 h apart) for 2 carousels and 1-2 Reels, never two Reels in a row. Absolute ceiling of 10 a day
+  and every other guardrail still apply.
