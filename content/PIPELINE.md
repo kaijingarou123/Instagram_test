@@ -80,10 +80,29 @@ rules above. Reference specs: `content/reels/kingfisher-blue-not-pigment.json`, 
   credit sit above the caption area on every frame, and the credit is appended to the caption automatically.
 - Audio comes from the spec's `audio` block (see Experiments for which to use):
   `"bed": true` = a pad the renderer synthesises (repeats exactly once per loop, plus a tick on each beat);
-  `"natural": <gain>` = the clip's own soundtrack, loop-dissolved like the picture (ON HOLD: platform-guardrails
-  allows only none, own/CC0 or Meta Sound Collection audio, so this arm needs the owner's ruling before any such
-  Reel is queued; preflight fails it until then); `"music": {"file", "title", "licence"}` = a Meta Sound Collection
-  track the owner downloaded (Claude cannot fetch these). Never trending audio, commercial music or any other track.
+  `"natural": <gain>` = the clip's own soundtrack, loop-dissolved like the picture (allowed by owner decision
+  28 Oct, platform-guardrails 0.1.3: only from a CC0/PD/CC BY/CC BY-SA clip, credited with it, and only if it holds
+  natural sound alone: no music, no human speech, no engines. Check with `ffmpeg -i X.webm -af volumedetect -f null -`
+  that it isn't silent, say in the batch report that it needs a listen, and the owner listens before approving);
+  `"music": {"track": "<slug>"}` = a track from the wildlife music library `assets/music/library.json`
+  (`python scripts/fetch_commons_music.py --list`, each track tagged with moods and a source class:
+  `classical-pd` = public-domain recordings of the nature repertoire (Grieg, Vivaldi's Four Seasons, Flight of the
+  Bumblebee, Saint-Saens, Debussy, Satie); `modern-cc0` = CC0 tracks by the Free Music Archive artists faceless and
+  AI channels use most (Komiku, Loyalty Freak Music)). Or a track the owner downloaded, with its provenance:
+  `{"file", "title", "licence": "Meta Sound Collection"}`;
+  `{"file", "title", "artist", "licence": "Pixabay Content License", "source_url", "content_id": false}` (only
+  tracks WITHOUT the Content ID shield icon; many of Pixabay's most-downloaded tracks have it);
+  `{"file", "title", "licence": "AI-generated", "tool", "plan", "terms_url", "commercial_rights": true}` (Suno, Udio
+  and similar only on a plan whose terms grant commercial rights; free tiers usually do not). The renderer refuses
+  any other licence, and preflight checks the recorded provenance. Never Kevin MacLeod / incompetech (his catalogue
+  is now pre-registered in YouTube Content ID), never NC/ND, never a Content ID-registered track.
+  Pick the track by mood: predator / stalking, frantic / tiny, calm / wonder, display / graceful, storm / action.
+  Add `"hero_at": <s>` = when the animal does its key thing (watch the clip). The renderer then starts the track
+  where a beat lands on frame 0 (the hook) and the strongest accent lands on `hero_at`, snaps the text changes onto
+  the nearest beat, and dissolves it
+  across the loop like the picture; `music_sync` in the meta records what it chose. The caption gets a "Music:" line.
+  Never trending, chart or commercial music (a "top 100" of popular songs is exactly what gets Reels muted or the
+  account restricted); to add a track, add an entry to `LIBRARY` in the fetcher (PD / CC0 / PDM recordings only).
 
 **Footage** (same licence rules as photos: CC0 / PD / CC BY / CC BY-SA only, never NC/ND, never a raw clip posted as is):
 1. Find clips: `python scripts/fetch_commons_video.py "<species>=<alt name>"` writes up to 3 candidates into a
@@ -102,24 +121,29 @@ rules above. Reference specs: `content/reels/kingfisher-blue-not-pigment.json`, 
 **Spec** `content/reels/<slug>.json`: slug, format "loop", species "Common name (Genus species)", clip, duration,
 beats [{at, text}] with the hook at 0, source (short, shown on screen), caption, hashtags, sources (URLs), alt_text,
 format_tags (`format:fact-over-footage`, plus `format:myth-bust`, `format:explainer` or `format:predation`, plus
-`tactic:hook-text`), audio, experiment, voice (if that arm), and `credit_artist` only when the Commons author field
+`tactic:hook-text`), audio, experiment, and `credit_artist` only when the Commons author field
 is messy.
 **Caption** as for carousels, except: the CTA is a send line that names who to send it to (vary it), never "tag a
 friend" or "share if"; no "swipe" line. The renderer appends the video credit (author, licence, Commons file).
 
-**Voice:** `"voice": {"name": "Microsoft Zira Desktop", "rate": 1}` narrates each beat (or its `say` text) with
-Windows text-to-speech and retimes the beats to the narration (still within the length cap). The caption then gets
-"Narration: computer-generated voice (text-to-speech)" and the meta gets `"synthetic_voice": true`, so whoever
-publishes can apply Instagram's AI label (Meta asks for labels on realistic AI-made audio; check whether the
-publishing route can set it, and post by hand with the label on if not).
+**No narration, soothing music (owner rule, 28 Oct 2026).** Never add a voice: no TTS, no AI narration; viewers
+read the on-screen text. The renderer refuses a spec with `"voice"` and preflight fails a narrated Reel. Every Reel's
+audio is a SOOTHING track (calm, nature-documentary feel) from `python scripts/fetch_commons_music.py --list soothing`
+(13 tracks: Grieg Morning Mood, Vivaldi Winter Largo and Autumn Adagio, Satie Gymnopedies 1 and 3 and Gnossienne 1,
+Debussy Clair de lune, Saint-Saens The Swan, Chopin Nocturnes Op. 9 No. 2 and Op. 15 No. 2, Bach Air, Komiku The
+Wind and Balance), or an owner-supplied calm track. Never action, chase, frantic or "epic" tracks: the owner found
+them "just noise". The owner's review of the first samples: the giraffe with calm music was best, the narrated
+spider wasp and leopard were "very bad".
 
 **Experiments** (owner, 28 Oct; dashboard blocks E2-E5): every Reel carries an `experiment` object that the renderer
-copies into its meta, e.g. `{"hook": "number", "audio": "voice+generated-bed", "length": "15s", "theme": "india"}`.
+copies into its meta, e.g. `{"hook": "number", "audio": "music-soothing", "length": "15s", "theme": "india"}`.
 Spread each batch across the arms, changing one variable at a time where possible, so the insight agent can compare:
 - hook: `number` (a concrete number first: "150 cm of feathers, and none of it is tail."), `question`
   ("Why does a leopard keep its dinner up a tree?"), `myth` (a flip: "This tarantula is not dead.")
-- audio: `generated-bed`, `natural`, `voice+generated-bed`, `voice+natural`, `voice+music` (the last needs an
-  owner-supplied Meta Sound Collection file; the natural arms are on hold, see above)
+- audio: `music-soothing` for every Reel (see the rule above); vary the track within the soothing list, and
+  `natural` only if the owner asks for it again. Never a voice arm. A same-footage alternative (e.g. `<slug>-calm`) carries
+  `"variant_of": "<slug>"` and its own caption wording; the owner approves at most ONE of each pair, because posting
+  the same footage twice is near-duplicate content.
 - length: `8s` (7-9 s loop), `15s` (about 15 s), `30s` (about 30 s; needs a clip of 31 s or more)
 - theme: `india`, `global` (well-known icons), `tiny-weird` (insects, spiders, odd small creatures)
 Evidence behind the format (coordinating session, 28 Oct): 23 of 26 top animal-fact Reels use original audio

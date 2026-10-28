@@ -91,9 +91,10 @@ CLIP_LICENCE = re.compile(r"^(cc0|pd|public domain|cc by(-sa)? \d)", re.I)
 
 
 def audio_ok(meta):
-    """Every audio source must be allowed (platform-guardrails 0.1.3): synthesised here, TTS, a Meta Sound Collection
-    track, or (owner decision 2026-10-28) the natural sound of the CC0/PD/CC BY/CC BY-SA clip shown, which is
-    credited with the clip. Whether that sound contains music or speech is checked by the owner before approval."""
+    """Every audio source must be allowed (platform-guardrails 0.1.3): synthesised here, TTS, (owner decisions
+    2026-10-28) the natural sound of the CC0/PD/CC BY/CC BY-SA clip shown, credited with it, or music that is a
+    public-domain / CC0 recording, a Meta Sound Collection track, a Pixabay track without Content ID, or AI music made
+    on a plan that grants commercial rights. Whether natural sound contains music or speech is checked by the owner."""
     parts = [p.strip() for p in meta.get("audio", "").split(";") if p.strip()]
     lic = meta.get("video_source", {}).get("license", "")
 
@@ -102,8 +103,19 @@ def audio_ok(meta):
             return True
         if p.startswith("natural sound from the CC clip"):
             return bool(CLIP_LICENCE.match(lic)) and not re.search(r"\b(nc|nd)\b", lic, re.I)
-        # music: a Meta Sound Collection track, or a public-domain / CC0 recording from assets/music (never chart music)
-        return p.startswith("music:") and bool(re.search(r"\((Meta Sound Collection|Public domain|PD[^)]*|CC0)\)$", p, re.I))
+        if not p.startswith("music:"):
+            return False
+        m = meta.get("music")
+        if m:   # provenance recorded by make_loop_reel.py: named source classes only, never Content ID-registered
+            lic_ok = not re.search(r"\b(nc|nd)\b", m.get("licence", ""), re.I)
+            cls = m.get("source_class")
+            return lic_ok and m.get("content_id") is False and (
+                (cls in ("classical-pd", "modern-cc0") and bool(re.match(r"(cc0|pd|public domain)", m["licence"], re.I)))
+                or cls == "meta-sound-collection"
+                or (cls == "pixabay" and "pixabay.com/music/" in m.get("source_url", ""))
+                or (cls == "ai-generated" and bool(m.get("plan")) and bool(m.get("terms_url"))))
+        # older renders: a Meta Sound Collection track or a public-domain / CC0 recording (never chart music)
+        return bool(re.search(r"\((Meta Sound Collection|Public domain|PD[^)]*|CC0)\)$", p, re.I))
 
     return bool(parts) and all(ok(p) for p in parts)
 
@@ -138,6 +150,9 @@ def check_reel(slug, others, res):
     res.append(("moov atom at front (faststart)", b"moov" in head, ""))
     res.append(("audio: generated, CC-clip natural sound, TTS or Meta Sound Collection", audio_ok(meta),
                 meta.get("audio", "")))
+    # owner rule (28 Oct 2026): no narration of any kind; viewers read the on-screen text over soothing music
+    res.append(("no narration / synthetic voice", not meta.get("synthetic_voice") and "TTS" not in meta.get("audio", ""),
+                "narrated" if meta.get("synthetic_voice") else ""))
     res.append(("cover image exists", (d / f"{slug}-cover.jpg").exists(), ""))
     res.append(("photo credits recorded", all(meta.get("photo_credits", [])), ""))
     res.append(("sources recorded", len(meta.get("sources", [])) >= 1, ""))

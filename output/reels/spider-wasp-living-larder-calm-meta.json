@@ -1,0 +1,83 @@
+{
+  "slug": "spider-wasp-living-larder-calm",
+  "format": "reel",
+  "reel_format": "loop",
+  "size": "1080x1920",
+  "fps": 30,
+  "duration_s": 30.0,
+  "beats": [
+    "This tarantula is not dead.",
+    "A spider wasp stung its nerve centres. It is paralysed, not killed.",
+    "She drags it into her burrow and lays a single egg on its body.",
+    "When the egg hatches, the larva feeds on the spider while it is still alive.",
+    "There are about 5,000 species of spider wasp."
+  ],
+  "audio": "music: The Modena Chamber Orchestra - Vivaldi's Autumn, RV 293 - II. Adagio molto (PDM-owner, Wikimedia Commons)",
+  "experiment": {
+    "hook": "myth",
+    "audio": "music-soothing",
+    "length": "30s",
+    "theme": "tiny-weird"
+  },
+  "synthetic_voice": false,
+  "ai_music": false,
+  "ai_disclosure": "none needed (real footage, no AI imagery or voice)",
+  "caption_chars": 682,
+  "hashtags": [
+    "#spiderwasps",
+    "#tarantulas",
+    "#insectlife",
+    "#weirdnature"
+  ],
+  "format_tags": [
+    "format:fact-over-footage",
+    "format:predation",
+    "tactic:hook-text"
+  ],
+  "alt_text": "Video of a black spider wasp dragging a paralysed tarantula across sand into a burrow, with text explaining the spider is paralysed, not dead.",
+  "sources": [
+    "https://www.britannica.com/animal/spider-wasp"
+  ],
+  "photo_credits": [
+    "Video: Yves Sorge, CC BY-SA 4.0, Wikimedia Commons"
+  ],
+  "video_source": {
+    "title": "File:Spider wasp drags Tarantula into hole.ogv",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASpider%20wasp%20drags%20Tarantula%20into%20hole.ogv",
+    "license": "CC BY-SA 4.0",
+    "artist": "Yves Sorge"
+  },
+  "music": {
+    "title": "The Modena Chamber Orchestra - Vivaldi's Autumn, RV 293 - II. Adagio molto",
+    "artist": "The Modena Chamber Orchestra",
+    "licence": "PDM-owner",
+    "source_url": "https://commons.wikimedia.org/wiki/File:The_Modena_Chamber_Orchestra_-_Vivaldi's_Autumn,_RV_293_-_II._Adagio_molto.ogg",
+    "source_class": "classical-pd",
+    "content_id": false,
+    "credit": "The Modena Chamber Orchestra - Vivaldi's Autumn, RV 293 - II. Adagio molto (PDM-owner, Wikimedia Commons)"
+  },
+  "variant_of": "spider-wasp-living-larder",
+  "music_sync": {
+    "start_s": 94.61,
+    "bpm": 85,
+    "hero_at": 4.0,
+    "beat_snaps_s": [
+      0.25,
+      0.12,
+      -0.0,
+      -0.13
+    ]
+  },
+  "clip": {
+    "media": "spider-wasp-hd/01.webm",
+    "start": 17.0,
+    "focus": [
+      0.4,
+      0.55
+    ],
+    "zoom": 1.0
+  },
+  "loop_seam_diff": 8.9,
+  "median_frame_step": 9.8,
+  "file_mb": 31.52
+}

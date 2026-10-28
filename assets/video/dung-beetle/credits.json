@@ -1,0 +1,38 @@
+[
+  {
+    "title": "File:Escarabajo pelotero.webm",
+    "page": "https://commons.wikimedia.org/wiki/File%3AEscarabajo%20pelotero.webm",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b5/Escarabajo_pelotero.webm/Escarabajo_pelotero.webm.1080p.vp9.webm",
+    "duration": 71.1,
+    "width": 1920,
+    "height": 1080,
+    "license": "CC0",
+    "artist": "MdeVicente",
+    "description": "Dung beetle at the beach in Valencia (Spain)",
+    "file": "01.webm"
+  },
+  {
+    "title": "File:Dung Beetle burying dog excrements.ogv",
+    "page": "https://commons.wikimedia.org/wiki/File%3ADung%20Beetle%20burying%20dog%20excrements.ogv",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/36/Dung_Beetle_burying_dog_excrements.ogv/Dung_Beetle_burying_dog_excrements.ogv.480p.vp9.webm",
+    "duration": 108.1,
+    "width": 1280,
+    "height": 720,
+    "license": "CC BY 3.0",
+    "artist": "User:Amada44",
+    "description": "Dung Beetle burying dog excrements",
+    "file": "02.webm"
+  },
+  {
+    "title": "File:Dung beetle dance (long) from journal.pone.0030211.ogv",
+    "page": "https://commons.wikimedia.org/wiki/File%3ADung%20beetle%20dance%20%28long%29%20from%20journal.pone.0030211.ogv",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/52/Dung_beetle_dance_%28long%29_from_journal.pone.0030211.ogv/Dung_beetle_dance_%28long%29_from_journal.pone.0030211.ogv.480p.vp9.webm",
+    "duration": 18.8,
+    "width": 960,
+    "height": 540,
+    "license": "CC BY-SA 2.5",
+    "artist": "Baird E, Byrne MJ, Smolka J, Warrant EJ, Dacke M (2012) The Dung Beetle Dance: An Orientation Behaviour? PLoS ONE 7(1): ",
+    "description": "A Scarabaeus (Kheper) nigroaeneus dung beetle dancing on a ball of dung. \"Stonehenge\" farm, North-West Province, South Africa (24.5°E, 24.3°S).",
+    "file": "03.webm"
+  }
+]

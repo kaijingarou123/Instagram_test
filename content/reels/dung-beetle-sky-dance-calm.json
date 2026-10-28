@@ -1,0 +1,63 @@
+{
+  "slug": "dung-beetle-sky-dance-calm",
+  "format": "loop",
+  "species": "Dung beetle (Kheper nigroaeneus)",
+  "clip": {
+    "media": "dung-beetle/03.webm",
+    "start": 1.6,
+    "focus": [
+      0.52,
+      0.5
+    ],
+    "zoom": 0.6,
+    "top": 620
+  },
+  "duration": 8.0,
+  "beats": [
+    {
+      "at": 0.0,
+      "text": "Why is this beetle dancing on its ball?"
+    },
+    {
+      "at": 2.4,
+      "text": "It climbs on top and turns to read the sky, then rolls away in a straight line."
+    },
+    {
+      "at": 5.2,
+      "text": "Some even steer by the Milky Way."
+    }
+  ],
+  "source": "Baird et al. 2012, PLoS ONE; Dacke et al. 2013, Current Biology",
+  "credit_artist": "Baird et al., PLoS ONE 2012",
+  "audio": {
+    "bed": false,
+    "music": {
+      "track": "chopin-nocturne-op15-2"
+    }
+  },
+  "experiment": {
+    "hook": "question",
+    "audio": "music-soothing",
+    "length": "8s",
+    "theme": "tiny-weird"
+  },
+  "caption": "A compass check on top of a ball of dung: Kheper nigroaeneus at work.\n\nClimbing up and spinning round lets this beetle fix a heading from the sky, so it can push its ball away along a straight path. On dark moonless nights, some species navigate using the glow of the Milky Way, which no other animal had been shown to do. Recorded in a South African research arena.\n\nSource: Baird et al. 2012, PLoS ONE; Dacke et al. 2013, Current Biology.\nSave this for a clear night under the stars.",
+  "hashtags": [
+    "#dungbeetle",
+    "#insectnavigation",
+    "#milkyway",
+    "#insectfacts"
+  ],
+  "sources": [
+    "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0030211",
+    "https://pubmed.ncbi.nlm.nih.gov/23352694/"
+  ],
+  "alt_text": "Black and white video of a dung beetle climbing on top of its dung ball and turning around, with text explaining it reads the sky to roll in a straight line.",
+  "format_tags": [
+    "format:fact-over-footage",
+    "format:explainer",
+    "tactic:hook-text"
+  ],
+  "hero_at": 2.5,
+  "variant_of": "dung-beetle-sky-dance"
+}

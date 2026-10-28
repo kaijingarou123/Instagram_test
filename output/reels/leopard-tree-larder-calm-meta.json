@@ -1,0 +1,80 @@
+{
+  "slug": "leopard-tree-larder-calm",
+  "format": "reel",
+  "reel_format": "loop",
+  "size": "1080x1920",
+  "fps": 30,
+  "duration_s": 14.0,
+  "beats": [
+    "Why does a leopard keep its dinner up a tree?",
+    "It drags its kills into the branches, out of reach of scavengers.",
+    "And it may keep hunting with several kills already stashed."
+  ],
+  "audio": "music: Satie - Gnossienne 1 (Public domain, Wikimedia Commons)",
+  "experiment": {
+    "hook": "question",
+    "audio": "music-soothing",
+    "length": "15s",
+    "theme": "india"
+  },
+  "synthetic_voice": false,
+  "ai_music": false,
+  "ai_disclosure": "none needed (real footage, no AI imagery or voice)",
+  "caption_chars": 642,
+  "hashtags": [
+    "#leopard",
+    "#uttarakhandwildlife",
+    "#bigcats",
+    "#indianwildlife"
+  ],
+  "format_tags": [
+    "format:fact-over-footage",
+    "format:explainer",
+    "tactic:hook-text"
+  ],
+  "alt_text": "Video of a leopard walking through dry grass in Rajaji Tiger Reserve, India, with text explaining that leopards store their kills in trees.",
+  "sources": [
+    "https://www.britannica.com/animal/leopard",
+    "https://animaldiversity.org/accounts/Panthera_pardus/"
+  ],
+  "photo_credits": [
+    "Video: Shiv's fotografia, CC BY-SA 4.0, Wikimedia Commons"
+  ],
+  "video_source": {
+    "title": "File:Leopard (Panthera pardus), in Uttarakhand, India.webm",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALeopard%20%28Panthera%20pardus%29%2C%20in%20Uttarakhand%2C%20India.webm",
+    "license": "CC BY-SA 4.0",
+    "artist": "Shiv's fotografia"
+  },
+  "music": {
+    "title": "Satie - Gnossienne 1",
+    "artist": "Composer: Erik Satie\nPerformer: La Pianista",
+    "licence": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Satie_-_Gnossienne_1.ogg",
+    "source_class": "classical-pd",
+    "content_id": false,
+    "credit": "Satie - Gnossienne 1 (Public domain, Wikimedia Commons)"
+  },
+  "variant_of": "leopard-tree-larder",
+  "music_sync": {
+    "start_s": 179.92,
+    "bpm": 91,
+    "hero_at": 3.0,
+    "beat_snaps_s": [
+      -0.06
+    ]
+  },
+  "clip": {
+    "media": "indian-leopard-hd/01.webm",
+    "start": 0.6,
+    "focus": [
+      0.5,
+      0.5
+    ],
+    "zoom": 0.62,
+    "top": 600
+  },
+  "loop_seam_diff": 15.5,
+  "median_frame_step": 16.2,
+  "file_mb": 21.6
+}

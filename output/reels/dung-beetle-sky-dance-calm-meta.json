@@ -1,0 +1,81 @@
+{
+  "slug": "dung-beetle-sky-dance-calm",
+  "format": "reel",
+  "reel_format": "loop",
+  "size": "1080x1920",
+  "fps": 30,
+  "duration_s": 8.0,
+  "beats": [
+    "Why is this beetle dancing on its ball?",
+    "It climbs on top and turns to read the sky, then rolls away in a straight line.",
+    "Some even steer by the Milky Way."
+  ],
+  "audio": "music: Chopin, Nocturne Op. 15 No. 2 (CC0, Wikimedia Commons)",
+  "experiment": {
+    "hook": "question",
+    "audio": "music-soothing",
+    "length": "8s",
+    "theme": "tiny-weird"
+  },
+  "synthetic_voice": false,
+  "ai_music": false,
+  "ai_disclosure": "none needed (real footage, no AI imagery or voice)",
+  "caption_chars": 729,
+  "hashtags": [
+    "#dungbeetle",
+    "#insectnavigation",
+    "#milkyway",
+    "#insectfacts"
+  ],
+  "format_tags": [
+    "format:fact-over-footage",
+    "format:explainer",
+    "tactic:hook-text"
+  ],
+  "alt_text": "Black and white video of a dung beetle climbing on top of its dung ball and turning around, with text explaining it reads the sky to roll in a straight line.",
+  "sources": [
+    "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0030211",
+    "https://pubmed.ncbi.nlm.nih.gov/23352694/"
+  ],
+  "photo_credits": [
+    "Video: Baird et al., PLoS ONE 2012, CC BY-SA 2.5, Wikimedia Commons"
+  ],
+  "video_source": {
+    "title": "File:Dung beetle dance (long) from journal.pone.0030211.ogv",
+    "page": "https://commons.wikimedia.org/wiki/File%3ADung%20beetle%20dance%20%28long%29%20from%20journal.pone.0030211.ogv",
+    "license": "CC BY-SA 2.5",
+    "artist": "Baird E, Byrne MJ, Smolka J, Warrant EJ, Dacke M (2012) The Dung Beetle Dance: An Orientation Behaviour? PLoS ONE 7(1): "
+  },
+  "music": {
+    "title": "Chopin, Nocturne Op. 15 No. 2",
+    "artist": "Frédéric Chopin",
+    "licence": "CC0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Chopin_-_Nocturne_Op._15_no._2_in_F_sharp_major.ogg",
+    "source_class": "classical-pd",
+    "content_id": false,
+    "credit": "Chopin, Nocturne Op. 15 No. 2 (CC0, Wikimedia Commons)"
+  },
+  "variant_of": "dung-beetle-sky-dance",
+  "music_sync": {
+    "start_s": 134.11,
+    "bpm": 185,
+    "hero_at": 2.5,
+    "beat_snaps_s": [
+      -0.12,
+      0.0
+    ]
+  },
+  "clip": {
+    "media": "dung-beetle/03.webm",
+    "start": 1.6,
+    "focus": [
+      0.52,
+      0.5
+    ],
+    "zoom": 0.6,
+    "top": 620
+  },
+  "loop_seam_diff": 0.6,
+  "median_frame_step": 0.8,
+  "file_mb": 2.85
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "giraffe-seven-neck-bones-calm",
+  "format": "loop",
+  "species": "Giraffe (Giraffa camelopardalis)",
+  "clip": {
+    "media": "giraffe/01.webm",
+    "start": 6.6,
+    "focus": [
+      0.42,
+      0.5
+    ],
+    "zoom": 0.72,
+    "top": 540
+  },
+  "duration": 15.0,
+  "beats": [
+    {
+      "at": 0.0,
+      "text": "7 neck bones. The same number as you."
+    },
+    {
+      "at": 3.2,
+      "text": "Almost every mammal has seven. A giraffe's are just enormously long."
+    },
+    {
+      "at": 8.6,
+      "text": "Add a tongue almost half a metre long, and it browses leaves about 6 m up."
+    }
+  ],
+  "source": "Encyclopaedia Britannica",
+  "audio": {
+    "bed": false,
+    "music": {
+      "track": "gymnopedie-1"
+    }
+  },
+  "experiment": {
+    "hook": "number",
+    "audio": "music-soothing",
+    "length": "15s",
+    "theme": "global"
+  },
+  "caption": "Same as yours: a giraffe (Giraffa camelopardalis) carries its neck on 7 vertebrae.\n\nHeight comes from length, not number. Each of those seven bones is greatly elongated, and long spines on the upper back anchor the muscles that hold everything up. With a tongue close to 0.5 m it strips leaves around 6 m above the ground, unbothered by thorns. Wild animal, Malawi.\n\nSource: Encyclopaedia Britannica.\nSave this for your next quiet scroll.",
+  "hashtags": [
+    "#giraffe",
+    "#wildlifeafrica",
+    "#mammalanatomy",
+    "#naturelovers"
+  ],
+  "sources": [
+    "https://www.britannica.com/animal/giraffe",
+    "https://www.britannica.com/one-good-fact/how-are-the-necks-of-giraffes-and-mice-similar"
+  ],
+  "alt_text": "Video of a wild giraffe in Malawi stretching its long neck to browse leaves from a tree, with text explaining it has seven neck bones like a human.",
+  "format_tags": [
+    "format:fact-over-footage",
+    "format:explainer",
+    "tactic:hook-text"
+  ],
+  "hero_at": 10.0,
+  "variant_of": "giraffe-seven-neck-bones"
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "kingfisher-blue-not-pigment-calm",
+  "format": "loop",
+  "species": "Common kingfisher (Alcedo atthis)",
+  "clip": {
+    "media": "common-kingfisher-hd/01.webm",
+    "start": 12.6,
+    "focus": [
+      0.5,
+      0.5
+    ],
+    "zoom": 0.72,
+    "top": 500
+  },
+  "duration": 8.0,
+  "beats": [
+    {
+      "at": 0.0,
+      "text": "The blue on this kingfisher isn't pigment."
+    },
+    {
+      "at": 2.2,
+      "text": "Tiny sponge-like structures in its feathers scatter blue light."
+    },
+    {
+      "at": 5.0,
+      "text": "Only the orange chest is coloured by pigment."
+    }
+  ],
+  "source": "Stavenga et al. 2011, Journal of Experimental Biology",
+  "caption": "That famous kingfisher blue (Alcedo atthis) is made by structure, not by colour pigment.\n\nElectron microscopy shows spongy nanostructures in the barbs of its back and tail feathers. They scatter blue light and shimmer as the angle changes. The orange breast is the one part coloured the usual way, by small pigment granules.\n\nSource: Stavenga et al. 2011, Journal of Experimental Biology.\nSave it for the next time you spot one by the water.",
+  "hashtags": [
+    "#kingfisher",
+    "#birdphotography",
+    "#structuralcolor",
+    "#birdfacts"
+  ],
+  "sources": [
+    "https://research.rug.nl/en/publications/kingfisher-feathers-colouration-by-pigments-spongy-nanostructures/",
+    "https://pubmed.ncbi.nlm.nih.gov/22071186/"
+  ],
+  "alt_text": "Video of a common kingfisher with an orange chest and blue back perched on a branch, with text explaining its blue comes from feather structure, not pigment.",
+  "format_tags": [
+    "format:fact-over-footage",
+    "format:myth-bust",
+    "tactic:hook-text"
+  ],
+  "audio": {
+    "bed": false,
+    "music": {
+      "track": "the-swan"
+    }
+  },
+  "experiment": {
+    "hook": "myth",
+    "audio": "music-soothing",
+    "length": "8s",
+    "theme": "global"
+  },
+  "variant_of": "kingfisher-blue-not-pigment"
+}

@@ -1,0 +1,416 @@
+[
+  {
+    "slug": "morning-mood",
+    "file": "morning-mood.ogg",
+    "title": "File:Musopen - Morning.ogg",
+    "page": "https://commons.wikimedia.org/wiki/File:Musopen_-_Morning.ogg",
+    "license": "Public domain",
+    "artist": "Grieg, Edvard; Musopen Symphony Orchestra",
+    "moods": [
+      "calm",
+      "dawn",
+      "birds",
+      "wonder",
+      "india",
+      "soothing"
+    ],
+    "source_class": "classical-pd",
+    "display": "Grieg, Morning Mood (Musopen)"
+  },
+  {
+    "slug": "hall-of-the-mountain-king",
+    "file": "hall-of-the-mountain-king.ogg",
+    "title": "File:Musopen - In the Hall Of The Mountain King.ogg",
+    "page": "https://commons.wikimedia.org/wiki/File:Musopen_-_In_the_Hall_Of_The_Mountain_King.ogg",
+    "license": "Public domain",
+    "artist": "Grieg, Edvard; Musopen Symphony Orchestra",
+    "moods": [
+      "tension",
+      "stalking",
+      "predator",
+      "build"
+    ],
+    "source_class": "classical-pd"
+  },
+  {
+    "slug": "anitras-dance",
+    "file": "anitras-dance.ogg",
+    "title": "File:Grieg, Peer Gynt Suite No. 1, Op. 46 - III. Anitra's Dance.ogg",
+    "page": "https://commons.wikimedia.org/wiki/File:Grieg,_Peer_Gynt_Suite_No._1,_Op._46_-_III._Anitra's_Dance.ogg",
+    "license": "CC0",
+    "artist": "Musopen Symphony Orchestra",
+    "moods": [
+      "playful",
+      "curious",
+      "light"
+    ],
+    "source_class": "classical-pd"
+  },
+  {
+    "slug": "flight-of-the-bumblebee-band",
+    "file": "flight-of-the-bumblebee-band.mp3",
+    "title": "File:Flight of the Bumblebee - Concert Band - United States Air Force Band of the Rockies.mp3",
+    "page": "https://commons.wikimedia.org/wiki/File:Flight_of_the_Bumblebee_-_Concert_Band_-_United_States_Air_Force_Band_of_the_Rockies.mp3",
+    "license": "Public domain",
+    "artist": "Nikolai Rimsky-Korsakov",
+    "moods": [
+      "frantic",
+      "insects",
+      "chase",
+      "tiny"
+    ],
+    "source_class": "classical-pd"
+  },
+  {
+    "slug": "flight-of-the-bumblebee-piano",
+    "file": "flight-of-the-bumblebee-piano.ogg",
+    "title": "File:Jaan Patterson - 02 - The Flight of the Bumblebee Nikolai Andrejewitsch Rimski-Korsakow.ogg",
+    "page": "https://commons.wikimedia.org/wiki/File:Jaan_Patterson_-_02_-_The_Flight_of_the_Bumblebee_Nikolai_Andrejewitsch_Rimski-Korsakow.ogg",
+    "license": "CC0",
+    "artist": "Jaan Patterson",
+    "moods": [
+      "frantic",
+      "insects",
+      "tiny"
+    ],
+    "source_class": "classical-pd"
+  },
+  {
+    "slug": "vivaldi-spring-allegro",
+    "file": "vivaldi-spring-allegro.ogg",
+    "title": "File:The Modena Chamber Orchestra - Vivaldi's Spring, RV 269 - I. Allegro.ogg",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Modena_Chamber_Orchestra_-_Vivaldi's_Spring,_RV_269_-_I._Allegro.ogg",
+    "license": "PDM-owner",
+    "artist": "The Modena Chamber Orchestra",
+    "moods": [
+      "bright",
+      "birds",
+      "lively"
+    ],
+    "source_class": "classical-pd"
+  },
+  {
+    "slug": "vivaldi-summer-presto",
+    "file": "vivaldi-summer-presto.ogg",
+    "title": "File:The Modena Chamber Orchestra - Vivaldi's Summer, RV 315 - III. Presto.ogg",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Modena_Chamber_Orchestra_-_Vivaldi's_Summer,_RV_315_-_III._Presto.ogg",
+    "license": "PDM-owner",
+    "artist": "The Modena Chamber Orchestra",
+    "moods": [
+      "storm",
+      "action",
+      "hunt",
+      "drama"
+    ],
+    "source_class": "classical-pd"
+  },
+  {
+    "slug": "vivaldi-winter-allegro",
+    "file": "vivaldi-winter-allegro.ogg",
+    "title": "File:The Modena Chamber Orchestra - Vivaldi's Winter, RV 297 - I. Allegro non molto.ogg",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Modena_Chamber_Orchestra_-_Vivaldi's_Winter,_RV_297_-_I._Allegro_non_molto.ogg",
+    "license": "PDM-owner",
+    "artist": "The Modena Chamber Orchestra",
+    "moods": [
+      "tense",
+      "cold",
+      "urgent"
+    ],
+    "source_class": "classical-pd"
+  },
+  {
+    "slug": "vivaldi-winter-largo",
+    "file": "vivaldi-winter-largo.ogg",
+    "title": "File:The Modena Chamber Orchestra - Vivaldi's Winter, RV 297 - II. Largo.ogg",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Modena_Chamber_Orchestra_-_Vivaldi's_Winter,_RV_297_-_II._Largo.ogg",
+    "license": "PDM-owner",
+    "artist": "The Modena Chamber Orchestra",
+    "moods": [
+      "calm",
+      "warm",
+      "gentle",
+      "soothing"
+    ],
+    "source_class": "classical-pd",
+    "display": "Vivaldi, Winter: Largo (Modena Chamber Orchestra)"
+  },
+  {
+    "slug": "vivaldi-autumn-adagio",
+    "file": "vivaldi-autumn-adagio.ogg",
+    "title": "File:The Modena Chamber Orchestra - Vivaldi's Autumn, RV 293 - II. Adagio molto.ogg",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Modena_Chamber_Orchestra_-_Vivaldi's_Autumn,_RV_293_-_II._Adagio_molto.ogg",
+    "license": "PDM-owner",
+    "artist": "The Modena Chamber Orchestra",
+    "moods": [
+      "mysterious",
+      "slow",
+      "night",
+      "soothing"
+    ],
+    "source_class": "classical-pd",
+    "display": "Vivaldi, Autumn: Adagio (Modena Chamber Orchestra)"
+  },
+  {
+    "slug": "clair-de-lune",
+    "file": "clair-de-lune.opus",
+    "title": "File:Clair de Lune by Claude Debussy (1905, piano solo).opus",
+    "page": "https://commons.wikimedia.org/wiki/File:Clair_de_Lune_by_Claude_Debussy_(1905,_piano_solo).opus",
+    "license": "Public domain",
+    "artist": "Claude Debussy",
+    "moods": [
+      "night",
+      "ocean",
+      "dreamy",
+      "soothing"
+    ],
+    "source_class": "classical-pd",
+    "display": "Debussy, Clair de lune"
+  },
+  {
+    "slug": "the-swan",
+    "file": "the-swan.ogg",
+    "title": "File:20091104 Alisa Weilerstein and Jason Yoder - Saint Saëns' The Swan.ogg",
+    "page": "https://commons.wikimedia.org/wiki/File:20091104_Alisa_Weilerstein_and_Jason_Yoder_-_Saint_Saëns'_The_Swan.ogg",
+    "license": "Public domain",
+    "artist": "Camille Saint-Saëns, Whitehouse.gov",
+    "moods": [
+      "graceful",
+      "water",
+      "birds",
+      "display",
+      "soothing"
+    ],
+    "source_class": "classical-pd",
+    "display": "Saint-Saëns, The Swan (Alisa Weilerstein, Jason Yoder)"
+  },
+  {
+    "slug": "gymnopedie-1",
+    "file": "gymnopedie-1.ogg",
+    "title": "File:Gymnopedie No. 1..ogg",
+    "page": "https://commons.wikimedia.org/wiki/File:Gymnopedie_No._1..ogg",
+    "license": "CC0",
+    "artist": "Teknopazzo",
+    "moods": [
+      "gentle",
+      "wonder",
+      "slow",
+      "tall",
+      "soothing"
+    ],
+    "source_class": "classical-pd",
+    "display": "Satie, Gymnopédie No. 1"
+  },
+  {
+    "slug": "swan-lake-act-2",
+    "file": "swan-lake-act-2.ogg",
+    "title": "File:Peter Ilyich Tchaikovsky- Swan Lake- Extract from Act 2.ogg",
+    "page": "https://commons.wikimedia.org/wiki/File:Peter_Ilyich_Tchaikovsky-_Swan_Lake-_Extract_from_Act_2.ogg",
+    "license": "Public domain",
+    "artist": "Ballet Francaise Symphony Orchestra",
+    "moods": [
+      "dramatic",
+      "epic",
+      "display"
+    ],
+    "source_class": "classical-pd"
+  },
+  {
+    "slug": "komiku-action-discovery",
+    "file": "komiku-action-discovery.ogg",
+    "title": "File:Komiku - 12 - Action Discovery.ogg",
+    "page": "https://commons.wikimedia.org/wiki/File:Komiku_-_12_-_Action_Discovery.ogg",
+    "license": "CC0",
+    "artist": "Komiku",
+    "moods": [
+      "adventure",
+      "curious",
+      "upbeat"
+    ],
+    "source_class": "modern-cc0"
+  },
+  {
+    "slug": "komiku-action-chasing",
+    "file": "komiku-action-chasing.ogg",
+    "title": "File:Komiku - 04 - Action Chasing.ogg",
+    "page": "https://commons.wikimedia.org/wiki/File:Komiku_-_04_-_Action_Chasing.ogg",
+    "license": "CC0",
+    "artist": "Komiku",
+    "moods": [
+      "chase",
+      "predator",
+      "urgent",
+      "beat"
+    ],
+    "source_class": "modern-cc0"
+  },
+  {
+    "slug": "komiku-the-wind",
+    "file": "komiku-the-wind.ogg",
+    "title": "File:Komiku - 13 - The Wind.ogg",
+    "page": "https://commons.wikimedia.org/wiki/File:Komiku_-_13_-_The_Wind.ogg",
+    "license": "CC0",
+    "artist": "Komiku",
+    "moods": [
+      "calm",
+      "wonder",
+      "gentle",
+      "beat",
+      "soothing"
+    ],
+    "source_class": "modern-cc0",
+    "display": "Komiku, The Wind"
+  },
+  {
+    "slug": "komiku-balance",
+    "file": "komiku-balance.ogg",
+    "title": "File:Komiku - 01 - Balance.ogg",
+    "page": "https://commons.wikimedia.org/wiki/File:Komiku_-_01_-_Balance.ogg",
+    "license": "CC0",
+    "artist": "Komiku",
+    "moods": [
+      "calm",
+      "ambient",
+      "focus",
+      "soothing"
+    ],
+    "source_class": "modern-cc0",
+    "display": "Komiku, Balance"
+  },
+  {
+    "slug": "komiku-point-of-no-return",
+    "file": "komiku-point-of-no-return.ogg",
+    "title": "File:Komiku - 21 - Ambiant Point Of No Return.ogg",
+    "page": "https://commons.wikimedia.org/wiki/File:Komiku_-_21_-_Ambiant_Point_Of_No_Return.ogg",
+    "license": "CC0",
+    "artist": "Komiku",
+    "moods": [
+      "tension",
+      "mysterious",
+      "build"
+    ],
+    "source_class": "modern-cc0"
+  },
+  {
+    "slug": "komiku-first-dance",
+    "file": "komiku-first-dance.ogg",
+    "title": "File:Komiku - 64 - First Dance.ogg",
+    "page": "https://commons.wikimedia.org/wiki/File:Komiku_-_64_-_First_Dance.ogg",
+    "license": "CC0",
+    "artist": "Komiku",
+    "moods": [
+      "playful",
+      "light",
+      "tiny"
+    ],
+    "source_class": "modern-cc0"
+  },
+  {
+    "slug": "komiku-resolution",
+    "file": "komiku-resolution.ogg",
+    "title": "File:Komiku - 69 - Resolution.ogg",
+    "page": "https://commons.wikimedia.org/wiki/File:Komiku_-_69_-_Resolution.ogg",
+    "license": "CC0",
+    "artist": "Komiku",
+    "moods": [
+      "uplifting",
+      "display",
+      "bright"
+    ],
+    "source_class": "modern-cc0"
+  },
+  {
+    "slug": "loyalty-freak-the-swamp",
+    "file": "loyalty-freak-the-swamp.ogg",
+    "title": "File:Loyalty Freak Music - 08 - The Swamp.ogg",
+    "page": "https://commons.wikimedia.org/wiki/File:Loyalty_Freak_Music_-_08_-_The_Swamp.ogg",
+    "license": "CC0",
+    "artist": "Loyalty Freak Music",
+    "moods": [
+      "dark",
+      "creepy",
+      "tiny",
+      "beat"
+    ],
+    "source_class": "modern-cc0"
+  },
+  {
+    "slug": "gymnopedie-3",
+    "file": "gymnopedie-3.flac",
+    "title": "File:Satie Gymnopedie No 3 performed by Michael Laucke.flac",
+    "page": "https://commons.wikimedia.org/wiki/File:Satie_Gymnopedie_No_3_performed_by_Michael_Laucke.flac",
+    "license": "Public domain",
+    "artist": "Mlaucke",
+    "moods": [
+      "gentle",
+      "slow",
+      "wonder",
+      "soothing"
+    ],
+    "source_class": "classical-pd",
+    "display": "Satie, Gymnopédie No. 3 (Michael Laucke)"
+  },
+  {
+    "slug": "chopin-nocturne-op9-2",
+    "file": "chopin-nocturne-op9-2.ogg",
+    "title": "File:Chopin Nocturne No. 2 in E Flat Major, Op. 9.ogg",
+    "page": "https://commons.wikimedia.org/wiki/File:Chopin_Nocturne_No._2_in_E_Flat_Major,_Op._9.ogg",
+    "license": "CC0",
+    "artist": "Peter Johnston",
+    "moods": [
+      "gentle",
+      "night",
+      "warm",
+      "soothing"
+    ],
+    "source_class": "classical-pd",
+    "display": "Chopin, Nocturne Op. 9 No. 2"
+  },
+  {
+    "slug": "chopin-nocturne-op15-2",
+    "file": "chopin-nocturne-op15-2.ogg",
+    "title": "File:Chopin - Nocturne Op. 15 no. 2 in F sharp major.ogg",
+    "page": "https://commons.wikimedia.org/wiki/File:Chopin_-_Nocturne_Op._15_no._2_in_F_sharp_major.ogg",
+    "license": "CC0",
+    "artist": "Frédéric Chopin",
+    "moods": [
+      "gentle",
+      "dreamy",
+      "light",
+      "soothing"
+    ],
+    "source_class": "classical-pd",
+    "display": "Chopin, Nocturne Op. 15 No. 2"
+  },
+  {
+    "slug": "air-on-the-g-string",
+    "file": "air-on-the-g-string.mp3",
+    "title": "File:Air - Air Force Strings - United States Air Force Band.mp3",
+    "page": "https://commons.wikimedia.org/wiki/File:Air_-_Air_Force_Strings_-_United_States_Air_Force_Band.mp3",
+    "license": "Public domain",
+    "artist": "Composition: Johann Sebastian Bach; Performance: United States Air Force Band, Air Force Strings; Recording: United States Air Force",
+    "moods": [
+      "calm",
+      "graceful",
+      "warm",
+      "soothing"
+    ],
+    "source_class": "classical-pd",
+    "display": "Bach, Air (US Air Force Strings)"
+  },
+  {
+    "slug": "gnossienne-1",
+    "file": "gnossienne-1.ogg",
+    "title": "File:Satie - Gnossienne 1.ogg",
+    "page": "https://commons.wikimedia.org/wiki/File:Satie_-_Gnossienne_1.ogg",
+    "license": "Public domain",
+    "artist": "Composer: Erik Satie\nPerformer: La Pianista",
+    "moods": [
+      "mysterious",
+      "slow",
+      "gentle",
+      "soothing"
+    ],
+    "source_class": "classical-pd",
+    "display": "Satie, Gnossienne No. 1"
+  }
+]

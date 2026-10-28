@@ -264,18 +264,44 @@ MUSIC = ROOT / "assets" / "music"
 HOP = 512
 
 
-def load_music(m):
-    """m = {"track": <assets/music/library.json slug>} or {"file", "title", "licence"} (owner's Meta Sound Collection
-    download). Returns (mono samples, title, licence)."""
+def load_music(m, slug):
+    """Returns (mono samples, provenance dict). m is one of:
+    {"track": <slug in assets/music/library.json>}                      public-domain / CC0 (Wikimedia Commons)
+    {"file", "title", "licence": "Meta Sound Collection"}                owner download
+    {"file", "title", "artist", "licence": "Pixabay Content License", "source_url", "content_id": false}
+                                                                        owner download, no Content ID shield only
+    {"file", "title", "licence": "AI-generated", "tool", "plan", "terms_url", "commercial_rights": true}
+                                                                        owner-made on a plan whose terms grant
+                                                                        commercial rights (free tiers usually don't)"""
     if "track" in m:
         lib = {t["slug"]: t for t in json.loads((MUSIC / "library.json").read_text(encoding="utf-8"))}
         t = lib[m["track"]]
-        path, title, lic = MUSIC / t["file"], t["title"].removeprefix("File:"), t["license"]
+        title = t.get("display") or Path(t["title"].removeprefix("File:")).stem   # clean name if the library has one
+        info = {"title": title, "artist": t.get("artist", ""), "licence": t["license"], "source_url": t["page"],
+                "source_class": t.get("source_class", "classical-pd"), "content_id": False,
+                "credit": f"{title} ({t['license']}, Wikimedia Commons)"}
+        path = MUSIC / t["file"]
     else:
-        path, title, lic = ROOT / m["file"], m["title"], m["licence"]
+        lic, path = m["licence"], ROOT / m["file"]
+        if lic == "Meta Sound Collection":
+            info = {"source_class": "meta-sound-collection", "credit": f"{m['title']} (Meta Sound Collection)"}
+        elif lic == "Pixabay Content License":
+            if m.get("content_id") is not False or "pixabay.com/music/" not in m.get("source_url", ""):
+                raise SystemExit(f"{slug}: Pixabay music needs source_url and \"content_id\": false (no shield icon)")
+            info = {"source_class": "pixabay", "credit": f"{m['title']} by {m['artist']} (Pixabay Content License, "
+                                                         f"no Content ID, Pixabay)"}
+        elif lic == "AI-generated":
+            if m.get("commercial_rights") is not True or not m.get("plan") or not m.get("terms_url"):
+                raise SystemExit(f"{slug}: AI music needs tool, a paid plan, terms_url and \"commercial_rights\": true")
+            info = {"source_class": "ai-generated", "credit": f"{m['title']} (AI-generated music, {m['tool']} "
+                                                              f"{m['plan']}, commercial rights)"}
+        else:
+            raise SystemExit(f"{slug}: music licence {lic!r} is not allowed (see PIPELINE.md 2R)")
+        info.update({k: m.get(k, "") for k in ("title", "artist", "source_url", "tool", "plan", "terms_url")},
+                    licence=lic, content_id=False)
     raw = subprocess.run(["ffmpeg", "-loglevel", "error", "-i", str(path), "-ac", "1", "-ar", str(SR), "-f", "s16le", "-"],
                          capture_output=True).stdout
-    return np.frombuffer(raw, np.int16).astype(np.float64) / 32768, title, lic
+    return np.frombuffer(raw, np.int16).astype(np.float64) / 32768, info
 
 
 def analyse(x):
@@ -354,13 +380,16 @@ def render(spec_path):
         raise SystemExit(f"{slug}: duration must be 7-{MAX_S} s")
     if beats[0]["at"] != 0:
         raise SystemExit(f"{slug}: the first beat (the hook) must start at 0")
+    if spec.get("voice"):
+        raise SystemExit(f"{slug}: no narration (owner rule 28 Oct 2026): remove \"voice\"; use on-screen text and "
+                         f"a soothing track (fetch_commons_music.py --list soothing)")
     OUT.mkdir(parents=True, exist_ok=True)
     tmp = OUT / f".{slug}-tmp"
     tmp.mkdir(exist_ok=True)
     clips = narrate(spec, tmp) if spec.get("voice") else []
     music = None
     if spec.get("audio", {}).get("music"):                      # before anything reads the beat times
-        mx, m_title, m_lic = load_music(spec["audio"]["music"])
+        mx, m_info = load_music(spec["audio"]["music"], slug)
         m_off, m_bpm, m_hero, m_snaps = music_sync(spec, mx, spec["duration"])
         music = (mx, m_off)
     n = round(spec["duration"] * FPS)
@@ -380,7 +409,7 @@ def render(spec_path):
     vt = voice_track(spec, clips, ns) if clips else None
     if music:
         parts.append(music_track(spec, *music, ns, vt) * (1.6 if clips else 2.4))
-        audio_desc.append(f"music: {m_title} ({m_lic})")
+        audio_desc.append(f"music: {m_info['credit']}")
     if clips:
         parts.append(vt * 0.75)
         audio_desc.append("TTS narration (Windows System.Speech, synthetic voice)")
@@ -450,7 +479,7 @@ def render(spec_path):
     caption = spec["caption"].strip()
     caption += f"\n\n{credit} ({clip_meta['title'].removeprefix('File:')})."
     if music:
-        caption += f"\nMusic: {Path(m_title).stem} ({m_lic}, Wikimedia Commons)."
+        caption += f"\nMusic: {m_info['credit']}."
     if spec.get("voice"):
         caption += "\nNarration: computer-generated voice (text-to-speech)."
     caption += "\n\n" + " ".join(spec["hashtags"])
@@ -460,11 +489,16 @@ def render(spec_path):
         "duration_s": round(n / FPS, 2), "beats": [b["text"] for b in beats],
         "audio": "; ".join(audio_desc), "experiment": spec.get("experiment", {}),
         "synthetic_voice": bool(spec.get("voice")),
+        "ai_music": bool(music and m_info["source_class"] == "ai-generated"),
         "ai_disclosure": ("caption discloses computer-generated narration; apply Instagram's AI label (publish by hand)"
-                          if spec.get("voice") else "none needed (real footage, no AI imagery or voice)"),
+                          if spec.get("voice") else
+                          "AI-generated music: caption names the tool; apply Instagram's AI label if Meta requires it"
+                          if music and m_info["source_class"] == "ai-generated" else
+                          "none needed (real footage, no AI imagery or voice)"),
         "caption_chars": len(caption), "hashtags": spec["hashtags"], "format_tags": spec.get("format_tags", []),
         "alt_text": spec.get("alt_text", ""), "sources": spec["sources"],
         "photo_credits": [credit], "video_source": {k: clip_meta[k] for k in ("title", "page", "license", "artist")},
+        "music": m_info if music else None, "variant_of": spec.get("variant_of"),
         "music_sync": ({"start_s": round(m_off, 2), "bpm": round(m_bpm), "hero_at": m_hero, "beat_snaps_s": m_snaps}
                        if music else None),
         "clip": spec["clip"], "loop_seam_diff": round(seam, 1), "median_frame_step": round(step, 1), "file_mb": round(mp4.stat().st_size / 1e6, 2),

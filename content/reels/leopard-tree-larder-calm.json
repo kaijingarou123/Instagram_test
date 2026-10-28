@@ -1,0 +1,62 @@
+{
+  "slug": "leopard-tree-larder-calm",
+  "format": "loop",
+  "species": "Indian leopard (Panthera pardus)",
+  "clip": {
+    "media": "indian-leopard-hd/01.webm",
+    "start": 0.6,
+    "focus": [
+      0.5,
+      0.5
+    ],
+    "zoom": 0.62,
+    "top": 600
+  },
+  "duration": 14.0,
+  "beats": [
+    {
+      "at": 0.0,
+      "text": "Why does a leopard keep its dinner up a tree?"
+    },
+    {
+      "at": 3.0,
+      "text": "It drags its kills into the branches, out of reach of scavengers."
+    },
+    {
+      "at": 8.0,
+      "text": "And it may keep hunting with several kills already stashed."
+    }
+  ],
+  "source": "Britannica; Animal Diversity Web",
+  "caption": "A tree is the leopard's (Panthera pardus) safest pantry.\n\nAfter a kill, this agile climber pulls the carcass up into the branches, away from scavengers that would steal it on the ground. With food cached, a leopard may still keep hunting. Typical prey weighs 10 to 40 kg. Footage from Rajaji Tiger Reserve, Uttarakhand, India.\n\nSource: Britannica, Leopard; Animal Diversity Web.\nSend this to a big cat fan.",
+  "hashtags": [
+    "#leopard",
+    "#uttarakhandwildlife",
+    "#bigcats",
+    "#indianwildlife"
+  ],
+  "sources": [
+    "https://www.britannica.com/animal/leopard",
+    "https://animaldiversity.org/accounts/Panthera_pardus/"
+  ],
+  "alt_text": "Video of a leopard walking through dry grass in Rajaji Tiger Reserve, India, with text explaining that leopards store their kills in trees.",
+  "format_tags": [
+    "format:fact-over-footage",
+    "format:explainer",
+    "tactic:hook-text"
+  ],
+  "audio": {
+    "bed": false,
+    "music": {
+      "track": "gnossienne-1"
+    }
+  },
+  "experiment": {
+    "hook": "question",
+    "audio": "music-soothing",
+    "length": "15s",
+    "theme": "india"
+  },
+  "hero_at": 3.0,
+  "variant_of": "leopard-tree-larder"
+}

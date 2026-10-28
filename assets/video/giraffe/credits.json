@@ -1,0 +1,38 @@
+[
+  {
+    "title": "File:Giraffe in Malawi - 2018 Aug.webm",
+    "page": "https://commons.wikimedia.org/wiki/File%3AGiraffe%20in%20Malawi%20-%202018%20Aug.webm",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/91/Giraffe_in_Malawi_-_2018_Aug.webm/Giraffe_in_Malawi_-_2018_Aug.webm.1080p.vp9.webm",
+    "duration": 33.3,
+    "width": 3840,
+    "height": 2160,
+    "license": "CC BY-SA 4.0",
+    "artist": "Nesnad",
+    "description": "A single giraffe eating leaves from a tree in the wild in Malawi",
+    "file": "01.webm"
+  },
+  {
+    "title": "File:Juvenile Giraffe - walking - Malawi - 2018 Aug.webm",
+    "page": "https://commons.wikimedia.org/wiki/File%3AJuvenile%20Giraffe%20-%20walking%20-%20Malawi%20-%202018%20Aug.webm",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/89/Juvenile_Giraffe_-_walking_-_Malawi_-_2018_Aug.webm/Juvenile_Giraffe_-_walking_-_Malawi_-_2018_Aug.webm.1080p.vp9.webm",
+    "duration": 13.7,
+    "width": 3840,
+    "height": 2160,
+    "license": "CC BY-SA 4.0",
+    "artist": "Nesnad",
+    "description": "A juvenile giraffe walking in Malawi",
+    "file": "02.webm"
+  },
+  {
+    "title": "File:Kordofan-Giraffe (Zoo Dresden) (9).webm",
+    "page": "https://commons.wikimedia.org/wiki/File%3AKordofan-Giraffe%20%28Zoo%20Dresden%29%20%289%29.webm",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/93/Kordofan-Giraffe_%28Zoo_Dresden%29_%289%29.webm/Kordofan-Giraffe_%28Zoo_Dresden%29_%289%29.webm.1080p.vp9.webm",
+    "duration": 8.7,
+    "width": 3840,
+    "height": 2160,
+    "license": "CC BY-SA 4.0",
+    "artist": "Fiver, der Hellseher",
+    "description": "Kordofan-Giraffen  (Giraffa camelopardalis antiquorum) im Zoo Dresden",
+    "file": "03.webm"
+  }
+]
