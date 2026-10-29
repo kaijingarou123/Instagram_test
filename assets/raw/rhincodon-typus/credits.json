@@ -1,0 +1,54 @@
+[
+  {
+    "title": "File:Whale Shark AdF.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File%3AWhale%20Shark%20AdF.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Whale_Shark_AdF.jpg/1920px-Whale_Shark_AdF.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 3000,
+    "height": 2000,
+    "license": "CC BY-SA 4.0",
+    "artist": "Arturo de Frias Marques",
+    "credit": "Own work",
+    "description": "Whale Shark (Rhincodon typus). Face portrait of an 8-meter individual filter-feeding plankton at night. His eye is clearly visible. His upper lip shows recent scars – whale sharks steal food from fishermen nets and the fishermen hit them in the mouth to try to discourage them. Thaa Atoll, Maldives",
+    "curated": true,
+    "file": "01.jpg"
+  },
+  {
+    "title": "File:Tiburón ballena (Rhincodon typus), La Paz, Baja California, México, 2024-12-20, DD 01.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File%3ATibur%C3%B3n%20ballena%20%28Rhincodon%20typus%29%2C%20La%20Paz%2C%20Baja%20California%2C%20M%C3%A9xico%2C%202024-12-20%2C%20DD%2001.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Tibur%C3%B3n_ballena_%28Rhincodon_typus%29%2C_La_Paz%2C_Baja_California%2C_M%C3%A9xico%2C_2024-12-20%2C_DD_01.jpg/1920px-Tibur%C3%B3n_ballena_%28Rhincodon_typus%29%2C_La_Paz%2C_Baja_California%2C_M%C3%A9xico%2C_2024-12-20%2C_DD_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 8688,
+    "height": 5792,
+    "license": "CC BY-SA 4.0",
+    "artist": "Diego Delso",
+    "credit": "Own work",
+    "description": "Whale shark (Rhincodon typus), La Paz, Baja California, Mexico",
+    "curated": false,
+    "file": "02.jpg"
+  },
+  {
+    "title": "File:Whale shark (Rhincodon typus) (16222515872).jpg",
+    "page": "https://commons.wikimedia.org/wiki/File%3AWhale%20shark%20%28Rhincodon%20typus%29%20%2816222515872%29.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Whale_shark_%28Rhincodon_typus%29_%2816222515872%29.jpg/1920px-Whale_shark_%28Rhincodon_typus%29_%2816222515872%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 5472,
+    "height": 3648,
+    "license": "CC BY-SA 2.0",
+    "artist": "Sylke Rohrlach from Sydney",
+    "credit": "Whale shark (Rhincodon typus)",
+    "description": "Ningaloo Reef",
+    "curated": false,
+    "file": "03.jpg"
+  },
+  {
+    "title": "File:Okinawa Churaumi aquarium Rhincodon typus hdsr Vlux5 01.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File%3AOkinawa%20Churaumi%20aquarium%20Rhincodon%20typus%20hdsr%20Vlux5%2001.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Okinawa_Churaumi_aquarium_Rhincodon_typus_hdsr_Vlux5_01.jpg/1920px-Okinawa_Churaumi_aquarium_Rhincodon_typus_hdsr_Vlux5_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 4864,
+    "height": 3648,
+    "license": "CC BY 4.0",
+    "artist": "Hyppolyte de Saint-Rambert",
+    "credit": "Own work",
+    "description": "Rhincodon typus",
+    "curated": false,
+    "file": "04.jpg"
+  }
+]

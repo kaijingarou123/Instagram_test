@@ -1,0 +1,50 @@
+{
+  "slug": "whale-shark-plankton-giant",
+  "format": "carousel",
+  "size": "1080x1350",
+  "slides": [
+    "01.jpg",
+    "02.jpg",
+    "03.jpg",
+    "04.jpg",
+    "05.jpg",
+    "06.jpg",
+    "07.jpg"
+  ],
+  "alt_texts": [
+    "Wild whale shark filter-feeding at night in the Maldives with its huge mouth open, headline 'The largest fish on Earth eats plankton'",
+    "Wild whale shark swimming beneath a snorkeller at Ningaloo Reef, with the statistic 12 m average length",
+    "Wild whale shark swimming head-on towards the camera at Isla Canales de Afuera, Panama, with text on how it filter-feeds with its mouth open",
+    "Wild whale shark filter-feeding on plankton at night in the Maldives, with text about its filter pads that sift prey as small as 1 mm",
+    "Close view of a wild whale shark's wide flat head and mouth off La Paz, Mexico, with text about its 300 rows of tiny unused teeth",
+    "Two wild whale sharks swimming below the sea surface, with text on their Endangered status on the IUCN Red List",
+    "Wild whale shark with a remora on its head in open water, closing slide with sources and photo credits"
+  ],
+  "caption_chars": 770,
+  "hashtags": [
+    "#whaleshark",
+    "#filterfeeder",
+    "#sharks",
+    "#oceanlife",
+    "#animalfacts"
+  ],
+  "format_tags": [
+    "format:fact-over-footage",
+    "format:explainer",
+    "tactic:hook-text"
+  ],
+  "sources": [
+    "https://www.iucnredlist.org/species/19488/2365291",
+    "https://www.britannica.com/animal/whale-shark",
+    "https://animaldiversity.org/accounts/Rhincodon_typus/"
+  ],
+  "photo_credits": [
+    "Photo: Arturo de Frias Marques · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Sylke Rohrlach from Sydney · Wikimedia Commons · CC BY-SA 2.0",
+    "Photo: LASZLO ILYES from Cleveland, Ohio, USA · Wikimedia Commons · CC BY 2.0",
+    "Photo: Arturo de Frias Marques · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Diego Delso · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Nicholas Lindell Reynolds · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Nicholas Lindell Reynolds · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

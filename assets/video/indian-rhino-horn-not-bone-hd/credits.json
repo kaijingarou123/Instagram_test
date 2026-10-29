@@ -1,0 +1,20 @@
+[
+  {
+    "title": "File:Resurgent Manas.webm",
+    "page": "https://commons.wikimedia.org/wiki/File:Resurgent_Manas.webm",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c9/Resurgent_Manas.webm/Resurgent_Manas.webm.480p.vp9.webm",
+    "duration": 15.0,
+    "width": 656,
+    "height": 480,
+    "license": "CC BY 3.0",
+    "artist": "Indian Diplomacy",
+    "description": "Manas is a National Park and animal reserve in Western Assam. In the last decades two issues have become critical and have been successfully solved: the reintroduction of endangered species like the Rhino or the Bengal Florican, and the involvement of local communities to restrict and overcome poach",
+    "file": "01.webm",
+    "via": "manual-trim",
+    "segment_of_source_s": [
+      1236.0,
+      1251.0
+    ],
+    "note": "Excerpt (15 s) of the 25-min CC BY 3.0 film 'Resurgent Manas' (Ministry of External Affairs, India, 2010, dir. Gautam Saikia); fetcher --file refuses sources over 240 s, so the Commons 480p transcode was trimmed with ffmpeg. Source has no higher transcode than 480p."
+  }
+]

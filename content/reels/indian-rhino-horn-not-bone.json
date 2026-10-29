@@ -1,0 +1,60 @@
+{
+  "slug": "indian-rhino-horn-not-bone",
+  "format": "loop",
+  "species": "Greater one-horned rhinoceros (Rhinoceros unicornis)",
+  "clip": {
+    "media": "indian-rhino-horn-not-bone-hd/01.webm",
+    "start": 3.9,
+    "focus": [
+      0.5,
+      0.5
+    ],
+    "zoom": 0.62,
+    "top": 470
+  },
+  "duration": 9.0,
+  "beats": [
+    {
+      "at": 0.0,
+      "text": "A rhino's horn is not bone."
+    },
+    {
+      "at": 3.0,
+      "text": "It is keratin, the protein in hair and fingernails, with no bone inside."
+    }
+  ],
+  "source": "Hieronymus et al. 2006; Animal Diversity Web",
+  "credit_artist": "Ministry of External Affairs, India",
+  "caption": "No bone on this nose: the greater one-horned rhinoceros (Rhinoceros unicornis) grows its horn from keratin.\n\nThat is the same protein in your hair and fingernails. Scans of rhino horn show tiny keratin tubes packed in a keratin matrix, without any bony core, and a dense centre reinforced by calcium and melanin. The species is listed as Vulnerable on the IUCN Red List (assessed 2018), with numbers increasing. Filmed in Manas National Park, Assam, India.\n\nSource: Hieronymus, Witmer and Ridgely 2006, Journal of Morphology; Animal Diversity Web; IUCN Red List.\nSend this to the friend who thinks a horn is bone.",
+  "hashtags": [
+    "#indianrhino",
+    "#onehornedrhino",
+    "#assamwildlife",
+    "#manasnationalpark",
+    "#animalfacts"
+  ],
+  "sources": [
+    "https://sites.ohio.edu/witmerl/2006_rhino_horn.htm",
+    "https://animaldiversity.org/accounts/Rhinoceros_unicornis/",
+    "https://www.iucnredlist.org/species/19496/18494149"
+  ],
+  "alt_text": "Video of a greater one-horned rhinoceros walking along a grassy track towards the camera in Manas National Park, Assam, India, with text explaining its horn is made of keratin, not bone.",
+  "format_tags": [
+    "format:fact-over-footage",
+    "format:myth-bust",
+    "tactic:hook-text"
+  ],
+  "audio": {
+    "bed": false,
+    "music": {
+      "track": "air-on-the-g-string"
+    }
+  },
+  "experiment": {
+    "hook": "myth",
+    "audio": "music-soothing",
+    "length": "8s",
+    "theme": "india"
+  },
+  "hero_at": 7.0
+}

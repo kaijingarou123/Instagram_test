@@ -1,0 +1,118 @@
+{
+  "slug": "whale-shark-plankton-giant",
+  "slides": [
+    {
+      "type": "cover",
+      "image": "rhincodon-typus/01.jpg",
+      "focus": [
+        0.4,
+        0.4
+      ],
+      "kicker": "Scale",
+      "headline": "The largest fish on Earth eats plankton.",
+      "sub": "Some of its prey is as small as 1 mm"
+    },
+    {
+      "type": "stat",
+      "image": "rhincodon-typus/03.jpg",
+      "focus": [
+        0.55,
+        0.5
+      ],
+      "stat": "12 m",
+      "label": "average length of whale sharks studied, at about 14 tonnes",
+      "body": "Some reportedly reach 18 m. Despite their size, whale sharks pose no danger to people. (Pictured: a snorkeller at Ningaloo Reef, Australia.)",
+      "source": "Britannica"
+    },
+    {
+      "type": "fact",
+      "image": "whale-shark/03.jpg",
+      "focus": [
+        0.45,
+        0.4
+      ],
+      "number": "01",
+      "headline": "It swims with its mouth open",
+      "body": "Seawater pours in and out through the gill slits. Mesh-like tissue acts as a sieve, trapping plankton until the shark closes its mouth to swallow.",
+      "source": "Britannica"
+    },
+    {
+      "type": "fact",
+      "image": "rhincodon-typus/01.jpg",
+      "focus": [
+        0.3,
+        0.35
+      ],
+      "number": "02",
+      "headline": "A sieve with a 1 mm mesh",
+      "body": "Five sets of porous filter pads line each side of its throat, letting it sift out prey as small as 1 mm.",
+      "source": "Animal Diversity Web"
+    },
+    {
+      "type": "fact",
+      "image": "rhincodon-typus/02.jpg",
+      "focus": [
+        0.6,
+        0.4
+      ],
+      "number": "03",
+      "headline": "300 rows of teeth it doesn't use",
+      "body": "Its huge mouth holds more than 300 rows of small teeth in each jaw. Scientists consider them vestigial: they play no role in feeding.",
+      "source": "Britannica"
+    },
+    {
+      "type": "fact",
+      "image": "whale-shark/01.jpg",
+      "focus": [
+        0.45,
+        0.4
+      ],
+      "number": "04",
+      "headline": "A gentle giant in trouble",
+      "body": "The IUCN Red List assessed the whale shark as Endangered in 2016. Its population is decreasing.",
+      "source": "IUCN Red List (2016)"
+    },
+    {
+      "type": "closing",
+      "image": "whale-shark/02.jpg",
+      "focus": [
+        0.75,
+        0.5
+      ],
+      "headline": "Send this to someone who loves the ocean.",
+      "body": "Big animals, small details, every claim sourced. Follow @earthspirit_nature.",
+      "sources": [
+        "IUCN Red List: Rhincodon typus (2016) iucnredlist.org/species/19488/2365291",
+        "Britannica: Whale shark",
+        "Animal Diversity Web: Rhincodon typus"
+      ]
+    }
+  ],
+  "caption": "The whale shark (Rhincodon typus) is the largest fish alive, and it feeds by straining plankton from the sea.\n\nIt swims with its mouth open and lets its gills do the sieving, catching prey as small as 1 mm. Plankton is not the whole menu: whale sharks also take sardines, anchovies, mackerels, squid and even small tuna. Sometimes one feeds hanging tail down, bobbing at the surface so water and food flood into its mouth.\n\nSwipe for the full story. Sources on the last slide.\n\nSource: IUCN Red List (2016); Britannica; Animal Diversity Web.\n\nKeep this one for your next ocean trip.\n\nPhotos: Wikimedia Commons, CC BY-SA 4.0, CC BY-SA 2.0 and CC BY 2.0 (credits on each slide). All photos show wild whale sharks.",
+  "hashtags": [
+    "#whaleshark",
+    "#filterfeeder",
+    "#sharks",
+    "#oceanlife",
+    "#animalfacts"
+  ],
+  "sources": [
+    "https://www.iucnredlist.org/species/19488/2365291",
+    "https://www.britannica.com/animal/whale-shark",
+    "https://animaldiversity.org/accounts/Rhincodon_typus/"
+  ],
+  "alt_texts": [
+    "Wild whale shark filter-feeding at night in the Maldives with its huge mouth open, headline 'The largest fish on Earth eats plankton'",
+    "Wild whale shark swimming beneath a snorkeller at Ningaloo Reef, with the statistic 12 m average length",
+    "Wild whale shark swimming head-on towards the camera at Isla Canales de Afuera, Panama, with text on how it filter-feeds with its mouth open",
+    "Wild whale shark filter-feeding on plankton at night in the Maldives, with text about its filter pads that sift prey as small as 1 mm",
+    "Close view of a wild whale shark's wide flat head and mouth off La Paz, Mexico, with text about its 300 rows of tiny unused teeth",
+    "Two wild whale sharks swimming below the sea surface, with text on their Endangered status on the IUCN Red List",
+    "Wild whale shark with a remora on its head in open water, closing slide with sources and photo credits"
+  ],
+  "format_tags": [
+    "format:fact-over-footage",
+    "format:explainer",
+    "tactic:hook-text"
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "slug": "asiatic-lion-gir-last-refuge",
+  "slides": [
+    {
+      "type": "cover",
+      "image": "gir-national-park/01.jpg",
+      "focus": [
+        0.4,
+        0.3
+      ],
+      "kicker": "Conservation",
+      "headline": "891 wild lions. One corner of India.",
+      "sub": "Gir and the land around it are the Asiatic lion's last refuge"
+    },
+    {
+      "type": "fact",
+      "image": "asiatic-lion/03.jpg",
+      "focus": [
+        0.35,
+        0.45
+      ],
+      "number": "01",
+      "headline": "They once roamed from Syria to Bihar",
+      "body": "Lions ranged across south-west Asia and much of northern and central India. Heavy hunting and habitat loss left them only in Gujarat's Gir Forest.",
+      "source": "IUCN SSC Cat Specialist Group"
+    },
+    {
+      "type": "stat",
+      "image": "gir-national-park/02.jpg",
+      "focus": [
+        0.6,
+        0.3
+      ],
+      "stat": "891",
+      "label": "lions counted in May 2025, up from 284 in 1990",
+      "body": "That is a 32% rise since the 2020 estimate of 674, and over 70% growth in a decade.",
+      "source": "Government of India, PIB (2025)"
+    },
+    {
+      "type": "fact",
+      "image": "gir-national-park/04.jpg",
+      "focus": [
+        0.6,
+        0.5
+      ],
+      "number": "02",
+      "headline": "Spreading beyond Gir",
+      "body": "Lions now roam about 35,000 km² across 11 districts of Saurashtra. In 2023 they reached Barda Wildlife Sanctuary, returning after 143 years.",
+      "source": "Government of India, PIB (2025)"
+    },
+    {
+      "type": "fact",
+      "image": "asiatic-lion/02.jpg",
+      "focus": [
+        0.55,
+        0.4
+      ],
+      "number": "03",
+      "headline": "Still Endangered",
+      "body": "IUCN lists the lion species as Vulnerable (2023). The Asiatic subpopulation is listed separately as Endangered, an assessment dating from 2008.",
+      "source": "IUCN Red List"
+    },
+    {
+      "type": "closing",
+      "image": "gir-national-park/03.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ],
+      "headline": "Save this for your Gir trip.",
+      "body": "Conservation stories with the numbers checked. Follow @earthspirit_nature.",
+      "sources": [
+        "IUCN Red List: Panthera leo (assessed 2023) and Panthera leo Asiatic subpopulation (assessed 2008)",
+        "Press Information Bureau, Govt of India (10 Aug 2025)",
+        "IUCN SSC Cat Specialist Group: Lion"
+      ]
+    }
+  ],
+  "caption": "Every wild Asiatic lion (Panthera leo, Asiatic subpopulation) lives in one corner of India: Gir and Saurashtra, Gujarat.\n\nThe May 2025 count found 891 lions, up from 674 in 2020 and 284 in 1990. One of the newest homes is Barda Wildlife Sanctuary, 192 km² across Porbandar and Devbhumi Dwarka, where lions arrived on their own in 2023 and now number 17, including 11 cubs.\n\nSwipe for the full story. Sources on the last slide.\n\nSource: Press Information Bureau, Government of India (2025); IUCN Red List.\n\nPass this on to someone planning a trip to Gujarat.\n\nPhotos: Wikimedia Commons, CC BY-SA 4.0 (credits on each slide). All photos show wild lions in Gir National Park.",
+  "hashtags": [
+    "#asiaticlion",
+    "#girnationalpark",
+    "#gujarat",
+    "#conservationsuccess",
+    "#wildlifeeducation"
+  ],
+  "sources": [
+    "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2154818",
+    "https://www.iucnredlist.org/species/247279613/259031465",
+    "https://www.iucnredlist.org/species/15951/259030422",
+    "https://www.catsg.org/living-species-lions"
+  ],
+  "alt_texts": [
+    "Two wild Asiatic lionesses resting together in the dry forest of Gir National Park, Gujarat, one staring at the camera, headline '891 wild lions. One corner of India.'",
+    "Young wild Asiatic lion eating a crow on leaf litter in Gir National Park, with text on the lion's former range from Syria to Bihar",
+    "Wild Asiatic lioness standing in open dry scrub in Gir National Park, with the statistic 891 lions counted in May 2025, up from 284 in 1990",
+    "Wild Asiatic lion cub standing among bare branches in Gir National Park and Wildlife Sanctuary, Sasan, with text on lions spreading across Saurashtra and returning to Barda",
+    "Wild Asiatic lioness looking up in the forest of Gir National Park, with text on its IUCN Red List status: lion species Vulnerable, Asiatic subpopulation Endangered",
+    "Wild Asiatic lions drinking at a waterhole in Gir National Park, closing slide with sources and photo credits"
+  ],
+  "format_tags": [
+    "format:fact-over-footage",
+    "format:conservation-story",
+    "tactic:hook-text"
+  ]
+}

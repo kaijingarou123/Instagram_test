@@ -1,0 +1,81 @@
+{
+  "slug": "indian-rhino-horn-not-bone",
+  "format": "reel",
+  "reel_format": "loop",
+  "size": "1080x1920",
+  "fps": 30,
+  "duration_s": 9.0,
+  "beats": [
+    "A rhino's horn is not bone.",
+    "It is keratin, the protein in hair and fingernails, with no bone inside."
+  ],
+  "audio": "music: Bach, Air (US Air Force Strings) (Public domain, Wikimedia Commons)",
+  "experiment": {
+    "hook": "myth",
+    "audio": "music-soothing",
+    "length": "8s",
+    "theme": "india"
+  },
+  "synthetic_voice": false,
+  "ai_music": false,
+  "ai_disclosure": "none needed (real footage, no AI imagery or voice)",
+  "caption_chars": 864,
+  "hashtags": [
+    "#indianrhino",
+    "#onehornedrhino",
+    "#assamwildlife",
+    "#manasnationalpark",
+    "#animalfacts"
+  ],
+  "format_tags": [
+    "format:fact-over-footage",
+    "format:myth-bust",
+    "tactic:hook-text"
+  ],
+  "alt_text": "Video of a greater one-horned rhinoceros walking along a grassy track towards the camera in Manas National Park, Assam, India, with text explaining its horn is made of keratin, not bone.",
+  "sources": [
+    "https://sites.ohio.edu/witmerl/2006_rhino_horn.htm",
+    "https://animaldiversity.org/accounts/Rhinoceros_unicornis/",
+    "https://www.iucnredlist.org/species/19496/18494149"
+  ],
+  "photo_credits": [
+    "Video: Ministry of External Affairs, India, CC BY 3.0, Wikimedia Commons"
+  ],
+  "video_source": {
+    "title": "File:Resurgent Manas.webm",
+    "page": "https://commons.wikimedia.org/wiki/File:Resurgent_Manas.webm",
+    "license": "CC BY 3.0",
+    "artist": "Indian Diplomacy"
+  },
+  "music": {
+    "title": "Bach, Air (US Air Force Strings)",
+    "artist": "Composition: Johann Sebastian Bach; Performance: United States Air Force Band, Air Force Strings; Recording: United States Air Force",
+    "licence": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Air_-_Air_Force_Strings_-_United_States_Air_Force_Band.mp3",
+    "source_class": "classical-pd",
+    "content_id": false,
+    "credit": "Bach, Air (US Air Force Strings) (Public domain, Wikimedia Commons)"
+  },
+  "variant_of": null,
+  "music_sync": {
+    "start_s": 150.83,
+    "bpm": 185,
+    "hero_at": 7.0,
+    "beat_snaps_s": [
+      -0.07
+    ]
+  },
+  "clip": {
+    "media": "indian-rhino-horn-not-bone-hd/01.webm",
+    "start": 3.9,
+    "focus": [
+      0.5,
+      0.5
+    ],
+    "zoom": 0.62,
+    "top": 470
+  },
+  "loop_seam_diff": 0.0,
+  "median_frame_step": 2.7,
+  "file_mb": 8.9
+}

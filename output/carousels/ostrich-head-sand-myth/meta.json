@@ -1,0 +1,52 @@
+{
+  "slug": "ostrich-head-sand-myth",
+  "format": "carousel",
+  "size": "1080x1350",
+  "slides": [
+    "01.jpg",
+    "02.jpg",
+    "03.jpg",
+    "04.jpg",
+    "05.jpg",
+    "06.jpg",
+    "07.jpg"
+  ],
+  "alt_texts": [
+    "Wild female common ostrich (Struthio camelus) standing in dry grass in Amboseli National Park, Kenya, looking at the camera, headline 'Ostriches never bury their heads in sand'",
+    "Wild female Masai ostrich standing in tall grass in Serengeti National Park, Tanzania, with text on how ostriches lie flat with necks stretched out to avoid detection",
+    "Wild male South African ostrich standing on coastal grassland at the Cape of Good Hope, with text on how ostriches lower their heads to turn eggs in a ground nest",
+    "Wild male common ostrich running across dry ground in Damaraland, Namibia, with the statistic 70 km/h top sprint speed",
+    "Wild male Masai ostrich walking across green grassland in Serengeti National Park, with the statistic 5 cm eyes, the largest of any bird",
+    "Wild female common ostrich in Amboseli National Park, with text on its size and Least Concern status",
+    "Wild female Masai ostrich in the Serengeti, closing slide with sources and photo credits"
+  ],
+  "caption_chars": 877,
+  "hashtags": [
+    "#ostrich",
+    "#ratites",
+    "#birdfacts",
+    "#mythbusting",
+    "#animalfacts"
+  ],
+  "format_tags": [
+    "format:myth-bust",
+    "format:fact-over-footage",
+    "tactic:hook-text"
+  ],
+  "sources": [
+    "https://www.britannica.com/animal/ostrich",
+    "https://nationalzoo.si.edu/animals/ostrich",
+    "https://animals.sandiegozoo.org/animals/ostrich",
+    "https://animaldiversity.org/accounts/Struthio_camelus/",
+    "https://www.iucnredlist.org/species/45020636/280828427"
+  ],
+  "photo_credits": [
+    "Photo: Diego Delso · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Charles J. Sharp · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Diego Delso · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Charles J. Sharp · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Charles J. Sharp · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Diego Delso · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Charles J. Sharp · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

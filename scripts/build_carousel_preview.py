@@ -25,7 +25,8 @@ def load():
                 if r.get("status") == "published":
                     posted[r["slug"]] = r
     extra = [s for s in posted if s not in order and (CAR / s / "meta.json").exists()]
-    return extra + order, posted
+    # Reels share the queue; only carousels have output/carousels/<slug>/meta.json
+    return [s for s in extra + order if (CAR / s / "meta.json").exists()], posted
 
 
 def card(i, slug, posted):

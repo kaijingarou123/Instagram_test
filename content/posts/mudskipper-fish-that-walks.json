@@ -1,0 +1,107 @@
+{
+  "slug": "mudskipper-fish-that-walks",
+  "slides": [
+    {
+      "type": "cover",
+      "image": "periophthalmus-argentilineatus/01.jpg",
+      "focus": [
+        0.4,
+        0.5
+      ],
+      "kicker": "Weird nature",
+      "headline": "This fish walks out of water. On its fins.",
+      "sub": "Meet the mudskippers of the genus Periophthalmus"
+    },
+    {
+      "type": "fact",
+      "image": "periophthalmus-kalolo/01.jpg",
+      "focus": [
+        0.6,
+        0.3
+      ],
+      "number": "01",
+      "headline": "A fish of the mudflats",
+      "body": "Mudskippers are gobies of swamps, estuaries and tidal mud, from Africa across the Indo-Pacific to Australia. They climb, walk and skip about out of water.",
+      "source": "Britannica"
+    },
+    {
+      "type": "fact",
+      "image": "periophthalmus-argentilineatus/01.jpg",
+      "focus": [
+        0.35,
+        0.45
+      ],
+      "number": "02",
+      "headline": "It walks on crutches",
+      "body": "Both pectoral fins move together, lifting and vaulting the front half of the body forward onto the pelvic fins. Scientists call this gait 'crutching'.",
+      "source": "Naylor & Kawano, Integr. Comp. Biol. (2022)"
+    },
+    {
+      "type": "fact",
+      "image": "periophthalmus-kalolo/03.jpg",
+      "focus": [
+        0.55,
+        0.4
+      ],
+      "number": "03",
+      "headline": "Breathing without water",
+      "body": "On land it breathes through its skin and air held in its gill chambers. The Atlantic mudskipper also holds water and air in its mouth.",
+      "source": "Britannica; Kuciel, Zoomorphology (2013)"
+    },
+    {
+      "type": "fact",
+      "image": "periophthalmus-argentilineatus/03.jpg",
+      "focus": [
+        0.5,
+        0.4
+      ],
+      "number": "04",
+      "headline": "A fish that blinks",
+      "body": "Mudskippers evolved blinking on their own. The Atlantic mudskipper retracts its eyes to blink, and blinks more often in drying air to keep them wet.",
+      "source": "Aiello et al., PNAS (2023)"
+    },
+    {
+      "type": "closing",
+      "image": "periophthalmus-kalolo/01.jpg",
+      "focus": [
+        0.6,
+        0.3
+      ],
+      "headline": "Save this for your next mangrove walk.",
+      "body": "One strange animal at a time, sources included. Follow @earthspirit_nature.",
+      "sources": [
+        "Britannica: Mudskipper",
+        "Naylor & Kawano (2022) Integr. Comp. Biol. doi:10.1093/icb/icac084",
+        "Kuciel (2013) Zoomorphology 132:81–85",
+        "Aiello et al. (2023) PNAS 120:e2220404120"
+      ]
+    }
+  ],
+  "caption": "Mudskippers (genus Periophthalmus) are fish that climb, walk and skip about out of water, using their fins as crutches.\n\nThese amphibious gobies hunt crustaceans and other small animals on the mud.\n\nSwipe for the full story. Sources on the last slide.\n\nSource: Britannica; Aiello et al. (2023) PNAS.\n\nFollow along for more of nature's odd ones out.\n\nPhotos: Wikimedia Commons, CC BY-SA 2.0 (credits on each slide). All photos show wild mudskippers.",
+  "hashtags": [
+    "#mudskipper",
+    "#mangroves",
+    "#amphibiousfish",
+    "#weirdanimals",
+    "#naturestudy"
+  ],
+  "sources": [
+    "https://www.britannica.com/animal/mudskipper",
+    "https://doi.org/10.1093/icb/icac084",
+    "https://doi.org/10.1007/s00435-012-0167-y",
+    "https://doi.org/10.1073/pnas.2220404120"
+  ],
+  "alt_texts": [
+    "Wild barred mudskipper, Periophthalmus argentilineatus, propped on its fins on mangrove mud in Bako National Park, Malaysia, headline 'This fish walks out of water. On its fins.'",
+    "Wild common mudskipper, Periophthalmus kalolo, propped up on its pectoral fins on a rock in Madagascar, with text on where mudskippers live",
+    "Wild barred mudskipper, Periophthalmus argentilineatus, on mud with its pectoral fins planted, with text explaining crutching",
+    "Wild common mudskipper, Periophthalmus kalolo, resting on a branch at the water's surface in Madagascar, with text on how mudskippers breathe out of water",
+    "Wild silver-lined mudskipper, Periophthalmus argentilineatus, with raised eyes on oyster shells in Bako National Park, Malaysia, with text on how mudskippers blink",
+    "Wild common mudskipper, Periophthalmus kalolo, on a rock in Madagascar, closing slide with sources and photo credits"
+  ],
+  "format_tags": [
+    "format:fact-over-footage",
+    "format:explainer",
+    "tactic:hook-text"
+  ]
+}

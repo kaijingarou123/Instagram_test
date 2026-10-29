@@ -1,0 +1,50 @@
+{
+  "slug": "thorny-devil-drinks-through-skin",
+  "format": "carousel",
+  "size": "1080x1350",
+  "slides": [
+    "01.jpg",
+    "02.jpg",
+    "03.jpg",
+    "04.jpg",
+    "05.jpg",
+    "06.jpg",
+    "07.jpg"
+  ],
+  "alt_texts": [
+    "Wild thorny devil (Moloch horridus) standing on red sand at Newhaven Wildlife Sanctuary, Northern Territory, headline 'This desert lizard drinks through its skin'",
+    "Wild thorny devil walking on pale sand beneath purple wildflowers in Nullarbor National Park, with text on the grooves that carry water to its mouth",
+    "Wild thorny devil with its tail raised on red gravel beside a road in Uluru-Kata Tjuta National Park, with the statistic 3 percent of body weight to fill its skin channels",
+    "Wild thorny devil standing on red desert sand at Newhaven Wildlife Sanctuary, with text on how it shovels damp sand onto its back after rain",
+    "Wild thorny devil with its tail raised on red gravel in Uluru-Kata Tjuta National Park, with the statistic 750 ants eaten a day",
+    "Wild thorny devil on orange sand with its head tucked down, showing the spiny false head on its neck, with text on its decoy head defence",
+    "Wild thorny devil walking on pale sand beneath purple wildflowers in Nullarbor National Park, closing slide with sources and photo credits"
+  ],
+  "caption_chars": 979,
+  "hashtags": [
+    "#thornydevil",
+    "#molochhorridus",
+    "#australianreptiles",
+    "#herpetology",
+    "#naturestudy"
+  ],
+  "format_tags": [
+    "format:explainer",
+    "format:fact-over-footage",
+    "tactic:hook-text"
+  ],
+  "sources": [
+    "https://journals.biologists.com/jeb/article/219/21/3473/15569/Cutaneous-water-collection-by-a-moisture",
+    "https://animaldiversity.org/accounts/Moloch_horridus/",
+    "https://www.iucnredlist.org/species/83492011/83492039"
+  ],
+  "photo_credits": [
+    "Photo: B 897 · Wikimedia Commons · CC0",
+    "Photo: Kevin Greenaway · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: chujoslaw · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: B 897 · Wikimedia Commons · CC0",
+    "Photo: chujoslaw · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Christopher Watson · Wikimedia Commons · CC BY-SA 3.0",
+    "Photo: Kevin Greenaway · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

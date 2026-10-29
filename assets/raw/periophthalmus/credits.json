@@ -1,0 +1,54 @@
+[
+  {
+    "title": "File:Periophthalmus barbarus - Wilhelma 01.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File%3APeriophthalmus%20barbarus%20-%20Wilhelma%2001.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Periophthalmus_barbarus_-_Wilhelma_01.jpg/1920px-Periophthalmus_barbarus_-_Wilhelma_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 3513,
+    "height": 2690,
+    "license": "CC BY-SA 3.0",
+    "artist": "H. Zell",
+    "credit": "Own work",
+    "description": "Periophthalmus barbarus (Linnaeus, 1766), Atlantic mudskipper; Wilhelma, Stuttgart, Baden-Württemberg, Germany.",
+    "curated": true,
+    "file": "01.jpg"
+  },
+  {
+    "title": "File:Schlammspringer Periophthalmus sp.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASchlammspringer%20Periophthalmus%20sp.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Schlammspringer_Periophthalmus_sp.jpg/1920px-Schlammspringer_Periophthalmus_sp.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 3000,
+    "height": 2142,
+    "license": "CC BY 3.0",
+    "artist": "Holger Krisp",
+    "credit": "Own work",
+    "description": "Mudskipper, Periophthalmus barbarus, Family: Gobiidae, Location: Germany, Stuttgart, Zoological Garden.",
+    "curated": true,
+    "file": "02.jpg"
+  },
+  {
+    "title": "File:Oniria - Periophthalme 03.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File%3AOniria%20-%20Periophthalme%2003.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Oniria_-_Periophthalme_03.jpg/1920px-Oniria_-_Periophthalme_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 6000,
+    "height": 4000,
+    "license": "CC BY-SA 4.0",
+    "artist": "Tylwyth Eldar",
+    "credit": "Own work",
+    "description": "Periophthalme (Periophthalmus barbarus) à Oniria, aquarium de Canet-en-Roussillon.",
+    "curated": false,
+    "file": "03.jpg"
+  },
+  {
+    "title": "File:Periophthalmus barbarus on reunion island3.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File%3APeriophthalmus%20barbarus%20on%20reunion%20island3.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Periophthalmus_barbarus_on_reunion_island3.jpg/1920px-Periophthalmus_barbarus_on_reunion_island3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 5472,
+    "height": 3648,
+    "license": "CC0",
+    "artist": "Parchaco",
+    "credit": "Own work",
+    "description": "Periophthalmus barbarus on reunion island",
+    "curated": false,
+    "file": "04.jpg"
+  }
+]

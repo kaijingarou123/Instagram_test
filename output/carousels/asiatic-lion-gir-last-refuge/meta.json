@@ -1,0 +1,48 @@
+{
+  "slug": "asiatic-lion-gir-last-refuge",
+  "format": "carousel",
+  "size": "1080x1350",
+  "slides": [
+    "01.jpg",
+    "02.jpg",
+    "03.jpg",
+    "04.jpg",
+    "05.jpg",
+    "06.jpg"
+  ],
+  "alt_texts": [
+    "Two wild Asiatic lionesses resting together in the dry forest of Gir National Park, Gujarat, one staring at the camera, headline '891 wild lions. One corner of India.'",
+    "Young wild Asiatic lion eating a crow on leaf litter in Gir National Park, with text on the lion's former range from Syria to Bihar",
+    "Wild Asiatic lioness standing in open dry scrub in Gir National Park, with the statistic 891 lions counted in May 2025, up from 284 in 1990",
+    "Wild Asiatic lion cub standing among bare branches in Gir National Park and Wildlife Sanctuary, Sasan, with text on lions spreading across Saurashtra and returning to Barda",
+    "Wild Asiatic lioness looking up in the forest of Gir National Park, with text on its IUCN Red List status: lion species Vulnerable, Asiatic subpopulation Endangered",
+    "Wild Asiatic lions drinking at a waterhole in Gir National Park, closing slide with sources and photo credits"
+  ],
+  "caption_chars": 752,
+  "hashtags": [
+    "#asiaticlion",
+    "#girnationalpark",
+    "#gujarat",
+    "#conservationsuccess",
+    "#wildlifeeducation"
+  ],
+  "format_tags": [
+    "format:fact-over-footage",
+    "format:conservation-story",
+    "tactic:hook-text"
+  ],
+  "sources": [
+    "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2154818",
+    "https://www.iucnredlist.org/species/247279613/259031465",
+    "https://www.iucnredlist.org/species/15951/259030422",
+    "https://www.catsg.org/living-species-lions"
+  ],
+  "photo_credits": [
+    "Photo: Prabukumar84 · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Rohit Sharma · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: A. J. T. Johnsingh, WWF-India and NCF · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Vickey Chauhan · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Rohit Sharma · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: A. J. T. Johnsingh, WWF-India and NCF · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

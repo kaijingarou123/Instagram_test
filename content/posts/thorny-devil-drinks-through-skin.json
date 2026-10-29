@@ -1,0 +1,118 @@
+{
+  "slug": "thorny-devil-drinks-through-skin",
+  "slides": [
+    {
+      "type": "cover",
+      "image": "thorny-devil-framed/01.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ],
+      "kicker": "How does it survive?",
+      "headline": "This desert lizard drinks through its skin.",
+      "sub": "Tiny grooves between its scales pipe water straight to its mouth"
+    },
+    {
+      "type": "fact",
+      "image": "thorny-devil-framed/02.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ],
+      "number": "01",
+      "headline": "Plumbing built into its scales",
+      "body": "Grooves ring each spine and link up across its body. Capillary action draws water along them, even uphill, to the corners of its mouth.",
+      "source": "Animal Diversity Web"
+    },
+    {
+      "type": "stat",
+      "image": "thorny-devil-framed/03.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ],
+      "stat": "3%",
+      "label": "of its body weight in water, just to fill the channels",
+      "body": "Only once they are full can it drink. Standing in a puddle did it; damp sand alone filled them to about 59%.",
+      "source": "Comanns et al., J Exp Biol (2016)"
+    },
+    {
+      "type": "fact",
+      "image": "thorny-devil-framed/01.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ],
+      "number": "02",
+      "headline": "So it shovels wet sand onto its back",
+      "body": "After rain, wild thorny devils have been seen heaping damp sand over themselves. Tests on skin replicas suggest sand on top can fill the channels.",
+      "source": "Comanns et al., J Exp Biol (2016)"
+    },
+    {
+      "type": "stat",
+      "image": "thorny-devil-framed/03.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ],
+      "stat": "750",
+      "label": "ants eaten a day, by one estimate",
+      "body": "It eats only ants, sitting beside their trails and picking them off one by one, at rates of up to one ant per second.",
+      "source": "Animal Diversity Web"
+    },
+    {
+      "type": "fact",
+      "image": "thorny-devil-framed/04.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ],
+      "number": "03",
+      "headline": "A decoy head for predators",
+      "body": "Threatened, it tucks its real head between its forelegs and presents a spiny knob on top: a 'false head' that makes it hard to swallow.",
+      "source": "Animal Diversity Web"
+    },
+    {
+      "type": "closing",
+      "image": "thorny-devil-framed/02.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ],
+      "headline": "Send this to someone who forgets to drink water.",
+      "body": "One survival trick at a time, properly sourced. Follow @earthspirit_nature.",
+      "sources": [
+        "Comanns, Withers, Esser & Baumgartner (2016) Cutaneous water collection by a moisture-harvesting lizard. J. Exp. Biol. 219:3473–3479",
+        "Animal Diversity Web: Moloch horridus",
+        "IUCN Red List: Moloch horridus, Least Concern (2017)"
+      ]
+    }
+  ],
+  "caption": "The thorny devil (Moloch horridus) drinks through its skin, wicking water along grooves between its scales to its mouth.\n\nThis small ant-eating lizard lives in the sandy deserts of inland Australia, where rain is rare. Once its skin channels are full, it drinks with small gulping jaw movements, taking in roughly 0.7 microlitres per gulp in lab tests. The same study found that dew and condensation alone probably cannot fill the channels, so rain and damp sand matter most. It is listed as Least Concern on the IUCN Red List (2017).\n\nSwipe for how the plumbing works. Sources on the last slide.\n\nSource: Comanns et al. (2016), Journal of Experimental Biology 219:3473–3479; Animal Diversity Web; IUCN Red List.\n\nKeep this one for the next time someone says lizards are boring.\n\nPhotos: Wikimedia Commons, CC0, CC BY-SA 3.0 and CC BY-SA 4.0 (credits on each slide). All thorny devils pictured are wild.",
+  "hashtags": [
+    "#thornydevil",
+    "#molochhorridus",
+    "#australianreptiles",
+    "#herpetology",
+    "#naturestudy"
+  ],
+  "sources": [
+    "https://journals.biologists.com/jeb/article/219/21/3473/15569/Cutaneous-water-collection-by-a-moisture",
+    "https://animaldiversity.org/accounts/Moloch_horridus/",
+    "https://www.iucnredlist.org/species/83492011/83492039"
+  ],
+  "alt_texts": [
+    "Wild thorny devil (Moloch horridus) standing on red sand at Newhaven Wildlife Sanctuary, Northern Territory, headline 'This desert lizard drinks through its skin'",
+    "Wild thorny devil walking on pale sand beneath purple wildflowers in Nullarbor National Park, with text on the grooves that carry water to its mouth",
+    "Wild thorny devil with its tail raised on red gravel beside a road in Uluru-Kata Tjuta National Park, with the statistic 3 percent of body weight to fill its skin channels",
+    "Wild thorny devil standing on red desert sand at Newhaven Wildlife Sanctuary, with text on how it shovels damp sand onto its back after rain",
+    "Wild thorny devil with its tail raised on red gravel in Uluru-Kata Tjuta National Park, with the statistic 750 ants eaten a day",
+    "Wild thorny devil on orange sand with its head tucked down, showing the spiny false head on its neck, with text on its decoy head defence",
+    "Wild thorny devil walking on pale sand beneath purple wildflowers in Nullarbor National Park, closing slide with sources and photo credits"
+  ],
+  "format_tags": [
+    "format:explainer",
+    "format:fact-over-footage",
+    "tactic:hook-text"
+  ]
+}

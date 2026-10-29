@@ -1,0 +1,122 @@
+{
+  "slug": "ostrich-head-sand-myth",
+  "slides": [
+    {
+      "type": "cover",
+      "image": "struthio-camelus/02.jpg",
+      "focus": [
+        0.55,
+        0.5
+      ],
+      "kicker": "Myth-bust",
+      "headline": "Ostriches never bury their heads in sand.",
+      "sub": "So where did the idea come from? Two very ordinary habits"
+    },
+    {
+      "type": "fact",
+      "image": "struthio-camelus-massaicus/01.jpg",
+      "focus": [
+        0.62,
+        0.45
+      ],
+      "number": "01",
+      "headline": "Down, flat and very still",
+      "body": "If danger comes and it cannot run, an ostrich may drop to the ground and lie still, neck stretched flat. From far off, the head seems to vanish.",
+      "source": "Britannica; San Diego Zoo Wildlife Alliance"
+    },
+    {
+      "type": "fact",
+      "image": "struthio-camelus-australis/01.jpg",
+      "focus": [
+        0.45,
+        0.5
+      ],
+      "number": "02",
+      "headline": "Head in the nest, not the sand",
+      "body": "The nest is a shallow scrape in the ground. Tending it, ostriches dip their heads low to turn the eggs, which may explain the myth.",
+      "source": "Smithsonian's National Zoo; Britannica"
+    },
+    {
+      "type": "stat",
+      "image": "struthio-camelus-australis/03.jpg",
+      "focus": [
+        0.22,
+        0.5
+      ],
+      "stat": "70 km/h",
+      "label": "top sprint speed, in short bursts",
+      "body": "Running, not hiding, is its main escape. Scientists have seen ostriches keep up 48–59 km/h continuously.",
+      "source": "San Diego Zoo Wildlife Alliance; Smithsonian"
+    },
+    {
+      "type": "stat",
+      "image": "struthio-camelus-massaicus/02.jpg",
+      "focus": [
+        0.36,
+        0.5
+      ],
+      "stat": "5 cm",
+      "label": "across: the size of each eye, the largest of any bird",
+      "body": "San Diego Zoo Wildlife Alliance goes further: the largest eye of any land animal.",
+      "source": "Smithsonian's National Zoo; SDZWA"
+    },
+    {
+      "type": "fact",
+      "image": "struthio-camelus/02.jpg",
+      "focus": [
+        0.55,
+        0.5
+      ],
+      "number": "03",
+      "headline": "The biggest bird alive",
+      "body": "Males stand up to 2.7 m tall and weigh up to 130 kg. The IUCN rates it Least Concern (2025), though wild numbers have declined.",
+      "source": "SDZWA; IUCN Red List (2025); Smithsonian"
+    },
+    {
+      "type": "closing",
+      "image": "struthio-camelus-massaicus/01.jpg",
+      "focus": [
+        0.62,
+        0.45
+      ],
+      "headline": "Save this for the next 'head in the sand' joke.",
+      "body": "Animal myths, checked against the evidence. Follow @earthspirit_nature.",
+      "sources": [
+        "Britannica: Ostrich",
+        "Smithsonian's National Zoo and Conservation Biology Institute: Ostrich",
+        "San Diego Zoo Wildlife Alliance: Ostrich",
+        "Animal Diversity Web: Struthio camelus",
+        "IUCN Red List: Struthio camelus, Least Concern (2025)"
+      ]
+    }
+  ],
+  "caption": "Ostriches do not bury their heads in sand: the common ostrich (Struthio camelus) lies flat or dips into its nest instead.\n\nThe nest is a communal scrape in the ground shared by several hens. The male usually sits on the eggs at night and the females take turns by day, and every so often a bird lowers its head to turn them. Chicks use the lie-flat trick too, and if cornered an adult can deliver a dangerous kick with its two-toed feet.\n\nSwipe for the full story. Sources on the last slide.\n\nSource: Britannica; Smithsonian's National Zoo; San Diego Zoo Wildlife Alliance; Animal Diversity Web; IUCN Red List (2025).\n\nPass it on to whoever still believes the cartoon version.\n\nPhotos: Wikimedia Commons, CC BY-SA 4.0 (credits on each slide). All ostriches pictured are wild, in Kenya, Tanzania, Namibia and South Africa.",
+  "hashtags": [
+    "#ostrich",
+    "#ratites",
+    "#birdfacts",
+    "#mythbusting",
+    "#animalfacts"
+  ],
+  "sources": [
+    "https://www.britannica.com/animal/ostrich",
+    "https://nationalzoo.si.edu/animals/ostrich",
+    "https://animals.sandiegozoo.org/animals/ostrich",
+    "https://animaldiversity.org/accounts/Struthio_camelus/",
+    "https://www.iucnredlist.org/species/45020636/280828427"
+  ],
+  "alt_texts": [
+    "Wild female common ostrich (Struthio camelus) standing in dry grass in Amboseli National Park, Kenya, looking at the camera, headline 'Ostriches never bury their heads in sand'",
+    "Wild female Masai ostrich standing in tall grass in Serengeti National Park, Tanzania, with text on how ostriches lie flat with necks stretched out to avoid detection",
+    "Wild male South African ostrich standing on coastal grassland at the Cape of Good Hope, with text on how ostriches lower their heads to turn eggs in a ground nest",
+    "Wild male common ostrich running across dry ground in Damaraland, Namibia, with the statistic 70 km/h top sprint speed",
+    "Wild male Masai ostrich walking across green grassland in Serengeti National Park, with the statistic 5 cm eyes, the largest of any bird",
+    "Wild female common ostrich in Amboseli National Park, with text on its size and Least Concern status",
+    "Wild female Masai ostrich in the Serengeti, closing slide with sources and photo credits"
+  ],
+  "format_tags": [
+    "format:myth-bust",
+    "format:fact-over-footage",
+    "tactic:hook-text"
+  ]
+}
