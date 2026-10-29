@@ -322,6 +322,22 @@ def analyse(x):
     return env, rms, period / fps, grid
 
 
+def tonal_seconds(x):
+    """Per-second tonality: share of each frame's energy in its 20 strongest spectral peaks, averaged over 1 s.
+    Music sits around 0.7-1.0; applause, crowd noise and talking fall far lower (The Swan's ovation: 0.10-0.35).
+    Index i covers [i, i + 1) s."""
+    hop = 2048
+    fr = np.lib.stride_tricks.sliding_window_view(x, 4096)[::hop] * np.hanning(4096)
+    pw = np.abs(np.fft.rfft(fr, axis=1)) ** 2 + 1e-12
+    top = np.sort(pw, axis=1)[:, ::-1]
+    tonal = top[:, :20].sum(axis=1) / top.sum(axis=1)
+    per = int(SR / hop)
+    return np.array([tonal[i * per:(i + 1) * per].mean() for i in range(len(tonal) // per)])
+
+
+NOISE_TONAL = 0.6                # below this for a whole second = applause / crowd / speech, never used
+
+
 def music_sync(spec, x, L):
     """Choose where in the track the Reel starts so that a beat lands on frame 0 (the hook) and the strongest accent
     lands on spec["hero_at"] (the animal's key moment), in a passage loud enough to carry; then snap the text beats
@@ -335,12 +351,15 @@ def music_sync(spec, x, L):
         i = int(t * fps)
         return env[max(i - 2, 0):i + 3].max() if 0 <= i < len(env) else -9
 
+    tonal = tonal_seconds(x)
     best, best_o = -1e9, None
     for o in grid:
         if o < LOOP_XF or o + L + 0.2 > len(x) / SR:
             continue
         i0, i1 = int(o * fps), int((o + L) * fps)
         if rms[i0:i1].mean() < 0.6 * loud or rms[i0:i1].min() < 0.05 * loud:   # no near-silent gaps
+            continue
+        if tonal[int(o):int(o + L) + 1].min(initial=1.0) < NOISE_TONAL:   # no applause / crowd noise in the window
             continue
         score = at(o) + 2.0 * at(o + hero) + 0.5 * sum(at(o + b["at"]) for b in spec["beats"][1:])
         if score > best:

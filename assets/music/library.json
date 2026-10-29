@@ -177,11 +177,11 @@
       "graceful",
       "water",
       "birds",
-      "display",
-      "soothing"
+      "display"
     ],
     "source_class": "classical-pd",
-    "display": "Saint-Saëns, The Swan (Alisa Weilerstein, Jason Yoder)"
+    "display": "Saint-Saëns, The Swan (Alisa Weilerstein, Jason Yoder)",
+    "note": "live concert recording: applause from about 152 s to the end; the renderer's tonality check skips it, but do not use this track (owner, 29 Oct 2026)"
   },
   {
     "slug": "gymnopedie-1",

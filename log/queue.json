@@ -27,11 +27,10 @@
     "monarch-super-generation",
     "orca-biggest-dolphin",
     "peacock-train-not-tail",
-    "giraffe-seven-neck-bones",
-    "leopard-tree-larder",
-    "dung-beetle-sky-dance",
-    "kingfisher-blue-not-pigment",
-    "spider-wasp-living-larder",
+    "giraffe-seven-neck-bones-calm",
+    "leopard-tree-larder-calm",
+    "dung-beetle-sky-dance-calm",
+    "spider-wasp-living-larder-calm",
     "snow-leopard-no-roar"
   ],
   "due_after_media_id": "17876372613594653",
@@ -40,6 +39,11 @@
   "approved_reels": [
     "hummingbird-torpor",
     "orca-hunt",
-    "snow-leopard-no-roar"
+    "snow-leopard-no-roar",
+    "peacock-train-not-tail",
+    "giraffe-seven-neck-bones-calm",
+    "leopard-tree-larder-calm",
+    "spider-wasp-living-larder-calm",
+    "dung-beetle-sky-dance-calm"
   ]
 }

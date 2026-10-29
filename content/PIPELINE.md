@@ -129,9 +129,11 @@ friend" or "share if"; no "swipe" line. The renderer appends the video credit (a
 **No narration, soothing music (owner rule, 28 Oct 2026).** Never add a voice: no TTS, no AI narration; viewers
 read the on-screen text. The renderer refuses a spec with `"voice"` and preflight fails a narrated Reel. Every Reel's
 audio is a SOOTHING track (calm, nature-documentary feel) from `python scripts/fetch_commons_music.py --list soothing`
-(13 tracks: Grieg Morning Mood, Vivaldi Winter Largo and Autumn Adagio, Satie Gymnopedies 1 and 3 and Gnossienne 1,
-Debussy Clair de lune, Saint-Saens The Swan, Chopin Nocturnes Op. 9 No. 2 and Op. 15 No. 2, Bach Air, Komiku The
-Wind and Balance), or an owner-supplied calm track. Never action, chase, frantic or "epic" tracks: the owner found
+(12 tracks: Grieg Morning Mood, Vivaldi Winter Largo and Autumn Adagio, Satie Gymnopedies 1 and 3 and Gnossienne 1,
+Debussy Clair de lune, Chopin Nocturnes Op. 9 No. 2 and Op. 15 No. 2, Bach Air, Komiku The
+Wind and Balance), or an owner-supplied calm track. Live recordings can end in applause: the renderer measures tonality per second and never
+uses a passage with applause, crowd noise or talking (The Swan was dropped for exactly that, 29 Oct); still listen
+to every Reel before it goes to the owner. Never action, chase, frantic or "epic" tracks: the owner found
 them "just noise". The owner's review of the first samples: the giraffe with calm music was best, the narrated
 spider wasp and leopard were "very bad".
 

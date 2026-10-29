@@ -57,7 +57,7 @@ LIBRARY = [
     ("air-on-the-g-string", "Air Force Strings Air United States Air Force Band", "Air - Air Force Strings", ["calm", "graceful", "warm"]),
     ("gnossienne-1", "Satie Gnossienne 1", "Satie - Gnossienne 1", ["mysterious", "slow", "gentle"]),
     ("clair-de-lune", "Clair de Lune Debussy piano solo 1905", "Clair de Lune by Claude Debussy (1905", ["night", "ocean", "dreamy"]),
-    ("the-swan", "Alisa Weilerstein Swan Saint-Saens", "Weilerstein", ["graceful", "water", "birds", "display"]),
+    ("Alisa Weilerstein Swan Saint-Saens", "Weilerstein", ["graceful", "water", "birds", "display"]),
     ("swan-lake-act-2", "Tchaikovsky Swan Lake Extract from Act 2", "Swan Lake- Extract from Act 2", ["dramatic", "epic", "display"]),
     # MODERN
     ("komiku-action-discovery", "Komiku Action Discovery", "Komiku - 12 - Action Discovery", ["adventure", "curious", "upbeat"]),
