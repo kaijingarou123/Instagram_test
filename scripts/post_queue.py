@@ -40,7 +40,8 @@ HALTS = [ROOT / "log" / "HALT", ROOT / "HALT", Path.home() / ".claude" / "platfo
 IST = timezone(timedelta(hours=5, minutes=30))
 # Owner decisions 2026-10-28: clear the carousel backlog on 28-29 Oct (catch-up days, up to 7 posts a day, >= 2 h
 # apart), then 2 carousels and 1 to 2 Reels a day (up to 4 posts, >= 3 h apart). Times are IST.
-CATCHUP_DAYS = {date(2026, 10, 28), date(2026, 10, 29), date(2026, 10, 30)}   # 30 Oct added: 28 Oct lost to a HALT
+CATCHUP_DAYS = {date(2026, 10, 28), date(2026, 10, 29), date(2026, 10, 30),    # 30 Oct added: 28 Oct lost to a HALT
+                date(2026, 10, 31), date(2026, 11, 1)}    # added: 29 Oct evening and 30 Oct lost to a false code-4 HALT
 CATCHUP_SLOTS = [(time(8, 0), time(8, 45)), (time(10, 15), time(11, 0)), (time(12, 30), time(13, 15)),
                  (time(14, 45), time(15, 30)), (time(17, 0), time(17, 45)), (time(19, 15), time(20, 0)),
                  (time(21, 30), time(22, 15))]

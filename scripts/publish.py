@@ -51,8 +51,8 @@ PHASES = [
     # 4 posts a day, >= 3 h apart. Guardrails default was 1/day then 2/day and 2 then 4 Reels a week; the owner
     # accepted the risk. ABSOLUTE_DAILY_CEILING (10) still applies.
     (0, 12, 2, 8, 0),
-    (13, 15, 7, 2, 14),     # day 15 (30 Oct) added as a catch-up day: 28 Oct was lost to a HALT
-    (16, 10**6, 4, 3, 14),
+    (13, 17, 7, 2, 14),     # catch-up days to day 17 (1 Nov): 28 Oct, 29 Oct evening and 30 Oct were lost to HALTs
+    (18, 10**6, 4, 3, 14),
 ]
 ABSOLUTE_DAILY_CEILING = 10
 QUOTA_HALT_AT = 20
