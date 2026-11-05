@@ -1,0 +1,103 @@
+{
+ "slug": "scroll-or-this-hero-cuts",
+ "format": "reel",
+ "reel_format": "mood",
+ "size": "1080x1920",
+ "fps": 30,
+ "duration_s": 17.06,
+ "lines": [
+  "Another hour of scrolling?",
+  "Or this.",
+  "Want more of this?\nFollow for more."
+ ],
+ "cuts": 8,
+ "experiment": {
+  "hook": "contrast",
+  "format": "hero-montage",
+  "pace": "fast",
+  "week": "2026-W45"
+ },
+ "audio": "music: Komiku - 12 - Action Discovery.ogg (CC0)",
+ "music": {
+  "title": "Komiku - 12 - Action Discovery.ogg",
+  "licence": "CC0",
+  "source_class": "modern-cc0",
+  "content_id": false,
+  "source_url": "https://commons.wikimedia.org/wiki/File:Komiku_-_12_-_Action_Discovery.ogg"
+ },
+ "photo_credits": [
+  "Heron catches fish (37365).webm by Rhododendrites, CC BY-SA 4.0",
+  "042 European bee-eater trying to swallow an Emperor dragonfly in Pfyn-Finges Video by Giles Laurent.webm by Giles Laurent, CC BY-SA 4.0",
+  "Brown bear fishing for salmon -- Crescent Lake, Alaska - August 2015.webm by Mike's Birds from Riverside, CA, US, CC BY-SA 2.0",
+  "Peacock dance, at Botanical Garden Hyderabad.webm by Original:  KCVelagaRefinement:  Rihaan180, CC BY-SA 4.0",
+  "Leopard (Panthera pardus), in Uttarakhand, India.webm by Shiv's fotografia, CC BY-SA 4.0",
+  "Common Kingfisher preening.webm by Lennart Hessel, CC BY 3.0"
+ ],
+ "video_source": {
+  "license": "CC BY 3.0; CC BY-SA 2.0; CC BY-SA 4.0"
+ },
+ "synthetic_voice": false,
+ "ai_music": false,
+ "ai_disclosure": "none needed (real footage, no AI imagery or voice)",
+ "caption_chars": 1265,
+ "hashtags": [
+  "#wildlifeinaction",
+  "#naturelovers",
+  "#wildlifeofindia",
+  "#animalbehaviour"
+ ],
+ "format_tags": [
+  "format:hero-montage",
+  "tactic:contrast-hook",
+  "tactic:follow-outro"
+ ],
+ "sources": [
+  "https://commons.wikimedia.org/wiki/File:Heron_catches_fish_(37365).webm",
+  "https://commons.wikimedia.org/wiki/File:042_European_bee-eater_trying_to_swallow_an_Emperor_dragonfly_in_Pfyn-Finges_Video_by_Giles_Laurent.webm",
+  "https://commons.wikimedia.org/wiki/File:Brown_bear_fishing_for_salmon_--_Crescent_Lake,_Alaska_-_August_2015.webm",
+  "https://commons.wikimedia.org/wiki/File%3APeacock%20dance%2C%20at%20Botanical%20Garden%20Hyderabad.webm",
+  "https://commons.wikimedia.org/wiki/File%3ALeopard%20%28Panthera%20pardus%29%2C%20in%20Uttarakhand%2C%20India.webm",
+  "https://commons.wikimedia.org/wiki/File%3ACommon%20Kingfisher%20preening.webm"
+ ],
+ "video_credits": [
+  {
+   "artist": "Rhododendrites",
+   "license": "CC BY-SA 4.0",
+   "title": "Heron catches fish (37365).webm",
+   "page": "https://commons.wikimedia.org/wiki/File:Heron_catches_fish_(37365).webm"
+  },
+  {
+   "artist": "Giles Laurent",
+   "license": "CC BY-SA 4.0",
+   "title": "042 European bee-eater trying to swallow an Emperor dragonfly in Pfyn-Finges Video by Giles Laurent.webm",
+   "page": "https://commons.wikimedia.org/wiki/File:042_European_bee-eater_trying_to_swallow_an_Emperor_dragonfly_in_Pfyn-Finges_Video_by_Giles_Laurent.webm"
+  },
+  {
+   "artist": "Mike's Birds from Riverside, CA, US",
+   "license": "CC BY-SA 2.0",
+   "title": "Brown bear fishing for salmon -- Crescent Lake, Alaska - August 2015.webm",
+   "page": "https://commons.wikimedia.org/wiki/File:Brown_bear_fishing_for_salmon_--_Crescent_Lake,_Alaska_-_August_2015.webm"
+  },
+  {
+   "artist": "Original:  KCVelagaRefinement:  Rihaan180",
+   "license": "CC BY-SA 4.0",
+   "title": "Peacock dance, at Botanical Garden Hyderabad.webm",
+   "page": "https://commons.wikimedia.org/wiki/File%3APeacock%20dance%2C%20at%20Botanical%20Garden%20Hyderabad.webm"
+  },
+  {
+   "artist": "Shiv's fotografia",
+   "license": "CC BY-SA 4.0",
+   "title": "Leopard (Panthera pardus), in Uttarakhand, India.webm",
+   "page": "https://commons.wikimedia.org/wiki/File%3ALeopard%20%28Panthera%20pardus%29%2C%20in%20Uttarakhand%2C%20India.webm"
+  },
+  {
+   "artist": "Lennart Hessel",
+   "license": "CC BY 3.0",
+   "title": "Common Kingfisher preening.webm",
+   "page": "https://commons.wikimedia.org/wiki/File%3ACommon%20Kingfisher%20preening.webm"
+  }
+ ],
+ "alt_text": "Black screen asking Another hour of scrolling, then fast cuts of a heron catching a fish, a bee-eater holding a dragonfly, a bear splashing through a river, a peacock turning with its train fanned, a leopard walking and a kingfisher, ending on Want more of this? Follow for more.",
+ "variant_of": "scroll-or-this-peacock",
+ "needs_owner_approval": true
+}

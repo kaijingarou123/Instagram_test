@@ -1,0 +1,45 @@
+{
+  "slug": "peacock-train-not-tail",
+  "kind": "reel",
+  "checks_passed": true,
+  "generated_at": "2026-10-31T16:23:55.761867+00:00",
+  "calls": [
+    {
+      "step": "quota",
+      "method": "GET",
+      "path": "/me/content_publishing_limit",
+      "params": {
+        "fields": "quota_usage,config"
+      }
+    },
+    {
+      "step": "reel",
+      "method": "POST",
+      "path": "/me/media",
+      "params": {
+        "media_type": "REELS",
+        "video_url": "https://kaijingarou123.github.io/Instagram_test/output/reels/peacock-train-not-tail.mp4",
+        "cover_url": "https://kaijingarou123.github.io/Instagram_test/output/reels/peacock-train-not-tail-cover.jpg",
+        "share_to_feed": "true",
+        "caption": "The Indian peafowl (Pavo cristatus) displays a train, not a tail.\n\nThe train is mostly the bird's upper tail coverts, grown enormously long and each tipped with an eyespot. The true tail lies beneath it: in courtship the peacock lifts his tail to raise and fan the train, then vibrates it so the feathers shimmer and rustle. Filmed at the Botanical Garden in Hyderabad, India.\n\nSource: Encyclopaedia Britannica, Peacock.\nSend this to whoever still calls it a tail.\n\nVideo: KCVelaga, refined by Rihaan180, CC BY-SA 4.0, Wikimedia Commons (Peacock dance, at Botanical Garden Hyderabad.webm).\nMusic: Musopen - Morning (Public domain, Wikimedia Commons).\n\n#peacock #indianpeafowl #birdsofindia #birdfacts"
+      }
+    },
+    {
+      "step": "poll",
+      "method": "GET",
+      "path": "/<container id>",
+      "params": {
+        "fields": "status_code,status"
+      },
+      "note": "once per 60 s, max 5 times; continue only on FINISHED"
+    },
+    {
+      "step": "publish",
+      "method": "POST",
+      "path": "/me/media_publish",
+      "params": {
+        "creation_id": "<container id>"
+      }
+    }
+  ]
+}

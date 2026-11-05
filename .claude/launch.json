@@ -2,18 +2,6 @@
   "version": "0.0.1",
   "configurations": [
     {
-      "name": "format-library",
-      "runtimeExecutable": "python",
-      "runtimeArgs": [
-        "-m",
-        "http.server",
-        "8765",
-        "--directory",
-        "output/formats"
-      ],
-      "port": 8765
-    },
-    {
       "name": "carousel-preview",
       "runtimeExecutable": "python",
       "runtimeArgs": [
@@ -24,6 +12,36 @@
         "output/carousels"
       ],
       "port": 8766
+    },
+    {
+      "name": "dashboard-preview",
+      "runtimeExecutable": "python",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "8767",
+        "--directory",
+        "C:/Users/User/AppData/Local/Temp/claude/E--Instagram-Automated-Acc/8abd3bbd-04cd-4869-8284-81942475bfbe/scratchpad"
+      ],
+      "port": 8767
+    },
+    {
+      "name": "field-desk-preview",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "8768", "--directory", "dashboard"],
+      "port": 8768
+    },
+    {
+      "name": "reels-review",
+      "runtimeExecutable": "python",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "8767",
+        "--directory",
+        "output"
+      ],
+      "port": 8767
     }
   ]
 }

@@ -1,0 +1,56 @@
+{
+ "slug": "flamingo-courtship-march",
+ "format": "mood",
+ "grade": "soft-pastel",
+ "xfade": 0.35,
+ "species": "Lesser flamingo (Phoeniconaias minor)",
+ "cuts": [
+  {
+   "media": "lesser-flamingo-hd/01.webm",
+   "start": 93.0,
+   "dur": 4.2,
+   "focus": 0.5
+  },
+  {
+   "media": "lesser-flamingo-hd/01.webm",
+   "start": 111.0,
+   "dur": 4.2,
+   "focus": 0.5
+  },
+  {
+   "media": "lesser-flamingo-hd/01.webm",
+   "start": 126.0,
+   "dur": 3.6,
+   "focus": 0.5
+  }
+ ],
+ "lines": [
+  {
+   "text": "They pick partners by marching together.",
+   "from": 0
+  }
+ ],
+ "music": "swan-lake-act-2",
+ "cover_at": 2.0,
+ "caption": "Lesser flamingos in a courtship display.\n\nThey court in big groups: hundreds march side by side, flag their heads and flash their wings, and pairs form inside the crowd. A bigger group display seems to help the whole colony breed at the same time.\n\nSource: Animal Diversity Web, Phoeniconaias minor.\n\nWould you join the march?",
+ "hashtags": [
+  "#lesserflamingo",
+  "#flamingos",
+  "#birdbehaviour",
+  "#pinkbirds"
+ ],
+ "sources": [
+  "https://animaldiversity.org/accounts/Phoeniconaias_minor/"
+ ],
+ "alt_text": "Hundreds of pink lesser flamingos marching together in shallow water during a courtship display, with the words They pick partners by marching together.",
+ "format_tags": [
+  "format:fact-line",
+  "tactic:one-line",
+  "tactic:comment-prompt"
+ ],
+ "experiment": {
+  "hook": "fact",
+  "format": "fact-line",
+  "week": "2026-W45"
+ }
+}

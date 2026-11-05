@@ -1,0 +1,117 @@
+{
+ "slug": "butterflies-at-13500-ft",
+ "format": "reel",
+ "reel_format": "mood",
+ "size": "1080x1920",
+ "fps": 30,
+ "duration_s": 8.11,
+ "lines": [
+  "Butterflies at 13,500 ft.",
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8"
+ ],
+ "cuts": 8,
+ "experiment": {
+  "hook": "count",
+  "format": "numbered-collection",
+  "week": "2026-W45"
+ },
+ "audio": "music: Komiku - 64 - First Dance.ogg (CC0)",
+ "music": {
+  "title": "Komiku - 64 - First Dance.ogg",
+  "licence": "CC0",
+  "source_class": "modern-cc0",
+  "content_id": false,
+  "source_url": "https://commons.wikimedia.org/wiki/File:Komiku_-_64_-_First_Dance.ogg"
+ },
+ "photo_credits": [
+  "BUTTERFLYING IN HIGH ALLTITUDE (SELA PASS).webm by MaheshBaruahwildlife, CC BY 4.0",
+  "BUTTERFLYING IN HIGH ALLTITUDE (SELA PASS).webm by MaheshBaruahwildlife, CC BY 4.0",
+  "BUTTERFLYING IN HIGH ALLTITUDE (SELA PASS).webm by MaheshBaruahwildlife, CC BY 4.0",
+  "BUTTERFLYING IN HIGH ALLTITUDE (SELA PASS).webm by MaheshBaruahwildlife, CC BY 4.0",
+  "BUTTERFLYING IN HIGH ALLTITUDE (SELA PASS).webm by MaheshBaruahwildlife, CC BY 4.0",
+  "BUTTERFLYING IN HIGH ALLTITUDE (SELA PASS).webm by MaheshBaruahwildlife, CC BY 4.0",
+  "BUTTERFLYING IN HIGH ALLTITUDE (SELA PASS).webm by MaheshBaruahwildlife, CC BY 4.0",
+  "BUTTERFLYING IN HIGH ALLTITUDE (SELA PASS).webm by MaheshBaruahwildlife, CC BY 4.0"
+ ],
+ "video_source": {
+  "license": "CC BY 4.0"
+ },
+ "synthetic_voice": false,
+ "ai_music": false,
+ "ai_disclosure": "none needed (real footage, no AI imagery or voice)",
+ "caption_chars": 1332,
+ "hashtags": [
+  "#butterflies",
+  "#arunachalpradesh",
+  "#himalayanwildlife",
+  "#insectsofindia"
+ ],
+ "format_tags": [
+  "format:numbered-collection",
+  "tactic:one-line",
+  "tactic:comment-prompt"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Sela_Pass"
+ ],
+ "video_credits": [
+  {
+   "artist": "MaheshBaruahwildlife",
+   "license": "CC BY 4.0",
+   "title": "BUTTERFLYING IN HIGH ALLTITUDE (SELA PASS).webm",
+   "page": "https://commons.wikimedia.org/wiki/File:BUTTERFLYING_IN_HIGH_ALLTITUDE_(SELA_PASS).webm"
+  },
+  {
+   "artist": "MaheshBaruahwildlife",
+   "license": "CC BY 4.0",
+   "title": "BUTTERFLYING IN HIGH ALLTITUDE (SELA PASS).webm",
+   "page": "https://commons.wikimedia.org/wiki/File:BUTTERFLYING_IN_HIGH_ALLTITUDE_(SELA_PASS).webm"
+  },
+  {
+   "artist": "MaheshBaruahwildlife",
+   "license": "CC BY 4.0",
+   "title": "BUTTERFLYING IN HIGH ALLTITUDE (SELA PASS).webm",
+   "page": "https://commons.wikimedia.org/wiki/File:BUTTERFLYING_IN_HIGH_ALLTITUDE_(SELA_PASS).webm"
+  },
+  {
+   "artist": "MaheshBaruahwildlife",
+   "license": "CC BY 4.0",
+   "title": "BUTTERFLYING IN HIGH ALLTITUDE (SELA PASS).webm",
+   "page": "https://commons.wikimedia.org/wiki/File:BUTTERFLYING_IN_HIGH_ALLTITUDE_(SELA_PASS).webm"
+  },
+  {
+   "artist": "MaheshBaruahwildlife",
+   "license": "CC BY 4.0",
+   "title": "BUTTERFLYING IN HIGH ALLTITUDE (SELA PASS).webm",
+   "page": "https://commons.wikimedia.org/wiki/File:BUTTERFLYING_IN_HIGH_ALLTITUDE_(SELA_PASS).webm"
+  },
+  {
+   "artist": "MaheshBaruahwildlife",
+   "license": "CC BY 4.0",
+   "title": "BUTTERFLYING IN HIGH ALLTITUDE (SELA PASS).webm",
+   "page": "https://commons.wikimedia.org/wiki/File:BUTTERFLYING_IN_HIGH_ALLTITUDE_(SELA_PASS).webm"
+  },
+  {
+   "artist": "MaheshBaruahwildlife",
+   "license": "CC BY 4.0",
+   "title": "BUTTERFLYING IN HIGH ALLTITUDE (SELA PASS).webm",
+   "page": "https://commons.wikimedia.org/wiki/File:BUTTERFLYING_IN_HIGH_ALLTITUDE_(SELA_PASS).webm"
+  },
+  {
+   "artist": "MaheshBaruahwildlife",
+   "license": "CC BY 4.0",
+   "title": "BUTTERFLYING IN HIGH ALLTITUDE (SELA PASS).webm",
+   "page": "https://commons.wikimedia.org/wiki/File:BUTTERFLYING_IN_HIGH_ALLTITUDE_(SELA_PASS).webm"
+  }
+ ],
+ "alt_text": "Eight quick clips of different butterflies on rocks, gravel and leaves high in the Himalayas, numbered 1 to 8, with the words Butterflies at 13,500 ft.",
+ "variant_of": null,
+ "needs_owner_approval": true
+}

@@ -1,0 +1,46 @@
+{
+ "slug": "kingfisher-sit-still-mood",
+ "format": "mood",
+ "species": "Common kingfisher (Alcedo atthis)",
+ "variant_of": "kingfisher-blue-not-pigment-calm",
+ "cuts": [
+  {
+   "media": "common-kingfisher-hd/01.webm",
+   "start": 4.0,
+   "dur": 21.4,
+   "focus": 0.45
+  }
+ ],
+ "lines": [
+  {
+   "text": "Sit still for 20 seconds.",
+   "from": 0,
+   "y": 230
+  }
+ ],
+ "music": "gnossienne-1",
+ "cover_at": 1.0,
+ "caption": "A common kingfisher (Alcedo atthis), waiting.\n\nThat blue is not pigment. Spongy nanostructures in its feathers scatter blue light, so the colour shifts as it turns. Only the orange chest is coloured the usual way.\n\nSource: Stavenga et al. 2011, Journal of Experimental Biology.\n\nWhat is the bluest thing you have seen in nature?",
+ "hashtags": [
+  "#kingfisher",
+  "#birdphotography",
+  "#calmnature",
+  "#birdfacts"
+ ],
+ "sources": [
+  "https://research.rug.nl/en/publications/kingfisher-feathers-colouration-by-pigments-spongy-nanostructures/",
+  "https://pubmed.ncbi.nlm.nih.gov/22071186/"
+ ],
+ "alt_text": "A kingfisher on a branch turning its head slowly against a soft green background, with the words Sit still for one minute.",
+ "format_tags": [
+  "format:single-shot",
+  "tactic:one-line",
+  "tactic:comment-prompt"
+ ],
+ "experiment": {
+  "hook": "mood",
+  "format": "single-shot",
+  "text": "one-line",
+  "week": "2026-W45"
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "slug": "india-unfiltered-mood",
+ "format": "mood",
+ "species": "Indian leopard, common kingfisher, Indian peafowl",
+ "cuts": [
+  {
+   "media": "indian-leopard-hd/01.webm",
+   "start": 8.0,
+   "dur": 3.4,
+   "focus": [
+    0.44,
+    0.56
+   ]
+  },
+  {
+   "media": "common-kingfisher-hd/01.webm",
+   "start": 12.4,
+   "dur": 3.6,
+   "focus": 0.45
+  },
+  {
+   "media": "indian-peafowl-hd/01.webm",
+   "start": 25.6,
+   "dur": 4.2,
+   "focus": 0.45
+  }
+ ],
+ "lines": [
+  {
+   "text": "India, unfiltered.",
+   "from": 0
+  }
+ ],
+ "music": "gymnopedie-1",
+ "cover_at": 0.8,
+ "caption": "A leopard in Uttarakhand, a kingfisher on its perch and a peacock dancing in Hyderabad.\n\nIndia is the only country where wild lions, tigers and leopards all still live: the lions survive only in and around Gir in Gujarat.\n\nSource: IUCN Red List, Panthera leo assessment.\n\nWhich one would you stop for? Tell us in the comments.",
+ "hashtags": [
+  "#indianwildlife",
+  "#wildlifeofindia",
+  "#naturelovers",
+  "#calmvibes"
+ ],
+ "sources": [
+  "https://www.iucnredlist.org/species/15951/"
+ ],
+ "alt_text": "Three short clips: a leopard walking through grass, a kingfisher turning its head, a peacock fanning its train, with the words India, unfiltered.",
+ "format_tags": [
+  "format:mood-cut",
+  "tactic:one-line",
+  "tactic:comment-prompt"
+ ],
+ "experiment": {
+  "hook": "mood",
+  "format": "mood-multi-cut",
+  "text": "one-line",
+  "week": "2026-W45"
+ }
+}

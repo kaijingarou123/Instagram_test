@@ -1,0 +1,968 @@
+<title>Earthspirit Field Desk</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=Figtree:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: field station control room. One top bar with six tabs, a moss-and-lichen palette,
+   content in a 12-column grid that collapses to one column on phones. Ochre marks anything a person owns. */
+:root{
+  --bg:#eef1ec; --surface:#fbfcfa; --sunk:#e3e8e1; --line:#d5ddd3; --line2:#c2ccc0;
+  --ink:#16201b; --ink2:#46544c; --muted:#76837b;
+  --moss:#2f6a4f; --moss-wash:#dcebe2; --moss-ink:#1f4c38;
+  --ochre:#a8611c; --ochre-wash:#f6e6d4;
+  --tide:#2b6683; --tide-wash:#dbe9f1;
+  --good:#2f8a4c; --warn:#c98a12; --bad:#c2413a; --bad-wash:#f8e1df;
+  --display:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;
+  --body:"Figtree","Segoe UI",system-ui,sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,Consolas,monospace;
+  --r:12px; --shadow:0 1px 2px rgba(22,32,27,.06),0 4px 14px rgba(22,32,27,.05);
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0d1310; --surface:#141c18; --sunk:#1a241f; --line:#25312b; --line2:#33413a;
+  --ink:#e3eae5; --ink2:#b1beb6; --muted:#7f8c85;
+  --moss:#6cc297; --moss-wash:#1c3a2c; --moss-ink:#9fdcbc;
+  --ochre:#e3a25e; --ochre-wash:#3a2a19;
+  --tide:#7ab6d4; --tide-wash:#1a3240;
+  --good:#5cc27e; --warn:#e2ac3c; --bad:#ec7a72; --bad-wash:#3d1d1b;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 6px 18px rgba(0,0,0,.25); color-scheme:dark }}
+:root[data-theme="dark"]{
+  --bg:#0d1310; --surface:#141c18; --sunk:#1a241f; --line:#25312b; --line2:#33413a;
+  --ink:#e3eae5; --ink2:#b1beb6; --muted:#7f8c85;
+  --moss:#6cc297; --moss-wash:#1c3a2c; --moss-ink:#9fdcbc;
+  --ochre:#e3a25e; --ochre-wash:#3a2a19;
+  --tide:#7ab6d4; --tide-wash:#1a3240;
+  --good:#5cc27e; --warn:#e2ac3c; --bad:#ec7a72; --bad-wash:#3d1d1b;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 6px 18px rgba(0,0,0,.25); color-scheme:dark }
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:14px;line-height:1.5}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--surface)}
+a{color:var(--moss)} a:hover{text-decoration:underline}
+button,input,select,textarea{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--moss);outline-offset:2px}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;margin:0;letter-spacing:-.01em}
+.num{font-family:var(--mono);font-variant-numeric:tabular-nums}
+
+/* top bar */
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:8;background:var(--surface);border-bottom:1px solid var(--line)}
+.top .in{max-width:1320px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:10px 0;display:flex;flex-wrap:wrap;align-items:center;gap:8px 20px}
+.brand{display:flex;align-items:center;gap:10px;margin-right:auto}
+.brand .mk{width:32px;height:32px;border-radius:9px;background:var(--moss);display:grid;place-items:center}
+.brand .mk svg{width:19px;height:19px;stroke:var(--surface)}
+.brand b{font-family:var(--display);font-size:17px;display:block;line-height:1.1}
+.brand span{font-size:12px;color:var(--muted)}
+.tools{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.tabs{flex-basis:100%;display:flex;gap:2px;overflow-x:auto;margin-top:4px;scrollbar-width:none}
+.tabs a{padding:9px 14px;color:var(--ink2);font-weight:600;font-size:13.5px;border-bottom:2.5px solid transparent;white-space:nowrap;text-decoration:none;display:flex;gap:7px;align-items:center}
+.tabs a:hover{color:var(--ink)}
+.tabs a[aria-current="page"]{color:var(--ink);border-bottom-color:var(--moss)}
+.tabs .ct{font-family:var(--mono);font-size:11px;background:var(--sunk);color:var(--ink2);border-radius:999px;padding:0 7px}
+.tabs .ct.hot{background:var(--ochre-wash);color:var(--ochre)}
+.tabs .ct.red{background:var(--bad-wash);color:var(--bad)}
+
+.wrap{max-width:1320px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:22px 70px}
+.pagehead{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:10px 20px;margin-bottom:18px}
+.pagehead h1{font-size:28px;font-weight:700}
+.pagehead p{margin:4px 0 0;color:var(--ink2);max-width:70ch}
+
+.g{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:16px}
+.c12{grid-column:span 12}.c8{grid-column:span 8}.c7{grid-column:span 7}.c6{grid-column:span 6}.c5{grid-column:span 5}.c4{grid-column:span 4}.c3{grid-column:span 3}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px 18px;min-width:0;box-shadow:var(--shadow)}
+.card>.ch{display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap;margin-bottom:12px}
+.card h2{font-size:16px;font-weight:600}
+.sub{font-size:12px;color:var(--muted)}
+.note{font-size:12.5px;color:var(--muted);margin:10px 0 0}
+.eyebrow{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600}
+
+.btn{display:inline-flex;align-items:center;gap:7px;border:1px solid var(--line2);background:var(--surface);border-radius:9px;padding:7px 12px;cursor:pointer;font-weight:600;font-size:13px;white-space:nowrap}
+.btn:hover{background:var(--sunk)}
+.btn.pri{background:var(--moss);border-color:var(--moss);color:var(--surface)}
+.btn.pri:hover{filter:brightness(1.08)}
+.btn.sm{padding:4px 9px;font-size:12px;border-radius:7px}
+.btn.stop{color:var(--bad);border-color:var(--bad)}
+.btn:disabled{opacity:.5;cursor:default}
+.btn svg{width:15px;height:15px;stroke:currentColor}
+.seg{display:inline-flex;background:var(--sunk);border-radius:9px;padding:3px;gap:2px;flex-wrap:wrap}
+.seg button{border:0;background:none;padding:5px 11px;border-radius:7px;cursor:pointer;font-size:12.5px;font-weight:600;color:var(--ink2)}
+.seg button[aria-pressed="true"]{background:var(--surface);color:var(--ink);box-shadow:var(--shadow)}
+.pill{display:inline-flex;align-items:center;gap:5px;border-radius:999px;padding:1px 9px;font-size:11.5px;font-weight:600;white-space:nowrap;background:var(--sunk);color:var(--ink2)}
+.pill i{width:7px;height:7px;border-radius:50%;background:currentColor;display:inline-block}
+.p-good{background:var(--moss-wash);color:var(--moss-ink)} .p-warn{background:var(--ochre-wash);color:var(--ochre)} .p-bad{background:var(--bad-wash);color:var(--bad)} .p-tide{background:var(--tide-wash);color:var(--tide)}
+.p-human{background:var(--ochre-wash);color:var(--ochre)} .p-agent{background:var(--moss-wash);color:var(--moss-ink)}
+.k-reel{background:var(--tide-wash);color:var(--tide)} .k-carousel{background:var(--moss-wash);color:var(--moss-ink)}
+
+.alert{display:flex;gap:12px;align-items:flex-start;border-radius:var(--r);padding:12px 16px;margin-bottom:16px;background:var(--bad-wash);color:var(--bad);border:1px solid var(--bad);font-weight:600}
+.alert.warn{background:var(--ochre-wash);color:var(--ochre);border-color:var(--ochre)}
+.alert ul{margin:4px 0 0;padding-left:18px;font-weight:500}
+.alert svg{width:20px;height:20px;flex:none;stroke:currentColor;margin-top:1px}
+
+.kpis{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:12px;margin-bottom:16px}
+.kpi{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:13px 15px 9px;min-width:0;box-shadow:var(--shadow)}
+.kpi .l{font-size:12px;color:var(--ink2);font-weight:600}
+.kpi .v{font-family:var(--display);font-size:30px;font-weight:600;line-height:1.15;letter-spacing:-.02em}
+.kpi .d{font-size:11.5px;color:var(--muted)}
+.kpi .d.up{color:var(--good)}
+.kpi svg{display:block;margin-top:4px}
+.brief{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px}
+.brief li{display:grid;grid-template-columns:10px minmax(0,1fr);gap:10px;font-size:14px}
+.brief li::before{content:"";width:8px;height:8px;border-radius:50%;margin-top:7px;background:var(--dot,var(--muted))}
+.rows{display:flex;flex-direction:column}
+.rows .r{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 12px;padding:10px 0;border-top:1px solid var(--line);align-items:start}
+.rows .r:first-child{border-top:0;padding-top:0}
+.rows .t{font-weight:600}
+.rows .m{font-size:12px;color:var(--muted)}
+
+/* top 5 */
+.t5{border-top:3px solid var(--moss)}
+.t5h{margin:-4px 0 12px;color:var(--ink2);max-width:80ch}
+.t5l{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+.t5l li{display:grid;grid-template-columns:34px minmax(0,1fr);gap:12px;padding:12px 0;border-top:1px solid var(--line)}
+.t5l li:first-child{border-top:0;padding-top:2px}
+.t5n{font-family:var(--display);font-size:24px;font-weight:700;color:var(--moss);line-height:1.1}
+.t5t{font-family:var(--display);font-size:16px;font-weight:600;line-height:1.3}
+.t5w{color:var(--ink2);font-size:13.5px;margin-top:2px}
+.t5c{font-size:13px;margin-top:6px}
+.t5f{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:8px}
+.postnav{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:12px;flex-wrap:wrap}
+.postnav a.btn{text-decoration:none;color:var(--ink)}
+
+/* plan list */
+.tgrp{padding:10px 0;border-top:1px solid var(--line)}
+.tgrp:first-child{border-top:0}
+.tgrp h3{font-family:var(--body);font-size:12px;letter-spacing:.07em;text-transform:uppercase;color:var(--ink2);display:flex;gap:8px;align-items:center;margin-bottom:4px}
+.tlist{list-style:none;margin:0;padding:0}
+.tk{display:grid;grid-template-columns:22px minmax(0,1fr);gap:10px;align-items:start;padding:7px 0;border-left:3px solid var(--moss);padding-left:10px;margin:4px 0}
+.tk.human{border-left-color:var(--ochre)}
+.tick{width:20px;height:20px;border-radius:6px;border:2px solid var(--line2);background:var(--surface);cursor:pointer;margin-top:1px}
+.tick:hover{border-color:var(--moss);background:var(--moss-wash)}
+.tick.ro{cursor:default}
+.tk summary{display:flex;flex-wrap:wrap;gap:6px 8px;align-items:center;cursor:pointer;list-style:none}
+.tk summary::-webkit-details-marker{display:none}
+.tk .tt{font-weight:600;font-size:13.5px;margin-right:2px}
+.tk .td{margin:6px 0;font-size:13px;color:var(--ink2)}
+.slist{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+.srow{display:grid;grid-template-columns:10px minmax(0,1fr) auto;gap:4px 10px;align-items:center;padding:9px 0;border-top:1px solid var(--line)}
+.srow:first-child{border-top:0}
+.srow .dot{width:9px;height:9px;border-radius:50%}
+.srow .sn{display:flex;flex-direction:column;min-width:0}
+.srow .sn .sub{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.srow>.sub,.srow>.btn{grid-column:2/4;justify-self:start}
+.srow>.pill{justify-self:end}
+.loop{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:0 0 14px}
+.loop div{background:var(--sunk);border-radius:10px;padding:8px 10px;font-size:12.5px;color:var(--ink2)}
+.loop div.on{background:var(--moss-wash);color:var(--moss-ink);box-shadow:inset 0 0 0 1.5px var(--moss)}
+.loop b{display:block;font-size:11px;letter-spacing:.07em;text-transform:uppercase}
+@media (max-width:560px){.loop{grid-template-columns:minmax(0,1fr)}}
+
+/* tasks strip */
+.tasks{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px;margin-bottom:18px}
+.task{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:12px 14px;display:flex;flex-direction:column;gap:6px;box-shadow:var(--shadow);border-top:3px solid var(--st,var(--line2))}
+.task .h{display:flex;justify-content:space-between;gap:8px;align-items:flex-start}
+.task b{font-size:13.5px;line-height:1.3}
+.task .doing{font-size:12.5px;color:var(--ink2);min-height:2.6em}
+.task dl{display:grid;grid-template-columns:auto 1fr;gap:1px 10px;margin:0;font-size:12px}
+.task dt{color:var(--muted)} .task dd{margin:0;font-family:var(--mono);font-size:11.5px}
+.task .f{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-top:4px}
+
+/* kanban */
+.planwrap{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:16px;align-items:start}
+.board{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.col{background:var(--sunk);border-radius:var(--r);padding:10px;display:flex;flex-direction:column;gap:8px;min-width:0}
+.col h3{font-family:var(--body);font-size:12px;letter-spacing:.07em;text-transform:uppercase;color:var(--ink2);margin:2px 4px 2px;display:flex;justify-content:space-between}
+.pc{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 12px;border-left:3px solid var(--moss)}
+.pc.human{border-left-color:var(--ochre)}
+.pc .t{font-weight:600;font-size:13px;line-height:1.35}
+.pc p{margin:4px 0 6px;font-size:12.5px;color:var(--ink2)}
+.pc .f{display:flex;flex-wrap:wrap;gap:6px;align-items:center;font-size:11.5px;color:var(--muted)}
+.pc details summary{font-size:11.5px;color:var(--muted);cursor:pointer}
+.feed{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;max-height:640px;overflow:auto}
+.feed li{display:grid;grid-template-columns:auto minmax(0,1fr);gap:4px 10px;padding:9px 0;border-top:1px solid var(--line);font-size:12.5px}
+.feed li:first-child{border-top:0}
+.feed .w{grid-column:2;color:var(--muted);font-size:11.5px;font-family:var(--mono)}
+.addform{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,3fr) auto auto;gap:8px;margin-top:12px}
+
+/* calendar */
+.calhead{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:6px;margin-bottom:6px}
+.calhead div{font-size:11.5px;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);font-weight:600;padding-left:4px}
+.cal{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:6px}
+.day{background:var(--surface);border:1px solid var(--line);border-radius:10px;min-height:118px;padding:6px;display:flex;flex-direction:column;gap:4px;min-width:0}
+.day.past{background:var(--sunk)}
+.day.today{border:2px solid var(--moss)}
+.day .dn{display:flex;justify-content:space-between;font-size:12px;font-weight:600;color:var(--ink2)}
+.day .dn .num{font-size:12px}
+.aw{font-size:10.5px;color:var(--ochre);font-weight:600;line-height:1.25}
+.chip{display:block;border-radius:7px;padding:4px 6px;font-size:11.5px;line-height:1.25;text-decoration:none;color:var(--ink);background:var(--sunk);border-left:3px solid var(--line2);overflow:hidden}
+.chip:hover{text-decoration:none;filter:brightness(.97)}
+.chip .tm{font-family:var(--mono);font-size:10.5px;color:var(--muted)}
+.chip.reel{border-left-color:var(--tide);background:var(--tide-wash)}
+.chip.carousel{border-left-color:var(--moss);background:var(--moss-wash)}
+.chip.est{border-left-style:dashed}
+.chip .hl{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+
+/* sheet */
+.sheetbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;margin-bottom:10px}
+.sheet{overflow:auto;max-height:70vh;border:1px solid var(--line);border-radius:var(--r);background:var(--surface)}
+.sheet table{border-collapse:separate;border-spacing:0;font-size:12.5px;min-width:100%}
+.sheet th,.sheet td{border-right:1px solid var(--line);border-bottom:1px solid var(--line);padding:0;white-space:nowrap;vertical-align:top}
+.sheet thead th{position:sticky;top:0;z-index:3;background:var(--sunk);font-weight:600;text-align:left;padding:7px 8px;font-size:11.5px;color:var(--ink2)}
+.sheet thead tr.grp th{top:0;z-index:4;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--surface);padding:4px 8px}
+.sheet thead tr.hd th{top:24px}
+.sheet .g-plan{background:var(--moss)} .sheet .g-content{background:var(--tide)} .sheet .g-prod{background:var(--ochre)} .sheet .g-perf{background:var(--ink2)} .sheet .g-calc{background:var(--muted)}
+.sheet td.fz,.sheet th.fz{position:sticky;left:0;z-index:2;background:var(--surface)}
+.sheet thead th.fz{z-index:5;background:var(--sunk)}
+.sheet td .cv{display:block;padding:6px 8px;min-height:30px;max-width:260px;overflow:hidden;text-overflow:ellipsis;cursor:cell}
+.sheet td.in .cv:hover{background:var(--moss-wash)}
+.sheet td.calc{background:var(--sunk);color:var(--ink2)}
+.sheet td.calc .cv{cursor:default}
+.sheet td.num .cv{text-align:right;font-family:var(--mono)}
+.sheet td.over .cv{color:var(--bad);font-weight:700}
+.sheet td.edited .cv{box-shadow:inset 3px 0 0 var(--ochre)}
+.sheet td select,.sheet td input{width:100%;min-width:150px;border:2px solid var(--moss);border-radius:0;padding:4px 6px;background:var(--surface);font-size:12.5px}
+.st{display:inline-block;border-radius:6px;padding:0 7px;font-weight:600;font-size:11.5px}
+.st-0{background:var(--sunk);color:var(--muted)} .st-1{background:var(--tide-wash);color:var(--tide)} .st-2{background:var(--ochre-wash);color:var(--ochre)} .st-3{background:var(--moss-wash);color:var(--moss-ink)} .st-4{background:var(--moss);color:var(--surface)} .st-x{background:var(--bad-wash);color:var(--bad)}
+
+/* posts */
+.gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:14px}
+.gal a{display:flex;flex-direction:column;gap:6px;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:8px;min-width:0;text-decoration:none;box-shadow:var(--shadow)}
+.gal a:hover{border-color:var(--moss)}
+.gal img,.gal .ph{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:left;border-radius:8px;background:var(--sunk);display:block}
+.gal .h{font-weight:600;font-size:13px;line-height:1.3}
+.gal .mt{display:flex;gap:10px;font-size:11.5px;color:var(--muted);font-family:var(--mono)}
+.strip{overflow-x:auto;border-radius:10px;background:var(--sunk)}
+.strip img{height:200px;width:auto;max-width:none;display:block}
+.kv{display:grid;grid-template-columns:max-content minmax(0,1fr);gap:7px 16px;font-size:13px;margin:0}
+.kv dt{color:var(--muted)} .kv dd{margin:0;min-width:0;overflow-wrap:anywhere}
+
+/* tables */
+.tw{overflow-x:auto}
+.tw.tall{max-height:440px;overflow:auto}
+table.t{border-collapse:collapse;width:100%;font-size:13px}
+table.t th{font-size:11.5px;color:var(--muted);font-weight:600;text-align:left;border-bottom:1px solid var(--line2);padding:7px 12px 7px 0;white-space:nowrap;position:sticky;top:0;background:var(--surface)}
+table.t td{border-bottom:1px solid var(--line);padding:8px 12px 8px 0;vertical-align:middle}
+table.t td.n,table.t th.n{text-align:right;font-family:var(--mono);font-variant-numeric:tabular-nums}
+.bar{display:inline-block;height:6px;border-radius:3px;background:var(--moss);vertical-align:middle;margin-left:6px}
+
+/* learn */
+.inputs{display:flex;flex-direction:column;gap:12px}
+.inp{border:1px solid var(--line);border-radius:var(--r);padding:12px 14px;background:var(--surface)}
+.steps{display:flex;gap:4px;flex-wrap:wrap;margin:8px 0}
+.steps span{font-size:11px;font-weight:600;padding:2px 8px;border-radius:999px;background:var(--sunk);color:var(--muted)}
+.steps span.on{background:var(--moss);color:var(--surface)}
+.steps span.done{background:var(--moss-wash);color:var(--moss-ink)}
+.lc{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 16px;font-size:12.5px;margin-top:8px}
+.lc b{display:block;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.lc ul{margin:2px 0 0;padding-left:16px}
+form .field{display:flex;flex-direction:column;gap:5px;margin-bottom:10px}
+label{font-size:12.5px;font-weight:600;color:var(--ink2)}
+input[type=text],input[type=url],textarea,select{background:var(--surface);border:1px solid var(--line2);border-radius:8px;padding:8px 10px;width:100%}
+textarea{min-height:80px;resize:vertical}
+.drop{border:1.5px dashed var(--line2);border-radius:10px;padding:14px;text-align:center;color:var(--muted);font-size:12.5px;cursor:pointer}
+.drop.on{border-color:var(--moss);background:var(--moss-wash);color:var(--moss-ink)}
+.exp{border:1px solid var(--line);border-radius:var(--r);padding:12px 14px;background:var(--surface);display:flex;flex-direction:column;gap:6px}
+.exp .q{font-family:var(--display);font-size:15.5px;font-weight:600}
+.empty{border:1px dashed var(--line2);border-radius:10px;padding:18px;color:var(--muted);text-align:center;font-size:13px}
+.msgline{font-size:12.5px;color:var(--ink2);min-height:1.2em;margin-top:6px}
+.tl{list-style:none;margin:0;padding:0;max-height:460px;overflow:auto}
+.tl li{display:grid;grid-template-columns:120px minmax(0,1fr);gap:10px;padding:8px 0;border-top:1px solid var(--line);font-size:13px}
+.tl li:first-child{border-top:0}
+.tl .when{color:var(--muted);font-size:11.5px;font-family:var(--mono)}
+.checklist{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:6px;font-size:13.5px}
+
+/* chat drawer */
+.drawer{position:fixed;top:0;right:0;bottom:0;width:min(460px,100%);background:var(--surface);border-left:1px solid var(--line);display:flex;flex-direction:column;z-index:30;box-shadow:-16px 0 40px rgba(0,0,0,.18);padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);padding-right:env(safe-area-inset-right,0px)}
+.drawer header{display:flex;justify-content:space-between;align-items:center;padding:14px 18px;border-bottom:1px solid var(--line)}
+.msgs{flex:1;overflow:auto;padding:16px 18px;display:flex;flex-direction:column;gap:10px}
+.msg{padding:9px 12px;border-radius:12px;max-width:92%;white-space:pre-wrap;overflow-wrap:anywhere;font-size:13.5px}
+.msg.u{align-self:flex-end;background:var(--moss);color:var(--surface)}
+.msg.a{align-self:flex-start;background:var(--sunk)}
+.drawer form{display:flex;gap:8px;padding:12px 18px;border-top:1px solid var(--line)}
+.drawer textarea{min-height:44px;height:44px}
+.toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(20px + env(safe-area-inset-bottom,0px));background:var(--ink);color:var(--surface);border-radius:10px;padding:9px 16px;font-size:13px;z-index:40;font-weight:600}
+
+@media (max-width:1180px){.kpis{grid-template-columns:repeat(3,minmax(0,1fr))}.planwrap{grid-template-columns:minmax(0,1fr)}.c3{grid-column:span 6}.c4,.c5,.c7,.c8,.c6{grid-column:span 12}}
+@media (max-width:860px){.board{grid-template-columns:repeat(2,minmax(0,1fr))}.cal,.calhead{grid-template-columns:minmax(0,1fr)}.calhead{display:none}.day{min-height:0}.day.empty-day{display:none}.addform{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:560px){.kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.board{grid-template-columns:minmax(0,1fr)}.c3{grid-column:span 12}.lc{grid-template-columns:minmax(0,1fr)}.pagehead h1{font-size:23px}.tl li{grid-template-columns:minmax(0,1fr)}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+
+<header class="top">
+  <div class="in">
+    <div class="brand"><div class="mk"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21c-4-3-7-6.5-7-10.5A7 7 0 0 1 12 3a7 7 0 0 1 7 7.5c0 4-3 7.5-7 10.5z"/><path d="M12 21V9M12 13l-3-2M12 11l3-2"/></svg></div><div><b>Field Desk</b><span id="acct">@earthspirit_nature · test account</span></div></div>
+    <div class="tools">
+      <span class="pill" id="live"><i></i>Connecting</span>
+      <button class="btn" id="syncBtn" type="button" hidden>Sync now</button>
+      <button class="btn pri" id="askBtn" type="button" hidden>Ask Claude</button>
+    </div>
+    <nav class="tabs" id="tabs" aria-label="Pages"></nav>
+  </div>
+</header>
+<main class="wrap" id="view"><div class="empty">Loading the Field Desk. Data appears once the page connects to its store.</div></main>
+<aside class="drawer" id="drawer" hidden aria-label="Ask Claude">
+  <header><div><strong>Ask Claude</strong><div class="sub">Answers from this page's data. Read-only. Uses your own Claude plan.</div></div><button class="btn sm" id="closeChat" type="button">Close</button></header>
+  <div class="msgs" id="msgs"></div>
+  <form id="chatForm"><textarea id="chatIn" placeholder="Ask about posts, insights or the plan" aria-label="Question"></textarea><button class="btn pri" id="chatSend" type="submit">Send</button></form>
+</aside>
+<div class="toast" id="toast" hidden></div>
+
+<script>
+(() => {
+// ================================================================ constants
+const TABS = [["summary","Summary"],["plan","Plan"],["calendar","Calendar"],["posts","Posts"],["learn","Learn"],["audience","Audience"],["more","More"]];
+const TASK_DEFAULTS = [
+  {id:"earthspirit-autopost", name:"Autopost", every_h:1, what:"Posts the next queued item in its IST slot"},
+  {id:"instagram-insight-agent", name:"Insight agent", every_h:6, what:"Reads metrics, updates insights and plan, refreshes this page"},
+  {id:"earthspirit-weekly-content", name:"Weekly content", every_h:168, what:"Researches and renders new carousels and Reels on Thursdays"},
+  {id:"earthspirit-watchdog", name:"Watchdog", every_h:3, what:"Checks the other tasks are running and not stuck"},
+];
+// Content calendar columns, from Muddy_Lessons_Content_Calendar.xlsx (Content Calendar tab)
+const LISTS = {"Platform":["Instagram","YouTube","YouTube Shorts","Facebook","LinkedIn","WhatsApp Channel","X (Twitter)","Website / Blog","Newsletter"],"Format":["Reel","Carousel","Single Image","Story","Long-form Video","Short","Live","Text Post","Article / Blog","Webinar","Poll / Quiz"],"Content Pillar":["Wildlife Spotlight","Kids Nature Activity (DIY)","Conservation Explained","Sustainability Tips","Event / Workshop Promo","Field Trip Recap / BTS","Parent & School Testimonials","Awareness Day","Partnerships / CSR","Team & Educators","Myth vs Fact"],"Objective":["Awareness","Education","Engagement","Lead Gen / Registrations","Community Building","Trust / Social Proof"],"Audience":["Parents","Children (6-14)","Schools & Teachers","Corporates / CSR","Nature Enthusiasts","Volunteers"],"CTA":["Register for event","Book a school program","Visit website","DM us","Comment your answer","Save for later","Share with a parent","Follow for more","Watch full video","Download free worksheet","No CTA"],"Language":["English","Hindi","Hinglish","Bilingual"],"Owner":["Claude agent","Suryansh","Team Member 2","Team Member 3","Designer","Video Editor"],"Status":["Idea","Scripting","Shoot / Design","Editing","In Review","Approved","Scheduled","Published","On Hold","Dropped"],"Priority":["High","Medium","Low"],"Repurpose To":["Instagram","YouTube","YouTube Shorts","Facebook","LinkedIn","WhatsApp Channel","Newsletter","Website / Blog","None"],"Campaign":["Evergreen","Event Promo","School Program Push","Monsoon Series","Winter Camp","Summer Camp","Experiment","World Environment Education Day","World Wetlands Day","World Wildlife Day","World Sparrow Day","International Day of Forests","World Water Day","Earth Day","World Bee Day","International Day for Biological Diversity","World Turtle Day","World Environment Day","World Oceans Day","Van Mahotsav (week begins)","World Nature Conservation Day","International Tiger Day","World Lion Day","World Elephant Day","World Ozone Day","World Rhino Day","Wildlife Week India (Oct 2-8)","World Animal Day","International Snow Leopard Day","National Birdwatching Day (Salim Ali's birthday)","Children's Day (India)","National Pollution Control Day","World Soil Day","National Energy Conservation Day"]};
+const AWARE = [[1,26,"World Environment Education Day"],[2,2,"World Wetlands Day"],[3,3,"World Wildlife Day"],[3,20,"World Sparrow Day"],[3,21,"International Day of Forests"],[3,22,"World Water Day"],[4,22,"Earth Day"],[5,20,"World Bee Day"],[5,22,"International Day for Biological Diversity"],[5,23,"World Turtle Day"],[6,5,"World Environment Day"],[6,8,"World Oceans Day"],[7,1,"Van Mahotsav (week begins)"],[7,28,"World Nature Conservation Day"],[7,29,"International Tiger Day"],[8,10,"World Lion Day"],[8,12,"World Elephant Day"],[9,16,"World Ozone Day"],[9,22,"World Rhino Day"],[10,2,"Wildlife Week India (Oct 2-8)"],[10,4,"World Animal Day"],[10,23,"International Snow Leopard Day"],[11,12,"National Birdwatching Day"],[11,14,"Children's Day (India)"],[12,2,"National Pollution Control Day"],[12,5,"World Soil Day"],[12,14,"National Energy Conservation Day"]];
+// [key, label, group, type]  type: id|date|calc|time|text|num|pct|url|list:<List>
+const COLS = [
+  ["id","Post ID","plan","calc"],["date","Publish Date","plan","date"],["day","Day","plan","calc"],["week","Week #","plan","calc"],["time","Time (IST)","plan","time"],
+  ["platform","Platform","plan","list:Platform"],["format","Format","plan","list:Format"],["pillar","Content Pillar","plan","list:Content Pillar"],["objective","Objective","plan","list:Objective"],["audience","Target Audience","plan","list:Audience"],["campaign","Campaign / Awareness Day","plan","list:Campaign"],
+  ["topic","Topic / Working Title","content","text"],["hook","Hook (first 3 sec / first line)","content","text"],["brief","Caption / Script Brief","content","text"],["cta","CTA","content","list:CTA"],["hashtags","Hashtags / Keywords","content","text"],["language","Language","content","list:Language"],
+  ["owner","Owner","prod","list:Owner"],["status","Status","prod","list:Status"],["priority","Priority","prod","list:Priority"],["asset","Asset / Draft Link","prod","url"],["live","Live Post URL","prod","url"],["repurpose","Repurpose To","prod","list:Repurpose To"],["notes","Notes","prod","text"],
+  ["reach","Reach","perf","num"],["impressions","Impressions","perf","num"],["views","Video Views","perf","num"],["watch","Avg Watch %","perf","pct"],["likes","Likes","perf","num"],["comments","Comments","perf","num"],["shares","Shares","perf","num"],["saves","Saves","perf","num"],["visits","Profile Visits","perf","num"],["clicks","Link Clicks","perf","num"],["follows","Follows Gained","perf","num"],["leads","Leads / Registrations","perf","num"],
+  ["eng","Total Engagement","calc","calc"],["engRate","Engagement Rate","calc","calc"],["ssRate","Share + Save Rate","calc","calc"],["leads1k","Leads per 1K Reach","calc","calc"],["pulled","Metrics Pulled On","perf","date"],
+];
+const GROUPS = {plan:["Plan","g-plan"],content:["Content","g-content"],prod:["Production","g-prod"],perf:["Performance","g-perf"],calc:["Calculated","g-calc"]};
+const STATUS_TONE = {"Idea":0,"Scripting":1,"Shoot / Design":1,"Editing":1,"In Review":2,"Approved":3,"Scheduled":3,"Published":4,"On Hold":"x","Dropped":"x"};
+const GUARD = [
+  "Instagram is read and published only through the approved connection, never by scraping or logging in.",
+  "Posting stays inside the cadence envelope: 2 carousels and up to 2 approved Reels a day, at least 3 h apart.",
+  "Any Reel that is new or changed waits for the owner's approval. Approved Reels are never overwritten.",
+  "Reels use calm nature-style music and on-screen text only. No narration and no AI voice.",
+  "Every fact has a source and every photo has a licence and credit on the closing slide.",
+  "No reposting other creators' media. Learn from their format, never copy their footage or words.",
+  "No follows, likes, comments or DMs by automation.",
+  "Error codes 4, 9, 10, 368 or any block: write a HALT marker, stop every task, notify the owner, no retry.",
+  "Copy rule: no em dashes and no emojis in captions or slides.",
+  "Competitor and link scans use web tools only, never the Instagram connection.",
+];
+
+// ================================================================ state
+const COLLS = ["dash","posts","insights","plans","experiments","competitors","connectors","decisions","activity","docs","scans","control","tasks","inputs","sheet","weekly"];
+const S = Object.fromEntries(COLLS.map(c => [c, {}]));
+let db = null, user = null, sample = null, assets = null, canWrite = false, ready = false, uid = null;
+const ui = {planView:"list", planWho:"all", feedWho:"all", feedWeeks:1, calView:"grid", calOffset:0, sheetGroups:{plan:1,content:1,prod:1,perf:1,calc:1}, sheetStatus:"all", postStatus:"all", postKind:"all", learnTab:"top5", lastList:"#posts", insTopic:"all", insShow:"active", allTags:false, editing:null, pendingFile:null};
+try { const s = JSON.parse(localStorage.getItem("fd-ui") || "{}"); ["calView","learnTab","sheetGroups"].forEach(k => { if (s[k] != null) ui[k] = s[k]; }); } catch (e) {}
+const saveUi = () => { try { localStorage.setItem("fd-ui", JSON.stringify({calView:ui.calView, learnTab:ui.learnTab, sheetGroups:ui.sheetGroups})); } catch (e) {} };
+
+// ================================================================ helpers
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const num = (v, d = 0) => v == null || v === "" || Number.isNaN(+v) ? "–" : (+v).toLocaleString("en-IN", {maximumFractionDigits:d});
+const pct = (v, d = 1) => v == null || v === "" || !isFinite(v) ? "–" : (v * 100).toFixed(d) + "%";
+const TZ = {timeZone:"Asia/Kolkata"};
+const dt = s => { if (!s) return "–"; const d = new Date(s); return isNaN(d) ? String(s) : d.toLocaleString("en-IN", {...TZ, day:"numeric", month:"short", hour:"2-digit", minute:"2-digit", hour12:false}); };
+const day = s => { if (!s) return "–"; const d = new Date(s); return isNaN(d) ? String(s) : d.toLocaleDateString("en-IN", {...TZ, day:"numeric", month:"short"}); };
+const hm = s => new Date(s).toLocaleTimeString("en-GB", {...TZ, hour:"2-digit", minute:"2-digit"});
+const ymd = d => new Date(d).toLocaleDateString("en-CA", TZ);
+const ago = s => { if (!s) return "never"; const m = (Date.now() - new Date(s)) / 6e4;
+  if (m < 0) { const h = -m / 60; return h < 1 ? `in ${Math.round(-m)} min` : h < 48 ? `in ${Math.round(h)} h` : `in ${Math.round(h / 24)} days`; }
+  return m < 1 ? "just now" : m < 60 ? `${Math.round(m)} min ago` : m < 2880 ? `${Math.round(m / 60)} h ago` : `${Math.round(m / 1440)} days ago`; };
+const vals = o => Object.values(o || {});
+const by = (k, dir = -1) => (a, b) => (String(a[k] || "") < String(b[k] || "") ? -dir : String(a[k] || "") > String(b[k] || "") ? dir : 0);
+const empty = t => `<div class="empty">${t}</div>`;
+const isUrl = u => /^https?:\/\//i.test(u || "");
+const link = (u, t) => isUrl(u) ? `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(t || u)}</a>` : esc(t || u || "");
+const card = (title, body, {sub = "", cls = "c6", note = ""} = {}) => `<section class="card ${cls}"><div class="ch"><h2>${esc(title)}</h2>${sub ? `<span class="sub">${sub}</span>` : ""}</div>${body}${note ? `<p class="note">${note}</p>` : ""}</section>`;
+const seg = (name, opts, cur) => `<div class="seg" role="group">${opts.map(([v, l]) => `<button type="button" data-seg="${name}" data-v="${esc(v)}" aria-pressed="${String(cur) === String(v)}">${esc(l)}</button>`).join("")}</div>`;
+const kindPill = k => `<span class="pill k-${k === "reel" ? "reel" : "carousel"}">${k === "reel" ? "Reel" : "Carousel"}</span>`;
+const whoPill = w => `<span class="pill ${w === "human" ? "p-human" : "p-agent"}">${w === "human" ? "You" : "Agent"}</span>`;
+const post = slug => S.posts[slug];
+const postOrder = () => vals(S.posts).slice().sort((a, b) => {
+  const r = p => p.status === "published" ? 0 : p.status === "queued" ? 1 : 2;
+  return r(a) - r(b) || String(b.published_at || "").localeCompare(String(a.published_at || "")) || (a.queue_position || 999) - (b.queue_position || 999);
+}).map(p => p.slug);
+function toast(t) { const el = document.getElementById("toast"); el.textContent = t; el.hidden = false; clearTimeout(toast.h); toast.h = setTimeout(() => el.hidden = true, 2600); }
+function spark(points, color = "var(--moss)") {
+  const p = points.filter(x => x.v != null), W = 160, H = 32;
+  if (p.length < 2) return `<svg viewBox="0 0 ${W} ${H}" width="100%" height="${H}" aria-hidden="true"><line x1="0" x2="${W}" y1="${H - 4}" y2="${H - 4}" stroke="var(--line)"/></svg>`;
+  const t0 = new Date(p[0].t).getTime(), t1 = new Date(p[p.length - 1].t).getTime();
+  const mx = Math.max(...p.map(x => x.v)), mn = Math.min(0, ...p.map(x => x.v));
+  const X = t => 3 + (W - 10) * (new Date(t).getTime() - t0) / Math.max(1, t1 - t0), Y = v => 3 + (H - 8) * (1 - (v - mn) / Math.max(1e-9, mx - mn));
+  const d = p.map((x, i) => `${i ? "L" : "M"}${X(x.t).toFixed(1)},${Y(x.v).toFixed(1)}`).join(""), l = p[p.length - 1];
+  return `<svg viewBox="0 0 ${W} ${H}" width="100%" height="${H}" aria-hidden="true"><path d="${d}L${X(l.t)},${H - 2}L${X(p[0].t)},${H - 2}Z" fill="${color}" opacity=".12"/><path d="${d}" fill="none" stroke="${color}" stroke-width="2" stroke-linejoin="round"/><circle cx="${X(l.t)}" cy="${Y(l.v)}" r="3.5" fill="${color}" stroke="var(--surface)" stroke-width="2"/></svg>`;
+}
+function lineChart(points, {h = 180, color = "var(--moss)"} = {}) {
+  const p = points.filter(x => x.v != null);
+  if (p.length < 2) return empty("Not enough readings yet.");
+  const W = 640, pl = 40, pr = 46, pt = 12, pb = 26;
+  const t0 = new Date(p[0].t).getTime(), t1 = new Date(p[p.length - 1].t).getTime();
+  const raw = Math.max(1, ...p.map(x => x.v)), mag = Math.pow(10, Math.floor(Math.log10(raw))), top = Math.ceil(raw / mag) * mag;
+  const X = t => pl + (W - pl - pr) * (new Date(t).getTime() - t0) / Math.max(1, t1 - t0), Y = v => pt + (h - pt - pb) * (1 - v / top);
+  const ticks = [0, top / 2, top];
+  const d = p.map((x, i) => `${i ? "L" : "M"}${X(x.t).toFixed(1)},${Y(x.v).toFixed(1)}`).join(""), l = p[p.length - 1];
+  return `<svg viewBox="0 0 ${W} ${h}" width="100%" role="img" aria-label="Line chart" style="display:block">${ticks.map(t => `<line x1="${pl}" x2="${W - pr}" y1="${Y(t)}" y2="${Y(t)}" stroke="${t ? "var(--line)" : "var(--line2)"}"/><text x="${pl - 8}" y="${Y(t) + 4}" text-anchor="end" font-size="11" fill="var(--muted)">${num(t)}</text>`).join("")}
+    <path d="${d}L${X(l.t)},${Y(0)}L${X(p[0].t)},${Y(0)}Z" fill="${color}" opacity=".12"/><path d="${d}" fill="none" stroke="${color}" stroke-width="2.2" stroke-linejoin="round"/>
+    <circle cx="${X(l.t)}" cy="${Y(l.v)}" r="4.5" fill="${color}" stroke="var(--surface)" stroke-width="2"/><text x="${X(l.t) + 8}" y="${Y(l.v) + 4}" font-size="12" font-weight="600" fill="var(--ink)">${num(l.v)}</text>
+    <text x="${pl}" y="${h - 6}" font-size="11" fill="var(--muted)">${esc(day(p[0].t))}</text><text x="${W - pr}" y="${h - 6}" text-anchor="end" font-size="11" fill="var(--muted)">${esc(day(l.t))}</text></svg>`;
+}
+function totalsOverTime(key) {
+  const pubs = vals(S.posts).filter(p => p.status === "published");
+  const times = [...new Set(pubs.flatMap(p => (p.history || []).map(h => h.fetched_at)))].sort();
+  return times.map(t => ({t, v:pubs.reduce((a, p) => { const r = (p.history || []).filter(h => h.fetched_at <= t).pop(); return a + (r ? +r[key] || 0 : 0); }, 0)}));
+}
+const followerSeries = () => ((S.dash.audience || {}).followers || []).map(r => ({t:r.at, v:r.followers}));
+
+// ================================================================ tasks: state, pause and staleness
+function taskList() {
+  const pause = (S.control.tasks || {}).paused || {};
+  return TASK_DEFAULTS.map(d => {
+    const t = {...d, ...(S.tasks[d.id] || {})};
+    const every = +t.every_h || d.every_h;
+    const paused = !!pause[d.id];
+    const off = t.enabled === false;
+    const running = t.state === "running";
+    const stale = !off && !paused && t.last_run_at && (Date.now() - new Date(t.last_run_at)) / 36e5 > every * 2 + 1;
+    const failed = t.last_result === "error";
+    const state = paused ? "paused" : off ? "off" : running ? "running" : failed ? "failed" : stale ? "stale" : "on";
+    return {...t, every, paused, off, running, stale, failed, state};
+  });
+}
+const TASK_TONE = {on:["Running on schedule","var(--good)","p-good"], running:["Working now","var(--tide)","p-tide"], paused:["Paused from this page","var(--warn)","p-warn"], off:["Off in the Claude app","var(--muted)",""], stale:["Late: no run when expected","var(--bad)","p-bad"], failed:["Last run failed","var(--bad)","p-bad"]};
+function alerts() {
+  const out = [], st = S.dash.state || {};
+  if (st.halt) out.push(["bad", `Posting is halted: ${st.halt}`]);
+  const ts = taskList();
+  ts.filter(t => t.stale).forEach(t => out.push(["bad", `${t.name} has not run since ${dt(t.last_run_at)} IST.`]));
+  ts.filter(t => t.failed && !t.stale).forEach(t => out.push(["bad", `${t.name} failed on its last run${t.last_note ? ": " + t.last_note : "."}`]));
+  vals(S.connectors).filter(c => c.status === "fail").forEach(c => out.push(["bad", `${c.name} is failing: ${c.detail || ""}`]));
+  const offs = ts.filter(t => t.off || t.paused);
+  if (offs.length) out.push(["warn", `${offs.map(t => t.name).join(", ")} ${offs.length > 1 ? "are" : "is"} not running.`]);
+  const lastPub = vals(S.posts).filter(p => p.published_at).sort(by("published_at"))[0];
+  if (lastPub && (Date.now() - new Date(lastPub.published_at)) / 36e5 > 24) out.push(["warn", `Nothing posted since ${dt(lastPub.published_at)} IST.`]);
+  return out;
+}
+function alertBar() {
+  const a = alerts(); if (!a.length) return "";
+  const bad = a.some(x => x[0] === "bad");
+  return `<div class="alert ${bad ? "" : "warn"}" role="status"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l9.5 17h-19z"/><path d="M12 10v4M12 17v.5"/></svg><div>${bad ? "Needs attention" : "Heads up"}<ul>${a.map(x => `<li>${esc(x[1])}</li>`).join("")}</ul></div></div>`;
+}
+
+// ================================================================ plan helpers
+const HZ = [["now","Now"],["this week","This week"],["next week","Next week"],["later","Later"]];
+const hzOf = p => { const h = String(p.horizon || "later").toLowerCase(); return h.startsWith("next") ? "next week" : HZ.some(x => x[0] === h) ? h : "later"; };
+const isOpen = p => p.status !== "done" && p.status !== "dropped";
+function changes() {
+  const out = [];
+  vals(S.plans).forEach(p => (p.history || []).forEach((h, i) => out.push({at:h.at, who:h.by || (i === 0 && p.source === "page" ? "human" : p.source === "page" && h.by == null ? "human" : "agent"), what:p.title, note:h.note || "", status:h.status, kind:"plan"})));
+  vals(S.inputs).forEach(x => { if (x.submitted_at) out.push({at:x.submitted_at, who:"human", what:"Added an input", note:x.note || x.url || x.filename || "", kind:"input"}); if (x.decided_at) out.push({at:x.decided_at, who:"human", what:`${x.decision === "approve" ? "Approved" : x.decision === "reject" ? "Rejected" : "Asked to change"} a proposal`, note:x.proposal?.title || "", kind:"input"}); });
+  return out.filter(c => c.at).sort(by("at"));
+}
+
+// ================================================================ calendar data
+function calendarItems() {
+  const out = [];
+  vals(S.posts).forEach(p => { if (p.published_at) out.push({slug:p.slug, at:p.published_at, kind:p.kind, title:p.headline, status:"published", est:false}); });
+  ((S.dash.pipeline || {}).schedule || []).forEach(s => { const p = post(s.slug); if (p && p.published_at) return; out.push({slug:s.slug, at:s.due, kind:p?.kind || "carousel", title:p?.headline || s.slug, status:"queued", est:s.estimated}); });
+  vals(S.sheet).filter(r => r.manual && r.cells && r.cells.date).forEach(r => out.push({sheet:r.id, at:r.cells.date + "T" + (r.cells.time || "12:00") + ":00+05:30", kind:String(r.cells.format || "").toLowerCase() === "reel" ? "reel" : "carousel", title:r.cells.topic || "Untitled row", status:(r.cells.status || "Idea").toLowerCase(), est:false, manual:true}));
+  return out;
+}
+function sheetRows() {
+  const rows = [];
+  const items = vals(S.posts).map(p => {
+    const sch = ((S.dash.pipeline || {}).schedule || []).find(s => s.slug === p.slug);
+    return {p, at:p.published_at || sch?.due || null, est:sch?.estimated};
+  }).sort((a, b) => (a.at || "9") < (b.at || "9") ? -1 : 1);
+  items.forEach(({p, at}) => {
+    const m = p.metrics || {}, tags = (p.format_tags || []).join(" ");
+    const pillar = /myth/.test(tags) ? "Myth vs Fact" : /conservation/.test(tags) ? "Conservation Explained" : "Wildlife Spotlight";
+    const status = p.status === "published" ? "Published" : p.status === "queued" ? "Scheduled" : "In Review";
+    const base = {date:at ? ymd(at) : "", time:at ? hm(at) : "", platform:"Instagram", format:p.kind === "reel" ? "Reel" : "Carousel", pillar, objective:"Education", audience:"Nature Enthusiasts", campaign:(p.experiment ? "Experiment" : "Evergreen"),
+      topic:p.headline || p.slug, hook:p.kicker || "", brief:(p.caption || "").slice(0, 160), cta:"Follow for more", hashtags:(p.hashtags || []).join(" "), language:"English",
+      owner:"Claude agent", status, priority:"Medium", asset:"", live:p.permalink || m.permalink || "", repurpose:"None", notes:p.takeaway || "",
+      reach:m.reach, impressions:"", views:m.views, watch:"", likes:m.likes, comments:m.comments, shares:m.shares, saves:m.saved, visits:"", clicks:"", follows:"", leads:"", pulled:m.fetched_at ? ymd(m.fetched_at) : ""};
+    const ov = S.sheet["post-" + p.slug]?.cells || {};
+    rows.push({rid:"post-" + p.slug, slug:p.slug, cells:{...base, ...ov}, edited:Object.keys(ov)});
+  });
+  vals(S.sheet).filter(r => r.manual).sort(by("created_at", 1)).forEach(r => rows.push({rid:r.id, manual:true, cells:{platform:"Instagram", status:"Idea", owner:"Suryansh", ...(r.cells || {})}, edited:[]}));
+  rows.sort((a, b) => (a.cells.date || "9999") < (b.cells.date || "9999") ? -1 : (a.cells.date || "9999") > (b.cells.date || "9999") ? 1 : 0);
+  rows.forEach((r, i) => {
+    const c = r.cells, n = k => c[k] === "" || c[k] == null ? null : +c[k];
+    c.id = "ES-" + String(i + 1).padStart(3, "0");
+    c.day = c.date ? new Date(c.date + "T12:00:00+05:30").toLocaleDateString("en-GB", {...TZ, weekday:"short"}) : "";
+    c.week = c.date ? isoWeek(c.date) : "";
+    const eng = ["likes","comments","shares","saves"].map(n).filter(v => v != null);
+    c.eng = eng.length ? eng.reduce((a, b) => a + b, 0) : "";
+    c.engRate = n("reach") && c.eng !== "" ? c.eng / n("reach") : "";
+    c.ssRate = n("reach") ? ((n("shares") || 0) + (n("saves") || 0)) / n("reach") : "";
+    c.leads1k = n("reach") && n("leads") != null ? n("leads") / n("reach") * 1000 : "";
+    r.overdue = c.date && c.date < ymd(Date.now()) && !["Published","Dropped"].includes(c.status);
+  });
+  return rows;
+}
+function isoWeek(s) { const d = new Date(s + "T00:00:00Z"); const dn = (d.getUTCDay() + 6) % 7; d.setUTCDate(d.getUTCDate() - dn + 3); const f = new Date(Date.UTC(d.getUTCFullYear(), 0, 4)); return 1 + Math.round(((d - f) / 864e5 - 3 + ((f.getUTCDay() + 6) % 7)) / 7); }
+
+// ================================================================ pages
+const V = {};
+V.summary = () => {
+  const st = S.dash.state || {}, t = st.totals || {};
+  const pubs = vals(S.posts).filter(p => p.status === "published");
+  const reach = totalsOverTime("reach"), views = totalsOverTime("views"), likes = totalsOverTime("likes"), fol = followerSeries();
+  const kpi = (l, v, d, sp, c) => `<div class="kpi"><div class="l">${l}</div><div class="v">${v}</div><div class="d ${d[1] || ""}">${d[0]}</div>${sp ? spark(sp, c) : ""}</div>`;
+  const fd = st.followers_7d_ago != null ? (st.followers - st.followers_7d_ago) : null;
+  const ins = vals(S.insights).filter(i => i.status !== "dropped").sort(by("updated_at")).slice(0, 4);
+  const needs = needsYou();
+  const next = calendarItems().filter(i => new Date(i.at) > Date.now()).sort(by("at", 1)).slice(0, 4);
+  const best = pubs.slice().sort((a, b) => (b.metrics?.reach || 0) - (a.metrics?.reach || 0)).slice(0, 5), maxR = Math.max(1, ...best.map(p => p.metrics?.reach || 0));
+  const reels = pubs.filter(p => p.kind === "reel"), cars = pubs.filter(p => p.kind !== "reel");
+  const avg = (a, k) => a.length ? a.reduce((s, p) => s + (+p.metrics?.[k] || 0), 0) / a.length : null;
+  const brief = [
+    st.halt ? ["var(--bad)", `Posting is halted: ${st.halt}`] : ["var(--good)", "No HALT marker. Posting rules are being followed."],
+    ["var(--moss)", `${num(st.published_count)} posts live on day ${num(st.account_day)}, reaching ${num(t.reach)} accounts in total.`],
+    reels.length && cars.length ? ["var(--tide)", `Reels average ${num(avg(reels, "reach"))} reach against ${num(avg(cars, "reach"))} for carousels. Saves and shares are still at ${num((t.saved || 0) + (t.shares || 0))}.`] : null,
+    next[0] ? ["var(--moss)", `Next up: ${next[0].title}, ${dt(next[0].at)} IST.`] : ["var(--warn)", "Nothing is scheduled."],
+    needs.length ? ["var(--ochre)", `${needs.length} item${needs.length > 1 ? "s" : ""} need${needs.length > 1 ? "" : "s"} you.`] : ["var(--good)", "Nothing is waiting on you."],
+  ].filter(Boolean);
+  return `${alertBar()}
+  <div class="pagehead"><div><div class="eyebrow">Executive summary · updated ${esc(ago(st.built_at))}</div><h1>Day ${num(st.account_day)} of @${esc(st.handle || "earthspirit_nature")}</h1><p>${esc(st.phase_rules || "")}</p></div></div>
+  <div class="kpis">
+    ${kpi("Followers", num(st.followers), [fd != null ? `${fd >= 0 ? "+" : ""}${fd} in 7 days` : "first reading", fd > 0 ? "up" : ""], fol)}
+    ${kpi("Accounts reached", num(t.reach), ["all posts, lifetime"], reach)}
+    ${kpi("Views", num(t.views), ["all posts, lifetime"], views, "var(--tide)")}
+    ${kpi("Likes", num(t.likes), [`${num(t.comments)} comments`], likes)}
+    ${kpi("Saves", num(t.saved), [`save rate ${pct(st.save_rate)}`])}
+    ${kpi("Shares", num(t.shares), [`share rate ${pct(st.share_rate)}`])}
+  </div>
+  ${top5Card(true)}
+  <div class="g">
+    ${card("Briefing", `<ul class="brief">${brief.map(([c, x]) => `<li style="--dot:${c}">${esc(x)}</li>`).join("")}</ul>`, {cls:"c7"})}
+    ${card("Needs you", needs.length ? `<div class="rows">${needs.slice(0, 6).map(n => `<div class="r"><div><div class="t">${esc(n.title)}</div><div class="m">${esc(n.why)}</div></div><a class="btn sm" href="${n.href}">Open</a></div>`).join("")}</div>` : empty("Nothing is waiting on you."), {cls:"c5", sub:`${needs.length} open`})}
+    ${card("Best posts by reach", `<div class="rows">${best.map(p => `<div class="r"><div><a class="t" href="#post-${esc(p.slug)}">${esc(p.headline)}</a><div class="m">${p.kind === "reel" ? "Reel" : "Carousel"} · ${num(p.metrics?.likes)} likes · ${num(p.metrics?.saved)} saves</div></div><span class="num">${num(p.metrics?.reach)}<span class="bar" style="width:${Math.round(60 * (p.metrics?.reach || 0) / maxR)}px"></span></span></div>`).join("") || empty("No published posts yet.")}</div>`, {cls:"c6", sub:`<a href="#posts">All posts</a>`})}
+    ${card("Coming up", next.length ? `<div class="rows">${next.map(i => `<div class="r"><div><a class="t" href="${i.slug ? "#post-" + esc(i.slug) : "#calendar"}">${esc(i.title)}</a><div class="m">${kindPill(i.kind)} ${i.est ? "estimated slot" : ""}</div></div><span class="num sub">${esc(dt(i.at))}</span></div>`).join("")}</div>` : empty("Nothing is scheduled. Add rows in the Calendar sheet."), {cls:"c6", sub:`<a href="#calendar">Calendar</a>`})}
+  </div>`;
+};
+// Top 5: the one list that matters each week. Written by the weekly review into weekly/<ISO week>.
+const latestWeek = () => vals(S.weekly).sort(by("week"))[0] || null;
+const T5 = {proposed:["To decide",""], accepted:["Accepted","p-tide"], doing:["In progress","p-tide"], done:["Done","p-good"], skipped:["Skipped",""]};
+function top5Card(compact) {
+  const w = latestWeek();
+  if (!w) return `<section class="card t5" style="margin-bottom:16px"><div class="ch"><h2>Top 5 this week</h2></div>${empty("The weekly review writes the five most useful changes here every Monday. Press Run review now on Learn to get the first list.")}</section>`;
+  const items = (w.items || []).slice(0, 5);
+  return `<section class="card t5" style="margin-bottom:16px"><div class="ch"><h2>Top 5 this week</h2><span class="sub">Week of ${esc(day(w.starts || w.written_at))} · written ${esc(ago(w.written_at))}${compact ? ` · <a href="#learn">why and evidence</a>` : ""}</span></div>
+    ${loopStrip(w)}
+    ${w.headline ? `<p class="t5h">${esc(w.headline)}</p>` : ""}
+    <ol class="t5l">${items.map((it, i) => { const [lab, cls] = T5[it.status || "proposed"] || T5.proposed;
+      return `<li><div class="t5n">${i + 1}</div><div style="min-width:0"><div class="t5t">${esc(it.title)}</div><div class="t5w">${esc(it.why || "")}</div>
+        ${!compact && it.change ? `<div class="t5c"><b>What changes:</b> ${esc(it.change)}</div>` : ""}${!compact && it.evidence ? `<div class="t5c"><b>Evidence:</b> ${esc(it.evidence)}</div>` : ""}
+        <div class="t5f">${whoPill(it.owner === "human" ? "human" : "agent")}<span class="pill ${cls}">${lab}</span>${canWrite && !["done","skipped"].includes(it.status) ? `${it.status !== "accepted" && it.status !== "doing" ? `<button class="btn sm pri" type="button" data-t5="${i}" data-s="accepted">Accept</button>` : ""}<button class="btn sm" type="button" data-t5="${i}" data-s="done">Mark done</button><button class="btn sm" type="button" data-t5="${i}" data-s="skipped">Skip</button>` : ""}</div></div></li>`; }).join("")}</ol>
+    ${!compact && vals(S.weekly).length > 1 ? `<details style="margin-top:10px"><summary class="sub" style="cursor:pointer">Earlier weeks</summary>${vals(S.weekly).sort(by("week")).slice(1).map(o => `<div style="margin-top:8px"><b class="sub">${esc(o.week)}</b><ol style="margin:4px 0;padding-left:20px;font-size:13px">${(o.items || []).map(it => `<li>${esc(it.title)} <span class="sub">(${esc((T5[it.status] || T5.proposed)[0])})</span></li>`).join("")}</ol></div>`).join("")}</details>` : ""}</section>`;
+}
+function loopStrip(w) {
+  const items = (w.items || []).slice(0, 5), decided = items.filter(it => it.status && it.status !== "proposed").length, done = items.filter(it => it.status === "done").length;
+  const dow = (new Date(ymd(Date.now()) + "T12:00:00+05:30").getDay() + 6) % 7, nextMon = new Date(new Date(ymd(Date.now()) + "T12:00:00+05:30").getTime() + (7 - dow) * 864e5);
+  const step = decided < items.length ? 0 : dow < 6 ? 1 : 2;
+  return `<div class="loop" aria-label="Weekly loop"><div class="${step === 0 ? "on" : ""}"><b>1 · Monday: decide</b>${decided} of ${items.length} accepted or skipped</div><div class="${step === 1 ? "on" : ""}"><b>2 · This week: do</b>${done} done · drop inspirations on <a href="#learn">Learn</a></div><div class="${step === 2 ? "on" : ""}"><b>3 · Sunday: results</b>next list ${esc(day(nextMon))}</div></div>`;
+}
+function setTop5(i, status, btn) {
+  const w = latestWeek(); if (!w) return;
+  return guarded(async () => { const items = (w.items || []).map((it, j) => j === +i ? {...it, status, decided_at:now(), decided_by:uid} : it); const {id, ...rest} = w; await db.doc("weekly/" + w.id).set({...rest, items}); }, btn, status === "accepted" ? "Accepted. The agent works on it this week." : status === "done" ? "Marked done." : "Skipped. The review will not repeat it.");
+}
+function needsYou() {
+  const out = [];
+  vals(S.plans).filter(p => p.owner === "human" && isOpen(p)).forEach(p => out.push({title:p.title, why:`Plan · ${hzOf(p)}`, href:"#plan"}));
+  (latestWeek()?.items || []).slice(0, 5).filter(it => !it.status || it.status === "proposed").forEach(it => out.push({title:it.title, why:"Top 5: accept or skip", href:"#summary"}));
+  vals(S.inputs).filter(x => x.status === "proposed" && !x.decision).forEach(x => out.push({title:x.proposal?.title || "A proposal from your input", why:"Approve, change or reject", href:"#learn"}));
+  taskList().filter(t => t.stale || t.failed).forEach(t => out.push({title:`${t.name} needs a look`, why:TASK_TONE[t.state][0], href:"#plan"}));
+  return out;
+}
+
+V.plan = () => {
+  const ts = taskList(), plans = vals(S.plans);
+  const who = ui.planWho, keep = p => who === "all" || (who === "human" ? p.owner === "human" : p.owner !== "human");
+  const open = plans.filter(p => isOpen(p) && keep(p));
+  const closed = plans.filter(p => !isOpen(p) && keep(p)).sort(by("updated_at"));
+  const weekKey = s => { const d = new Date(s); const m = new Date(d); m.setDate(d.getDate() - ((d.getDay() + 6) % 7)); return ymd(m); };
+  const closedByWeek = {}; closed.forEach(p => (closedByWeek[weekKey(p.updated_at || Date.now())] ||= []).push(p));
+  const since = Date.now() - ui.feedWeeks * 7 * 864e5;
+  const feed = changes().filter(c => (ui.feedWho === "all" || c.who === ui.feedWho) && new Date(c.at) >= since);
+  const sortOpen = a => a.slice().sort((x, y) => (x.status === "in_progress" ? 0 : 1) - (y.status === "in_progress" ? 0 : 1) || String(y.updated_at || "").localeCompare(String(x.updated_at || "")));
+  const addForm = canWrite ? `<form class="addform" id="planForm" style="margin:0 0 14px"><input type="text" id="planTitle" placeholder="Add a task, for example: Try a 3-slide carousel" maxlength="120" aria-label="Task"><input type="text" id="planDetail" placeholder="Details or a link (optional)" maxlength="400" aria-label="Details"><select id="planHz" aria-label="When">${HZ.map(([k, l]) => `<option value="${k}">${l}</option>`).join("")}</select><button class="btn pri" type="submit">Add task</button></form><div class="msgline" id="planMsg" style="margin:-8px 0 8px"></div>` : "";
+  const row = p => `<li class="tk ${p.owner === "human" ? "human" : ""}">${canWrite ? `<button class="tick" type="button" data-done="${esc(p.id)}" aria-label="Mark ${esc(p.title)} done" title="Mark done"></button>` : `<span class="tick ro"></span>`}
+    <details><summary><span class="tt">${esc(p.title)}</span>${whoPill(p.owner)}${p.status === "in_progress" ? `<span class="pill p-tide">In progress</span>` : ""}<span class="sub">${esc(ago(p.updated_at))}</span></summary>
+    ${p.detail ? `<p class="td">${esc(p.detail)}</p>` : ""}${(p.history || []).length ? `<ul class="feed" style="max-height:180px">${p.history.slice().reverse().map(h => `<li><span class="sub">${esc(day(h.at))}</span><span>${esc(h.note || h.status)}</span></li>`).join("")}</ul>` : ""}
+    ${canWrite ? `<div style="display:flex;gap:6px;flex-wrap:wrap;margin-top:6px">${HZ.filter(([k]) => k !== hzOf(p)).map(([k, l]) => `<button class="btn sm" type="button" data-move="${esc(p.id)}" data-hz="${k}">Move to ${l}</button>`).join("")}<button class="btn sm stop" type="button" data-drop="${esc(p.id)}">Drop</button></div>` : ""}</details></li>`;
+  const listView = HZ.map(([k, l]) => { const items = sortOpen(open.filter(p => hzOf(p) === k));
+    return `<section class="tgrp"><h3>${l}<span class="num">${items.length}</span></h3>${items.length ? `<ul class="tlist">${items.map(row).join("")}</ul>` : `<div class="sub" style="padding:6px 0 4px">Nothing here.</div>`}</section>`; }).join("");
+  const pc = p => `<div class="pc ${p.owner === "human" ? "human" : ""}"><div class="t">${esc(p.title)}</div>${p.detail ? `<p>${esc(p.detail)}</p>` : ""}<div class="f">${whoPill(p.owner)}${p.status === "in_progress" ? `<span class="pill p-tide">In progress</span>` : ""}<span>${esc(ago(p.updated_at))}</span></div></div>`;
+  const boardView = `<div class="board">${HZ.map(([k, l]) => { const items = sortOpen(open.filter(p => hzOf(p) === k)); return `<div class="col"><h3>${l}<span class="num">${items.length}</span></h3>${items.map(pc).join("") || `<div class="sub" style="padding:4px">Nothing here.</div>`}</div>`; }).join("")}</div>`;
+  const taskRow = t => { const [lab, col, cls] = TASK_TONE[t.state];
+    return `<li class="srow"><span class="dot" style="background:${col}"></span><span class="sn"><b>${esc(t.name)}</b><span class="sub">${esc(t.running && t.doing ? t.doing : t.last_note || t.what)}</span></span><span class="pill ${cls}">${esc(lab)}</span><span class="sub num">last ${t.last_run_at ? esc(dt(t.last_run_at)) : "never"}</span>${canWrite ? (t.paused ? `<button class="btn sm pri" data-task="${esc(t.id)}" data-act="resume" type="button">Resume</button>` : `<button class="btn sm stop" data-task="${esc(t.id)}" data-act="pause" type="button">Stop</button>`) : ""}</li>`; };
+  return `${alertBar()}
+  <div class="pagehead"><div><h1>Plan</h1><p>Your task list. Tick a task when it is done, open it for details, or move it to another week.</p></div><div style="display:flex;gap:8px;flex-wrap:wrap">${seg("planView", [["list","List"],["board","Board"]], ui.planView)}${seg("planWho", [["all","Everyone"],["agent","Agent"],["human","You"]], who)}</div></div>
+  <div class="planwrap">
+    <section>
+      ${addForm}
+      ${ui.planView === "board" ? boardView : `<div class="card" style="padding:6px 16px">${listView}</div>`}
+      <details style="margin-top:14px"><summary class="eyebrow" style="cursor:pointer">Done and dropped · ${closed.length}</summary>
+        ${Object.entries(closedByWeek).map(([w, ps]) => `<div style="margin-top:12px"><div class="sub">Week of ${esc(day(w + "T12:00:00+05:30"))}</div><div class="rows">${ps.map(p => `<div class="r"><div><div class="t" style="${p.status === "dropped" ? "text-decoration:line-through;color:var(--muted)" : ""}">${esc(p.title)}</div><div class="m">${esc((p.history || []).slice(-1)[0]?.note || "")}</div></div><span class="pill ${p.status === "done" ? "p-good" : ""}">${p.status === "done" ? "Done" : "Dropped"}</span></div>`).join("")}</div></div>`).join("") || empty("Nothing closed yet.")}
+      </details>
+    </section>
+    <aside style="display:flex;flex-direction:column;gap:16px;min-width:0">
+      <section class="card"><div class="ch"><h2>Scheduled tasks</h2><span class="sub">${ts.filter(t => t.state === "on" || t.state === "running").length} of ${ts.length} running</span></div><ul class="slist">${ts.map(taskRow).join("")}</ul>
+        <p class="note">Stop takes effect from the task's next check, within the hour. A task that is off in the Claude app has to be turned on there as well.</p></section>
+      <section class="card"><div class="ch"><h2>Recent changes</h2><span class="sub">${feed.length}</span></div>
+        <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px">${seg("feedWho", [["all","All"],["agent","Agent"],["human","You"]], ui.feedWho)}${seg("feedWeeks", [[1,"7 days"],[4,"4 weeks"],[52,"All"]], ui.feedWeeks)}</div>
+        ${feed.length ? `<ul class="feed" style="max-height:420px">${feed.map(c => `<li>${whoPill(c.who)}<span><b>${esc(c.what)}</b>${c.note ? `<br><span style="color:var(--ink2)">${esc(c.note)}</span>` : ""}</span><span class="w">${esc(dt(c.at))}</span></li>`).join("")}</ul>` : empty("No changes in this window.")}</section>
+    </aside>
+  </div>`;
+};
+
+V.calendar = () => {
+  const head = `<div class="pagehead"><div><h1>Content calendar</h1><p>One calendar for everything that posts. The grid shows each day's slots. The sheet has the same posts with every column from your content calendar workbook, and each list column has a dropdown.</p></div>${seg("calView", [["grid","Grid"],["sheet","Sheet"]], ui.calView)}</div>`;
+  return alertBar() + head + (ui.calView === "sheet" ? sheetView() : gridView());
+};
+function gridView() {
+  const items = calendarItems(), byDay = {};
+  items.forEach(i => (byDay[ymd(i.at)] ||= []).push(i));
+  Object.values(byDay).forEach(a => a.sort(by("at", 1)));
+  const today = new Date(), dow = (new Date(ymd(today) + "T12:00:00+05:30").getDay() + 6) % 7;
+  const start = new Date(new Date(ymd(today) + "T12:00:00+05:30").getTime() - (dow + 7) * 864e5 + ui.calOffset * 28 * 864e5);
+  const days = Array.from({length:35}, (_, i) => new Date(start.getTime() + i * 864e5));
+  const tk = ymd(today), aw = {};
+  AWARE.forEach(([m, d, n]) => { aw[`${String(m).padStart(2, "0")}-${String(d).padStart(2, "0")}`] = n; });
+  const unsched = vals(S.posts).filter(p => p.status === "draft");
+  return `<div class="sheetbar"><div style="display:flex;gap:8px;align-items:center"><button class="btn sm" data-cal="-1" type="button" aria-label="Earlier four weeks">Earlier</button><button class="btn sm" data-cal="0" type="button">This week</button><button class="btn sm" data-cal="1" type="button" aria-label="Later four weeks">Later</button><span class="sub">${esc(day(days[0]))} to ${esc(day(days[34]))}</span></div>
+    <div style="display:flex;gap:6px;flex-wrap:wrap"><span class="pill k-carousel">Carousel</span><span class="pill k-reel">Reel</span><span class="pill">Dashed: estimated slot</span><span class="pill p-warn">Awareness day</span></div></div>
+  <div class="calhead">${["Mon","Tue","Wed","Thu","Fri","Sat","Sun"].map(d => `<div>${d}</div>`).join("")}</div>
+  <div class="cal">${days.map(d => { const k = ymd(d), list = byDay[k] || [], a = aw[k.slice(5)];
+    return `<div class="day ${k < tk ? "past" : ""} ${k === tk ? "today" : ""} ${!list.length && !a ? "empty-day" : ""}"><div class="dn"><span>${d.toLocaleDateString("en-GB", {...TZ, weekday:"short"})} <span class="num">${d.toLocaleDateString("en-GB", {...TZ, day:"numeric", month:"short"})}</span></span>${k === tk ? `<span class="pill p-good">Today</span>` : ""}</div>
+      ${a ? `<div class="aw">${esc(a)}</div>` : ""}
+      ${list.map(i => `<a class="chip ${i.kind === "reel" ? "reel" : "carousel"} ${i.est ? "est" : ""}" href="${i.slug ? "#post-" + esc(i.slug) : "#calendar"}" title="${esc(i.title)}"><span class="tm">${esc(hm(i.at))} · ${i.status === "published" ? "Published" : i.manual ? esc(i.status) : i.est ? "Estimated" : "Queued"}</span><span class="hl">${esc(i.title)}</span></a>`).join("")}</div>`; }).join("")}</div>
+  ${card("Not scheduled yet", unsched.length ? `<div class="rows">${unsched.map(p => `<div class="r"><div><a class="t" href="#post-${esc(p.slug)}">${esc(p.headline)}</a><div class="m">${kindPill(p.kind)} Draft, waits for your review before it gets a slot</div></div></div>`).join("")}</div>` : empty("Every post has a slot."), {cls:"", sub:`${unsched.length} drafts`}).replace('class="card "', 'class="card" style="margin-top:16px"')}`;
+}
+function sheetView() {
+  const rows = sheetRows().filter(r => ui.sheetStatus === "all" || (ui.sheetStatus === "open" ? !["Published","Dropped"].includes(r.cells.status) : r.cells.status === ui.sheetStatus));
+  const cols = COLS.filter(c => ui.sheetGroups[c[2]] || c[0] === "id");
+  const spans = []; cols.forEach(c => { const l = spans[spans.length - 1]; if (l && l.g === c[2]) l.n++; else spans.push({g:c[2], n:1}); });
+  const fmt = (c, v) => {
+    if (v == null || v === "") return "";
+    if (c[0] === "engRate" || c[0] === "ssRate" || c[3] === "pct") return pct(+v);
+    if (c[0] === "leads1k") return num(v, 1);
+    if (c[3] === "num" || c[0] === "eng") return num(v);
+    if (c[0] === "status") return `<span class="st st-${STATUS_TONE[v] ?? 0}">${esc(v)}</span>`;
+    if (c[3] === "url") return isUrl(v) ? `<a href="${esc(v)}" target="_blank" rel="noopener">Open</a>` : esc(v);
+    return esc(v);
+  };
+  return `<div class="sheetbar">
+      <div style="display:flex;gap:6px;flex-wrap:wrap" role="group" aria-label="Column groups">${Object.entries(GROUPS).map(([k, [l]]) => `<button class="btn sm" type="button" data-grp="${k}" aria-pressed="${!!ui.sheetGroups[k]}" style="${ui.sheetGroups[k] ? "" : "opacity:.55"}">${ui.sheetGroups[k] ? "Hide" : "Show"} ${l}</button>`).join("")}</div>
+      <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center"><select id="sheetStatus" aria-label="Filter by status" style="width:auto"><option value="all">All statuses</option><option value="open" ${ui.sheetStatus === "open" ? "selected" : ""}>Not published yet</option>${LISTS.Status.map(s => `<option ${ui.sheetStatus === s ? "selected" : ""}>${esc(s)}</option>`).join("")}</select>${canWrite ? `<button class="btn pri sm" id="addRow" type="button">Add a row</button>` : ""}</div></div>
+    <div class="sheet" id="sheet"><table><thead>
+      <tr class="grp">${spans.map((s, i) => `<th colspan="${s.n}" class="${GROUPS[s.g][1]} ${i === 0 ? "fz" : ""}" style="${i === 0 ? "" : ""}">${GROUPS[s.g][0]}</th>`).join("")}</tr>
+      <tr class="hd">${cols.map((c, i) => `<th class="${i === 0 ? "fz" : ""}">${esc(c[1])}</th>`).join("")}</tr></thead>
+      <tbody>${rows.map(r => `<tr>${cols.map((c, i) => { const v = r.cells[c[0]], calc = c[3] === "calc";
+        const cls = [i === 0 ? "fz" : "", calc ? "calc" : "in", c[3] === "num" || c[3] === "pct" || ["eng","engRate","ssRate","leads1k","week"].includes(c[0]) ? "num" : "", c[0] === "date" && r.overdue ? "over" : "", r.edited.includes(c[0]) ? "edited" : ""].join(" ");
+        const inner = c[0] === "id" && r.slug ? `<a href="#post-${esc(r.slug)}">${esc(v)}</a>` : fmt(c, v);
+        return `<td class="${cls}"${calc ? "" : ` data-row="${esc(r.rid)}" data-col="${c[0]}"`}><span class="cv" title="${esc(typeof v === "string" ? v : "")}">${inner}</span></td>`; }).join("")}</tr>`).join("")}</tbody></table></div>
+    <p class="note">${canWrite ? "Click a cell to edit it. List columns open a dropdown. Your edits are marked with an ochre edge, and the agent reads them on its next run." : "Read-only view: only the owner and editors can change cells."} Post IDs, Day, Week # and the Calculated columns work out automatically. A red date means the slot has passed and the post is not yet published.</p>`;
+}
+
+V.posts = () => {
+  const all = vals(S.posts).sort((a, b) => (b.published_at || "z" + (99 - (a.queue_position || 0))) < (a.published_at || "z") ? -1 : 1);
+  const exps = new Set(vals(S.experiments).flatMap(e => e.posts || []));
+  const list = all.filter(p => (ui.postStatus === "all" || (ui.postStatus === "experiment" ? exps.has(p.slug) : p.status === ui.postStatus)) && (ui.postKind === "all" || (ui.postKind === "reel" ? p.kind === "reel" : p.kind !== "reel")))
+    .sort((a, b) => String(b.published_at || "") < String(a.published_at || "") ? -1 : String(b.published_at || "") > String(a.published_at || "") ? 1 : (a.queue_position || 999) - (b.queue_position || 999));
+  const c = s => all.filter(p => p.status === s).length;
+  return `<div class="pagehead"><div><h1>Posts</h1><p>Every Reel and carousel in one place. Open one for its own page.</p></div></div>
+  <div class="sheetbar">${seg("postStatus", [["all",`All ${all.length}`],["published",`Published ${c("published")}`],["queued",`Queued ${c("queued")}`],["draft",`Draft ${c("draft")}`],["experiment",`In an experiment ${all.filter(p => exps.has(p.slug)).length}`]], ui.postStatus)}${seg("postKind", [["all","Reels and carousels"],["reel","Reels"],["carousel","Carousels"]], ui.postKind)}</div>
+  ${list.length ? `<div class="gal">${list.map(p => `<a href="#post-${esc(p.slug)}">${p.thumb ? `<img src="${esc(p.thumb)}" alt="" loading="lazy">` : `<div class="ph"></div>`}<div style="display:flex;gap:6px;flex-wrap:wrap">${kindPill(p.kind)}<span class="pill ${p.status === "published" ? "p-good" : p.status === "queued" ? "p-tide" : "p-warn"}">${esc(p.status === "draft" ? "Draft" : p.status === "queued" ? "Queued" : "Published")}</span></div><span class="h">${esc(p.headline)}</span>${p.metrics ? `<span class="mt"><span>${num(p.metrics.reach)} reach</span><span>${num(p.metrics.likes)} likes</span><span>${num(p.metrics.saved)} saves</span></span>` : `<span class="mt">${p.published_at ? "" : "Not posted yet"}</span>`}</a>`).join("")}</div>` : empty("No posts match these filters.")}`;
+};
+V.post = slug => {
+  const p = post(slug); if (!p) return empty("This post is not in the data yet. <a href='#posts'>Back to posts</a>");
+  const m = p.metrics || {}, hist = (p.history || []).map(h => ({t:h.fetched_at, v:h.reach}));
+  const exps = vals(S.experiments).filter(e => (e.posts || []).includes(slug));
+  const order = postOrder(), at = order.indexOf(slug), prev = order[at - 1], nxt = order[at + 1];
+  const back = ui.lastList || "#posts", backName = back.startsWith("#calendar") ? "Calendar" : back.startsWith("#summary") ? "Summary" : back.startsWith("#learn") ? "Learn" : "Posts";
+  return `<nav class="postnav" aria-label="Post navigation"><a class="btn sm" href="${esc(back)}">Back to ${backName}</a><span class="sub">${at >= 0 ? `${at + 1} of ${order.length}` : ""}</span><span style="display:flex;gap:6px">${prev ? `<a class="btn sm" href="#post-${esc(prev)}" title="${esc(post(prev)?.headline || "")}">Newer</a>` : ""}${nxt ? `<a class="btn sm" href="#post-${esc(nxt)}" title="${esc(post(nxt)?.headline || "")}">Older</a>` : ""}</span></nav>
+  <div class="pagehead"><div><div class="eyebrow">${p.kind === "reel" ? "Reel" : "Carousel"} · ${esc(p.status)}</div><h1>${esc(p.headline)}</h1><p>${esc(p.takeaway || "")}</p></div>${p.permalink ? `<a class="btn" href="${esc(p.permalink)}" target="_blank" rel="noopener">Open on Instagram</a>` : ""}</div>
+  ${p.thumb ? `<div class="strip" style="margin-bottom:16px"><img src="${esc(p.thumb)}" alt="Slides of ${esc(p.headline)}"></div>` : ""}
+  <div class="kpis">${[["Reach", m.reach], ["Views", m.views], ["Likes", m.likes], ["Comments", m.comments], ["Saves", m.saved], ["Shares", m.shares]].map(([l, v]) => `<div class="kpi"><div class="l">${l}</div><div class="v">${num(v)}</div></div>`).join("")}</div>
+  <div class="g">
+    ${card("Reach over time", lineChart(hist), {cls:"c7", sub:m.fetched_at ? `read ${esc(ago(m.fetched_at))}` : ""})}
+    ${card("Details", `<dl class="kv"><dt>Status</dt><dd>${esc(p.status)}</dd><dt>Published</dt><dd>${esc(dt(p.published_at))}</dd>${p.duration_s ? `<dt>Length</dt><dd>${num(p.duration_s, 1)} s</dd>` : ""}${p.slide_count ? `<dt>Slides</dt><dd>${num(p.slide_count)}</dd>` : ""}<dt>Formats</dt><dd>${esc((p.format_tags || []).join(", "))}</dd><dt>Hashtags</dt><dd>${esc((p.hashtags || []).join(" "))}</dd><dt>Experiments</dt><dd>${exps.map(e => esc(e.hypothesis)).join("<br>") || "None"}</dd></dl>`, {cls:"c5"})}
+    ${card("Caption", `<p style="white-space:pre-wrap;margin:0;font-size:13.5px">${esc(p.caption || "")}</p>`, {cls:"c7"})}
+    ${card("Sources and credits", `<ul style="margin:0;padding-left:18px;font-size:13px">${(p.sources || []).map(s => `<li>${typeof s === "string" ? link(s) : link(s.url, s.title || s.url)}</li>`).join("")}${(p.photo_credits || []).map(s => `<li>${esc(typeof s === "string" ? s : [s.author, s.licence || s.license].filter(Boolean).join(", "))}</li>`).join("")}</ul>`, {cls:"c5"})}
+  </div>`;
+};
+
+V.learn = () => {
+  const tabs = seg("learnTab", [["top5","Top 5 this week"],["inputs",`Your inputs ${vals(S.inputs).length + vals(S.scans).length}`],["scores","What the numbers say"],["experiments",`Experiments ${vals(S.experiments).length}`],["insights",`All insights ${vals(S.insights).filter(i => i.status !== "dropped").length}`]], ui.learnTab);
+  const rv = S.control.review || {};
+  return `<div class="pagehead"><div><h1>Learn</h1><p>Show the agent Reels, posts and ideas you like. It studies them, writes what it learned, and proposes a post you approve before anything changes.</p></div>
+    <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">${rv.requested_at ? `<span class="sub">Review requested ${esc(ago(rv.requested_at))}${rv.finished_at && rv.finished_at > rv.requested_at ? `, done ${esc(ago(rv.finished_at))}` : ", waiting for the next run"}</span>` : ""}${canWrite ? `<button class="btn pri" id="reviewBtn" type="button">Run review now</button>` : ""}</div></div>
+  <div style="margin-bottom:16px">${tabs}</div>
+  ${({top5:() => top5Card(false) + `<p class="note">Insights and experiments are the agent's working notes. They feed this list, and you can read them under All insights.</p>`, inputs:learnInputs, insights:learnInsights, experiments:learnExperiments, scores:learnScores})[ui.learnTab]?.() || learnInputs()}`;
+};
+const STAGES = [["received","Received"],["analysed","Analysed"],["proposed","Proposed"],["decided","Your call"],["scheduled","Scheduled"],["measured","Measured"]];
+function stageOf(x) { if (x.status === "measured") return 5; if (x.status === "scheduled") return 4; if (x.decision) return 3; if (x.status === "proposed") return 2; if (x.status === "analysed" || x.status === "scanned") return 1; return 0; }
+function learnInputs() {
+  const inputs = [...vals(S.inputs), ...vals(S.scans).map(s => ({...s, legacy:true, type:"Instagram scan", analysis:s.summary ? {works:s.takeaways || [], summary:s.summary} : null}))].sort(by("submitted_at"));
+  const form = canWrite ? `<form id="inputForm" class="card" style="margin-bottom:16px"><div class="ch"><h2>Show the agent something</h2><span class="sub">A link, a video or screen recording, or just an idea</span></div>
+    <div class="g"><div class="c6"><div class="field"><label for="inUrl">Link</label><input type="url" id="inUrl" placeholder="https://www.instagram.com/reel/..."></div>
+      <div class="field"><label for="inType">What is it</label><select id="inType"><option>Reel I liked</option><option>Post or carousel I liked</option><option>Format or style idea</option><option>Pipeline or process idea</option><option>Account to learn from</option></select></div></div>
+    <div class="c6"><div class="field"><label for="inNote">Why you liked it (one line is enough)</label><textarea id="inNote" maxlength="600" placeholder="The first 2 seconds show the animal before any text. Pacing feels calm."></textarea></div>
+      ${assets ? `<div class="field"><label for="inFile">Video, screen recording or image (optional)</label><label class="drop" id="drop" for="inFile"><span id="dropTxt">Drop a file here or click to choose. Up to 20 MB.</span></label><input type="file" id="inFile" accept="video/*,image/*" hidden></div>` : ""}
+      <p class="note" style="margin-top:0">Bigger than 20 MB, like a long screen recording? Save it in <b class="num" style="font-size:12px">E:\\Instagram Automated Acc\\inputs\\</b> and write one line here saying what it is. The agent watches files in that folder on its next run.</p></div></div>
+    <div style="display:flex;gap:10px;align-items:center"><button class="btn pri" type="submit" id="inSubmit">Send to the agent</button><span class="msgline" id="inMsg"></span></div></form>` : "";
+  const item = x => { const s = stageOf(x), a = x.analysis || {}, pr = x.proposal;
+    return `<div class="inp"><div style="display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap"><div><b>${esc(x.type || "Input")}</b> ${x.url ? link(x.url, x.url.replace(/^https?:\/\/(www\.)?/, "").slice(0, 60)) : ""}${x.asset_url ? ` · <a href="${esc(x.asset_url)}" target="_blank" rel="noopener">${esc(x.filename || "attached file")}</a>` : ""}</div><span class="sub">${esc(dt(x.submitted_at))}</span></div>
+      ${x.note ? `<div style="color:var(--ink2);font-size:13px;margin-top:4px">${esc(x.note)}</div>` : ""}
+      <div class="steps">${STAGES.map(([k, l], i) => `<span class="${i < s ? "done" : i === s ? "on" : ""}">${l}</span>`).join("")}</div>
+      ${s === 0 ? `<div class="sub">The agent picks this up on its next run and writes a learning card here.</div>` : ""}
+      ${a.summary || (a.works || []).length ? `<div class="lc">${a.summary ? `<div style="grid-column:1/-1">${esc(a.summary)}</div>` : ""}${(a.works || []).length ? `<div><b>What works in it</b><ul>${a.works.map(w => `<li>${esc(w)}</li>`).join("")}</ul></div>` : ""}${(a.borrow || []).length ? `<div><b>What we will borrow</b><ul>${a.borrow.map(w => `<li>${esc(w)}</li>`).join("")}</ul></div>` : ""}${(a.avoid || []).length ? `<div><b>What we will not copy</b><ul>${a.avoid.map(w => `<li>${esc(w)}</li>`).join("")}</ul></div>` : ""}${a.needs ? `<div><b>What it needs from you</b>${esc(a.needs)}</div>` : ""}</div>` : ""}
+      ${(a.reels || []).length ? `<details style="margin-top:10px" open><summary class="eyebrow" style="cursor:pointer">Reel by Reel · ${a.reels.length}</summary><div class="tw"><table class="t" style="margin-top:6px"><thead><tr><th>Account</th><th class="n">Likes</th><th>Animals and scene</th><th>How it is made</th><th>What we take</th></tr></thead><tbody>${a.reels.map(r => `<tr><td><b>${esc(r.account)}</b><div class="sub">${esc(r.type || "")}</div></td><td class="n">${esc(r.likes || "")}</td><td style="min-width:150px">${esc(r.subject || "")}</td><td style="min-width:200px">${esc(r.craft || "")}</td><td style="min-width:200px">${esc(r.lesson || "")}</td></tr>`).join("")}</tbody></table></div></details>` : ""}
+      ${(a.patterns || []).length ? `<div class="lc"><div style="grid-column:1/-1"><b>Patterns across them</b><ul>${a.patterns.map(w => `<li>${esc(w)}</li>`).join("")}</ul></div></div>` : ""}
+      ${pr ? `<div class="inp" style="margin-top:10px;background:var(--sunk)"><div class="eyebrow">Proposed post</div><b>${esc(pr.title || "")}</b><div class="sub">${esc(pr.detail || "")}${pr.slug ? ` · <a href="#post-${esc(pr.slug)}">open draft</a>` : ""}</div>
+        ${x.decision ? `<div style="margin-top:6px"><span class="pill ${x.decision === "approve" ? "p-good" : x.decision === "reject" ? "p-bad" : "p-warn"}">${x.decision === "approve" ? "Approved" : x.decision === "reject" ? "Rejected" : "Change requested"}</span> <span class="sub">${esc(x.decision_note || "")}</span></div>`
+          : canWrite && !x.legacy ? `<div style="display:flex;gap:6px;flex-wrap:wrap;margin-top:8px"><input type="text" id="dn-${esc(x.id)}" placeholder="Optional note for the agent" style="flex:1;min-width:180px"><button class="btn sm pri" data-dec="approve" data-id="${esc(x.id)}" type="button">Approve</button><button class="btn sm" data-dec="change" data-id="${esc(x.id)}" type="button">Change</button><button class="btn sm stop" data-dec="reject" data-id="${esc(x.id)}" type="button">Reject</button></div>` : ""}</div>` : ""}</div>`; };
+  return form + (inputs.length ? `<div class="inputs">${inputs.map(item).join("")}</div>` : empty("Nothing yet. Paste a Reel you liked above and say why."));
+}
+function learnInsights() {
+  const all = vals(S.insights).sort(by("updated_at"));
+  const topics = [...new Set(all.map(i => i.category).filter(Boolean))];
+  const list = all.filter(i => (ui.insShow === "all" || (ui.insShow === "active" ? i.status !== "dropped" : i.status === "dropped")) && (ui.insTopic === "all" || i.category === ui.insTopic));
+  const groups = {}; list.forEach(i => (groups[i.category || "other"] ||= []).push(i));
+  return `<div class="sheetbar">${seg("insTopic", [["all","All topics"], ...topics.map(t => [t, t[0].toUpperCase() + t.slice(1)])], ui.insTopic)}${seg("insShow", [["active","Active"],["dropped","Dropped"],["all","All"]], ui.insShow)}</div>
+  <div class="g">${Object.entries(groups).map(([g, is]) => card(g[0].toUpperCase() + g.slice(1), `<div class="rows">${is.map(i => `<div class="r"><div><div class="t" style="${i.status === "dropped" ? "text-decoration:line-through;color:var(--muted)" : ""}">${esc(i.text)}</div><div class="m">${esc(i.status)} · ${esc(i.confidence || "")} confidence</div><details><summary class="sub" style="cursor:pointer">Evidence</summary><p style="font-size:12.5px;margin:6px 0">${esc(i.evidence || "")}</p></details></div><span class="sub">${esc(ago(i.updated_at))}</span></div>`).join("")}</div>`, {cls:"c6", sub:`${is.length}`})).join("") || `<div class="c12">${empty("No insights match.")}</div>`}</div>`;
+}
+function learnExperiments() {
+  const ex = vals(S.experiments).sort((a, b) => (a.status === "running" ? 0 : 1) - (b.status === "running" ? 0 : 1));
+  return ex.length ? `<div class="g">${ex.map(e => `<div class="exp c6"><div style="display:flex;justify-content:space-between;gap:8px"><span class="eyebrow">${esc(e.metric || "")}</span><span class="pill ${e.status === "running" ? "p-tide" : "p-good"}">${e.status === "running" ? "Running" : "Concluded"}</span></div>
+    <div class="q">${esc(e.hypothesis)}</div><div style="font-size:13px;color:var(--ink2)"><b>Change:</b> ${esc(e.change || "")}</div>
+    ${e.result ? `<div style="font-size:13px"><b>Result so far:</b> ${esc(e.result)}</div>` : ""}${e.verdict ? `<div style="font-size:13px"><b>Verdict:</b> ${esc(e.verdict)}</div>` : ""}
+    <div style="display:flex;gap:6px;flex-wrap:wrap">${(e.posts || []).map(s => `<a class="pill" href="#post-${esc(s)}" style="text-decoration:none">${esc(post(s)?.kicker || s)}</a>`).join("")}</div>
+    <div class="sub">Started ${esc(day(e.started_at))} · updated ${esc(ago(e.updated_at))}</div></div>`).join("")}</div>` : empty("No experiments yet. The review proposes them from your inputs and the numbers.");
+}
+function learnScores() {
+  const pubs = vals(S.posts).filter(p => p.status === "published" && p.metrics);
+  const grp = {}; const add = (k, p) => (grp[k] ||= []).push(p);
+  pubs.forEach(p => { add(p.kind === "reel" ? "Reels" : "Carousels", p); (p.format_tags || []).filter(t => t.startsWith("format:")).forEach(t => add(t.replace("format:", "").replace(/-/g, " "), p)); });
+  const rows = Object.entries(grp).map(([k, ps]) => { const s = key => ps.reduce((a, p) => a + (+p.metrics[key] || 0), 0); return {k, n:ps.length, reach:s("reach") / ps.length, likes:s("likes") / ps.length, saves:s("saved"), shares:s("shares"), comments:s("comments")}; }).sort((a, b) => b.reach - a.reach);
+  const mx = Math.max(1, ...rows.map(r => r.reach));
+  const t = (S.dash.state || {}).totals || {};
+  const zero = [["saves", t.saved], ["shares", t.shares], ["comments", t.comments]].filter(x => !x[1]).map(x => x[0]);
+  return `${zero.length ? `<div class="alert warn"><div>So far there are no ${zero.join(", ")} on any post. Reach comes from Reels, but people are not yet saving or sending. The review uses this to choose the next experiment.</div></div>` : ""}
+  ${card("By format", `<div class="tw"><table class="t"><thead><tr><th>Format</th><th class="n">Posts</th><th class="n">Avg reach</th><th class="n">Avg likes</th><th class="n">Saves</th><th class="n">Shares</th><th class="n">Comments</th></tr></thead><tbody>${rows.map(r => `<tr><td>${esc(r.k[0].toUpperCase() + r.k.slice(1))}</td><td class="n">${r.n}</td><td class="n">${num(r.reach)}<span class="bar" style="width:${Math.round(50 * r.reach / mx)}px"></span></td><td class="n">${num(r.likes, 1)}</td><td class="n">${num(r.saves)}</td><td class="n">${num(r.shares)}</td><td class="n">${num(r.comments)}</td></tr>`).join("")}</tbody></table></div>`, {cls:"", sub:`${pubs.length} published posts`})}`;
+}
+
+V.audience = () => {
+  const au = S.dash.audience || {}, tags = (au.hashtags || []).slice().sort((a, b) => (b.avg_reach || 0) - (a.avg_reach || 0));
+  const shown = ui.allTags ? tags : tags.slice(0, 20), mx = Math.max(1, ...tags.map(t => t.avg_reach || 0));
+  const hours = (au.posting_hours || []).slice().sort((a, b) => a.hour_ist - b.hour_ist), hmx = Math.max(1, ...hours.map(h => h.avg_reach || 0));
+  const comps = vals(S.competitors).sort(by("last_scanned"));
+  return `<div class="pagehead"><div><h1>Audience</h1><p>Who sees the account, which hashtags and hours work, and the accounts we learn from.</p></div></div>
+  <div class="g">
+    ${card("Followers", lineChart(followerSeries()), {cls:"c6"})}
+    ${card("Reach by posting hour (IST)", hours.length ? `<div class="tw"><table class="t"><thead><tr><th>Hour</th><th class="n">Posts</th><th class="n">Avg reach</th></tr></thead><tbody>${hours.map(h => `<tr><td class="num">${String(h.hour_ist).padStart(2, "0")}:00</td><td class="n">${h.posts}</td><td class="n">${num(h.avg_reach, 1)}<span class="bar" style="width:${Math.round(60 * (h.avg_reach || 0) / hmx)}px"></span></td></tr>`).join("")}</tbody></table></div>` : empty("No hours yet."), {cls:"c6", note:"Two Reels drive the high hours, so treat this as a hint until more posts land."})}
+    ${card(ui.allTags ? "All hashtags" : "Top 20 hashtags", `<div class="tw tall"><table class="t"><thead><tr><th>Hashtag</th><th class="n">Used</th><th class="n">Avg reach</th><th class="n">Queued</th></tr></thead><tbody>${shown.map(t => `<tr><td>${esc(t.tag)}</td><td class="n">${t.used}</td><td class="n">${num(t.avg_reach, 1)}<span class="bar" style="width:${Math.round(60 * (t.avg_reach || 0) / mx)}px"></span></td><td class="n">${t.queued || 0}</td></tr>`).join("")}</tbody></table></div><button class="btn sm" id="tagsBtn" type="button" style="margin-top:10px">${ui.allTags ? "Show top 20" : `Show all ${tags.length}`}</button>`, {cls:"c6", sub:"by average reach"})}
+    ${card("Accounts we learn from", `<div class="tw tall"><table class="t"><thead><tr><th>Account</th><th>Why</th><th>Last checked</th></tr></thead><tbody>${comps.map(c => `<tr><td><b>${esc(c.handle)}</b><div class="sub">${esc(c.tier || "")}</div></td><td style="min-width:200px">${esc(c.why || "")}${(c.notes || []).length ? `<details><summary class="sub" style="cursor:pointer">Notes (${c.notes.length})</summary>${c.notes.slice().reverse().map(n => `<p style="font-size:12.5px;margin:6px 0">${esc(day(n.at))}: ${esc(n.text)}</p>`).join("")}</details>` : ""}</td><td class="sub" style="white-space:nowrap">${esc(ago(c.last_scanned))}</td></tr>`).join("")}</tbody></table></div>`, {cls:"c6", sub:`${comps.length} accounts`})}
+  </div>`;
+};
+
+V.more = () => {
+  const conns = vals(S.connectors), acts = vals(S.activity).flatMap(m => m.events || []).sort(by("at")).slice(0, 80);
+  const lib = S.dash.library || {}, dec = vals(S.decisions).sort(by("at"));
+  return `<div class="pagehead"><div><h1>More</h1><p>Health, the rules the automation follows, the activity log and where our facts come from.</p></div></div>
+  <div class="g">
+    ${card("Connections", `<div class="rows">${conns.map(c => `<div class="r"><div><div class="t">${esc(c.name)}</div><div class="m">${esc(c.detail || "")}</div></div><span class="pill ${c.status === "ok" ? "p-good" : c.status === "fail" ? "p-bad" : "p-warn"}"><i></i>${c.status === "ok" ? "Healthy" : c.status === "fail" ? "Failing" : "Check"}</span></div>`).join("") || empty("No checks yet.")}</div>`, {cls:"c6"})}
+    ${card("Rules the automation follows", `<ol class="checklist">${GUARD.map(g => `<li>${esc(g)}</li>`).join("")}</ol>`, {cls:"c6", note:"The full rules live in the platform-guardrails skill and research/posting-limits.md."})}
+    ${card("Activity", `<ul class="tl">${acts.map(a => `<li><span class="when">${esc(dt(a.at))}</span><span><b>${esc(a.title)}</b><br><span style="color:var(--ink2);font-size:12.5px">${esc(a.detail || "")}</span></span></li>`).join("") || empty("No activity yet.")}</ul>`, {cls:"c7", sub:"latest 80"})}
+    ${card("Owner decisions", `<div class="rows" style="max-height:460px;overflow:auto">${dec.map(d => `<div class="r"><div><div class="t">${esc(d.title)}</div><div class="m">${esc(d.reason || "")}</div></div><span class="sub">${esc(day(d.at))}</span></div>`).join("")}</div>`, {cls:"c5"})}
+    ${card("Sources and licences", `<div class="g"><div class="c6"><table class="t"><thead><tr><th>Source</th><th class="n">Facts</th></tr></thead><tbody>${(lib.source_domains || []).slice(0, 10).map(s => `<tr><td>${esc(s.domain)}</td><td class="n">${s.count}</td></tr>`).join("")}</tbody></table></div><div class="c6"><table class="t"><thead><tr><th>Photo licence</th><th class="n">Photos</th></tr></thead><tbody>${(lib.licences || []).map(s => `<tr><td>${esc(s.licence)}</td><td class="n">${s.count}</td></tr>`).join("")}</tbody></table></div></div>`, {cls:"c12"})}
+  </div>`;
+};
+
+// ================================================================ render
+const route = () => (location.hash || "#summary").slice(1);
+function renderTabs() {
+  const r = route(), cur = r.startsWith("post-") ? "posts" : r;
+  const al = alerts(), nd = needsYou().length, pend = vals(S.inputs).filter(x => x.status === "proposed" && !x.decision).length;
+  const badge = {summary:al.some(a => a[0] === "bad") ? ["!", "red"] : null, plan:nd ? [nd, "hot"] : null, learn:pend ? [pend, "hot"] : null};
+  document.getElementById("tabs").innerHTML = TABS.map(([k, l]) => `<a href="#${k}" ${k === cur ? 'aria-current="page"' : ""}>${l}${badge[k] ? `<span class="ct ${badge[k][1]}">${badge[k][0]}</span>` : ""}</a>`).join("");
+}
+function render() {
+  if (!ready || ui.editing) return;
+  const r = route(), view = document.getElementById("view");
+  const sx = document.getElementById("sheet")?.scrollLeft, sy = document.getElementById("sheet")?.scrollTop;
+  const drafts = {}; ["inUrl","inNote","inType","planTitle","planDetail"].forEach(id => { const el = document.getElementById(id); if (el) drafts[id] = el.value; });
+  const focus = document.activeElement?.id;
+  view.innerHTML = r.startsWith("post-") ? V.post(r.slice(5)) : (V[r] || V.summary)();
+  Object.entries(drafts).forEach(([id, v]) => { const el = document.getElementById(id); if (el) el.value = v; });
+  if (focus) document.getElementById(focus)?.focus();
+  const sh = document.getElementById("sheet"); if (sh && sx != null) { sh.scrollLeft = sx; sh.scrollTop = sy; }
+  if (ui.pendingFile) { const t = document.getElementById("dropTxt"); if (t) t.textContent = ui.pendingFile.name; document.getElementById("drop")?.classList.add("on"); }
+  renderTabs();
+}
+let raf = 0; const schedule = () => { if (raf) return; raf = requestAnimationFrame(() => { raf = 0; render(); }); };
+addEventListener("hashchange", e => { const from = new URL(e.oldURL).hash || "#summary"; if (!from.startsWith("#post-")) ui.lastList = from; render(); scrollTo(0, 0); });
+
+// ================================================================ events
+const view = document.getElementById("view");
+view.addEventListener("click", async e => {
+  const b = e.target.closest("button");
+  const td = e.target.closest("td[data-col]");
+  if (td && !e.target.closest("a") && canWrite && !td.querySelector("select,input")) return editCell(td);
+  if (!b) return;
+  if (b.dataset.seg) { const k = b.dataset.seg, v = b.dataset.v; ui[k] = /^\d+$/.test(v) && k === "feedWeeks" ? +v : v; saveUi(); return render(); }
+  if (b.dataset.cal) { ui.calOffset = b.dataset.cal === "0" ? 0 : ui.calOffset + +b.dataset.cal; return render(); }
+  if (b.dataset.grp) { ui.sheetGroups[b.dataset.grp] = ui.sheetGroups[b.dataset.grp] ? 0 : 1; saveUi(); return render(); }
+  if (b.id === "tagsBtn") { ui.allTags = !ui.allTags; return render(); }
+  if (b.dataset.t5) return setTop5(b.dataset.t5, b.dataset.s, b);
+  if (b.dataset.done) return planChange(b.dataset.done, {status:"done"}, "Marked done on the Plan page", b, "Done.");
+  if (b.dataset.drop) return planChange(b.dataset.drop, {status:"dropped"}, "Dropped on the Plan page", b, "Dropped.");
+  if (b.dataset.move) return planChange(b.dataset.move, {horizon:b.dataset.hz}, "Moved to " + b.dataset.hz + " on the Plan page", b, "Moved.");
+  if (b.dataset.task) return pauseTask(b.dataset.task, b.dataset.act === "pause", b);
+  if (b.id === "reviewBtn") return requestReview(b);
+  if (b.id === "addRow") return addRow(b);
+  if (b.dataset.dec) return decide(b.dataset.id, b.dataset.dec, b);
+});
+view.addEventListener("change", e => {
+  if (e.target.id === "sheetStatus") { ui.sheetStatus = e.target.value; render(); }
+  if (e.target.id === "inFile") pickFile(e.target.files[0]);
+});
+view.addEventListener("dragover", e => { const d = e.target.closest("#drop"); if (d) { e.preventDefault(); d.classList.add("on"); } });
+view.addEventListener("drop", e => { const d = e.target.closest("#drop"); if (d) { e.preventDefault(); pickFile(e.dataTransfer.files[0]); } });
+function pickFile(f) { if (!f) return; if (f.size > 20 * 1048576) { toast("That file is over 20 MB. Trim it or share a link instead."); return; } ui.pendingFile = f; const t = document.getElementById("dropTxt"); if (t) t.textContent = f.name; document.getElementById("drop")?.classList.add("on"); }
+view.addEventListener("submit", async e => {
+  e.preventDefault();
+  if (e.target.id === "planForm") return addPlan();
+  if (e.target.id === "inputForm") return addInput();
+});
+const now = () => new Date().toISOString();
+async function guarded(fn, btn, okMsg) {
+  if (btn) btn.disabled = true;
+  try { await fn(); if (okMsg) toast(okMsg); }
+  catch (err) { toast(err && err.code === "quota_exceeded" ? "The page's storage is full. Ask Claude to prune old entries." : "That change did not save. You may not have edit access."); }
+  finally { if (btn) btn.disabled = false; }
+}
+function pauseTask(id, pause, btn) {
+  return guarded(async () => {
+    const cur = S.control.tasks || {}, paused = {...(cur.paused || {})};
+    if (pause) paused[id] = true; else delete paused[id];
+    const log = [...(cur.log || []), {at:now(), task:id, action:pause ? "pause" : "resume", by:uid}].slice(-50);
+    await db.doc("control/tasks").set({paused, log, updated_at:now()});
+  }, btn, pause ? "Stopped. The task skips its next run." : "Resumed from this page.");
+}
+function requestReview(btn) {
+  return guarded(async () => { const cur = S.control.review || {}; await db.doc("control/review").set({...cur, requested_at:now(), requested_by:uid}); }, btn, "Review requested. The agent runs it on its next check.");
+}
+function planChange(id, patch, note, btn, ok) {
+  const p = S.plans[id]; if (!p) return;
+  return guarded(async () => { const {id: _i, ...rest} = p; await db.doc("plans/" + id).set({...rest, id, ...patch, updated_at:now(), history:[...(p.history || []), {at:now(), status:patch.status || p.status, note, by:"human"}]}); }, btn, ok);
+}
+async function addPlan() {
+  const t = document.getElementById("planTitle").value.trim(), d = document.getElementById("planDetail").value.trim(), h = document.getElementById("planHz").value, msg = document.getElementById("planMsg");
+  if (!t) { msg.textContent = "Give the item a short title."; return; }
+  await guarded(async () => {
+    const id = "you-" + Date.now().toString(36);
+    await db.doc("plans/" + id).set({id, title:t, detail:d, horizon:h, status:"planned", owner:"human", source:"page", updated_at:now(), history:[{at:now(), status:"planned", note:"Added on the Plan page", by:"human"}]});
+    document.getElementById("planTitle").value = ""; document.getElementById("planDetail").value = ""; msg.textContent = "";
+  }, null, "Added to the plan.");
+}
+async function addInput() {
+  const url = document.getElementById("inUrl").value.trim(), note = document.getElementById("inNote").value.trim(), type = document.getElementById("inType").value;
+  const msg = document.getElementById("inMsg"), btn = document.getElementById("inSubmit"), f = ui.pendingFile;
+  if (!url && !note && !f) { msg.textContent = "Add a link, a file or a line about the idea."; return; }
+  if (url && !isUrl(url)) { msg.textContent = "Links need to start with https://"; return; }
+  btn.disabled = true; msg.textContent = f ? "Uploading the file..." : "Sending...";
+  try {
+    let asset = null;
+    if (f && assets) asset = await assets.upload(f);
+    await db.collection("inputs").add({type, url:url || null, note:note.slice(0, 600), asset_id:asset?.id || null, asset_url:asset?.url || null, filename:f?.name || null, content_type:f?.type || null, status:"received", submitted_at:now(), submitted_by:uid});
+    document.getElementById("inUrl").value = ""; document.getElementById("inNote").value = ""; ui.pendingFile = null;
+    msg.textContent = "Sent. The agent studies it on its next run."; render();
+  } catch (err) { msg.textContent = err && err.code === "quota_exceeded" ? "Storage is full. Ask Claude to prune old inputs." : "Could not send it. Check the file type and your access."; }
+  finally { btn.disabled = false; }
+}
+function decide(id, dec, btn) {
+  const n = document.getElementById("dn-" + id)?.value.trim() || "";
+  return guarded(async () => { await db.doc("inputs/" + id).update({decision:dec, decision_note:n.slice(0, 300), decided_at:now(), decided_by:uid}); }, btn, dec === "approve" ? "Approved. The agent schedules it." : dec === "reject" ? "Rejected. The agent drops it." : "Sent back with your note.");
+}
+function addRow(btn) {
+  return guarded(async () => { const id = "row-" + Date.now().toString(36); await db.doc("sheet/" + id).set({id, manual:true, created_at:now(), by:uid, cells:{platform:"Instagram", status:"Idea", owner:"Suryansh", priority:"Medium", language:"English"}}); ui.sheetStatus = "all"; }, btn, "Row added at the bottom. Fill in the date to place it on the calendar.");
+}
+function editCell(td) {
+  const rid = td.dataset.row, key = td.dataset.col, col = COLS.find(c => c[0] === key);
+  const row = sheetRows().find(r => r.rid === rid); if (!row) return;
+  const cur = row.cells[key] ?? "";
+  let el;
+  if (col[3].startsWith("list:")) { const opts = LISTS[col[3].slice(5)] || []; el = document.createElement("select"); el.innerHTML = `<option value=""></option>` + [...new Set([...(cur && !opts.includes(cur) ? [cur] : []), ...opts])].map(o => `<option ${o === cur ? "selected" : ""}>${esc(o)}</option>`).join(""); }
+  else { el = document.createElement("input"); el.type = col[3] === "date" ? "date" : col[3] === "time" ? "time" : col[3] === "num" || col[3] === "pct" ? "number" : "text"; if (col[3] === "pct") { el.step = "0.01"; el.placeholder = "0.45 = 45%"; } el.value = cur ?? ""; }
+  el.id = "cell-edit"; el.setAttribute("aria-label", col[1]);
+  td.innerHTML = ""; td.appendChild(el); ui.editing = {rid, key}; el.focus();
+  let done = false;
+  const finish = async save => {
+    if (done) return; done = true; ui.editing = null;
+    const v = el.value;
+    if (save && String(v) !== String(cur ?? "")) {
+      const doc = S.sheet[rid] || (row.manual ? {} : {id:rid, post:row.slug, cells:{}});
+      const cells = {...(doc.cells || {}), [key]:col[3] === "num" || col[3] === "pct" ? (v === "" ? "" : +v) : v};
+      try { await db.doc("sheet/" + rid).set({...doc, id:rid, cells, updated_at:now(), by:uid}); toast("Saved."); }
+      catch (err) { toast("That cell did not save. You may not have edit access."); }
+    }
+    render();
+  };
+  el.addEventListener("change", () => { if (el.tagName === "SELECT") finish(true); });
+  el.addEventListener("blur", () => finish(true));
+  el.addEventListener("keydown", ev => { if (ev.key === "Enter") { ev.preventDefault(); finish(true); } if (ev.key === "Escape") finish(false); });
+}
+
+// sync button
+const syncBtn = document.getElementById("syncBtn");
+syncBtn.addEventListener("click", () => guarded(async () => { const cur = S.control.sync || {}; await db.doc("control/sync").set({...cur, requested_at:now(), requested_by:uid}); }, syncBtn, "Sync requested. The insight agent runs on its next check."));
+
+// ================================================================ data
+function setLive(cls, text) { const l = document.getElementById("live"); l.className = "pill " + cls; l.innerHTML = `<i></i>${esc(text)}`; }
+async function start() {
+  db = await claude.use("db"); user = await claude.use("user");
+  if (!db) { document.getElementById("view").innerHTML = empty("The data store is not available in this view. Open the Field Desk on claude.ai while signed in."); setLive("p-bad", "Offline"); return; }
+  try { canWrite = user ? (await user.canEdit()) || (await user.isOwner()) : false; } catch (e) { canWrite = false; }
+  try { uid = user ? await user.id() : null; } catch (e) { uid = null; }
+  const first = new Set();
+  const timer = setTimeout(() => { if (!ready) { ready = true; setLive("p-warn", "Partly loaded"); render(); } }, 10000);
+  COLLS.forEach(c => db.collection(c).onSnapshot(snap => {
+    const o = {}; snap.docs.forEach(d => { if (d.exists) o[d.id] = {id:d.id, ...d.data()}; }); S[c] = o;
+    first.add(c); if (first.size === COLLS.length && !ready) { ready = true; clearTimeout(timer); setLive("p-good", "Live"); }
+    schedule();
+  }, err => { first.add(c); setLive("p-warn", err && err.code === "revoked" ? "Access changed" : "Reconnecting"); }));
+  if (canWrite) { syncBtn.hidden = false; assets = await claude.use("assets"); }
+  sample = await claude.use("sample");
+  if (sample) document.getElementById("askBtn").hidden = false;
+}
+
+// ================================================================ ask claude
+const turns = []; let ctl = null;
+function context() {
+  const pick = (o, ks) => Object.fromEntries(ks.filter(k => o[k] != null).map(k => [k, o[k]]));
+  return JSON.stringify({account:S.dash.state || {}, tasks:taskList().map(t => pick(t, ["name","state","last_run_at","last_note"])),
+    posts:vals(S.posts).map(p => pick(p, ["slug","status","kind","headline","published_at","metrics","format_tags","takeaway"])),
+    insights:vals(S.insights).map(i => pick(i, ["text","status","category","confidence","evidence"])), plans:vals(S.plans).map(p => pick(p, ["title","detail","horizon","status","owner"])),
+    experiments:vals(S.experiments), inputs:vals(S.inputs).map(x => pick(x, ["type","url","note","status","analysis","proposal","decision"])), hashtags:(S.dash.audience || {}).hashtags}).slice(0, 120000);
+}
+const RULES = () => `You answer questions about the Instagram test account @${(S.dash.state || {}).handle || "earthspirit_nature"} using only the data below. Be short and specific: plain sentences or a few bullets, cite numbers, and say when the data is too thin. You cannot post, change plans or take actions; say what the owner or the agent would do instead. Never use em dashes or emojis.\n\nDATA:\n${context()}`;
+function addMsg(role, text) { const d = document.createElement("div"); d.className = "msg " + role; d.textContent = text; document.getElementById("msgs").appendChild(d); d.scrollIntoView({block:"end"}); return d; }
+const ERR = {not_granted:"Claude is not allowed for this page. You can allow it from the artifact's permissions.", rate_limited:"You have hit a usage limit. Try again later.", session_expired:"Sign in again to ask Claude.", prompt_too_large:"The data is too large to send. Ask about one area at a time."};
+async function ask(q) {
+  if (!sample || !q.trim()) return;
+  turns.push({role:"user", content:q}); addMsg("u", q);
+  const out = addMsg("a", "Thinking..."), send = document.getElementById("chatSend"); send.textContent = "Stop"; ctl = new AbortController();
+  try { const recent = turns.slice(-10);
+    const {text} = await sample([{role:"user", content:RULES()}, {role:"assistant", content:"Understood. Ask me about the account."}, ...(recent[0].role === "user" ? recent : recent.slice(1))], {cache:false, signal:ctl.signal, onText:({text}) => { out.textContent = text; }});
+    turns.push({role:"assistant", content:text});
+  } catch (e) { out.textContent = e.text || ""; if (e.code !== "cancelled") addMsg("a", ERR[e.code] || "Claude could not answer that. Try again in a moment."); turns.pop(); }
+  finally { send.textContent = "Send"; ctl = null; }
+}
+document.getElementById("askBtn").addEventListener("click", () => { const d = document.getElementById("drawer"); d.hidden = false; if (!document.getElementById("msgs").children.length) addMsg("a", "Ask me what is working, what to change in the next posts, or what your inputs taught the agent."); document.getElementById("chatIn").focus(); });
+document.getElementById("closeChat").addEventListener("click", () => { document.getElementById("drawer").hidden = true; });
+document.getElementById("chatForm").addEventListener("submit", e => { e.preventDefault(); if (ctl) { ctl.abort(); return; } const i = document.getElementById("chatIn"), q = i.value; i.value = ""; ask(q); });
+document.getElementById("chatIn").addEventListener("keydown", e => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); document.getElementById("chatForm").requestSubmit(); } });
+
+renderTabs();
+if (window.__PREVIEW_DATA__) { Object.assign(S, window.__PREVIEW_DATA__); canWrite = true; ready = true; setLive("p-good", "Preview"); render(); }
+else if (window.claude && claude.use) start();
+else document.getElementById("view").innerHTML = empty("Open the Field Desk on claude.ai to see live data.");
+})();
+</script>

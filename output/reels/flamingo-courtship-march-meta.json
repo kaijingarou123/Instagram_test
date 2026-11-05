@@ -1,0 +1,74 @@
+{
+ "slug": "flamingo-courtship-march",
+ "format": "reel",
+ "reel_format": "mood",
+ "size": "1080x1920",
+ "fps": 30,
+ "duration_s": 11.3,
+ "lines": [
+  "They pick partners by marching together."
+ ],
+ "cuts": 3,
+ "experiment": {
+  "hook": "fact",
+  "format": "fact-line",
+  "week": "2026-W45"
+ },
+ "audio": "music: Peter Ilyich Tchaikovsky- Swan Lake- Extract from Act 2.ogg (Public domain)",
+ "music": {
+  "title": "Peter Ilyich Tchaikovsky- Swan Lake- Extract from Act 2.ogg",
+  "licence": "Public domain",
+  "source_class": "classical-pd",
+  "content_id": false,
+  "source_url": "https://commons.wikimedia.org/wiki/File:Peter_Ilyich_Tchaikovsky-_Swan_Lake-_Extract_from_Act_2.ogg"
+ },
+ "photo_credits": [
+  "Lesser flamingos courtship display dance.webm by Shiv's fotografia, CC BY 4.0",
+  "Lesser flamingos courtship display dance.webm by Shiv's fotografia, CC BY 4.0",
+  "Lesser flamingos courtship display dance.webm by Shiv's fotografia, CC BY 4.0"
+ ],
+ "video_source": {
+  "license": "CC BY 4.0"
+ },
+ "synthetic_voice": false,
+ "ai_music": false,
+ "ai_disclosure": "none needed (real footage, no AI imagery or voice)",
+ "caption_chars": 807,
+ "hashtags": [
+  "#lesserflamingo",
+  "#flamingos",
+  "#birdbehaviour",
+  "#pinkbirds"
+ ],
+ "format_tags": [
+  "format:fact-line",
+  "tactic:one-line",
+  "tactic:comment-prompt"
+ ],
+ "sources": [
+  "https://animaldiversity.org/accounts/Phoeniconaias_minor/"
+ ],
+ "video_credits": [
+  {
+   "artist": "Shiv's fotografia",
+   "license": "CC BY 4.0",
+   "title": "Lesser flamingos courtship display dance.webm",
+   "page": "https://commons.wikimedia.org/wiki/File:Lesser_flamingos_courtship_display_dance.webm"
+  },
+  {
+   "artist": "Shiv's fotografia",
+   "license": "CC BY 4.0",
+   "title": "Lesser flamingos courtship display dance.webm",
+   "page": "https://commons.wikimedia.org/wiki/File:Lesser_flamingos_courtship_display_dance.webm"
+  },
+  {
+   "artist": "Shiv's fotografia",
+   "license": "CC BY 4.0",
+   "title": "Lesser flamingos courtship display dance.webm",
+   "page": "https://commons.wikimedia.org/wiki/File:Lesser_flamingos_courtship_display_dance.webm"
+  }
+ ],
+ "alt_text": "Hundreds of pink lesser flamingos marching together in shallow water during a courtship display, with the words They pick partners by marching together.",
+ "variant_of": null,
+ "needs_owner_approval": true
+}

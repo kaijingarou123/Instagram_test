@@ -21,3 +21,19 @@ assets/raw/*/*.jpg
 !assets/raw/orca/*.jpg
 !assets/raw/pangolin/*.jpg
 !assets/raw/snow-leopard/*.jpg
+
+# insight dashboard: generated documents and run files (log/agent/ and thumbs.json are the source of truth)
+log/dashboard/out/
+log/dashboard/thumbs/
+log/dashboard/changed.json
+log/dashboard/readings.json
+
+# Reels music library: recordings stay local (re-fetch with scripts/fetch_commons_music.py); the index is committed
+assets/music/*
+!assets/music/library.json
+
+# Owner inspiration files (large videos), read by the agent, never committed
+inputs/
+
+# Archived renders, safe to delete in one go
+archive/

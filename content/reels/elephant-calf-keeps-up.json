@@ -1,0 +1,46 @@
+{
+ "slug": "elephant-calf-keeps-up",
+ "format": "mood",
+ "grade": "warm-autumn",
+ "species": "Asian elephant (Elephas maximus)",
+ "cuts": [
+  {
+   "media": "elephant-assam-hd/01.webm",
+   "start": 39.0,
+   "dur": 7.0,
+   "focus": [
+    0.33,
+    0.42
+   ]
+  }
+ ],
+ "lines": [
+  {
+   "text": "Never too small to keep up.",
+   "from": 0
+  }
+ ],
+ "music": "chopin-nocturne-op9-2",
+ "cover_at": 3.0,
+ "caption": "A wild herd crossing in Hoollongapar Gibbon Sanctuary, Assam, with the youngest one staying close.\n\nAsian elephant herds are family groups led by an older female, the matriarch. Calves stay near their mothers for years and the whole herd slows down for them.\n\nSource: IUCN Red List, Elephas maximus.\n\nTag someone who always waits for you.",
+ "hashtags": [
+  "#asianelephant",
+  "#elephantcalf",
+  "#assamwildlife",
+  "#gentlegiants"
+ ],
+ "sources": [
+  "https://www.iucnredlist.org/species/7140/"
+ ],
+ "alt_text": "A herd of wild Asian elephants walking across a road with a small calf beside its mother, with the words Never too small to keep up.",
+ "format_tags": [
+  "format:single-shot",
+  "tactic:one-line",
+  "tactic:tag-prompt"
+ ],
+ "experiment": {
+  "hook": "tender",
+  "format": "single-shot",
+  "week": "2026-W45"
+ }
+}

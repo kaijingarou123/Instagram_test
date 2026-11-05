@@ -1,0 +1,150 @@
+{
+ "slug": "butterflies-at-13500-ft",
+ "format": "mood",
+ "grade": "natural",
+ "xfade": 0.12,
+ "species": "Himalayan butterflies at Sela Pass",
+ "cuts": [
+  {
+   "media": "butterfly-sela-hd/01.webm",
+   "start": 20.5,
+   "dur": 1.4,
+   "focus": 0.5
+  },
+  {
+   "media": "butterfly-sela-hd/01.webm",
+   "start": 23.25,
+   "dur": 0.75,
+   "focus": 0.5
+  },
+  {
+   "media": "butterfly-sela-hd/01.webm",
+   "start": 24.0,
+   "dur": 0.95,
+   "focus": 0.5
+  },
+  {
+   "media": "butterfly-sela-hd/01.webm",
+   "start": 27.25,
+   "dur": 0.95,
+   "focus": 0.5
+  },
+  {
+   "media": "butterfly-sela-hd/01.webm",
+   "start": 28.25,
+   "dur": 0.75,
+   "focus": 0.45
+  },
+  {
+   "media": "butterfly-sela-hd/01.webm",
+   "start": 29.0,
+   "dur": 1.8,
+   "focus": 0.5
+  },
+  {
+   "media": "butterfly-sela-hd/01.webm",
+   "start": 37.5,
+   "dur": 0.95,
+   "focus": 0.6
+  },
+  {
+   "media": "butterfly-sela-hd/01.webm",
+   "start": 38.5,
+   "dur": 1.4,
+   "focus": 0.55
+  }
+ ],
+ "lines": [
+  {
+   "text": "Butterflies at 13,500 ft.",
+   "from": 0
+  },
+  {
+   "text": "1",
+   "from": 0.05,
+   "to": 1.28,
+   "pos": "top",
+   "y": 460,
+   "size": 150
+  },
+  {
+   "text": "2",
+   "from": 1.33,
+   "to": 1.91,
+   "pos": "top",
+   "y": 460,
+   "size": 150
+  },
+  {
+   "text": "3",
+   "from": 1.96,
+   "to": 2.74,
+   "pos": "top",
+   "y": 460,
+   "size": 150
+  },
+  {
+   "text": "4",
+   "from": 2.79,
+   "to": 3.57,
+   "pos": "top",
+   "y": 460,
+   "size": 150
+  },
+  {
+   "text": "5",
+   "from": 3.62,
+   "to": 4.2,
+   "pos": "top",
+   "y": 460,
+   "size": 150
+  },
+  {
+   "text": "6",
+   "from": 4.25,
+   "to": 5.88,
+   "pos": "top",
+   "y": 460,
+   "size": 150
+  },
+  {
+   "text": "7",
+   "from": 5.93,
+   "to": 6.71,
+   "pos": "top",
+   "y": 460,
+   "size": 150
+  },
+  {
+   "text": "8",
+   "from": 6.76,
+   "to": 7.99,
+   "pos": "top",
+   "y": 460,
+   "size": 150
+  }
+ ],
+ "music": "komiku-first-dance",
+ "cover_at": 0.6,
+ "caption": "Eight butterflies filmed near Sela Pass in Arunachal Pradesh, one of the highest roads in India.\n\nAt this height butterflies bask on warm rocks and soil to heat their flight muscles before they can fly.\n\nSource: Sela Pass and Himalayan butterfly records, Wikipedia.\n\nWhich number is your favourite?",
+ "hashtags": [
+  "#butterflies",
+  "#arunachalpradesh",
+  "#himalayanwildlife",
+  "#insectsofindia"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Sela_Pass"
+ ],
+ "alt_text": "Eight quick clips of different butterflies on rocks, gravel and leaves high in the Himalayas, numbered 1 to 8, with the words Butterflies at 13,500 ft.",
+ "format_tags": [
+  "format:numbered-collection",
+  "tactic:one-line",
+  "tactic:comment-prompt"
+ ],
+ "experiment": {
+  "hook": "count",
+  "format": "numbered-collection",
+  "week": "2026-W45"
+ }
+}

@@ -1,0 +1,75 @@
+{
+ "slug": "india-unfiltered-mood",
+ "format": "reel",
+ "reel_format": "mood",
+ "size": "1080x1920",
+ "fps": 30,
+ "duration_s": 10.3,
+ "lines": [
+  "India, unfiltered."
+ ],
+ "cuts": 3,
+ "experiment": {
+  "hook": "mood",
+  "format": "mood-multi-cut",
+  "text": "one-line",
+  "week": "2026-W45"
+ },
+ "audio": "music: Gymnopedie No. 1..ogg (CC0)",
+ "music": {
+  "title": "Gymnopedie No. 1..ogg",
+  "licence": "CC0",
+  "source_class": "classical-pd",
+  "content_id": false,
+  "source_url": "https://commons.wikimedia.org/wiki/File:Gymnopedie_No._1..ogg"
+ },
+ "photo_credits": [
+  "Leopard (Panthera pardus), in Uttarakhand, India.webm by Shiv's fotografia, CC BY-SA 4.0",
+  "Common Kingfisher preening.webm by Lennart Hessel, CC BY 3.0",
+  "Peacock dance, at Botanical Garden Hyderabad.webm by Original:  KCVelagaRefinement:  Rihaan180, CC BY-SA 4.0"
+ ],
+ "video_source": {
+  "license": "CC BY 3.0; CC BY-SA 4.0"
+ },
+ "synthetic_voice": false,
+ "ai_music": false,
+ "ai_disclosure": "none needed (real footage, no AI imagery or voice)",
+ "caption_chars": 789,
+ "hashtags": [
+  "#indianwildlife",
+  "#wildlifeofindia",
+  "#naturelovers",
+  "#calmvibes"
+ ],
+ "format_tags": [
+  "format:mood-cut",
+  "tactic:one-line",
+  "tactic:comment-prompt"
+ ],
+ "sources": [
+  "https://www.iucnredlist.org/species/15951/"
+ ],
+ "video_credits": [
+  {
+   "artist": "Shiv's fotografia",
+   "license": "CC BY-SA 4.0",
+   "title": "Leopard (Panthera pardus), in Uttarakhand, India.webm",
+   "page": "https://commons.wikimedia.org/wiki/File%3ALeopard%20%28Panthera%20pardus%29%2C%20in%20Uttarakhand%2C%20India.webm"
+  },
+  {
+   "artist": "Lennart Hessel",
+   "license": "CC BY 3.0",
+   "title": "Common Kingfisher preening.webm",
+   "page": "https://commons.wikimedia.org/wiki/File%3ACommon%20Kingfisher%20preening.webm"
+  },
+  {
+   "artist": "Original:  KCVelagaRefinement:  Rihaan180",
+   "license": "CC BY-SA 4.0",
+   "title": "Peacock dance, at Botanical Garden Hyderabad.webm",
+   "page": "https://commons.wikimedia.org/wiki/File%3APeacock%20dance%2C%20at%20Botanical%20Garden%20Hyderabad.webm"
+  }
+ ],
+ "alt_text": "Three short clips: a leopard walking through grass, a kingfisher turning its head, a peacock fanning its train, with the words India, unfiltered.",
+ "variant_of": null,
+ "needs_owner_approval": true
+}

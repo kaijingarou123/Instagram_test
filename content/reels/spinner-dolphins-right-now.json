@@ -1,0 +1,44 @@
+{
+ "slug": "spinner-dolphins-right-now",
+ "format": "mood",
+ "grade": "teal-gold",
+ "species": "Spinner dolphin (Stenella longirostris)",
+ "cuts": [
+  {
+   "media": "spinner-dolphin-hd/01.webm",
+   "start": 12.0,
+   "dur": 13.0,
+   "focus": 0.5
+  }
+ ],
+ "lines": [
+  {
+   "text": "Somewhere, right now,\nthis is happening.",
+   "from": 0,
+   "size": 74
+  }
+ ],
+ "music": "komiku-the-wind",
+ "cover_at": 2.0,
+ "caption": "A pod of spinner dolphins in the Indian Ocean, seen from above.\n\nSpinner dolphins rest in calm, shallow bays by day and head out to hunt at night. Their name comes from the way they leap and spin in the air.\n\nSource: NOAA Fisheries, spinner dolphin species profile.\n\nWhere would you rather be right now?",
+ "hashtags": [
+  "#spinnerdolphins",
+  "#indianocean",
+  "#oceanlife",
+  "#marinemammals"
+ ],
+ "sources": [
+  "https://www.fisheries.noaa.gov/species/spinner-dolphin"
+ ],
+ "alt_text": "Aerial view of a large pod of spinner dolphins swimming through turquoise water, with the words Somewhere, right now, this is happening.",
+ "format_tags": [
+  "format:perspective",
+  "tactic:one-line",
+  "tactic:comment-prompt"
+ ],
+ "experiment": {
+  "hook": "perspective",
+  "format": "aerial-single-shot",
+  "week": "2026-W45"
+ }
+}

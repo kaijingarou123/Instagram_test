@@ -1,0 +1,60 @@
+{
+ "slug": "spinner-dolphins-right-now",
+ "format": "reel",
+ "reel_format": "mood",
+ "size": "1080x1920",
+ "fps": 30,
+ "duration_s": 13.0,
+ "lines": [
+  "Somewhere, right now,\nthis is happening."
+ ],
+ "cuts": 1,
+ "experiment": {
+  "hook": "perspective",
+  "format": "aerial-single-shot",
+  "week": "2026-W45"
+ },
+ "audio": "music: Komiku - 13 - The Wind.ogg (CC0)",
+ "music": {
+  "title": "Komiku - 13 - The Wind.ogg",
+  "licence": "CC0",
+  "source_class": "modern-cc0",
+  "content_id": false,
+  "source_url": "https://commons.wikimedia.org/wiki/File:Komiku_-_13_-_The_Wind.ogg"
+ },
+ "photo_credits": [
+  "053 Pod of Spinner dolphins swimming in the Indian ocean Video by Giles Laurent.webm by Giles Laurent, CC BY-SA 4.0"
+ ],
+ "video_source": {
+  "license": "CC BY-SA 4.0"
+ },
+ "synthetic_voice": false,
+ "ai_music": false,
+ "ai_disclosure": "none needed (real footage, no AI imagery or voice)",
+ "caption_chars": 566,
+ "hashtags": [
+  "#spinnerdolphins",
+  "#indianocean",
+  "#oceanlife",
+  "#marinemammals"
+ ],
+ "format_tags": [
+  "format:perspective",
+  "tactic:one-line",
+  "tactic:comment-prompt"
+ ],
+ "sources": [
+  "https://www.fisheries.noaa.gov/species/spinner-dolphin"
+ ],
+ "video_credits": [
+  {
+   "artist": "Giles Laurent",
+   "license": "CC BY-SA 4.0",
+   "title": "053 Pod of Spinner dolphins swimming in the Indian ocean Video by Giles Laurent.webm",
+   "page": "https://commons.wikimedia.org/wiki/File:053_Pod_of_Spinner_dolphins_swimming_in_the_Indian_ocean_Video_by_Giles_Laurent.webm"
+  }
+ ],
+ "alt_text": "Aerial view of a large pod of spinner dolphins swimming through turquoise water, with the words Somewhere, right now, this is happening.",
+ "variant_of": null,
+ "needs_owner_approval": true
+}

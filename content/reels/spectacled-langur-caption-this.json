@@ -1,0 +1,43 @@
+{
+ "slug": "spectacled-langur-caption-this",
+ "format": "mood",
+ "grade": "deep-green",
+ "species": "Dusky leaf monkey (Trachypithecus obscurus)",
+ "cuts": [
+  {
+   "media": "dusky-langur-hd/01.webm",
+   "start": 14.0,
+   "dur": 9.5,
+   "focus": 0.47
+  }
+ ],
+ "lines": [
+  {
+   "text": "Caption this.",
+   "from": 0
+  }
+ ],
+ "music": "anitras-dance",
+ "cover_at": 2.5,
+ "caption": "A wild dusky leaf monkey in Kaeng Krachan National Park, Thailand.\n\nIts other name is the spectacled langur, after the white rings around its eyes. It lives high in the trees and eats mostly leaves.\n\nSource: IUCN Red List, Trachypithecus obscurus.\n\nBest caption gets pinned.",
+ "hashtags": [
+  "#spectacledlangur",
+  "#leafmonkey",
+  "#primates",
+  "#funnyanimals"
+ ],
+ "sources": [
+  "https://www.iucnredlist.org/species/22039/"
+ ],
+ "alt_text": "A dusky leaf monkey with white rings around its eyes sitting among bamboo and staring at the camera, with the words Caption this.",
+ "format_tags": [
+  "format:caption-prompt",
+  "tactic:one-line",
+  "tactic:comment-prompt"
+ ],
+ "experiment": {
+  "hook": "prompt",
+  "format": "caption-this",
+  "week": "2026-W45"
+ }
+}

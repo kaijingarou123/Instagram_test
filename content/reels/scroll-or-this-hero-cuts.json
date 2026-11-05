@@ -1,0 +1,103 @@
+{
+ "slug": "scroll-or-this-hero-cuts",
+ "format": "mood",
+ "variant_of": "scroll-or-this-peacock",
+ "xfade": 0.12,
+ "species": "Heron, European bee-eater, brown bear, Indian peafowl, Indian leopard, common kingfisher",
+ "cuts": [
+  {
+   "card": "black",
+   "dur": 1.7
+  },
+  {
+   "media": "heron-catch-hd/01.webm",
+   "start": 0.4,
+   "dur": 2.3,
+   "focus": 0.53,
+   "focus_y": 0.38,
+   "zoom": 1.4
+  },
+  {
+   "media": "bee-eater-hd/01.webm",
+   "start": 5.0,
+   "dur": 2.2,
+   "focus": 0.55,
+   "focus_y": 0.42,
+   "zoom": 1.6
+  },
+  {
+   "media": "bear-salmon-hd/02.webm",
+   "start": 16.9,
+   "dur": 2.4,
+   "focus": 0.5,
+   "focus_y": 0.62,
+   "zoom": 1.6
+  },
+  {
+   "media": "indian-peafowl-hd/01.webm",
+   "start": 24.2,
+   "dur": 2.6,
+   "focus": 0.45
+  },
+  {
+   "media": "indian-leopard-hd/01.webm",
+   "start": 8.2,
+   "dur": 2.1,
+   "focus": [
+    0.45,
+    0.52
+   ]
+  },
+  {
+   "media": "common-kingfisher-hd/01.webm",
+   "start": 12.4,
+   "dur": 2.0,
+   "focus": 0.45
+  },
+  {
+   "card": "black",
+   "dur": 2.6
+  }
+ ],
+ "lines": [
+  {
+   "text": "Another hour of scrolling?",
+   "from": 0,
+   "to": 1.6,
+   "pos": "center"
+  },
+  {
+   "text": "Or this.",
+   "from": 1.75,
+   "to": 3.2,
+   "pos": "top"
+  },
+  {
+   "text": "Want more of this?\nFollow for more.",
+   "from": 14.2,
+   "pos": "center"
+  }
+ ],
+ "music": "komiku-action-discovery",
+ "cover_at": 5.6,
+ "caption": "Six hunters and show-offs in fifteen seconds: a heron striking, a bee-eater with a dragonfly, a brown bear charging for salmon, a peacock turning his train, a leopard on the move and a kingfisher on watch.\n\nSource: wild footage from Wikimedia Commons, credited below.\n\nWhich one was your favourite? Tell us in the comments, and follow for calmer, slower Reels too.",
+ "hashtags": [
+  "#wildlifeinaction",
+  "#naturelovers",
+  "#wildlifeofindia",
+  "#animalbehaviour"
+ ],
+ "sources": [],
+ "alt_text": "Black screen asking Another hour of scrolling, then fast cuts of a heron catching a fish, a bee-eater holding a dragonfly, a bear splashing through a river, a peacock turning with its train fanned, a leopard walking and a kingfisher, ending on Want more of this? Follow for more.",
+ "format_tags": [
+  "format:hero-montage",
+  "tactic:contrast-hook",
+  "tactic:follow-outro"
+ ],
+ "experiment": {
+  "hook": "contrast",
+  "format": "hero-montage",
+  "pace": "fast",
+  "week": "2026-W45"
+ }
+}

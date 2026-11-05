@@ -1,0 +1,60 @@
+{
+ "slug": "spectacled-langur-caption-this",
+ "format": "reel",
+ "reel_format": "mood",
+ "size": "1080x1920",
+ "fps": 30,
+ "duration_s": 9.5,
+ "lines": [
+  "Caption this."
+ ],
+ "cuts": 1,
+ "experiment": {
+  "hook": "prompt",
+  "format": "caption-this",
+  "week": "2026-W45"
+ },
+ "audio": "music: Grieg, Peer Gynt Suite No. 1, Op. 46 - III. Anitra's Dance.ogg (CC0)",
+ "music": {
+  "title": "Grieg, Peer Gynt Suite No. 1, Op. 46 - III. Anitra's Dance.ogg",
+  "licence": "CC0",
+  "source_class": "classical-pd",
+  "content_id": false,
+  "source_url": "https://commons.wikimedia.org/wiki/File:Grieg,_Peer_Gynt_Suite_No._1,_Op._46_-_III._Anitra's_Dance.ogg"
+ },
+ "photo_credits": [
+  "Dusky leaf monkey, Trachypithecus obscurus - Kaeng Krachan National Park.webm by Rushenb, CC BY-SA 3.0"
+ ],
+ "video_source": {
+  "license": "CC BY-SA 3.0"
+ },
+ "synthetic_voice": false,
+ "ai_music": false,
+ "ai_disclosure": "none needed (real footage, no AI imagery or voice)",
+ "caption_chars": 558,
+ "hashtags": [
+  "#spectacledlangur",
+  "#leafmonkey",
+  "#primates",
+  "#funnyanimals"
+ ],
+ "format_tags": [
+  "format:caption-prompt",
+  "tactic:one-line",
+  "tactic:comment-prompt"
+ ],
+ "sources": [
+  "https://www.iucnredlist.org/species/22039/"
+ ],
+ "video_credits": [
+  {
+   "artist": "Rushenb",
+   "license": "CC BY-SA 3.0",
+   "title": "Dusky leaf monkey, Trachypithecus obscurus - Kaeng Krachan National Park.webm",
+   "page": "https://commons.wikimedia.org/wiki/File:Dusky_leaf_monkey,_Trachypithecus_obscurus_-_Kaeng_Krachan_National_Park.webm"
+  }
+ ],
+ "alt_text": "A dusky leaf monkey with white rings around its eyes sitting among bamboo and staring at the camera, with the words Caption this.",
+ "variant_of": null,
+ "needs_owner_approval": true
+}
