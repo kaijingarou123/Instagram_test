@@ -60,6 +60,8 @@ h1,h2,h3{font-family:var(--display);text-wrap:balance;margin:0;letter-spacing:-.
 .tabs .ct{font-family:var(--mono);font-size:11px;background:var(--sunk);color:var(--ink2);border-radius:999px;padding:0 7px}
 .tabs .ct.hot{background:var(--ochre-wash);color:var(--ochre)}
 .tabs .ct.red{background:var(--bad-wash);color:var(--bad)}
+.tabs .ct{display:inline-flex;align-items:center;gap:3px}
+.tabs .ct svg{width:11px;height:11px;stroke:currentColor}
 
 .wrap{max-width:1320px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:22px 70px}
 .pagehead{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:10px 20px;margin-bottom:18px}
@@ -96,6 +98,7 @@ h1,h2,h3{font-family:var(--display);text-wrap:balance;margin:0;letter-spacing:-.
 .alert.warn{background:var(--ochre-wash);color:var(--ochre);border-color:var(--ochre)}
 .alert ul{margin:4px 0 0;padding-left:18px;font-weight:500}
 .alert svg{width:20px;height:20px;flex:none;stroke:currentColor;margin-top:1px}
+.alert a{color:inherit;text-decoration:underline}
 
 .kpis{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:12px;margin-bottom:16px}
 .kpi{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:13px 15px 9px;min-width:0;box-shadow:var(--shadow)}
@@ -280,6 +283,39 @@ textarea{min-height:80px;resize:vertical}
 .tl li:first-child{border-top:0}
 .tl .when{color:var(--muted);font-size:11.5px;font-family:var(--mono)}
 .checklist{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:6px;font-size:13.5px}
+.empty.rich{display:flex;flex-direction:column;align-items:center;gap:6px;padding:26px 18px}
+.empty.rich b{color:var(--ink);font-family:var(--display);font-size:15.5px;font-weight:600}
+.empty.rich span{max-width:58ch}
+.empty.rich svg{width:26px;height:26px;stroke:var(--moss)}
+
+/* what's new */
+.wn{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.wn .eyebrow{margin-bottom:8px}
+.wn .brief li{font-size:13.5px}
+.wn .brief{gap:8px}
+
+/* safety */
+.sechead{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:8px 16px;margin:6px 0 12px}
+.sechead h2{font-size:20px;font-weight:600}
+.sechead p{margin:2px 0 0;color:var(--ink2);font-size:13px;max-width:72ch}
+.ru{list-style:none;margin:0;padding:0}
+.ru li{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:6px 14px;padding:10px 0;border-top:1px solid var(--line);align-items:start}
+.ru li:first-child{border-top:0;padding-top:0}
+.ru .t{font-weight:600;font-size:13.5px;line-height:1.35}
+.ru .rval{font-size:13px;color:var(--ink2);margin-top:2px}
+.ru .rp{display:flex;flex-direction:column;align-items:flex-end;gap:4px}
+.card.never{border-top:3px solid var(--bad)}
+.park summary{cursor:pointer;display:flex;gap:6px 10px;flex-wrap:wrap;align-items:baseline;list-style:none}
+.park summary::-webkit-details-marker{display:none}
+.park summary b{font-family:var(--display);font-size:15px;font-weight:600}
+.fls{list-style:none;margin:0;padding:0}
+.fl{display:grid;grid-template-columns:10px minmax(0,1fr) auto;gap:4px 12px;padding:12px 0;border-top:1px solid var(--line);align-items:start}
+.fl:first-child{border-top:0;padding-top:2px}
+.fl .dot{width:9px;height:9px;border-radius:50%;margin-top:6px}
+.fl .fh{display:flex;flex-wrap:wrap;gap:6px 8px;align-items:center}
+.fl .fe{margin:6px 0 4px;font-size:13px;color:var(--ink2);overflow-wrap:anywhere}
+.fl .halt{font-size:12px;color:var(--bad);font-weight:600;margin-top:2px}
+#seclog{scroll-margin-top:140px}
 
 /* chat drawer */
 .drawer{position:fixed;top:0;right:0;bottom:0;width:min(460px,100%);background:var(--surface);border-left:1px solid var(--line);display:flex;flex-direction:column;z-index:30;box-shadow:-16px 0 40px rgba(0,0,0,.18);padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);padding-right:env(safe-area-inset-right,0px)}
@@ -293,8 +329,8 @@ textarea{min-height:80px;resize:vertical}
 .toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(20px + env(safe-area-inset-bottom,0px));background:var(--ink);color:var(--surface);border-radius:10px;padding:9px 16px;font-size:13px;z-index:40;font-weight:600}
 
 @media (max-width:1180px){.kpis{grid-template-columns:repeat(3,minmax(0,1fr))}.planwrap{grid-template-columns:minmax(0,1fr)}.c3{grid-column:span 6}.c4,.c5,.c7,.c8,.c6{grid-column:span 12}}
-@media (max-width:860px){.board{grid-template-columns:repeat(2,minmax(0,1fr))}.cal,.calhead{grid-template-columns:minmax(0,1fr)}.calhead{display:none}.day{min-height:0}.day.empty-day{display:none}.addform{grid-template-columns:minmax(0,1fr)}}
-@media (max-width:560px){.kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.board{grid-template-columns:minmax(0,1fr)}.c3{grid-column:span 12}.lc{grid-template-columns:minmax(0,1fr)}.pagehead h1{font-size:23px}.tl li{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:860px){.wn{grid-template-columns:minmax(0,1fr)}.board{grid-template-columns:repeat(2,minmax(0,1fr))}.cal,.calhead{grid-template-columns:minmax(0,1fr)}.calhead{display:none}.day{min-height:0}.day.empty-day{display:none}.addform{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:560px){.kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.board{grid-template-columns:minmax(0,1fr)}.c3{grid-column:span 12}.lc{grid-template-columns:minmax(0,1fr)}.pagehead h1{font-size:23px}.tl li{grid-template-columns:minmax(0,1fr)}.ru li{grid-template-columns:minmax(0,1fr)}.ru .rp{flex-direction:row;flex-wrap:wrap;align-items:center}.fl{grid-template-columns:10px minmax(0,1fr)}.fl>.btn{grid-column:2;justify-self:start}}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 </style>
 
@@ -320,7 +356,7 @@ textarea{min-height:80px;resize:vertical}
 <script>
 (() => {
 // ================================================================ constants
-const TABS = [["summary","Summary"],["plan","Plan"],["calendar","Calendar"],["posts","Posts"],["studio","Studio"],["learn","Learn"],["audience","Audience"],["more","More"]];
+const TABS = [["summary","Summary"],["plan","Plan"],["calendar","Calendar"],["posts","Posts"],["studio","Studio"],["safety","Safety"],["learn","Learn"],["audience","Audience"],["more","More"]];
 const FORMATS = [["single-shot","Tender single shot"],["perspective","Perspective"],["fact-line","One fact on screen"],["numbered-collection","Numbered collection"],["caption-prompt","Caption this"],["contrast-reveal","Contrast reveal"],["hero-montage","Fast hero montage"],["new","Something new"]];
 const FMT_NAME = Object.fromEntries(FORMATS);
 const GROUPS_A = [["mammal","Mammals"],["bird","Birds"],["insect","Butterflies and insects"],["sea","Sea life"],["mixed","Mixed"]];
@@ -346,24 +382,18 @@ const COLS = [
 ];
 const GROUPS = {plan:["Plan","g-plan"],content:["Content","g-content"],prod:["Production","g-prod"],perf:["Performance","g-perf"],calc:["Calculated","g-calc"]};
 const STATUS_TONE = {"Idea":0,"Scripting":1,"Shoot / Design":1,"Editing":1,"In Review":2,"Approved":3,"Scheduled":3,"Published":4,"On Hold":"x","Dropped":"x"};
-const GUARD = [
-  "Instagram is read and published only through the approved connection, never by scraping or logging in.",
-  "Posting stays inside the cadence envelope: 2 carousels and up to 2 approved Reels a day, at least 3 h apart.",
-  "Any Reel that is new or changed waits for the owner's approval. Approved Reels are never overwritten.",
-  "Reels use calm nature-style music and on-screen text only. No narration and no AI voice.",
-  "Every fact has a source and every photo has a licence and credit on the closing slide.",
-  "No reposting other creators' media. Learn from their format, never copy their footage or words.",
-  "No follows, likes, comments or DMs by automation.",
-  "Error codes 4, 9, 10, 368 or any block: write a HALT marker, stop every task, notify the owner, no retry.",
-  "Copy rule: no em dashes and no emojis in captions or slides.",
-  "Competitor and link scans use web tools only, never the Instagram connection.",
-];
+// Safety tab: rule groups (rules/<id>.group), who a rule applies to, and security-log flag kinds (flags/<id>.kind)
+const RULE_GROUPS = [["cadence","Cadence by account age"],["captions","Captions and hashtags"],["media","Media, licensing and audio"],["never","NEVER"],["codes","Hard-stop codes and what happens"]];
+const APPLIES = {both:"Both accounts", earthspirit:"Earthspirit only", muddy_lessons:"Muddy Lessons only"};
+const ACCT_NAME = {earthspirit:"Earthspirit", muddy_lessons:"Muddy Lessons", both:"Both accounts"};
+const FLAG_KIND = {halt:["HALT","p-bad"], flag:["Flag","p-warn"], error:["Error code","p-bad"], guardrail:["Guardrail","p-warn"]};
+const SHIELD = `<svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7.5 3v5.5c0 4.4-3.1 8.1-7.5 9.5-4.4-1.4-7.5-5.1-7.5-9.5V6z"/></svg>`;
 
 // ================================================================ state
-const COLLS = ["dash","posts","insights","plans","experiments","competitors","connectors","decisions","activity","docs","scans","control","tasks","inputs","sheet","weekly","studio","drafts","formats"];
+const COLLS = ["dash","posts","insights","plans","experiments","competitors","connectors","decisions","activity","docs","scans","control","tasks","inputs","sheet","weekly","studio","drafts","formats","rules","flags","whatsnew"];
 const S = Object.fromEntries(COLLS.map(c => [c, {}]));
 let db = null, user = null, sample = null, assets = null, canWrite = false, ready = false, uid = null;
-const ui = {stFmt:"all", stGroup:"all", stStatus:"all", stShow:12, stReq:"all", deferred:false, planView:"list", planWho:"all", feedWho:"all", feedWeeks:1, calView:"grid", calOffset:0, sheetGroups:{plan:1,content:1,prod:1,perf:1,calc:1}, sheetStatus:"all", postStatus:"all", postKind:"all", learnTab:"top5", lastList:"#posts", insTopic:"all", insShow:"active", allTags:false, editing:null, pendingFile:null};
+const ui = {stFmt:"all", stGroup:"all", stStatus:"all", stShow:12, stReq:"all", deferred:false, planView:"list", planWho:"all", feedWho:"all", feedWeeks:1, calView:"grid", calOffset:0, sheetGroups:{plan:1,content:1,prod:1,perf:1,calc:1}, sheetStatus:"all", postStatus:"all", postKind:"all", learnTab:"tests", flagShow:"all", ruleFor:"all", lastList:"#posts", insTopic:"all", insShow:"active", allTags:false, editing:null, pendingFile:null};
 try { const s = JSON.parse(localStorage.getItem("fd-ui") || "{}"); ["calView","learnTab","sheetGroups"].forEach(k => { if (s[k] != null) ui[k] = s[k]; }); } catch (e) {}
 const saveUi = () => { try { localStorage.setItem("fd-ui", JSON.stringify({calView:ui.calView, learnTab:ui.learnTab, sheetGroups:ui.sheetGroups})); } catch (e) {} };
 
@@ -382,6 +412,7 @@ const ago = s => { if (!s) return "never"; const m = (Date.now() - new Date(s)) 
 const vals = o => Object.values(o || {});
 const by = (k, dir = -1) => (a, b) => (String(a[k] || "") < String(b[k] || "") ? -dir : String(a[k] || "") > String(b[k] || "") ? dir : 0);
 const empty = t => `<div class="empty">${t}</div>`;
+const emptyRich = (title, text, icon = "") => `<div class="empty rich">${icon}<b>${esc(title)}</b><span>${text}</span></div>`;
 const isUrl = u => /^https?:\/\//i.test(u || "");
 const link = (u, t) => isUrl(u) ? `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(t || u)}</a>` : esc(t || u || "");
 const card = (title, body, {sub = "", cls = "c6", note = ""} = {}) => `<section class="card ${cls}"><div class="ch"><h2>${esc(title)}</h2>${sub ? `<span class="sub">${sub}</span>` : ""}</div>${body}${note ? `<p class="note">${note}</p>` : ""}</section>`;
@@ -440,8 +471,17 @@ function taskList() {
   });
 }
 const TASK_TONE = {on:["Running on schedule","var(--good)","p-good"], running:["Working now","var(--tide)","p-tide"], paused:["Paused from this page","var(--warn)","p-warn"], off:["Off in the Claude app","var(--muted)",""], stale:["Late: no run when expected","var(--bad)","p-bad"], failed:["Last run failed","var(--bad)","p-bad"]};
+// Security log: a flag needs the owner when it is still open and nobody has acknowledged it.
+const unackFlags = () => vals(S.flags).filter(f => f.state !== "cleared" && !f.acknowledged_at).sort(by("at"));
+function flagAlert() {
+  const uf = unackFlags(); if (!uf.length) return null;
+  const l = uf[0], n = uf.length;
+  const text = `${n} safety flag${n > 1 ? "s" : ""} not yet acknowledged. Latest: ${l.rule_or_code || "a flag"}${l.task ? ` in ${l.task}` : ""}, ${dt(l.at)} IST.`;
+  return [uf.some(f => f.kind === "halt") ? "bad" : "warn", text, `${esc(text)} <a href="#safety">Open Safety</a>`];
+}
 function alerts() {
   const out = [], st = S.dash.state || {};
+  const fa = flagAlert(); if (fa) out.push(fa);
   if (st.halt) out.push(["bad", `Posting is halted: ${st.halt}`]);
   const ts = taskList();
   ts.filter(t => t.stale).forEach(t => out.push(["bad", `${t.name} has not run since ${dt(t.last_run_at)} IST.`]));
@@ -453,11 +493,14 @@ function alerts() {
   if (lastPub && (Date.now() - new Date(lastPub.published_at)) / 36e5 > 24) out.push(["warn", `Nothing posted since ${dt(lastPub.published_at)} IST.`]);
   return out;
 }
-function alertBar() {
-  const a = alerts(); if (!a.length) return "";
+function alertBox(a) {
+  if (!a.length) return "";
   const bad = a.some(x => x[0] === "bad");
-  return `<div class="alert ${bad ? "" : "warn"}" role="status"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l9.5 17h-19z"/><path d="M12 10v4M12 17v.5"/></svg><div>${bad ? "Needs attention" : "Heads up"}<ul>${a.map(x => `<li>${esc(x[1])}</li>`).join("")}</ul></div></div>`;
+  return `<div class="alert ${bad ? "" : "warn"}" role="status"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l9.5 17h-19z"/><path d="M12 10v4M12 17v.5"/></svg><div>${bad ? "Needs attention" : "Heads up"}<ul>${a.map(x => `<li>${x[2] || esc(x[1])}</li>`).join("")}</ul></div></div>`;
 }
+// alertBar marks itself used, so render() can add the safety line to pages that do not show the full bar.
+function alertBar() { alertBar.used = true; return alertBox(alerts()); }
+const flagBar = () => { const f = flagAlert(); return f ? alertBox([f]) : ""; };
 
 // ================================================================ plan helpers
 const HZ = [["now","Now"],["this week","This week"],["next week","Next week"],["later","Later"]];
@@ -545,6 +588,7 @@ V.summary = () => {
     ${kpi("Shares", num(t.shares), [`share rate ${pct(st.share_rate)}`])}
   </div>
   ${top5Card(true)}
+  ${whatsNewCard()}
   <div class="g">
     ${card("Briefing", `<ul class="brief">${brief.map(([c, x]) => `<li style="--dot:${c}">${esc(x)}</li>`).join("")}</ul>`, {cls:"c7"})}
     ${card("Needs you", needs.length ? `<div class="rows">${needs.slice(0, 6).map(n => `<div class="r"><div><div class="t">${esc(n.title)}</div><div class="m">${esc(n.why)}</div></div><a class="btn sm" href="${n.href}">Open</a></div>`).join("")}</div>` : empty("Nothing is waiting on you."), {cls:"c5", sub:`${needs.length} open`})}
@@ -567,6 +611,23 @@ function top5Card(compact) {
         ${!compact && it.change ? `<div class="t5c"><b>What changes:</b> ${esc(it.change)}</div>` : ""}${it.acted_note ? `<div class="t5c" style="color:var(--moss-ink)"><b>Done so far:</b> ${esc(it.acted_note)}</div>` : it.status === "accepted" ? `<div class="t5c sub">Accepted. The agent acts on it at its next hourly check.</div>` : ""}${!compact && it.evidence ? `<div class="t5c"><b>Evidence:</b> ${esc(it.evidence)}</div>` : ""}
         <div class="t5f">${whoPill(it.owner === "human" ? "human" : "agent")}<span class="pill ${cls}">${lab}</span>${canWrite && !["done","skipped"].includes(it.status) ? `${it.status !== "accepted" && it.status !== "doing" ? `<button class="btn sm pri" type="button" data-t5="${i}" data-s="accepted">Accept</button>` : ""}<button class="btn sm" type="button" data-t5="${i}" data-s="done">Mark done</button><button class="btn sm" type="button" data-t5="${i}" data-s="skipped">Skip</button>` : ""}</div></div></li>`; }).join("")}</ol>
     ${!compact && vals(S.weekly).length > 1 ? `<details style="margin-top:10px"><summary class="sub" style="cursor:pointer">Earlier weeks</summary>${vals(S.weekly).sort(by("week")).slice(1).map(o => `<div style="margin-top:8px"><b class="sub">${esc(o.week)}</b><ol style="margin:4px 0;padding-left:20px;font-size:13px">${(o.items || []).map(it => `<li>${esc(it.title)} <span class="sub">(${esc((T5[it.status] || T5.proposed)[0])})</span></li>`).join("")}</ol></div>`).join("")}</details>` : ""}</section>`;
+}
+// What's new: written by the Monday review into whatsnew/<ISO week>.
+function whatsNewCard() {
+  const all = vals(S.whatsnew).sort(by("week")), w = all[0];
+  const head = sub => `<div class="ch"><h2>What's new this week</h2>${sub ? `<span class="sub">${sub}</span>` : ""}</div>`;
+  if (!w) return `<section class="card" style="margin-bottom:16px">${head("")}${emptyRich("Nothing here yet", "The Monday review fills this in every week: the new posts, any change to the rules, and ideas worth trying.")}</section>`;
+  const ln = (t, l) => !l ? esc(t) : String(l).startsWith("#") ? `<a href="${esc(l)}">${esc(t)}</a>` : isUrl(l) ? link(l, t) : esc(t);
+  const src = s => !s ? "" : ` <span class="sub">(${isUrl(s) ? link(s, "source") : esc(s)})</span>`;
+  const lists = o => [
+    ["New content", "var(--moss)", o.new_content || [], x => ln(x.text, x.link), "No new posts this week."],
+    ["Rule changes", "var(--ochre)", o.rule_changes || [], x => esc(x.text), "No rule changes this week."],
+    ["Suggestions", "var(--tide)", o.suggestions || [], x => esc(x.text) + src(x.source), "No suggestions this week."],
+  ];
+  const col = ([title, color, items, fmt, none]) => `<div style="min-width:0"><div class="eyebrow">${title}</div>${items.length ? `<ul class="brief">${items.map(x => `<li style="--dot:${color}"><span>${fmt(x)}</span></li>`).join("")}</ul>` : `<div class="sub">${none}</div>`}</div>`;
+  return `<section class="card" style="margin-bottom:16px">${head(`Week ${esc(w.week || "")}${w.written_at ? ` · written ${esc(ago(w.written_at))}` : ""}`)}
+    <div class="wn">${lists(w).map(col).join("")}</div>
+    ${all.length > 1 ? `<details style="margin-top:12px"><summary class="sub" style="cursor:pointer">Earlier weeks</summary>${all.slice(1).map(o => `<div style="margin-top:10px"><b class="sub">${esc(o.week)}</b><div class="wn" style="margin-top:6px">${lists(o).map(col).join("")}</div></div>`).join("")}</details>` : ""}</section>`;
 }
 function loopStrip(w) {
   const items = (w.items || []).slice(0, 5), decided = items.filter(it => it.status && it.status !== "proposed").length, done = items.filter(it => it.status === "done").length;
@@ -706,12 +767,12 @@ V.post = slug => {
 };
 
 V.learn = () => {
-  const tabs = seg("learnTab", [["top5","Top 5 this week"],["inputs",`Your inputs ${vals(S.inputs).length + vals(S.scans).length}`],["scores","What the numbers say"],["experiments",`Experiments ${vals(S.experiments).length}`],["insights",`All insights ${vals(S.insights).filter(i => i.status !== "dropped").length}`]], ui.learnTab);
+  const tabs = seg("learnTab", [["tests","This week's 3 tests"],["top5","Top 5 this week"],["inputs",`Your inputs ${vals(S.inputs).length + vals(S.scans).length}`],["scores","What the numbers say"],["experiments",`Experiments ${vals(S.experiments).length}`],["insights",`All insights ${vals(S.insights).filter(i => i.status !== "dropped").length}`]], ui.learnTab);
   const rv = S.control.review || {};
   return `<div class="pagehead"><div><h1>Learn</h1><p>Show the agent Reels, posts and ideas you like. It studies them, writes what it learned, and proposes a post you approve before anything changes.</p></div>
     <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">${rv.requested_at ? `<span class="sub">Review requested ${esc(ago(rv.requested_at))}${rv.finished_at && rv.finished_at > rv.requested_at ? `, done ${esc(ago(rv.finished_at))}` : ", waiting for the next run"}</span>` : ""}${canWrite ? `<button class="btn pri" id="reviewBtn" type="button">Run review now</button>` : ""}</div></div>
   <div style="margin-bottom:16px">${tabs}</div>
-  ${({top5:() => top5Card(false) + `<p class="note">Insights and experiments are the agent's working notes. They feed this list, and you can read them under All insights.</p>`, inputs:learnInputs, insights:learnInsights, experiments:learnExperiments, scores:learnScores})[ui.learnTab]?.() || learnInputs()}`;
+  ${({tests:learnTests, top5:() => top5Card(false) + `<p class="note">Insights and experiments are the agent's working notes. They feed this list, and you can read them under All insights.</p>`, inputs:learnInputs, insights:learnInsights, experiments:learnExperiments, scores:learnScores})[ui.learnTab]?.() || learnInputs()}`;
 };
 const STAGES = [["received","Received"],["analysed","Analysed"],["proposed","Proposed"],["decided","Your call"],["scheduled","Scheduled"],["measured","Measured"]];
 function stageOf(x) { if (x.status === "measured") return 5; if (x.status === "scheduled") return 4; if (x.decision) return 3; if (x.status === "proposed") return 2; if (x.status === "analysed" || x.status === "scanned") return 1; return 0; }
@@ -744,6 +805,28 @@ function learnInsights() {
   const groups = {}; list.forEach(i => (groups[i.category || "other"] ||= []).push(i));
   return `<div class="sheetbar">${seg("insTopic", [["all","All topics"], ...topics.map(t => [t, t[0].toUpperCase() + t.slice(1)])], ui.insTopic)}${seg("insShow", [["active","Active"],["dropped","Dropped"],["all","All"]], ui.insShow)}</div>
   <div class="g">${Object.entries(groups).map(([g, is]) => card(g[0].toUpperCase() + g.slice(1), `<div class="rows">${is.map(i => `<div class="r"><div><div class="t" style="${i.status === "dropped" ? "text-decoration:line-through;color:var(--muted)" : ""}">${esc(i.text)}</div><div class="m">${esc(i.status)} · ${esc(i.confidence || "")} confidence</div><details><summary class="sub" style="cursor:pointer">Evidence</summary><p style="font-size:12.5px;margin:6px 0">${esc(i.evidence || "")}</p></details></div><span class="sub">${esc(ago(i.updated_at))}</span></div>`).join("")}</div>`, {cls:"c6", sub:`${is.length}`})).join("") || `<div class="c12">${empty("No insights match.")}</div>`}</div>`;
+}
+// This week's 3 tests: running experiments first (soonest read date, then most recently updated),
+// topped up with the newest proposed ones when fewer than three are running.
+function weekTests() {
+  const ex = vals(S.experiments), due = e => e.due_at || e.read_at || "";
+  const run = ex.filter(e => e.status === "running").sort((a, b) => (due(a) ? 0 : 1) - (due(b) ? 0 : 1) || String(due(a)).localeCompare(String(due(b))) || String(b.updated_at || "").localeCompare(String(a.updated_at || "")));
+  const made = e => String(e.created_at || e.started_at || e.updated_at || "");
+  const prop = ex.filter(e => e.status === "proposed").sort((a, b) => made(b).localeCompare(made(a)));
+  return [...run, ...prop].slice(0, 3);
+}
+function learnTests() {
+  const ts = weekTests(), nRun = ts.filter(e => e.status === "running").length;
+  if (!ts.length) return `<section class="card t5"><div class="ch"><h2>This week's 3 tests</h2></div>${emptyRich("No tests running", "The Monday review picks up to three tests from the Top 5 and the numbers. Each one shows here with its posts and the day its result is read.")}</section>`;
+  const when = e => e.due_at ? ["Due", e.due_at] : e.read_at ? ["Result read on", e.read_at] : null;
+  const posts = e => { const ps = e.posts || []; if (!ps.length) return `<span class="sub">No posts in it yet</span>`;
+    return `<span style="display:flex;gap:6px;flex-wrap:wrap">${ps.slice(0, 8).map(s => `<a class="pill" href="#post-${esc(s)}" style="text-decoration:none;white-space:normal">${esc(post(s)?.headline || s)}</a>`).join("")}${ps.length > 8 ? `<span class="sub">and ${ps.length - 8} more</span>` : ""}</span>`; };
+  return `<section class="card t5"><div class="ch"><h2>This week's 3 tests</h2><span class="sub">${nRun} running${ts.length > nRun ? ` · ${ts.length - nRun} proposed` : ""}</span></div>
+    <ol class="t5l">${ts.map((e, i) => { const w = when(e);
+      return `<li><div class="t5n">${i + 1}</div><div style="min-width:0"><div class="t5t">${esc(e.hypothesis || "Untitled test")}</div>
+        <dl class="kv" style="margin-top:8px"><dt>Change</dt><dd>${esc(e.change || "Not set")}</dd><dt>Metric</dt><dd>${esc(e.metric || "Not set")}</dd><dt>Posts</dt><dd>${posts(e)}</dd><dt>Result so far</dt><dd>${esc(e.result || "Too early to say.")}</dd>${w ? `<dt>${w[0]}</dt><dd>${esc(day(w[1]))} <span class="sub">(${esc(ago(w[1]))})</span></dd>` : ""}</dl>
+        <div class="t5f"><span class="pill ${e.status === "running" ? "p-tide" : "p-warn"}">${e.status === "running" ? "Running" : "Proposed"}</span><span class="sub">${e.started_at ? `Started ${esc(day(e.started_at))} · ` : ""}updated ${esc(ago(e.updated_at))}</span></div></div></li>`; }).join("")}</ol>
+    <p class="note">Finished tests and their verdicts are under Experiments.</p></section>`;
 }
 function learnExperiments() {
   const ex = vals(S.experiments).sort((a, b) => (a.status === "running" ? 0 : 1) - (b.status === "running" ? 0 : 1));
@@ -816,6 +899,41 @@ V.studio = () => {
   </section>`;
 };
 
+// Safety: the rules every post follows (rules collection) and the security log (flags collection).
+V.safety = () => {
+  const rules = vals(S.rules), flags = vals(S.flags).sort(by("at"));
+  const openN = flags.filter(f => f.state !== "cleared").length, unack = unackFlags().length;
+  const groups = [...RULE_GROUPS]; rules.forEach(r => { if (r.group && !groups.some(g => g[0] === r.group)) groups.push([r.group, r.group]); });
+  const keep = r => ui.ruleFor === "all" || !r.applies || r.applies === "both" || r.applies === ui.ruleFor;
+  const kindTag = r => r.kind === "platform" ? `<span class="pill p-good">Platform limit, fixed</span>` : `<span class="pill p-warn">${r.changed_at ? `Our choice, changed ${esc(day(r.changed_at))}` : "Our choice, adjustable"}</span>`;
+  const ruleRow = r => `<li><div style="min-width:0"><div class="t">${esc(r.text)}</div>${r.value ? `<div class="rval">${esc(r.value)}</div>` : ""}${r.source ? `<div class="sub">Source: ${esc(r.source)}</div>` : ""}</div><div class="rp">${kindTag(r)}<span class="pill">${esc(APPLIES[r.applies] || APPLIES.both)}</span></div></li>`;
+  const ruleCards = groups.map(([k, l]) => { const rs = rules.filter(r => (r.group || "") === k && keep(r)).sort((a, b) => (a.order ?? 999) - (b.order ?? 999));
+    return rs.length ? card(l, `<ul class="ru">${rs.map(ruleRow).join("")}</ul>`, {cls:k === "never" ? "c6 never" : "c6", sub:`${rs.length}`}) : ""; }).join("");
+  const parked = `<details class="card c12 park"><summary><b>YouTube: parked</b><span class="sub">Nothing posts to YouTube, so none of its rules apply yet.</span></summary><p class="note">The YouTube rules stay in the guardrails skill. They appear here when a channel goes live.</p></details>`;
+  const list = flags.filter(f => ui.flagShow === "all" || (ui.flagShow === "open" ? f.state !== "cleared" : f.state === "cleared"));
+  const flagRow = f => { const [kl, kc] = FLAG_KIND[f.kind] || FLAG_KIND.flag, open = f.state !== "cleared";
+    return `<li class="fl"><span class="dot" style="background:${open ? "var(--bad)" : "var(--good)"}"></span>
+      <div style="min-width:0"><div class="fh"><b>${esc(f.rule_or_code || "Flag")}</b><span class="pill ${kc}">${kl}</span><span class="pill ${open ? "p-bad" : "p-good"}">${open ? "Open" : `Cleared${f.cleared_at ? " " + esc(day(f.cleared_at)) : ""}`}</span></div>
+      <div class="sub">${esc(dt(f.at))} IST · ${esc(ACCT_NAME[f.account] || f.account || "Account not recorded")}${f.task ? " · " + esc(f.task) : ""}</div>
+      ${f.evidence ? `<p class="fe">${esc(f.evidence)}</p>` : ""}
+      ${f.acknowledged_at ? `<div class="sub">Acknowledged ${esc(dt(f.acknowledged_at))} IST${f.acknowledged_by ? ` by ${f.acknowledged_by === uid ? "you" : "an editor"}` : ""}</div>` : ""}
+      ${open && f.kind === "halt" ? `<div class="halt">Only you can clear a HALT, by deleting the HALT file.</div>` : ""}</div>
+      ${open && !f.acknowledged_at && canWrite ? `<button class="btn sm" type="button" data-ack="${esc(f.id)}">Acknowledge</button>` : ""}</li>`; };
+  return `${alertBar()}
+  <div class="pagehead"><div><h1>Safety</h1><p>The rules every post follows, and a log of every stop and flag. Platform limits come from Instagram and do not change. Our choices are settings you can change; each change is dated.</p></div>
+    ${flags.length ? `<button class="btn ${unack ? "pri" : ""}" type="button" data-jump="seclog">${SHIELD}Security log${openN ? ` · ${openN} open` : ""}</button>` : ""}</div>
+  <div class="sechead"><div><h2>Rules</h2><p>Loaded from the platform-guardrails rules and the owner's decisions. Instagram only.</p></div>${seg("ruleFor", [["all","All"],["earthspirit","Earthspirit"],["muddy_lessons","Muddy Lessons"]], ui.ruleFor)}</div>
+  <div class="g">${rules.length ? ruleCards || `<div class="c12">${empty("No rules apply to this account.")}</div>` : `<div class="c12">${emptyRich("No rules loaded yet", "The insight agent loads them from the platform-guardrails rules and the owner's decisions on its next run. Until then the rules still apply; they are just not shown here.", SHIELD)}</div>`}${parked}</div>
+  <section class="card" id="seclog" style="margin-top:22px"><div class="ch"><h2>Security log</h2><span class="sub">${openN} open · ${unack} not yet acknowledged</span></div>
+    ${flags.length ? `<div style="margin-bottom:12px">${seg("flagShow", [["all",`All ${flags.length}`],["open",`Open ${openN}`],["cleared",`Cleared ${flags.length - openN}`]], ui.flagShow)}</div>
+      ${list.length ? `<ul class="fls">${list.map(flagRow).join("")}</ul>` : empty("No flags match this filter.")}`
+    : emptyRich("No flags yet", "Every HALT, hard-stop error code and guardrail stop lands here with its evidence, newest first.", SHIELD)}
+    <p class="note">Acknowledge records that you have seen a flag. It never clears a HALT. Only you can clear a HALT, by deleting the HALT file.</p></section>`;
+};
+function ackFlag(id, btn) {
+  return guarded(async () => { await db.doc("flags/" + id).update({acknowledged_at:now(), acknowledged_by:uid || "owner"}); }, btn, "Acknowledged. This does not clear a HALT.");
+}
+
 V.audience = () => {
   const au = S.dash.audience || {}, tags = (au.hashtags || []).slice().sort((a, b) => (b.avg_reach || 0) - (a.avg_reach || 0));
   const shown = ui.allTags ? tags : tags.slice(0, 20), mx = Math.max(1, ...tags.map(t => t.avg_reach || 0));
@@ -833,10 +951,10 @@ V.audience = () => {
 V.more = () => {
   const conns = vals(S.connectors), acts = vals(S.activity).flatMap(m => m.events || []).sort(by("at")).slice(0, 80);
   const lib = S.dash.library || {}, dec = vals(S.decisions).sort(by("at"));
-  return `<div class="pagehead"><div><h1>More</h1><p>Health, the rules the automation follows, the activity log and where our facts come from.</p></div></div>
+  return `<div class="pagehead"><div><h1>More</h1><p>Health, the activity log, owner decisions and where our facts come from.</p></div></div>
   <div class="g">
     ${card("Connections", `<div class="rows">${conns.map(c => `<div class="r"><div><div class="t">${esc(c.name)}</div><div class="m">${esc(c.detail || "")}</div></div><span class="pill ${c.status === "ok" ? "p-good" : c.status === "fail" ? "p-bad" : "p-warn"}"><i></i>${c.status === "ok" ? "Healthy" : c.status === "fail" ? "Failing" : "Check"}</span></div>`).join("") || empty("No checks yet.")}</div>`, {cls:"c6"})}
-    ${card("Rules the automation follows", `<ol class="checklist">${GUARD.map(g => `<li>${esc(g)}</li>`).join("")}</ol>`, {cls:"c6", note:"The full rules live in the platform-guardrails skill and research/posting-limits.md."})}
+    ${card("Rules the automation follows", `<p style="margin:0;font-size:13.5px">The full rules now live on the Safety tab. Each one says whether it is an Instagram limit or our own choice, and which account it applies to. The security log of every HALT and flag is there too.</p><a class="btn sm" href="#safety" style="margin-top:12px;text-decoration:none;color:var(--ink)">Open Safety</a>`, {cls:"c6"})}
     ${card("Activity", `<ul class="tl">${acts.map(a => `<li><span class="when">${esc(dt(a.at))}</span><span><b>${esc(a.title)}</b><br><span style="color:var(--ink2);font-size:12.5px">${esc(a.detail || "")}</span></span></li>`).join("") || empty("No activity yet.")}</ul>`, {cls:"c7", sub:"latest 80"})}
     ${card("Owner decisions", `<div class="rows" style="max-height:460px;overflow:auto">${dec.map(d => `<div class="r"><div><div class="t">${esc(d.title)}</div><div class="m">${esc(d.reason || "")}</div></div><span class="sub">${esc(day(d.at))}</span></div>`).join("")}</div>`, {cls:"c5"})}
     ${card("Sources and licences", `<div class="g"><div class="c6"><table class="t"><thead><tr><th>Source</th><th class="n">Facts</th></tr></thead><tbody>${(lib.source_domains || []).slice(0, 10).map(s => `<tr><td>${esc(s.domain)}</td><td class="n">${s.count}</td></tr>`).join("")}</tbody></table></div><div class="c6"><table class="t"><thead><tr><th>Photo licence</th><th class="n">Photos</th></tr></thead><tbody>${(lib.licences || []).map(s => `<tr><td>${esc(s.licence)}</td><td class="n">${s.count}</td></tr>`).join("")}</tbody></table></div></div>`, {cls:"c12"})}
@@ -849,8 +967,10 @@ function renderTabs() {
   const r = route(), cur = r.startsWith("post-") ? "posts" : r;
   const al = alerts(), nd = needsYou().length, pend = vals(S.inputs).filter(x => x.status === "proposed" && !x.decision).length;
   const stw = vals(S.drafts).filter(d => d.status === "ready").length;
-  const badge = {studio:stw ? [stw, "hot"] : null, summary:al.some(a => a[0] === "bad") ? ["!", "red"] : null, plan:nd ? [nd, "hot"] : null, learn:pend ? [pend, "hot"] : null};
-  document.getElementById("tabs").innerHTML = TABS.map(([k, l]) => `<a href="#${k}" ${k === cur ? 'aria-current="page"' : ""}>${l}${badge[k] ? `<span class="ct ${badge[k][1]}">${badge[k][0]}</span>` : ""}</a>`).join("");
+  const uf = unackFlags().length;
+  const badge = {studio:stw ? [stw, "hot"] : null, summary:al.some(a => a[0] === "bad") ? ["!", "red"] : null, plan:nd ? [nd, "hot"] : null, learn:pend ? [pend, "hot"] : null,
+    safety:uf ? [SHIELD + uf, "red", `${uf} open flag${uf > 1 ? "s" : ""} not yet acknowledged`] : null};
+  document.getElementById("tabs").innerHTML = TABS.map(([k, l]) => `<a href="#${k}" ${k === cur ? 'aria-current="page"' : ""}>${l}${badge[k] ? `<span class="ct ${badge[k][1]}"${badge[k][2] ? ` title="${esc(badge[k][2])}" aria-label="${esc(badge[k][2])}"` : ""}>${badge[k][0]}</span>` : ""}</a>`).join("");
 }
 function render() {
   if (!ready || ui.editing) return;
@@ -860,7 +980,9 @@ function render() {
   const sx = document.getElementById("sheet")?.scrollLeft, sy = document.getElementById("sheet")?.scrollTop;
   const drafts = {}; ["inUrl","inNote","inType","planTitle","planDetail"].forEach(id => { const el = document.getElementById(id); if (el) drafts[id] = el.value; });
   const focus = document.activeElement?.id;
-  view.innerHTML = r.startsWith("post-") ? V.post(r.slice(5)) : (V[r] || V.summary)();
+  alertBar.used = false;
+  const html = r.startsWith("post-") ? V.post(r.slice(5)) : (V[r] || V.summary)();
+  view.innerHTML = (alertBar.used ? "" : flagBar()) + html;
   Object.entries(drafts).forEach(([id, v]) => { const el = document.getElementById(id); if (el) el.value = v; });
   if (focus) document.getElementById(focus)?.focus();
   const sh = document.getElementById("sheet"); if (sh && sx != null) { sh.scrollLeft = sx; sh.scrollTop = sy; }
@@ -883,6 +1005,8 @@ view.addEventListener("click", async e => {
   if (b.dataset.cal) { ui.calOffset = b.dataset.cal === "0" ? 0 : ui.calOffset + +b.dataset.cal; return render(); }
   if (b.dataset.grp) { ui.sheetGroups[b.dataset.grp] = ui.sheetGroups[b.dataset.grp] ? 0 : 1; saveUi(); return render(); }
   if (b.id === "tagsBtn") { ui.allTags = !ui.allTags; return render(); }
+  if (b.dataset.jump) { document.getElementById(b.dataset.jump)?.scrollIntoView({behavior:"smooth", block:"start"}); return; }
+  if (b.dataset.ack) return ackFlag(b.dataset.ack, b);
   if (b.dataset.t5) return setTop5(b.dataset.t5, b.dataset.s, b);
   if (b.dataset.dd) return decideDraft(b.dataset.slug, b.dataset.dd, b);
   if (b.dataset.fmt) return guarded(async () => { const f = S.formats[b.dataset.fmt]; const {id, ...rest} = f; await db.doc("formats/" + b.dataset.fmt).set({...rest, status:b.dataset.to, updated_at:now(), updated_by:uid}); }, b, b.dataset.to === "retired" ? "Retired. New Reels stop using it." : "Back in use.");
