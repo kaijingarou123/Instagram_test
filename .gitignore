@@ -37,3 +37,6 @@ inputs/
 
 # Archived renders, safe to delete in one go
 archive/
+
+# Studio previews live in the artifact, not on Pages
+output/studio/

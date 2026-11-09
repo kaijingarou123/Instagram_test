@@ -127,6 +127,18 @@ h1,h2,h3{font-family:var(--display);text-wrap:balance;margin:0;letter-spacing:-.
 .postnav{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:12px;flex-wrap:wrap}
 .postnav a.btn{text-decoration:none;color:var(--ink)}
 
+/* studio */
+.reels{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:16px}
+.rc{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column;box-shadow:var(--shadow);min-width:0}
+.rv{aspect-ratio:9/16;background:#000;max-width:100%}
+.rv video,.rv img,.rv .ph{width:100%;height:100%;object-fit:cover;display:block}
+.rb{padding:10px 12px 12px;display:flex;flex-direction:column;gap:5px;min-width:0}
+.rt{font-family:var(--display);font-weight:600;font-size:14.5px;line-height:1.3}
+.ra{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+.ra .btn{white-space:normal;text-align:left}
+.rn{display:flex;gap:6px;flex-wrap:wrap;width:100%}
+.rn input{flex:1;min-width:120px;padding:5px 8px;font-size:12.5px}
+
 /* plan list */
 .tgrp{padding:10px 0;border-top:1px solid var(--line)}
 .tgrp:first-child{border-top:0}
@@ -308,11 +320,16 @@ textarea{min-height:80px;resize:vertical}
 <script>
 (() => {
 // ================================================================ constants
-const TABS = [["summary","Summary"],["plan","Plan"],["calendar","Calendar"],["posts","Posts"],["learn","Learn"],["audience","Audience"],["more","More"]];
+const TABS = [["summary","Summary"],["plan","Plan"],["calendar","Calendar"],["posts","Posts"],["studio","Studio"],["learn","Learn"],["audience","Audience"],["more","More"]];
+const FORMATS = [["single-shot","Tender single shot"],["perspective","Perspective"],["fact-line","One fact on screen"],["numbered-collection","Numbered collection"],["caption-prompt","Caption this"],["contrast-reveal","Contrast reveal"],["hero-montage","Fast hero montage"],["new","Something new"]];
+const FMT_NAME = Object.fromEntries(FORMATS);
+const GROUPS_A = [["mammal","Mammals"],["bird","Birds"],["insect","Butterflies and insects"],["sea","Sea life"],["mixed","Mixed"]];
+const DRAFT_ST = {ready:["Ready for you","p-warn"], queued:["In the queue","p-tide"], test:["Posting next as a test","p-tide"], posted:["Posted","p-good"], rejected:["Rejected",""], changes:["Changes asked","p-warn"]};
 const TASK_DEFAULTS = [
   {id:"earthspirit-autopost", name:"Autopost", every_h:1, what:"Posts the next queued item in its IST slot"},
   {id:"instagram-insight-agent", name:"Insight agent", every_h:6, what:"Reads metrics, updates insights and plan, refreshes this page"},
   {id:"earthspirit-weekly-content", name:"Weekly content", every_h:168, what:"Researches and renders new carousels and Reels on Thursdays"},
+  {id:"earthspirit-reel-studio", name:"Reel Studio", every_h:1, what:"Renders your Studio requests and acts on your Reel decisions"},
   {id:"earthspirit-watchdog", name:"Watchdog", every_h:3, what:"Checks the other tasks are running and not stuck"},
 ];
 // Content calendar columns, from Muddy_Lessons_Content_Calendar.xlsx (Content Calendar tab)
@@ -343,10 +360,10 @@ const GUARD = [
 ];
 
 // ================================================================ state
-const COLLS = ["dash","posts","insights","plans","experiments","competitors","connectors","decisions","activity","docs","scans","control","tasks","inputs","sheet","weekly"];
+const COLLS = ["dash","posts","insights","plans","experiments","competitors","connectors","decisions","activity","docs","scans","control","tasks","inputs","sheet","weekly","studio","drafts","formats"];
 const S = Object.fromEntries(COLLS.map(c => [c, {}]));
 let db = null, user = null, sample = null, assets = null, canWrite = false, ready = false, uid = null;
-const ui = {planView:"list", planWho:"all", feedWho:"all", feedWeeks:1, calView:"grid", calOffset:0, sheetGroups:{plan:1,content:1,prod:1,perf:1,calc:1}, sheetStatus:"all", postStatus:"all", postKind:"all", learnTab:"top5", lastList:"#posts", insTopic:"all", insShow:"active", allTags:false, editing:null, pendingFile:null};
+const ui = {stFmt:"all", stGroup:"all", stStatus:"all", stShow:12, stReq:"all", deferred:false, planView:"list", planWho:"all", feedWho:"all", feedWeeks:1, calView:"grid", calOffset:0, sheetGroups:{plan:1,content:1,prod:1,perf:1,calc:1}, sheetStatus:"all", postStatus:"all", postKind:"all", learnTab:"top5", lastList:"#posts", insTopic:"all", insShow:"active", allTags:false, editing:null, pendingFile:null};
 try { const s = JSON.parse(localStorage.getItem("fd-ui") || "{}"); ["calView","learnTab","sheetGroups"].forEach(k => { if (s[k] != null) ui[k] = s[k]; }); } catch (e) {}
 const saveUi = () => { try { localStorage.setItem("fd-ui", JSON.stringify({calView:ui.calView, learnTab:ui.learnTab, sheetGroups:ui.sheetGroups})); } catch (e) {} };
 
@@ -547,7 +564,7 @@ function top5Card(compact) {
     ${w.headline ? `<p class="t5h">${esc(w.headline)}</p>` : ""}
     <ol class="t5l">${items.map((it, i) => { const [lab, cls] = T5[it.status || "proposed"] || T5.proposed;
       return `<li><div class="t5n">${i + 1}</div><div style="min-width:0"><div class="t5t">${esc(it.title)}</div><div class="t5w">${esc(it.why || "")}</div>
-        ${!compact && it.change ? `<div class="t5c"><b>What changes:</b> ${esc(it.change)}</div>` : ""}${!compact && it.evidence ? `<div class="t5c"><b>Evidence:</b> ${esc(it.evidence)}</div>` : ""}
+        ${!compact && it.change ? `<div class="t5c"><b>What changes:</b> ${esc(it.change)}</div>` : ""}${it.acted_note ? `<div class="t5c" style="color:var(--moss-ink)"><b>Done so far:</b> ${esc(it.acted_note)}</div>` : it.status === "accepted" ? `<div class="t5c sub">Accepted. The agent acts on it at its next hourly check.</div>` : ""}${!compact && it.evidence ? `<div class="t5c"><b>Evidence:</b> ${esc(it.evidence)}</div>` : ""}
         <div class="t5f">${whoPill(it.owner === "human" ? "human" : "agent")}<span class="pill ${cls}">${lab}</span>${canWrite && !["done","skipped"].includes(it.status) ? `${it.status !== "accepted" && it.status !== "doing" ? `<button class="btn sm pri" type="button" data-t5="${i}" data-s="accepted">Accept</button>` : ""}<button class="btn sm" type="button" data-t5="${i}" data-s="done">Mark done</button><button class="btn sm" type="button" data-t5="${i}" data-s="skipped">Skip</button>` : ""}</div></div></li>`; }).join("")}</ol>
     ${!compact && vals(S.weekly).length > 1 ? `<details style="margin-top:10px"><summary class="sub" style="cursor:pointer">Earlier weeks</summary>${vals(S.weekly).sort(by("week")).slice(1).map(o => `<div style="margin-top:8px"><b class="sub">${esc(o.week)}</b><ol style="margin:4px 0;padding-left:20px;font-size:13px">${(o.items || []).map(it => `<li>${esc(it.title)} <span class="sub">(${esc((T5[it.status] || T5.proposed)[0])})</span></li>`).join("")}</ol></div>`).join("")}</details>` : ""}</section>`;
 }
@@ -748,6 +765,57 @@ function learnScores() {
   ${card("By format", `<div class="tw"><table class="t"><thead><tr><th>Format</th><th class="n">Posts</th><th class="n">Avg reach</th><th class="n">Avg likes</th><th class="n">Saves</th><th class="n">Shares</th><th class="n">Comments</th></tr></thead><tbody>${rows.map(r => `<tr><td>${esc(r.k[0].toUpperCase() + r.k.slice(1))}</td><td class="n">${r.n}</td><td class="n">${num(r.reach)}<span class="bar" style="width:${Math.round(50 * r.reach / mx)}px"></span></td><td class="n">${num(r.likes, 1)}</td><td class="n">${num(r.saves)}</td><td class="n">${num(r.shares)}</td><td class="n">${num(r.comments)}</td></tr>`).join("")}</tbody></table></div>`, {cls:"", sub:`${pubs.length} published posts`})}`;
 }
 
+V.studio = () => {
+  const reqs = vals(S.studio).sort(by("requested_at"));
+  const drafts = vals(S.drafts).sort(by("created_at"));
+  const fmts = vals(S.formats).sort((a, b) => (a.status === "active" ? 0 : a.status === "trial" ? 1 : 2) - (b.status === "active" ? 0 : b.status === "trial" ? 1 : 2));
+  const list = drafts.filter(d => (ui.stFmt === "all" || d.format === ui.stFmt) && (ui.stGroup === "all" || d.group === ui.stGroup)
+    && (ui.stStatus === "all" || d.status === ui.stStatus) && (ui.stReq === "all" || d.request_id === ui.stReq));
+  const shown = ui.stShow === "all" ? list : list.slice(0, +ui.stShow);
+  const waiting = drafts.filter(d => d.status === "ready").length;
+  const form = canWrite ? `<form id="studioForm" class="card" style="margin-bottom:16px"><div class="ch"><h2>Ask for test Reels</h2><span class="sub">Claude renders them within the hour and they appear below</span></div>
+    <div class="g"><div class="c6"><div class="field"><label for="stIdea">Your idea</label><textarea id="stIdea" maxlength="800" placeholder="Slow owl Reel with no text for the first 5 seconds, then one line. Or: a 3-animal mother and baby series."></textarea></div></div>
+    <div class="c6"><div class="g" style="gap:10px">
+      <div class="field c6"><label for="stFormat">Format</label><select id="stFormat"><option value="any">Let Claude pick</option>${FORMATS.map(([k, l]) => `<option value="${k}">${esc(l)}</option>`).join("")}</select></div>
+      <div class="field c6"><label for="stCount">How many examples</label><select id="stCount">${[1, 2, 3, 4, 5].map(n => `<option ${n === 3 ? "selected" : ""}>${n}</option>`).join("")}</select></div>
+      <div class="field c6"><label for="stAnimals">Animals (optional)</label><input type="text" id="stAnimals" maxlength="120" placeholder="owls, tigers, any butterflies"></div>
+      <div class="field c6"><label for="stMood">Mood</label><select id="stMood"><option value="calm">Calm</option><option value="upbeat">Upbeat</option><option value="any">Either</option></select></div>
+      <div class="field c12"><label for="stRef">Based on (optional)</label><select id="stRef"><option value="">Nothing in particular</option>${vals(S.inputs).map(x => `<option value="input:${esc(x.id)}">Your input: ${esc((x.note || x.url || x.filename || "").slice(0, 60))}</option>`).join("")}${drafts.slice(0, 30).map(d => `<option value="draft:${esc(d.slug)}">Reel: ${esc(d.title || d.slug)}</option>`).join("")}</select></div>
+    </div></div></div>
+    <div style="display:flex;gap:10px;align-items:center"><button class="btn pri" type="submit" id="stSubmit">Make test Reels</button><span class="msgline" id="stMsg"></span></div></form>` : "";
+  const reqRow = r => `<li class="srow"><span class="dot" style="background:${r.status === "ready" ? "var(--good)" : r.status === "rendering" ? "var(--tide)" : r.status === "failed" ? "var(--bad)" : "var(--warn)"}"></span>
+    <span class="sn"><b>${esc((r.idea || "").slice(0, 90))}</b><span class="sub">${esc(FMT_NAME[r.format] || "Any format")} · ${r.count || 3} examples${r.from_top5 ? " · from Top 5" : ""}${r.by === "agent" ? " · asked by the agent" : ""}</span></span>
+    <span class="pill ${r.status === "ready" ? "p-good" : r.status === "failed" ? "p-bad" : "p-tide"}">${esc(r.status === "requested" ? "Waiting" : r.status === "rendering" ? "Rendering" : r.status === "ready" ? "Ready" : r.status === "failed" ? "Could not render" : r.status)}</span>
+    <span class="sub">${esc(ago(r.requested_at))}${r.note ? " · " + esc(r.note) : ""}</span></li>`;
+  const rcard = d => { const [lab, cls] = DRAFT_ST[d.status] || DRAFT_ST.ready;
+    return `<article class="rc"><div class="rv">${d.preview_url ? `<video src="${esc(d.preview_url)}" ${d.cover_url ? `poster="${esc(d.cover_url)}"` : ""} controls playsinline preload="none" loop></video>` : d.cover_url ? `<img src="${esc(d.cover_url)}" alt="">` : `<div class="ph"></div>`}</div>
+      <div class="rb"><div style="display:flex;gap:6px;flex-wrap:wrap"><span class="pill ${cls}">${esc(lab)}</span><span class="pill">${esc(FMT_NAME[d.format] || d.format || "Reel")}</span></div>
+      <div class="rt">${esc(d.title || d.slug)}</div>
+      ${d.line ? `<div class="sub">On screen: "${esc(d.line)}"</div>` : ""}
+      <div class="sub">${esc(d.animals || "")}${d.duration_s ? ` · ${num(d.duration_s, 1)} s` : ""}${d.grade ? ` · ${esc(d.grade)} grade` : ""}${d.music ? ` · ${esc(d.music)}` : ""}</div>
+      ${d.decision_note ? `<div class="sub">Your note: ${esc(d.decision_note)}</div>` : ""}
+      ${canWrite && d.status === "ready" ? `<div class="ra"><button class="btn sm pri" type="button" data-dd="approve" data-slug="${esc(d.slug)}">Approve for the queue</button><button class="btn sm" type="button" data-dd="test" data-slug="${esc(d.slug)}">Post next as a test</button><button class="btn sm" type="button" data-dd="format" data-slug="${esc(d.slug)}">Use this format from next week</button>
+        <div class="rn"><input type="text" id="dn-${esc(d.slug)}" placeholder="What should change?" maxlength="300"><button class="btn sm" type="button" data-dd="changes" data-slug="${esc(d.slug)}">Ask for changes</button><button class="btn sm stop" type="button" data-dd="reject" data-slug="${esc(d.slug)}">Reject</button></div></div>` : ""}
+      ${canWrite && ["queued", "posted"].includes(d.status) && d.format && !vals(S.formats).some(f => f.id === d.format && f.status === "active") ? `<div class="ra"><button class="btn sm" type="button" data-dd="format" data-slug="${esc(d.slug)}">Use this format from next week</button></div>` : ""}
+      </div></article>`; };
+  const statusOpts = [["all", `All ${drafts.length}`], ...Object.entries(DRAFT_ST).map(([k, [l]]) => [k, `${l} ${drafts.filter(d => d.status === k).length}`]).filter(o => !/ 0$/.test(o[1]))];
+  return `<div class="pagehead"><div><h1>Reel Studio</h1><p>Describe an idea and Claude renders test Reels with real footage. Watch them here, then approve one for the queue, post one next as a test, or make its format part of next week's content.</p></div>${waiting ? `<span class="pill p-warn">${waiting} waiting for you</span>` : ""}</div>
+  ${form}
+  ${reqs.length ? `<section class="card" style="margin-bottom:16px"><div class="ch"><h2>Requests</h2><span class="sub">${reqs.filter(r => r.status !== "ready").length} in progress</span></div><ul class="slist">${reqs.slice(0, 8).map(reqRow).join("")}</ul></section>` : ""}
+  <div class="sheetbar">
+    <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center">
+      <select id="stFFmt" aria-label="Format" style="width:auto"><option value="all">All formats</option>${FORMATS.map(([k, l]) => `<option value="${k}" ${ui.stFmt === k ? "selected" : ""}>${esc(l)}</option>`).join("")}</select>
+      <select id="stFGroup" aria-label="Animals" style="width:auto"><option value="all">All animals</option>${GROUPS_A.map(([k, l]) => `<option value="${k}" ${ui.stGroup === k ? "selected" : ""}>${esc(l)}</option>`).join("")}</select>
+      <select id="stFReq" aria-label="Request" style="width:auto"><option value="all">From any request</option>${reqs.map(r => `<option value="${esc(r.id)}" ${ui.stReq === r.id ? "selected" : ""}>${esc((r.idea || "").slice(0, 40))}</option>`).join("")}</select>
+      <select id="stFShow" aria-label="How many" style="width:auto">${[6, 12, 24, "all"].map(n => `<option value="${n}" ${String(ui.stShow) === String(n) ? "selected" : ""}>Show ${n === "all" ? "all" : n}</option>`).join("")}</select>
+    </div>${seg("stStatus", statusOpts, ui.stStatus)}</div>
+  ${shown.length ? `<div class="reels">${shown.map(rcard).join("")}</div>${list.length > shown.length ? `<p class="note">Showing ${shown.length} of ${list.length}. Change "Show" to see more.</p>` : ""}` : empty(drafts.length ? "No Reels match these filters." : "No test Reels yet. Describe an idea above and Claude renders the first examples within the hour.")}
+  <section class="card" style="margin-top:18px"><div class="ch"><h2>Formats in use</h2><span class="sub">The weekly content run makes Reels only in active formats</span></div>
+    ${fmts.length ? `<div class="rows">${fmts.map(f => `<div class="r"><div><div class="t">${esc(f.name || FMT_NAME[f.id] || f.id)}</div><div class="m">${esc(f.desc || "")}${f.example ? ` · example: ${esc(f.example)}` : ""}${f.active_from && f.status !== "retired" ? ` · from ${esc(day(f.active_from))}` : ""}</div></div>
+      <span style="display:flex;gap:6px;align-items:center"><span class="pill ${f.status === "active" ? "p-good" : f.status === "trial" ? "p-warn" : ""}">${f.status === "active" ? "In use" : f.status === "trial" ? "Starts next week" : "Retired"}</span>${canWrite ? `<button class="btn sm" type="button" data-fmt="${esc(f.id)}" data-to="${f.status === "retired" ? "active" : "retired"}">${f.status === "retired" ? "Bring back" : "Retire"}</button>` : ""}</span></div>`).join("")}</div>` : empty("No formats recorded yet.")}
+  </section>`;
+};
+
 V.audience = () => {
   const au = S.dash.audience || {}, tags = (au.hashtags || []).slice().sort((a, b) => (b.avg_reach || 0) - (a.avg_reach || 0));
   const shown = ui.allTags ? tags : tags.slice(0, 20), mx = Math.max(1, ...tags.map(t => t.avg_reach || 0));
@@ -780,11 +848,14 @@ const route = () => (location.hash || "#summary").slice(1);
 function renderTabs() {
   const r = route(), cur = r.startsWith("post-") ? "posts" : r;
   const al = alerts(), nd = needsYou().length, pend = vals(S.inputs).filter(x => x.status === "proposed" && !x.decision).length;
-  const badge = {summary:al.some(a => a[0] === "bad") ? ["!", "red"] : null, plan:nd ? [nd, "hot"] : null, learn:pend ? [pend, "hot"] : null};
+  const stw = vals(S.drafts).filter(d => d.status === "ready").length;
+  const badge = {studio:stw ? [stw, "hot"] : null, summary:al.some(a => a[0] === "bad") ? ["!", "red"] : null, plan:nd ? [nd, "hot"] : null, learn:pend ? [pend, "hot"] : null};
   document.getElementById("tabs").innerHTML = TABS.map(([k, l]) => `<a href="#${k}" ${k === cur ? 'aria-current="page"' : ""}>${l}${badge[k] ? `<span class="ct ${badge[k][1]}">${badge[k][0]}</span>` : ""}</a>`).join("");
 }
 function render() {
   if (!ready || ui.editing) return;
+  if ([...document.querySelectorAll("#view video")].some(v => !v.paused && !v.ended)) { ui.deferred = true; return; }
+  ui.deferred = false;
   const r = route(), view = document.getElementById("view");
   const sx = document.getElementById("sheet")?.scrollLeft, sy = document.getElementById("sheet")?.scrollTop;
   const drafts = {}; ["inUrl","inNote","inType","planTitle","planDetail"].forEach(id => { const el = document.getElementById(id); if (el) drafts[id] = el.value; });
@@ -796,6 +867,8 @@ function render() {
   if (ui.pendingFile) { const t = document.getElementById("dropTxt"); if (t) t.textContent = ui.pendingFile.name; document.getElementById("drop")?.classList.add("on"); }
   renderTabs();
 }
+document.addEventListener("pause", e => { if (ui.deferred && e.target.tagName === "VIDEO") setTimeout(render, 300); }, true);
+document.addEventListener("ended", e => { if (ui.deferred && e.target.tagName === "VIDEO") setTimeout(render, 300); }, true);
 let raf = 0; const schedule = () => { if (raf) return; raf = requestAnimationFrame(() => { raf = 0; render(); }); };
 addEventListener("hashchange", e => { const from = new URL(e.oldURL).hash || "#summary"; if (!from.startsWith("#post-")) ui.lastList = from; render(); scrollTo(0, 0); });
 
@@ -811,6 +884,8 @@ view.addEventListener("click", async e => {
   if (b.dataset.grp) { ui.sheetGroups[b.dataset.grp] = ui.sheetGroups[b.dataset.grp] ? 0 : 1; saveUi(); return render(); }
   if (b.id === "tagsBtn") { ui.allTags = !ui.allTags; return render(); }
   if (b.dataset.t5) return setTop5(b.dataset.t5, b.dataset.s, b);
+  if (b.dataset.dd) return decideDraft(b.dataset.slug, b.dataset.dd, b);
+  if (b.dataset.fmt) return guarded(async () => { const f = S.formats[b.dataset.fmt]; const {id, ...rest} = f; await db.doc("formats/" + b.dataset.fmt).set({...rest, status:b.dataset.to, updated_at:now(), updated_by:uid}); }, b, b.dataset.to === "retired" ? "Retired. New Reels stop using it." : "Back in use.");
   if (b.dataset.done) return planChange(b.dataset.done, {status:"done"}, "Marked done on the Plan page", b, "Done.");
   if (b.dataset.drop) return planChange(b.dataset.drop, {status:"dropped"}, "Dropped on the Plan page", b, "Dropped.");
   if (b.dataset.move) return planChange(b.dataset.move, {horizon:b.dataset.hz}, "Moved to " + b.dataset.hz + " on the Plan page", b, "Moved.");
@@ -821,6 +896,8 @@ view.addEventListener("click", async e => {
 });
 view.addEventListener("change", e => {
   if (e.target.id === "sheetStatus") { ui.sheetStatus = e.target.value; render(); }
+  const stMap = {stFFmt:"stFmt", stFGroup:"stGroup", stFReq:"stReq", stFShow:"stShow"};
+  if (stMap[e.target.id]) { ui[stMap[e.target.id]] = e.target.value; render(); }
   if (e.target.id === "inFile") pickFile(e.target.files[0]);
 });
 view.addEventListener("dragover", e => { const d = e.target.closest("#drop"); if (d) { e.preventDefault(); d.classList.add("on"); } });
@@ -830,6 +907,7 @@ view.addEventListener("submit", async e => {
   e.preventDefault();
   if (e.target.id === "planForm") return addPlan();
   if (e.target.id === "inputForm") return addInput();
+  if (e.target.id === "studioForm") return addStudioRequest();
 });
 const now = () => new Date().toISOString();
 async function guarded(fn, btn, okMsg) {
@@ -848,6 +926,29 @@ function pauseTask(id, pause, btn) {
 }
 function requestReview(btn) {
   return guarded(async () => { const cur = S.control.review || {}; await db.doc("control/review").set({...cur, requested_at:now(), requested_by:uid}); }, btn, "Review requested. The agent runs it on its next check.");
+}
+async function addStudioRequest() {
+  const idea = document.getElementById("stIdea").value.trim(), msg = document.getElementById("stMsg"), btn = document.getElementById("stSubmit");
+  if (!idea) { msg.textContent = "Describe the idea in a line or two."; return; }
+  const ref = document.getElementById("stRef").value;
+  btn.disabled = true; msg.textContent = "Sending...";
+  try {
+    const id = "req-" + new Date().toISOString().replace(/[-:T]/g, "").slice(0, 12);
+    await db.doc("studio/" + id).set({idea:idea.slice(0, 800), format:document.getElementById("stFormat").value, count:+document.getElementById("stCount").value,
+      animals:document.getElementById("stAnimals").value.trim().slice(0, 120), mood:document.getElementById("stMood").value, ref:ref || null,
+      status:"requested", requested_at:now(), by:"owner", by_uid:uid});
+    document.getElementById("stIdea").value = ""; document.getElementById("stAnimals").value = "";
+    msg.textContent = "Sent. Claude renders the examples within the hour; they appear below.";
+  } catch (err) { msg.textContent = "Could not send it. You may not have edit access."; }
+  finally { btn.disabled = false; }
+}
+function decideDraft(slug, dec, btn) {
+  const d = S.drafts[slug]; if (!d) return;
+  const note = document.getElementById("dn-" + slug)?.value.trim() || "";
+  if (dec === "changes" && !note) { toast("Write what should change first."); return; }
+  const status = {approve:"queued", test:"test", reject:"rejected", changes:"changes"}[dec] || d.status;
+  const ok = {approve:"Approved. It joins the queue on the next Studio run.", test:"It posts as the next Reel, in the next free slot.", format:"Saved. Next week's content uses this format.", reject:"Rejected.", changes:"Sent back. New versions appear here."}[dec];
+  return guarded(async () => { const {id, ...rest} = d; await db.doc("drafts/" + slug).set({...rest, status, decision:dec, decision_note:note.slice(0, 300), decided_at:now(), decided_by:uid, handled_at:null}); }, btn, ok);
 }
 function planChange(id, patch, note, btn, ok) {
   const p = S.plans[id]; if (!p) return;
