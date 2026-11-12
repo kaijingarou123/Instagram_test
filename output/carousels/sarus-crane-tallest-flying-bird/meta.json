@@ -1,0 +1,49 @@
+{
+  "slug": "sarus-crane-tallest-flying-bird",
+  "format": "carousel",
+  "size": "1080x1350",
+  "slides": [
+    "01.jpg",
+    "02.jpg",
+    "03.jpg",
+    "04.jpg",
+    "05.jpg",
+    "06.jpg",
+    "07.jpg"
+  ],
+  "alt_texts": [
+    "Two wild sarus cranes with red heads standing in grass at Keoladeo National Park, India, headline 'The tallest flying bird is as tall as you'",
+    "A pair of wild sarus cranes calling with bills pointed skyward, with the statistic 1.8 m standing height",
+    "An adult sarus crane with a red head and a brown-headed juvenile beside a lake at Jawai Bandh, Rajasthan, with text on their farmland and wetland habitat",
+    "Wild sarus crane dancing with wings spread in Keoladeo National Park, with text on pairs dancing and trumpeting",
+    "Two juvenile sarus cranes with brown heads walking by a lake at Jawai Bandh, Rajasthan, with text on nests and eggs",
+    "Wild sarus crane standing in grass at Keoladeo National Park, with text on its Vulnerable IUCN status",
+    "Adult sarus crane feeding a juvenile in shallow water at Lumbini, Nepal, closing slide with sources and photo credits"
+  ],
+  "caption_chars": 712,
+  "hashtags": [
+    "#saruscrane",
+    "#cranes",
+    "#indianbirds",
+    "#wetlandbirds",
+    "#naturestudy"
+  ],
+  "format_tags": [
+    "format:explainer",
+    "format:fact-over-footage",
+    "tactic:hook-text"
+  ],
+  "sources": [
+    "https://www.iucnredlist.org/species/22692064/93335364",
+    "https://animaldiversity.org/accounts/Grus_antigone/"
+  ],
+  "photo_credits": [
+    "Photo: Giles Laurent · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Shiv's fotografia · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Tisha Mukherjee · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Giles Laurent · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Tisha Mukherjee · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Giles Laurent · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Charles J. Sharp · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

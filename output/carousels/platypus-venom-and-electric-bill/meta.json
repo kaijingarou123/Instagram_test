@@ -1,0 +1,50 @@
+{
+  "slug": "platypus-venom-and-electric-bill",
+  "format": "carousel",
+  "size": "1080x1350",
+  "slides": [
+    "01.jpg",
+    "02.jpg",
+    "03.jpg",
+    "04.jpg",
+    "05.jpg",
+    "06.jpg",
+    "07.jpg"
+  ],
+  "alt_texts": [
+    "Wild platypus swimming at the surface of a green river in Tasmania, headline 'This mammal lays eggs and senses electricity'",
+    "Wild platypus seen from the side at the water surface, with the statistic 2 eggs in the usual platypus clutch",
+    "Wild platypus diving head first under water, with text explaining it shuts down sight, smell and hearing while feeding",
+    "Wild platypus seen from above showing its flat grey bill, with text on electroreceptors in the bill skin",
+    "Wild platypus swimming, webbed feet visible, with text explaining male platypuses carry venomous ankle spurs",
+    "Wild platypus at the surface of a river, with text explaining platypus young drink milk from mammary hairs",
+    "Wild platypus diving, closing slide with sources and photo credits"
+  ],
+  "caption_chars": 815,
+  "hashtags": [
+    "#platypus",
+    "#monotremes",
+    "#australianwildlife",
+    "#weirdanimals",
+    "#naturestudy"
+  ],
+  "format_tags": [
+    "format:listicle",
+    "format:fact-over-footage",
+    "tactic:hook-text"
+  ],
+  "sources": [
+    "https://www.britannica.com/animal/platypus",
+    "https://animaldiversity.org/accounts/Ornithorhynchus_anatinus/",
+    "https://pubmed.ncbi.nlm.nih.gov/10210685/"
+  ],
+  "photo_credits": [
+    "Photo: Charles J. Sharp · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Charles J. Sharp · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Charles J. Sharp · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Charles J. Sharp · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Charles J. Sharp · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Charles J. Sharp · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Charles J. Sharp · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

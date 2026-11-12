@@ -1,0 +1,26 @@
+[
+ {
+  "file": "01.webm",
+  "title": "File:Bear catching salmon.webm",
+  "page": "https://commons.wikimedia.org/wiki/File:Bear_catching_salmon.webm",
+  "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b0/Bear_catching_salmon.webm/Bear_catching_salmon.webm.1080p.vp9.webm",
+  "duration": 8.168000000000001,
+  "width": 1920,
+  "height": 1080,
+  "license": "CC BY-SA 3.0 de",
+  "artist": "Isderion",
+  "description": "A bear hunting fish near the Fish Creek Wildlife Observation Site, near Hyder, Alaska"
+ },
+ {
+  "file": "02.webm",
+  "title": "File:Brown bear fishing for salmon -- Crescent Lake, Alaska - August 2015.webm",
+  "page": "https://commons.wikimedia.org/wiki/File:Brown_bear_fishing_for_salmon_--_Crescent_Lake,_Alaska_-_August_2015.webm",
+  "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/79/Brown_bear_fishing_for_salmon_--_Crescent_Lake%2C_Alaska_-_August_2015.webm/Brown_bear_fishing_for_salmon_--_Crescent_Lake%2C_Alaska_-_August_2015.webm.1080p.vp9.webm",
+  "duration": 28.798000000000002,
+  "width": 1920,
+  "height": 1080,
+  "license": "CC BY-SA 2.0",
+  "artist": "Mike's Birds from Riverside, CA, US",
+  "description": "Brown bear (Ursus arctos) fishing for salmon at Crescent Lake, Alaska, USA."
+ }
+]

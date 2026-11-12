@@ -1,0 +1,73 @@
+{
+ "slug": "bee-eater-one-fact",
+ "format": "mood",
+ "grade": "natural",
+ "xfade": 0.3,
+ "species": "European bee-eater (Merops apiaster)",
+ "cuts": [
+  {
+   "media": "bee-eater-bee-hd/01.webm",
+   "start": 0.75,
+   "dur": 3.285,
+   "focus": 0.27,
+   "focus_y": 0.5
+  },
+  {
+   "media": "bee-eater-bee-hd/01.webm",
+   "start": 7.455,
+   "dur": 2.29,
+   "focus": 0.344,
+   "focus_y": 0.456,
+   "zoom": 1.25
+  },
+  {
+   "media": "bee-eater-bee-hd/01.webm",
+   "start": 14.755,
+   "dur": 2.29,
+   "focus": 0.344,
+   "focus_y": 0.456,
+   "zoom": 1.25
+  },
+  {
+   "media": "bee-eater-bee-hd/01.webm",
+   "start": 21.165,
+   "dur": 5.6,
+   "focus": 0.344,
+   "focus_y": 0.456,
+   "zoom": 1.25
+  }
+ ],
+ "lines": [
+  {
+   "text": "It beats the sting\nout first.",
+   "from": 3.1,
+   "pos": "top",
+   "y": 310,
+   "size": 84
+  }
+ ],
+ "music": "komiku-balance",
+ "music_start": 0.85,
+ "cover_at": 8.6,
+ "caption": "A wild European bee-eater lands with a bee in Pfyn-Finges, Switzerland, and gets to work.\n\nBee-eaters really do eat bees. Before swallowing a stinging insect, the bird hits it against its perch to pull the sting out, then tosses it up and gulps it down.\n\nSource: Animal Diversity Web, Merops apiaster.\n\nDid you spot the moment it swallowed?",
+ "hashtags": [
+  "#beeeater",
+  "#europeanbeeeater",
+  "#birdbehaviour",
+  "#birdsofeurope"
+ ],
+ "sources": [
+  "https://animaldiversity.org/accounts/Merops_apiaster/"
+ ],
+ "alt_text": "A colourful European bee-eater lands on a dead branch with wings spread, knocks a bee against the perch several times, then tosses it up and swallows it, with the words It beats the sting out first.",
+ "format_tags": [
+  "format:fact-over-footage",
+  "tactic:hook-text"
+ ],
+ "experiment": {
+  "hook": "fact",
+  "format": "fact-line",
+  "week": "2026-W46",
+  "first_second": "motion"
+ }
+}

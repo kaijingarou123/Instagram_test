@@ -1,0 +1,121 @@
+{
+  "slug": "komodo-dragon-venom-bite",
+  "slides": [
+    {
+      "type": "cover",
+      "image": "komodo-dragon/01.jpg",
+      "focus": [
+        0.45,
+        0.4
+      ],
+      "kicker": "Species spotlight",
+      "headline": "The world's largest lizard has a venomous bite.",
+      "sub": "It is not just bacteria. Researchers found venom glands in the Komodo dragon's lower jaw"
+    },
+    {
+      "type": "stat",
+      "image": "komodo-dragon/02.jpg",
+      "focus": [
+        0.4,
+        0.5
+      ],
+      "stat": "3 m",
+      "label": "long: the largest living lizard species",
+      "body": "A Komodo dragon weighs about 135 kg. The largest individuals, often males, can weigh as much as 165 kg.",
+      "source": "Britannica"
+    },
+    {
+      "type": "fact",
+      "image": "komodo-dragon/03.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ],
+      "number": "01",
+      "headline": "Venom glands in the lower jaw",
+      "body": "Researchers found a venom gland with six compartments in the lower jaw. Separate ducts open between the serrated teeth.",
+      "source": "Fry et al., PNAS (2009)"
+    },
+    {
+      "type": "fact",
+      "image": "komodo-dragon/01.jpg",
+      "focus": [
+        0.45,
+        0.4
+      ],
+      "number": "02",
+      "headline": "What the venom does",
+      "body": "It stops blood from clotting and lowers blood pressure. Bitten prey bleeds heavily and goes into shock.",
+      "source": "Fry et al., PNAS (2009); Britannica"
+    },
+    {
+      "type": "fact",
+      "image": "komodo-dragon/03.jpg",
+      "focus": [
+        0.6,
+        0.5
+      ],
+      "number": "03",
+      "headline": "Wounds and bacteria count too",
+      "body": "Herpetologists note that the physical trauma of the bite and bacteria from the mouth also play large roles in slowing and killing prey.",
+      "source": "Britannica"
+    },
+    {
+      "type": "stat",
+      "image": "komodo-dragon/02.jpg",
+      "focus": [
+        0.6,
+        0.5
+      ],
+      "stat": "1,383",
+      "label": "mature individuals recorded on the IUCN Red List",
+      "body": "Status: Endangered. Assessed in 2019 and published in 2021. The population trend is listed as stable.",
+      "source": "IUCN Red List (assessed 2019, published 2021)"
+    },
+    {
+      "type": "closing",
+      "image": "komodo-dragon/01.jpg",
+      "focus": [
+        0.45,
+        0.4
+      ],
+      "headline": "Send this to the reptile fan in your life.",
+      "body": "One species at a time, with the sources. Follow @earthspirit_nature.",
+      "sources": [
+        "Fry et al. (2009) A central role for venom in predation by Varanus komodoensis. PNAS 106:8969–8974",
+        "Britannica: Komodo dragon",
+        "Smithsonian's National Zoo: Komodo dragon",
+        "IUCN Red List: Varanus komodoensis, Endangered (assessed 2019, published 2021)"
+      ]
+    }
+  ],
+  "caption": "The Komodo dragon (Varanus komodoensis) is the largest living lizard, and its bite delivers venom.\n\nIt lives on Komodo and a few neighbouring islands in Indonesia. The 2009 study found a relatively weak skull and a low bite force, and pointed to its serrated teeth and its venom instead. At times it can smell carrion up to 4 km away, and an adult can eat up to 80 percent of its own body weight in one meal.\n\nSwipe for how the bite works. Sources on the last slide.\n\nSource: Fry et al. (2009), PNAS 106:8969–8974; Britannica; Smithsonian's National Zoo; IUCN Red List (assessed 2019, published 2021).\n\nWould you want to see a Komodo dragon in the wild?\n\nPhotos: Wikimedia Commons, CC BY 4.0, CC BY-SA 3.0 and CC BY-SA 4.0 (credits on each slide). Slides 1, 2, 4, 6 and 7 show wild dragons in Komodo National Park. The location of the photo on slides 3 and 5 is not recorded.",
+  "hashtags": [
+    "#komododragon",
+    "#monitorlizard",
+    "#reptiles",
+    "#endangeredspecies",
+    "#wildlifefacts"
+  ],
+  "sources": [
+    "https://www.pnas.org/doi/10.1073/pnas.0810883106",
+    "https://www.britannica.com/animal/Komodo-dragon",
+    "https://nationalzoo.si.edu/animals/komodo-dragon",
+    "https://www.iucnredlist.org/species/22884/123633058"
+  ],
+  "alt_texts": [
+    "Head of a wild Komodo dragon on Rinca island with its forked tongue out, headline 'The world's largest lizard has a venomous bite'",
+    "Two wild Komodo dragons on the forest floor in Komodo National Park, with the statistic 3 m long",
+    "Close-up of a Komodo dragon resting its head on its clawed foot, with text on venom glands in the lower jaw",
+    "Head of a wild Komodo dragon with its mouth open, with text explaining what the venom does",
+    "Close-up of a Komodo dragon's head and claws, with text on the role of bite wounds and bacteria",
+    "Two wild Komodo dragons in Komodo National Park, with the statistic 1,383 mature individuals and Endangered status on the IUCN Red List",
+    "Head of a wild Komodo dragon, closing slide with sources and photo credits"
+  ],
+  "format_tags": [
+    "format:fact-over-footage",
+    "format:predation",
+    "format:conservation-story",
+    "tactic:hook-text"
+  ]
+}

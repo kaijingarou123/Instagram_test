@@ -155,6 +155,7 @@ def render(spec_path):
     step = total / 10
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(mp4), "-vf", f"fps=1/{step:.3f},scale=270:-1,tile=10x1", "-frames:v", "1", str(OUT / f"{slug}-frames.jpg")], check=True)
     credit_lines = [f"Video: {c['title']} by {c['artist']}, {c['license']}, via Wikimedia Commons" for c in credits]
+    credit_lines = list(dict.fromkeys(credit_lines))  # one credit line per clip, even when several cuts reuse it
     music_line = f"Music: {track['title'].replace('File:', '')} ({track['license']}, Wikimedia Commons)"
     caption = "\n\n".join([spec["caption"].strip(), "\n".join(credit_lines + [music_line]), " ".join(spec.get("hashtags", []))])
     (OUT / f"{slug}-caption.txt").write_text(caption, encoding="utf-8")

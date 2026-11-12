@@ -1,0 +1,49 @@
+{
+  "slug": "emperor-penguin-winter-fast",
+  "format": "carousel",
+  "size": "1080x1350",
+  "slides": [
+    "01.jpg",
+    "02.jpg",
+    "03.jpg",
+    "04.jpg",
+    "05.jpg",
+    "06.jpg",
+    "07.jpg"
+  ],
+  "alt_texts": [
+    "Two adult emperor penguins standing beak to beak on Snow Hill Island, headline 'Roughly 4 months without a single meal'",
+    "Emperor penguin bowing its head to the snow beside another adult, with text on the female handing over a single egg",
+    "Emperor penguin pair leaning over a grey chick standing at their feet, with text on the male holding the egg on his feet",
+    "Emperor penguin colony on the ice under a low sun, with the statistic minus 50 degrees Celsius",
+    "Emperor penguin leaping out of the water onto the ice with a colony behind, with text on huddling to save energy",
+    "Two adult emperor penguins with a chick at their feet, with the statistic 40 percent of body mass lost",
+    "A lone emperor penguin on sea ice, closing slide with sources and photo credits"
+  ],
+  "caption_chars": 746,
+  "hashtags": [
+    "#emperorpenguin",
+    "#antarctica",
+    "#penguins",
+    "#polarwildlife",
+    "#animalfacts"
+  ],
+  "format_tags": [
+    "format:explainer",
+    "format:fact-over-footage",
+    "tactic:hook-text"
+  ],
+  "sources": [
+    "https://animaldiversity.org/accounts/Aptenodytes_forsteri/",
+    "https://www.britannica.com/animal/emperor-penguin"
+  ],
+  "photo_credits": [
+    "Photo: Denis Luyten · Wikimedia Commons · Public domain",
+    "Photo: Denis Luyten · Wikimedia Commons · Public domain",
+    "Photo: Denis Luyten · Wikimedia Commons · Public domain",
+    "Photo: Christopher Michel · Wikimedia Commons · CC BY 2.0",
+    "Photo: Christopher Michel · Wikimedia Commons · CC BY 2.0",
+    "Photo: Denis Luyten · Wikimedia Commons · Public domain",
+    "Photo: François Guerraz · Wikimedia Commons · CC BY-SA 3.0"
+  ]
+}

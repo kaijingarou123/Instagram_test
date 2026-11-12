@@ -1,0 +1,48 @@
+{
+  "slug": "arctic-tern-pole-to-pole",
+  "format": "carousel",
+  "size": "1080x1350",
+  "slides": [
+    "01.jpg",
+    "02.jpg",
+    "03.jpg",
+    "04.jpg",
+    "05.jpg",
+    "06.jpg",
+    "07.jpg"
+  ],
+  "alt_texts": [
+    "Arctic tern in flight against a blue sky in Iceland, headline 'This small seabird flies 70,900 km every year'",
+    "Arctic tern with black cap and red bill perched on a post, with the statistic 70,900 km a year",
+    "Arctic tern flying overhead with wings spread, with text on its pole to pole migration",
+    "Arctic tern standing on a black sand beach, with text comparing the southbound and northbound journeys",
+    "Arctic tern twisting in flight against a blue sky, with the statistic 520 km a day",
+    "Adult Arctic tern and a juvenile on a rock in Iceland, with text on lifetime distance equal to three trips to the Moon",
+    "Arctic tern in flight, closing slide with sources and photo credits"
+  ],
+  "caption_chars": 775,
+  "hashtags": [
+    "#arctictern",
+    "#birdmigration",
+    "#seabirds",
+    "#birdfacts"
+  ],
+  "format_tags": [
+    "format:explainer",
+    "format:fact-over-footage",
+    "tactic:hook-text"
+  ],
+  "sources": [
+    "https://www.pnas.org/doi/10.1073/pnas.0909493107",
+    "https://www.allaboutbirds.org/guide/Arctic_Tern/overview"
+  ],
+  "photo_credits": [
+    "Photo: pjt56 · Wikimedia Commons · CC BY-SA 3.0",
+    "Photo: Charles J. Sharp · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: USFWSAlaska · Wikimedia Commons · Public domain",
+    "Photo: Lucas Golden · Wikimedia Commons · CC BY 4.0",
+    "Photo: USFWSAlaska · Wikimedia Commons · Public domain",
+    "Photo: Charles J. Sharp · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: USFWSAlaska · Wikimedia Commons · Public domain"
+  ]
+}

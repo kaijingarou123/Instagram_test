@@ -1,0 +1,116 @@
+{
+  "slug": "sarus-crane-tallest-flying-bird",
+  "slides": [
+    {
+      "type": "cover",
+      "image": "sarus-crane/04.jpg",
+      "focus": [
+        0.46,
+        0.5
+      ],
+      "kicker": "Scale",
+      "headline": "The tallest flying bird is as tall as you.",
+      "sub": "Meet the sarus crane of north India's wetlands and rice fields"
+    },
+    {
+      "type": "stat",
+      "image": "antigone-antigone/01.jpg",
+      "focus": [
+        0.464,
+        0.5
+      ],
+      "stat": "1.8 m",
+      "label": "standing height of a sarus crane",
+      "body": "That is about 5.9 feet, the tallest of the flying birds. Its wings can span 2.5 m and it weighs 5–12 kg.",
+      "source": "Animal Diversity Web"
+    },
+    {
+      "type": "fact",
+      "image": "antigone-antigone/03.jpg",
+      "focus": [
+        0.44,
+        0.5
+      ],
+      "number": "01",
+      "headline": "At home in farm country",
+      "body": "They have adapted to farmland, especially low wetlands and flooded rice paddies. In India most live along the Gangetic plain and in eastern Rajasthan.",
+      "source": "Animal Diversity Web"
+    },
+    {
+      "type": "fact",
+      "image": "sarus-crane/02.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ],
+      "number": "02",
+      "headline": "Pairs dance and trumpet",
+      "body": "Pairs dance with loud trumpeting calls. It has been suggested they mate for life, though little research has tested the claim.",
+      "source": "Animal Diversity Web"
+    },
+    {
+      "type": "fact",
+      "image": "antigone-antigone/03.jpg",
+      "focus": [
+        0.73,
+        0.5
+      ],
+      "number": "03",
+      "headline": "A nest like an island",
+      "body": "Pairs build enormous nests of reeds and grasses in wetlands, often looking like islands. A clutch is usually two or three eggs.",
+      "source": "Animal Diversity Web"
+    },
+    {
+      "type": "fact",
+      "image": "sarus-crane/04.jpg",
+      "focus": [
+        0.62,
+        0.5
+      ],
+      "number": "04",
+      "headline": "Vulnerable, and declining",
+      "body": "IUCN lists the sarus crane as Vulnerable (2016), with an estimated 13,000–15,000 mature birds and a decreasing trend.",
+      "source": "IUCN Red List (2016)"
+    },
+    {
+      "type": "closing",
+      "image": "antigone-antigone/02.jpg",
+      "focus": [
+        0.55,
+        0.5
+      ],
+      "headline": "Send this to a birdwatcher.",
+      "body": "Near a flooded paddy, look for the red head. Follow @earthspirit_nature.",
+      "sources": [
+        "IUCN Red List: Grus antigone (2016) iucnredlist.org/species/22692064/93335364",
+        "Animal Diversity Web: Grus antigone"
+      ]
+    }
+  ],
+  "caption": "The sarus crane (Antigone antigone) is considered the tallest flying bird, standing about 1.8 m.\n\nIts bare red head and upper neck sit on a pale grey body, so a pair is easy to pick out across a field. Breeding pairs prefer to forage in natural wetlands, but they also feed in wet rice and wheat crops and take small aquatic animals.\n\nSwipe to size it up. Sources on the last slide.\n\nSource: IUCN Red List (2016); Animal Diversity Web.\n\nHow tall are you next to a sarus crane?\n\nPhotos: Wikimedia Commons, CC BY-SA 4.0 (credits on each slide). All show wild birds, including at Keoladeo National Park and Jawai Bandh in Rajasthan and at Lumbini, Nepal.",
+  "hashtags": [
+    "#saruscrane",
+    "#cranes",
+    "#indianbirds",
+    "#wetlandbirds",
+    "#naturestudy"
+  ],
+  "sources": [
+    "https://www.iucnredlist.org/species/22692064/93335364",
+    "https://animaldiversity.org/accounts/Grus_antigone/"
+  ],
+  "alt_texts": [
+    "Two wild sarus cranes with red heads standing in grass at Keoladeo National Park, India, headline 'The tallest flying bird is as tall as you'",
+    "A pair of wild sarus cranes calling with bills pointed skyward, with the statistic 1.8 m standing height",
+    "An adult sarus crane with a red head and a brown-headed juvenile beside a lake at Jawai Bandh, Rajasthan, with text on their farmland and wetland habitat",
+    "Wild sarus crane dancing with wings spread in Keoladeo National Park, with text on pairs dancing and trumpeting",
+    "Two juvenile sarus cranes with brown heads walking by a lake at Jawai Bandh, Rajasthan, with text on nests and eggs",
+    "Wild sarus crane standing in grass at Keoladeo National Park, with text on its Vulnerable IUCN status",
+    "Adult sarus crane feeding a juvenile in shallow water at Lumbini, Nepal, closing slide with sources and photo credits"
+  ],
+  "format_tags": [
+    "format:explainer",
+    "format:fact-over-footage",
+    "tactic:hook-text"
+  ]
+}

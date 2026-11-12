@@ -1,0 +1,51 @@
+{
+  "slug": "red-panda-not-a-panda",
+  "format": "carousel",
+  "size": "1080x1350",
+  "slides": [
+    "01.jpg",
+    "02.jpg",
+    "03.jpg",
+    "04.jpg",
+    "05.jpg",
+    "06.jpg",
+    "07.jpg"
+  ],
+  "alt_texts": [
+    "Two wild red panda siblings on a mossy branch in Langtang National Park, Nepal, one with its tongue out, headline 'The red panda is not a panda'",
+    "Wild red panda cub lying along a branch in Langtang National Park, with text explaining red pandas and giant pandas are not closely related",
+    "Wild red panda looking out from a leafy tree in Sikkim, India, with text on how it was classed with raccoons and then bears",
+    "Wild red panda siblings in Langtang National Park with the statistic 1 living member of the family Ailuridae",
+    "Captive red panda sitting on a branch among yellow autumn leaves, with text about its pseudo-thumb and bamboo diet",
+    "Wild red panda cub perched high in a tree in Langtang National Park, with text on its Endangered status and Himalayan range",
+    "Wild red panda in a tree in Sikkim, closing slide with sources and photo credits"
+  ],
+  "caption_chars": 812,
+  "hashtags": [
+    "#redpanda",
+    "#ailuridae",
+    "#sikkimwildlife",
+    "#mythbusting",
+    "#wildlifefacts"
+  ],
+  "format_tags": [
+    "format:myth-bust",
+    "format:fact-over-footage",
+    "tactic:hook-text"
+  ],
+  "sources": [
+    "https://www.iucnredlist.org/species/714/110023718",
+    "https://nationalzoo.si.edu/animals/red-panda",
+    "https://www.britannica.com/animal/red-panda",
+    "https://animaldiversity.org/accounts/Ailurus_fulgens/"
+  ],
+  "photo_credits": [
+    "Photo: Sunuwargr · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Ganga Raj Sunuwar, edit: UnpetitproleX · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Varunbgoenka · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Sunuwargr · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Mathias Appel · Wikimedia Commons · CC0",
+    "Photo: Ganga Raj Sunuwar, edit: UnpetitproleX · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Varunbgoenka · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

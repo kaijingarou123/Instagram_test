@@ -1,0 +1,54 @@
+[
+  {
+    "title": "File:Penguin in Antarctica jumping out of the water.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File%3APenguin%20in%20Antarctica%20jumping%20out%20of%20the%20water.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Penguin_in_Antarctica_jumping_out_of_the_water.jpg/1920px-Penguin_in_Antarctica_jumping_out_of_the_water.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 3989,
+    "height": 2652,
+    "license": "CC BY 2.0",
+    "artist": "Christopher Michel",
+    "credit": "Antarctica",
+    "description": "An Emperor Penguin (Aptenodytes forsteri) in Antarctica jumping out of the water.",
+    "curated": false,
+    "file": "01.jpg"
+  },
+  {
+    "title": "File:2007 Snow-Hill-Island Luyten-De-Hauwere-Emperor-Penguin-108.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File%3A2007%20Snow-Hill-Island%20Luyten-De-Hauwere-Emperor-Penguin-108.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/2007_Snow-Hill-Island_Luyten-De-Hauwere-Emperor-Penguin-108.jpg/1920px-2007_Snow-Hill-Island_Luyten-De-Hauwere-Emperor-Penguin-108.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 1940,
+    "height": 2614,
+    "license": "Public domain",
+    "artist": "Denis Luyten",
+    "credit": "Self-photographed",
+    "description": "Emperor penguin on Snow Hill",
+    "curated": false,
+    "file": "02.jpg"
+  },
+  {
+    "title": "File:2007 Snow-Hill-Island Luyten-De-Hauwere-Emperor-Penguin-87.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File%3A2007%20Snow-Hill-Island%20Luyten-De-Hauwere-Emperor-Penguin-87.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/2007_Snow-Hill-Island_Luyten-De-Hauwere-Emperor-Penguin-87.jpg/1920px-2007_Snow-Hill-Island_Luyten-De-Hauwere-Emperor-Penguin-87.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 2339,
+    "height": 1995,
+    "license": "Public domain",
+    "artist": "Denis Luyten",
+    "credit": "Self-photographed",
+    "description": "Emperor penguin on Snow Hill",
+    "curated": false,
+    "file": "03.jpg"
+  },
+  {
+    "title": "File:2007 Snow-Hill-Island Luyten-De-Hauwere-Emperor-Penguin-107.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File%3A2007%20Snow-Hill-Island%20Luyten-De-Hauwere-Emperor-Penguin-107.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/65/2007_Snow-Hill-Island_Luyten-De-Hauwere-Emperor-Penguin-107.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "width": 1712,
+    "height": 2674,
+    "license": "Public domain",
+    "artist": "Denis Luyten",
+    "credit": "Self-photographed",
+    "description": "Emperor penguin on Snow Hill",
+    "curated": false,
+    "file": "04.jpg"
+  }
+]

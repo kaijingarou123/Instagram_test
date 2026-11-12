@@ -1,0 +1,120 @@
+{
+  "slug": "one-horned-rhino-comeback",
+  "slides": [
+    {
+      "type": "cover",
+      "image": "rhinoceros-unicornis/01.jpg",
+      "focus": [
+        0.61,
+        0.5
+      ],
+      "kicker": "Conservation status",
+      "headline": "One park went from 12 rhinos to 2,613.",
+      "sub": "How the greater one-horned rhino came back from the edge"
+    },
+    {
+      "type": "fact",
+      "image": "indian-rhinoceros-kaziranga/01.jpg",
+      "focus": [
+        0.42,
+        0.5
+      ],
+      "number": "01",
+      "headline": "Around 1900, Kaziranga had 12 rhinos",
+      "body": "Today Kaziranga National Park in Assam holds an estimated 2,613, the largest population of the species.",
+      "source": "Britannica; IUCN SSC and TRAFFIC (2025)"
+    },
+    {
+      "type": "fact",
+      "image": "rhinoceros-unicornis/03.jpg",
+      "focus": [
+        0.34,
+        0.5
+      ],
+      "number": "02",
+      "headline": "It once roamed the northern plains",
+      "body": "The species ranged from the Indus valley to Assam. Hunting and the clearing of floodplain grasslands for farming wiped most of it out.",
+      "source": "Britannica; Animal Diversity Web"
+    },
+    {
+      "type": "fact",
+      "image": "indian-rhinoceros-kaziranga/01.jpg",
+      "focus": [
+        0.55,
+        0.5
+      ],
+      "number": "03",
+      "headline": "Protection worked",
+      "body": "Numbers recover quickly when floodplain grasslands, and the rhinos themselves, are protected from poaching. IUCN puts 91–100% of them inside protected areas.",
+      "source": "Britannica; IUCN Red List (assessed 2018)"
+    },
+    {
+      "type": "stat",
+      "image": "rhinoceros-unicornis/03.jpg",
+      "focus": [
+        0.62,
+        0.5
+      ],
+      "stat": "4,075",
+      "label": "greater one-horned rhinos by March 2025",
+      "body": "An estimated 3,323 in India and 752 in Nepal. Kaziranga alone holds 2,613 of them.",
+      "source": "IUCN SSC rhino specialist groups and TRAFFIC (2025)"
+    },
+    {
+      "type": "fact",
+      "image": "rhinoceros-unicornis/01.jpg",
+      "focus": [
+        0.35,
+        0.5
+      ],
+      "number": "04",
+      "headline": "Recovered, but still Vulnerable",
+      "body": "IUCN lists it as Vulnerable (assessed 2018), population increasing. But it survives at just 11 sites, and poaching for horn has not stopped.",
+      "source": "IUCN Red List (assessed 2018)"
+    },
+    {
+      "type": "closing",
+      "image": "rhinoceros-unicornis/02.jpg",
+      "focus": [
+        0.45,
+        0.4
+      ],
+      "headline": "Save this proof that protection works.",
+      "body": "One park, 12 rhinos, a century of protection. Follow @earthspirit_nature.",
+      "sources": [
+        "IUCN Red List: Rhinoceros unicornis (assessed 2018) iucnredlist.org/species/19496/18494149",
+        "IUCN SSC rhino specialist groups and TRAFFIC (2025), CITES CoP20 Doc. 84 Annex 3",
+        "Britannica: Indian rhinoceros",
+        "Animal Diversity Web: Rhinoceros unicornis"
+      ]
+    }
+  ],
+  "caption": "Around 1900, Kaziranga had about 12 greater one-horned rhinos (Rhinoceros unicornis). Today it has an estimated 2,613.\n\nNepal went through the same collapse and recovery. Chitwan's rhinos fell to 60–80 animals in the late 1960s, then climbed back past 600 by 2015. Rhinos from recovered parks have since been moved to reserves where the species had died out.\n\nSwipe to see how it happened. Sources on the last slide.\n\nSource: IUCN Red List (assessed 2018); IUCN SSC rhino specialist groups and TRAFFIC (2025); Britannica; Animal Diversity Web.\n\nHave you ever seen a rhino in the wild?\n\nPhotos: Wikimedia Commons, CC BY-SA 4.0 (credits on each slide). All show wild rhinos, in and around Chitwan National Park, Nepal, and in Kaziranga, Assam.",
+  "hashtags": [
+    "#onehornedrhino",
+    "#kaziranga",
+    "#assam",
+    "#conservationsuccess",
+    "#wildlifeeducation"
+  ],
+  "sources": [
+    "https://www.iucnredlist.org/species/19496/18494149",
+    "https://cites.org/sites/default/files/documents/E-CoP20-084-A3.pdf",
+    "https://www.britannica.com/animal/Indian-rhinoceros",
+    "https://animaldiversity.org/accounts/Rhinoceros_unicornis/"
+  ],
+  "alt_texts": [
+    "Wild greater one-horned rhino seen from behind on a floodplain near Chitwan, Nepal, head turned to the right, headline 'One park went from 12 rhinos to 2,613'",
+    "Greater one-horned rhino in tall dry grass in Kaziranga National Park, Assam, with text saying Kaziranga had 12 rhinos around 1900",
+    "Wild greater one-horned rhino standing side-on by a river in Chitwan, Nepal, with text on its former range across northern India",
+    "Greater one-horned rhino with a calf behind it in Kaziranga grassland, with text on how protection helped numbers recover",
+    "Wild greater one-horned rhino on a riverbank in Chitwan, Nepal, with the statistic 4,075 rhinos by March 2025",
+    "Wild greater one-horned rhino showing its folded armour-like skin, with text on its Vulnerable IUCN status",
+    "Close-up of a wild greater one-horned rhino's head and single horn, closing slide with sources and photo credits"
+  ],
+  "format_tags": [
+    "format:conservation-story",
+    "format:fact-over-footage",
+    "tactic:hook-text"
+  ]
+}

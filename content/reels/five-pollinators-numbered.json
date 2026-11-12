@@ -1,0 +1,133 @@
+{
+ "slug": "five-pollinators-numbered",
+ "format": "mood",
+ "grade": "natural",
+ "xfade": 0.12,
+ "species": "Hummingbird hawk-moth (Macroglossum stellatarum), bumblebee (Bombus), western honey bee (Apis mellifera), hoverfly (Sericomyia silentis), snowberry clearwing moth (Hemaris diffinis)",
+ "cuts": [
+  {
+   "media": "pollinators-hd/02.webm",
+   "start": 29.6,
+   "dur": 2.97,
+   "focus": [
+    0.56,
+    0.43
+   ]
+  },
+  {
+   "media": "pollinators-hd/05.webm",
+   "start": 73.3,
+   "focus": [
+    0.2,
+    0.36
+   ],
+   "dur": 2.64
+  },
+  {
+   "media": "pollinators-hd/12.webm",
+   "start": 0.2,
+   "dur": 2.62,
+   "focus": 0.52,
+   "focus_y": 0.55,
+   "zoom": 1.4
+  },
+  {
+   "media": "pollinators-hd/06.webm",
+   "start": 28.2,
+   "dur": 2.59,
+   "focus": 0.5,
+   "focus_y": 0.55,
+   "zoom": 1.35
+  },
+  {
+   "media": "pollinators-hd/05.webm",
+   "start": 57.0,
+   "dur": 4.76,
+   "focus": 0.3,
+   "focus_y": 0.54,
+   "zoom": 1.25
+  }
+ ],
+ "lines": [
+  {
+   "text": "Meet five pollinators.",
+   "from": 0.37,
+   "to": 2.8,
+   "pos": "top",
+   "y": 300,
+   "size": 84
+  },
+  {
+   "text": "1",
+   "from": 0.37,
+   "to": 2.88,
+   "pos": "center",
+   "y": 1430,
+   "size": 150
+  },
+  {
+   "text": "2",
+   "from": 2.96,
+   "to": 5.4,
+   "pos": "center",
+   "y": 1430,
+   "size": 150
+  },
+  {
+   "text": "3",
+   "from": 5.48,
+   "to": 7.9,
+   "pos": "center",
+   "y": 1430,
+   "size": 150
+  },
+  {
+   "text": "4",
+   "from": 7.98,
+   "to": 10.37,
+   "pos": "center",
+   "y": 1430,
+   "size": 150
+  },
+  {
+   "text": "5",
+   "from": 10.45,
+   "pos": "center",
+   "y": 1430,
+   "size": 150
+  },
+  {
+   "text": "Meet five pollinators.",
+   "from": 12.88,
+   "pos": "top",
+   "y": 300,
+   "size": 84
+  }
+ ],
+ "music": "vivaldi-spring-allegro",
+ "music_start": 0.2,
+ "cover_at": 13.4,
+ "caption": "Five wild pollinators at work: a hummingbird hawk-moth in Tyrol, Austria, a bumblebee in Ohio, USA, a honey bee in Tokyo, a hoverfly in Hesse, Germany, and a snowberry clearwing moth on the same Ohio teasel as the bumblebee.\n\nMore than 75 percent of the flowering plants on Earth depend on pollinators. While they drink nectar, pollen sticks to their bodies and rides along to the next flower.\n\nSource: US National Park Service, Pollinators.\n\nWhich number would you like to see in your garden?",
+ "hashtags": [
+  "#pollinators",
+  "#hawkmoth",
+  "#hoverfly",
+  "#bumblebees",
+  "#insectlife"
+ ],
+ "sources": [
+  "https://www.nps.gov/subjects/pollinators/index.htm",
+  "https://www.nps.gov/subjects/pollinators/what-is-a-pollinator.htm"
+ ],
+ "alt_text": "Five short clips numbered 1 to 5: a hummingbird hawk-moth hovering at purple buddleia, a bumblebee flying in to land on a teasel against blue sky, a honey bee on a pink thistle, a striped hoverfly on a thistle, and a snowberry clearwing moth hovering at the teasel, with the words Meet five pollinators.",
+ "format_tags": [
+  "format:listicle",
+  "tactic:hook-text"
+ ],
+ "experiment": {
+  "hook": "count",
+  "format": "numbered-collection",
+  "week": "2026-W46",
+  "first_second": "motion"
+ }
+}

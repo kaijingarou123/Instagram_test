@@ -1,0 +1,54 @@
+[
+  {
+    "title": "File:Penguin in Antarctica jumping out of the water.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File%3APenguin%20in%20Antarctica%20jumping%20out%20of%20the%20water.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Penguin_in_Antarctica_jumping_out_of_the_water.jpg/1920px-Penguin_in_Antarctica_jumping_out_of_the_water.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 3989,
+    "height": 2652,
+    "license": "CC BY 2.0",
+    "artist": "Christopher Michel",
+    "credit": "Antarctica",
+    "description": "An Emperor Penguin (Aptenodytes forsteri) in Antarctica jumping out of the water.",
+    "curated": true,
+    "file": "01.jpg"
+  },
+  {
+    "title": "File:Aptenodytes forsteri on sea ice.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAptenodytes%20forsteri%20on%20sea%20ice.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Aptenodytes_forsteri_on_sea_ice.jpg/1920px-Aptenodytes_forsteri_on_sea_ice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 3026,
+    "height": 1892,
+    "license": "CC BY-SA 3.0",
+    "artist": "François Guerraz",
+    "credit": "Own work",
+    "description": "Emperor Penguin on the sea ice",
+    "curated": false,
+    "file": "02.jpg"
+  },
+  {
+    "title": "File:Emperor Penguin (Aptenodytes Forsteri).jpg",
+    "page": "https://commons.wikimedia.org/wiki/File%3AEmperor%20Penguin%20%28Aptenodytes%20Forsteri%29.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/56/Emperor_Penguin_%28Aptenodytes_Forsteri%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "width": 1813,
+    "height": 2692,
+    "license": "CC BY 2.0",
+    "artist": "Christopher Michel",
+    "credit": "A few of my best memories as a Photographer.",
+    "description": "A few of my best memories as a Photographer.",
+    "curated": false,
+    "file": "03.jpg"
+  },
+  {
+    "title": "File:Aptenodytes forsteri - Алексей Логинов - 465113420.jpeg",
+    "page": "https://commons.wikimedia.org/wiki/File%3AAptenodytes%20forsteri%20-%20%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B5%D0%B9%20%D0%9B%D0%BE%D0%B3%D0%B8%D0%BD%D0%BE%D0%B2%20-%20465113420.jpeg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Aptenodytes_forsteri_-_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B5%D0%B9_%D0%9B%D0%BE%D0%B3%D0%B8%D0%BD%D0%BE%D0%B2_-_465113420.jpeg/1920px-Aptenodytes_forsteri_-_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B5%D0%B9_%D0%9B%D0%BE%D0%B3%D0%B8%D0%BD%D0%BE%D0%B2_-_465113420.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 2048,
+    "height": 1362,
+    "license": "CC BY 4.0",
+    "artist": "Алексей Логинов",
+    "credit": "https://www.inaturalist.org/photos/465113420",
+    "description": "Aptenodytes forsteri, None, 2024-12-27 (iNaturalist).",
+    "curated": false,
+    "file": "04.jpg"
+  }
+]

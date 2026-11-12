@@ -1,0 +1,73 @@
+{
+ "slug": "brown-bear-salmon-leap",
+ "format": "mood",
+ "grade": "teal-gold",
+ "xfade": 0.3,
+ "species": "Brown bear (Ursus arctos)",
+ "cuts": [
+  {
+   "card": "black",
+   "dur": 2.13
+  },
+  {
+   "media": "bear-salmon-hd/02.webm",
+   "start": 12.85,
+   "dur": 4.27,
+   "focus": [
+    0.455,
+    0.53
+   ],
+   "focus_y": 0.66,
+   "zoom": 1.35
+  },
+  {
+   "media": "bear-salmon-hd/02.webm",
+   "start": 21.9,
+   "dur": 6.1,
+   "focus": [
+    0.47,
+    0.42
+   ]
+  }
+ ],
+ "lines": [
+  {
+   "text": "What does patience get you?",
+   "from": 0,
+   "to": 1.8,
+   "pos": "center",
+   "size": 92
+  },
+  {
+   "text": "Fresh salmon.",
+   "from": 5.95,
+   "pos": "center",
+   "y": 1460,
+   "size": 100
+  }
+ ],
+ "music": "komiku-balance",
+ "music_start": 2.0,
+ "cover_at": 7.35,
+ "caption": "A wild brown bear fishing for salmon at Crescent Lake, Alaska.\n\nRangers call this move dash and grab: the bear chases a salmon through the shallows and pins it to the river bottom with its paws. On the Brooks River in Katmai, a big male can catch and eat more than 30 salmon in a day.\n\nSource: US National Park Service, Katmai brown bear FAQ.\n\nWhat is the longest you have waited for a meal?",
+ "hashtags": [
+  "#brownbear",
+  "#alaskawildlife",
+  "#salmonrun",
+  "#bearfishing"
+ ],
+ "sources": [
+  "https://www.nps.gov/katm/learn/photosmultimedia/brown-bear-frequently-asked-questions.htm"
+ ],
+ "alt_text": "Black screen asking What does patience get you, then a wild brown bear rears up in a green Alaskan river, pounces into the water and walks along the bank with a salmon in its mouth, with the words Fresh salmon.",
+ "format_tags": [
+  "format:cinematic-broll",
+  "tactic:hook-text"
+ ],
+ "experiment": {
+  "hook": "question",
+  "format": "contrast-reveal",
+  "week": "2026-W46",
+  "first_second": "motion"
+ }
+}

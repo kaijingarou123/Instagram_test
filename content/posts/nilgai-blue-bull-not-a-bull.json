@@ -1,0 +1,116 @@
+{
+  "slug": "nilgai-blue-bull-not-a-bull",
+  "slides": [
+    {
+      "type": "cover",
+      "image": "boselaphus-tragocamelus/01.jpg",
+      "focus": [
+        0.415,
+        0.5
+      ],
+      "kicker": "Myth-bust",
+      "headline": "India's 'blue bull' is not a bull.",
+      "sub": "The nilgai is an antelope, among the largest in Asia"
+    },
+    {
+      "type": "fact",
+      "image": "nilgai/03.jpg",
+      "focus": [
+        0.45,
+        0.5
+      ],
+      "number": "01",
+      "headline": "The name means blue bull",
+      "body": "Nilgai comes from the Hindi nilgaw, 'blue bull', after the adult male's coat. It is an antelope, in the same family as cattle.",
+      "source": "Animal Diversity Web"
+    },
+    {
+      "type": "fact",
+      "image": "nilgai/02.jpg",
+      "focus": [
+        0.558,
+        0.5
+      ],
+      "number": "02",
+      "headline": "Only the males turn blue",
+      "body": "Females and young are yellow-brown. Only adult males turn blue-grey, and only males carry horns, about 20–25 cm long.",
+      "source": "Animal Diversity Web"
+    },
+    {
+      "type": "stat",
+      "image": "boselaphus-tragocamelus/03.jpg",
+      "focus": [
+        0.504,
+        0.5
+      ],
+      "stat": "240 kg",
+      "label": "top of the nilgai's weight range",
+      "body": "Nilgai weigh 120–240 kg and stand 120–150 cm at the shoulder, among the largest of the Asian antelopes.",
+      "source": "Animal Diversity Web"
+    },
+    {
+      "type": "fact",
+      "image": "boselaphus-tragocamelus/04.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ],
+      "number": "03",
+      "headline": "Foothills to farmland",
+      "body": "In India nilgai range from the Himalayan foothills south to Mysore, usually in herds of about 10. They may damage crops where they live.",
+      "source": "Animal Diversity Web"
+    },
+    {
+      "type": "fact",
+      "image": "boselaphus-tragocamelus/02.jpg",
+      "focus": [
+        0.356,
+        0.5
+      ],
+      "number": "04",
+      "headline": "Least Concern, and stable",
+      "body": "IUCN lists the nilgai as Least Concern (2016), with an estimated 70,000–100,000 mature animals in India, Nepal and Pakistan and a stable trend.",
+      "source": "IUCN Red List (2016)"
+    },
+    {
+      "type": "closing",
+      "image": "boselaphus-tragocamelus/01.jpg",
+      "focus": [
+        0.47,
+        0.5
+      ],
+      "headline": "Send this to someone who calls it a cow.",
+      "body": "Blue, yes. Bull, no. Follow @earthspirit_nature.",
+      "sources": [
+        "IUCN Red List: Boselaphus tragocamelus (2016) iucnredlist.org/species/2893/115064758",
+        "Animal Diversity Web: Boselaphus tragocamelus"
+      ]
+    }
+  ],
+  "caption": "India's 'blue bull', the nilgai (Boselaphus tragocamelus), is not a bull at all. It is an antelope.\n\nEven its scientific name is a mix-up: it borrows the Latin for ox and Greek words for deer, goat and camel. Nilgai were also released in Texas about 1930 and still live on large ranches there.\n\nSwipe to meet it properly. Sources on the last slide.\n\nSource: IUCN Red List (2016); Animal Diversity Web.\n\nHave you ever spotted a nilgai by the roadside?\n\nPhotos: Wikimedia Commons, CC BY-SA 4.0, CC BY-SA 3.0 and CC BY 4.0 (credits on each slide). All show wild nilgai, including at Tal Chhapar and Keoladeo in Rajasthan and in Gir, Gujarat.",
+  "hashtags": [
+    "#nilgai",
+    "#bluebull",
+    "#antelopes",
+    "#mythbusting",
+    "#animalfacts"
+  ],
+  "sources": [
+    "https://www.iucnredlist.org/species/2893/115064758",
+    "https://animaldiversity.org/accounts/Boselaphus_tragocamelus/"
+  ],
+  "alt_texts": [
+    "Wild male nilgai with a blue-grey coat walking through dry scrub at Tal Chhapar Sanctuary, Rajasthan, headline 'India's blue bull is not a bull'",
+    "Male nilgai wading through shallow water in Keoladeo National Park, Rajasthan, with text on the meaning of the name nilgai",
+    "Yellow-brown female and young nilgai standing in a stubble field, with text explaining only adult males turn blue-grey",
+    "Male nilgai with short black horns walking through a potato field in Madhya Pradesh, with the statistic 240 kg",
+    "Female nilgai resting in dry forest in Gir National Park, Gujarat, with text on its range and herds",
+    "Two young nilgai beside thorn scrub at Tal Chhapar Sanctuary, with text on its Least Concern IUCN status",
+    "Wild male nilgai at Tal Chhapar Sanctuary, closing slide with sources and photo credits"
+  ],
+  "format_tags": [
+    "format:myth-bust",
+    "format:fact-over-footage",
+    "tactic:hook-text"
+  ]
+}

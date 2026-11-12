@@ -1,0 +1,61 @@
+{
+ "slug": "elephant-calf-keeps-up-v2",
+ "format": "reel",
+ "reel_format": "mood",
+ "size": "1080x1920",
+ "fps": 30,
+ "duration_s": 7.0,
+ "lines": [
+  "Never too small to keep up."
+ ],
+ "cuts": 1,
+ "experiment": {
+  "hook": "tender",
+  "format": "single-shot",
+  "week": "2026-W46",
+  "variant": "caption-fix"
+ },
+ "audio": "music: Chopin Nocturne No. 2 in E Flat Major, Op. 9.ogg (CC0)",
+ "music": {
+  "title": "Chopin Nocturne No. 2 in E Flat Major, Op. 9.ogg",
+  "licence": "CC0",
+  "source_class": "classical-pd",
+  "content_id": false,
+  "source_url": "https://commons.wikimedia.org/wiki/File:Chopin_Nocturne_No._2_in_E_Flat_Major,_Op._9.ogg"
+ },
+ "photo_credits": [
+  "A herd of elephant of Hoollongapar Gibbon Sanctuary, Jorhat - Assam.webm by কুমুদ ঘোষ, CC BY 4.0"
+ ],
+ "video_source": {
+  "license": "CC BY 4.0"
+ },
+ "synthetic_voice": false,
+ "ai_music": false,
+ "ai_disclosure": "none needed (real footage, no AI imagery or voice)",
+ "caption_chars": 595,
+ "hashtags": [
+  "#asianelephant",
+  "#elephantfamily",
+  "#assam",
+  "#wildindia"
+ ],
+ "format_tags": [
+  "format:single-shot",
+  "tactic:one-line",
+  "tactic:comment-prompt"
+ ],
+ "sources": [
+  "https://www.iucnredlist.org/species/7140/45818198"
+ ],
+ "video_credits": [
+  {
+   "artist": "কুমুদ ঘোষ",
+   "license": "CC BY 4.0",
+   "title": "A herd of elephant of Hoollongapar Gibbon Sanctuary, Jorhat - Assam.webm",
+   "page": "https://commons.wikimedia.org/wiki/File:A_herd_of_elephant_of_Hoollongapar_Gibbon_Sanctuary,_Jorhat_-_Assam.webm"
+  }
+ ],
+ "alt_text": "A herd of wild Asian elephants walking across a road with a small calf beside its mother, with the words Never too small to keep up.",
+ "variant_of": "elephant-calf-keeps-up",
+ "needs_owner_approval": true
+}

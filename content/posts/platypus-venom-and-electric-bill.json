@@ -1,0 +1,97 @@
+{
+  "slug": "platypus-venom-and-electric-bill",
+  "slides": [
+    {
+      "type": "cover",
+      "image": "ornithorhynchus-anatinus/03.jpg",
+      "focus": [0.3, 0.5],
+      "kicker": "Weird nature",
+      "headline": "This mammal lays eggs and senses electricity.",
+      "sub": "The platypus hunts with its eyes shut, and the males carry venom"
+    },
+    {
+      "type": "stat",
+      "image": "ornithorhynchus-anatinus/01.jpg",
+      "focus": [0.45, 0.5],
+      "stat": "2",
+      "label": "small leathery eggs, the usual platypus clutch",
+      "body": "The female lays them in a nursery burrow and curls around them. Incubation takes perhaps 6 to 10 days.",
+      "source": "Britannica"
+    },
+    {
+      "type": "fact",
+      "image": "ornithorhynchus-anatinus/04.jpg",
+      "focus": [0.5, 0.45],
+      "number": "01",
+      "headline": "It dives with its senses shut down",
+      "body": "Sight, smell and hearing are essentially shut down while a platypus feeds underwater. It still finds its way perfectly.",
+      "source": "Britannica"
+    },
+    {
+      "type": "fact",
+      "image": "ornithorhynchus-anatinus/02.jpg",
+      "focus": [0.4, 0.55],
+      "number": "02",
+      "headline": "The bill reads electricity",
+      "body": "Electroreceptors and touch receptors in the bill skin pick up the minute electrical signals given off by the muscles of its prey.",
+      "source": "Britannica; Pettigrew, J. Exp. Biol. (1999)"
+    },
+    {
+      "type": "fact",
+      "image": "ornithorhynchus-anatinus/01.jpg",
+      "focus": [0.6, 0.5],
+      "number": "03",
+      "headline": "Males carry venom",
+      "body": "A spur on each ankle connects to a venom gland. The venom can kill small animals and cause intense pain in humans.",
+      "source": "Britannica; Animal Diversity Web"
+    },
+    {
+      "type": "fact",
+      "image": "ornithorhynchus-anatinus/03.jpg",
+      "focus": [0.55, 0.5],
+      "number": "04",
+      "headline": "Milk, but no nipples",
+      "body": "Females have mammary glands but no nipples. The young suck milk from special mammary hairs for three to four months.",
+      "source": "Animal Diversity Web; Britannica"
+    },
+    {
+      "type": "closing",
+      "image": "ornithorhynchus-anatinus/04.jpg",
+      "focus": [0.5, 0.5],
+      "headline": "Save this for your next quiz night.",
+      "body": "Odd animals, checked against the sources. Follow @earthspirit_nature.",
+      "sources": [
+        "Britannica: Platypus",
+        "Animal Diversity Web: Ornithorhynchus anatinus",
+        "Pettigrew (1999) Electroreception in monotremes. J. Exp. Biol. 202:1447–1454"
+      ]
+    }
+  ],
+  "caption": "The platypus (Ornithorhynchus anatinus) lays eggs, finds prey by electricity and, if male, carries venom in its ankles.\n\nIt lives in the rivers and streams of eastern Australia and Tasmania, feeding mostly from dusk to dawn on insect larvae and freshwater crustaceans. Its body runs cool for a mammal, at about 32 °C. After a feed it squeezes back into a burrow so narrow that the entrance presses water out of its fur.\n\nSwipe for all four oddities. Sources on the last slide.\n\nSource: Britannica; Animal Diversity Web; Pettigrew (1999), Journal of Experimental Biology.\n\nWhich platypus fact surprised you most?\n\nPhotos: Charles J. Sharp, Wikimedia Commons, CC BY-SA 4.0 (credits on each slide). All show a wild platypus at Scottsdale, Tasmania.",
+  "hashtags": [
+    "#platypus",
+    "#monotremes",
+    "#australianwildlife",
+    "#weirdanimals",
+    "#naturestudy"
+  ],
+  "sources": [
+    "https://www.britannica.com/animal/platypus",
+    "https://animaldiversity.org/accounts/Ornithorhynchus_anatinus/",
+    "https://pubmed.ncbi.nlm.nih.gov/10210685/"
+  ],
+  "alt_texts": [
+    "Wild platypus swimming at the surface of a green river in Tasmania, headline 'This mammal lays eggs and senses electricity'",
+    "Wild platypus seen from the side at the water surface, with the statistic 2 eggs in the usual platypus clutch",
+    "Wild platypus diving head first under water, with text explaining it shuts down sight, smell and hearing while feeding",
+    "Wild platypus seen from above showing its flat grey bill, with text on electroreceptors in the bill skin",
+    "Wild platypus swimming, webbed feet visible, with text explaining male platypuses carry venomous ankle spurs",
+    "Wild platypus at the surface of a river, with text explaining platypus young drink milk from mammary hairs",
+    "Wild platypus diving, closing slide with sources and photo credits"
+  ],
+  "format_tags": [
+    "format:listicle",
+    "format:fact-over-footage",
+    "tactic:hook-text"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+ "slug": "otter-caption-this-float",
+ "format": "mood",
+ "grade": "moody-river",
+ "species": "Sea otter (Enhydra lutris)",
+ "cuts": [
+  {
+   "media": "sea-otter-stierch-hd/01.webm",
+   "start": 4.6,
+   "dur": 10.2,
+   "focus": [
+    0.5,
+    0.51
+   ],
+   "focus_y": 0.5
+  }
+ ],
+ "lines": [
+  {
+   "text": "What is this otter\nthinking?",
+   "from": 2.7,
+   "pos": "center",
+   "y": 1400,
+   "size": 80
+  }
+ ],
+ "music": "gymnopedie-1",
+ "music_start": 13.6,
+ "cover_at": 6.0,
+ "caption": "A wild sea otter floating on its back in Morro Bay, California, paws over its face.\n\nSea otters have the densest fur of any mammal, about 100,000 hairs in every square centimetre. They have no insulating fat, so they eat, rest and groom at the surface to keep that coat working.\n\nSource: Animal Diversity Web, Enhydra lutris.\n\nWhat would you caption this?",
+ "hashtags": [
+  "#seaotter",
+  "#morrobay",
+  "#otterlove",
+  "#marinemammals"
+ ],
+ "sources": [
+  "https://animaldiversity.org/accounts/Enhydra_lutris/"
+ ],
+ "alt_text": "A wild sea otter floating on its back in calm grey-blue harbour water, rolling and holding its paws over its face, with the words What is this otter thinking?",
+ "format_tags": [
+  "format:cinematic-broll",
+  "tactic:hook-text"
+ ],
+ "experiment": {
+  "hook": "prompt",
+  "format": "caption-prompt",
+  "week": "2026-W46",
+  "first_second": "motion"
+ }
+}

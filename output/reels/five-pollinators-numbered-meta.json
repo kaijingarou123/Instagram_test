@@ -1,0 +1,96 @@
+{
+ "slug": "five-pollinators-numbered",
+ "format": "reel",
+ "reel_format": "mood",
+ "size": "1080x1920",
+ "fps": 30,
+ "duration_s": 15.1,
+ "lines": [
+  "Meet five pollinators.",
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "Meet five pollinators."
+ ],
+ "cuts": 5,
+ "experiment": {
+  "hook": "count",
+  "format": "numbered-collection",
+  "week": "2026-W46",
+  "first_second": "motion"
+ },
+ "audio": "music: The Modena Chamber Orchestra - Vivaldi's Spring, RV 269 - I. Allegro.ogg (PDM-owner)",
+ "music": {
+  "title": "The Modena Chamber Orchestra - Vivaldi's Spring, RV 269 - I. Allegro.ogg",
+  "licence": "PDM-owner",
+  "source_class": "classical-pd",
+  "content_id": false,
+  "source_url": "https://commons.wikimedia.org/wiki/File:The_Modena_Chamber_Orchestra_-_Vivaldi's_Spring,_RV_269_-_I._Allegro.ogg"
+ },
+ "photo_credits": [
+  "Macroglossum stellatarum - 2018-07-13.webm by Pristurus, CC BY-SA 3.0",
+  "Bumblebee mimic.webm by Dennis.insect.filmer, CC BY-SA 4.0",
+  "Western honey bee (Apis mellifera).webm by The Nature Box, CC BY-SA 3.0",
+  "Sericomyia silentis - 2014-07-27.webm by Pristurus, CC BY-SA 3.0",
+  "Bumblebee mimic.webm by Dennis.insect.filmer, CC BY-SA 4.0"
+ ],
+ "video_source": {
+  "license": "CC BY-SA 3.0; CC BY-SA 4.0"
+ },
+ "synthetic_voice": false,
+ "ai_music": false,
+ "ai_disclosure": "none needed (real footage, no AI imagery or voice)",
+ "caption_chars": 1049,
+ "hashtags": [
+  "#pollinators",
+  "#hawkmoth",
+  "#hoverfly",
+  "#bumblebees",
+  "#insectlife"
+ ],
+ "format_tags": [
+  "format:listicle",
+  "tactic:hook-text"
+ ],
+ "sources": [
+  "https://www.nps.gov/subjects/pollinators/index.htm",
+  "https://www.nps.gov/subjects/pollinators/what-is-a-pollinator.htm"
+ ],
+ "video_credits": [
+  {
+   "artist": "Pristurus",
+   "license": "CC BY-SA 3.0",
+   "title": "Macroglossum stellatarum - 2018-07-13.webm",
+   "page": "https://commons.wikimedia.org/wiki/File%3AMacroglossum%20stellatarum%20-%202018-07-13.webm"
+  },
+  {
+   "artist": "Dennis.insect.filmer",
+   "license": "CC BY-SA 4.0",
+   "title": "Bumblebee mimic.webm",
+   "page": "https://commons.wikimedia.org/wiki/File%3ABumblebee%20mimic.webm"
+  },
+  {
+   "artist": "The Nature Box",
+   "license": "CC BY-SA 3.0",
+   "title": "Western honey bee (Apis mellifera).webm",
+   "page": "https://commons.wikimedia.org/wiki/File%3AWestern%20honey%20bee%20%28Apis%20mellifera%29.webm"
+  },
+  {
+   "artist": "Pristurus",
+   "license": "CC BY-SA 3.0",
+   "title": "Sericomyia silentis - 2014-07-27.webm",
+   "page": "https://commons.wikimedia.org/wiki/File%3ASericomyia%20silentis%20-%202014-07-27.webm"
+  },
+  {
+   "artist": "Dennis.insect.filmer",
+   "license": "CC BY-SA 4.0",
+   "title": "Bumblebee mimic.webm",
+   "page": "https://commons.wikimedia.org/wiki/File%3ABumblebee%20mimic.webm"
+  }
+ ],
+ "alt_text": "Five short clips numbered 1 to 5: a hummingbird hawk-moth hovering at purple buddleia, a bumblebee flying in to land on a teasel against blue sky, a honey bee on a pink thistle, a striped hoverfly on a thistle, and a snowberry clearwing moth hovering at the teasel, with the words Meet five pollinators.",
+ "variant_of": null,
+ "needs_owner_approval": true
+}

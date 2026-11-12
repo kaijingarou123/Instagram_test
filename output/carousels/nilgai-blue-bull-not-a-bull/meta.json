@@ -1,0 +1,49 @@
+{
+  "slug": "nilgai-blue-bull-not-a-bull",
+  "format": "carousel",
+  "size": "1080x1350",
+  "slides": [
+    "01.jpg",
+    "02.jpg",
+    "03.jpg",
+    "04.jpg",
+    "05.jpg",
+    "06.jpg",
+    "07.jpg"
+  ],
+  "alt_texts": [
+    "Wild male nilgai with a blue-grey coat walking through dry scrub at Tal Chhapar Sanctuary, Rajasthan, headline 'India's blue bull is not a bull'",
+    "Male nilgai wading through shallow water in Keoladeo National Park, Rajasthan, with text on the meaning of the name nilgai",
+    "Yellow-brown female and young nilgai standing in a stubble field, with text explaining only adult males turn blue-grey",
+    "Male nilgai with short black horns walking through a potato field in Madhya Pradesh, with the statistic 240 kg",
+    "Female nilgai resting in dry forest in Gir National Park, Gujarat, with text on its range and herds",
+    "Two young nilgai beside thorn scrub at Tal Chhapar Sanctuary, with text on its Least Concern IUCN status",
+    "Wild male nilgai at Tal Chhapar Sanctuary, closing slide with sources and photo credits"
+  ],
+  "caption_chars": 694,
+  "hashtags": [
+    "#nilgai",
+    "#bluebull",
+    "#antelopes",
+    "#mythbusting",
+    "#animalfacts"
+  ],
+  "format_tags": [
+    "format:myth-bust",
+    "format:fact-over-footage",
+    "tactic:hook-text"
+  ],
+  "sources": [
+    "https://www.iucnredlist.org/species/2893/115064758",
+    "https://animaldiversity.org/accounts/Boselaphus_tragocamelus/"
+  ],
+  "photo_credits": [
+    "Photo: Tisha Mukherjee · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Jayi Rawool · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Gurung pratap · Wikimedia Commons · CC BY 4.0",
+    "Photo: Charles J. Sharp · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Bernard Gagnon · Wikimedia Commons · CC BY-SA 3.0",
+    "Photo: Tisha Mukherjee · Wikimedia Commons · CC BY-SA 4.0",
+    "Photo: Tisha Mukherjee · Wikimedia Commons · CC BY-SA 4.0"
+  ]
+}

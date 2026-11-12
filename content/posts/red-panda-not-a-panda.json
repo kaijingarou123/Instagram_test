@@ -1,0 +1,120 @@
+{
+  "slug": "red-panda-not-a-panda",
+  "slides": [
+    {
+      "type": "cover",
+      "image": "ailurus-fulgens/01.jpg",
+      "focus": [
+        0.6,
+        0.4
+      ],
+      "kicker": "Myth-bust",
+      "headline": "The red panda is not a panda.",
+      "sub": "Not a bear, not a raccoon. It sits in a family of its own"
+    },
+    {
+      "type": "fact",
+      "image": "ailurus-fulgens/02.jpg",
+      "focus": [
+        0.3,
+        0.6
+      ],
+      "number": "01",
+      "headline": "Same name, different animal",
+      "body": "Red pandas and giant pandas both eat bamboo in Asia's high forests. Despite the shared name, the two species are not closely related.",
+      "source": "Smithsonian's National Zoo"
+    },
+    {
+      "type": "fact",
+      "image": "red-panda/03.jpg",
+      "focus": [
+        0.52,
+        0.45
+      ],
+      "number": "02",
+      "headline": "Raccoon, then bear, then neither",
+      "body": "Described in 1825 as part of the raccoon family, it was later moved to the bear family. Genetic research now gives it its own.",
+      "source": "Smithsonian's National Zoo"
+    },
+    {
+      "type": "stat",
+      "image": "ailurus-fulgens/01.jpg",
+      "focus": [
+        0.48,
+        0.45
+      ],
+      "stat": "1",
+      "label": "living member of the family Ailuridae",
+      "body": "The red panda (Ailurus fulgens) is the only living member of its taxonomic family.",
+      "source": "Smithsonian's National Zoo; IUCN Red List (2015)"
+    },
+    {
+      "type": "fact",
+      "image": "red-panda/04.jpg",
+      "focus": [
+        0.42,
+        0.5
+      ],
+      "number": "03",
+      "headline": "It does share the false thumb",
+      "body": "It has a pseudo-thumb like the giant panda's: a modified wrist bone for grasping bamboo, about 95% of its diet. (Pictured: captive.)",
+      "source": "Smithsonian's National Zoo"
+    },
+    {
+      "type": "fact",
+      "image": "ailurus-fulgens/02.jpg",
+      "focus": [
+        0.75,
+        0.3
+      ],
+      "number": "04",
+      "headline": "Endangered in the Himalayas",
+      "body": "It lives at 2,500–4,800 m in India, Nepal, Bhutan, Myanmar and China. IUCN lists it as Endangered (2015), with numbers decreasing.",
+      "source": "IUCN Red List (2015)"
+    },
+    {
+      "type": "closing",
+      "image": "red-panda/03.jpg",
+      "focus": [
+        0.52,
+        0.45
+      ],
+      "headline": "Save this for the next panda mix-up.",
+      "body": "One name, two very different animals. Follow @earthspirit_nature.",
+      "sources": [
+        "IUCN Red List: Ailurus fulgens (2015) iucnredlist.org/species/714/110023718",
+        "Smithsonian's National Zoo: Red panda",
+        "Britannica: Red panda",
+        "Animal Diversity Web: Ailurus fulgens"
+      ]
+    }
+  ],
+  "caption": "The red panda (Ailurus fulgens) is not a bear, and it is not a close relative of the giant panda either.\n\nScientists filed it with raccoons in 1825, then with bears, before genetic work placed it alone in the family Ailuridae. It weighs just 3–6.2 kg, and in India it is the official animal of Sikkim. What it does share with the giant panda is a wrist bone that works like a thumb.\n\nSwipe for the full story. Sources on the last slide.\n\nSource: IUCN Red List (2015); Smithsonian's National Zoo; Britannica; Animal Diversity Web.\n\nDid you think red pandas were bears?\n\nPhotos: Wikimedia Commons, CC BY-SA 4.0 and CC0 (credits on each slide). Slide 5 shows a captive red panda; the others are wild, in Langtang National Park, Nepal, and in Sikkim.",
+  "hashtags": [
+    "#redpanda",
+    "#ailuridae",
+    "#sikkimwildlife",
+    "#mythbusting",
+    "#wildlifefacts"
+  ],
+  "sources": [
+    "https://www.iucnredlist.org/species/714/110023718",
+    "https://nationalzoo.si.edu/animals/red-panda",
+    "https://www.britannica.com/animal/red-panda",
+    "https://animaldiversity.org/accounts/Ailurus_fulgens/"
+  ],
+  "alt_texts": [
+    "Two wild red panda siblings on a mossy branch in Langtang National Park, Nepal, one with its tongue out, headline 'The red panda is not a panda'",
+    "Wild red panda cub lying along a branch in Langtang National Park, with text explaining red pandas and giant pandas are not closely related",
+    "Wild red panda looking out from a leafy tree in Sikkim, India, with text on how it was classed with raccoons and then bears",
+    "Wild red panda siblings in Langtang National Park with the statistic 1 living member of the family Ailuridae",
+    "Captive red panda sitting on a branch among yellow autumn leaves, with text about its pseudo-thumb and bamboo diet",
+    "Wild red panda cub perched high in a tree in Langtang National Park, with text on its Endangered status and Himalayan range",
+    "Wild red panda in a tree in Sikkim, closing slide with sources and photo credits"
+  ],
+  "format_tags": [
+    "format:myth-bust",
+    "format:fact-over-footage",
+    "tactic:hook-text"
+  ]
+}

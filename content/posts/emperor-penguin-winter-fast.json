@@ -1,0 +1,116 @@
+{
+  "slug": "emperor-penguin-winter-fast",
+  "slides": [
+    {
+      "type": "cover",
+      "image": "emperor-penguin/04.jpg",
+      "focus": [
+        0.5,
+        0.05
+      ],
+      "kicker": "How does it survive?",
+      "headline": "Roughly 4 months without a single meal.",
+      "sub": "How a male emperor penguin keeps one egg alive on the Antarctic ice"
+    },
+    {
+      "type": "fact",
+      "image": "emperor-penguin/03.jpg",
+      "focus": [
+        0.5,
+        0.4
+      ],
+      "number": "01",
+      "headline": "One egg, handed straight over",
+      "body": "The female lays a single egg just before winter and passes it to her mate almost immediately. Then she leaves for the sea.",
+      "source": "Animal Diversity Web; Britannica"
+    },
+    {
+      "type": "fact",
+      "image": "emperor-penguin/02.jpg",
+      "focus": [
+        0.45,
+        0.4
+      ],
+      "number": "02",
+      "headline": "He holds it on his feet",
+      "body": "The male keeps the egg on top of his feet, under a fold of skin called the brood pouch, for roughly 65 days.",
+      "source": "Animal Diversity Web; Britannica"
+    },
+    {
+      "type": "stat",
+      "image": "aptenodytes-forsteri/03.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ],
+      "stat": "-50 °C",
+      "label": "winter temperatures routinely dip below this",
+      "body": "Incubation lasts 60–68 days through gale-force winds. With no access to food, the male lives off his fat reserves.",
+      "source": "Britannica"
+    },
+    {
+      "type": "fact",
+      "image": "emperor-penguin/01.jpg",
+      "focus": [
+        0.35,
+        0.5
+      ],
+      "number": "03",
+      "headline": "Huddling saves energy",
+      "body": "Huddles can hold fewer than 200 birds or as many as 5,000 to 6,000. Packing together conserves energy and lets them fast for longer.",
+      "source": "Animal Diversity Web"
+    },
+    {
+      "type": "stat",
+      "image": "emperor-penguin/04.jpg",
+      "focus": [
+        0.5,
+        0.15
+      ],
+      "stat": "40%",
+      "label": "of his body mass, roughly, lost over the fast",
+      "body": "If the chick hatches before the female returns, he feeds it a milky secretion. After roughly 4 months he goes back to sea.",
+      "source": "Animal Diversity Web"
+    },
+    {
+      "type": "closing",
+      "image": "aptenodytes-forsteri/02.jpg",
+      "focus": [
+        0.65,
+        0.5
+      ],
+      "headline": "Send this to the most patient parent you know.",
+      "body": "Survival stories, straight from the sources. Follow @earthspirit_nature.",
+      "sources": [
+        "Animal Diversity Web: Aptenodytes forsteri",
+        "Britannica: Emperor penguin"
+      ]
+    }
+  ],
+  "caption": "A male emperor penguin (Aptenodytes forsteri) fasts for roughly 4 months to keep one egg warm through the Antarctic winter.\n\nWhile he waits, the female travels some 80 to 160 km from the colony to the sea to feed. To lose less heat he stands on just his heels and tail, so the soles of his feet stay off the ice. Chicks hatch in August, when the females come back to take over.\n\nSwipe to see how he gets through it. Sources on the last slide.\n\nSource: Animal Diversity Web; Britannica.\n\nCould you last a single day in an Antarctic winter?\n\nPhotos: Wikimedia Commons, public domain, CC BY 2.0 and CC BY-SA 3.0 (credits on each slide). All show wild emperor penguins in Antarctica.",
+  "hashtags": [
+    "#emperorpenguin",
+    "#antarctica",
+    "#penguins",
+    "#polarwildlife",
+    "#animalfacts"
+  ],
+  "sources": [
+    "https://animaldiversity.org/accounts/Aptenodytes_forsteri/",
+    "https://www.britannica.com/animal/emperor-penguin"
+  ],
+  "alt_texts": [
+    "Two adult emperor penguins standing beak to beak on Snow Hill Island, headline 'Roughly 4 months without a single meal'",
+    "Emperor penguin bowing its head to the snow beside another adult, with text on the female handing over a single egg",
+    "Emperor penguin pair leaning over a grey chick standing at their feet, with text on the male holding the egg on his feet",
+    "Emperor penguin colony on the ice under a low sun, with the statistic minus 50 degrees Celsius",
+    "Emperor penguin leaping out of the water onto the ice with a colony behind, with text on huddling to save energy",
+    "Two adult emperor penguins with a chick at their feet, with the statistic 40 percent of body mass lost",
+    "A lone emperor penguin on sea ice, closing slide with sources and photo credits"
+  ],
+  "format_tags": [
+    "format:explainer",
+    "format:fact-over-footage",
+    "tactic:hook-text"
+  ]
+}

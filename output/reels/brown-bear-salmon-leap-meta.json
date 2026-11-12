@@ -1,0 +1,68 @@
+{
+ "slug": "brown-bear-salmon-leap",
+ "format": "reel",
+ "reel_format": "mood",
+ "size": "1080x1920",
+ "fps": 30,
+ "duration_s": 11.9,
+ "lines": [
+  "What does patience get you?",
+  "Fresh salmon."
+ ],
+ "cuts": 3,
+ "experiment": {
+  "hook": "question",
+  "format": "contrast-reveal",
+  "week": "2026-W46",
+  "first_second": "motion"
+ },
+ "audio": "music: Komiku - 01 - Balance.ogg (CC0)",
+ "music": {
+  "title": "Komiku - 01 - Balance.ogg",
+  "licence": "CC0",
+  "source_class": "modern-cc0",
+  "content_id": false,
+  "source_url": "https://commons.wikimedia.org/wiki/File:Komiku_-_01_-_Balance.ogg"
+ },
+ "photo_credits": [
+  "Brown bear fishing for salmon -- Crescent Lake, Alaska - August 2015.webm by Mike's Birds from Riverside, CA, US, CC BY-SA 2.0",
+  "Brown bear fishing for salmon -- Crescent Lake, Alaska - August 2015.webm by Mike's Birds from Riverside, CA, US, CC BY-SA 2.0"
+ ],
+ "video_source": {
+  "license": "CC BY-SA 2.0"
+ },
+ "synthetic_voice": false,
+ "ai_music": false,
+ "ai_disclosure": "none needed (real footage, no AI imagery or voice)",
+ "caption_chars": 659,
+ "hashtags": [
+  "#brownbear",
+  "#alaskawildlife",
+  "#salmonrun",
+  "#bearfishing"
+ ],
+ "format_tags": [
+  "format:cinematic-broll",
+  "tactic:hook-text"
+ ],
+ "sources": [
+  "https://www.nps.gov/katm/learn/photosmultimedia/brown-bear-frequently-asked-questions.htm"
+ ],
+ "video_credits": [
+  {
+   "artist": "Mike's Birds from Riverside, CA, US",
+   "license": "CC BY-SA 2.0",
+   "title": "Brown bear fishing for salmon -- Crescent Lake, Alaska - August 2015.webm",
+   "page": "https://commons.wikimedia.org/wiki/File:Brown_bear_fishing_for_salmon_--_Crescent_Lake,_Alaska_-_August_2015.webm"
+  },
+  {
+   "artist": "Mike's Birds from Riverside, CA, US",
+   "license": "CC BY-SA 2.0",
+   "title": "Brown bear fishing for salmon -- Crescent Lake, Alaska - August 2015.webm",
+   "page": "https://commons.wikimedia.org/wiki/File:Brown_bear_fishing_for_salmon_--_Crescent_Lake,_Alaska_-_August_2015.webm"
+  }
+ ],
+ "alt_text": "Black screen asking What does patience get you, then a wild brown bear rears up in a green Alaskan river, pounces into the water and walks along the bank with a salmon in its mouth, with the words Fresh salmon.",
+ "variant_of": null,
+ "needs_owner_approval": true
+}

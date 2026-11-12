@@ -1,0 +1,60 @@
+{
+ "slug": "otter-caption-this-float",
+ "format": "reel",
+ "reel_format": "mood",
+ "size": "1080x1920",
+ "fps": 30,
+ "duration_s": 10.2,
+ "lines": [
+  "What is this otter\nthinking?"
+ ],
+ "cuts": 1,
+ "experiment": {
+  "hook": "prompt",
+  "format": "caption-prompt",
+  "week": "2026-W46",
+  "first_second": "motion"
+ },
+ "audio": "music: Gymnopedie No. 1..ogg (CC0)",
+ "music": {
+  "title": "Gymnopedie No. 1..ogg",
+  "licence": "CC0",
+  "source_class": "classical-pd",
+  "content_id": false,
+  "source_url": "https://commons.wikimedia.org/wiki/File:Gymnopedie_No._1..ogg"
+ },
+ "photo_credits": [
+  "Enhydra lutris - September 2023 - Sarah Stierch 12.webm by Missvain, CC BY 4.0"
+ ],
+ "video_source": {
+  "license": "CC BY 4.0"
+ },
+ "synthetic_voice": false,
+ "ai_music": false,
+ "ai_disclosure": "none needed (real footage, no AI imagery or voice)",
+ "caption_chars": 566,
+ "hashtags": [
+  "#seaotter",
+  "#morrobay",
+  "#otterlove",
+  "#marinemammals"
+ ],
+ "format_tags": [
+  "format:cinematic-broll",
+  "tactic:hook-text"
+ ],
+ "sources": [
+  "https://animaldiversity.org/accounts/Enhydra_lutris/"
+ ],
+ "video_credits": [
+  {
+   "artist": "Missvain",
+   "license": "CC BY 4.0",
+   "title": "Enhydra lutris - September 2023 - Sarah Stierch 12.webm",
+   "page": "https://commons.wikimedia.org/wiki/File%3AEnhydra%20lutris%20-%20September%202023%20-%20Sarah%20Stierch%2012.webm"
+  }
+ ],
+ "alt_text": "A wild sea otter floating on its back in calm grey-blue harbour water, rolling and holding its paws over its face, with the words What is this otter thinking?",
+ "variant_of": null,
+ "needs_owner_approval": true
+}

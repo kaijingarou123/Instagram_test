@@ -1,0 +1,115 @@
+{
+  "slug": "arctic-tern-pole-to-pole",
+  "slides": [
+    {
+      "type": "cover",
+      "image": "arctic-tern-in-flight/01.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ],
+      "kicker": "Scale",
+      "headline": "This small seabird flies 70,900 km every year.",
+      "sub": "The Arctic tern weighs under 125 g and goes from the Arctic to Antarctica and back"
+    },
+    {
+      "type": "stat",
+      "image": "sterna-paradisaea/03.jpg",
+      "focus": [
+        0.6,
+        0.5
+      ],
+      "stat": "70,900",
+      "label": "km a year, the average for 11 tracked terns",
+      "body": "Individual birds ranged from 59,500 to 81,600 km. The figure leaves out their flights during the breeding season.",
+      "source": "Egevang et al., PNAS (2010)"
+    },
+    {
+      "type": "fact",
+      "image": "arctic-tern-in-flight/04.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ],
+      "number": "01",
+      "headline": "Pole to pole and back",
+      "body": "Terns tagged in Greenland and Iceland flew to Antarctic waters. The study called it the longest round-trip animal migration ever recorded electronically.",
+      "source": "Egevang et al., PNAS (2010)"
+    },
+    {
+      "type": "fact",
+      "image": "arctic-tern/02.jpg",
+      "focus": [
+        0.4,
+        0.5
+      ],
+      "number": "02",
+      "headline": "Slow going south, fast coming back",
+      "body": "The trip south took about 93 days, with a stop of about 25 days in the North Atlantic. The return took about 40.",
+      "source": "Egevang et al., PNAS (2010)"
+    },
+    {
+      "type": "stat",
+      "image": "arctic-tern-in-flight/03.jpg",
+      "focus": [
+        0.1,
+        0.5
+      ],
+      "stat": "520",
+      "label": "km a day, the average on the way back north",
+      "body": "The daily range was 390–670 km, from Antarctica to south Greenland.",
+      "source": "Egevang et al., PNAS (2010)"
+    },
+    {
+      "type": "fact",
+      "image": "sterna-paradisaea/02.jpg",
+      "focus": [
+        0.35,
+        0.5
+      ],
+      "number": "03",
+      "headline": "Three trips to the Moon",
+      "body": "Arctic terns can live more than 30 years. A lifetime total may exceed 2.4 million km, about three return journeys to the Moon.",
+      "source": "Egevang et al., PNAS (2010)"
+    },
+    {
+      "type": "closing",
+      "image": "arctic-tern-in-flight/02.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ],
+      "headline": "Send this to someone who dreads long flights.",
+      "body": "Big numbers, taken straight from the studies. Follow @earthspirit_nature.",
+      "sources": [
+        "Egevang et al. (2010) Tracking of Arctic terns Sterna paradisaea reveals longest animal migration. PNAS 107:2078–2081",
+        "Cornell Lab, All About Birds: Arctic Tern"
+      ]
+    }
+  ],
+  "caption": "The Arctic tern (Sterna paradisaea) weighs under 125 g and flies an average of 70,900 km every year.\n\nEleven terns carried 1.4 g geolocators for the study. South of the Cape Verde Islands their routes split: seven followed the coast of Africa and four crossed the Atlantic to follow the coast of Brazil. The oldest Arctic tern on record was at least 34 years old when it was recaptured in Maine.\n\nSwipe for the numbers. Sources on the last slide.\n\nSource: Egevang et al. (2010), PNAS 107:2078–2081; Cornell Lab of Ornithology.\n\nWhat is the longest journey you have ever made?\n\nPhotos: Wikimedia Commons, public domain (USFWS), CC BY 4.0, CC BY-SA 3.0 and CC BY-SA 4.0 (credits on each slide). Wild terns in Iceland and Alaska.",
+  "hashtags": [
+    "#arctictern",
+    "#birdmigration",
+    "#seabirds",
+    "#birdfacts"
+  ],
+  "sources": [
+    "https://www.pnas.org/doi/10.1073/pnas.0909493107",
+    "https://www.allaboutbirds.org/guide/Arctic_Tern/overview"
+  ],
+  "alt_texts": [
+    "Arctic tern in flight against a blue sky in Iceland, headline 'This small seabird flies 70,900 km every year'",
+    "Arctic tern with black cap and red bill perched on a post, with the statistic 70,900 km a year",
+    "Arctic tern flying overhead with wings spread, with text on its pole to pole migration",
+    "Arctic tern standing on a black sand beach, with text comparing the southbound and northbound journeys",
+    "Arctic tern twisting in flight against a blue sky, with the statistic 520 km a day",
+    "Adult Arctic tern and a juvenile on a rock in Iceland, with text on lifetime distance equal to three trips to the Moon",
+    "Arctic tern in flight, closing slide with sources and photo credits"
+  ],
+  "format_tags": [
+    "format:explainer",
+    "format:fact-over-footage",
+    "tactic:hook-text"
+  ]
+}

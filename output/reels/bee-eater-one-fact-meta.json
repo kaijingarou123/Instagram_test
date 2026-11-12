@@ -1,0 +1,81 @@
+{
+ "slug": "bee-eater-one-fact",
+ "format": "reel",
+ "reel_format": "mood",
+ "size": "1080x1920",
+ "fps": 30,
+ "duration_s": 12.56,
+ "lines": [
+  "It beats the sting\nout first."
+ ],
+ "cuts": 4,
+ "experiment": {
+  "hook": "fact",
+  "format": "fact-line",
+  "week": "2026-W46",
+  "first_second": "motion"
+ },
+ "audio": "music: Komiku - 01 - Balance.ogg (CC0)",
+ "music": {
+  "title": "Komiku - 01 - Balance.ogg",
+  "licence": "CC0",
+  "source_class": "modern-cc0",
+  "content_id": false,
+  "source_url": "https://commons.wikimedia.org/wiki/File:Komiku_-_01_-_Balance.ogg"
+ },
+ "photo_credits": [
+  "041 European bee-eater killing and eating a bee in Pfyn-Finges Video by Giles Laurent.webm by Giles Laurent, CC BY-SA 4.0",
+  "041 European bee-eater killing and eating a bee in Pfyn-Finges Video by Giles Laurent.webm by Giles Laurent, CC BY-SA 4.0",
+  "041 European bee-eater killing and eating a bee in Pfyn-Finges Video by Giles Laurent.webm by Giles Laurent, CC BY-SA 4.0",
+  "041 European bee-eater killing and eating a bee in Pfyn-Finges Video by Giles Laurent.webm by Giles Laurent, CC BY-SA 4.0"
+ ],
+ "video_source": {
+  "license": "CC BY-SA 4.0"
+ },
+ "synthetic_voice": false,
+ "ai_music": false,
+ "ai_disclosure": "none needed (real footage, no AI imagery or voice)",
+ "caption_chars": 610,
+ "hashtags": [
+  "#beeeater",
+  "#europeanbeeeater",
+  "#birdbehaviour",
+  "#birdsofeurope"
+ ],
+ "format_tags": [
+  "format:fact-over-footage",
+  "tactic:hook-text"
+ ],
+ "sources": [
+  "https://animaldiversity.org/accounts/Merops_apiaster/"
+ ],
+ "video_credits": [
+  {
+   "artist": "Giles Laurent",
+   "license": "CC BY-SA 4.0",
+   "title": "041 European bee-eater killing and eating a bee in Pfyn-Finges Video by Giles Laurent.webm",
+   "page": "https://commons.wikimedia.org/wiki/File%3A041%20European%20bee-eater%20killing%20and%20eating%20a%20bee%20in%20Pfyn-Finges%20Video%20by%20Giles%20Laurent.webm"
+  },
+  {
+   "artist": "Giles Laurent",
+   "license": "CC BY-SA 4.0",
+   "title": "041 European bee-eater killing and eating a bee in Pfyn-Finges Video by Giles Laurent.webm",
+   "page": "https://commons.wikimedia.org/wiki/File%3A041%20European%20bee-eater%20killing%20and%20eating%20a%20bee%20in%20Pfyn-Finges%20Video%20by%20Giles%20Laurent.webm"
+  },
+  {
+   "artist": "Giles Laurent",
+   "license": "CC BY-SA 4.0",
+   "title": "041 European bee-eater killing and eating a bee in Pfyn-Finges Video by Giles Laurent.webm",
+   "page": "https://commons.wikimedia.org/wiki/File%3A041%20European%20bee-eater%20killing%20and%20eating%20a%20bee%20in%20Pfyn-Finges%20Video%20by%20Giles%20Laurent.webm"
+  },
+  {
+   "artist": "Giles Laurent",
+   "license": "CC BY-SA 4.0",
+   "title": "041 European bee-eater killing and eating a bee in Pfyn-Finges Video by Giles Laurent.webm",
+   "page": "https://commons.wikimedia.org/wiki/File%3A041%20European%20bee-eater%20killing%20and%20eating%20a%20bee%20in%20Pfyn-Finges%20Video%20by%20Giles%20Laurent.webm"
+  }
+ ],
+ "alt_text": "A colourful European bee-eater lands on a dead branch with wings spread, knocks a bee against the perch several times, then tosses it up and swallows it, with the words It beats the sting out first.",
+ "variant_of": null,
+ "needs_owner_approval": true
+}

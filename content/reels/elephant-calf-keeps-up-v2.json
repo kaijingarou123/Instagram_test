@@ -1,0 +1,48 @@
+{
+ "slug": "elephant-calf-keeps-up-v2",
+ "format": "mood",
+ "grade": "warm-autumn",
+ "species": "Asian elephant (Elephas maximus)",
+ "cuts": [
+  {
+   "media": "elephant-assam-hd/01.webm",
+   "start": 39.0,
+   "dur": 7.0,
+   "focus": [
+    0.33,
+    0.42
+   ]
+  }
+ ],
+ "lines": [
+  {
+   "text": "Never too small to keep up.",
+   "from": 0
+  }
+ ],
+ "music": "chopin-nocturne-op9-2",
+ "cover_at": 3.0,
+ "caption": "India is home to more than half of the wild Asian elephants left on Earth, an estimated 29,964 of roughly 50,000. This family was filmed walking through Hoollongapar Gibbon Sanctuary in Assam, the youngest keeping close to the adults.\n\nSource: IUCN Red List, Elephas maximus (assessed 2019).\n\nHave you ever seen an elephant in the wild?",
+ "hashtags": [
+  "#asianelephant",
+  "#elephantfamily",
+  "#assam",
+  "#wildindia"
+ ],
+ "sources": [
+  "https://www.iucnredlist.org/species/7140/45818198"
+ ],
+ "alt_text": "A herd of wild Asian elephants walking across a road with a small calf beside its mother, with the words Never too small to keep up.",
+ "format_tags": [
+  "format:single-shot",
+  "tactic:one-line",
+  "tactic:comment-prompt"
+ ],
+ "experiment": {
+  "hook": "tender",
+  "format": "single-shot",
+  "week": "2026-W46",
+  "variant": "caption-fix"
+ },
+ "variant_of": "elephant-calf-keeps-up"
+}
